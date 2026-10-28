@@ -1,6 +1,6 @@
 # Scam-call tactics in India: what Teesra Kaan listens for
 
-Version 1.2, Oct 28, 2026 (evening; v1 was the same afternoon, see "Changes" at the end). Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns marked *source to add* are well known but not yet tied to an official advisory, and must be before they appear in the demo.
+Version 1.2, Oct 28, 2026 (evening; v1 was the same afternoon, see "Changes" at the end). Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns 7 and 8 are sourced through news reports of official advisories (Oct 28); the advisory itself must be opened and cited before either appears in the video.
 
 ## The signals
 
@@ -38,8 +38,8 @@ Teesra Kaan doesn't ask a model "is this a scam?". After each caller turn, Muse 
 | 4 | **KYC update or account block** | A "bank" caller says your account or card will be blocked unless you update KYC now, then asks for card details, an OTP or a link click | A1 A2 A3 → A5 A7 | RBI, "BE(A)WARE" booklet on fraudsters' methods, 2022 ([PDF](https://website.rbi.org.in/documents/87730/39016390/BEAWARE07032022.pdf)): genuine banks never ask for a password, card details, CVV or OTP |
 | 5 | **"Enter PIN to receive money"** | The caller promises a refund, prize or "wrong transfer" return and asks you to approve a UPI request or enter your PIN | A12 → A6 A11 | NPCI UPI Safety Shield: the UPI PIN is needed only to send money, never to receive it ([NPCI](https://npci.org.in/what-we-do/upi/upi-safety-shield)) |
 | 6 | **Fake customer care or refund** | "Customer care" for an app, bank or courier asks you to install a screen-sharing app or open a link to get a refund | A1 A12 → A7 A5 A6 | RBI BE(A)WARE (screen-sharing apps, fake helplines) |
-| 7 | **Family emergency** | "Your son has been arrested" or "had an accident": money needed right now, don't call anyone. Sometimes a cloned voice | A2 A3 A4 → A6 | *Source to add (police advisories on voice-clone calls)* |
-| 8 | **Electricity disconnection** | "Your power will be cut tonight because the bill isn't updated; call this officer" | A1 A2 A3 → A6 A7 | *Source to add (MSEDCL or other discom advisory)* |
+| 7 | **Family emergency** | "Your son has been arrested" or "had an accident": money needed right now, don't call anyone. Sometimes a cloned voice | A2 A3 A4 → A6 | Tamil Nadu Police cyber crime wing advisory on AI voice-cloning calls in fake emergencies, Apr 2024 ([MediaNama](https://www.medianama.com/2024/04/223-tamil-nadu-police-cybercrime-advisory-ai-voice-cloning/), [Inc42](https://inc42.com/?p=454767)); a Hyderabad case with a fake nephew, an accident and a threat of jail ([IndiaAI](https://indiaai.gov.in/news/a-woman-from-hyderabad-loses-1-4-lakh-rupees-in-an-ai-scam)). *Open the police advisory itself before the video* |
+| 8 | **Electricity disconnection** | "Your power will be cut tonight because the bill isn't updated; call this officer" | A1 A2 A3 → A6 A7 | MSEDCL appeals not to answer messages saying power will be cut at 9.30 pm and to call a personal number; it never contacts consumers from personal numbers ([Punekar News](https://www.punekarnews.in/?p=104719), [Punekar News](https://www.punekarnews.in/?p=159591)); Maharashtra DGIPR warning on fake electricity bill messages ([Free Press Journal](https://www.freepressjournal.in/amp/mumbai/fact-check-maharashtra-dgipr-warns-of-fake-electricity-bill-messages-urges-citizens-to-stay-alert)). *Open MSEDCL's own notice before the video* |
 | 9 | **Prize, lottery or KBC** | You've won, but must pay a fee or tax first | A12 → A6 | RBI BE(A)WARE (lottery fraud) |
 
 **Where to report**, as the warning and the report pack say:
