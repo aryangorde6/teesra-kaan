@@ -74,7 +74,6 @@ def test_live_listening_end_to_end_with_a_fake_transcriber(monkeypatch, tmp_path
     monkeypatch.setenv("MODEL_API_KEY", "test-key")
     monkeypatch.setenv("TEESRAKAAN_LIVE_JUDGE", "keywords")
     monkeypatch.setenv("TEESRAKAAN_ASR_URL", f"ws://127.0.0.1:{port}")
-    monkeypatch.setenv("TEESRAKAAN_DATA", str(tmp_path))
     try:
         with client.websocket_connect("/ws/live?lang=hi") as ws:
             assert ws.receive_json()["type"] == "start"
@@ -93,3 +92,15 @@ def test_live_listening_end_to_end_with_a_fake_transcriber(monkeypatch, tmp_path
     alarms = [e["warning"]["level"] for e in events if e["type"] == "alarm"]
     assert alarms and alarms[-1] == "red"
     assert "1930" in events[-1]["report_markdown"]
+
+
+def test_live_switches_itself_off_when_the_budget_is_spent(monkeypatch):
+    from teesrakaan.budget import Ledger
+
+    monkeypatch.setenv("TEESRAKAAN_ALLOW_PAID", "1")
+    monkeypatch.setenv("MODEL_API_KEY", "test-key")
+    monkeypatch.setenv("TEESRAKAAN_BUDGET_META_USD", "5")
+    assert client.get("/api/status").json() == {"live": True}
+    ledger = Ledger("meta", 5.0)
+    ledger.settle(ledger.reserve("muse-spark-1.3", 4.5), 4.5)
+    assert client.get("/api/status").json() == {"live": False}

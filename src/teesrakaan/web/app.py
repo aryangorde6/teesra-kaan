@@ -90,8 +90,13 @@ def status() -> dict:
 
 
 def live_available() -> bool:
+    """Paid calls allowed, a key set, and more than $1 left under this server's stop."""
     config.load_dotenv()
-    return config.paid_calls_allowed() and bool(config.env("MODEL_API_KEY"))
+    if not (config.paid_calls_allowed() and config.env("MODEL_API_KEY")):
+        return False
+    from ..budget import Ledger, meta_cap
+
+    return Ledger("meta", meta_cap()).summary().remaining_usd > 1.0
 
 
 def live_judge():

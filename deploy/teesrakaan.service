@@ -1,0 +1,20 @@
+[Unit]
+Description=Teesra Kaan listener page
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=teesrakaan
+WorkingDirectory=/opt/teesrakaan
+EnvironmentFile=/opt/teesrakaan/.env
+Environment=TEESRAKAAN_DATA=/opt/teesrakaan/data
+ExecStart=/opt/teesrakaan/.venv/bin/teesrakaan serve --host 127.0.0.1 --port 8000
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/teesrakaan/data
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -14,6 +14,10 @@ def example():
 
 
 @pytest.fixture(autouse=True)
-def no_api_key(monkeypatch):
-    """Tests never see a real key, so nothing can reach a paid API."""
-    monkeypatch.delenv("MODEL_API_KEY", raising=False)
+def no_api_key(monkeypatch, tmp_path):
+    """Tests never see a real key or the real data folder, so nothing can reach a paid API."""
+    for name in ("MODEL_API_KEY", "TEESRAKAAN_ALLOW_PAID", "TEESRAKAAN_BUDGET_META_USD", "TEESRAKAAN_ASR_URL"):
+        monkeypatch.delenv(name, raising=False)
+    monkeypatch.setenv("TEESRAKAAN_DATA", str(tmp_path / "data"))
+    # A real .env (key, paid calls on) must never leak into a test.
+    monkeypatch.setattr("teesrakaan.config.load_dotenv", lambda path=None: None)
