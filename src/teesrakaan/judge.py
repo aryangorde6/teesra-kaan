@@ -136,3 +136,32 @@ class SparkJudge:
         done = self.complete(self.system, spark_user_message(questions, transcript), SPARK_SCHEMA_V1)
         answers, note = parse_spark_reply(done.text, questions)
         return Reply(answers, done.input_tokens, done.output_tokens, note, done.latency)
+
+
+# Comparison B: Muse Spark asked the whole question at once, with no signals and no rules.
+FREEFORM_SYSTEM_V1 = """You listen to a phone call in India alongside the person who received it (YOU). The transcript may be in Hindi, Marathi, English or a mix.
+Is this call a scam? Answer only from what has been said so far.
+Reply with JSON only: {"scam": true or false}"""
+
+FREEFORM_SCHEMA_V1 = {
+    "type": "object",
+    "properties": {"scam": {"type": "boolean"}},
+    "required": ["scam"],
+    "additionalProperties": False,
+}
+
+
+@dataclass
+class FreeFormJudge:
+    complete: Complete
+    name: str = "muse-spark-1.3 free-form"
+
+    def ask(self, questions: Sequence[Signal], transcript: Transcript) -> Reply:
+        done = self.complete(FREEFORM_SYSTEM_V1, f"TRANSCRIPT SO FAR:\n{transcript.dialogue()}", FREEFORM_SCHEMA_V1)
+        text = re.sub(r"^```(?:json)?|```$", "", done.text.strip(), flags=re.MULTILINE).strip()
+        try:
+            scam = json.loads(text[text.find("{"):]).get("scam") is True
+        except (json.JSONDecodeError, AttributeError):
+            return Reply([], done.input_tokens, done.output_tokens, "reply was not the expected JSON", done.latency)
+        yes = [Answer("SCAM", "")] if scam else []
+        return Reply(yes, done.input_tokens, done.output_tokens, "", done.latency)

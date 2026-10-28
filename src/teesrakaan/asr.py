@@ -180,3 +180,41 @@ def transcribe_file(path: str | Path, ledger=None, **settings) -> Session:
         raise
     ledger.settle(call_id, cost, request_id=session.session_id)
     return session
+
+
+AUDIO_SUFFIXES = {".wav", ".m4a", ".mp3", ".ogg", ".opus", ".aac", ".amr", ".3gp", ".flac"}
+
+
+async def transcribe_many(audio_dir: Path, out_dir: Path, parallel: int = 8, log=print, **settings) -> int:
+    """Every recording in `audio_dir`, `parallel` streams at a time; sessions saved as JSON. Resumable."""
+    from . import config
+    from .budget import Ledger, meta_cap
+    from .pricing import TRANSCRIBE_PER_HOUR
+
+    ledger = Ledger("meta", meta_cap())
+    key = config.api_key()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    todo = [p for p in sorted(audio_dir.iterdir())
+            if p.suffix.lower() in AUDIO_SUFFIXES and not (out_dir / f"{p.stem}.json").exists()]
+    gate = asyncio.Semaphore(parallel)
+
+    async def one(path: Path) -> None:
+        async with gate:
+            pcm = await asyncio.to_thread(pcm16k, path)
+            cost = len(pcm) / BYTES_PER_SECOND / 3600 * TRANSCRIBE_PER_HOUR
+            call_id = ledger.reserve(MODEL, cost, note=path.name)
+            try:
+                session = await stream(pcm, handshake(key, **settings))
+            except Exception:
+                ledger.mark_unknown(call_id)
+                raise
+            ledger.settle(call_id, cost, request_id=session.session_id)
+            (out_dir / f"{path.stem}.json").write_text(
+                json.dumps(session.to_json(), ensure_ascii=False, indent=1), encoding="utf-8")
+            log(f"{path.name}: {session.audio_seconds:.0f} s, {len(session.events)} events")
+
+    results = await asyncio.gather(*(one(p) for p in todo), return_exceptions=True)
+    for path, result in zip(todo, results):
+        if isinstance(result, Exception):
+            log(f"{path.name}: FAILED {result}")
+    return sum(not isinstance(r, Exception) for r in results)

@@ -43,3 +43,12 @@ def test_sets_are_never_pooled():
     by_set = summarize_by(rows, "set")
     assert set(by_set) == {"FTC", "IN-scam"}
     assert by_set["FTC"]["caught_red"]["k"] == 1 and by_set["IN-scam"]["caught_red"]["k"] == 0
+
+
+def test_results_table_has_a_row_per_run():
+    from teesrakaan.metrics import results_table
+
+    s = summarize([Outcome("s1", "IN-scam", True, 2, t_warn=20, t0=5, t_ask=50), Outcome("g1", "IN-scam", False, 0)])
+    table = results_table([{"run": "A", "split": "dev", "by_set": {"IN-scam": s}},
+                           {"run": "C", "split": "dev", "by_set": {"IN-scam": s}}])
+    assert "| A | 1/1" in table and "| C | 1/1" in table and "15 s" in table

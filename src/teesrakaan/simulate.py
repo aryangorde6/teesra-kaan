@@ -61,8 +61,9 @@ def check_points(call: Call, timing: Timing) -> list[tuple[float, bool]]:
     return sorted(points)
 
 
-def simulate(call: Call, judge: Judge, timing: Timing = Timing(), stop_at_red: bool = False) -> SimResult:
-    listener = Listener(judge)
+def simulate(call: Call, judge: Judge, timing: Timing = Timing(), stop_at_red: bool = False, **listener) -> SimResult:
+    """`listener` passes options to the Listener, e.g. the free-form rule for comparison B."""
+    listener = Listener(judge, **listener)
     words = call.timed_words(timing.transcribe_delay)
     i = 0
     judge_free = 0.0

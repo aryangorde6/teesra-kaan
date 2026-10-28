@@ -109,3 +109,38 @@ def test_the_meta_cap_never_goes_above_120(tmp_path, monkeypatch):
 def test_contributor_tier_is_refused():
     with pytest.raises(ValueError):
         SparkClient(model="muse-spark-1.3-contributor")
+
+
+def test_comparison_b_goes_red_on_a_bare_yes(example):
+    from teesrakaan.judge import Completion, FreeFormJudge
+    from teesrakaan.signals import SCAM, decide_freeform
+
+    calls = []
+
+    def complete(system, user, schema):
+        calls.append(user)
+        return Completion('{"scam": %s}' % ("true" if "FIR" in user else "false"), 500, 5, 0.8)
+
+    result = simulate(example("demo-digital-arrest"), FreeFormJudge(complete), Timing(judge_latency=None),
+                      signals=(SCAM,), decide=decide_freeform, verify_quotes=False)
+    assert result.level == Level.RED and result.listener.alarm.rule == "free-form"
+    first_yes = next(i for i, u in enumerate(calls) if "FIR" in u)
+    assert result.t_red == result.listener.updates[first_yes].t
+
+
+def test_eval_runs_on_saved_transcription_sessions(tmp_path, capsys):
+    from teesrakaan.cli import main
+
+    sessions = tmp_path / "sessions"
+    sessions.mkdir()
+    events = [dict(e, received=0.2 * i + 1) for i, e in enumerate(SCRIPT)]
+    (sessions / "IS99.json").write_text(json.dumps({"session_id": "s", "settings": {}, "audio_seconds": 3, "events": events}))
+    labels = tmp_path / "labels.csv"
+    labels.write_text(
+        "call_id,set,split,is_scam,pattern,languages,t0,t_ask,ftc_class,labeller,labelled_at,notes\n"
+        "IS99,IN-scam,dev,1,1,hi+en,0.7,,,AG,2026-10-28T20:00+05:30,\n"
+    )
+    out = tmp_path / "r.json"
+    main(["eval", str(sessions), "--labels", str(labels), "--run", "A", "--out", str(out)])
+    result = json.loads(out.read_text())
+    assert result["by_set"]["IN-scam"]["caught_red"]["k"] == 1

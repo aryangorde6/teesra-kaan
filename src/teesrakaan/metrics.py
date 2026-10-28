@@ -117,3 +117,29 @@ def ftc_summary(outcomes: Iterable[Outcome]) -> dict[str, dict]:
         row["warned_text"] = rate(row["warned"], row["n"])
         row["red_text"] = rate(row["red"], row["n"])
     return dict(sorted(out.items()))
+
+
+def _secs(x: float | None) -> str:
+    return "–" if x is None else f"{x:.0f} s"
+
+
+def results_table(results: list[dict]) -> str:
+    """The README and video table: one block per set, one row per run. Sets are never pooled."""
+    out = []
+    sets = sorted({name for r in results for name in r["by_set"]})
+    for name in sets:
+        out += [f"**{name}** ({results[0]['split']})", "",
+                "| Run | Warned (red or amber) | Red | Red false alarms | Median time to warning | Warned before the ask |",
+                "|---|---|---|---|---|---|"]
+        for r in results:
+            s = r["by_set"].get(name)
+            if not s:
+                continue
+            out.append(
+                f"| {r['run']} | {s['caught_red_or_amber']['text']} | {s['caught_red']['text']} | "
+                f"{s['false_alarms_red']['text'] if s['genuine_calls'] else '–'} | "
+                f"{_secs(s['seconds_to_warning']['median'])} | "
+                f"{s['warned_before_ask']['text'] if s['warned_before_ask']['n'] else '–'} |"
+            )
+        out.append("")
+    return "\n".join(out)

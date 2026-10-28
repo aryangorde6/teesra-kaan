@@ -26,6 +26,34 @@ def _judge(name: str):
     raise SystemExit(f"unknown judge {name!r}: only 'keywords' runs offline (Muse Spark comes with the API key)")
 
 
+# The runs in docs/evaluation-rule.md. The transcription ablations (no language hint,
+# no keyword biasing) are run C on transcripts made with those settings.
+RUNS = ("A", "B", "C", "C-no-speakers")
+
+
+def _run(name: str):
+    """(judge, Listener options, merge speakers?) for one run."""
+    if name == "A":
+        return SparkSized(KeywordJudge()), {}, False
+    from .judge import FreeFormJudge, SparkJudge
+    from .signals import SCAM, decide_freeform
+    from .spark import SparkClient
+
+    if name == "B":
+        return FreeFormJudge(SparkClient()), {"signals": (SCAM,), "decide": decide_freeform, "verify_quotes": False}, False
+    if name in ("C", "C-no-speakers"):
+        return SparkJudge(SparkClient()), {}, name == "C-no-speakers"
+    raise SystemExit(f"unknown run {name!r}; one of {RUNS}")
+
+
+def _load(path: Path):
+    """A call file, or a saved transcription session (its id is the file name)."""
+    from .asr import session_to_call
+
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return session_to_call(data, path.stem) if "events" in data else load_call(path)
+
+
 def cmd_simulate(args: argparse.Namespace) -> None:
     call = load_call(args.call)
     if args.no_speakers:
@@ -54,15 +82,17 @@ def cmd_report(args: argparse.Namespace) -> None:
 
 def cmd_eval(args: argparse.Namespace) -> None:
     labels = read_labels(args.labels)
+    judge, options, merge = _run(args.run)
     outcomes = []
     for path in sorted(Path(args.calls).glob("*.json")):
-        call = load_call(path)
+        call = _load(path)
         label = labels.get(call.id)
         if label is None or label.split != args.split:
             continue
-        if args.no_speakers:
+        if merge:
             call = merge_speakers(call)
-        result = simulate(call, _judge(args.judge), Timing())
+        timing = Timing(judge_latency=None) if any(t.heard_times for t in call.turns) else Timing()
+        result = simulate(call, judge, timing, **options)
         outcomes.append(Outcome(
             call.id, label.set, label.is_scam, int(result.level),
             result.t_warn, result.t_red, label.t0, label.t_ask, label.languages, label.ftc_class,
@@ -71,15 +101,15 @@ def cmd_eval(args: argparse.Namespace) -> None:
     scored = [o for o in outcomes if o.set != "FTC" or o.ftc_class == "impersonation"]
     report = {
         "split": args.split,
-        "judge": args.judge,
+        "run": args.run,
+        "calls_from": args.calls,
         "rules": RULES_VERSION,
-        "speaker_separation": not args.no_speakers,
         "by_set": summarize_by(scored, "set"),
         "by_language": summarize_by(scored, "language"),
         "ftc_by_class": ftc_summary(o for o in outcomes if o.set == "FTC"),
         "calls": [o.__dict__ for o in outcomes],
     }
-    out = Path(args.out or f"runs/eval-{date.today().isoformat()}/results-{args.split}-{args.judge}.json")
+    out = Path(args.out or f"runs/eval-{date.today().isoformat()}/results-{args.split}-{args.run}.json")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     for name, s in report["by_set"].items():
@@ -88,6 +118,12 @@ def cmd_eval(args: argparse.Namespace) -> None:
     for name, row in report["ftc_by_class"].items():
         print(f"FTC {name}: warned {row['warned_text']} (red {row['red_text']})")
     print(f"wrote {out}")
+
+
+def cmd_table(args: argparse.Namespace) -> None:
+    from .metrics import results_table
+
+    print(results_table([json.loads(Path(p).read_text(encoding="utf-8")) for p in args.results]))
 
 
 def cmd_split(args: argparse.Namespace) -> None:
@@ -116,6 +152,20 @@ def cmd_transcribe(args: argparse.Namespace) -> None:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(session.to_json(), ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(session.events)} events, {session.audio_seconds:.0f} s of audio -> {out}")
+
+
+def cmd_transcribe_set(args: argparse.Namespace) -> None:
+    import asyncio
+
+    from .asr import transcribe_many
+
+    settings = {}
+    if args.no_language_hint:
+        settings["languages"] = ()
+    if args.no_keywords:
+        settings["keywords"] = ()
+    done = asyncio.run(transcribe_many(Path(args.audio_dir), Path(args.out), args.parallel, **settings))
+    print(f"{done} recordings transcribed into {args.out}")
 
 
 def cmd_ping(args: argparse.Namespace) -> None:
@@ -174,10 +224,21 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("calls")
     p.add_argument("--labels", required=True)
     p.add_argument("--split", choices=("dev", "test"), default="dev")
-    p.add_argument("--judge", default="keywords")
-    p.add_argument("--no-speakers", action="store_true")
+    p.add_argument("--run", choices=RUNS, default="A", help="A keywords, B Spark free-form, C Teesra Kaan (B and C are PAID)")
     p.add_argument("--out")
     p.set_defaults(func=cmd_eval)
+
+    p = sub.add_parser("table", help="the results table from one or more results JSON files")
+    p.add_argument("results", nargs="+")
+    p.set_defaults(func=cmd_table)
+
+    p = sub.add_parser("transcribe-set", help="PAID: transcribe every recording in a folder, several at a time")
+    p.add_argument("audio_dir")
+    p.add_argument("--out", required=True)
+    p.add_argument("--parallel", type=int, default=8)
+    p.add_argument("--no-language-hint", action="store_true", help="ablation")
+    p.add_argument("--no-keywords", action="store_true", help="ablation")
+    p.set_defaults(func=cmd_transcribe_set)
 
     p = sub.add_parser("split", help="assign script ids (one per line) to dev or test with the fixed seed")
     p.add_argument("ids")

@@ -7,6 +7,7 @@ measure the code that warns people.
 from __future__ import annotations
 
 import time
+from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field
 
 from .judge import Judge
@@ -34,6 +35,8 @@ class Update:
 class Listener:
     judge: Judge
     signals: tuple[Signal, ...] = SIGNALS
+    decide: Callable[[Iterable[str]], Alarm] = decide
+    verify_quotes: bool = True  # off only for comparison B, which answers without quotes
     transcript: Transcript = field(default_factory=Transcript)
     found: dict[str, Found] = field(default_factory=dict)
     alarm: Alarm = field(default_factory=lambda: Alarm(Level.NONE, "", frozenset()))
@@ -76,7 +79,7 @@ class Listener:
         for answer in reply.yes:
             if answer.id in self.found:
                 continue
-            said_at = self.transcript.locate(answer.quote)
+            said_at = self.transcript.locate(answer.quote) if self.verify_quotes else done_at
             if said_at is None:
                 self.rejected.append((answer.id, answer.quote))
                 continue
@@ -84,7 +87,7 @@ class Listener:
             self.found[answer.id] = found
             new.append(found)
 
-        alarm = decide(self.found)
+        alarm = self.decide(self.found)
         raised = alarm.level > self.alarm.level
         if alarm.level >= self.alarm.level:
             self.alarm = alarm

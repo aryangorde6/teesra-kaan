@@ -100,3 +100,14 @@ def decide(yes: Iterable[str]) -> Alarm:
     if len(found & FLAGS) >= 2:
         return Alarm(Level.AMBER, "two flags", found)
     return Alarm(Level.NONE, "", found)
+
+
+# Comparison B in docs/evaluation-rule.md: one free-form question, no rules.
+SCAM = Signal("SCAM", "Scam", "flag", "Is this call a scam?")
+
+
+def decide_freeform(yes: Iterable[str]) -> Alarm:
+    found = frozenset(yes)
+    if SCAM.id in found:
+        return Alarm(Level.RED, "free-form", found)
+    return Alarm(Level.NONE, "", found)
