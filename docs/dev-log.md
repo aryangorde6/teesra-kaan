@@ -36,13 +36,13 @@ Every change to the signals, rules, keyword lists or the Spark prompt, with the 
 - **The 2 scams still amber:** IS04 and IS21 never reach an ask (the courier opening only), so amber is the intended warning.
 - **FTC dev unchanged:** impersonation warned 40/41.
 
-## Oct 28, 22:50 IST: the next line
+## Oct 28, 22:23 IST: the next line
 - **Why:** detecting scam calls isn't new (Google, Hiya, Truecaller), and a plain warning can lose to fear: a Rajkot doctor sent ₹58.5 lakh in Oct 2026 after her bank warned her. Showing the caller's next line before they say it proves the call is a script.
 - **What:** `playbook.py` turns the nine patterns into ordered scripts. A prediction needs two steps of a script heard, and every best-matching script must agree on the next step; after "police" + "FIR" alone it waits.
 - **Demo calls only (not an evaluation):** in the written digital-arrest call, "come on a video call" is shown 24 s before the caller says it, and "transfer the money" 11 s before; in the Marathi TRAI call, "tell me the OTP" 13 s before. The genuine bank call shows one prediction ("transfer money") that never comes true. Metric 7 in `evaluation-rule.md` measures this on dev and test.
 - **Prior work, to cite:** ScriptMind (arXiv 2601.13581, Korean phone scams, simulated calls) and PreScam (arXiv 2605.12243, a benchmark; LLMs predicted next steps only moderately). Neither is live, in Indian languages, or measured on real call audio.
 
-## Oct 29, 2026, 02:50 IST: the next line on dev, keyword baseline v1.2b → v1.2c
+## Oct 29, 2026, 01:37 IST: the next line on dev, keyword baseline v1.2b → v1.2c
 - **Sets:** the 50 FTC dev calls (the dataset's transcripts) and the 28 dev scripts (text, estimated timings). **Judge:** keywords (comparison A). Playbook v1, rules v1.2. Metric 7 as coded in `metrics.py`.
 
 | Keywords | IN-scam: next line came true | Naive guess | Median s ahead | Scam calls with one | IN-scam warned / red | IN-genuine amber or red | FTC: came true (naive) | FTC impersonation warned |

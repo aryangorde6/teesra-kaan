@@ -96,5 +96,6 @@ One command runs every set, comparison and ablation from the cached transcripts 
   - the FTC sample is drawn from the 1,353 distinct English recordings, since 25 of the 1,378 English rows repeat a recording under a second FTC case;
   - FTC test calls are labelled after the freeze, before the test run (labelling them now would mean reading test transcripts);
   - 8 of the 200 sampled recordings are 8 kHz, not 16 kHz; they're kept as they are and sent to transcription unchanged.
-- **v1.3, Oct 28, 2026 (22:50 IST), before any prediction had been run on an evaluation call:** added metric 7, the next line. The scripts are the nine patterns of `scam-tactics.md`, in the order their "How the call goes" column gives. They were checked only on the three written demo calls in `examples/calls/`.
-- **v1.3.1, Oct 29, 2026 (01:30 IST), before any evaluation call had been run:** the naive guess of metric 7 written out exactly as `metrics.py` computes it (it had said "the signal most often still unsaid"). Nothing else changed.
+- **v1.3, Oct 28, 2026 (22:23 IST), before any prediction had been run on an evaluation call:** added metric 7, the next line. The scripts are the nine patterns of `scam-tactics.md`, in the order their "How the call goes" column gives. They were checked only on the three written demo calls in `examples/calls/`.
+- **v1.3.1, Oct 29, 2026 (01:21 IST), before any evaluation call had been run:** the naive guess of metric 7 written out exactly as `metrics.py` computes it (it had said "the signal most often still unsaid"). Nothing else changed.
+- **Oct 29, 2026, 01:40 IST:** the times of v1.3 and v1.3.1 corrected to their commit times (they had been written as 22:50 and 01:30). No rule changed.
