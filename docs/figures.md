@@ -1,0 +1,15 @@
+# Every number on screen, and where it comes from
+
+Checked Oct 28, 2026. A number goes in the video only with a row here. "Primary" means the government's own record has been opened; until then, a number is shown with its source line and the row says so.
+
+| Number | Where it's used | Source | Status |
+|---|---|---|---|
+| **₹1,935.51 crore** lost to "digital arrest" scams in 2024 (1,23,672 cases; ₹91.14 crore and 39,925 cases in 2022) | Video shot 2 | MoS Home Bandi Sanjay Kumar, written reply, **Rajya Sabha unstarred question 1505, Mar 12, 2025**, from NCRP data. Reported by [Inc42](https://inc42.com/?p=504907), [The Week / PTI](https://www.theweek.in/wire-updates/national/2025/03/12/del54-rsq-cybercrime.html), [MediaNama](https://www.medianama.com/2025/03/223-india-blocks-whatsapp-skype-ids-sims-to-tackle-digital-arrests/) | Matches across reports. The Rajya Sabha PDF redirects to the sansad.in portal; open it there before the cut |
+| **₹22,845.73 crore** lost to cyber fraud in 2024 (₹7,465.18 crore in 2023, up about 206%) | Video shot 3 | MoS Home, written reply, **Lok Sabha, Jul 22, 2025**, from NCRP and CFCFRMS data. Reported by [The Week / PTI](https://www.theweek.in/wire-updates/business/2025/07/22/del23-lsq-cyber-fraud.html), [Inc42](https://inc42.com/buzz/indians-lost-inr-22845-cr-to-cyber-fraud-in-2024-govt), [Outlook Money](https://www.outlookmoney.com/news/cyber-fraud-cases-surge-in-2024-citizens-lost-rs-22845-crore-says-govt) | Loss figure matches across reports; **complaint counts differ between reports, so don't show a complaint count** |
+| 3,962 Skype IDs and 83,668 WhatsApp accounts blocked for digital-arrest scams | Optional | Same Rajya Sabha reply (Mar 2025) | Optional; same check |
+| "No agency arrests anyone on a video call" | Shot 3, the warning's fact line | I4C advisory via PTI, Oct 2024; Mann Ki Baat, Oct 27, 2024 (see [scam-tactics.md](scam-tactics.md)) | Sourced |
+| "UPI PIN is only for sending money" | Warning fact line | NPCI UPI Safety Shield | Sourced |
+| Results (caught, false alarms, seconds to warning) | Shot 8, README | `teesrakaan table` on the frozen test run | After Nov 1 |
+| Cost per minute | Shot 10 | The ledger (`teesrakaan budget`) after the test run | After Nov 1 |
+
+**Rules:** no rounding up (₹1,935 crore, not "₹2,000 crore"); the year and the source on screen with each number; the Hindi and English figures say the same thing.
