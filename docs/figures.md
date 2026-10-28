@@ -9,6 +9,8 @@ Checked Oct 28, 2026. A number goes in the video only with a row here. "Primary"
 | 3,962 Skype IDs and 83,668 WhatsApp accounts blocked for digital-arrest scams | Optional | Same Rajya Sabha reply (Mar 2025) | Optional; same check |
 | "No agency arrests anyone on a video call" | Shot 3, the warning's fact line | I4C advisory via PTI, Oct 2024; Mann Ki Baat, Oct 27, 2024 (see [scam-tactics.md](scam-tactics.md)) | Sourced |
 | "UPI PIN is only for sending money" | Warning fact line | NPCI UPI Safety Shield | Sourced |
+| **$3.5 billion** reported lost to impostor scams in the US in 2025, about **$920 million** of it to government impersonators | README, video (the US line) | [FTC press release, Jun 15, 2026](https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025) | **Primary:** the FTC's own page, opened Oct 29, 2026. It gives no report count, so don't show one |
+| **₹58.5 lakh** sent by a retired doctor in Gujarat to "digital arrest" callers after her bank warned her (Oct 2026) | README (the next line) | [DeshGujarat, Oct 2, 2026](https://deshgujarat.com/2026/10/02/despite-bank-warning-doctor-gripped-by-fear-transfers-%e2%82%b958-50-lakh-in-digital-arrest-scam/) | One news report; find a second before it goes in the video |
 | Results (caught, false alarms, seconds to warning) | Shot 8, README | `teesrakaan table` on the frozen test run | After Nov 1 |
 | Cost per minute | Shot 10 | The ledger (`teesrakaan budget`) after the test run | After Nov 1 |
 
