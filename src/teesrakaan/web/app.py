@@ -108,6 +108,17 @@ def live_judge():
     return SparkJudge(SparkClient())
 
 
+@app.get("/api/signals")
+def signals() -> dict:
+    """What the page shows under "How it decides": the questions Spark answers, and the rules."""
+    from ..signals import RULES_VERSION, SIGNALS
+
+    return {
+        "rules_version": RULES_VERSION,
+        "signals": [{"id": s.id, "kind": s.kind, "question": s.question, "name": SIGNAL_NAME[s.id]} for s in SIGNALS],
+    }
+
+
 @app.get("/api/calls")
 def calls() -> list[dict]:
     return [{"id": c.id, "language": c.language, "duration": c.duration, "re_enactment": c.re_enactment}

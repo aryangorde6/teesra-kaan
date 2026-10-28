@@ -104,3 +104,9 @@ def test_live_switches_itself_off_when_the_budget_is_spent(monkeypatch):
     ledger = Ledger("meta", 5.0)
     ledger.settle(ledger.reserve("muse-spark-1.3", 4.5), 4.5)
     assert client.get("/api/status").json() == {"live": False}
+
+
+def test_signals_endpoint_lists_the_twelve_questions():
+    data = client.get("/api/signals").json()
+    assert len(data["signals"]) == 12 and data["rules_version"].startswith("v1.2")
+    assert {"en", "hi", "mr"} <= data["signals"][0]["name"].keys()

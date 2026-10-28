@@ -80,6 +80,13 @@
       <pre id="report" class="report"></pre>
     </section>
 
+    <details class="panel how">
+      <summary data-t="how">How it decides</summary>
+      <p data-t="how_1">Muse Voice Transcribe writes down the call as it happens and keeps the two voices apart. After each thing the caller says, Muse Spark answers these questions about the caller, and must quote the caller's exact words for every "yes". A quote the caller never said is thrown away.</p>
+      <ol id="questions"></ol>
+      <p data-t="how_2">Fixed rules, not the model, raise the alarm: two warning signs give a warning, and if one of them is a request for money, an OTP or PIN, an app or a link, it turns red. One sign alone never warns.</p>
+    </details>
+
     <footer class="foot" data-t="note">Demo calls are acted from scripts; they are not real. Nothing is recorded or stored.</footer>
   </main>
   <script src="/static/app.js"></script>

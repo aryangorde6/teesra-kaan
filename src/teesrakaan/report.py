@@ -51,6 +51,44 @@ WHAT_TO_DO = {
 }
 
 
+# Report headings. DRAFT, Oct 28: the Hindi and Marathi need a native speaker's check.
+TEXT = {
+    "en": {
+        "title": "Scam call report", "length": "Call length", "number": "Caller's number",
+        "verdict": "Teesra Kaan's warning", "red": "danger (red)", "amber": "caution (amber)", "none": "none",
+        "warned": "First warning, minutes into the call", "todo": "What to do now",
+        "claims": "What the caller claimed and asked for", "no_claims": "Nothing matched the warning signs.",
+        "mentioned": "Mentioned by the caller (for the complaint form)", "nothing": "Nothing.",
+        "amounts": "Amounts", "phone_numbers": "Phone numbers", "upi_ids": "UPI IDs", "emails": "Emails",
+        "account_numbers": "Account numbers", "links": "Links", "apps": "Apps",
+        "transcript": "Transcript", "caller": "Caller", "you": "You",
+        "footer": "Prepared automatically by Teesra Kaan from the call audio. Check it before you submit it.",
+    },
+    "hi": {
+        "title": "स्कैम कॉल रिपोर्ट", "length": "कॉल की अवधि", "number": "कॉल करने वाले का नंबर",
+        "verdict": "तीसरा कान की चेतावनी", "red": "ख़तरा (लाल)", "amber": "सावधान (पीला)", "none": "कोई नहीं",
+        "warned": "पहली चेतावनी, कॉल के इतने मिनट बाद", "todo": "अब क्या करें",
+        "claims": "कॉल करने वाले ने क्या दावा किया और क्या माँगा", "no_claims": "कोई चेतावनी का संकेत नहीं मिला।",
+        "mentioned": "कॉल करने वाले ने बताया (शिकायत फ़ॉर्म के लिए)", "nothing": "कुछ नहीं।",
+        "amounts": "रकम", "phone_numbers": "फ़ोन नंबर", "upi_ids": "UPI ID", "emails": "ईमेल",
+        "account_numbers": "खाता नंबर", "links": "लिंक", "apps": "ऐप",
+        "transcript": "बातचीत", "caller": "कॉल करने वाला", "you": "आप",
+        "footer": "यह रिपोर्ट तीसरा कान ने कॉल की आवाज़ से अपने आप बनाई है। जमा करने से पहले जाँच लें।",
+    },
+    "mr": {
+        "title": "फसवणुकीच्या कॉलचा अहवाल", "length": "कॉलचा कालावधी", "number": "फोन करणाऱ्याचा नंबर",
+        "verdict": "तिसरा कानचा इशारा", "red": "धोका (लाल)", "amber": "सावधान (पिवळा)", "none": "काही नाही",
+        "warned": "पहिला इशारा, कॉलच्या इतक्या मिनिटांनंतर", "todo": "आता काय करायचे",
+        "claims": "फोन करणाऱ्याने काय दावा केला आणि काय मागितले", "no_claims": "धोक्याचे कोणतेही चिन्ह आढळले नाही.",
+        "mentioned": "फोन करणाऱ्याने सांगितलेले (तक्रार फॉर्मसाठी)", "nothing": "काही नाही.",
+        "amounts": "रक्कम", "phone_numbers": "फोन नंबर", "upi_ids": "UPI ID", "emails": "ईमेल",
+        "account_numbers": "खाते नंबर", "links": "लिंक", "apps": "अ‍ॅप",
+        "transcript": "संभाषण", "caller": "फोन करणारा", "you": "तुम्ही",
+        "footer": "हा अहवाल तिसरा कानने कॉलच्या आवाजावरून आपोआप तयार केला आहे. सादर करण्यापूर्वी तपासा.",
+    },
+}
+
+
 def _unique(items: list[str]) -> list[str]:
     seen, out = set(), []
     for item in items:
@@ -100,32 +138,30 @@ class ReportPack:
         return dict(self.__dict__)
 
     def to_markdown(self) -> str:
-        out = [f"# Scam call report: {self.call_id}", ""]
-        out.append(f"- **Call length:** {_clock(self.duration)}")
+        t = TEXT[self.lang]
+        level = {"red": t["red"], "amber": t["amber"], "none": t["none"]}[self.level]
+        out = [f"# {t['title']}: {self.call_id}", ""]
+        out.append(f"- **{t['length']}:** {_clock(self.duration)}")
         if self.caller_number:
-            out.append(f"- **Caller's number:** {self.caller_number}")
-        out.append(f"- **Teesra Kaan's verdict:** {self.level}" + (f" ({self.rule})" if self.rule else ""))
+            out.append(f"- **{t['number']}:** {self.caller_number}")
+        out.append(f"- **{t['verdict']}:** {level}")
         if self.warned_at is not None:
-            out.append(f"- **First warning at:** {_clock(self.warned_at)} into the call")
-        out += ["", "## What to do now", *[f"{i}. {s}" for i, s in enumerate(WHAT_TO_DO[self.lang], 1)]]
+            out.append(f"- **{t['warned']}:** {_clock(self.warned_at)}")
+        out += ["", f"## {t['todo']}", *[f"{i}. {s}" for i, s in enumerate(WHAT_TO_DO[self.lang], 1)]]
         if self.facts:
             out += ["", *[f"> {fact}" for fact in self.facts]]
-        out += ["", "## What the caller claimed and asked for"]
+        out += ["", f"## {t['claims']}"]
         for c in self.claims:
             out.append(f"- **{_clock(c['said_at'])} · {c['name']}:** \"{c['quote']}\"")
         if not self.claims:
-            out.append("- Nothing matched the warning signs.")
-        labels = {
-            "amounts": "Amounts", "phone_numbers": "Phone numbers", "upi_ids": "UPI IDs", "emails": "Emails",
-            "account_numbers": "Account numbers", "links": "Links", "apps": "Apps",
-        }
-        found = [(labels[k], v) for k, v in self.mentioned.items() if v]
-        out += ["", "## Mentioned by the caller (for the complaint form)"]
-        out += [f"- **{name}:** {', '.join(values)}" for name, values in found] or ["- None."]
-        out += ["", "## Transcript", ""]
-        who = {CALLER: "Caller", "listener": "You"}
+            out.append(f"- {t['no_claims']}")
+        found = [(t[k], v) for k, v in self.mentioned.items() if v]
+        out += ["", f"## {t['mentioned']}"]
+        out += [f"- **{name}:** {', '.join(values)}" for name, values in found] or [f"- {t['nothing']}"]
+        out += ["", f"## {t['transcript']}", ""]
+        who = {CALLER: t["caller"], LISTENER: t["you"]}
         out += [f"- `{_clock(line['start'])}` **{who[line['speaker']]}:** {line['text']}" for line in self.transcript]
-        out += ["", "_Prepared automatically by Teesra Kaan from the call audio. Check it before you submit it._", ""]
+        out += ["", f"_{t['footer']}_", ""]
         return "\n".join(out)
 
 

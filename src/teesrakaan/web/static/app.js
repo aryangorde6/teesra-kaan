@@ -21,6 +21,9 @@ const UI = {
     listening: "Listening",
     ended: "Call ended",
     note: "Demo calls are acted from scripts; they are not real. Nothing is recorded or stored.",
+    how: "How it decides",
+    how_1: "Muse Voice Transcribe writes down the call as it happens and keeps the two voices apart. After each thing the caller says, Muse Spark answers these questions about the caller, and must quote the caller's exact words for every \"yes\". A quote the caller never said is thrown away.",
+    how_2: "Fixed rules, not the model, raise the alarm: two warning signs give a warning, and if one of them is a request for money, an OTP or PIN, an app or a link, it turns red. One sign alone never warns.",
     t0: "First scam move",
     warn: "Warning",
     red: "Danger",
@@ -47,6 +50,9 @@ const UI = {
     listening: "सुन रहा है",
     ended: "कॉल खत्म",
     note: "डेमो कॉल अभिनय करके बनाए गए हैं, असली नहीं। कुछ भी रिकॉर्ड या सेव नहीं होता।",
+    how: "यह कैसे तय करता है",
+    how_1: "Muse Voice Transcribe कॉल को साथ-साथ लिखता है और दोनों आवाज़ें अलग रखता है। कॉल करने वाले की हर बात के बाद Muse Spark उसके बारे में ये सवाल हाँ/ना में बताता है, और हर \"हाँ\" के लिए उसके असली शब्द दिखाने होते हैं। जो शब्द कॉल करने वाले ने कहे ही नहीं, वे हटा दिए जाते हैं।",
+    how_2: "चेतावनी मॉडल नहीं, तय नियम देते हैं: दो संकेत मिलें तो चेतावनी, और अगर उनमें से एक पैसे, OTP या PIN, ऐप या लिंक की माँग हो तो लाल। सिर्फ़ एक संकेत पर कभी चेतावनी नहीं।",
     t0: "पहली चाल",
     warn: "चेतावनी",
     red: "ख़तरा",
@@ -73,6 +79,9 @@ const UI = {
     listening: "ऐकत आहे",
     ended: "कॉल संपला",
     note: "डेमो कॉल अभिनय करून बनवले आहेत, खरे नाहीत. काहीही रेकॉर्ड किंवा सेव्ह होत नाही.",
+    how: "हे कसे ठरवते",
+    how_1: "Muse Voice Transcribe कॉल चालू असतानाच लिहून काढतो आणि दोन्ही आवाज वेगळे ठेवतो. फोन करणाऱ्याच्या प्रत्येक बोलण्यानंतर Muse Spark त्याच्याबद्दल हे प्रश्न हो/नाही मध्ये सांगतो, आणि प्रत्येक \"हो\" साठी त्याचे नेमके शब्द दाखवावे लागतात. फोन करणाऱ्याने न बोललेले शब्द काढून टाकले जातात.",
+    how_2: "इशारा मॉडेल नाही, ठरलेले नियम देतात: दोन चिन्हे मिळाली की इशारा, आणि त्यातले एक पैसे, OTP किंवा PIN, अ‍ॅप किंवा लिंकची मागणी असेल तर लाल. फक्त एका चिन्हावर कधीच इशारा नाही.",
     t0: "पहिली चाल",
     warn: "इशारा",
     red: "धोका",
@@ -116,6 +125,21 @@ let liveAvailable = false;
 
 function t(key) { return UI[lang][key]; }
 
+let questions = [];
+
+function renderQuestions() {
+  const ol = $("#questions");
+  ol.innerHTML = "";
+  questions.forEach((q) => {
+    const li = document.createElement("li");
+    if (q.kind === "ask") li.className = "ask";
+    li.innerHTML = `<span class="n"></span><span class="q"></span>`;
+    li.querySelector(".n").textContent = q.name[lang];
+    li.querySelector(".q").textContent = q.question;
+    ol.appendChild(li);
+  });
+}
+
 function setLang(next) {
   lang = next;
   try { localStorage.setItem("tk-lang", next); } catch (e) {}
@@ -125,6 +149,7 @@ function setLang(next) {
     const value = UI[next][el.dataset.t];
     if (typeof value === "string") el.textContent = value;
   });
+  renderQuestions();
 }
 
 function clock(s) {
@@ -321,6 +346,8 @@ function handle(e, speed) {
 async function init() {
   setLang(lang);
   document.querySelectorAll("[data-lang]").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
+  questions = (await fetch("/api/signals").then((r) => r.json())).signals;
+  renderQuestions();
   const calls = await fetch("/api/calls").then((r) => r.json());
   const select = $("#call");
   calls.forEach((c) => {
