@@ -4,7 +4,9 @@ const UI = {
   en: {
     tagline: "The third ear on a scam call",
     start: "Start listening",
+    stop: "Stop listening",
     live_soon: "The live microphone connects with the speech API.",
+    live_on: "Put the call on speaker, then tap Start.",
     demo: "Play a demo call",
     transcript: "What the caller is saying",
     signals: "Warning signs",
@@ -28,7 +30,9 @@ const UI = {
   hi: {
     tagline: "स्कैम कॉल पर तीसरा कान",
     start: "सुनना शुरू करें",
+    stop: "सुनना बंद करें",
     live_soon: "लाइव माइक स्पीच API जुड़ने पर चालू होगा।",
+    live_on: "कॉल को स्पीकर पर रखें, फिर शुरू करें दबाएँ।",
     demo: "डेमो कॉल चलाएँ",
     transcript: "कॉल करने वाला क्या कह रहा है",
     signals: "चेतावनी के संकेत",
@@ -52,7 +56,9 @@ const UI = {
   mr: {
     tagline: "फसवणुकीच्या कॉलवर तिसरा कान",
     start: "ऐकायला सुरुवात करा",
+    stop: "ऐकणे थांबवा",
     live_soon: "स्पीच API जोडल्यावर लाइव्ह माइक सुरू होईल.",
+    live_on: "कॉल स्पीकरवर ठेवा, मग सुरू करा दाबा.",
     demo: "डेमो कॉल चालवा",
     transcript: "फोन करणारा काय बोलतोय",
     signals: "धोक्याची चिन्हे",
@@ -78,10 +84,35 @@ const SPEECH_LANG = { en: "en-IN", hi: "hi-IN", mr: "mr-IN" };
 const ASKS = new Set(["A5", "A6", "A7", "A11"]);
 const $ = (sel) => document.querySelector(sel);
 
+// Turns the microphone into 16 kHz 16-bit mono PCM, 100 ms per message.
+const WORKLET = `
+class Pcm16 extends AudioWorkletProcessor {
+  constructor() { super(); this.ratio = sampleRate / 16000; this.pos = 0; this.buf = []; }
+  process(inputs) {
+    const ch = inputs[0][0];
+    if (!ch) return true;
+    for (; this.pos < ch.length; this.pos += this.ratio) {
+      const i = Math.floor(this.pos), f = this.pos - i;
+      const a = ch[i], b = i + 1 < ch.length ? ch[i + 1] : a;
+      const v = Math.max(-1, Math.min(1, a + (b - a) * f));
+      this.buf.push(v < 0 ? v * 0x8000 : v * 0x7fff);
+    }
+    this.pos -= ch.length;
+    while (this.buf.length >= 1600) {
+      const out = new Int16Array(this.buf.splice(0, 1600));
+      this.port.postMessage(out.buffer, [out.buffer]);
+    }
+    return true;
+  }
+}
+registerProcessor("pcm16", Pcm16);`;
+
 let lang = "hi";
 try { lang = localStorage.getItem("tk-lang") || lang; } catch (e) {}
 let socket = null;
 let state = null;
+let mic = null;
+let liveAvailable = false;
 
 function t(key) { return UI[lang][key]; }
 
@@ -109,6 +140,8 @@ function reset() {
   $("#timeline-wrap").hidden = true;
   $("#report-wrap").hidden = true;
   $("#report").textContent = "";
+  $("#partial").textContent = "";
+  $("#partial").hidden = true;
   document.querySelectorAll(".timeline .mark").forEach((m) => m.remove());
   $("#legend").innerHTML = "";
   $("#lead").textContent = "";
@@ -209,31 +242,80 @@ function finish(e) {
   $("#report-wrap").hidden = false;
 }
 
+function showPartial(e) {
+  const p = $("#partial");
+  p.textContent = e.text;
+  p.hidden = !e.text;
+}
+
+const proto = location.protocol === "https:" ? "wss" : "ws";
+
 function play() {
+  stopMic();
   if (socket) socket.close();
   reset();
   const id = $("#call").value;
-  const proto = location.protocol === "https:" ? "wss" : "ws";
   const speed = new URLSearchParams(location.search).get("speed") || "1";
   socket = new WebSocket(`${proto}://${location.host}/ws/demo?call=${encodeURIComponent(id)}&lang=${lang}&speed=${speed}`);
-  socket.onmessage = (msg) => {
-    const e = JSON.parse(msg.data);
+  socket.onmessage = (msg) => handle(JSON.parse(msg.data), Number(speed));
+}
+
+async function listen() {
+  if (mic) {
+    if (socket && socket.readyState === 1) socket.send(JSON.stringify({ type: "stop" }));
+    stopMic();
+    return;
+  }
+  if (socket) socket.close();
+  reset();
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({
+      audio: { echoCancellation: false, noiseSuppression: true, autoGainControl: true },
+    });
+    const ctx = new AudioContext();
+    await ctx.audioWorklet.addModule(URL.createObjectURL(new Blob([WORKLET], { type: "application/javascript" })));
+    const node = new AudioWorkletNode(ctx, "pcm16");
+    const mute = ctx.createGain();
+    mute.gain.value = 0;
+    ctx.createMediaStreamSource(stream).connect(node).connect(mute).connect(ctx.destination);
+    socket = new WebSocket(`${proto}://${location.host}/ws/live?lang=${lang}`);
+    socket.binaryType = "arraybuffer";
+    node.port.onmessage = (m) => { if (socket.readyState === 1) socket.send(m.data); };
+    socket.onmessage = (msg) => handle(JSON.parse(msg.data), 1);
+    socket.onclose = stopMic;
+    mic = { stream, ctx };
+    $("#live [data-t]").textContent = t("stop");
+  } catch (err) {
+    $("#status").textContent = String(err.message || err);
+    stopMic();
+  }
+}
+
+function stopMic() {
+  if (!mic) return;
+  mic.stream.getTracks().forEach((track) => track.stop());
+  mic.ctx.close();
+  mic = null;
+  $("#live [data-t]").textContent = t("start");
+}
+
+function handle(e, speed) {
     if (e.type === "start") {
       state.call = e.call;
       state.started = performance.now();
       $("#status").className = "status on";
       $("#timeline-wrap").hidden = false;
       state.timer = setInterval(() => {
-        const s = ((performance.now() - state.started) / 1000) * Number(speed);
+        const s = ((performance.now() - state.started) / 1000) * speed;
         $("#status").textContent = `${t("listening")} ${clock(s)}`;
         $("#progress").style.width = `${Math.min(100, (s / state.call.duration) * 100)}%`;
       }, 250);
     } else if (e.type === "word") addWord(e);
+    else if (e.type === "partial") showPartial(e);
     else if (e.type === "signal") addSignal(e);
     else if (e.type === "alarm") showAlarm(e);
     else if (e.type === "end") finish(e);
     else if (e.type === "error") $("#status").textContent = e.message;
-  };
 }
 
 async function init() {
@@ -248,6 +330,14 @@ async function init() {
     select.appendChild(o);
   });
   $("#play").addEventListener("click", play);
+  $("#live").addEventListener("click", listen);
+  try {
+    liveAvailable = (await fetch("/api/status").then((r) => r.json())).live;
+  } catch (e) {}
+  $("#live").disabled = !liveAvailable;
+  const hint = document.querySelector(".hint");
+  hint.dataset.t = liveAvailable ? "live_on" : "live_soon";
+  hint.textContent = t(hint.dataset.t);
   $("#copy").addEventListener("click", async () => {
     try {
       await navigator.clipboard.writeText(state.report);
