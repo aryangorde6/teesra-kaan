@@ -40,6 +40,13 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
 4. **Warned before the ask:** the share of scam calls with an ask where `t_warn < t_ask`.
 5. **FTC:** red-or-amber rate on impersonation scams (the detection number) and on sales robocalls (reported, not counted as false alarms, since these calls are illegal anyway).
 6. **Cost** per minute of audio, from the API usage figures.
+7. **The next line** (`src/teesrakaan/playbook.py`, scripts v1): a prediction *comes true* when the caller says the predicted step at or after the moment it was shown (a step found later but said earlier doesn't count). Reported per set, with Wilson 95% intervals:
+   - **came true:** the share of predictions that came true;
+   - **against a naive guess:** the same share for a guess that always names the signal most often still unsaid at that point, counted on the dev set only;
+   - **lead time:** the median seconds between a prediction being shown and the caller saying it;
+   - **reach:** the share of scam calls with at least one prediction shown;
+   - **on genuine calls:** predictions shown per genuine call (IN-genuine).
+   FTC robocall recordings usually end at "press 1", before any ask, so their "came true" share is reported but expected to be low.
 
 **Streaming mode:** audio is fed to the system at real-time speed, in the same chunks the live page sends. Every timing includes transcription and model latency.
 
@@ -89,3 +96,4 @@ One command runs every set, comparison and ablation from the cached transcripts 
   - the FTC sample is drawn from the 1,353 distinct English recordings, since 25 of the 1,378 English rows repeat a recording under a second FTC case;
   - FTC test calls are labelled after the freeze, before the test run (labelling them now would mean reading test transcripts);
   - 8 of the 200 sampled recordings are 8 kHz, not 16 kHz; they're kept as they are and sent to transcription unchanged.
+- **v1.3, Oct 28, 2026 (22:50 IST), before any prediction had been run on an evaluation call:** added metric 7, the next line. The scripts are the nine patterns of `scam-tactics.md`, in the order their "How the call goes" column gives. They were checked only on the three written demo calls in `examples/calls/`.
