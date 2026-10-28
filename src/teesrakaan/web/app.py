@@ -12,7 +12,7 @@ import json
 import os
 from pathlib import Path
 
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, HTTPException, Request, WebSocket, WebSocketDisconnect
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -183,6 +183,37 @@ async def demo(ws: WebSocket) -> None:
         await ws.close()
     except WebSocketDisconnect:
         return
+
+
+MAX_UPLOAD_BYTES = 25 * 1024 * 1024
+
+
+@app.post("/api/check")
+async def check_recording(request: Request) -> dict:
+    """A call someone already recorded: batch-transcribed, then the same Listener, warnings and report.
+    The audio is converted in memory and never stored."""
+    lang = request.query_params.get("lang", "en")
+    if lang not in LANGS or not live_available():
+        raise HTTPException(503, "Checking recordings is switched off on this server.")
+    body = await request.body()
+    if not body or len(body) > MAX_UPLOAD_BYTES:
+        raise HTTPException(413, "Send one recording, up to 25 MB and 10 minutes.")
+    from ..asr import batch_to_call, transcribe_batch, wav16k
+
+    def run() -> list[dict]:
+        import tempfile
+
+        with tempfile.NamedTemporaryFile(suffix=".audio") as f:
+            f.write(body)
+            f.flush()
+            wav = wav16k(f.name)
+        call = batch_to_call(transcribe_batch(wav), "your-recording")
+        return [{"t": t, **event} for t, event in demo_events(call, lang, Timing(), live_judge())]
+
+    try:
+        return {"events": await asyncio.to_thread(run)}
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
 
 
 @app.websocket("/ws/live")

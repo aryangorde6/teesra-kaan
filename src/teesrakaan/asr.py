@@ -220,3 +220,65 @@ async def transcribe_many(audio_dir: Path, out_dir: Path, parallel: int = 8, log
         if isinstance(result, Exception):
             log(f"{path.name}: FAILED {result}")
     return sum(not isinstance(r, Exception) for r in results)
+
+
+BATCH_URL = "https://api.meta.ai/v1/asr/transcribe"
+MAX_BATCH_SECONDS = 10 * 60  # the API refuses longer files
+
+
+def wav16k(path: str | Path) -> bytes:
+    """Any audio file as a 16 kHz mono 16-bit WAV, by ffmpeg, for the batch endpoint."""
+    out = subprocess.run(
+        ["ffmpeg", "-nostdin", "-loglevel", "error", "-i", str(path), "-ac", "1", "-ar", str(SAMPLE_RATE),
+         "-c:a", "pcm_s16le", "-map_metadata", "-1", "-f", "wav", "-"],
+        check=True, capture_output=True,
+    )
+    return out.stdout
+
+
+def transcribe_batch(wav: bytes, ledger=None, http=None, **settings) -> dict:
+    """One recorded call through the batch endpoint (no real-time pacing). Paid, through the $120 ledger."""
+    import httpx
+
+    from . import config
+    from .budget import Ledger, meta_cap
+    from .pricing import TRANSCRIBE_PER_HOUR
+
+    seconds = max(len(wav) - 44, 0) / BYTES_PER_SECOND
+    if seconds > MAX_BATCH_SECONDS:
+        raise ValueError("recordings longer than 10 minutes aren't accepted")
+    request = {k: v for k, v in handshake("", **settings).items() if k != "authorization"}
+    ledger = ledger or Ledger("meta", meta_cap())
+    call_id = ledger.reserve(MODEL, seconds / 3600 * TRANSCRIBE_PER_HOUR, note="batch")
+    http = http or httpx.Client(timeout=120)
+    try:
+        response = http.post(
+            BATCH_URL,
+            headers={"Authorization": f"Bearer {config.api_key()}", "Accept": "application/json"},
+            files={"request": (None, json.dumps(request), "application/json"), "audio": ("call.wav", wav, "audio/wav")},
+        )
+        response.raise_for_status()
+    except httpx.HTTPStatusError as exc:
+        if exc.response.status_code >= 500:
+            ledger.mark_unknown(call_id)
+        else:
+            ledger.release(call_id)  # failed before a transcript, or a 429: not billed
+        raise
+    except httpx.HTTPError:
+        ledger.mark_unknown(call_id)
+        raise
+    data = response.json()
+    ledger.settle(call_id, data.get("audioDurationMs", seconds * 1000) / 3_600_000 * TRANSCRIBE_PER_HOUR,
+                  request_id=data.get("sessionId"))
+    return data
+
+
+def batch_to_call(data: dict, call_id: str) -> Call:
+    """The batch response's turns (start, end, speaker) as a call; words are spread over each turn."""
+    turns = tuple(
+        Turn(str(t.get("speaker") or "A"), t.get("startMs", 0) / 1000, t.get("endMs", 0) / 1000, t.get("transcript", ""))
+        for t in data.get("turns", []) if (t.get("transcript") or "").strip()
+    )
+    if not turns and (data.get("transcript") or "").strip():
+        turns = (Turn("A", 0.0, data.get("audioDurationMs", 0) / 1000, data["transcript"]),)
+    return Call(call_id, turns)

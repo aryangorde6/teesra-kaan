@@ -144,3 +144,36 @@ def test_eval_runs_on_saved_transcription_sessions(tmp_path, capsys):
     main(["eval", str(sessions), "--labels", str(labels), "--run", "A", "--out", str(out)])
     result = json.loads(out.read_text())
     assert result["by_set"]["IN-scam"]["caught_red"]["k"] == 1
+
+
+def test_batch_transcription_reserves_and_becomes_a_call(tmp_path, monkeypatch):
+    from teesrakaan.asr import batch_to_call, transcribe_batch
+
+    monkeypatch.setenv("TEESRAKAAN_ALLOW_PAID", "1")
+    monkeypatch.setenv("MODEL_API_KEY", "test-key")
+    seen = {}
+
+    def handler(request):
+        seen["auth"] = request.headers["authorization"]
+        seen["body"] = request.content
+        return httpx.Response(200, json={"sessionId": "b1", "audioDurationMs": 6000, "transcript": "...", "turns": [
+            {"turnId": 1, "startMs": 0, "endMs": 1500, "transcript": "Hello?", "speaker": "A"},
+            {"turnId": 2, "startMs": 1800, "endMs": 6000, "speaker": "B",
+             "transcript": "Main crime branch se bol raha hoon. Aapke naam pe FIR hai. Kisi ko mat batana."}]})
+
+    ledger = Ledger("meta", 120.0, tmp_path / "b.sqlite")
+    wav = b"RIFF" + b"\0" * 40 + b"\0" * BYTES_PER_SECOND * 6
+    data = transcribe_batch(wav, ledger=ledger, http=httpx.Client(transport=httpx.MockTransport(handler)))
+    assert seen["auth"] == "Bearer test-key" and b'"mode": "DIARIZATION"' in seen["body"] and b"call.wav" in seen["body"]
+    assert ledger.summary().spent_usd == pytest.approx(6 / 3600 * 0.18)
+    call = batch_to_call(data, "r")
+    assert call.caller_label() == "B"
+    assert simulate(call, KeywordJudge()).level == Level.RED
+
+
+def test_check_endpoint_is_off_without_permission():
+    from fastapi.testclient import TestClient
+
+    from teesrakaan.web.app import app
+
+    assert TestClient(app).post("/api/check?lang=en", content=b"x").status_code == 503

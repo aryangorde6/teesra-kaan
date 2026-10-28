@@ -128,3 +128,22 @@ def test_a_recorded_session_is_a_demo_call_with_its_audio(tmp_path, monkeypatch)
     out = web.demo_events(web._demo_calls()["IS-demo"], "en")
     assert out[0][1]["call"]["judge"] == "keyword stand-in (no model)"
     assert any(e["type"] == "alarm" and e["warning"]["level"] == "red" for _, e in out)
+
+
+def test_checking_a_recording_end_to_end(monkeypatch):
+    import teesrakaan.asr as asr
+
+    monkeypatch.setenv("TEESRAKAAN_ALLOW_PAID", "1")
+    monkeypatch.setenv("MODEL_API_KEY", "test-key")
+    monkeypatch.setenv("TEESRAKAAN_LIVE_JUDGE", "keywords")
+    monkeypatch.setattr(asr, "wav16k", lambda path: b"wav")
+    monkeypatch.setattr(asr, "transcribe_batch", lambda wav: {"turns": [
+        {"startMs": 0, "endMs": 1200, "transcript": "Haan ji?", "speaker": "A"},
+        {"startMs": 1500, "endMs": 9000, "speaker": "B",
+         "transcript": "Main TRAI se bol raha hoon. Aapka number do ghante mein band ho jayega. OTP bata dijiye."}]})
+    r = client.post("/api/check?lang=mr", content=b"fake audio")
+    assert r.status_code == 200
+    events = r.json()["events"]
+    assert events[0]["type"] == "start" and events[-1]["type"] == "end"
+    assert any(e["type"] == "alarm" and e["warning"]["level"] == "red" for e in events)
+    assert "1930" in events[-1]["report_markdown"]

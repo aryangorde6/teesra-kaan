@@ -36,6 +36,10 @@
         <select id="call" aria-label="Demo call"></select>
         <button id="play" class="secondary" data-t="demo">Play a demo call</button>
       </div>
+      <label id="upload" class="secondary upload" hidden>
+        <span data-t="upload">Check a call you recorded</span>
+        <input id="file" type="file" accept="audio/*" hidden>
+      </label>
     </section>
 
     <section id="alert" class="alert" hidden aria-live="assertive">

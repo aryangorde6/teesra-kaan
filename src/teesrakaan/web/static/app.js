@@ -8,6 +8,8 @@ const UI = {
     live_soon: "The live microphone connects with the speech API.",
     live_on: "Put the call on speaker, then tap Start.",
     demo: "Play a demo call",
+    upload: "Check a call you recorded",
+    checking: "Checking the recording…",
     transcript: "What the caller is saying",
     signals: "Warning signs",
     report: "Report for 1930",
@@ -37,6 +39,8 @@ const UI = {
     live_soon: "लाइव माइक स्पीच API जुड़ने पर चालू होगा।",
     live_on: "कॉल को स्पीकर पर रखें, फिर शुरू करें दबाएँ।",
     demo: "डेमो कॉल चलाएँ",
+    upload: "रिकॉर्ड किया हुआ कॉल जाँचें",
+    checking: "रिकॉर्डिंग जाँची जा रही है…",
     transcript: "कॉल करने वाला क्या कह रहा है",
     signals: "चेतावनी के संकेत",
     report: "1930 के लिए रिपोर्ट",
@@ -66,6 +70,8 @@ const UI = {
     live_soon: "स्पीच API जोडल्यावर लाइव्ह माइक सुरू होईल.",
     live_on: "कॉल स्पीकरवर ठेवा, मग सुरू करा दाबा.",
     demo: "डेमो कॉल चालवा",
+    upload: "रेकॉर्ड केलेला कॉल तपासा",
+    checking: "रेकॉर्डिंग तपासत आहे…",
     transcript: "फोन करणारा काय बोलतोय",
     signals: "धोक्याची चिन्हे",
     report: "1930 साठी अहवाल",
@@ -287,6 +293,22 @@ function play() {
   socket.onmessage = (msg) => handle(JSON.parse(msg.data), Number(speed));
 }
 
+async function checkFile(file) {
+  stopMic();
+  if (socket) socket.close();
+  reset();
+  $("#status").textContent = t("checking");
+  try {
+    const r = await fetch(`/api/check?lang=${lang}`, { method: "POST", body: file });
+    const data = await r.json();
+    if (!r.ok) throw new Error(data.detail || r.statusText);
+    // Replay the result at 4x, so the warning still arrives at the moment it would have.
+    data.events.forEach((e) => setTimeout(() => handle(e, 4), (e.t * 1000) / 4));
+  } catch (err) {
+    $("#status").textContent = String(err.message || err);
+  }
+}
+
 async function listen() {
   if (mic) {
     if (socket && socket.readyState === 1) socket.send(JSON.stringify({ type: "stop" }));
@@ -367,6 +389,8 @@ async function init() {
     liveAvailable = (await fetch("/api/status").then((r) => r.json())).live;
   } catch (e) {}
   $("#live").disabled = !liveAvailable;
+  $("#upload").hidden = !liveAvailable;
+  $("#file").addEventListener("change", (e) => { if (e.target.files[0]) checkFile(e.target.files[0]); e.target.value = ""; });
   const hint = document.querySelector(".hint");
   hint.dataset.t = liveAvailable ? "live_on" : "live_soon";
   hint.textContent = t(hint.dataset.t);
