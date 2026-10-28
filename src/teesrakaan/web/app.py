@@ -97,7 +97,8 @@ def demo_events(call: Call, lang: str, timing: Timing = Timing(), judge=None) ->
             events.append((update.t, 3, {"type": "alarm", "t": round(update.t, 1),
                                          "warning": warning(update.alarm, dict(quotes), lang)}))
     pack = build_report(call, result.listener, lang)
-    end = call.duration + timing.transcribe_delay
+    # The report comes last: after the call, and after any answer the judge was still working on when it ended.
+    end = max([call.duration + timing.transcribe_delay] + [u.t + 0.1 for u in result.listener.updates])
     events.append((end, 4, {
         "type": "end",
         "timing": {"t_warn": result.t_warn, "t_red": result.t_red,
