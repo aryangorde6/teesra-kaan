@@ -91,6 +91,13 @@ def cmd_split(args: argparse.Namespace) -> None:
         print(f"{sid},{split}")
 
 
+def cmd_ftc(args: argparse.Namespace) -> None:
+    from .ftc import fetch
+
+    sheet = fetch(Path(args.dest))
+    print(f"wrote {sheet}")
+
+
 def cmd_labels(args: argparse.Namespace) -> None:
     if args.template:
         write_template(args.path)
@@ -131,6 +138,10 @@ def main(argv: list[str] | None = None) -> None:
     p = sub.add_parser("split", help="assign script ids (one per line) to dev or test with the fixed seed")
     p.add_argument("ids")
     p.set_defaults(func=cmd_split)
+
+    p = sub.add_parser("ftc-fetch", help="download the 200 sampled FTC robocalls (public domain), pinned and hash-checked")
+    p.add_argument("--dest", default="data/ftc")
+    p.set_defaults(func=cmd_ftc)
 
     p = sub.add_parser("labels", help="check a labelling sheet, or write an empty one")
     p.add_argument("path")

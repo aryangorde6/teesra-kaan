@@ -126,6 +126,9 @@ def split_scripts(script_ids: Sequence[str], seed: int = SPLIT_SEED, dev_share: 
 
 
 def sample_ftc(file_names: Iterable[str], n: int = FTC_SAMPLE, n_dev: int = FTC_DEV) -> dict[str, str]:
-    """English FTC calls sorted by sha256(file_name); the first n are used, the first n_dev of them dev."""
-    ranked = sorted(file_names, key=lambda name: hashlib.sha256(name.encode("utf-8")).hexdigest())[:n]
+    """English FTC calls sorted by sha256(file_name); the first n are used, the first n_dev of them dev.
+
+    Duplicate names (one recording listed under two FTC cases) count once.
+    """
+    ranked = sorted(set(file_names), key=lambda name: hashlib.sha256(name.encode("utf-8")).hexdigest())[:n]
     return {name: ("dev" if i < n_dev else "test") for i, name in enumerate(ranked)}

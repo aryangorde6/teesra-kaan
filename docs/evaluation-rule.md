@@ -1,6 +1,6 @@
 # Evaluation rule
 
-Version 1.1, Oct 28, 2026, **before any result exists** (v1 was written the same afternoon; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
+Version 1.2, Oct 28, 2026, **before any result exists** (v1 was written the same afternoon; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
 
 ## The question
 When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally before the caller asks for money or secrets), **without** crying wolf on genuine calls, in Hindi, Marathi and English?
@@ -16,7 +16,7 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
 
 **Splits:**
 - **IN-scam and IN-genuine:** every script is written and numbered first. A shuffle with seed `20261028` then assigns 40% to dev and 60% to test, before anything is recorded.
-- **FTC:** the 1,378 English calls are sorted by `sha256(file_name)` and the first 200 are taken. The first 50 of those are dev, the other 150 test.
+- **FTC:** the 1,378 English rows of `metadata.csv` are 1,353 distinct recordings (25 are listed under two FTC cases). The distinct file names are sorted by `sha256(file_name)` and the first 200 are taken. The first 50 of those are dev, the other 150 test. The dataset is pinned to commit `5aa6f3b`, and every file is checked against its git hash (`teesrakaan ftc-fetch`).
 - **Test audio** is not listened to or inspected by anyone working on prompts or rules until the freeze.
 
 ## Labels (made before the system runs on a call)
@@ -26,7 +26,7 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
   - **t_ask**, the time of the first ask (A5, A6, A7 or A11), if there is one.
 
   Marked by listening, in the labelling sheet ([labelling.md](labelling.md)), before the system's output on that call has been seen.
-- **FTC:** each call is labelled from its audio and the dataset transcript as one of:
+- **FTC:** each call is labelled from its audio and the dataset transcript as one of the classes below. **Dev calls are labelled now; the 150 test calls are labelled after the freeze and before the test run,** so nobody working on prompts or rules reads them early:
   - **impersonation scam:** poses as a government body, bank or company and pushes an action;
   - **sales robocall:** warranty, insurance, solar, debt relief and similar;
   - **other.**
@@ -85,3 +85,7 @@ One command runs every set, comparison and ablation from the cached transcripts 
   - `t_warn` defined as the first amber or red, with the first red reported beside it;
   - comparison A defined exactly: the keyword lists plus the same rules;
   - the labelling sheet's format fixed in `labelling.md`.
+- **v1.2, Oct 28, 2026 (19:20 IST), after downloading the FTC sample and before any call was run or listened to:**
+  - the FTC sample is drawn from the 1,353 distinct English recordings, since 25 of the 1,378 English rows repeat a recording under a second FTC case;
+  - FTC test calls are labelled after the freeze, before the test run (labelling them now would mean reading test transcripts);
+  - 8 of the 200 sampled recordings are 8 kHz, not 16 kHz; they're kept as they are and sent to transcription unchanged.
