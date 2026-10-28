@@ -66,6 +66,9 @@ PATTERNS: dict[str, tuple[str, ...]] = {
         stem(r"arrest|giraftar|giraftaar|warrant|fir\b|jail|money laundering|legal action|suspend|deactivat|"
              r"disconnect|गिरफ्तार|गिरफ़्तार|वारंट|एफआईआर|जेल|अटक|गुन्हा|कानूनी कार्रवाई|कारवाई"),
         near(stem(r"case|केस"), stem(r"darj|register|file|दर्ज|दाखल"), 20),
+        # The courier opening (pattern 2): drugs "found" in a parcel, and a case "linked" to you.
+        stem(r"mdma|narcotic|drug trafficking|drugs? (?:were |was )?found|ड्रग्स|ड्रग|तस्करी|अमली पदार्थ"),
+        near(stem(r"case|केस"), stem(r"linked|connected|juda|jud gaya|जुड़ा|जुडा|जोडल"), 25),
         stem(r"pakad liya|पकड़ा गया|पकड़ लिया|arrested|"
              r"suspicious activit|unauthori[sz]ed|fraudulent (?:activit|charge|transaction)|"
              r"order (?:has been |was )?placed|disconnection|संदिग्ध|अनधिकृत|संशयास्पद"),
@@ -83,7 +86,8 @@ PATTERNS: dict[str, tuple[str, ...]] = {
         stem(r"kisi ko bataya to|told anyone|किसी को बताया तो|कोणाला सांगितलं तर"),
         near(stem(r"kisi|kisi ko|anyone|family|ghar|mummy|papa|parents|husband|wife|uncle|aunty|"
                   r"किसी|कोणाला|कुणाला|घर|मम्मी|पापा|अंकल|काकांना|घरच्यांना"),
-             stem(r"mat bata|na bata|nahi bata|don't tell|do not tell|मत बता|न बता|सांगू नका|सांगू नकोस"), 25),
+             stem(r"mat bata|na bata|nahi bata|don't tell|do not tell|don't inform|do not inform|"
+                  r"मत बता|न बता|सांगू नका|सांगू नकोस|कळवू नका"), 25),
         near(stem(r"call|phone|line|कॉल|फोन|फ़ोन"),
              stem(r"cut mat|disconnect mat|mat kaat|mat kat|don't disconnect|do not disconnect|don't hang|"
                   r"मत काट|ठेवू नका|कट करू नका"), 25),

@@ -41,3 +41,19 @@ Every change to the signals, rules, keyword lists or the Spark prompt, with the 
 - **What:** `playbook.py` turns the nine patterns into ordered scripts. A prediction needs two steps of a script heard, and every best-matching script must agree on the next step; after "police" + "FIR" alone it waits.
 - **Demo calls only (not an evaluation):** in the written digital-arrest call, "come on a video call" is shown 24 s before the caller says it, and "transfer the money" 11 s before; in the Marathi TRAI call, "tell me the OTP" 13 s before. The genuine bank call shows one prediction ("transfer money") that never comes true. Metric 7 in `evaluation-rule.md` measures this on dev and test.
 - **Prior work, to cite:** ScriptMind (arXiv 2601.13581, Korean phone scams, simulated calls) and PreScam (arXiv 2605.12243, a benchmark; LLMs predicted next steps only moderately). Neither is live, in Indian languages, or measured on real call audio.
+
+## Oct 29, 2026, 02:50 IST: the next line on dev, keyword baseline v1.2b → v1.2c
+- **Sets:** the 50 FTC dev calls (the dataset's transcripts) and the 28 dev scripts (text, estimated timings). **Judge:** keywords (comparison A). Playbook v1, rules v1.2. Metric 7 as coded in `metrics.py`.
+
+| Keywords | IN-scam: next line came true | Naive guess | Median s ahead | Scam calls with one | IN-scam warned / red | IN-genuine amber or red | FTC: came true (naive) | FTC impersonation warned |
+|---|---|---|---|---|---|---|---|---|
+| v1.2b | 3/13 (8–50%) | 0/13 (0–23%) | 1 s | 9/16 | 16/16 / 14/16 | 0/12 | 0/9 (1/9) | 40/41 |
+| v1.2c | 6/16 (18–61%) | 2/16 (3–36%) | 2 s | 9/16 | 16/16 / 14/16 | 0/12 | 0/9 (1/9) | 40/41 |
+
+- **Why most v1.2b predictions missed:** 9 of 13 named a step the keyword stand-in never found, though the caller said it in other words. "200 grams of MDMA… linked to a drug trafficking case" (IS04), "पार्सल में ड्रग्स… मिले हैं" (IS13) and "140 gram MDMA mila hai" (IS24) weren't read as a legal threat (A2); "Do not inform your family" (IS33) wasn't read as secrecy (A4). Muse Spark judges meaning, so run C is the real measure, once the credits arrive.
+- **What changed (comparison A's keyword lists only; signals, rules and playbook unchanged):**
+  - A2: drugs "found", MDMA, narcotics, trafficking, and a case "linked" to you: the courier opening of pattern 2;
+  - A4: "don't inform".
+  - Nothing narrower: IS24's "don't keep any family member in the room" is one script's wording, so it's left out.
+- **What it says about the feature:** in these short written scripts the lines come true only seconds ahead (median 2 s). The caller often says the next step in the very next breath, before the judge's answer is back, and a line said before it's shown doesn't count. The demo call's 24 s and 11 s came from a longer call with the listener talking in between. Don't promise a lead time on screen until the test run gives one.
+- **FTC:** 0 of 9 came true, as the rule expected: robocalls stop at "press 1".
