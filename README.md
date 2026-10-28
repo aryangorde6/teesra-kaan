@@ -65,7 +65,7 @@ AI that spots scam calls is not new. This is what we found, and how Teesra Kaan 
 | [PreScam](https://arxiv.org/abs/2605.12243) (May 2026) | Research: a benchmark built from real scam reports; it found that "next-action prediction remains only moderately successful even for strong LLMs" |
 
 **How Teesra Kaan differs:**
-- **The next line, live, in Hindi, Marathi and English.** The two papers predict the scammer's next move in research settings; neither runs live on a call or in an Indian language. Ours comes from fixed scripts out of the advisories, not from a model, which is where PreScam found models weak.
+- **The next line, live, in Hindi, Marathi and English.** The two papers predict the scammer's next move in research settings (Korean cases with simulations; written scam reports), and neither abstract describes a live tool or an Indian language. Ours comes from fixed scripts out of the advisories, not from a model, which is where PreScam found models weak.
 - **It shows its proof.** Every warning quotes the caller's own words, and a quote the caller never said is thrown away.
 - **Fixed rules decide, not the model,** and one warning sign alone never warns.
 - **It's measured** on a test fixed before any result, on real FTC calls and Indian re-enactments, against keyword lists and against Muse Spark asked plainly "is this a scam?".
