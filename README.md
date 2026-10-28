@@ -2,6 +2,10 @@
 
 **Put a suspicious call on speaker and open the page. Teesra Kaan listens in Hindi, Marathi or English, and the moment the caller starts a known scam it warns you in your language, quoting the caller's own words. When the call ends, it hands you a ready report for 1930 and cybercrime.gov.in.**
 
+<img src="docs/demo.gif" width="300" align="right" alt="The page playing a demo 'digital arrest' call: the transcript, then a red warning in Hindi quoting the caller">
+
+*Right: the page playing a written demo call (4× speed, offline keyword stand-in for Muse Spark). It will be replaced by a real re-enacted call through Muse Voice Transcribe and Muse Spark.*
+
 - **Live:** https://teesrakaan.aryangorde.com *(from Nov 2)*
 - **Video (3 min):** *(link on Nov 4)*
 - **Built during** the Meta Global AI Developer Hackathon, Oct 26 – Nov 4, 2026. Every commit in this repo is from those dates.
