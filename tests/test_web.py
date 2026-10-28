@@ -147,3 +147,27 @@ def test_checking_a_recording_end_to_end(monkeypatch):
     assert events[0]["type"] == "start" and events[-1]["type"] == "end"
     assert any(e["type"] == "alarm" and e["warning"]["level"] == "red" for e in events)
     assert "1930" in events[-1]["report_markdown"]
+
+
+def test_live_call_loses_no_word_while_the_judge_runs():
+    import threading
+
+    from teesrakaan.keywords import KeywordJudge
+    from teesrakaan.live import LiveCall
+
+    call = LiveCall(KeywordJudge())
+    call.on_event({"type": "speechStart", "turnId": 1, "audioProcessedMs": 0})
+    words = [f"w{i}" for i in range(3000)]
+    stop = threading.Event()
+
+    def judge_loop():
+        while not stop.is_set():
+            call.check(1.0)
+
+    worker = threading.Thread(target=judge_loop)
+    worker.start()
+    call.on_event({"type": "speechComplete", "turnId": 1, "transcript": " ".join(words), "audioProcessedMs": 9000})
+    stop.set()
+    worker.join()
+    call.check(2.0)
+    assert call.listener.transcript.n_words == 3000

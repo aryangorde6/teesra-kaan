@@ -8,6 +8,7 @@ judge, which runs in a worker thread, never reads a transcript that's being writ
 
 from __future__ import annotations
 
+import threading
 from dataclasses import dataclass, field
 
 from .judge import Judge
@@ -38,6 +39,7 @@ class LiveCall:
         self.turn_done = False
         self.quotes: dict[str, str] = {}
         self.counts: dict[str, int] = {}  # words per speaker, kept on the event loop's side
+        self._lock = threading.Lock()  # guards `pending` between the event loop and the judge's thread
 
     def _who(self, speaker: str) -> str:
         """The page's colour for a speaker: the caller is whoever has said the most so far."""
@@ -48,7 +50,8 @@ class LiveCall:
     def _commit(self, turn: _Turn, words: list[str], upto: int, said: float) -> list[dict]:
         out = []
         for word in words[turn.committed : upto]:
-            self.pending.append((said, turn.speaker, word))
+            with self._lock:
+                self.pending.append((said, turn.speaker, word))
             self.counts[turn.speaker] = self.counts.get(turn.speaker, 0) + 1
             out.append({"type": "word", "speaker": self._who(turn.speaker), "t": round(said, 2), "word": word})
         turn.committed = max(turn.committed, upto)
@@ -92,7 +95,8 @@ class LiveCall:
 
     def check(self, now: float) -> list[dict]:
         """Runs in a worker thread: hand the buffered words to the Listener, ask the judge, report changes."""
-        batch, self.pending = self.pending, []
+        with self._lock:
+            batch, self.pending = self.pending, []
         self.turn_done = False
         self.last_check = now
         for said, speaker, word in batch:
