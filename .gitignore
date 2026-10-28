@@ -1,0 +1,32 @@
+# Secrets: API keys live only in .env
+.env
+.env.*
+!.env.example
+
+# Donated real calls and anything made from them: private, never committed
+private/
+
+# Downloads, caches, ledgers and outputs
+data/
+runs/
+*.sqlite
+*.sqlite-journal
+
+# Audio stays out of git unless it is a re-enactment we recorded and chose to publish
+*.wav
+*.mp3
+*.m4a
+*.amr
+*.aac
+*.ogg
+*.opus
+*.3gp
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
