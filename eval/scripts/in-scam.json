@@ -1,0 +1,355 @@
+{
+ "set": "IN-scam",
+ "version": "v1, Oct 28, 2026, written before the dev/test split",
+ "about": "Re-enactment scripts built from the patterns in docs/scam-tactics.md. Every name, number, amount and ID is made up. Actors follow the lines in order but say them in their own words.",
+ "scripts": [
+  {"id": "IS01", "pattern": 1, "language": "hi", "ask": true,
+   "roles": {"caller": "fake 'cyber cell inspector', firm and formal", "listener": "retired man, 60s, worried"},
+   "lines": [
+    ["caller", "नमस्ते, मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ। क्या आप सुरेश कुमार जी बोल रहे हैं?"],
+    ["listener", "हाँ, बोलिए। क्या बात है?"],
+    ["caller", "आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है। आपके नाम पर केस दर्ज हुआ है।"],
+    ["listener", "मैंने तो ऐसा कोई खाता नहीं खोला।"],
+    ["caller", "यह सीबीआई का मामला है। आपको अभी वीडियो कॉल पर बयान देना होगा। कैमरा चालू रखिए और कमरे में अकेले रहिए।"],
+    ["caller", "इस बारे में अपने परिवार को कुछ मत बताइए, नहीं तो उन पर भी कार्रवाई होगी।"],
+    ["listener", "ठीक है, लेकिन मुझे डर लग रहा है।"],
+    ["caller", "डरिए मत। जाँच पूरी होने तक आपके खाते का सारा पैसा आरबीआई के सुरक्षित खाते में ट्रांसफ़र करना होगा। जाँच के बाद पैसा वापस मिल जाएगा।"]
+   ]},
+  {"id": "IS02", "pattern": 3, "language": "mr", "ask": true,
+   "roles": {"caller": "recorded voice, then a fake 'DoT officer'", "listener": "working woman, 40s"},
+   "lines": [
+    ["caller", "नमस्कार. हा दूरसंचार विभागाकडून स्वयंचलित संदेश आहे. तुमचा मोबाईल नंबर आज रात्री बंद केला जाईल. अधिकाऱ्याशी बोलण्यासाठी 9 दाबा.", "recorded voice"],
+    ["caller", "हॅलो, मी दूरसंचार विभागातून अधिकारी पाटील बोलतोय. तुमच्या नावावर मुंबईत दुसरे सिम कार्ड घेतले आहे आणि त्यावरून फसवणुकीचे मेसेज पाठवले जात आहेत."],
+    ["listener", "पण माझ्याकडे एकच सिम आहे."],
+    ["caller", "म्हणूनच तुम्हाला पडताळणी करावी लागेल. नाहीतर तुमच्यावर पोलीस तक्रार दाखल होईल."],
+    ["caller", "पडताळणीसाठी तुमचा आधार नंबर आणि आत्ता आलेला OTP सांगा."]
+   ]},
+  {"id": "IS03", "pattern": 4, "language": "hi+en", "ask": true,
+   "roles": {"caller": "fake 'SBI KYC executive', polite and fast", "listener": "small shop owner, 50s"},
+   "lines": [
+    ["caller", "Hello sir, main SBI ke KYC department se Neha bol rahi hoon. Aapka KYC update pending hai."],
+    ["listener", "Achha? Maine toh branch mein sab jama kiya tha."],
+    ["caller", "Sir, RBI ke naye niyam ke hisaab se aaj raat 12 baje tak update nahi hua toh aapka account freeze ho jayega."],
+    ["listener", "Toh kya karna hoga?"],
+    ["caller", "Main aapko ek link bhej rahi hoon SMS pe. Usko open karke apni details bhar dijiye."],
+    ["caller", "Aur jo OTP aayega woh mujhe bata dijiye, main yahin se verify kar deti hoon."]
+   ]},
+  {"id": "IS04", "pattern": 2, "language": "en", "ask": false,
+   "roles": {"caller": "recorded voice, then a fake 'FedEx executive', then a fake 'sub-inspector'", "listener": "college student"},
+   "lines": [
+    ["caller", "This is a call from FedEx. Your parcel has been held at customs. Press 1 to speak to an executive.", "recorded voice"],
+    ["caller", "Good afternoon, I'm Rahul from FedEx Mumbai. A parcel booked with your Aadhaar from Mumbai to Taiwan has been stopped by customs."],
+    ["listener", "I haven't sent any parcel."],
+    ["caller", "It contains five passports, three credit cards and 200 grams of MDMA. I am transferring your call to the Mumbai cyber crime police right now."],
+    ["caller", "Hello, this is Sub-Inspector Vikram Singh, Mumbai Cyber Crime. Your name is linked to a drug trafficking case.", "a second voice"],
+    ["listener", "I think this is a scam. I'm hanging up."]
+   ]},
+  {"id": "IS05", "pattern": 5, "language": "hi", "ask": true,
+   "roles": {"caller": "fake buyer claiming to be in the army", "listener": "woman selling a sofa online"},
+   "lines": [
+    ["caller", "हेलो, मैंने आपका सोफ़ा बेचने वाला विज्ञापन देखा, मैं उसे खरीदना चाहता हूँ।"],
+    ["listener", "हाँ जी, सोफ़ा अभी है।"],
+    ["caller", "मैं आर्मी में हूँ, अभी बाहर पोस्टिंग पर हूँ। मैं आपको एडवांस पंद्रह हज़ार रुपये भेज रहा हूँ।"],
+    ["caller", "आपके फ़ोन पे पर एक रिक्वेस्ट आएगी, उसमें अपना यूपीआई पिन डाल दीजिए, पैसे आपके खाते में आ जाएँगे।"],
+    ["listener", "पैसे लेने के लिए पिन क्यों?"],
+    ["caller", "मैडम, यही प्रोसेस है, जल्दी कीजिए, मेरी ड्यूटी का टाइम हो रहा है।"]
+   ]},
+  {"id": "IS06", "pattern": 7, "language": "mr", "ask": true,
+   "roles": {"caller": "stranger claiming to be the son's friend, panicky", "listener": "mother, 50s"},
+   "lines": [
+    ["caller", "हॅलो, काकू, मी तुमच्या मुलाचा मित्र अमित बोलतोय. रोहनचा अपघात झालाय, तो हॉस्पिटलमध्ये आहे."],
+    ["listener", "काय? तो ठीक आहे ना?"],
+    ["caller", "डॉक्टर म्हणतात लगेच ऑपरेशन करावं लागेल. पन्नास हजार रुपये आत्ताच भरावे लागतील."],
+    ["caller", "मी तुम्हाला एक नंबर पाठवतो, त्यावर गुगल पे करा. आणि काकांना आत्ता काही सांगू नका, त्यांना टेन्शन येईल."],
+    ["listener", "मी रोहनला फोन करते."],
+    ["caller", "त्याचा फोन तुटलाय, तो बोलू शकत नाही. प्लीज लवकर करा."]
+   ]},
+  {"id": "IS07", "pattern": 6, "language": "hi+en", "ask": true,
+   "roles": {"caller": "fake 'food app customer care'", "listener": "young woman waiting for a refund"},
+   "lines": [
+    ["caller", "Hello ma'am, main Swiggy customer care se bol raha hoon, aapne refund ke liye complaint ki thi na?"],
+    ["listener", "Haan, mera order cancel hua tha, 640 rupaye ka."],
+    ["caller", "Ma'am, refund process karne ke liye aapko AnyDesk app download karna hoga. Play Store pe mil jayega."],
+    ["caller", "Download karke jo nau digit ka code aayega, woh mujhe bata dijiye. Main aapki screen pe refund process kar dunga."],
+    ["listener", "Itna sab kyon?"],
+    ["caller", "Ma'am system ka issue hai, warna refund 30 din baad hi aayega."]
+   ]},
+  {"id": "IS08", "pattern": 1, "language": "en", "ask": true,
+   "roles": {"caller": "fake 'NCB officer', cold and official", "listener": "homemaker, 50s"},
+   "lines": [
+    ["caller", "Hello, am I speaking with Mrs. Anita Desai? This is Officer Arjun Mehta from the Narcotics Control Bureau, Mumbai."],
+    ["listener", "Yes, what happened?"],
+    ["caller", "Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket."],
+    ["caller", "You are under digital arrest until the investigation is complete. Join this Skype call and do not disconnect."],
+    ["caller", "This is a matter of national security. You cannot discuss it with anyone, not even your husband."],
+    ["listener", "Am I going to jail?"],
+    ["caller", "If you cooperate, no. The judge has ordered that your funds be verified. You will transfer your fixed deposit to the government verification account today."]
+   ]},
+  {"id": "IS09", "pattern": 8, "language": "hi", "ask": true,
+   "roles": {"caller": "fake 'electricity office' caller", "listener": "elderly man"},
+   "lines": [
+    ["caller", "नमस्कार, मैं बिजली विभाग से बोल रहा हूँ। आपका पिछले महीने का बिल अपडेट नहीं हुआ है।"],
+    ["listener", "मैंने तो बिल भर दिया था।"],
+    ["caller", "सिस्टम में नहीं दिख रहा। आज रात साढ़े नौ बजे आपकी बिजली काट दी जाएगी।"],
+    ["caller", "अगर बिजली कटवानी नहीं है तो अभी 'बिजली सहायता' नाम का ऐप डाउनलोड कीजिए और उसमें दस रुपये का भुगतान करके बिल अपडेट कीजिए।"],
+    ["listener", "ठीक है, कौन सा ऐप?"]
+   ]},
+  {"id": "IS10", "pattern": 9, "language": "mr", "ask": true,
+   "roles": {"caller": "fake 'lucky draw department', cheerful", "listener": "housewife, 40s"},
+   "lines": [
+    ["caller", "अभिनंदन! मी कौन बनेगा करोडपती लकी ड्रॉ विभागातून बोलतेय. तुमच्या नंबरला पंचवीस लाखांची लॉटरी लागली आहे."],
+    ["listener", "खरंच? मी तर काहीच भाग घेतला नाही."],
+    ["caller", "हा मोबाईल कंपनी आणि केबीसीचा संयुक्त लकी ड्रॉ आहे. बक्षीस मिळवण्यासाठी फक्त प्रोसेसिंग फी आणि जीएसटी भरावा लागेल."],
+    ["caller", "बारा हजार पाचशे रुपये आजच भरा, उद्या रक्कम तुमच्या खात्यात जमा होईल."]
+   ]},
+  {"id": "IS11", "pattern": 1, "language": "hi+en", "ask": false,
+   "roles": {"caller": "fake 'ED deputy director'", "listener": "businessman, 50s"},
+   "lines": [
+    ["caller", "Hello, main Enforcement Directorate se Deputy Director Anil Kapoor bol raha hoon."],
+    ["listener", "Ji, boliye."],
+    ["caller", "Ek money laundering case mein aapke bank account se 2 crore ka transaction mila hai. Aapke naam ka arrest warrant jaari hua hai."],
+    ["caller", "Main aapko WhatsApp pe warrant ki copy bhej raha hoon. Abhi WhatsApp video call pe aaiye."],
+    ["caller", "Aur dhyan rahe, yeh confidential investigation hai, kisi ko bataya toh aapko turant giraftaar kiya jayega."],
+    ["listener", "Main apne lawyer se baat karke call karta hoon."]
+   ]},
+  {"id": "IS12", "pattern": 4, "language": "en", "ask": true,
+   "roles": {"caller": "fake 'credit card department' executive", "listener": "IT employee, 30s"},
+   "lines": [
+    ["caller", "Good evening sir, I'm calling from HDFC Bank credit card department. Your card ending 4471 has been used for an international transaction of 48,000 rupees."],
+    ["listener", "What? I didn't do any transaction."],
+    ["caller", "Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date."],
+    ["caller", "Now you'll receive an OTP. Please read it out to me so I can block the card immediately."]
+   ]},
+  {"id": "IS13", "pattern": 2, "language": "hi", "ask": true,
+   "roles": {"caller": "recorded voice, a fake 'courier' woman, then a fake 'sub-inspector'", "listener": "teacher, 40s"},
+   "lines": [
+    ["caller", "आपका कूरियर कस्टम में रोका गया है। अधिक जानकारी के लिए 1 दबाएँ।", "recorded voice"],
+    ["caller", "नमस्ते, मैं डीएचएल से बोल रही हूँ। आपके नाम से ईरान भेजा गया एक पार्सल कस्टम ने जब्त किया है।"],
+    ["listener", "मैंने कोई पार्सल नहीं भेजा।"],
+    ["caller", "पार्सल में ड्रग्स और नकली पासपोर्ट मिले हैं। आपको अभी मुंबई पुलिस से बात करनी होगी, मैं कॉल ट्रांसफ़र कर रही हूँ।"],
+    ["caller", "मुंबई पुलिस, सब-इंस्पेक्टर देशमुख। आपका आधार इस केस से जुड़ा है। अपना आधार नंबर बताइए, हम जाँच करते हैं।", "a second voice"]
+   ]},
+  {"id": "IS14", "pattern": 3, "language": "hi+en", "ask": false,
+   "roles": {"caller": "recorded voice, then a fake 'TRAI officer'", "listener": "young man"},
+   "lines": [
+    ["caller", "This call is from TRAI. Your mobile number will be blocked in two hours. Press 9 to talk to customer care.", "recorded voice"],
+    ["caller", "Hello, main TRAI se Sunil Sharma. Aapke Aadhaar pe liye gaye ek doosre number se illegal advertising messages gaye hain, 17 complaints hain."],
+    ["listener", "Mera toh ek hi number hai."],
+    ["caller", "Toh aapko Mumbai police se NOC lena padega. Main aapko Andheri police station se connect karta hoon."]
+   ]},
+  {"id": "IS15", "pattern": 5, "language": "en", "ask": true,
+   "roles": {"caller": "stranger, apologetic, claims a wrong transfer", "listener": "woman, 30s"},
+   "lines": [
+    ["caller", "Hello madam, sorry to disturb you. By mistake I sent 5,000 rupees to your Google Pay number. It was meant for my brother's fees."],
+    ["listener", "Oh, I haven't checked."],
+    ["caller", "Please check, madam. I am sending you a request for 5,000 now. Just accept and enter your PIN, the money goes back to me."],
+    ["caller", "Please madam, quickly, my brother's college is closing."]
+   ]},
+  {"id": "IS16", "pattern": 7, "language": "hi", "ask": true,
+   "roles": {"caller": "fake 'head constable', then a crying 'son'", "listener": "father, 50s"},
+   "lines": [
+    ["caller", "हेलो, मैं थाने से हेड कांस्टेबल शर्मा बोल रहा हूँ। आपका बेटा विकास एक लड़ाई के केस में पकड़ा गया है।"],
+    ["listener", "क्या? वो तो कॉलेज गया है।"],
+    ["caller", "पापा, मुझे बचा लो, प्लीज़।", "a second voice, crying"],
+    ["caller", "अगर केस नहीं बनवाना है तो अभी पचास हज़ार भेजिए। किसी को बताया तो एफ़आईआर हो जाएगी और लड़के का करियर खत्म।"]
+   ]},
+  {"id": "IS17", "pattern": 4, "language": "mr", "ask": true,
+   "roles": {"caller": "fake 'bank' caller", "listener": "retired woman"},
+   "lines": [
+    ["caller", "नमस्कार, मी बँक ऑफ महाराष्ट्रमधून बोलतेय. तुमचे पॅन कार्ड खात्याशी लिंक नाही."],
+    ["listener", "हो का? मला माहीत नव्हतं."],
+    ["caller", "आज संध्याकाळपर्यंत लिंक केलं नाही तर तुमचं खातं ब्लॉक होईल. मी तुम्हाला एक लिंक पाठवते, त्यावर क्लिक करा."],
+    ["caller", "लिंकवर तुमचा कस्टमर आयडी, पासवर्ड आणि आलेला OTP टाका."]
+   ]},
+  {"id": "IS18", "pattern": 1, "language": "mr", "ask": true,
+   "roles": {"caller": "fake 'crime branch inspector'", "listener": "professor, 60s"},
+   "lines": [
+    ["caller", "नमस्कार, मी मुंबई क्राइम ब्रँचमधून इन्स्पेक्टर जाधव बोलतोय. तुमच्या नावावर मनी लाँड्रिंगचा गुन्हा दाखल झाला आहे."],
+    ["listener", "माझ्यावर? काय झालं?"],
+    ["caller", "तुमच्या आधार कार्डवर उघडलेल्या खात्यात हवालाचे पैसे आले आहेत. तुम्हाला अटक होऊ शकते."],
+    ["caller", "आता व्हिडिओ कॉलवर या आणि कॅमेरा चालू ठेवा. चौकशी संपेपर्यंत फोन ठेवू नका, आणि घरच्यांना काही सांगू नका."],
+    ["listener", "ठीक आहे साहेब."],
+    ["caller", "तुमच्या खात्यातील सगळे पैसे आरबीआयच्या पडताळणी खात्यात जमा करा. चौकशीनंतर परत मिळतील."]
+   ]},
+  {"id": "IS19", "pattern": 6, "language": "hi", "ask": true,
+   "roles": {"caller": "fake 'wallet customer care'", "listener": "man, 30s, lost money in a failed payment"},
+   "lines": [
+    ["caller", "नमस्ते, मैं पेटीएम कस्टमर केयर से बोल रहा हूँ। आपने कल रिफ़ंड की शिकायत की थी।"],
+    ["listener", "हाँ, मेरे 2,300 रुपये कट गए थे।"],
+    ["caller", "आपका रिफ़ंड मंज़ूर हो गया है। उसके लिए क्विक सपोर्ट ऐप डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ।"],
+    ["caller", "अब पेटीएम खोलिए और जो मैं बोलूँ वो रकम डालिए।"]
+   ]},
+  {"id": "IS20", "pattern": 9, "language": "hi+en", "ask": true,
+   "roles": {"caller": "fake 'KBC head office' man", "listener": "young woman"},
+   "lines": [
+    ["caller", "Namaskar, main KBC head office Mumbai se Rana Pratap Singh bol raha hoon. Aapka number 25 lakh ke lucky draw mein select hua hai."],
+    ["listener", "Sach mein? Kaise?"],
+    ["caller", "Aapke WhatsApp pe lottery certificate bheja hai, check kariye. Paisa release karne ke liye 18,500 ka tax jama karna hoga."],
+    ["caller", "Yeh baat abhi kisi ko mat batana, warna prize cancel ho jayega."]
+   ]},
+  {"id": "IS21", "pattern": 2, "language": "mr", "ask": false,
+   "roles": {"caller": "recorded voice, then a fake 'FedEx office' man", "listener": "engineer, 30s"},
+   "lines": [
+    ["caller", "तुमचे फेडेक्स पार्सल परत आले आहे. अधिक माहितीसाठी 1 दाबा.", "recorded voice"],
+    ["caller", "नमस्कार, फेडेक्स मुंबई ऑफिस. तुमच्या नावाने थायलंडला पाठवलेल्या पार्सलमध्ये बेकायदेशीर ड्रग्स सापडले आहेत."],
+    ["listener", "मी कुठलंही पार्सल पाठवलं नाही."],
+    ["caller", "मग कोणीतरी तुमच्या आधारचा गैरवापर केला आहे. तुम्ही लगेच सायबर पोलिसात तक्रार करा. मी तुम्हाला थेट त्यांच्याशी जोडतो."]
+   ]},
+  {"id": "IS22", "pattern": 3, "language": "hi", "ask": true,
+   "roles": {"caller": "recorded voice, then a fake 'DoT officer'", "listener": "woman, 30s"},
+   "lines": [
+    ["caller", "यह दूरसंचार विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा। ज़्यादा जानकारी के लिए नौ दबाएँ।", "recorded voice"],
+    ["caller", "नमस्कार, मैं दूरसंचार विभाग से अधिकारी वर्मा। आपके नंबर के खिलाफ़ उत्पीड़न की शिकायत आई है।"],
+    ["listener", "मैंने किसी को परेशान नहीं किया।"],
+    ["caller", "तो आपको वेरिफ़िकेशन करवाना होगा। अपना आधार नंबर बताइए और जो ओटीपी आएगा वो भी बताइए।"]
+   ]},
+  {"id": "IS23", "pattern": 4, "language": "hi+en", "ask": true,
+   "roles": {"caller": "fake 'bank app team'", "listener": "man, 40s"},
+   "lines": [
+    ["caller", "Hello, SBI YONO team se bol raha hoon. Aapka YONO account aaj block ho jayega kyunki PAN update nahi hai."],
+    ["listener", "Arre, kaise update karun?"],
+    ["caller", "Main aapko ek APK file bhejta hoon WhatsApp pe, usko install kariye, wahan PAN daal dijiye."],
+    ["caller", "Install hone ke baad app jo permissions maange, sab allow kar dena."]
+   ]},
+  {"id": "IS24", "pattern": 1, "language": "hi+en", "ask": true,
+   "roles": {"caller": "fake 'customs assistant commissioner'", "listener": "woman, 50s, alone at home"},
+   "lines": [
+    ["caller", "Hello, main Mumbai customs se Assistant Commissioner Shukla bol raha hoon. Aapke naam ka international parcel humne seize kiya hai."],
+    ["caller", "Ismein 140 gram MDMA mila hai. Aapka case CBI ko transfer ho chuka hai."],
+    ["listener", "Lekin main toh kuch nahi jaanti."],
+    ["caller", "Aapko online court hearing attend karni hogi. Skype download kariye, judge sahab video pe aayenge. Ghar ke kisi member ko room mein mat rakhiye."],
+    ["caller", "Judge sahab ne kaha hai ki aapki savings ka 90 percent security deposit ke roop mein jama karna hoga. Investigation ke baad refund ho jayega."]
+   ]},
+  {"id": "IS25", "pattern": 5, "language": "mr", "ask": true,
+   "roles": {"caller": "fake 'cashback department'", "listener": "college student"},
+   "lines": [
+    ["caller", "नमस्कार, मी फोनपे कॅशबॅक विभागातून बोलतोय. तुम्हाला दोन हजार रुपयांचा कॅशबॅक मिळाला आहे."],
+    ["listener", "अरे वा, कसा मिळेल?"],
+    ["caller", "तुमच्या फोनपे अ‍ॅपवर एक रिक्वेस्ट आली आहे. ती स्वीकारा आणि तुमचा UPI पिन टाका, कॅशबॅक लगेच जमा होईल."],
+    ["listener", "पिन टाकल्यावर पैसे येतील?"],
+    ["caller", "हो, फक्त पाच मिनिटांत ऑफर संपेल, लवकर करा."]
+   ]},
+  {"id": "IS26", "pattern": 8, "language": "mr", "ask": true,
+   "roles": {"caller": "fake 'MSEDCL office' man", "listener": "shopkeeper"},
+   "lines": [
+    ["caller", "नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमचं मागील महिन्याचं बिल अपडेट झालेलं नाही."],
+    ["listener", "पण मी ऑनलाइन भरलं होतं."],
+    ["caller", "सिस्टममध्ये दिसत नाही. आज रात्री साडेनऊ वाजता तुमची वीज कापली जाईल."],
+    ["caller", "वीज चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये भरा, आणि तुमचे कार्ड डिटेल्स टाका."]
+   ]},
+  {"id": "IS27", "pattern": 1, "language": "hi", "ask": true,
+   "roles": {"caller": "fake 'TRAI' man, then a fake 'police station'", "listener": "widow, 60s"},
+   "lines": [
+    ["caller", "नमस्कार, मैं ट्राई से बोल रहा हूँ, आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है, मैं आपकी कॉल मुंबई पुलिस को ट्रांसफ़र कर रहा हूँ।"],
+    ["caller", "मुंबई पुलिस, तिलक नगर थाना। आपके खिलाफ़ ह्यूमन ट्रैफ़िकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तुरंत गिरफ़्तारी होगी।", "a second voice"],
+    ["listener", "मेरी बेटी को बुला लूँ?"],
+    ["caller", "नहीं, यह गोपनीय जाँच है। किसी को बताया तो वो भी आरोपी माने जाएँगे।"],
+    ["caller", "आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफ़डी तुड़वाकर रकम हमारे बताए खाते में जमा करनी होगी।"]
+   ]},
+  {"id": "IS28", "pattern": 6, "language": "en", "ask": true,
+   "roles": {"caller": "fake 'shopping site support'", "listener": "man, 40s, returned a mixer"},
+   "lines": [
+    ["caller", "Hello, I'm calling from Amazon customer support. There's a refund of 3,499 rupees pending on your returned order."],
+    ["listener", "Oh yes, I returned a mixer last week."],
+    ["caller", "To credit the refund, please open the link I've sent on SMS and enter your UPI ID and PIN."],
+    ["caller", "Or you can install TeamViewer so I can do it for you from here."]
+   ]},
+  {"id": "IS29", "pattern": 7, "language": "hi+en", "ask": true,
+   "roles": {"caller": "someone pretending to be a nephew abroad, hoarse voice", "listener": "aunt, 50s"},
+   "lines": [
+    ["caller", "Hello mausi, main Kunal bol raha hoon, Canada se. Mera phone kho gaya, yeh dost ka number hai."],
+    ["listener", "Kunal? Awaaz alag lag rahi hai."],
+    ["caller", "Mausi, gala kharab hai. Yahan police ne pakad liya hai, visa ki problem hai. Mujhe abhi 80,000 chahiye lawyer ke liye."],
+    ["caller", "Mummy papa ko mat batana please, woh pareshaan ho jayenge. Main dost ka UPI ID bhejta hoon."]
+   ]},
+  {"id": "IS30", "pattern": 2, "language": "hi+en", "ask": true,
+   "roles": {"caller": "fake 'airport customs' woman", "listener": "woman who chats with a 'friend in London'"},
+   "lines": [
+    ["caller", "Hello, main Delhi airport customs se bol rahi hoon. Aapke naam London se ek gift parcel aaya hai jismein iPhone aur dollars hain."],
+    ["listener", "Haan, mera ek dost hai London mein."],
+    ["caller", "Parcel customs ne hold kiya hai kyunki dollars declare nahi kiye. Clearance ke liye 35,000 customs duty abhi jama karni hogi."],
+    ["caller", "Aaj jama nahi kiya toh money laundering ka case banega."]
+   ]},
+  {"id": "IS31", "pattern": 4, "language": "hi", "ask": true,
+   "roles": {"caller": "fake 'bank head office' woman", "listener": "man, 60s"},
+   "lines": [
+    ["caller", "नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की केवाईसी की तारीख निकल गई है, आज आपका खाता फ़्रीज़ हो जाएगा।"],
+    ["listener", "मैं कल बैंक जाकर करवा दूँगा।"],
+    ["caller", "कल तक तो खाता बंद हो जाएगा सर। मैं यहीं से कर देती हूँ। अपना एटीएम कार्ड नंबर और सीवीवी बताइए।"]
+   ]},
+  {"id": "IS32", "pattern": 3, "language": "en", "ask": false,
+   "roles": {"caller": "recorded voice, then a fake 'TRAI officer'", "listener": "man, 30s, sceptical"},
+   "lines": [
+    ["caller", "This is an automated message from the Telecom Regulatory Authority of India. All mobile services on your number will be suspended within two hours. Press 9 to speak to an officer.", "recorded voice"],
+    ["caller", "Hello, this is Officer Mehra from TRAI. Your SIM has been reported for sending illegal messages. Are you aware of this?"],
+    ["listener", "No. Who is this again?"],
+    ["caller", "Sir, if you don't cooperate, a case will be filed with the cyber crime department today itself."],
+    ["listener", "I'll visit my telecom store myself. Bye."]
+   ]},
+  {"id": "IS33", "pattern": 1, "language": "en", "ask": true,
+   "roles": {"caller": "fake 'CBI inspector', calm and menacing", "listener": "retired engineer, 70s"},
+   "lines": [
+    ["caller", "This is Inspector Kavita Rao, CBI, Delhi headquarters. Is this Mr. Thomas Mathew?"],
+    ["listener", "Yes, speaking."],
+    ["caller", "Sir, your SIM card was used to open accounts in a 68 crore money laundering case. A non-bailable warrant has been issued."],
+    ["caller", "Stay on this video call. You are being monitored. Do not inform your family or your bank, or they will also be arrested."],
+    ["listener", "I'll do whatever you say."],
+    ["caller", "Good. Now share your screen so we can check your bank statements."]
+   ]},
+  {"id": "IS34", "pattern": 9, "language": "hi", "ask": true,
+   "roles": {"caller": "fake 'insurance office' man", "listener": "retired woman"},
+   "lines": [
+    ["caller", "नमस्कार, मैं बीमा कंपनी के दिल्ली ऑफ़िस से बोल रहा हूँ। आपकी पुरानी पॉलिसी पर तीन लाख बीस हज़ार का बोनस निकला है।"],
+    ["listener", "अच्छा? मुझे तो पता नहीं था।"],
+    ["caller", "बोनस रिलीज़ करने के लिए आपको सात हज़ार रुपये की प्रोसेसिंग फ़ीस जमा करनी होगी। यह ऑफ़र आज तक ही है।"]
+   ]},
+  {"id": "IS35", "pattern": 6, "language": "mr", "ask": true,
+   "roles": {"caller": "fake 'railway booking customer care' woman", "listener": "man, 50s"},
+   "lines": [
+    ["caller", "नमस्कार, मी आयआरसीटीसी कस्टमर केअरमधून बोलतेय. तुमच्या रद्द केलेल्या तिकिटाचा रिफंड अडकला आहे."],
+    ["listener", "हो, अजून पैसे आले नाहीत."],
+    ["caller", "रिफंडसाठी तुम्हाला एनीडेस्क अ‍ॅप डाउनलोड करावं लागेल. मग मी तुमची स्क्रीन बघून रिफंड प्रोसेस करते."],
+    ["caller", "अ‍ॅपमधला नऊ अंकी कोड सांगा."]
+   ]},
+  {"id": "IS36", "pattern": 1, "language": "hi", "ask": false,
+   "roles": {"caller": "fake 'STF sub-inspector'", "listener": "woman, 50s, who decides to go to the police herself"},
+   "lines": [
+    ["caller", "हेलो, मैं लखनऊ एसटीएफ़ से सब-इंस्पेक्टर मिश्रा बोल रहा हूँ। आपके बैंक खाते का इस्तेमाल साइबर फ़्रॉड में हुआ है।"],
+    ["caller", "आपके खिलाफ़ एफ़आईआर दर्ज है। अभी वीडियो कॉल पर बयान दीजिए वरना पुलिस आपके घर पहुँच जाएगी।"],
+    ["listener", "मैं ख़ुद थाने आ जाती हूँ।"],
+    ["caller", "थाने आने की ज़रूरत नहीं है। वीडियो कॉल पर ही सब होगा, और इस बारे में किसी से बात मत कीजिए।"],
+    ["listener", "नहीं, मैं अपने बेटे के साथ थाने आऊँगी। नमस्ते।"]
+   ]},
+  {"id": "IS37", "pattern": 8, "language": "hi+en", "ask": true,
+   "roles": {"caller": "fake 'electricity board office' man", "listener": "woman, 40s"},
+   "lines": [
+    ["caller", "Hello, main MSEB office se bol raha hoon. Aapka bill system mein update nahi hua."],
+    ["listener", "Maine toh online bhara tha."],
+    ["caller", "Woh payment fail hua hai. Aaj raat connection kat jayega. Abhi main jo link bhej raha hoon usse 12 rupaye pay kar dijiye, bill update ho jayega."]
+   ]},
+  {"id": "IS38", "pattern": 5, "language": "hi", "ask": true,
+   "roles": {"caller": "fake 'payment app support'", "listener": "man, 30s"},
+   "lines": [
+    ["caller", "नमस्ते, मैं गूगल पे सपोर्ट से बोल रहा हूँ। आपके खाते में एक कैशबैक अटका हुआ है, आपको चार हज़ार रुपये मिलने हैं।"],
+    ["listener", "कैसे मिलेंगे?"],
+    ["caller", "अभी आपको एक रिक्वेस्ट भेजी है। उसे खोलिए और अपना यूपीआई पिन डालिए, पैसे सीधे आपके खाते में आ जाएँगे।"]
+   ]},
+  {"id": "IS39", "pattern": 2, "language": "en", "ask": true,
+   "roles": {"caller": "recorded voice, then a fake 'FedEx Andheri' man", "listener": "woman, 30s"},
+   "lines": [
+    ["caller", "Your FedEx consignment has been cancelled. Press 1 for details.", "recorded voice"],
+    ["caller", "Hi, FedEx Andheri. A package in your name to Cambodia had 4 kg of illegal drugs and 7 fake passports. Customs has seized it."],
+    ["listener", "That's impossible."],
+    ["caller", "You must file a statement with Mumbai Cyber Police now. They'll call you on Skype. Keep your Aadhaar card ready and tell me the number first."]
+   ]},
+  {"id": "IS40", "pattern": 7, "language": "hi", "ask": true,
+   "roles": {"caller": "stranger claiming to be the son's friend", "listener": "mother, 50s, who checks"},
+   "lines": [
+    ["caller", "हेलो आंटी, मैं राहुल का दोस्त बोल रहा हूँ। राहुल का बाइक से एक्सीडेंट हो गया है, सिर में चोट है।"],
+    ["listener", "हे भगवान! कौन से अस्पताल में है?"],
+    ["caller", "सिटी हॉस्पिटल में। डॉक्टर कह रहे हैं तीस हज़ार अभी जमा करने होंगे, तभी इलाज शुरू करेंगे।"],
+    ["caller", "मैं अपना यूपीआई नंबर भेज रहा हूँ, अभी भेज दीजिए। अंकल को बाद में बता देना, अभी टाइम नहीं है।"],
+    ["listener", "मैं अस्पताल का नंबर लेकर ख़ुद फ़ोन करती हूँ।"]
+   ]}
+ ]
+}

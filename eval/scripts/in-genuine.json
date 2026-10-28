@@ -1,0 +1,188 @@
+{
+ "set": "IN-genuine",
+ "version": "v1, Oct 28, 2026, written before the dev/test split",
+ "about": "Genuine calls that can sound alarming, the hard negatives from docs/scam-tactics.md. None asks for secrets or for money to be sent over the phone to a stranger. Every name, number and amount is made up; company names are only there because real callers say them. Actors follow the lines in order but say them in their own words.",
+ "scripts": [
+  {"id": "IG01", "kind": "bank fraud alert", "language": "hi",
+   "lines": [
+    ["caller", "नमस्ते, मैं बैंक की फ़्रॉड मॉनिटरिंग टीम से बोल रही हूँ। क्या मेरी बात रमेश जी से हो रही है?"],
+    ["listener", "हाँ।"],
+    ["caller", "आपके क्रेडिट कार्ड पर अभी बारह हज़ार रुपये का एक ऑनलाइन लेन-देन संदिग्ध लगा, इसलिए हमने उसे रोका है। क्या यह आपने किया था?"],
+    ["listener", "नहीं, मैंने नहीं किया।"],
+    ["caller", "ठीक है, हमने कार्ड ब्लॉक कर दिया है। नया कार्ड सात दिन में आपके पते पर आ जाएगा। ध्यान रखिए, बैंक कभी ओटीपी या पिन नहीं माँगता।"]
+   ]},
+  {"id": "IG02", "kind": "delivery, cash on delivery", "language": "mr",
+   "lines": [
+    ["caller", "नमस्कार, मी डिलिव्हरी बॉय बोलतोय, अमेझॉनचं पार्सल आहे तुमचं. घरी कोणी आहे का?"],
+    ["listener", "हो, मी आहे. किती वाजता याल?"],
+    ["caller", "दहा मिनिटांत येतो. कॅश ऑन डिलिव्हरी आहे, सातशे एकोणपन्नास रुपये. सुट्टे ठेवा."],
+    ["listener", "ठीक आहे."]
+   ]},
+  {"id": "IG03", "kind": "family asking for money, calm", "language": "hi+en",
+   "lines": [
+    ["caller", "Hi Maa, main Riya. Haan, hostel mein sab theek hai. Maa, is mahine ki mess fees 4,500 deni hai, papa ko bol do na transfer kar dein."],
+    ["listener", "Haan beta, shaam ko bhej denge. Khana theek se kha rahi hai na?"],
+    ["caller", "Haan Maa. Aur Sunday ko video call karungi, Dadi se baat karni hai."]
+   ]},
+  {"id": "IG04", "kind": "hospital", "language": "en",
+   "lines": [
+    ["caller", "Hello, this is Sister Mary from City Hospital, Mulund. I'm calling about your father, Mr. Joseph D'Souza. He's been admitted after a fall, he's stable."],
+    ["listener", "Oh God, is he okay? I'm coming right now."],
+    ["caller", "He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you come. Ask for the emergency ward."]
+   ]},
+  {"id": "IG05", "kind": "legal telemarketing, insurance", "language": "hi",
+   "lines": [
+    ["caller", "नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ। हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है, क्या आपके पास दो मिनट हैं?"],
+    ["listener", "अभी मैं व्यस्त हूँ।"],
+    ["caller", "कोई बात नहीं सर, मैं आपको व्हाट्सएप पर ब्रोशर भेज देती हूँ, आप फ़ुर्सत में देख लीजिए। धन्यवाद।"]
+   ]},
+  {"id": "IG06", "kind": "school", "language": "mr",
+   "lines": [
+    ["caller", "नमस्कार, मी ज्ञानदीप शाळेतून वर्गशिक्षिका कुलकर्णी बोलतेय. आर्याची आई बोलताय का?"],
+    ["listener", "हो, बोला."],
+    ["caller", "आज आर्याला थोडा ताप आलाय. तुम्ही तिला घ्यायला लवकर येऊ शकाल का? आणि उद्याची पालक सभा विसरू नका."]
+   ]},
+  {"id": "IG07", "kind": "loan EMI reminder", "language": "hi+en",
+   "lines": [
+    ["caller", "Good morning sir, main finance company se Pooja bol rahi hoon. Aapki bike loan ki EMI 5 tarikh ko due hai, 3,250 rupaye."],
+    ["listener", "Haan, account mein balance hai."],
+    ["caller", "Theek hai sir, bas yaad dilane ke liye call kiya tha. Koi sawal ho toh app mein ya branch mein contact kar sakte hain. Dhanyavaad."]
+   ]},
+  {"id": "IG08", "kind": "telecom plan reminder, recorded", "language": "en",
+   "lines": [
+    ["caller", "Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at any of our stores. Thank you.", "recorded voice"]
+   ]},
+  {"id": "IG09", "kind": "police passport verification", "language": "hi",
+   "lines": [
+    ["caller", "नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ। आपके पासपोर्ट वेरिफ़िकेशन के लिए कॉल किया है।"],
+    ["listener", "जी, बताइए।"],
+    ["caller", "कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फ़ोटो लेकर थाने आ जाइए। साथ में कोई पड़ोसी गवाह हो तो अच्छा है।"]
+   ]},
+  {"id": "IG10", "kind": "electricity meter reading", "language": "mr",
+   "lines": [
+    ["caller", "नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी असेल का?"],
+    ["listener", "हो, आई असेल."],
+    ["caller", "ठीक आहे. मीटर बघायला येईन. काही पैसे द्यायचे नाहीत, बिल नेहमीप्रमाणे एसएमएसवर येईल."]
+   ]},
+  {"id": "IG11", "kind": "friend asking for money", "language": "hi+en",
+   "lines": [
+    ["caller", "Bhai, Sameer bol raha hoon. Yaar, mera wallet ghar pe reh gaya, petrol pump pe hoon. 500 rupaye GPay kar de, kal lauta dunga."],
+    ["listener", "Haan bhej deta hoon, wahi number pe na?"],
+    ["caller", "Haan, wahi number. Thanks yaar."]
+   ]},
+  {"id": "IG12", "kind": "bank relationship manager offer", "language": "en",
+   "lines": [
+    ["caller", "Hi, I'm Karan, your relationship manager from the bank. We have a new fixed deposit scheme at 7.4 percent. Would you like me to send the details by email?"],
+    ["listener", "Sure, send it."],
+    ["caller", "I'll email it today. You can visit the branch or use the bank's app if you want to open it. Have a nice day."]
+   ]},
+  {"id": "IG13", "kind": "family emergency, real", "language": "hi",
+   "lines": [
+    ["caller", "हेलो, भाभी, मैं सुनील। घबराइए मत, भैया का छोटा सा एक्सीडेंट हुआ है, पैर में चोट है। हम लोग सिविल अस्पताल में हैं।"],
+    ["listener", "क्या! मैं अभी आती हूँ।"],
+    ["caller", "आराम से आइए, डॉक्टर ने देख लिया है। आते समय उनका आधार कार्ड और बीमा कार्ड ले आना।"]
+   ]},
+  {"id": "IG14", "kind": "bank fraud alert", "language": "mr",
+   "lines": [
+    ["caller", "नमस्कार, मी बँकेच्या फ्रॉड विभागातून बोलतेय. तुमच्या डेबिट कार्डवरून आत्ता पंधरा हजारांचा व्यवहार झाला. तो तुम्ही केला का?"],
+    ["listener", "हो, मीच केला, फ्रिज घेतला."],
+    ["caller", "ठीक आहे, धन्यवाद. कोणी बँकेच्या नावाने OTP विचारला तर देऊ नका."]
+   ]},
+  {"id": "IG15", "kind": "courier delivery", "language": "en",
+   "lines": [
+    ["caller", "Hi, I'm from the courier company. I have a document for you from the passport office, I'll reach in 15 minutes."],
+    ["listener", "Okay, I'm at home."],
+    ["caller", "Please keep an ID proof ready. I'll need to see it before handing it over."]
+   ]},
+  {"id": "IG16", "kind": "legal telemarketing, credit card", "language": "hi",
+   "lines": [
+    ["caller", "नमस्ते, मैं बैंक की ओर से बोल रहा हूँ। आपके लिए लाइफ़टाइम फ़्री क्रेडिट कार्ड प्री-अप्रूव्ड है। क्या आप रुचि रखते हैं?"],
+    ["listener", "नहीं, धन्यवाद।"],
+    ["caller", "ठीक है सर, आपका दिन शुभ हो।"]
+   ]},
+  {"id": "IG17", "kind": "pathology lab", "language": "mr",
+   "lines": [
+    ["caller", "नमस्कार, मी मेट्रो पॅथॉलॉजी लॅबमधून बोलतेय. तुमचे रक्ताचे रिपोर्ट तयार आहेत. ईमेलवर पाठवले आहेत."],
+    ["listener", "धन्यवाद. काही काळजीचं आहे का?"],
+    ["caller", "साखरेचं प्रमाण थोडं जास्त आहे, डॉक्टरांना लवकरात लवकर दाखवा."]
+   ]},
+  {"id": "IG18", "kind": "cab driver", "language": "hi+en",
+   "lines": [
+    ["caller", "Haan madam, main cab driver, aapke pickup pe pahunch gaya hoon, gate number 2 pe. Aap kitni der mein aayengi?"],
+    ["listener", "Bas do minute."],
+    ["caller", "Theek hai, jaldi aaiye madam, yahan parking nahi hai."]
+   ]},
+  {"id": "IG19", "kind": "health worker, government camp", "language": "en",
+   "lines": [
+    ["caller", "Namaste, this is Sunita, the ASHA worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your ration card and Aadhaar card."],
+    ["listener", "Is there any fee?"],
+    ["caller", "No, it's completely free. Just come between 10 and 2."]
+   ]},
+  {"id": "IG20", "kind": "housing society maintenance", "language": "hi",
+   "lines": [
+    ["caller", "नमस्ते शर्मा जी, मैं सोसायटी का सेक्रेटरी गुप्ता। इस महीने का मेंटेनेंस अभी तक नहीं आया है, ढाई हज़ार।"],
+    ["listener", "अरे, भूल गया था। आज ही भेज देता हूँ।"],
+    ["caller", "कोई बात नहीं। सोसायटी के खाते में ऑनलाइन भेज दीजिए या ऑफ़िस में चेक दे दीजिए।"]
+   ]},
+  {"id": "IG21", "kind": "family asking for money, calm", "language": "mr",
+   "lines": [
+    ["caller", "बाबा, मी सायली. पुढच्या आठवड्यात कॉलेजची परीक्षा फी भरायची आहे, तीन हजार रुपये. जमेल तेव्हा पाठवा."],
+    ["listener", "हो, उद्या पाठवतो."],
+    ["caller", "बरं, आणि आईला सांगा मी रविवारी घरी येतेय."]
+   ]},
+  {"id": "IG22", "kind": "bank branch, real KYC reminder", "language": "en",
+   "lines": [
+    ["caller", "Good morning, I'm calling from your bank's Dadar branch. Your account's periodic KYC update is due. Please visit the branch with your PAN and Aadhaar before the end of the month."],
+    ["listener", "Can I do it online?"],
+    ["caller", "Yes, you can also do it through the bank's official app. Please don't share your details with anyone who calls asking for them."]
+   ]},
+  {"id": "IG23", "kind": "gas cylinder delivery code", "language": "hi+en",
+   "lines": [
+    ["caller", "Namaste, main gas agency se. Aapka cylinder kal subah deliver hoga."],
+    ["listener", "Theek hai, kitne baje?"],
+    ["caller", "Das gyarah baje tak. Delivery ke time jo code SMS pe aaya hai woh delivery boy ko darwaze pe dikha dena, tabhi cylinder milega."]
+   ]},
+  {"id": "IG24", "kind": "legal telemarketing, real estate", "language": "hi",
+   "lines": [
+    ["caller", "नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ। ठाणे में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ़ इस हफ़्ते बुकिंग पर पाँच लाख की छूट है।"],
+    ["listener", "अभी कोई इरादा नहीं है।"],
+    ["caller", "ठीक है सर, अगर कभी ज़रूरत हो तो इसी नंबर पर कॉल कीजिए। धन्यवाद।"]
+   ]},
+  {"id": "IG25", "kind": "lawyer's office, court date", "language": "mr",
+   "lines": [
+    ["caller", "नमस्कार, मी ॲडव्होकेट देशपांडे यांच्या ऑफिसमधून बोलतेय. तुमच्या जमिनीच्या केसची पुढची तारीख वीस नोव्हेंबरला आहे."],
+    ["listener", "ठीक आहे, मी येईन."],
+    ["caller", "सातबाराचा उतारा आणि जुनी कागदपत्रं घेऊन या. फी नंतर ऑफिसमध्ये भरली तरी चालेल."]
+   ]},
+  {"id": "IG26", "kind": "friend planning a surprise", "language": "en",
+   "lines": [
+    ["caller", "Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday. Don't tell her anything, okay?"],
+    ["listener", "Of course! What do you need?"],
+    ["caller", "Can you send 800 for the cake to my GPay? Everyone is chipping in."]
+   ]},
+  {"id": "IG27", "kind": "clinic appointment", "language": "hi",
+   "lines": [
+    ["caller", "नमस्ते, मैं डॉक्टर मेहता के क्लिनिक से बोल रही हूँ। आपकी कल शाम छह बजे की अपॉइंटमेंट कन्फ़र्म करनी थी।"],
+    ["listener", "हाँ, मैं आऊँगी।"],
+    ["caller", "ठीक है। आते समय पिछली दवाइयों की पर्ची साथ लाइए।"]
+   ]},
+  {"id": "IG28", "kind": "bank branch, cheque on hold", "language": "hi+en",
+   "lines": [
+    ["caller", "Hello sir, main bank ki Andheri branch se. Aapka 25,000 ka cheque signature mismatch ki wajah se hold pe hai."],
+    ["listener", "Achha, kya karna hoga?"],
+    ["caller", "Aap kal branch aa kar signature verify karwa dijiye. Phone pe hum koi detail nahi maangte."]
+   ]},
+  {"id": "IG29", "kind": "legal telemarketing, broadband", "language": "mr",
+   "lines": [
+    ["caller", "नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे, पहिला महिना मोफत."],
+    ["listener", "किती खर्च येईल?"],
+    ["caller", "महिना पाचशे निन्यान्नव रुपये. आवडलं तर आमचा माणूस घरी येऊन माहिती देईल."]
+   ]},
+  {"id": "IG30", "kind": "relative abroad, real", "language": "en",
+   "lines": [
+    ["caller", "Hi Aunty, it's Kunal from Toronto! Just got back from work. Mom said you weren't well, how are you now?"],
+    ["listener", "Much better, beta. How's the job?"],
+    ["caller", "Good, good. I'm sending some gifts with Rohan when he comes in December. Take care of yourself!"]
+   ]}
+ ]
+}
