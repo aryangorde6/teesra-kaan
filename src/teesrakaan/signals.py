@@ -10,7 +10,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass
 from enum import IntEnum
 
-RULES_VERSION = "v1.1 (Oct 28, 2026)"
+RULES_VERSION = "v1.2 (Oct 28, 2026)"
 
 
 @dataclass(frozen=True)
@@ -24,12 +24,15 @@ class Signal:
 SIGNALS: tuple[Signal, ...] = (
     Signal("A1", "Authority", "flag",
            "Does the caller claim to be, or to speak for, the police, CBI, ED, customs, narcotics, "
-           "a court or judge, RBI, TRAI, DoT, a bank, or another government office or official?"),
-    Signal("A2", "Threat", "flag",
+           "a court or judge, RBI, TRAI, DoT, a consulate, another government office or official, a bank, "
+           "or a company the listener may have an account with (such as Amazon, Flipkart, Apple, "
+           "a phone, power or card company)?"),
+    Signal("A2", "Threat or alarm", "flag",
            "Does the caller threaten the listener with arrest, an FIR or police case, a court case, jail, "
-           "a fine, or blocking of their bank account, card, SIM, phone number or electricity?"),
+           "a fine, or blocking of their bank account, card, SIM, phone number or electricity; or alarm them "
+           "with claimed suspicious activity, an unauthorized order or charge, or a problem on their account?"),
     Signal("A3", "Urgency", "flag",
-           "Does the caller demand that the listener act right now, or within a deadline "
+           "Does the caller demand that the listener act right now, as soon as possible, or within a deadline "
            "(minutes, hours, today)?"),
     Signal("A4", "Isolation", "flag",
            "Does the caller tell the listener to keep this secret, not to tell family or anyone, "
@@ -56,8 +59,9 @@ SIGNALS: tuple[Signal, ...] = (
            "Does the caller say the listener must enter a UPI PIN, or approve a request, "
            "in order to receive money, a refund or a prize?"),
     Signal("A12", "Windfall", "flag",
-           "Does the caller say the listener has won a prize, lottery, cashback or refund, "
-           "or that money was sent to them by mistake and must be returned?"),
+           "Does the caller say the listener has won a prize, lottery, cashback or refund, qualifies for "
+           "a special discount, rate cut, loan or relief payment, or that money was sent to them by mistake "
+           "and must be returned?"),
 )
 
 BY_ID: dict[str, Signal] = {s.id: s for s in SIGNALS}
@@ -80,7 +84,7 @@ class Alarm:
 
 
 def decide(yes: Iterable[str]) -> Alarm:
-    """Rules v1.1. Two signals make a warning; if one of them is an ask, it's red.
+    """Rules v1.2. Two signals make a warning; if one of them is an ask, it's red.
 
     - red, "ask": an ask (A5, A6, A7, A11) together with any other signal;
     - red, "digital-arrest opening": authority + threat + isolation (A1 + A2 + A4), before any ask;

@@ -41,7 +41,7 @@ CALLER_SAID = {"en": "The caller said:", "hi": "कॉल करने वाल
 
 SIGNAL_NAME = {
     "A1": {"en": "Claims to be an official", "hi": "अधिकारी होने का दावा", "mr": "अधिकारी असल्याचा दावा"},
-    "A2": {"en": "Threat", "hi": "धमकी", "mr": "धमकी"},
+    "A2": {"en": "Threat or alarm", "hi": "धमकी या डर", "mr": "धमकी किंवा भीती"},
     "A3": {"en": "Rushing you", "hi": "जल्दबाज़ी", "mr": "घाई"},
     "A4": {"en": "Told to keep it secret", "hi": "किसी को न बताने को कहा", "mr": "कोणाला न सांगण्यास सांगितले"},
     "A5": {"en": "Asked for OTP or PIN", "hi": "OTP/PIN माँगा", "mr": "OTP/PIN मागितला"},
@@ -51,7 +51,7 @@ SIGNAL_NAME = {
     "A9": {"en": "Says your parcel is illegal", "hi": "पार्सल में ग़ैरक़ानूनी सामान", "mr": "पार्सलमध्ये बेकायदेशीर वस्तू"},
     "A10": {"en": "Press-a-key message", "hi": "बटन दबाने को कहा", "mr": "बटण दाबायला सांगितले"},
     "A11": {"en": "PIN to receive money", "hi": "पैसे पाने के लिए PIN", "mr": "पैसे मिळवण्यासाठी PIN"},
-    "A12": {"en": "Prize or refund bait", "hi": "इनाम या रिफंड का लालच", "mr": "बक्षीस किंवा रिफंडचे आमिष"},
+    "A12": {"en": "Prize, refund or offer bait", "hi": "इनाम, रिफंड या ऑफ़र का लालच", "mr": "बक्षीस, रिफंड किंवा ऑफरचे आमिष"},
 }
 
 # (signals that must all be present, fact). The first matching facts are shown.

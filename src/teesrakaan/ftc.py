@@ -95,3 +95,41 @@ def fetch(dest: Path, log: Callable[[str], None] = print) -> Path:
         encoding="utf-8",
     )
     return sheet
+
+
+def call_id(file_name: str) -> str:
+    return "ftc-" + hashlib.sha256(file_name.encode("utf-8")).hexdigest()[:10]
+
+
+def to_calls(dest: Path, split: str) -> list[Path]:
+    """Call files for one split, from the dataset's own transcripts, spread evenly over each recording.
+
+    These are for offline runs only. The real evaluation transcribes the audio with Muse Voice Transcribe.
+    """
+    import wave
+
+    with open(dest / "sample.csv", newline="", encoding="utf-8") as f:
+        sample = {row["file_name"]: row for row in csv.DictReader(f) if row["split"] == split}
+    transcripts: dict[str, str] = {}
+    with open(dest / "metadata.csv", newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            if row["file_name"] in sample:
+                transcripts.setdefault(row["file_name"], " ".join(row["transcript"].split()))
+    out = dest / "calls"
+    out.mkdir(exist_ok=True)
+    paths = []
+    for file_name, row in sorted(sample.items()):
+        with wave.open(str(dest / row["path"])) as w:
+            seconds = w.getnframes() / w.getframerate()
+        call = {
+            "id": call_id(file_name),
+            "set": "FTC",
+            "language": "en",
+            "file_name": file_name,
+            "note": "Dataset transcript, words spread evenly over the recording. Offline runs only.",
+            "turns": [{"speaker": "caller", "start": 0.0, "end": round(seconds, 2), "text": transcripts[file_name]}],
+        }
+        path = out / f"{call['id']}.json"
+        path.write_text(json.dumps(call, ensure_ascii=False, indent=1), encoding="utf-8")
+        paths.append(path)
+    return paths

@@ -12,7 +12,7 @@ from .judge import SparkSized
 from .keywords import KeywordJudge
 from .labels import read_labels, split_scripts, write_template
 from .messages import LANGS, warning
-from .metrics import Outcome, summarize_by
+from .metrics import Outcome, ftc_summary, summarize_by
 from .pricing import call_cost
 from .report import build_report
 from .signals import RULES_VERSION
@@ -65,15 +65,18 @@ def cmd_eval(args: argparse.Namespace) -> None:
         result = simulate(call, _judge(args.judge), Timing())
         outcomes.append(Outcome(
             call.id, label.set, label.is_scam, int(result.level),
-            result.t_warn, result.t_red, label.t0, label.t_ask, label.languages,
+            result.t_warn, result.t_red, label.t0, label.t_ask, label.languages, label.ftc_class,
         ))
+    # FTC sales and "other" robocalls are illegal calls, not genuine ones: reported by class, never as false alarms.
+    scored = [o for o in outcomes if o.set != "FTC" or o.ftc_class == "impersonation"]
     report = {
         "split": args.split,
         "judge": args.judge,
         "rules": RULES_VERSION,
         "speaker_separation": not args.no_speakers,
-        "by_set": summarize_by(outcomes, "set"),
-        "by_language": summarize_by(outcomes, "language"),
+        "by_set": summarize_by(scored, "set"),
+        "by_language": summarize_by(scored, "language"),
+        "ftc_by_class": ftc_summary(o for o in outcomes if o.set == "FTC"),
         "calls": [o.__dict__ for o in outcomes],
     }
     out = Path(args.out or f"runs/eval-{date.today().isoformat()}/results-{args.split}-{args.judge}.json")
@@ -82,6 +85,8 @@ def cmd_eval(args: argparse.Namespace) -> None:
     for name, s in report["by_set"].items():
         print(f"{name}: caught {s['caught_red_or_amber']['text']} (red {s['caught_red']['text']}), "
               f"red false alarms {s['false_alarms_red']['text']}")
+    for name, row in report["ftc_by_class"].items():
+        print(f"FTC {name}: warned {row['warned_text']} (red {row['red_text']})")
     print(f"wrote {out}")
 
 

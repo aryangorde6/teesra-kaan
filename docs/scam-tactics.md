@@ -1,6 +1,6 @@
 # Scam-call tactics in India: what Teesra Kaan listens for
 
-Version 1.1, Oct 28, 2026 (evening; v1 was the same afternoon, see "Changes" at the end). Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns marked *source to add* are well known but not yet tied to an official advisory, and must be before they appear in the demo.
+Version 1.2, Oct 28, 2026 (evening; v1 was the same afternoon, see "Changes" at the end). Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns marked *source to add* are well known but not yet tied to an official advisory, and must be before they appear in the demo.
 
 ## The signals
 
@@ -8,9 +8,9 @@ Teesra Kaan doesn't ask a model "is this a scam?". After each caller turn, Muse 
 
 | ID | Question about the caller | Example words |
 |---|---|---|
-| **A1 Authority** | Claims to be police, CBI, ED, customs, narcotics, a court, RBI, TRAI, DoT, or a bank or government official? | "Main CBI se bol raha hoon", "Mumbai crime branch" |
-| **A2 Threat** | Threatens arrest, a case, a fine, or blocking an account, card or SIM? | "Aapke naam pe FIR hai", "number 2 ghante mein band ho jayega" |
-| **A3 Urgency** | Demands action right now or within a deadline? | "abhi ke abhi", "within two hours" |
+| **A1 Authority** | Claims to be police, CBI, ED, customs, narcotics, a court, RBI, TRAI, DoT, a consulate or another government office, a bank, or a company you may have an account with (Amazon, Flipkart, a phone, power or card company)? | "Main CBI se bol raha hoon", "Mumbai crime branch", "this is Amazon" |
+| **A2 Threat or alarm** | Threatens arrest, a case, a fine, or blocking an account, card, SIM or power; or alarms you with "suspicious activity", an unauthorized order or charge, or a problem on your account? | "Aapke naam pe FIR hai", "number 2 ghante mein band ho jayega", "an order has been placed on your account" |
+| **A3 Urgency** | Demands action right now, as soon as possible, or within a deadline? | "abhi ke abhi", "within two hours" |
 | **A4 Isolation** | Tells you to keep it secret, not to tell family, stay on the call or video, or go somewhere alone? | "kisi ko mat batana", "call disconnect mat karna" |
 | **A5 Secrets** | Asks for an OTP, PIN, CVV, password, or Aadhaar, PAN or card number? | "OTP bata dijiye" |
 | **A6 Money** | Asks you to pay or move money (a fine, a "verification" deposit, a "safe" or "RBI" account, a UPI request)? | "verification ke liye paise transfer karo" |
@@ -19,9 +19,9 @@ Teesra Kaan doesn't ask a model "is this a scam?". After each caller turn, Muse 
 | **A9 Parcel** | Says a parcel or courier in your name holds illegal items? | "aapke parcel mein drugs mile hain" |
 | **A10 Press-a-key** | An automated voice says to press a key to talk to an officer? | "press 9" |
 | **A11 PIN to receive** | Says you must enter a UPI PIN or approve a request to *receive* money? | "PIN daalo, paise aa jayenge" |
-| **A12 Windfall** | Says you've won a prize, lottery, cashback or refund, or that money was sent to you by mistake? | "aapne KBC lottery jeeti hai", "galti se paise aa gaye" |
+| **A12 Windfall** | Says you've won a prize, lottery, cashback or refund, qualify for a special discount, rate cut, loan or relief payment, or that money was sent to you by mistake? | "aapne KBC lottery jeeti hai", "galti se paise aa gaye", "you qualify for 50% off" |
 
-**Alarm rules v1.1** (tuned on the development set only, then frozen; see `evaluation-rule.md`). In one line: **two signals make a warning; if one of them is an ask, it's red.**
+**Alarm rules v1.2** (tuned on the development set only, then frozen; see `evaluation-rule.md`). In one line: **two signals make a warning; if one of them is an ask, it's red.**
 - **Asks** are A5, A6, A7 and A11: the caller wants secrets, money, control or a PIN. **Flags** are the other eight: pressure (A1–A4) and the scam's props (A8–A10, A12).
 - **Danger (red):** an ask together with any other signal.
 - **Danger (red), before any ask:** authority plus threat plus isolation (A1 + A2 + A4). That's the "digital arrest" opening, which moves to money later.
@@ -60,3 +60,9 @@ A genuine caller may sound alarming but never asks for secrets or money on the c
   - **Added A12 Windfall,** the lure behind patterns 5, 6 and 9.
   - **Rules simplified** to "two signals make a warning; if one is an ask, it's red", plus the unchanged digital-arrest opening. Amber now counts any two flags, A4 and A12 included.
   - Code: [`src/teesrakaan/signals.py`](../src/teesrakaan/signals.py), `RULES_VERSION = "v1.1 (Oct 28, 2026)"`.
+- **v1.2, Oct 28, 2026 (19:50 IST), tuned on the 50 FTC dev calls only** (the 150 FTC test calls haven't been opened). The keyword baseline warned on 24 of 41 dev impersonation robocalls; most misses were fake "Amazon order, press 1" calls, which v1.1 saw only as A10. Changes:
+  - **A1** now covers a consulate and a company you may have an account with (Amazon, Flipkart, a phone, power or card company). Pattern 6 and pattern 8 in India need this too.
+  - **A2** is now "threat or alarm": it also covers claimed suspicious activity, an unauthorized order or charge, or a problem on your account.
+  - **A3** covers "as soon as possible".
+  - **A12** covers "you qualify for" a discount, rate cut, loan or relief payment.
+  - The rules themselves are unchanged. **Known cost:** a genuine bank fraud alert ("a suspicious transaction on your card") can now reach amber (A1 + A2). It still can't reach red without an ask, and amber's advice ("hang up and call the official number yourself") is what banks advise anyway. The IN-genuine set measures this.

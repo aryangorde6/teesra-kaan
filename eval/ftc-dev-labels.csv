@@ -1,0 +1,51 @@
+call_id,set,split,is_scam,pattern,languages,t0,t_ask,ftc_class,labeller,labelled_at,notes
+ftc-068baa95d0,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,1006864_normalized.wav
+ftc-083600d694,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,1018540_normalized.wav
+ftc-031a7619de,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,1129547_normalized.wav
+ftc-06b152d425,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,1205453_normalized.wav
+ftc-01267e9275,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,1244197_left.wav; fake pre-authorized order; company not named
+ftc-028b5c30c9,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,1297871_normalized.wav
+ftc-01837de499,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,1359533_normalized.wav; poses as the Chinese consulate
+ftc-060ed5e049,FTC,dev,0,0,en,,,sales,draft,2026-10-28T19:45+05:30,1609960554.16654_in_Range_Telecom_Robocall__StudentLoan-FederalSuspension_normalized.wav
+ftc-073d206cf5,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,"1629378389.587442_in_Peerless_Robocall__DebtRelief-ZeroTax_normalized.wav; tax-debt relief pitch under a fake ""U.S. Department of Financial Relief Services"""
+ftc-0849332e0f,FTC,dev,0,0,en,,,sales,draft,2026-10-28T19:45+05:30,"274452_normalized.wav; borderline: debt-relief pitch claiming a ""state assigned"" number; labelled sales"
+ftc-01b4dca685,FTC,dev,0,0,en,,,sales,draft,2026-10-28T19:45+05:30,27570_normalized.wav
+ftc-0768a27de1,FTC,dev,0,0,en,,,sales,draft,2026-10-28T19:45+05:30,291121_normalized.wav
+ftc-0727ef1cdb,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,310549_normalized.wav
+ftc-02c070781a,FTC,dev,0,0,en,,,sales,draft,2026-10-28T19:45+05:30,360178_normalized.wav
+ftc-039e0285c1,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,382020_normalized.wav
+ftc-0452735830,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,404481_normalized.wav
+ftc-03f1796c77,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,"431210_normalized.wav; poses as Discover (card company), rate-reduction pitch"
+ftc-07c9d16fdc,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,453396_normalized.wav
+ftc-05e26d108b,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,463262_normalized.wav
+ftc-04f38c7f28,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,482001_normalized.wav
+ftc-0650224716,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,"509700_normalized.wav; unnamed ""legal department"""
+ftc-025aabf1c4,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,"525244_normalized.wav; unnamed ""legal department"""
+ftc-05ce1e6c0a,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,537325_normalized.wav
+ftc-0548bd1612,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,537334_normalized.wav
+ftc-07b2f7d370,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,537335_normalized.wav
+ftc-0480d48523,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,549499_normalized.wav
+ftc-07d2e3ea23,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,565712_normalized.wav
+ftc-06d752a675,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,582920_normalized.wav
+ftc-0756e1f060,FTC,dev,0,0,en,,,sales,draft,2026-10-28T19:45+05:30,587263_normalized.wav
+ftc-0465b90bd5,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,598179_normalized.wav
+ftc-02cbfee3bc,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,605705_normalized.wav
+ftc-066a1ae642,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,61836_normalized.wav
+ftc-068cc0e53e,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,630207_normalized.wav
+ftc-03e395c312,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,63418_normalized.wav
+ftc-05a0ae16b1,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,648011_normalized.wav
+ftc-06db64c4b4,FTC,dev,0,0,en,,,sales,draft,2026-10-28T19:45+05:30,65173_normalized.wav
+ftc-01b04077b8,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,66151_normalized.wav
+ftc-0081c9355a,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,668378_normalized.wav
+ftc-0501a4b272,FTC,dev,0,0,en,,,other,draft,2026-10-28T19:45+05:30,"67730_normalized.wav; fragment, too short to tell what is claimed"
+ftc-08258ab3ae,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,779106_normalized.wav
+ftc-06b45bac47,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,838911_normalized.wav
+ftc-012ead9954,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,868741_normalized.wav
+ftc-03080163da,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,871389_normalized.wav
+ftc-082ac7c56c,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,875531_normalized.wav
+ftc-013676f873,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,875543_normalized.wav
+ftc-0518f5075c,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,"942998_normalized.wav; poses as Spectrum, ""50% off"" call-back"
+ftc-032fa5603e,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,948024_normalized.wav
+ftc-01f6b2756a,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,956746_normalized.wav
+ftc-07499c6361,FTC,dev,1,0,en,,,impersonation,draft,2026-10-28T19:45+05:30,"s6diZGlyX2NzbWRpcjp0b21jYXQ5NDMyOjE2NTM0MjA2Njc3MDJOMqjSeD.gen_Inbound_Robocall__Discount-DirecTV50_normalized.wav; poses as AT&T DirecTV, ""50% off"" call-back"
+ftc-02ed8f736c,FTC,dev,0,0,en,,,sales,draft,2026-10-28T19:45+05:30,s6diZGlyXzRiOWRpcjp0b21jYXQ2NDkzOjE2MTkxOTM4NTkxMTRBTZDSgD.gen_DID_Central_Robocall__StudentLoan_-_New_Changes_normalized.wav

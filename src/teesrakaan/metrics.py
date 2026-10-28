@@ -49,6 +49,7 @@ class Outcome:
     t0: float | None = None  # labelled first scam move
     t_ask: float | None = None  # labelled first ask
     language: str = ""
+    ftc_class: str = ""  # FTC only: impersonation, sales or other
 
 
 def summarize(outcomes: Iterable[Outcome]) -> dict:
@@ -102,3 +103,17 @@ def summarize_by(outcomes: Iterable[Outcome], key: str) -> dict[str, dict]:
     for o in outcomes:
         groups.setdefault(getattr(o, key), []).append(o)
     return {name: summarize(group) for name, group in sorted(groups.items())}
+
+
+def ftc_summary(outcomes: Iterable[Outcome]) -> dict[str, dict]:
+    """Warned (red or amber) per FTC class. Sales robocalls are reported, never counted as false alarms."""
+    out: dict[str, dict] = {}
+    for o in outcomes:
+        row = out.setdefault(o.ftc_class, {"n": 0, "warned": 0, "red": 0})
+        row["n"] += 1
+        row["warned"] += o.level >= 1
+        row["red"] += o.level >= 2
+    for row in out.values():
+        row["warned_text"] = rate(row["warned"], row["n"])
+        row["red_text"] = rate(row["red"], row["n"])
+    return dict(sorted(out.items()))

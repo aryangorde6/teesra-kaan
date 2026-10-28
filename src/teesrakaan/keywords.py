@@ -53,18 +53,26 @@ PATTERNS: dict[str, tuple[str, ...]] = {
         stem(r"police|crime branch|cyber cell|customs|narcotics|enforcement directorate|income tax|"
              r"court|judge|inspector|officer|reserve bank|department of telecom|telecom department|"
              r"पुलिस|पोलीस|क्राइम ब्रांच|कस्टम|नारकोटिक्स|कोर्ट|न्यायालय|अदालत|इंस्पेक्टर|अधिकारी|ऑफिसर"),
-        near(stem(r"main|mai|hum|i am|we are|calling from|मैं|हम|मी|आम्ही"),
+        near(stem(r"main|mai|hum|i am|we are|calling from|this is|मैं|हम|मी|आम्ही"),
              stem(r"bank|बैंक|बँक"), 30),
+        # v1.2, from FTC dev: agencies and companies the caller pretends to be
+        stem(r"social security|ssa\b|irs\b|internal revenue|federal|department of|consulate|embassy|"
+             r"legal department|amazon|flipkart|paytm|apple support|jio\b|airtel|vodafone|bsnl|"
+             r"electricity (?:company|board|department)|power company|msedcl|mahavitaran|discover\b|spectrum|"
+             r"at&t|directv|direct tv|अमेज़न|अमेजन|फ्लिपकार्ट|बिजली विभाग|महावितरण|वीज मंडळ"),
     ),
     "A2": (
         stem(r"arrest|giraftar|giraftaar|warrant|fir\b|jail|money laundering|legal action|suspend|deactivat|"
              r"disconnect|गिरफ्तार|गिरफ़्तार|वारंट|एफआईआर|जेल|अटक|गुन्हा|कानूनी कार्रवाई|कारवाई"),
         near(stem(r"case|केस"), stem(r"darj|register|file|दर्ज|दाखल"), 20),
+        stem(r"suspicious activit|unauthori[sz]ed|fraudulent (?:activit|charge|transaction)|"
+             r"order (?:has been |was )?placed|disconnection|संदिग्ध|अनधिकृत|संशयास्पद"),
         near(stem(r"block|band|bandh|suspend|cut|ब्लॉक|बंद|कट"),
              stem(r"ho jayega|ho jaayega|kar diya jayega|hoga|will be|होगा|हो जाएगा|कर दिया जाएगा|होईल|केला जाईल"), 25),
     ),
     "A3": (
         stem(r"abhi ke abhi|abhi turant|turant|immediately|right now|urgent|jaldi|aaj hi|today itself|"
+             r"as soon as possible|final notice|final courtesy|limited time|"
              r"तुरंत|अभी के अभी|जल्दी|आज ही|ताबडतोब|लगेच|आत्ताच|आजच"),
         near(stem(r"within|andar|ke andar|में|आत|च्या आत"), stem(r"\d+ ?(?:hours?|minutes?|ghante|minute|घंटे|मिनट|तास|मिनिट)"), 20),
         stem(r"\d+ ?(?:ghante|घंटे|तासात|तासांत)|do ghante|दो घंटे|दोन तास"),
@@ -107,7 +115,8 @@ PATTERNS: dict[str, tuple[str, ...]] = {
              stem(r"receive|paise aa jayenge|aa jayega|milenge|credit ho|refund|पैसे आ जाएंगे|मिलेंगे|जमा होईल|मिळतील"), 50),
     ),
     "A12": (
-        stem(r"lottery|prize|you have won|aap jeet|jeet gaye|jeete|kbc|kaun banega|cashback|refund|by mistake|"
+        stem(r"qualif(?:y|ied|ies) for|eligible for|\d+% off|rate reduction|relief (?:payment|program)|pre-approved|"
+             r"lottery|prize|you have won|aap jeet|jeet gaye|jeete|kbc|kaun banega|cashback|refund|by mistake|"
              r"galti se|wrong transfer|लॉटरी|इनाम|जीत|रिफंड|कैशबैक|गलती से|बक्षीस|चुकून"),
     ),
 }
