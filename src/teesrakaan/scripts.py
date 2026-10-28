@@ -40,3 +40,22 @@ def to_call(script: dict) -> Call:
         re_enactment=True,
         label={"is_scam": script["set"] == "IN-scam", "pattern": script.get("pattern", 0)},
     )
+
+
+def cards_markdown(scripts: list[dict], split: dict[str, str]) -> str:
+    """Printable cards for the actors, dev scripts first (they're recorded first)."""
+    order = sorted(scripts, key=lambda s: (split[s["id"]] != "dev", s["id"]))
+    out = ["# Recording cards", "",
+           "Say each line in your own words, in order. Keep the made-up names, numbers and amounts.",
+           "Record dev cards first. Save each as `<ID>.m4a` (or .wav) in the folder for its split.", ""]
+    for s in order:
+        what = f"pattern {s['pattern']}" if "pattern" in s else s.get("kind", "")
+        out.append(f"## {s['id']} · {split[s['id']]} · {s['language']} · {what}")
+        if roles := s.get("roles"):
+            out.append(f"_Caller: {roles['caller']}. Listener: {roles['listener']}._")
+        out.append("")
+        for speaker, text, *how in s["lines"]:
+            note = f" _({how[0]})_" if how else ""
+            out.append(f"- **{speaker.capitalize()}**{note}: {text}")
+        out.append("")
+    return "\n".join(out)
