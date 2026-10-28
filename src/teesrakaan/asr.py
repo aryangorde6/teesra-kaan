@@ -105,7 +105,8 @@ async def stream(pcm: bytes, first_frame: dict, url: str = REALTIME_URL, connect
                 if event.get("type") == "error":
                     raise RuntimeError(f"transcription error: {event.get('message')}")
 
-        await asyncio.gather(send(), receive())
+        # The server closes the stream once it has flushed; if it stalls instead, give up after the audio + 60 s.
+        await asyncio.wait_for(asyncio.gather(send(), receive()), timeout=len(pcm) / BYTES_PER_SECOND + 60)
     settings = {k: v for k, v in first_frame.items() if k != "authorization"}
     return Session(ack["sessionId"], settings, len(pcm) / BYTES_PER_SECOND, events)
 
