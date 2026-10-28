@@ -34,6 +34,18 @@ def test_unknown_call_gets_an_error():
         assert ws.receive_json()["type"] == "error"
 
 
+def test_a_demo_call_reports_to_the_country_the_page_asks_for():
+    with client.websocket_connect("/ws/demo?call=demo-trai-marathi&lang=en&country=US&speed=20") as ws:
+        events = []
+        while not events or events[-1]["type"] != "end":
+            events.append(ws.receive_json())
+    assert "ReportFraud.ftc.gov" in events[-1]["report_markdown"]
+    red = [e for e in events if e["type"] == "alarm" and e["warning"]["level"] == "red"]
+    assert red and "ReportFraud.ftc.gov" in red[0]["warning"]["action"]
+    with client.websocket_connect("/ws/demo?call=demo-trai-marathi&lang=en&country=XX") as ws:
+        assert ws.receive_json()["type"] == "error"
+
+
 def _fake_transcriber():
     """A local stand-in for the realtime API, replaying the diarized events from test_asr_and_spark."""
     import json

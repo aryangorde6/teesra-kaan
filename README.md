@@ -1,6 +1,6 @@
 # Teesra Kaan — the third ear on a scam call
 
-**Put a suspicious call on speaker and open the page. Teesra Kaan listens in Hindi, Marathi or English, and the moment the caller starts a known scam it warns you in your language, quoting the caller's own words. Then it shows you the caller's next line before they say it, and ticks it off in their own words when they do. When the call ends, it hands you a ready report for 1930 and cybercrime.gov.in.**
+**Put a suspicious call on speaker and open the page. Teesra Kaan listens in Hindi, Marathi or English, and the moment the caller starts a known scam it warns you in your language, quoting the caller's own words. Then it shows you the caller's next line before they say it, and ticks it off in their own words when they do. When the call ends, it hands you a ready report for 1930 and cybercrime.gov.in, or for ReportFraud.ftc.gov in the US.**
 
 <img src="docs/demo.gif" width="300" align="right" alt="The page playing a demo 'digital arrest' call: the transcript, then a red warning in Hindi quoting the caller">
 
@@ -13,7 +13,7 @@
 ## Why
 In 2024 Indians lost ₹1,935.51 crore to "digital arrest" calls alone, and ₹22,845.73 crore to cyber fraud overall (Ministry of Home Affairs replies in Parliament; sources in [docs/figures.md](docs/figures.md)). The script is always the same: a "police" or "bank" caller, a threat, "don't tell anyone", then an ask for money or an OTP. Caller ID flags numbers; nothing listens to what is being said, in the language it's said in.
 
-The script isn't only Indian. Americans reported losing $3.5 billion to impostor scams in 2025, about $920 million of it to government impersonators (FTC). So Teesra Kaan is built for India's scam calls and tested on America's too: the frozen test includes 150 real US scam robocalls.
+The script isn't only Indian. Americans reported losing $3.5 billion to impostor scams in 2025, about $920 million of it to government impersonators (FTC). So Teesra Kaan is built for India's scam calls and tested on America's too: the frozen test includes 150 real US scam robocalls. Set to the US (the page guesses from your time zone), a red warning and the report send you to your bank and ReportFraud.ftc.gov instead of 1930, with fact lines from the FTC's advice.
 
 ## The next line
 A warning often loses to fear. In October 2026 a retired doctor in Gujarat sent ₹58.5 lakh to "digital arrest" callers even after her bank warned her ([DeshGujarat](https://deshgujarat.com/2026/10/02/despite-bank-warning-doctor-gripped-by-fear-transfers-%e2%82%b958-50-lakh-in-digital-arrest-scam/)). What a frightened person can't argue with is proof that the caller is reading from a script, and a field experiment found that forewarning people about a specific scam made them less likely to fall for it ([Scheibe et al., 2014](https://longevity.stanford.edu/forewarning-reduces-fraud-susceptibility-in-vulnerable-consumers)).

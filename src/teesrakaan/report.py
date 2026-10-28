@@ -1,4 +1,4 @@
-"""The report pack at hang-up: what a victim needs for 1930 or cybercrime.gov.in, already written down.
+"""The report pack at hang-up: what a victim needs for 1930 or cybercrime.gov.in (or, in the US, ReportFraud.ftc.gov), already written down.
 
 Everything in it comes from the call: the caller's claims with their quotes and
 times, and the amounts, numbers, UPI IDs, links and apps the caller mentioned.
@@ -32,7 +32,8 @@ _APPS = re.compile(
     re.IGNORECASE,
 )
 
-WHAT_TO_DO = {
+# Per country (messages.COUNTRIES), then language. The US steps follow the FTC's consumer advice.
+WHAT_TO_DO = {"IN": {
     "en": [
         "If you sent money or shared an OTP or PIN: call 1930 (the National Cyber Crime Helpline) now, and report at cybercrime.gov.in. Then call your bank to block the card or account.",
         "If you didn't: don't call the number back. Report it on Chakshu at sancharsaathi.gov.in.",
@@ -48,7 +49,26 @@ WHAT_TO_DO = {
         "पाठवले नसतील तर: त्या नंबरवर परत कॉल करू नका. sancharsaathi.gov.in वर चक्षूमध्ये नंबरची तक्रार करा.",
         "हा अहवाल, कॉल रेकॉर्डिंग, SMS आणि स्क्रीनशॉट जपून ठेवा. ते डिलीट करू नका.",
     ],
-}
+}, "US": {
+    "en": [
+        "If you sent money, gift cards or crypto, or shared a code or PIN: call your bank, or the company you paid through, now. Then report it at ReportFraud.ftc.gov.",
+        "If you gave personal information, such as your Social Security number: follow the steps at IdentityTheft.gov.",
+        "If you didn't: don't call the number back. Report the call at ReportFraud.ftc.gov.",
+        "Keep this report, the call recording, text messages and screenshots. Don't delete them.",
+    ],
+    "hi": [
+        "अगर आपने पैसे, गिफ़्ट कार्ड या क्रिप्टो भेजे हैं, या कोई कोड या PIN बताया है: अभी अपने बैंक को, या जिस कंपनी से पैसे भेजे उसे, कॉल करें। फिर ReportFraud.ftc.gov पर शिकायत करें।",
+        "अगर आपने निजी जानकारी दी है, जैसे Social Security नंबर: IdentityTheft.gov पर दिए कदम उठाएँ।",
+        "अगर नहीं: उस नंबर पर वापस कॉल न करें। ReportFraud.ftc.gov पर कॉल की शिकायत करें।",
+        "यह रिपोर्ट, कॉल रिकॉर्डिंग, मैसेज और स्क्रीनशॉट संभालकर रखें। इन्हें डिलीट न करें।",
+    ],
+    "mr": [
+        "तुम्ही पैसे, गिफ्ट कार्ड किंवा क्रिप्टो पाठवले असतील, किंवा कोड किंवा PIN सांगितला असेल तर: आत्ताच तुमच्या बँकेला, किंवा ज्या कंपनीमार्फत पैसे पाठवले तिला, कॉल करा. मग ReportFraud.ftc.gov वर तक्रार करा.",
+        "तुम्ही वैयक्तिक माहिती दिली असेल, जसे Social Security नंबर: IdentityTheft.gov वरील पावले उचला.",
+        "नसेल तर: त्या नंबरवर परत कॉल करू नका. ReportFraud.ftc.gov वर कॉलची तक्रार करा.",
+        "हा अहवाल, कॉल रेकॉर्डिंग, मेसेज आणि स्क्रीनशॉट जपून ठेवा. ते डिलीट करू नका.",
+    ],
+}}
 
 
 # Report headings. DRAFT, Oct 28: the Hindi and Marathi need a native speaker's check.
@@ -133,6 +153,7 @@ class ReportPack:
     facts: list[str] = field(default_factory=list)
     lang: str = "en"
     caller_number: str = ""  # typed in by the user afterwards, if they have it
+    country: str = "IN"  # where to report (messages.COUNTRIES)
 
     def to_dict(self) -> dict:
         return dict(self.__dict__)
@@ -147,7 +168,7 @@ class ReportPack:
         out.append(f"- **{t['verdict']}:** {level}")
         if self.warned_at is not None:
             out.append(f"- **{t['warned']}:** {_clock(self.warned_at)}")
-        out += ["", f"## {t['todo']}", *[f"{i}. {s}" for i, s in enumerate(WHAT_TO_DO[self.lang], 1)]]
+        out += ["", f"## {t['todo']}", *[f"{i}. {s}" for i, s in enumerate(WHAT_TO_DO[self.country][self.lang], 1)]]
         if self.facts:
             out += ["", *[f"> {fact}" for fact in self.facts]]
         out += ["", f"## {t['claims']}"]
@@ -165,7 +186,7 @@ class ReportPack:
         return "\n".join(out)
 
 
-def build_report(call: Call, listener: Listener, lang: str = "en", caller_number: str = "") -> ReportPack:
+def build_report(call: Call, listener: Listener, lang: str = "en", caller_number: str = "", country: str = "IN") -> ReportPack:
     claims = sorted(
         (
             {"id": f.id, "name": SIGNAL_NAME[f.id][lang], "quote": f.quote, "said_at": f.said_at}
@@ -185,7 +206,8 @@ def build_report(call: Call, listener: Listener, lang: str = "en", caller_number
         mentioned=extract(" \n ".join(t.text for t in call.turns if t.speaker == caller)),
         transcript=[{"speaker": CALLER if t.speaker == caller else LISTENER, "start": t.start, "text": t.text}
                     for t in call.turns],
-        facts=facts_for(alarm.signals, lang),
+        facts=facts_for(alarm.signals, lang, country),
         lang=lang,
         caller_number=caller_number,
+        country=country,
     )

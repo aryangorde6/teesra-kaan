@@ -1,5 +1,5 @@
 from teesrakaan.keywords import KeywordJudge
-from teesrakaan.messages import LANGS, SIGNAL_NAME, warning
+from teesrakaan.messages import COUNTRIES, FACTS, LANGS, SIGNAL_NAME, warning
 from teesrakaan.report import WHAT_TO_DO, build_report, extract
 from teesrakaan.signals import SIGNALS, Alarm, Level
 from teesrakaan.simulate import simulate
@@ -42,7 +42,7 @@ def test_report_pack_in_hindi_and_marathi(example):
     result = simulate(call, KeywordJudge())
     for lang in ("hi", "mr"):
         md = build_report(call, result.listener, lang).to_markdown()
-        assert WHAT_TO_DO[lang][0] in md
+        assert WHAT_TO_DO["IN"][lang][0] in md
 
 
 def test_every_signal_and_message_has_all_three_languages():
@@ -52,6 +52,36 @@ def test_every_signal_and_message_has_all_three_languages():
     for lang in LANGS:
         w = warning(Alarm(Level.RED, "ask", frozenset({"A1", "A5"})), {"A1": "main bank se", "A5": "OTP bataiye"}, lang)
         assert w["headline"] and w["action"] and len(w["signals"]) == 2 and w["facts"]
+
+
+def test_every_country_has_its_steps_and_facts_in_every_language():
+    for country in COUNTRIES:
+        assert set(WHAT_TO_DO[country]) == set(LANGS)
+        assert len({len(steps) for steps in WHAT_TO_DO[country].values()}) == 1
+        assert any(where == country for _, where, _ in FACTS)
+    for _, where, text in FACTS:
+        assert where in COUNTRIES and set(text) == set(LANGS) and all(v.strip() for v in text.values())
+
+
+def test_in_the_us_a_red_warning_sends_you_to_the_ftc_not_1930():
+    alarm = Alarm(Level.RED, "ask", frozenset({"A1", "A2", "A6"}))
+    quotes = {"A1": "this is the Social Security Administration", "A2": "a warrant for your arrest", "A6": "gift cards"}
+    us, india = warning(alarm, quotes, "en", "US"), warning(alarm, quotes, "en")
+    assert "ReportFraud.ftc.gov" in us["action"] and "1930" not in us["action"]
+    assert "1930" in india["action"]
+    assert any("gift cards" in f for f in us["facts"]) and not any("digital arrest" in f for f in us["facts"])
+    # Amber advice names no helpline, so it's the same everywhere.
+    amber = Alarm(Level.AMBER, "pressure", frozenset({"A2", "A3"}))
+    assert warning(amber, {}, "hi", "US")["action"] == warning(amber, {}, "hi")["action"]
+
+
+def test_the_us_report_pack_names_the_ftc(example):
+    call = example("demo-digital-arrest")
+    result = simulate(call, KeywordJudge())
+    md = build_report(call, result.listener, "en", country="US").to_markdown()
+    assert "ReportFraud.ftc.gov" in md and "IdentityTheft.gov" in md
+    assert "1930" not in md and "cybercrime.gov.in" not in md
+    assert "digital arrest" not in md  # an Indian fact line
 
 
 def test_no_warning_when_nothing_is_wrong():

@@ -37,6 +37,27 @@ ACTION = {
     },
 }
 
+# Where a red warning sends you depends on where you are. India is the default; the US
+# lines follow the FTC's consumer advice (consumer.ftc.gov, "government impersonator scam").
+COUNTRIES = ("IN", "US")
+
+RED_ACTION_US = {
+    "en": "Hang up now. Don't share any code or PIN, and don't send money, gift cards or crypto. "
+          "If you already have, call your bank now, then report it at ReportFraud.ftc.gov.",
+    "hi": "अभी फ़ोन काटें। कोई कोड या PIN न बताएँ, और पैसे, गिफ़्ट कार्ड या क्रिप्टो न भेजें। "
+          "अगर भेज दिए हैं तो अभी अपने बैंक को कॉल करें, फिर ReportFraud.ftc.gov पर शिकायत करें।",
+    "mr": "आत्ताच फोन ठेवा. कोणताही कोड किंवा PIN सांगू नका, आणि पैसे, गिफ्ट कार्ड किंवा क्रिप्टो पाठवू नका. "
+          "पाठवले असतील तर आत्ताच तुमच्या बँकेला कॉल करा, मग ReportFraud.ftc.gov वर तक्रार करा.",
+}
+
+
+def action(level: Level, lang: str, country: str = "IN") -> str:
+    """What to do now. Only a red warning names a helpline, so only it changes with the country."""
+    if level == Level.RED and country == "US":
+        return RED_ACTION_US[lang]
+    return ACTION[level][lang]
+
+
 CALLER_SAID = {"en": "The caller said:", "hi": "कॉल करने वाले ने कहा:", "mr": "फोन करणाऱ्याने सांगितले:"}
 
 SIGNAL_NAME = {
@@ -54,59 +75,75 @@ SIGNAL_NAME = {
     "A12": {"en": "Prize, refund or offer bait", "hi": "इनाम, रिफंड या ऑफ़र का लालच", "mr": "बक्षीस, रिफंड किंवा ऑफरचे आमिष"},
 }
 
-# (signals that must all be present, fact). The first matching facts are shown.
-FACTS: tuple[tuple[frozenset[str], dict[str, str]], ...] = (
-    (frozenset({"A1", "A8"}), {
+# (signals that must all be present, country, fact). The matching facts for the country are shown.
+FACTS: tuple[tuple[frozenset[str], str, dict[str, str]], ...] = (
+    (frozenset({"A1", "A8"}), "IN", {
         "en": "No police, CBI, ED or customs officer arrests anyone on a video call. There is no 'digital arrest' in law.",
         "hi": "कोई भी पुलिस, CBI, ED या कस्टम अधिकारी वीडियो कॉल पर किसी को गिरफ़्तार नहीं करता। कानून में 'डिजिटल अरेस्ट' जैसा कुछ नहीं है।",
         "mr": "कोणताही पोलीस, CBI, ED किंवा कस्टम अधिकारी व्हिडिओ कॉलवर कोणालाही अटक करत नाही. कायद्यात 'डिजिटल अरेस्ट' असे काहीही नाही.",
     }),
-    (frozenset({"A1", "A2", "A4"}), {
+    (frozenset({"A1", "A2", "A4"}), "IN", {
         "en": "No police, CBI, ED or customs officer arrests anyone on a video call. There is no 'digital arrest' in law.",
         "hi": "कोई भी पुलिस, CBI, ED या कस्टम अधिकारी वीडियो कॉल पर किसी को गिरफ़्तार नहीं करता। कानून में 'डिजिटल अरेस्ट' जैसा कुछ नहीं है।",
         "mr": "कोणताही पोलीस, CBI, ED किंवा कस्टम अधिकारी व्हिडिओ कॉलवर कोणालाही अटक करत नाही. कायद्यात 'डिजिटल अरेस्ट' असे काहीही नाही.",
     }),
-    (frozenset({"A11"}), {
+    (frozenset({"A11"}), "IN", {
         "en": "Your UPI PIN is only for sending money. You never need it to receive money.",
         "hi": "UPI PIN सिर्फ़ पैसे भेजने के लिए होता है। पैसे पाने के लिए PIN की कभी ज़रूरत नहीं होती।",
         "mr": "UPI PIN फक्त पैसे पाठवण्यासाठी असतो. पैसे मिळवण्यासाठी PIN ची कधीच गरज नसते.",
     }),
-    (frozenset({"A5"}), {
+    (frozenset({"A5"}), "IN", {
         "en": "Your bank will never ask for your OTP, PIN, CVV or password.",
         "hi": "आपका बैंक कभी भी आपका OTP, PIN, CVV या पासवर्ड नहीं माँगता।",
         "mr": "तुमची बँक कधीही तुमचा OTP, PIN, CVV किंवा पासवर्ड मागत नाही.",
     }),
-    (frozenset({"A10"}), {
+    (frozenset({"A10"}), "IN", {
         "en": "TRAI and DoT don't make calls about blocking your number.",
         "hi": "TRAI और DoT नंबर बंद करने के बारे में ऐसे कॉल नहीं करते।",
         "mr": "TRAI आणि DoT नंबर बंद करण्याबद्दल असे कॉल करत नाहीत.",
     }),
+    # The US facts quote the FTC's "How to avoid a government impersonator scam".
+    (frozenset({"A1", "A2"}), "US", {
+        "en": "The IRS won't threaten to arrest you, and the real Social Security Administration won't threaten you or suspend your Social Security number.",
+        "hi": "IRS आपको गिरफ़्तारी की धमकी नहीं देता, और असली Social Security Administration न आपको धमकाता है, न आपका Social Security नंबर बंद करता है।",
+        "mr": "IRS तुम्हाला अटकेची धमकी देत नाही, आणि खरे Social Security Administration तुम्हाला धमकावत नाही किंवा तुमचा Social Security नंबर बंद करत नाही.",
+    }),
+    (frozenset({"A1", "A6"}), "US", {
+        "en": "No government agency will demand that you wire money or pay with gift cards, cryptocurrency or a payment app.",
+        "hi": "कोई भी सरकारी एजेंसी वायर ट्रांसफ़र, गिफ़्ट कार्ड, क्रिप्टो या पेमेंट ऐप से पैसे नहीं माँगती।",
+        "mr": "कोणतीही सरकारी संस्था वायर ट्रान्सफर, गिफ्ट कार्ड, क्रिप्टो किंवा पेमेंट अ‍ॅपने पैसे मागत नाही.",
+    }),
+    (frozenset({"A1", "A5"}), "US", {
+        "en": "Government agencies will never call, email or text you to ask for money or personal information.",
+        "hi": "सरकारी एजेंसियाँ कभी कॉल, ईमेल या मैसेज करके पैसे या निजी जानकारी नहीं माँगतीं।",
+        "mr": "सरकारी संस्था कधीही कॉल, ईमेल किंवा मेसेज करून पैसे किंवा वैयक्तिक माहिती मागत नाहीत.",
+    }),
 )
 
 
-def facts_for(signals: frozenset[str], lang: str) -> list[str]:
+def facts_for(signals: frozenset[str], lang: str, country: str = "IN") -> list[str]:
     seen, out = set(), []
-    for needed, text in FACTS:
-        if needed <= signals and text["en"] not in seen:
+    for needed, where, text in FACTS:
+        if where == country and needed <= signals and text["en"] not in seen:
             seen.add(text["en"])
             out.append(text[lang])
     return out
 
 
-def warning(alarm: Alarm, quotes: dict[str, str], lang: str = "en") -> dict | None:
+def warning(alarm: Alarm, quotes: dict[str, str], lang: str = "en", country: str = "IN") -> dict | None:
     """The warning screen's content, or None when there's nothing to warn about."""
     if alarm.level == Level.NONE:
         return None
     return {
         "level": alarm.level.name.lower(),
         "headline": HEADLINE[alarm.level][lang],
-        "action": ACTION[alarm.level][lang],
+        "action": action(alarm.level, lang, country),
         "caller_said_label": CALLER_SAID[lang],
         "signals": [
             {"id": sid, "name": SIGNAL_NAME[sid][lang], "quote": quotes.get(sid, "")}
             for sid in sorted(alarm.signals, key=lambda s: int(s[1:]))
         ],
-        "facts": facts_for(alarm.signals, lang),
+        "facts": facts_for(alarm.signals, lang, country),
     }
 
 

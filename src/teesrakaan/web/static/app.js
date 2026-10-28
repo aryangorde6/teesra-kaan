@@ -13,10 +13,15 @@ const UI = {
     transcript: "What the caller is saying",
     signals: "Warning signs",
     report: "Report for 1930",
+    report_us: "Report for ReportFraud.ftc.gov",
     copy: "Copy",
     copied: "Copied",
     download: "Download",
     call1930: "Call 1930",
+    call_us: "Report at ReportFraud.ftc.gov",
+    where: "Where you are",
+    country_in: "India · 1930",
+    country_us: "USA · ReportFraud.ftc.gov",
     caller_said: "The caller said:",
     caller: "Caller",
     you: "You",
@@ -44,10 +49,15 @@ const UI = {
     transcript: "कॉल करने वाला क्या कह रहा है",
     signals: "चेतावनी के संकेत",
     report: "1930 के लिए रिपोर्ट",
+    report_us: "ReportFraud.ftc.gov के लिए रिपोर्ट",
     copy: "कॉपी करें",
     copied: "कॉपी हो गया",
     download: "डाउनलोड करें",
     call1930: "1930 पर कॉल करें",
+    call_us: "ReportFraud.ftc.gov पर शिकायत करें",
+    where: "आप कहाँ हैं",
+    country_in: "भारत · 1930",
+    country_us: "अमेरिका · ReportFraud.ftc.gov",
     caller_said: "कॉल करने वाले ने कहा:",
     caller: "कॉल करने वाला",
     you: "आप",
@@ -75,10 +85,15 @@ const UI = {
     transcript: "फोन करणारा काय बोलतोय",
     signals: "धोक्याची चिन्हे",
     report: "1930 साठी अहवाल",
+    report_us: "ReportFraud.ftc.gov साठी अहवाल",
     copy: "कॉपी करा",
     copied: "कॉपी झाले",
     download: "डाउनलोड करा",
     call1930: "1930 वर कॉल करा",
+    call_us: "ReportFraud.ftc.gov वर तक्रार करा",
+    where: "तुम्ही कुठे आहात",
+    country_in: "भारत · 1930",
+    country_us: "अमेरिका · ReportFraud.ftc.gov",
     caller_said: "फोन करणाऱ्याने सांगितले:",
     caller: "फोन करणारा",
     you: "तुम्ही",
@@ -96,6 +111,12 @@ const UI = {
   },
 };
 const SPEECH_LANG = { en: "en-IN", hi: "hi-IN", mr: "mr-IN" };
+// Where the warning and the report send you. A US time zone starts in the US; anywhere else, India.
+const US_ZONE = /^(America\/(New_York|Detroit|Chicago|Denver|Boise|Phoenix|Los_Angeles|Anchorage|Juneau|Sitka|Metlakatla|Yakutat|Nome|Adak|Menominee|Indiana\/.+|Kentucky\/.+|North_Dakota\/.+)|Pacific\/Honolulu|US\/.+)$/;
+const HELPLINE = {
+  IN: { href: "tel:1930", text: "call1930", report: "report" },
+  US: { href: "https://reportfraud.ftc.gov/", text: "call_us", report: "report_us" },
+};
 const ASKS = new Set(["A5", "A6", "A7", "A11"]);
 const $ = (sel) => document.querySelector(sel);
 
@@ -124,6 +145,10 @@ registerProcessor("pcm16", Pcm16);`;
 
 let lang = "hi";
 try { lang = localStorage.getItem("tk-lang") || lang; } catch (e) {}
+let country = "IN";
+try { country = US_ZONE.test(Intl.DateTimeFormat().resolvedOptions().timeZone || "") ? "US" : "IN"; } catch (e) {}
+try { country = localStorage.getItem("tk-country") || country; } catch (e) {}
+if (!HELPLINE[country]) country = "IN";
 let socket = null;
 let state = null;
 let mic = null;
@@ -157,6 +182,19 @@ function setLang(next) {
     if (typeof value === "string") el.textContent = value;
   });
   renderQuestions();
+}
+
+function setCountry(next) {
+  country = next;
+  try { localStorage.setItem("tk-country", next); } catch (e) {}
+  $("#country").value = next;
+  const h = HELPLINE[next];
+  const link = $("#helpline");
+  link.href = h.href;
+  link.dataset.t = h.text;
+  if (next === "US") { link.target = "_blank"; link.rel = "noopener"; } else { link.removeAttribute("target"); }
+  $("#report-head").dataset.t = h.report;
+  setLang(lang);
 }
 
 function clock(s) {
@@ -231,7 +269,7 @@ function speak(text) {
   if (!("speechSynthesis" in window)) return;
   // Placeholder until the recorded warning lines exist: the browser's own voice.
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = SPEECH_LANG[lang];
+  u.lang = lang === "en" && country === "US" ? "en-US" : SPEECH_LANG[lang];
   speechSynthesis.cancel();
   speechSynthesis.speak(u);
 }
@@ -313,7 +351,7 @@ function play() {
   reset();
   const id = $("#call").value;
   const speed = new URLSearchParams(location.search).get("speed") || "1";
-  socket = new WebSocket(`${proto}://${location.host}/ws/demo?call=${encodeURIComponent(id)}&lang=${lang}&speed=${speed}`);
+  socket = new WebSocket(`${proto}://${location.host}/ws/demo?call=${encodeURIComponent(id)}&lang=${lang}&country=${country}&speed=${speed}`);
   socket.onmessage = (msg) => handle(JSON.parse(msg.data), Number(speed));
 }
 
@@ -323,7 +361,7 @@ async function checkFile(file) {
   reset();
   $("#status").textContent = t("checking");
   try {
-    const r = await fetch(`/api/check?lang=${lang}`, { method: "POST", body: file });
+    const r = await fetch(`/api/check?lang=${lang}&country=${country}`, { method: "POST", body: file });
     const data = await r.json();
     if (!r.ok) throw new Error(data.detail || r.statusText);
     // Replay the result at 4x, so the warning still arrives at the moment it would have.
@@ -351,7 +389,7 @@ async function listen() {
     const mute = ctx.createGain();
     mute.gain.value = 0;
     ctx.createMediaStreamSource(stream).connect(node).connect(mute).connect(ctx.destination);
-    socket = new WebSocket(`${proto}://${location.host}/ws/live?lang=${lang}`);
+    socket = new WebSocket(`${proto}://${location.host}/ws/live?lang=${lang}&country=${country}`);
     socket.binaryType = "arraybuffer";
     node.port.onmessage = (m) => { if (socket.readyState === 1) socket.send(m.data); };
     socket.onmessage = (msg) => handle(JSON.parse(msg.data), 1);
@@ -397,7 +435,8 @@ function handle(e, speed) {
 }
 
 async function init() {
-  setLang(lang);
+  setCountry(country);
+  $("#country").addEventListener("change", (e) => setCountry(e.target.value));
   document.querySelectorAll("[data-lang]").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
   const setBig = (on) => {
     document.documentElement.classList.toggle("big", on);

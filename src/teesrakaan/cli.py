@@ -11,7 +11,7 @@ from pathlib import Path
 from .judge import SparkSized
 from .keywords import KeywordJudge
 from .labels import read_labels, split_scripts, write_template
-from .messages import LANGS, warning
+from .messages import COUNTRIES, LANGS, warning
 from .metrics import Outcome, ftc_summary, summarize_by
 from .pricing import call_cost
 from .report import build_report
@@ -72,7 +72,7 @@ def cmd_simulate(args: argparse.Namespace) -> None:
 def cmd_report(args: argparse.Namespace) -> None:
     call = load_call(args.call)
     result = simulate(call, _judge(args.judge), Timing())
-    text = build_report(call, result.listener, args.lang).to_markdown()
+    text = build_report(call, result.listener, args.lang, country=args.country).to_markdown()
     if args.out:
         Path(args.out).write_text(text, encoding="utf-8")
         print(f"wrote {args.out}")
@@ -245,6 +245,7 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("call")
     p.add_argument("--judge", default="keywords")
     p.add_argument("--lang", choices=LANGS, default="en")
+    p.add_argument("--country", choices=COUNTRIES, default="IN", help="where to report: India (1930) or the US (FTC)")
     p.add_argument("--out")
     p.set_defaults(func=cmd_report)
 

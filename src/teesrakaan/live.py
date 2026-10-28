@@ -27,9 +27,11 @@ class _Turn:
 
 
 class LiveCall:
-    def __init__(self, judge: Judge, lang: str = "en", check_every: float = 6.0, min_new_words: int = 3) -> None:
+    def __init__(self, judge: Judge, lang: str = "en", check_every: float = 6.0, min_new_words: int = 3,
+                 country: str = "IN") -> None:
         self.listener = Listener(judge)
         self.lang = lang
+        self.country = country
         self.check_every = check_every
         self.min_new_words = min_new_words
         self.turns: dict[str, _Turn] = {}
@@ -110,7 +112,7 @@ class LiveCall:
             out.append({"type": "signal", "id": f.id, "name": SIGNAL_NAME[f.id][self.lang],
                         "quote": f.quote, "said_at": round(f.said_at, 1)})
         if update.raised:
-            out.append({"type": "alarm", "t": round(update.t, 1), "warning": warning(update.alarm, dict(self.quotes), self.lang)})
+            out.append({"type": "alarm", "t": round(update.t, 1), "warning": warning(update.alarm, dict(self.quotes), self.lang, self.country)})
         return out + prediction_events(update, self.lang)
 
     def to_call(self, call_id: str = "live") -> Call:
@@ -123,7 +125,7 @@ class LiveCall:
     def end(self, now: float) -> list[dict]:
         out = self.check(now) if self.pending else []
         call = self.to_call()
-        pack = build_report(call, self.listener, self.lang)
+        pack = build_report(call, self.listener, self.lang, country=self.country)
         listener = self.listener
         out.append({
             "type": "end",

@@ -40,6 +40,13 @@
         <select id="call" aria-label="Demo call"></select>
         <button id="play" class="secondary" data-t="demo">Play a demo call</button>
       </div>
+      <label class="where">
+        <span data-t="where">Where you are</span>
+        <select id="country">
+          <option value="IN" data-t="country_in">India · 1930</option>
+          <option value="US" data-t="country_us">USA · ReportFraud.ftc.gov</option>
+        </select>
+      </label>
       <label id="upload" class="secondary upload" hidden>
         <span data-t="upload">Check a call you recorded</span>
         <input id="file" type="file" accept="audio/*" hidden>
@@ -54,7 +61,7 @@
         <ul></ul>
       </div>
       <ul class="facts"></ul>
-      <a class="call1930" href="tel:1930" data-t="call1930">Call 1930</a>
+      <a id="helpline" class="call1930" href="tel:1930" data-t="call1930">Call 1930</a>
     </section>
 
     <section id="next" class="next" hidden aria-live="polite">
@@ -88,7 +95,7 @@
 
     <section id="report-wrap" class="panel" hidden>
       <div class="panel-head">
-        <h2 data-t="report">Report for 1930</h2>
+        <h2 id="report-head" data-t="report">Report for 1930</h2>
         <div class="report-actions">
           <button id="copy" class="secondary small" data-t="copy">Copy</button>
           <button id="download" class="secondary small" data-t="download">Download</button>

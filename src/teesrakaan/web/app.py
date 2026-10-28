@@ -21,7 +21,7 @@ from ..asr import REALTIME_URL, handshake
 from ..judge import SparkJudge
 from ..keywords import KeywordJudge
 from ..live import LiveCall
-from ..messages import LANGS, SIGNAL_NAME, prediction_events, warning
+from ..messages import COUNTRIES, LANGS, SIGNAL_NAME, prediction_events, warning
 from ..report import build_report
 from ..simulate import Timing, simulate
 from ..transcript import Call, load_call
@@ -71,8 +71,10 @@ def demo_judge():
     return KeywordJudge()
 
 
-def demo_events(call: Call, lang: str, timing: Timing = Timing(), judge=None) -> list[tuple[float, dict]]:
-    """Everything the page shows for one call, as (seconds into the call, event)."""
+def demo_events(call: Call, lang: str, timing: Timing = Timing(), judge=None,
+                country: str = "IN") -> list[tuple[float, dict]]:
+    """Everything the page shows for one call, as (seconds into the call, event). `country` is where the
+    listener is, which decides where the warning and the report send them."""
     judge = judge or KeywordJudge()
     if any(t.heard_times for t in call.turns):
         timing = Timing(judge_latency=None)  # a recorded session: real transcription times, the judge's own latency
@@ -95,9 +97,9 @@ def demo_events(call: Call, lang: str, timing: Timing = Timing(), judge=None) ->
                                          "quote": f.quote, "said_at": round(f.said_at, 1)}))
         if update.raised:
             events.append((update.t, 3, {"type": "alarm", "t": round(update.t, 1),
-                                         "warning": warning(update.alarm, dict(quotes), lang)}))
+                                         "warning": warning(update.alarm, dict(quotes), lang, country)}))
         events.extend((update.t, 3, e) for e in prediction_events(update, lang))
-    pack = build_report(call, result.listener, lang)
+    pack = build_report(call, result.listener, lang, country=country)
     # The report comes last: after the call, and after any answer the judge was still working on when it ended.
     end = max([call.duration + timing.transcribe_delay] + [u.t + 0.1 for u in result.listener.updates])
     events.append((end, 4, {
@@ -167,17 +169,18 @@ async def demo(ws: WebSocket) -> None:
     await ws.accept()
     call = _demo_calls().get(ws.query_params.get("call", ""))
     lang = ws.query_params.get("lang", "en")
+    country = ws.query_params.get("country", "IN")
     try:
         speed = min(max(float(ws.query_params.get("speed", "1")), 0.25), 20.0)
     except ValueError:
         speed = 1.0
-    if call is None or lang not in LANGS:
-        await ws.send_json({"type": "error", "message": "unknown call or language"})
+    if call is None or lang not in LANGS or country not in COUNTRIES:
+        await ws.send_json({"type": "error", "message": "unknown call, language or country"})
         await ws.close()
         return
     clock = 0.0
     try:
-        events = await asyncio.to_thread(demo_events, call, lang, Timing(), demo_judge())
+        events = await asyncio.to_thread(demo_events, call, lang, Timing(), demo_judge(), country)
         for t, event in events:
             await asyncio.sleep(max(t - clock, 0) / speed)
             clock = max(clock, t)
@@ -195,7 +198,10 @@ async def check_recording(request: Request) -> dict:
     """A call someone already recorded: batch-transcribed, then the same Listener, warnings and report.
     The audio is converted in memory and never stored."""
     lang = request.query_params.get("lang", "en")
-    if lang not in LANGS or not live_available():
+    country = request.query_params.get("country", "IN")
+    if lang not in LANGS or country not in COUNTRIES:
+        raise HTTPException(400, "Unknown language or country.")
+    if not live_available():
         raise HTTPException(503, "Checking recordings is switched off on this server.")
     body = await request.body()
     if not body or len(body) > MAX_UPLOAD_BYTES:
@@ -210,7 +216,7 @@ async def check_recording(request: Request) -> dict:
             f.flush()
             wav = wav16k(f.name)
         call = batch_to_call(transcribe_batch(wav), "your-recording")
-        return [{"t": t, **event} for t, event in demo_events(call, lang, Timing(), live_judge())]
+        return [{"t": t, **event} for t, event in demo_events(call, lang, Timing(), live_judge(), country)]
 
     try:
         return {"events": await asyncio.to_thread(run)}
@@ -224,7 +230,12 @@ async def live(ws: WebSocket) -> None:
     global _live_sessions
     await ws.accept()
     lang = ws.query_params.get("lang", "en")
-    if lang not in LANGS or not live_available():
+    country = ws.query_params.get("country", "IN")
+    if lang not in LANGS or country not in COUNTRIES:
+        await ws.send_json({"type": "error", "message": "unknown language or country"})
+        await ws.close()
+        return
+    if not live_available():
         await ws.send_json({"type": "error", "message": "Live listening is switched off on this server."})
         await ws.close()
         return
@@ -236,7 +247,7 @@ async def live(ws: WebSocket) -> None:
     from websockets.asyncio.client import connect
 
     loop = asyncio.get_running_loop()
-    call = LiveCall(live_judge(), lang)
+    call = LiveCall(live_judge(), lang, country=country)
     send_lock = asyncio.Lock()
 
     async def send(events: list[dict]) -> None:

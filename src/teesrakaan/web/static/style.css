@@ -90,6 +90,11 @@ button { font: inherit; }
   flex: 1 1 180px; min-width: 0; padding: 10px; border-radius: 10px; border: 1px solid var(--line);
   background: var(--card); color: var(--ink); font: inherit;
 }
+.where { display: flex; align-items: center; justify-content: center; gap: 8px; color: var(--muted); font-size: 0.85rem; }
+.where select {
+  min-width: 0; max-width: 100%; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--card); color: var(--ink); font: inherit;
+}
 .secondary {
   padding: 10px 14px; border-radius: 10px; border: 1px solid var(--ink);
   background: transparent; color: var(--ink); cursor: pointer; font-weight: 600;
