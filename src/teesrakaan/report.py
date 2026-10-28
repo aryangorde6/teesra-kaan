@@ -12,7 +12,7 @@ from dataclasses import dataclass, field
 from .listener import Listener
 from .messages import SIGNAL_NAME, facts_for
 from .signals import Level
-from .transcript import CALLER, Call, normalize
+from .transcript import CALLER, LISTENER, Call, normalize
 
 _DIGITS = str.maketrans("०१२३४५६७८९", "0123456789")
 
@@ -138,6 +138,7 @@ def build_report(call: Call, listener: Listener, lang: str = "en", caller_number
         key=lambda c: c["said_at"],
     )
     alarm = listener.alarm
+    caller = call.caller_label()
     return ReportPack(
         call_id=call.id,
         duration=call.duration,
@@ -145,8 +146,9 @@ def build_report(call: Call, listener: Listener, lang: str = "en", caller_number
         rule=alarm.rule,
         claims=claims,
         warned_at=listener.first_time(Level.AMBER),
-        mentioned=extract(" \n ".join(t.text for t in call.turns if t.speaker == CALLER)),
-        transcript=[{"speaker": t.speaker, "start": t.start, "text": t.text} for t in call.turns],
+        mentioned=extract(" \n ".join(t.text for t in call.turns if t.speaker == caller)),
+        transcript=[{"speaker": CALLER if t.speaker == caller else LISTENER, "start": t.start, "text": t.text}
+                    for t in call.turns],
         facts=facts_for(alarm.signals, lang),
         lang=lang,
         caller_number=caller_number,

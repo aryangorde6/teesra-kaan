@@ -55,7 +55,7 @@ class Listener:
         return tuple(s for s in self.signals if s.id not in self.found)
 
     def check(self, asked_at: float, latency: float | None = None) -> Update | None:
-        """Ask the judge about what's been heard. `latency` None means measure the real call.
+        """Ask the judge about what's been heard. `latency` None means the judge's own: recorded, or measured.
 
         Returns None when there's nothing new to ask about.
         """
@@ -65,7 +65,9 @@ class Listener:
         self._checked_at_words = self.transcript.n_caller_words
         started = time.monotonic()
         reply = self.judge.ask(questions, self.transcript)
-        done_at = asked_at + (time.monotonic() - started if latency is None else latency)
+        if latency is None:
+            latency = reply.latency if reply.latency is not None else time.monotonic() - started
+        done_at = asked_at + latency
         self.judge_calls += 1
         self.input_tokens += reply.input_tokens
         self.output_tokens += reply.output_tokens

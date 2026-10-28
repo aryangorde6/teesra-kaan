@@ -1,7 +1,7 @@
 import json
 
 from teesrakaan.cli import main
-from teesrakaan.judge import SPARK_SCHEMA_V1, SPARK_SYSTEM_V1, SparkJudge, SparkSized, parse_spark_reply
+from teesrakaan.judge import SPARK_SCHEMA_V1, SPARK_SYSTEM_V1, Completion, SparkJudge, SparkSized, parse_spark_reply
 from teesrakaan.keywords import KeywordJudge
 from teesrakaan.signals import BY_ID, SIGNALS
 from teesrakaan.transcript import CALLER, Transcript
@@ -26,7 +26,7 @@ def test_spark_judge_sends_the_questions_and_the_dialogue():
 
     def complete(system, user, schema):
         sent.update(system=system, user=user, schema=schema)
-        return '{"yes": [{"id": "A1", "quote": "CBI se"}]}', 900, 30
+        return Completion('{"yes": [{"id": "A1", "quote": "CBI se"}]}', 900, 30, 1.2)
 
     tr = Transcript()
     for i, w in enumerate("Main CBI se bol raha hoon".split()):
@@ -34,7 +34,7 @@ def test_spark_judge_sends_the_questions_and_the_dialogue():
     reply = SparkJudge(complete).ask(QS, tr)
     assert sent["system"] == SPARK_SYSTEM_V1 and sent["schema"] == SPARK_SCHEMA_V1
     assert "CALLER: Main CBI se bol raha hoon" in sent["user"] and "A5:" in sent["user"]
-    assert reply.yes[0].id == "A1" and reply.input_tokens == 900
+    assert reply.yes[0].id == "A1" and reply.input_tokens == 900 and reply.latency == 1.2
 
 
 def test_sized_judge_counts_spark_sized_tokens():

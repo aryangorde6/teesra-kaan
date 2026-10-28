@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from teesrakaan.transcript import CALLER, LISTENER, Transcript, Turn, load_call, merge_speakers, normalize
+from teesrakaan.transcript import CALLER, LISTENER, Call, Transcript, Turn, load_call, merge_speakers, normalize
 
 
 def test_normalize_folds_case_punctuation_and_devanagari_digits():
@@ -54,7 +54,7 @@ def test_dialogue_labels_each_side():
 
 def test_load_call_checks_speakers(tmp_path):
     path = tmp_path / "c.json"
-    path.write_text(json.dumps({"id": "x", "turns": [{"speaker": "S1", "start": 0, "end": 1, "text": "hi"}]}))
+    path.write_text(json.dumps({"id": "x", "turns": [{"speaker": " ", "start": 0, "end": 1, "text": "hi"}]}))
     with pytest.raises(ValueError, match="speaker"):
         load_call(path)
 
@@ -63,3 +63,26 @@ def test_merge_speakers_makes_every_turn_the_callers(example):
     call = merge_speakers(example("demo-digital-arrest"))
     assert {t.speaker for t in call.turns} == {CALLER}
     assert call.duration == 76.0
+
+
+def test_with_speaker_labels_the_caller_is_whoever_said_most_so_far():
+    tr = Transcript()
+    for i, w in enumerate("Hello?".split()):
+        tr.add(i, "A", w)
+    assert tr.caller == "A"  # only one speaker so far
+    for i, w in enumerate("Main CBI se bol raha hoon, aapke naam pe FIR hai".split()):
+        tr.add(2 + i, "B", w)
+    assert tr.caller == "B" and tr.n_caller_words == 11
+    assert tr.dialogue().startswith("YOU: Hello?\nCALLER: Main CBI")
+    assert tr.locate("FIR hai") is not None and tr.locate("Hello") is None
+
+
+def test_call_caller_label_and_heard_times():
+    call = Call("x", (
+        Turn("A", 0, 1, "Hello?"),
+        Turn("B", 1.5, 4, "Main CBI se bol raha hoon", heard_times=(2.0, 2.4, 2.9, 3.3, 3.8, 4.6)),
+    ))
+    assert call.caller_label() == "B"
+    heard = call.timed_words(delay=1.0)
+    assert heard[0] == (1.0, 0.0, "A", "Hello?")
+    assert heard[-1][0] == 4.6 and heard[-1][3] == "hoon"

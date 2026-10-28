@@ -17,7 +17,7 @@ from typing import TextIO
 from .judge import Judge
 from .listener import Listener
 from .signals import Level
-from .transcript import CALLER, Call
+from .transcript import LISTENER, Call
 
 
 @dataclass(frozen=True)
@@ -51,25 +51,25 @@ def check_points(call: Call, timing: Timing) -> list[tuple[float, bool]]:
     """(time, turn ended) for every moment the judge would be asked."""
     points = []
     for turn in call.turns:
-        if turn.speaker != CALLER:
+        if turn.speaker == LISTENER:
             continue
         t = turn.start + timing.check_every
         while t < turn.end:
             points.append((t + timing.transcribe_delay, False))
             t += timing.check_every
-        points.append((turn.end + timing.transcribe_delay, True))
+        points.append((turn.heard_end(timing.transcribe_delay), True))
     return sorted(points)
 
 
 def simulate(call: Call, judge: Judge, timing: Timing = Timing(), stop_at_red: bool = False) -> SimResult:
     listener = Listener(judge)
-    words = [(t + timing.transcribe_delay, speaker, w) for t, speaker, w in call.words()]
+    words = call.timed_words(timing.transcribe_delay)
     i = 0
     judge_free = 0.0
     for point, turn_ended in check_points(call, timing):
         now = max(point, judge_free)
         while i < len(words) and words[i][0] <= now:
-            listener.hear(*words[i])
+            listener.hear(*words[i][1:])
             i += 1
         if not turn_ended and listener.new_caller_words() < timing.min_new_words:
             continue
@@ -79,7 +79,7 @@ def simulate(call: Call, judge: Judge, timing: Timing = Timing(), stop_at_red: b
             if stop_at_red and update.alarm.level == Level.RED:
                 break
     while i < len(words):
-        listener.hear(*words[i])
+        listener.hear(*words[i][1:])
         i += 1
     return SimResult(call, listener)
 
@@ -88,9 +88,10 @@ def replay(result: SimResult, out: TextIO | None = None, speed: float | None = 1
     """Prints the call and the warnings in time order; sleeps between them unless speed is None."""
     out = out or sys.stdout
     events: list[tuple[float, str]] = []
-    who = {CALLER: "caller", "listener": "you"}
+    caller = result.call.caller_label()
     for turn in result.call.turns:
-        events.append((turn.end + delay, f"{who[turn.speaker]:>6}: {turn.text}"))
+        who = "caller" if turn.speaker == caller else "you"
+        events.append((turn.end + delay, f"{who:>6}: {turn.text}"))
     for update in result.listener.updates:
         for f in update.new:
             events.append((update.t, f"        + {f.id} ({f.said_at:.0f}s): \"{f.quote}\""))

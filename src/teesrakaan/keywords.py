@@ -14,7 +14,7 @@ from collections.abc import Sequence
 
 from .judge import Answer, Reply
 from .signals import Signal
-from .transcript import CALLER, Transcript
+from .transcript import Transcript
 
 _L = r"[\wऀ-ॿ]"  # a letter, digit or Devanagari character
 
@@ -162,7 +162,8 @@ class KeywordJudge:
     name = "keywords-v1"
 
     def ask(self, questions: Sequence[Signal], transcript: Transcript) -> Reply:
-        lines = [unicodedata.normalize("NFC", line.text) for line in transcript.lines if line.speaker == CALLER]
+        caller = transcript.caller
+        lines = [unicodedata.normalize("NFC", line.text) for line in transcript.lines if line.speaker == caller]
         answers = []
         for q in questions:
             hit = None

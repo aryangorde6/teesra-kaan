@@ -23,11 +23,12 @@ def normalize(text: str) -> str:
 
 @dataclass(frozen=True)
 class Turn:
-    speaker: str  # CALLER or LISTENER
+    speaker: str  # CALLER, LISTENER, or a transcriber's speaker label such as "A"
     start: float  # seconds from the start of the call
     end: float
     text: str
-    word_times: tuple[float, ...] = ()  # start of each word, when the transcriber gives them
+    word_times: tuple[float, ...] = ()  # when each word was said, when known
+    heard_times: tuple[float, ...] = ()  # when each word reached the transcript, from a real stream
 
     def words(self) -> list[tuple[float, str]]:
         words = self.text.split()
@@ -35,6 +36,19 @@ class Turn:
             return list(zip(self.word_times, words))
         step = (self.end - self.start) / max(len(words), 1)
         return [(self.start + i * step, w) for i, w in enumerate(words)]
+
+    def heard(self, delay: float) -> list[float]:
+        """When each word reached the transcript: recorded from the stream, or said + delay."""
+        said = [t for t, _ in self.words()]
+        if len(self.heard_times) == len(said):
+            return list(self.heard_times)
+        return [t + delay for t in said]
+
+    def heard_end(self, delay: float) -> float:
+        """When the whole turn was in the transcript."""
+        if self.heard_times and len(self.heard_times) == len(self.text.split()):
+            return self.heard_times[-1]
+        return self.end + delay
 
 
 @dataclass(frozen=True)
@@ -55,6 +69,24 @@ class Call:
         items = [(t, turn.speaker, w) for turn in self.turns for t, w in turn.words()]
         yield from sorted(items, key=lambda item: item[0])
 
+    def timed_words(self, delay: float) -> list[tuple[float, float, str, str]]:
+        """(heard, said, speaker, word), in the order they reached the transcript."""
+        items = [
+            (heard, said, turn.speaker, w)
+            for turn in self.turns
+            for (said, w), heard in zip(turn.words(), turn.heard(delay))
+        ]
+        return sorted(items, key=lambda item: (item[0], item[1]))
+
+    def caller_label(self) -> str:
+        """CALLER when the turns say so; otherwise the speaker who said the most."""
+        counts: dict[str, int] = {}
+        for turn in self.turns:
+            counts[turn.speaker] = counts.get(turn.speaker, 0) + len(turn.text.split())
+        if CALLER in counts or not counts:
+            return CALLER
+        return max(counts, key=counts.__getitem__)
+
 
 def load_call(path: str | Path) -> Call:
     data = json.loads(Path(path).read_text(encoding="utf-8"))
@@ -65,12 +97,13 @@ def load_call(path: str | Path) -> Call:
             end=float(t["end"]),
             text=t["text"],
             word_times=tuple(float(x) for x in t.get("word_times", ())),
+            heard_times=tuple(float(x) for x in t.get("heard_times", ())),
         )
         for t in data["turns"]
     )
     for turn in turns:
-        if turn.speaker not in (CALLER, LISTENER):
-            raise ValueError(f"{path}: speaker must be {CALLER!r} or {LISTENER!r}, not {turn.speaker!r}")
+        if not turn.speaker.strip():
+            raise ValueError(f"{path}: every turn needs a speaker")
     return Call(
         id=data["id"],
         turns=turns,
@@ -101,12 +134,16 @@ class Line:
 
 
 class Transcript:
-    """What has been heard so far, as it grows word by word."""
+    """What has been heard so far, as it grows word by word.
+
+    With a transcriber's speaker labels ("A", "B"), the caller is whoever has said
+    the most so far: decided only from what's been heard, so it can change early on.
+    """
 
     def __init__(self) -> None:
         self.lines: list[Line] = []
         self.n_words = 0
-        self.n_caller_words = 0
+        self.words_by_speaker: dict[str, int] = {}
 
     def add(self, t: float, speaker: str, word: str) -> None:
         if self.lines and self.lines[-1].speaker == speaker:
@@ -114,19 +151,32 @@ class Transcript:
         else:
             self.lines.append(Line(speaker, [(t, word)]))
         self.n_words += 1
-        self.n_caller_words += speaker == CALLER
+        self.words_by_speaker[speaker] = self.words_by_speaker.get(speaker, 0) + 1
+
+    @property
+    def caller(self) -> str:
+        counts = self.words_by_speaker
+        if CALLER in counts or not counts:
+            return CALLER
+        return max(counts, key=counts.__getitem__)
+
+    @property
+    def n_caller_words(self) -> int:
+        return self.words_by_speaker.get(self.caller, 0)
 
     def dialogue(self) -> str:
-        who = {CALLER: "CALLER", LISTENER: "YOU"}
-        return "\n".join(f"{who[line.speaker]}: {line.text}" for line in self.lines)
+        caller = self.caller
+        return "\n".join(f"{'CALLER' if line.speaker == caller else 'YOU'}: {line.text}" for line in self.lines)
 
     def caller_text(self) -> str:
-        return " ".join(line.text for line in self.lines if line.speaker == CALLER)
+        caller = self.caller
+        return " ".join(line.text for line in self.lines if line.speaker == caller)
 
     def _caller_tokens(self) -> list[tuple[str, float]]:
         tokens = []
+        caller = self.caller
         for line in self.lines:
-            if line.speaker == CALLER:
+            if line.speaker == caller:
                 for t, w in line.words:
                     tokens.extend((tok, t) for tok in normalize(w).split())
         return tokens

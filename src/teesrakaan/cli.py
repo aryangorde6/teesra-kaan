@@ -103,6 +103,39 @@ def cmd_ftc(args: argparse.Namespace) -> None:
     print(f"wrote {sheet}")
 
 
+def cmd_transcribe(args: argparse.Namespace) -> None:
+    from .asr import transcribe_file
+
+    settings = {"mode": args.mode}
+    if args.no_language_hint:
+        settings["languages"] = ()
+    if args.no_keywords:
+        settings["keywords"] = ()
+    session = transcribe_file(args.audio, **settings)
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(session.to_json(), ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"{len(session.events)} events, {session.audio_seconds:.0f} s of audio -> {out}")
+
+
+def cmd_ping(args: argparse.Namespace) -> None:
+    """One tiny Spark call, to check the key and that the credits pay for it."""
+    from .spark import SparkClient
+
+    done = SparkClient(max_output_tokens=16, reasoning_effort=None, cache_dir=Path(args.scratch))(
+        "Reply with the single word: ok", f"ping {date.today().isoformat()}", None
+    )
+    print(f"reply {done.text!r}, {done.input_tokens} in / {done.output_tokens} out tokens, {done.latency:.2f} s")
+
+
+def cmd_budget(args: argparse.Namespace) -> None:
+    from .budget import Ledger, meta_cap
+
+    s = Ledger("meta", meta_cap()).summary()
+    print(f"meta: ${s.spent_usd:.4f} spent, ${s.reserved_usd:.4f} reserved, ${s.remaining_usd:.2f} left "
+          f"of the ${s.cap_usd:.2f} stop, {s.calls} calls")
+
+
 def cmd_serve(args: argparse.Namespace) -> None:
     import uvicorn
 
@@ -153,6 +186,21 @@ def main(argv: list[str] | None = None) -> None:
     p = sub.add_parser("ftc-fetch", help="download the 200 sampled FTC robocalls (public domain), pinned and hash-checked")
     p.add_argument("--dest", default="data/ftc")
     p.set_defaults(func=cmd_ftc)
+
+    p = sub.add_parser("transcribe", help="PAID: stream one recording through Muse Voice Transcribe")
+    p.add_argument("audio")
+    p.add_argument("--out", required=True, help="where to save the session's events (JSON)")
+    p.add_argument("--mode", default="DIARIZATION", choices=("DIARIZATION", "ENDPOINTING"))
+    p.add_argument("--no-language-hint", action="store_true", help="ablation")
+    p.add_argument("--no-keywords", action="store_true", help="ablation")
+    p.set_defaults(func=cmd_transcribe)
+
+    p = sub.add_parser("ping", help="PAID: one tiny Muse Spark call to check the key and credits")
+    p.add_argument("--scratch", default="runs/ping-cache", help="cache folder, so a ping is never served from cache")
+    p.set_defaults(func=cmd_ping)
+
+    p = sub.add_parser("budget", help="what the Meta API has cost so far, against the $120 stop")
+    p.set_defaults(func=cmd_budget)
 
     p = sub.add_parser("serve", help="run the listener page")
     p.add_argument("--host", default="127.0.0.1")

@@ -40,6 +40,9 @@ The calls in `examples/calls/` are written demo scripts, not real calls; every n
 | `src/teesrakaan/report.py` | The report pack for 1930 and cybercrime.gov.in |
 | `src/teesrakaan/messages.py` | Warnings in English, Hindi and Marathi |
 | `src/teesrakaan/labels.py` | The labelling sheet and the fixed dev/test splits |
+| `src/teesrakaan/spark.py`, `asr.py`, `budget.py` | Muse Spark and Muse Voice Transcribe clients, behind a $120 hard stop |
+| `src/teesrakaan/web/` | The listener page (`teesrakaan serve`) |
+| `src/teesrakaan/ftc.py`, `scripts.py` | The FTC robocall sample and the re-enactment scripts |
 
 ## Licence
 MIT

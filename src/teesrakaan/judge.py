@@ -30,6 +30,7 @@ class Reply:
     input_tokens: int = 0
     output_tokens: int = 0
     note: str = ""  # e.g. why a reply couldn't be parsed
+    latency: float | None = None  # seconds the model took, when known (a cached reply keeps the original)
 
 
 class Judge(Protocol):
@@ -92,8 +93,15 @@ def parse_spark_reply(text: str, questions: Sequence[Signal]) -> tuple[list[Answ
     return answers, ""
 
 
-# complete(system, user, json_schema) -> (text, input_tokens, output_tokens)
-Complete = Callable[[str, str, dict], tuple[str, int, int]]
+@dataclass(frozen=True)
+class Completion:
+    text: str
+    input_tokens: int = 0
+    output_tokens: int = 0
+    latency: float | None = None
+
+
+Complete = Callable[[str, str, dict], Completion]  # complete(system, user, json_schema)
 
 
 @dataclass
@@ -125,6 +133,6 @@ class SparkJudge:
 
     def ask(self, questions: Sequence[Signal], transcript: Transcript) -> Reply:
         self.calls += 1
-        text, n_in, n_out = self.complete(self.system, spark_user_message(questions, transcript), SPARK_SCHEMA_V1)
-        answers, note = parse_spark_reply(text, questions)
-        return Reply(answers, n_in, n_out, note)
+        done = self.complete(self.system, spark_user_message(questions, transcript), SPARK_SCHEMA_V1)
+        answers, note = parse_spark_reply(done.text, questions)
+        return Reply(answers, done.input_tokens, done.output_tokens, note, done.latency)

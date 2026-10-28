@@ -39,8 +39,10 @@ def demo_events(call: Call, lang: str, timing: Timing = Timing()) -> list[tuple[
         "call": {"id": call.id, "language": call.language, "duration": call.duration,
                  "re_enactment": call.re_enactment, "label": call.label},
     })]
-    for t, speaker, word in call.words():
-        events.append((t + timing.transcribe_delay, 1, {"type": "word", "speaker": speaker, "t": round(t, 2), "word": word}))
+    caller = call.caller_label()
+    for heard, said, speaker, word in call.timed_words(timing.transcribe_delay):
+        who = "caller" if speaker == caller else "listener"
+        events.append((heard, 1, {"type": "word", "speaker": who, "t": round(said, 2), "word": word}))
     quotes: dict[str, str] = {}
     for update in result.listener.updates:
         for f in update.new:
