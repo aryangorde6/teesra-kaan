@@ -169,6 +169,9 @@ function reset() {
   $("#signals").innerHTML = "";
   $("#alert").hidden = true;
   $("#alert").className = "alert";
+  $("#next").hidden = true;
+  $("#next-now").hidden = true;
+  $("#next .came-true").innerHTML = "";
   $("#timeline-wrap").hidden = true;
   $("#report-wrap").hidden = true;
   $("#report").textContent = "";
@@ -201,6 +204,27 @@ function addSignal(e) {
   li.querySelector(".name").textContent = e.name;
   li.querySelector(".quote").textContent = `“${e.quote}”`;
   $("#signals").prepend(li);
+}
+
+function showNext(e) {
+  // The caller's next line from the scam's script, shown before it's said; hidden while the scripts disagree.
+  $("#next-now").hidden = !e.id;
+  if (!e.id) return;
+  $("#next").hidden = false;
+  $("#next .next-label").textContent = e.label;
+  $("#next .next-line").textContent = e.line;
+}
+
+function cameTrue(e) {
+  const li = document.createElement("li");
+  li.textContent = e.text;
+  const when = document.createElement("span");
+  when.className = "when";
+  when.textContent = clock(e.said_at);
+  li.appendChild(when);
+  $("#next").hidden = false;
+  $("#next .came-true").prepend(li);
+  if (navigator.vibrate) navigator.vibrate(150);
 }
 
 function speak(text) {
@@ -366,6 +390,8 @@ function handle(e, speed) {
     else if (e.type === "partial") showPartial(e);
     else if (e.type === "signal") addSignal(e);
     else if (e.type === "alarm") showAlarm(e);
+    else if (e.type === "next") showNext(e);
+    else if (e.type === "came_true") cameTrue(e);
     else if (e.type === "end") finish(e);
     else if (e.type === "error") $("#status").textContent = e.message;
 }

@@ -171,3 +171,14 @@ button { font: inherit; }
 html.big { font-size: 125%; }
 html.big .alert-head { font-size: 1.7rem; }
 html.big .alert-action { font-size: 1.25rem; }
+
+.next { border-radius: var(--radius); padding: 16px 18px; background: var(--card); border: 2px dashed var(--caller); }
+.next-label { margin: 0 0 4px; color: var(--muted); font-size: 0.95rem; }
+.next-line { margin: 0; font-size: 1.3rem; font-weight: 700; color: var(--caller); line-height: 1.35; }
+.next-line::before { content: "“"; }
+.next-line::after { content: "”"; }
+.came-true { list-style: none; margin: 0; padding: 0; }
+.came-true li { margin-top: 10px; padding: 10px 12px; border-radius: 10px; background: var(--accent-soft); color: var(--ink); animation: pop 0.35s ease-out; }
+.came-true li::before { content: "✓ "; font-weight: 700; color: var(--accent); }
+.came-true li .when { color: var(--muted); font-size: 0.9rem; margin-left: 6px; }
+#next-now + .came-true:not(:empty) { margin-top: 4px; }

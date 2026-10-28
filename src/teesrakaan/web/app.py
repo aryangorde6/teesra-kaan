@@ -21,7 +21,7 @@ from ..asr import REALTIME_URL, handshake
 from ..judge import SparkJudge
 from ..keywords import KeywordJudge
 from ..live import LiveCall
-from ..messages import LANGS, SIGNAL_NAME, warning
+from ..messages import LANGS, SIGNAL_NAME, prediction_events, warning
 from ..report import build_report
 from ..simulate import Timing, simulate
 from ..transcript import Call, load_call
@@ -96,6 +96,7 @@ def demo_events(call: Call, lang: str, timing: Timing = Timing(), judge=None) ->
         if update.raised:
             events.append((update.t, 3, {"type": "alarm", "t": round(update.t, 1),
                                          "warning": warning(update.alarm, dict(quotes), lang)}))
+        events.extend((update.t, 3, e) for e in prediction_events(update, lang))
     pack = build_report(call, result.listener, lang)
     # The report comes last: after the call, and after any answer the judge was still working on when it ended.
     end = max([call.duration + timing.transcribe_delay] + [u.t + 0.1 for u in result.listener.updates])

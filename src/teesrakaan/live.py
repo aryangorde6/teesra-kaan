@@ -13,7 +13,7 @@ from dataclasses import dataclass, field
 
 from .judge import Judge
 from .listener import Listener
-from .messages import SIGNAL_NAME, warning
+from .messages import SIGNAL_NAME, prediction_events, warning
 from .report import build_report
 from .signals import Level
 from .transcript import Call, Turn
@@ -111,7 +111,7 @@ class LiveCall:
                         "quote": f.quote, "said_at": round(f.said_at, 1)})
         if update.raised:
             out.append({"type": "alarm", "t": round(update.t, 1), "warning": warning(update.alarm, dict(self.quotes), self.lang)})
-        return out
+        return out + prediction_events(update, self.lang)
 
     def to_call(self, call_id: str = "live") -> Call:
         turns = tuple(

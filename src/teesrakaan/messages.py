@@ -153,3 +153,12 @@ def next_line(step: str, lang: str = "en") -> dict:
 
 def came_true(step: str, quote: str, lang: str = "en") -> dict:
     return {"id": step, "text": CAME_TRUE[lang].format(quote=quote), "quote": quote}
+
+
+def prediction_events(update, lang: str = "en") -> list[dict]:
+    """The page events for a Listener update's next line: any that came true, then the one now shown."""
+    out = [{"type": "came_true", "said_at": round(p.said_at, 1), **came_true(p.step, p.quote, lang)}
+           for p in update.came_true]
+    if update.next_changed:
+        out.append({"type": "next", **next_line(update.next.step, lang)} if update.next else {"type": "next", "id": None})
+    return out

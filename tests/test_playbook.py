@@ -90,3 +90,34 @@ def test_predictions_can_be_turned_off():
     listener = Listener(KeywordJudge(), predict=None)
     _listen(listener, 0.0, "Main CBI se bol raha hoon. Aapke naam pe FIR darj hai. Skype pe video call pe aaiye.")
     assert listener.next is None and listener.predictions == []
+
+
+def test_the_demo_digital_arrest_call_shows_each_line_before_the_caller_says_it(example):
+    from teesrakaan.web.app import demo_events
+
+    events = demo_events(example("demo-digital-arrest"), "en")
+    shown: dict[str, float] = {}
+    for t, e in events:
+        if e["type"] == "next" and e["id"]:
+            shown.setdefault(e["id"], t)
+    true = [e for _, e in events if e["type"] == "came_true"]
+    assert {e["id"] for e in true} >= {"A8", "A6"}
+    assert all(shown[e["id"]] <= e["said_at"] for e in true)
+
+
+def test_nothing_comes_true_on_the_genuine_bank_call(example):
+    from teesrakaan.web.app import demo_events
+
+    assert not [e for _, e in demo_events(example("demo-bank-alert-genuine"), "en") if e["type"] == "came_true"]
+
+
+def test_live_calls_send_the_next_line_too():
+    from teesrakaan.live import LiveCall
+
+    call = LiveCall(KeywordJudge(), lang="hi", min_new_words=1, check_every=0)
+    text = "Main CBI se bol raha hoon. Aapke naam pe FIR darj hai. Skype pe video call pe aaiye."
+    call.on_event({"type": "speechStart", "turnId": 1})
+    call.on_event({"type": "speechComplete", "turnId": 1, "transcript": text, "audioProcessedMs": 9000})
+    out = call.check(10.0)
+    nxt = [e for e in out if e["type"] == "next"]
+    assert nxt and nxt[0]["id"] == "A4" and nxt[0]["line"] == NEXT_LINE["A4"]["hi"]
