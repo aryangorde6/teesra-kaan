@@ -1,0 +1,3 @@
+call_id,set,split,is_scam,pattern,languages,t0,t_ask,ftc_class,labeller,labelled_at,notes
+demo-digital-arrest,IN-scam,dev,1,1,hi+en,1.5,56,,AG,2026-10-28T18:00+05:30,"written demo script, not part of any test set"
+demo-bank-alert-genuine,IN-genuine,dev,0,0,hi+en,,,,AG,2026-10-28T18:00+05:30,"written demo script, not part of any test set"

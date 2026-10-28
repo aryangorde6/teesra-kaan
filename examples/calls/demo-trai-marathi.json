@@ -1,0 +1,15 @@
+{
+  "id": "demo-trai-marathi",
+  "set": "demo",
+  "language": "mr",
+  "re_enactment": true,
+  "note": "A written demo script, not a real call. Pattern 3 from docs/scam-tactics.md.",
+  "label": {"is_scam": true, "pattern": 3, "t0": 1.0, "t_ask": 23.5},
+  "turns": [
+    {"speaker": "caller", "start": 0.0, "end": 9.0, "text": "नमस्कार, हा TRAI कडून महत्त्वाचा कॉल आहे. तुमचा मोबाईल नंबर दोन तासात बंद होईल. अधिक माहितीसाठी 9 दाबा."},
+    {"speaker": "listener", "start": 9.5, "end": 10.0, "text": "हॅलो?"},
+    {"speaker": "caller", "start": 11.0, "end": 21.0, "text": "मी TRAI चा अधिकारी बोलतोय. तुमच्या आधार कार्डवरून घेतलेल्या सिमवरून बेकायदेशीर मेसेज पाठवले गेले आहेत. तुमच्यावर गुन्हा दाखल होईल."},
+    {"speaker": "listener", "start": 21.5, "end": 23.0, "text": "पण मी असे काही केले नाही."},
+    {"speaker": "caller", "start": 23.5, "end": 33.0, "text": "नंबर चालू ठेवायचा असेल तर आत्ताच तुमचा आधार नंबर आणि तुमच्या फोनवर आलेला OTP सांगा."}
+  ]
+}

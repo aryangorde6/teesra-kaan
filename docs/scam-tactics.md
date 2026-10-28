@@ -1,6 +1,6 @@
 # Scam-call tactics in India: what Teesra Kaan listens for
 
-Version 1, Oct 28, 2026. Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns marked *source to add* are well known but not yet tied to an official advisory, and must be before they appear in the demo.
+Version 1.1, Oct 28, 2026 (evening; v1 was the same afternoon, see "Changes" at the end). Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns marked *source to add* are well known but not yet tied to an official advisory, and must be before they appear in the demo.
 
 ## The signals
 
@@ -19,11 +19,13 @@ Teesra Kaan doesn't ask a model "is this a scam?". After each caller turn, Muse 
 | **A9 Parcel** | Says a parcel or courier in your name holds illegal items? | "aapke parcel mein drugs mile hain" |
 | **A10 Press-a-key** | An automated voice says to press a key to talk to an officer? | "press 9" |
 | **A11 PIN to receive** | Says you must enter a UPI PIN or approve a request to *receive* money? | "PIN daalo, paise aa jayenge" |
+| **A12 Windfall** | Says you've won a prize, lottery, cashback or refund, or that money was sent to you by mistake? | "aapne KBC lottery jeeti hai", "galti se paise aa gaye" |
 
-**Draft alarm rules** (tuned on the development set only, then frozen; see `evaluation-rule.md`):
-- **Danger (red):** an ask (A5, A6, A7 or A11) together with pressure (A1, A2, A3 or A4).
+**Alarm rules v1.1** (tuned on the development set only, then frozen; see `evaluation-rule.md`). In one line: **two signals make a warning; if one of them is an ask, it's red.**
+- **Asks** are A5, A6, A7 and A11: the caller wants secrets, money, control or a PIN. **Flags** are the other eight: pressure (A1–A4) and the scam's props (A8–A10, A12).
+- **Danger (red):** an ask together with any other signal.
 - **Danger (red), before any ask:** authority plus threat plus isolation (A1 + A2 + A4). That's the "digital arrest" opening, which moves to money later.
-- **Caution (amber):** any two of A1, A2, A3, A8, A9 or A10.
+- **Caution (amber):** any two flags.
 - **Never on one signal alone.** A real bank's fraud team says "bank" and may say "urgent", but never asks for an OTP or PIN.
 
 ## The patterns
@@ -34,11 +36,11 @@ Teesra Kaan doesn't ask a model "is this a scam?". After each caller turn, Muse 
 | 2 | **Courier or customs parcel** | An automated "FedEx" or "DHL" call says a parcel in your name was seized, then puts you through to a "customs officer". It's usually the opening of pattern 1 | A9 A10 → A1 A2 | Same I4C coverage; first-person account in [The South First](https://thesouthfirst.com/opinion/why-a-video-call-with-a-scammer-could-put-you-at-risk-a-reporters-first-person-account) |
 | 3 | **"Your number will be blocked"** | An automated voice says TRAI or DoT will disconnect your number within 2 hours: "press 9". The caller then asks for Aadhaar or OTP details, or moves into pattern 1 | A1 A2 A3 A10 → A5 | DoT advisory (PIB, May 2024): DoT and TRAI don't authorise anyone to make such calls; report on Chakshu, Sanchar Saathi ([Sanchar Saathi PDF](https://www.sancharsaathi.gov.in/SancharSaathiDocuments/ImportantDocuments/Threatening%20fake%20call%20for%20disconnection%20of%20mobile%20connections.pdf), [Storyboard18](https://www.storyboard18.com/how-it-works/dot-warns-against-fake-calls-threatening-disconnection-of-mobile-numbers-31548.htm)) |
 | 4 | **KYC update or account block** | A "bank" caller says your account or card will be blocked unless you update KYC now, then asks for card details, an OTP or a link click | A1 A2 A3 → A5 A7 | RBI, "BE(A)WARE" booklet on fraudsters' methods, 2022 ([PDF](https://website.rbi.org.in/documents/87730/39016390/BEAWARE07032022.pdf)): genuine banks never ask for a password, card details, CVV or OTP |
-| 5 | **"Enter PIN to receive money"** | The caller promises a refund, prize or "wrong transfer" return and asks you to approve a UPI request or enter your PIN | A6 A11 | NPCI UPI Safety Shield: the UPI PIN is needed only to send money, never to receive it ([NPCI](https://npci.org.in/what-we-do/upi/upi-safety-shield)) |
-| 6 | **Fake customer care or refund** | "Customer care" for an app, bank or courier asks you to install a screen-sharing app or open a link to get a refund | A1 A7 → A5 A6 | RBI BE(A)WARE (screen-sharing apps, fake helplines) |
+| 5 | **"Enter PIN to receive money"** | The caller promises a refund, prize or "wrong transfer" return and asks you to approve a UPI request or enter your PIN | A12 → A6 A11 | NPCI UPI Safety Shield: the UPI PIN is needed only to send money, never to receive it ([NPCI](https://npci.org.in/what-we-do/upi/upi-safety-shield)) |
+| 6 | **Fake customer care or refund** | "Customer care" for an app, bank or courier asks you to install a screen-sharing app or open a link to get a refund | A1 A12 → A7 A5 A6 | RBI BE(A)WARE (screen-sharing apps, fake helplines) |
 | 7 | **Family emergency** | "Your son has been arrested" or "had an accident": money needed right now, don't call anyone. Sometimes a cloned voice | A2 A3 A4 → A6 | *Source to add (police advisories on voice-clone calls)* |
 | 8 | **Electricity disconnection** | "Your power will be cut tonight because the bill isn't updated; call this officer" | A1 A2 A3 → A6 A7 | *Source to add (MSEDCL or other discom advisory)* |
-| 9 | **Prize, lottery or KBC** | You've won, but must pay a fee or tax first | A6 | RBI BE(A)WARE (lottery fraud) |
+| 9 | **Prize, lottery or KBC** | You've won, but must pay a fee or tax first | A12 → A6 | RBI BE(A)WARE (lottery fraud) |
 
 **Where to report**, as the warning and the report pack say:
 - money lost: **1930**, or **cybercrime.gov.in**;
@@ -51,3 +53,10 @@ A genuine caller may sound alarming but never asks for secrets or money on the c
 - a family member asking for money calmly, with no secrecy;
 - a hospital or school call;
 - a legal telemarketing call.
+
+## Changes
+- **v1.1, Oct 28, 2026 (evening), before any call was recorded, downloaded or run.** Found while writing the rules' unit tests against the patterns above:
+  - Under the v1 rules, **pattern 5 (A6 + A11) and pattern 9 (A6 alone) could never raise any warning**: v1's red needed one of A1–A4 next to the ask, and its amber list didn't include the asks. An OTP request followed by "come on WhatsApp" (A5 + A8) couldn't either.
+  - **Added A12 Windfall,** the lure behind patterns 5, 6 and 9.
+  - **Rules simplified** to "two signals make a warning; if one is an ask, it's red", plus the unchanged digital-arrest opening. Amber now counts any two flags, A4 and A12 included.
+  - Code: [`src/teesrakaan/signals.py`](../src/teesrakaan/signals.py), `RULES_VERSION = "v1.1 (Oct 28, 2026)"`.

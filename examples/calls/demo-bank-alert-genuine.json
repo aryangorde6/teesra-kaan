@@ -1,0 +1,16 @@
+{
+  "id": "demo-bank-alert-genuine",
+  "set": "demo",
+  "language": "hi+en",
+  "re_enactment": true,
+  "note": "A written demo script of a genuine bank fraud alert, not a real call. Names and amounts are made up.",
+  "label": {"is_scam": false, "pattern": 0},
+  "turns": [
+    {"speaker": "caller", "start": 0.0, "end": 9.0, "text": "Namaste, main HDFC Bank ke fraud prevention team se Priya bol rahi hoon. Kya main Rajesh ji se baat kar rahi hoon?"},
+    {"speaker": "listener", "start": 9.5, "end": 10.5, "text": "Haan, boliye."},
+    {"speaker": "caller", "start": 11.0, "end": 22.0, "text": "Sir, aapke credit card se abhi 4,999 rupaye ki ek online transaction try hui hai. Kya yeh aapne ki thi?"},
+    {"speaker": "listener", "start": 22.5, "end": 24.0, "text": "Nahi, maine nahi ki."},
+    {"speaker": "caller", "start": 24.5, "end": 37.0, "text": "Koi baat nahi sir, humne transaction rok di hai aur card temporarily block kar diya hai. Naya card aapke registered address pe aa jayega."},
+    {"speaker": "caller", "start": 37.5, "end": 48.0, "text": "Dhyan rakhiye, bank kabhi bhi aapse OTP, PIN ya CVV nahi maangta. Agar koi maange to kisi ko mat bataiye. Aur jaankari ke liye card ke peeche wale number pe call kariye."}
+  ]
+}

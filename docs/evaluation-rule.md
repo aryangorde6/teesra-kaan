@@ -1,6 +1,6 @@
 # Evaluation rule
 
-Version 1, written Oct 28, 2026, **before any result exists**. Any change is a new version with its date and reason, and the README reports which version produced each number.
+Version 1.1, Oct 28, 2026, **before any result exists** (v1 was written the same afternoon; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
 
 ## The question
 When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally before the caller asks for money or secrets), **without** crying wolf on genuine calls, in Hindi, Marathi and English?
@@ -22,10 +22,10 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
 ## Labels (made before the system runs on a call)
 - **Every call:** scam or genuine; pattern number from `scam-tactics.md`; language(s).
 - **Every IN scam call:**
-  - **t0**, the time of the caller's first scam move (the first false claim or pressure: A1–A4, A8–A10);
+  - **t0**, the time of the caller's first scam move (the first false claim, pressure or lure: A1–A4, A8–A10, A12);
   - **t_ask**, the time of the first ask (A5, A6, A7 or A11), if there is one.
 
-  Marked by listening, in a labelling sheet, before the system's output on that call has been seen.
+  Marked by listening, in the labelling sheet ([labelling.md](labelling.md)), before the system's output on that call has been seen.
 - **FTC:** each call is labelled from its audio and the dataset transcript as one of:
   - **impersonation scam:** poses as a government body, bank or company and pushes an action;
   - **sales robocall:** warranty, insurance, solar, debt relief and similar;
@@ -36,7 +36,7 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
 2. **False alarms:**
    - red warnings per genuine call (IN-genuine), the headline number;
    - amber warnings per genuine call, reported separately.
-3. **Time to warning** (IN sets, streaming mode): the median and 90th percentile of `t_warn − t0`, in seconds.
+3. **Time to warning** (IN sets, streaming mode): the median and 90th percentile of `t_warn − t0`, in seconds, where `t_warn` is when the first warning (amber or red) is on screen. The same for the first red is reported beside it.
 4. **Warned before the ask:** the share of scam calls with an ask where `t_warn < t_ask`.
 5. **FTC:** red-or-amber rate on impersonation scams (the detection number) and on sales robocalls (reported, not counted as false alarms, since these calls are illegal anyway).
 6. **Cost** per minute of audio, from the API usage figures.
@@ -57,7 +57,7 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
   **Then each test set is run once and reported as it comes out.** A fix after the freeze is reported as an extra "after freeze" row and never replaces the frozen row.
 
 ## Comparisons (on test, same run, after the freeze)
-- **A. Keyword baseline:** a fixed keyword list on the transcript, no Muse Spark.
+- **A. Keyword baseline:** the fixed keyword lists in `src/teesrakaan/keywords.py` answer the same signal questions, and the same rules decide. No Muse Spark. So A vs C measures what Spark adds, nothing else.
 - **B. Muse Spark free-form:** "Is this call a scam? yes/no" after each turn.
 - **C. Teesra Kaan:** Spark's yes/no signal questions plus fixed rules.
 - **Ablations of C:**
@@ -78,3 +78,10 @@ One command runs every set, comparison and ablation from the cached transcripts 
 - FTC calls are US English robocalls. They show the system works on real scam audio; they say nothing about Indian languages.
 - **Small sets get their intervals shown.** For example, 9 of 10 caught is reported as "9/10 (60–98%)", not "90%".
 - **Budget:** a hard stop in code at $120 of the $150 Meta credits.
+
+## Changes
+- **v1.1, Oct 28, 2026 (evening), before any call was recorded, downloaded or run:**
+  - the signals and rules moved to v1.1 (A12 Windfall added; see the "Changes" section of `scam-tactics.md`), so `t0` now counts A12;
+  - `t_warn` defined as the first amber or red, with the first red reported beside it;
+  - comparison A defined exactly: the keyword lists plus the same rules;
+  - the labelling sheet's format fixed in `labelling.md`.

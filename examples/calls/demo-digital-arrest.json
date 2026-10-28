@@ -1,0 +1,21 @@
+{
+  "id": "demo-digital-arrest",
+  "set": "demo",
+  "language": "hi+en",
+  "re_enactment": true,
+  "note": "A written demo script, not a real call. Names, numbers and IDs are made up.",
+  "label": {"is_scam": true, "pattern": 1, "t0": 1.5, "t_ask": 56.0},
+  "turns": [
+    {"speaker": "caller", "start": 0.0, "end": 7.5, "text": "Namaste, main Mumbai crime branch se Inspector Sharma bol raha hoon. Kya aap Sunita Verma bol rahi hain?"},
+    {"speaker": "listener", "start": 8.0, "end": 9.5, "text": "Haan, boliye."},
+    {"speaker": "caller", "start": 10.0, "end": 20.0, "text": "Madam, aapke Aadhaar card se ek FedEx parcel bheja gaya tha jismein drugs aur paanch fake passport mile hain. Aapke naam pe FIR darj ho gayi hai."},
+    {"speaker": "listener", "start": 20.5, "end": 22.5, "text": "Kya? Maine to koi parcel nahi bheja."},
+    {"speaker": "caller", "start": 23.0, "end": 34.0, "text": "Yeh bahut serious case hai, money laundering ka. Aapko abhi ke abhi verification karna padega, warna aapka arrest warrant nikal jayega."},
+    {"speaker": "listener", "start": 34.5, "end": 36.0, "text": "Main apne bete se baat karti hoon."},
+    {"speaker": "caller", "start": 36.5, "end": 46.0, "text": "Nahi madam, yeh case confidential hai. Kisi ko mat batana, ghar mein bhi nahi. Call disconnect mat karna."},
+    {"speaker": "caller", "start": 46.5, "end": 54.0, "text": "Main aapko Skype pe video call par le raha hoon, camera on rakhiye."},
+    {"speaker": "listener", "start": 54.5, "end": 55.5, "text": "Theek hai."},
+    {"speaker": "caller", "start": 56.0, "end": 68.0, "text": "Verification ke liye aapko apne account ke saare paise RBI ke safe account mein transfer karne honge. Do lakh rupaye abhi bhejiye, verification ke baad wapas mil jayenge."},
+    {"speaker": "caller", "start": 68.5, "end": 76.0, "text": "Account number likhiye: 501234567890, IFSC HDFC0001234. Ya UPI se bhejiye rbi.verify@okaxis pe."}
+  ]
+}
