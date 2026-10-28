@@ -60,7 +60,7 @@ A genuine caller may sound alarming but never asks for secrets or money on the c
   - **Added A12 Windfall,** the lure behind patterns 5, 6 and 9.
   - **Rules simplified** to "two signals make a warning; if one is an ask, it's red", plus the unchanged digital-arrest opening. Amber now counts any two flags, A4 and A12 included.
   - Code: [`src/teesrakaan/signals.py`](../src/teesrakaan/signals.py), `RULES_VERSION = "v1.1 (Oct 28, 2026)"`.
-- **v1.2, Oct 28, 2026 (19:50 IST), tuned on the 50 FTC dev calls only** (the 150 FTC test calls haven't been opened). The keyword baseline warned on 24 of 41 dev impersonation robocalls; most misses were fake "Amazon order, press 1" calls, which v1.1 saw only as A10. Changes:
+- **v1.2, Oct 28, 2026 (19:30 IST), tuned on the 50 FTC dev calls only** (the 150 FTC test calls haven't been opened). The keyword baseline warned on 24 of 41 dev impersonation robocalls; most misses were fake "Amazon order, press 1" calls, which v1.1 saw only as A10. Changes:
   - **A1** now covers a consulate and a company you may have an account with (Amazon, Flipkart, a phone, power or card company). Pattern 6 and pattern 8 in India need this too.
   - **A2** is now "threat or alarm": it also covers claimed suspicious activity, an unauthorized order or charge, or a problem on your account.
   - **A3** covers "as soon as possible".
