@@ -43,9 +43,10 @@ _TELL = stem(
     r"बता दो|बताइए|बताओ|बताएं|बताएँ|बोलिए|शेयर कर|भेजो|भेजिए|भेज दो|दीजिए|दे दो|सांगा|द्या|पाठवा"
 )
 _MONEY = stem(r"paise|paisa|paisay|rupaye|rupay|rupees|rs\b|lakh|hazaar|hajar|amount|fee|fine|deposit|payment|"
-              r"पैसे|पैसा|रुपये|रुपए|लाख|हज़ार|हजार|रक्कम|शुल्क|जुर्माना|दंड") + "|₹"
-_PAY = stem(r"transfer|bhejo|bhejiye|bhej do|bhej dijiye|pay|jama karo|jama kariye|jama kijiye|bharo|bhariye|"
-            r"send|deposit|ट्रांसफर|भेजो|भेजिए|भेज दो|जमा करो|जमा करें|जमा कीजिए|भरो|भरिए|पाठवा|भरा|जमा करा")
+              r"पैसे|पैसा|रुपये|रुपए|लाख|हज़ार|हजार|रक्कम|शुल्क|फ़ीस|जुर्माना|दंड") + "|₹|\\d[\\d,]{2,}"
+_PAY = stem(r"transfer|bhejo|bhejiye|bhej do|bhej dijiye|pay|jama karo|jama kariye|jama kijiye|jama karni|jama karna|jama karne|bharo|bhariye|"
+            r"chahiye|send|deposit|ट्रांसफ़र|ट्रांसफर|भेजो|भेजिए|भेज दो|भेज दीजिए|जमा करो|जमा करें|जमा कीजिए|जमा करनी|"
+            r"चाहिए|भरो|भरिए|पाठवा|भरा|भरावे|जमा करा")
 
 PATTERNS: dict[str, tuple[str, ...]] = {
     "A1": (
@@ -65,7 +66,8 @@ PATTERNS: dict[str, tuple[str, ...]] = {
         stem(r"arrest|giraftar|giraftaar|warrant|fir\b|jail|money laundering|legal action|suspend|deactivat|"
              r"disconnect|गिरफ्तार|गिरफ़्तार|वारंट|एफआईआर|जेल|अटक|गुन्हा|कानूनी कार्रवाई|कारवाई"),
         near(stem(r"case|केस"), stem(r"darj|register|file|दर्ज|दाखल"), 20),
-        stem(r"suspicious activit|unauthori[sz]ed|fraudulent (?:activit|charge|transaction)|"
+        stem(r"pakad liya|पकड़ा गया|पकड़ लिया|arrested|"
+             r"suspicious activit|unauthori[sz]ed|fraudulent (?:activit|charge|transaction)|"
              r"order (?:has been |was )?placed|disconnection|संदिग्ध|अनधिकृत|संशयास्पद"),
         near(stem(r"block|band|bandh|suspend|cut|ब्लॉक|बंद|कट"),
              stem(r"ho jayega|ho jaayega|kar diya jayega|hoga|will be|होगा|हो जाएगा|कर दिया जाएगा|होईल|केला जाईल"), 25),
@@ -78,7 +80,9 @@ PATTERNS: dict[str, tuple[str, ...]] = {
         stem(r"\d+ ?(?:ghante|घंटे|तासात|तासांत)|do ghante|दो घंटे|दोन तास"),
     ),
     "A4": (
-        near(stem(r"kisi|kisi ko|anyone|family|ghar|किसी|कोणाला|कुणाला|घर"),
+        stem(r"kisi ko bataya to|told anyone|किसी को बताया तो|कोणाला सांगितलं तर"),
+        near(stem(r"kisi|kisi ko|anyone|family|ghar|mummy|papa|parents|husband|wife|uncle|aunty|"
+                  r"किसी|कोणाला|कुणाला|घर|मम्मी|पापा|अंकल|काकांना|घरच्यांना"),
              stem(r"mat bata|na bata|nahi bata|don't tell|do not tell|मत बता|न बता|सांगू नका|सांगू नकोस"), 25),
         near(stem(r"call|phone|line|कॉल|फोन|फ़ोन"),
              stem(r"cut mat|disconnect mat|mat kaat|mat kat|don't disconnect|do not disconnect|don't hang|"
@@ -93,14 +97,15 @@ PATTERNS: dict[str, tuple[str, ...]] = {
         stem(r"safe account|rbi account|verification ke liye|सुरक्षित खाते|वेरिफिकेशन"),
     ),
     "A7": (
-        stem(r"anydesk|any desk|teamviewer|team viewer|quicksupport|quick support|screen share|apk|"
+        stem(r"anydesk|any desk|teamviewer|team viewer|quicksupport|quick support|screen share|share (?:your|the|my) screen|apk|"
              r"एनीडेस्क|स्क्रीन शेयर"),
         near(stem(r"app|ऐप|अ‍ॅप|ॲप"), stem(r"download|install|डाउनलोड|इंस्टॉल"), 25),
         near(stem(r"link|लिंक"), stem(r"click|open|khol|क्लिक|खोल|उघड"), 25),
     ),
     "A8": (
         stem(r"skype|स्काइप|telegram|टेलीग्राम"),
-        stem(r"video call|video pe|whatsapp|वीडियो कॉल|व्हिडिओ कॉल|व्हाट्सएप|व्हॉट्सअ‍ॅप"),
+        near(stem(r"video call|video pe|whatsapp|वीडियो कॉल|व्हिडिओ कॉल|व्हाट्सएप|व्हॉट्सअ‍ॅप"),
+             stem(r"aaiye|aa jaiye|aao|join|stay on|rahiye|connect|switch|move|आइए|आ जाइए|रहिए|बयान|या|connect"), 25),
     ),
     "A9": (
         near(stem(r"parcel|courier|fedex|dhl|package|पार्सल|कूरियर|कुरियर"),
@@ -115,14 +120,22 @@ PATTERNS: dict[str, tuple[str, ...]] = {
              stem(r"receive|paise aa jayenge|aa jayega|milenge|credit ho|refund|पैसे आ जाएंगे|मिलेंगे|जमा होईल|मिळतील"), 50),
     ),
     "A12": (
-        stem(r"qualif(?:y|ied|ies) for|eligible for|\d+% off|rate reduction|relief (?:payment|program)|pre-approved|"
+        stem(r"bonus|बोनस|qualif(?:y|ied|ies) for|eligible for|\d+% off|rate reduction|relief (?:payment|program)|pre-approved|"
              r"lottery|prize|you have won|aap jeet|jeet gaye|jeete|kbc|kaun banega|cashback|refund|by mistake|"
              r"galti se|wrong transfer|लॉटरी|इनाम|जीत|रिफंड|कैशबैक|गलती से|बक्षीस|चुकून"),
     ),
 }
 
+
+
+def _nukta_tolerant(pattern: str) -> str:
+    """Lets every Devanagari consonant match with or without a nukta: गिरफ्तार also matches गिरफ़्तार."""
+    pattern = unicodedata.normalize("NFC", pattern)
+    return re.sub("([\u0915-\u0939])\u093c?", "\\1\u093c?", pattern)
+
+
 _COMPILED = {
-    sid: [re.compile(unicodedata.normalize("NFC", p), re.IGNORECASE) for p in ps]
+    sid: [re.compile(_nukta_tolerant(p), re.IGNORECASE) for p in ps]
     for sid, ps in PATTERNS.items()
 }
 _SENTENCE_END = re.compile(r"[.!?।\n]")
