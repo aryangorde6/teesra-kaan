@@ -110,3 +110,21 @@ def test_signals_endpoint_lists_the_twelve_questions():
     data = client.get("/api/signals").json()
     assert len(data["signals"]) == 12 and data["rules_version"].startswith("v1.2")
     assert {"en", "hi", "mr"} <= data["signals"][0]["name"].keys()
+
+
+def test_a_recorded_session_is_a_demo_call_with_its_audio(tmp_path, monkeypatch):
+    import json
+
+    from teesrakaan.web import app as web
+    from test_asr_and_spark import SCRIPT
+
+    events = [dict(e, received=0.3 * i + 0.5) for i, e in enumerate(SCRIPT)]
+    (tmp_path / "IS-demo.json").write_text(json.dumps({"session_id": "s", "settings": {}, "audio_seconds": 3, "events": events}))
+    (tmp_path / "IS-demo.m4a").write_bytes(b"\0")
+    monkeypatch.setattr(web, "DEMO_CALLS", tmp_path)
+    listed = client.get("/api/calls").json()
+    assert listed == [{"id": "IS-demo", "language": "", "duration": listed[0]["duration"], "re_enactment": True,
+                       "audio": "/demo-audio/IS-demo.m4a"}]
+    out = web.demo_events(web._demo_calls()["IS-demo"], "en")
+    assert out[0][1]["call"]["judge"] == "keyword stand-in (no model)"
+    assert any(e["type"] == "alarm" and e["warning"]["level"] == "red" for _, e in out)

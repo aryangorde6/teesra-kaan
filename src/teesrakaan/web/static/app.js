@@ -121,6 +121,7 @@ try { lang = localStorage.getItem("tk-lang") || lang; } catch (e) {}
 let socket = null;
 let state = null;
 let mic = null;
+let player = null;
 let liveAvailable = false;
 
 function t(key) { return UI[lang][key]; }
@@ -277,6 +278,7 @@ const proto = location.protocol === "https:" ? "wss" : "ws";
 
 function play() {
   stopMic();
+  if (player) { player.pause(); player = null; }
   if (socket) socket.close();
   reset();
   const id = $("#call").value;
@@ -327,6 +329,9 @@ function stopMic() {
 function handle(e, speed) {
     if (e.type === "start") {
       state.call = e.call;
+      // A recorded re-enactment plays its own audio, in step with its saved transcript (speed 1 only).
+      if (e.call.audio && speed === 1) { player = new Audio(e.call.audio); player.play().catch(() => {}); }
+      $("#engine").textContent = e.call.judge ? `Judge: ${e.call.judge}` : "";
       state.started = performance.now();
       $("#status").className = "status on";
       $("#timeline-wrap").hidden = false;

@@ -34,19 +34,54 @@ _live_sessions = 0
 
 app = FastAPI(title="Teesra Kaan", docs_url=None, redoc_url=None)
 app.mount("/static", StaticFiles(directory=STATIC), name="static")
+if DEMO_CALLS.is_dir():
+    app.mount("/demo-audio", StaticFiles(directory=DEMO_CALLS), name="demo-audio")
+
+
+AUDIO_SUFFIXES = (".m4a", ".mp3", ".ogg", ".wav")
 
 
 def _demo_calls() -> dict[str, Call]:
-    return {c.id: c for c in (load_call(p) for p in sorted(DEMO_CALLS.glob("*.json")))}
+    """Written calls, and re-enacted recordings saved as transcription sessions (the real Muse transcript, replayed
+    at the times it arrived, at no cost). A recording's audio sits next to its JSON with the same name."""
+    from ..asr import session_to_call
+
+    out = {}
+    for path in sorted(DEMO_CALLS.glob("*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if "events" in data:
+            out[path.stem] = session_to_call(data, path.stem, set="demo", re_enactment=True, label=data.get("label", {}))
+        else:
+            out[path.stem] = load_call(path)
+    return out
 
 
-def demo_events(call: Call, lang: str, timing: Timing = Timing()) -> list[tuple[float, dict]]:
+def _audio(call_id: str) -> str | None:
+    for suffix in AUDIO_SUFFIXES:
+        if (DEMO_CALLS / f"{call_id}{suffix}").is_file():
+            return f"/demo-audio/{call_id}{suffix}"
+    return None
+
+
+def demo_judge():
+    """The keyword stand-in by default (free). With TEESRAKAAN_DEMO_JUDGE=spark and live listening available,
+    Muse Spark: the first play of a call is paid, and replays come from the reply cache at no cost."""
+    if config.env("TEESRAKAAN_DEMO_JUDGE") == "spark" and live_available():
+        return live_judge()
+    return KeywordJudge()
+
+
+def demo_events(call: Call, lang: str, timing: Timing = Timing(), judge=None) -> list[tuple[float, dict]]:
     """Everything the page shows for one call, as (seconds into the call, event)."""
-    result = simulate(call, KeywordJudge(), timing)
+    judge = judge or KeywordJudge()
+    if any(t.heard_times for t in call.turns):
+        timing = Timing(judge_latency=None)  # a recorded session: real transcription times, the judge's own latency
+    result = simulate(call, judge, timing)
     events: list[tuple[float, int, dict]] = [(0.0, 0, {
         "type": "start",
         "call": {"id": call.id, "language": call.language, "duration": call.duration,
-                 "re_enactment": call.re_enactment, "label": call.label},
+                 "re_enactment": call.re_enactment, "label": call.label, "audio": _audio(call.id),
+                 "judge": "Muse Spark" if judge.name.startswith("muse-spark") else "keyword stand-in (no model)"},
     })]
     caller = call.caller_label()
     for heard, said, speaker, word in call.timed_words(timing.transcribe_delay):
@@ -121,8 +156,8 @@ def signals() -> dict:
 
 @app.get("/api/calls")
 def calls() -> list[dict]:
-    return [{"id": c.id, "language": c.language, "duration": c.duration, "re_enactment": c.re_enactment}
-            for c in _demo_calls().values()]
+    return [{"id": c.id, "language": c.language, "duration": c.duration, "re_enactment": c.re_enactment,
+             "audio": _audio(c.id)} for c in _demo_calls().values()]
 
 
 @app.websocket("/ws/demo")
@@ -140,7 +175,8 @@ async def demo(ws: WebSocket) -> None:
         return
     clock = 0.0
     try:
-        for t, event in demo_events(call, lang):
+        events = await asyncio.to_thread(demo_events, call, lang, Timing(), demo_judge())
+        for t, event in events:
             await asyncio.sleep(max(t - clock, 0) / speed)
             clock = max(clock, t)
             await ws.send_json(event)
