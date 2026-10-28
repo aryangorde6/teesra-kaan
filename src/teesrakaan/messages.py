@@ -108,3 +108,48 @@ def warning(alarm: Alarm, quotes: dict[str, str], lang: str = "en") -> dict | No
         ],
         "facts": facts_for(alarm.signals, lang),
     }
+
+
+# The next line (playbook.py): each signal as a scam script's caller says it.
+NEXT_LABEL = {
+    "en": "Next line in this scam's script:",
+    "hi": "इस ठगी की स्क्रिप्ट की अगली लाइन:",
+    "mr": "या फसवणुकीच्या स्क्रिप्टमधली पुढची ओळ:",
+}
+
+NEXT_LINE = {
+    "A1": {"en": "I'm calling from the police, or your bank.", "hi": "मैं पुलिस या बैंक से बोल रहा हूँ।",
+           "mr": "मी पोलीस किंवा बँकेतून बोलतोय."},
+    "A2": {"en": "There's a case against you.", "hi": "आपके नाम पर केस दर्ज है।", "mr": "तुमच्या नावावर केस दाखल आहे."},
+    "A3": {"en": "You must do it right now.", "hi": "अभी के अभी करना होगा।", "mr": "आत्ताच्या आत्ता करावं लागेल."},
+    "A4": {"en": "Don't tell anyone. Don't hang up.", "hi": "किसी को मत बताना। फ़ोन मत काटना।",
+           "mr": "कोणालाही सांगू नका. फोन ठेवू नका."},
+    "A5": {"en": "Tell me the OTP.", "hi": "OTP बताइए।", "mr": "OTP सांगा."},
+    "A6": {"en": "Transfer the money for verification.", "hi": "वेरिफ़िकेशन के लिए पैसे ट्रांसफ़र कीजिए।",
+           "mr": "पडताळणीसाठी पैसे ट्रान्सफर करा."},
+    "A7": {"en": "Install this app, or open this link.", "hi": "यह ऐप डाउनलोड कीजिए, या यह लिंक खोलिए।",
+           "mr": "हे ॲप डाउनलोड करा, किंवा ही लिंक उघडा."},
+    "A8": {"en": "Come on a video call.", "hi": "वीडियो कॉल पर आइए।", "mr": "व्हिडिओ कॉलवर या."},
+    "A9": {"en": "A parcel in your name has been seized.", "hi": "आपके नाम का पार्सल पकड़ा गया है।",
+           "mr": "तुमच्या नावाचं पार्सल पकडलं आहे."},
+    "A10": {"en": "Press 9 to speak to an officer.", "hi": "अधिकारी से बात करने के लिए 9 दबाइए।",
+            "mr": "अधिकाऱ्याशी बोलण्यासाठी 9 दाबा."},
+    "A11": {"en": "Enter your UPI PIN to receive the money.", "hi": "पैसे पाने के लिए UPI PIN डालिए।",
+            "mr": "पैसे मिळवण्यासाठी UPI PIN टाका."},
+    "A12": {"en": "You've won a prize, or you're owed a refund.", "hi": "आपने इनाम जीता है, या आपका रिफ़ंड बाकी है।",
+            "mr": "तुम्ही बक्षीस जिंकलं आहे, किंवा तुमचा रिफंड बाकी आहे."},
+}
+
+CAME_TRUE = {
+    "en": "The caller just said it: “{quote}”. This call is following a scam script.",
+    "hi": "कॉल करने वाले ने अभी यही कहा: “{quote}”। यह कॉल ठगी की स्क्रिप्ट पर चल रहा है।",
+    "mr": "फोन करणाऱ्याने आत्ता हेच सांगितलं: “{quote}”. हा कॉल फसवणुकीच्या स्क्रिप्टप्रमाणे चालला आहे.",
+}
+
+
+def next_line(step: str, lang: str = "en") -> dict:
+    return {"id": step, "label": NEXT_LABEL[lang], "line": NEXT_LINE[step][lang], "name": SIGNAL_NAME[step][lang]}
+
+
+def came_true(step: str, quote: str, lang: str = "en") -> dict:
+    return {"id": step, "text": CAME_TRUE[lang].format(quote=quote), "quote": quote}

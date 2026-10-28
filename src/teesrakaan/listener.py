@@ -11,6 +11,7 @@ from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field
 
 from .judge import Judge
+from .playbook import Next, predict
 from .signals import SIGNALS, Alarm, Level, Signal, decide
 from .transcript import Transcript
 
@@ -23,12 +24,31 @@ class Found:
     found_at: float  # when the listener knew it
 
 
+@dataclass
+class Prediction:
+    """The caller's next line, shown before they say it (see playbook.py)."""
+
+    step: str
+    made_at: float  # when it was shown
+    scripts: tuple[str, ...]
+    said_at: float | None = None  # when the caller said it, once they have
+    quote: str = ""
+
+    @property
+    def came_true(self) -> bool:
+        """Said after it was shown. A step found late, but said before, doesn't count."""
+        return self.said_at is not None and self.said_at >= self.made_at
+
+
 @dataclass(frozen=True)
 class Update:
     t: float  # when the judge's answer was in
     alarm: Alarm
     new: tuple[Found, ...]
     raised: bool  # the alarm level went up
+    next: Prediction | None = None  # the line now predicted, if any
+    next_changed: bool = False
+    came_true: tuple[Prediction, ...] = ()
 
 
 @dataclass
@@ -37,11 +57,14 @@ class Listener:
     signals: tuple[Signal, ...] = SIGNALS
     decide: Callable[[Iterable[str]], Alarm] = decide
     verify_quotes: bool = True  # off only for comparison B, which answers without quotes
+    predict: Callable[[Iterable[str]], Next | None] | None = predict
     transcript: Transcript = field(default_factory=Transcript)
     found: dict[str, Found] = field(default_factory=dict)
     alarm: Alarm = field(default_factory=lambda: Alarm(Level.NONE, "", frozenset()))
     updates: list[Update] = field(default_factory=list)
     rejected: list[tuple[str, str]] = field(default_factory=list)  # (signal, quote) not found in the caller's words
+    predictions: list[Prediction] = field(default_factory=list)
+    next: Prediction | None = None
     judge_calls: int = 0
     input_tokens: int = 0
     output_tokens: int = 0
@@ -87,13 +110,34 @@ class Listener:
             self.found[answer.id] = found
             new.append(found)
 
+        came_true = []
+        for f in new:
+            for p in self.predictions:
+                if p.step == f.id and p.said_at is None:
+                    p.said_at, p.quote = f.said_at, f.quote
+                    if p.came_true:
+                        came_true.append(p)
+        shown = self.next
+        self.next = self._predict(done_at)
+
         alarm = self.decide(self.found)
         raised = alarm.level > self.alarm.level
         if alarm.level >= self.alarm.level:
             self.alarm = alarm
-        update = Update(done_at, self.alarm, tuple(new), raised)
+        update = Update(done_at, self.alarm, tuple(new), raised, self.next, self.next is not shown, tuple(came_true))
         self.updates.append(update)
         return update
+
+    def _predict(self, t: float) -> Prediction | None:
+        nxt = self.predict(self.found) if self.predict else None
+        if nxt is None:
+            return None
+        for p in self.predictions:
+            if p.step == nxt.step and p.said_at is None:
+                return p
+        p = Prediction(nxt.step, t, nxt.scripts)
+        self.predictions.append(p)
+        return p
 
     def first_time(self, level: Level) -> float | None:
         return next((u.t for u in self.updates if u.alarm.level >= level), None)
