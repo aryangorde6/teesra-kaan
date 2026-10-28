@@ -103,6 +103,12 @@ def cmd_ftc(args: argparse.Namespace) -> None:
     print(f"wrote {sheet}")
 
 
+def cmd_serve(args: argparse.Namespace) -> None:
+    import uvicorn
+
+    uvicorn.run("teesrakaan.web.app:app", host=args.host, port=args.port)
+
+
 def cmd_labels(args: argparse.Namespace) -> None:
     if args.template:
         write_template(args.path)
@@ -147,6 +153,11 @@ def main(argv: list[str] | None = None) -> None:
     p = sub.add_parser("ftc-fetch", help="download the 200 sampled FTC robocalls (public domain), pinned and hash-checked")
     p.add_argument("--dest", default="data/ftc")
     p.set_defaults(func=cmd_ftc)
+
+    p = sub.add_parser("serve", help="run the listener page")
+    p.add_argument("--host", default="127.0.0.1")
+    p.add_argument("--port", type=int, default=8000)
+    p.set_defaults(func=cmd_serve)
 
     p = sub.add_parser("labels", help="check a labelling sheet, or write an empty one")
     p.add_argument("path")

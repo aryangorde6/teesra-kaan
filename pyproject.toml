@@ -7,6 +7,9 @@ license = "MIT"
 requires-python = ">=3.11,<3.15"
 dependencies = []
 
+[project.optional-dependencies]
+web = ["fastapi>=0.110", "uvicorn>=0.29", "websockets>=12"]
+
 [project.scripts]
 teesrakaan = "teesrakaan.cli:main"
 
