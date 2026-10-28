@@ -72,3 +72,5 @@ def test_cli_eval_writes_results(tmp_path, capsys):
     assert results["by_set"]["IN-scam"]["caught_red"]["k"] == 2
     assert results["by_set"]["IN-genuine"]["false_alarms_red"]["k"] == 0
     assert results["by_set"]["IN-scam"]["warned_before_ask"]["k"] == 2
+    nxt = results["by_set"]["IN-scam"]["next_line"]
+    assert nxt["came_true"]["k"] >= 2 and nxt["reach"]["k"] == 2 and nxt["naive_guess"] is not None

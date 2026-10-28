@@ -1,6 +1,6 @@
 import pytest
 
-from teesrakaan.metrics import Outcome, percentile, rate, summarize, summarize_by, wilson
+from teesrakaan.metrics import Outcome, naive_came_true, percentile, rate, summarize, summarize_by, wilson
 
 
 def test_wilson_matches_the_example_in_the_evaluation_rule():
@@ -52,3 +52,40 @@ def test_results_table_has_a_row_per_run():
     table = results_table([{"run": "A", "split": "dev", "by_set": {"IN-scam": s}},
                            {"run": "C", "split": "dev", "by_set": {"IN-scam": s}}])
     assert "| A | 1/1" in table and "| C | 1/1" in table and "15 s" in table
+    assert "The next line, **IN-scam**" in table
+
+
+def test_results_files_from_before_the_next_line_have_no_next_line_block():
+    from teesrakaan.metrics import results_table
+
+    s = summarize([Outcome("s1", "IN-scam", True, 2, t_warn=20, t0=5, t_ask=50)])
+    del s["next_line"]
+    assert "The next line" not in results_table([{"run": "A", "split": "dev", "by_set": {"IN-scam": s}}])
+
+
+def test_next_line_counts_what_came_true_how_early_and_on_which_calls():
+    rows = [
+        Outcome("s1", "IN-scam", True, 2, predictions=(("A4", 20.0, 31.0), ("A6", 35.0, None))),
+        Outcome("s2", "IN-scam", True, 1),
+        Outcome("g1", "IN-genuine", False, 0, predictions=(("A6", 40.0, None),)),
+    ]
+    n = summarize(rows)["next_line"]
+    assert n["shown"] == 3 and n["came_true"]["k"] == 1 and n["came_true"]["n"] == 3
+    assert n["seconds_ahead"]["median"] == 11
+    assert n["reach"]["k"] == 1 and n["reach"]["n"] == 2  # scam calls only
+    assert n["per_genuine_call"] == {"shown": 1, "calls": 1, "mean": 1.0}
+    assert n["naive_guess"] is None  # dev only, asked for
+
+
+def test_the_naive_guess_names_the_commonest_signal_not_yet_found():
+    # A1 and A6 are on both calls. When each prediction is shown, A1 has been found, so the guess is A6:
+    # on s1 the caller says it after (it came true), on s2 before (it doesn't count).
+    rows = [
+        Outcome("s1", "IN-scam", True, 2, predictions=(("A4", 10.0, None),),
+                found=(("A1", 2.0, 4.0), ("A6", 12.0, 14.0))),
+        Outcome("s2", "IN-scam", True, 2, predictions=(("A4", 5.0, 9.0),),
+                found=(("A1", 1.0, 3.0), ("A6", 2.0, 6.0), ("A4", 9.0, 11.0))),
+    ]
+    assert naive_came_true(rows) == 1
+    n = summarize(rows, naive=True)["next_line"]
+    assert n["naive_guess"]["k"] == 1 and n["came_true"]["k"] == 1

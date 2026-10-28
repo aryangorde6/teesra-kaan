@@ -1,6 +1,6 @@
 # Evaluation rule
 
-Version 1.2, Oct 28, 2026, **before any result exists** (v1 was written the same afternoon; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
+Version 1.3.1, Oct 29, 2026, **before any result exists** (v1 was written the same afternoon; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
 
 ## The question
 When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally before the caller asks for money or secrets), **without** crying wolf on genuine calls, in Hindi, Marathi and English?
@@ -42,7 +42,7 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
 6. **Cost** per minute of audio, from the API usage figures.
 7. **The next line** (`src/teesrakaan/playbook.py`, scripts v1): a prediction *comes true* when the caller says the predicted step at or after the moment it was shown (a step found later but said earlier doesn't count). Reported per set, with Wilson 95% intervals:
    - **came true:** the share of predictions that came true;
-   - **against a naive guess:** the same share for a guess that always names the signal most often still unsaid at that point, counted on the dev set only;
+   - **against a naive guess:** the same share for a guess made at the same moments, naming the signal found on the most calls of the set (ties by signal number) among those not yet found, which comes true on the same terms. Its counts come from the calls it's scored on, which favours it, so it's reported on dev only;
    - **lead time:** the median seconds between a prediction being shown and the caller saying it;
    - **reach:** the share of scam calls with at least one prediction shown;
    - **on genuine calls:** predictions shown per genuine call (IN-genuine).
@@ -97,3 +97,4 @@ One command runs every set, comparison and ablation from the cached transcripts 
   - FTC test calls are labelled after the freeze, before the test run (labelling them now would mean reading test transcripts);
   - 8 of the 200 sampled recordings are 8 kHz, not 16 kHz; they're kept as they are and sent to transcription unchanged.
 - **v1.3, Oct 28, 2026 (22:50 IST), before any prediction had been run on an evaluation call:** added metric 7, the next line. The scripts are the nine patterns of `scam-tactics.md`, in the order their "How the call goes" column gives. They were checked only on the three written demo calls in `examples/calls/`.
+- **v1.3.1, Oct 29, 2026 (01:30 IST), before any evaluation call had been run:** the naive guess of metric 7 written out exactly as `metrics.py` computes it (it had said "the signal most often still unsaid"). Nothing else changed.

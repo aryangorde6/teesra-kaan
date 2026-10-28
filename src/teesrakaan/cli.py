@@ -98,9 +98,12 @@ def cmd_eval(args: argparse.Namespace) -> None:
         usage["judge_calls"] += result.listener.judge_calls
         usage["input_tokens"] += result.listener.input_tokens
         usage["output_tokens"] += result.listener.output_tokens
+        listener = result.listener
         outcomes.append(Outcome(
             call.id, label.set, label.is_scam, int(result.level),
             result.t_warn, result.t_red, label.t0, label.t_ask, label.languages, label.ftc_class,
+            predictions=tuple((p.step, p.made_at, p.said_at if p.came_true else None) for p in listener.predictions),
+            found=tuple((f.id, f.said_at, f.found_at) for f in listener.found.values()),
         ))
     # FTC sales and "other" robocalls are illegal calls, not genuine ones: reported by class, never as false alarms.
     scored = [o for o in outcomes if o.set != "FTC" or o.ftc_class == "impersonation"]
@@ -109,8 +112,9 @@ def cmd_eval(args: argparse.Namespace) -> None:
         "run": args.run,
         "calls_from": args.calls,
         "rules": RULES_VERSION,
-        "by_set": summarize_by(scored, "set"),
-        "by_language": summarize_by(scored, "language"),
+        # The naive guess learns from the calls it's scored on, so it runs on dev only.
+        "by_set": summarize_by(scored, "set", naive=args.split == "dev"),
+        "by_language": summarize_by(scored, "language", naive=args.split == "dev"),
         "ftc_by_class": ftc_summary(o for o in outcomes if o.set == "FTC"),
         "usage": usage,
         "usd_per_minute_list_price": round(
@@ -124,6 +128,10 @@ def cmd_eval(args: argparse.Namespace) -> None:
     for name, s in report["by_set"].items():
         print(f"{name}: caught {s['caught_red_or_amber']['text']} (red {s['caught_red']['text']}), "
               f"red false alarms {s['false_alarms_red']['text']}")
+        n = s["next_line"]
+        if n["shown"]:
+            print(f"{name}: next line came true {n['came_true']['text']}"
+                  + (f" (naive guess {n['naive_guess']['text']})" if n["naive_guess"] else ""))
     for name, row in report["ftc_by_class"].items():
         print(f"FTC {name}: warned {row['warned_text']} (red {row['red_text']})")
     print(f"wrote {out}")
