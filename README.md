@@ -8,7 +8,7 @@
 
 - **Live:** https://teesrakaan.aryangorde.com *(from Nov 2)*
 - **Video (3 min):** *(link on Nov 4)*
-- **Built during** the Meta Global AI Developer Hackathon, Oct 26 – Nov 4, 2026. Every commit in this repo is from those dates.
+- **Built during** the Meta Global AI Developer Hackathon, Oct 26 – Nov 4, 2026. Every commit in this repo is from those dates. One module is adapted from code written earlier in the same event: the spending ledger in `src/teesrakaan/budget.py` comes from this hackathon's first project, Double Take (Oct 27, 2026). The project changed after the application; the submission says so.
 
 ## Why
 In 2024 Indians lost ₹1,935.51 crore to "digital arrest" calls alone, and ₹22,845.73 crore to cyber fraud overall (Ministry of Home Affairs replies in Parliament; sources in [docs/figures.md](docs/figures.md)). The script is always the same: a "police" or "bank" caller, a threat, "don't tell anyone", then an ask for money or an OTP. Caller ID flags numbers; nothing listens to what is being said, in the language it's said in.
