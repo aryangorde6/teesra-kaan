@@ -177,3 +177,9 @@ class KeywordJudge:
             if hit:
                 answers.append(Answer(q.id, hit))
         return Reply(answers)
+
+
+def keyword_hits(text: str) -> list[tuple[str, str]]:
+    """(signal, matched words) for every baseline pattern in `text`. The paraphrase test needs none."""
+    text = unicodedata.normalize("NFC", text)
+    return [(sid, m.group(0)) for sid, patterns in _COMPILED.items() for p in patterns for m in p.finditer(text)]

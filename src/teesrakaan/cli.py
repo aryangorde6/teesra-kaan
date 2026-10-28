@@ -84,6 +84,7 @@ def cmd_eval(args: argparse.Namespace) -> None:
     labels = read_labels(args.labels)
     judge, options, merge = _run(args.run)
     outcomes = []
+    usage = {"audio_seconds": 0.0, "judge_calls": 0, "input_tokens": 0, "output_tokens": 0}
     for path in sorted(Path(args.calls).glob("*.json")):
         call = _load(path)
         label = labels.get(call.id)
@@ -93,6 +94,10 @@ def cmd_eval(args: argparse.Namespace) -> None:
             call = merge_speakers(call)
         timing = Timing(judge_latency=None) if any(t.heard_times for t in call.turns) else Timing()
         result = simulate(call, judge, timing, **options)
+        usage["audio_seconds"] += call.duration
+        usage["judge_calls"] += result.listener.judge_calls
+        usage["input_tokens"] += result.listener.input_tokens
+        usage["output_tokens"] += result.listener.output_tokens
         outcomes.append(Outcome(
             call.id, label.set, label.is_scam, int(result.level),
             result.t_warn, result.t_red, label.t0, label.t_ask, label.languages, label.ftc_class,
@@ -107,6 +112,10 @@ def cmd_eval(args: argparse.Namespace) -> None:
         "by_set": summarize_by(scored, "set"),
         "by_language": summarize_by(scored, "language"),
         "ftc_by_class": ftc_summary(o for o in outcomes if o.set == "FTC"),
+        "usage": usage,
+        "usd_per_minute_list_price": round(
+            call_cost(usage["audio_seconds"], usage["input_tokens"], usage["output_tokens"])
+            / max(usage["audio_seconds"] / 60, 1e-9), 5),
         "calls": [o.__dict__ for o in outcomes],
     }
     out = Path(args.out or f"runs/eval-{date.today().isoformat()}/results-{args.split}-{args.run}.json")
@@ -124,6 +133,17 @@ def cmd_table(args: argparse.Namespace) -> None:
     from .metrics import results_table
 
     print(results_table([json.loads(Path(p).read_text(encoding="utf-8")) for p in args.results]))
+
+
+def cmd_keywords(args: argparse.Namespace) -> None:
+    """For the paraphrase test: a rewritten script must match none of the baseline's keywords."""
+    from .keywords import keyword_hits
+
+    hits = keyword_hits(Path(args.text).read_text(encoding="utf-8"))
+    for sid, words in hits:
+        print(f"{sid}: {words!r}")
+    print("no baseline keyword found" if not hits else f"{len(hits)} keyword matches: rewrite these")
+    raise SystemExit(1 if hits else 0)
 
 
 def cmd_split(args: argparse.Namespace) -> None:
@@ -227,6 +247,10 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--run", choices=RUNS, default="A", help="A keywords, B Spark free-form, C Teesra Kaan (B and C are PAID)")
     p.add_argument("--out")
     p.set_defaults(func=cmd_eval)
+
+    p = sub.add_parser("keywords", help="list baseline keywords in a text file (the paraphrase test needs none)")
+    p.add_argument("text")
+    p.set_defaults(func=cmd_keywords)
 
     p = sub.add_parser("table", help="the results table from one or more results JSON files")
     p.add_argument("results", nargs="+")

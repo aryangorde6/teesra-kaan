@@ -63,3 +63,10 @@ def test_demo_genuine_bank_alert_is_not_red(example):
 
     result = simulate(example("demo-bank-alert-genuine"), KeywordJudge())
     assert result.level < Level.RED
+
+
+def test_keyword_hits_for_the_paraphrase_test():
+    from teesrakaan.keywords import keyword_hits
+
+    assert {sid for sid, _ in keyword_hits("Main CBI se bol raha hoon, OTP bata do")} >= {"A1", "A5"}
+    assert keyword_hits("Namaste ji, main ek sarkari daftar se baat kar raha hoon.") == []
