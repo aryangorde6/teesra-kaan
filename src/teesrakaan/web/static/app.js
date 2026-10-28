@@ -373,6 +373,15 @@ function handle(e, speed) {
 async function init() {
   setLang(lang);
   document.querySelectorAll("[data-lang]").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
+  const setBig = (on) => {
+    document.documentElement.classList.toggle("big", on);
+    $("#big").setAttribute("aria-pressed", String(on));
+    try { localStorage.setItem("tk-big", on ? "1" : ""); } catch (e) {}
+  };
+  let big = false;
+  try { big = localStorage.getItem("tk-big") === "1"; } catch (e) {}
+  setBig(big);
+  $("#big").addEventListener("click", () => setBig(!document.documentElement.classList.contains("big")));
   questions = (await fetch("/api/signals").then((r) => r.json())).signals;
   renderQuestions();
   const calls = await fetch("/api/calls").then((r) => r.json());

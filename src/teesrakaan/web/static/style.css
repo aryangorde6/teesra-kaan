@@ -84,9 +84,10 @@ button { font: inherit; }
 .primary:disabled { opacity: 0.45; cursor: not-allowed; }
 .primary .dot { width: 10px; height: 10px; border-radius: 50%; background: #fff; }
 .hint { margin: 0; color: var(--muted); font-size: 0.85rem; text-align: center; }
-.demo-row { display: flex; gap: 8px; }
+.demo-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.demo-row button { flex: 1 0 auto; }
 .demo-row select {
-  flex: 1; min-width: 0; padding: 10px; border-radius: 10px; border: 1px solid var(--line);
+  flex: 1 1 180px; min-width: 0; padding: 10px; border-radius: 10px; border: 1px solid var(--line);
   background: var(--card); color: var(--ink); font: inherit;
 }
 .secondary {
@@ -163,3 +164,10 @@ button { font: inherit; }
 .how li .q { display: block; color: var(--muted); font-size: 0.85rem; }
 .how li.ask .n { color: var(--red); }
 .upload { display: block; text-align: center; cursor: pointer; }
+.upload[hidden] { display: none; }
+.big-toggle { flex: 0 0 auto !important; padding: 8px 14px !important; font-weight: 700; }
+.big-toggle[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+/* Large text, for older eyes: everything scales, and the warning gets bigger still. */
+html.big { font-size: 125%; }
+html.big .alert-head { font-size: 1.7rem; }
+html.big .alert-action { font-size: 1.25rem; }
