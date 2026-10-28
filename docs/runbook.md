@@ -7,7 +7,11 @@ Every command below runs from `teesra-kaan/` with the venv. Paid commands need `
 .venv/bin/teesrakaan ping
 .venv/bin/teesrakaan budget
 ```
-Then check on dev.meta.ai → Billing that the cost came off the credits, not the card. Check the dashboard for a zero-data-retention setting before any donated call is sent.
+Then check on dev.meta.ai → Billing that the cost came off the credits, not the card. Check the dashboard for a zero-data-retention setting before any donated call is sent (the API reference, read Oct 28, documents no retention setting in the request).
+
+Then one dev re-enactment through `teesrakaan transcribe` and look at the saved events:
+- **When do `speaker` events arrive?** Per the schema, a `speaker` event labels the text *since the previous* `speechStart` or `speaker` event, so it can come after the words. If it does, live listening should hold a turn's words until its label arrives (`live.py`), or the first words of a turn are credited to the wrong voice.
+- **Pacing:** close code `1008` means the audio arrived slower than real time or ran ahead; `1013` is a rate limit.
 
 ## 2. Transcribe each set once (about $0.18 per hour of audio)
 ```bash

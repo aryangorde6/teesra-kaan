@@ -137,6 +137,7 @@ def session_to_call(session: Session | dict, call_id: str, **meta) -> Call:
                 turn["heard"].append(e["received"])
             turn["text"] = " ".join(words)
         elif kind == "speaker" and current is not None:
+            # A label covers the text since the previous speechStart or speaker event; a turn is taken as one voice.
             turns[current]["speaker"] = str(e.get("label") or "A")
         elif kind == "speechEnd":
             tid = str(e.get("turnId"))
