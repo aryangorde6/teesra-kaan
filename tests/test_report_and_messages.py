@@ -1,5 +1,6 @@
 from teesrakaan.keywords import KeywordJudge
-from teesrakaan.messages import COUNTRIES, FACTS, LANGS, SIGNAL_NAME, warning
+from teesrakaan.messages import COUNTRIES, FACTS, LANGS, SCRIPT_NAME, SIGNAL_NAME, script_ahead, warning
+from teesrakaan.playbook import SCRIPTS, ahead
 from teesrakaan.report import WHAT_TO_DO, build_report, extract
 from teesrakaan.signals import SIGNALS, Alarm, Level
 from teesrakaan.simulate import simulate
@@ -86,3 +87,25 @@ def test_the_us_report_pack_names_the_ftc(example):
 
 def test_no_warning_when_nothing_is_wrong():
     assert warning(Alarm(Level.NONE, "", frozenset({"A1"})), {}, "en") is None
+
+
+def test_the_family_message_quotes_dont_tell_anyone_first():
+    alarm = Alarm(Level.RED, "ask", frozenset({"A1", "A4", "A6"}))
+    quotes = {"A1": "main CBI se", "A4": "kisi ko mat batana", "A6": "paise transfer kijiye"}
+    for lang in LANGS:
+        msg = warning(alarm, quotes, lang)["family"]
+        assert msg.startswith("Teesra Kaan:") and "“kisi ko mat batana”" in msg
+    assert "“" not in warning(alarm, {}, "en")["family"]
+
+
+def test_every_script_has_a_name_and_its_rest_reads_in_every_language():
+    assert set(SCRIPT_NAME) == {s.id for s in SCRIPTS}
+    for names in SCRIPT_NAME.values():
+        assert set(names) == set(LANGS) and all(v.strip() for v in names.values())
+    for lang in LANGS:
+        known = script_ahead(ahead({"A1", "A2", "A8"}), lang)
+        assert SCRIPT_NAME["digital-arrest"][lang] in known["matches"] and len(known["steps"]) == 2 and not known["note"]
+        unsure = script_ahead(ahead({"A1", "A2"}), lang)
+        assert not unsure["steps"] and unsure["note"] and SCRIPT_NAME["kyc"][lang] in unsure["matches"]
+        assert script_ahead(None, lang)["note"] and not script_ahead(None, lang)["matches"]
+        assert script_ahead(ahead({"A1", "A2", "A8", "A4", "A6"}), lang)["note"] != unsure["note"]

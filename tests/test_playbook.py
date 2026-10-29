@@ -4,7 +4,7 @@ from pathlib import Path
 from teesrakaan.keywords import KeywordJudge
 from teesrakaan.listener import Listener
 from teesrakaan.messages import LANGS, NEXT_LINE, came_true, next_line
-from teesrakaan.playbook import SCRIPTS, predict
+from teesrakaan.playbook import SCRIPTS, ahead, predict
 from teesrakaan.signals import BY_ID
 from teesrakaan.transcript import CALLER
 
@@ -46,6 +46,26 @@ def test_fake_customer_care_predicts_the_app():
 def test_a_finished_script_still_blocks_a_guess():
     # "You've won" + "pay the fee" is the whole prize script, or the start of a PIN-to-receive one.
     assert predict({"A12", "A6"}) is None
+
+
+def test_the_rest_of_the_script_starts_with_the_next_line():
+    ids = sorted(BY_ID)
+    for mask in range(1 << len(ids)):
+        seen = {sid for i, sid in enumerate(ids) if mask >> i & 1}
+        nxt, rest = predict(seen), ahead(seen)
+        if nxt:
+            assert rest.steps[0] == nxt.step and set(rest.scripts) == set(nxt.scripts)
+        else:
+            assert rest is None or not rest.steps
+
+
+def test_a_digital_arrest_told_afterwards_shows_everything_still_to_come():
+    rest = ahead({"A1", "A2", "A8"})
+    assert rest.steps == ("A4", "A6") and set(rest.scripts) == {"digital-arrest", "parcel"} and not rest.done
+    assert ahead({"A1", "A2", "A8", "A4", "A6"}).done
+    assert ahead({"A1"}) is None
+    unsure = ahead({"A1", "A2"})
+    assert not unsure.steps and not unsure.done and {"digital-arrest", "kyc"} <= set(unsure.scripts)
 
 
 def test_every_signal_has_a_next_line_in_every_language():

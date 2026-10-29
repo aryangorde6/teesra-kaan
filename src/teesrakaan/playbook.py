@@ -49,6 +49,32 @@ class Next:
     scripts: tuple[str, ...]  # the scripts that agree on it
 
 
+@dataclass(frozen=True)
+class Ahead:
+    steps: tuple[str, ...]  # what the caller will do next, in order; empty when the scripts disagree or have run out
+    scripts: tuple[str, ...]  # the scripts that match best
+    done: bool  # every one of them has run out: the call is past its last step
+
+
+def _leaders(heard: frozenset[str]) -> list[tuple[str, tuple[str, ...]]]:
+    """(script, the steps it has left) for each script with the most steps heard, if at least MIN_STEPS.
+
+    A script's steps left are those after the last one heard that haven't been heard yet.
+    """
+    best, leaders = 0, []
+    for script in SCRIPTS:
+        hits = [i for i, step in enumerate(script.steps) if step in heard]
+        if len(hits) < MIN_STEPS:
+            continue
+        # A script that has run out still counts: the call is past anything it can predict.
+        rest = tuple(s for s in script.steps[hits[-1] + 1 :] if s not in heard)
+        if len(hits) > best:
+            best, leaders = len(hits), []
+        if len(hits) == best:
+            leaders.append((script.id, rest))
+    return leaders
+
+
 def predict(seen: Iterable[str]) -> Next | None:
     """The caller's next step, or None when the scripts don't agree on one.
 
@@ -59,19 +85,26 @@ def predict(seen: Iterable[str]) -> Next | None:
     alone (a digital arrest, or a KYC or number-block call?) it waits for one
     more step.
     """
-    heard = frozenset(seen)
-    best, leaders = 0, []
-    for script in SCRIPTS:
-        hits = [i for i, step in enumerate(script.steps) if step in heard]
-        if len(hits) < MIN_STEPS:
-            continue
-        # A script that has run out still counts: the call is past anything it can predict.
-        step = next((s for s in script.steps[hits[-1] + 1 :] if s not in heard), None)
-        if len(hits) > best:
-            best, leaders = len(hits), []
-        if len(hits) == best:
-            leaders.append((script.id, step))
-    steps = {step for _, step in leaders}
+    leaders = _leaders(frozenset(seen))
+    steps = {rest[0] if rest else None for _, rest in leaders}
     if len(steps) != 1 or None in steps:
         return None
     return Next(steps.pop(), tuple(sid for sid, _ in leaders))
+
+
+def ahead(seen: Iterable[str]) -> Ahead | None:
+    """The rest of the script, for a call told after it happened ("check before you pay"), or None
+    when no script matches yet.
+
+    The same best-matching scripts as predict(), but every step they all still agree on, in order,
+    so its first step is always predict()'s.
+    """
+    leaders = _leaders(frozenset(seen))
+    if not leaders:
+        return None
+    shared = []
+    for steps in zip(*(rest for _, rest in leaders)):
+        if len(set(steps)) > 1:
+            break
+        shared.append(steps[0])
+    return Ahead(tuple(shared), tuple(sid for sid, _ in leaders), all(not rest for _, rest in leaders))

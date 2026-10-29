@@ -35,7 +35,8 @@
       <button id="live" class="primary" disabled>
         <span class="dot"></span><span data-t="start">Start listening</span>
       </button>
-      <p class="hint" data-t="live_soon">The live microphone connects with the speech API.</p>
+      <p id="live-hint" class="hint" data-t="live_soon">The live microphone connects with the speech API.</p>
+      <p id="silent" class="hint silent" data-t="silent" hidden>Hearing nothing. If the call is on this phone, open this page on another phone or laptop.</p>
       <div class="demo-row">
         <select id="call" aria-label="Demo call"></select>
         <button id="play" class="secondary" data-t="demo">Play a demo call</button>
@@ -53,6 +54,13 @@
       </label>
     </section>
 
+    <section class="panel check">
+      <h2 data-t="check_head">Got a call like this? Check before you pay</h2>
+      <p class="hint" data-t="check_hint">Type what the caller said, or tap your keyboard's microphone and say it. Works on this phone, after the call.</p>
+      <textarea id="said" rows="3" maxlength="2000" data-tp="check_ph"></textarea>
+      <button id="check" class="primary" data-t="check">Check</button>
+    </section>
+
     <section id="alert" class="alert" hidden aria-live="assertive">
       <p class="alert-head"></p>
       <p class="alert-action"></p>
@@ -62,6 +70,7 @@
       </div>
       <ul class="facts"></ul>
       <a id="helpline" class="call1930" href="tel:1930" data-t="call1930">Call 1930</a>
+      <a id="family" class="family" target="_blank" rel="noopener" data-t="family" hidden>Tell family now</a>
     </section>
 
     <section id="next" class="next" hidden aria-live="polite">
@@ -70,6 +79,13 @@
         <p class="next-line"></p>
       </div>
       <ul class="came-true"></ul>
+    </section>
+
+    <section id="ahead" class="next ahead" hidden aria-live="polite">
+      <p class="ahead-match"></p>
+      <p class="next-label"></p>
+      <ol class="ahead-steps"></ol>
+      <p class="ahead-note"></p>
     </section>
 
     <section class="panel">

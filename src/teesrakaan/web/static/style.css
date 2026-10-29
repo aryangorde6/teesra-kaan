@@ -148,6 +148,26 @@ button { font: inherit; }
   background: var(--red); color: var(--bg); text-decoration: none; font-weight: 700; font-size: 1.05rem;
 }
 .alert.amber .call1930 { background: var(--amber); }
+.family {
+  display: block; text-align: center; padding: 12px; margin-top: 8px; border-radius: 10px;
+  border: 2px solid currentColor; color: inherit; text-decoration: none; font-weight: 700; font-size: 1.05rem;
+}
+.silent { color: var(--red); font-weight: 600; }
+
+.check { display: grid; gap: 10px; }
+.check h2 { margin: 0; }
+.check .hint { text-align: left; }
+.check textarea {
+  width: 100%; box-sizing: border-box; padding: 10px; border-radius: 10px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--ink); font: inherit; resize: vertical;
+}
+.ahead-match { margin: 0 0 8px; font-weight: 700; }
+.ahead-steps { margin: 0; padding-left: 22px; display: grid; gap: 6px; }
+.ahead-steps li { font-size: 1.15rem; font-weight: 700; color: var(--caller); line-height: 1.35; }
+.ahead-steps li::before { content: "“"; }
+.ahead-steps li::after { content: "”"; }
+.ahead-note { margin: 8px 0 0; color: var(--muted); }
+.ahead-note:empty, .ahead-match:empty, .ahead .next-label:empty { display: none; }
 
 .timeline { position: relative; height: 10px; border-radius: 999px; background: var(--line); margin: 8px 0 12px; }
 .timeline .progress { position: absolute; inset: 0 auto 0 0; width: 0; border-radius: 999px; background: var(--accent-soft); }
@@ -169,7 +189,7 @@ button { font: inherit; }
 .how li .q { display: block; color: var(--muted); font-size: 0.85rem; }
 .how li.ask .n { color: var(--red); }
 .upload { display: block; text-align: center; cursor: pointer; }
-.upload[hidden] { display: none; }
+.upload[hidden], .family[hidden] { display: none; }
 .big-toggle { flex: 0 0 auto !important; padding: 8px 14px !important; font-weight: 700; }
 .big-toggle[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
 /* Large text, for older eyes: everything scales, and the warning gets bigger still. */

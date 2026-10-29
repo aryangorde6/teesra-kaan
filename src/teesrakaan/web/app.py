@@ -21,10 +21,11 @@ from ..asr import REALTIME_URL, handshake
 from ..judge import SparkJudge
 from ..keywords import KeywordJudge
 from ..live import LiveCall
-from ..messages import COUNTRIES, LANGS, SIGNAL_NAME, prediction_events, warning
+from ..messages import COUNTRIES, LANGS, SIGNAL_NAME, prediction_events, script_ahead, warning
+from ..playbook import ahead
 from ..report import build_report
 from ..simulate import Timing, simulate
-from ..transcript import Call, load_call
+from ..transcript import CALLER, Call, Turn, load_call
 
 STATIC = Path(__file__).parent / "static"
 DEMO_CALLS = Path(os.environ.get("TEESRAKAAN_DEMO_CALLS", Path(__file__).resolve().parents[3] / "examples" / "calls"))
@@ -222,6 +223,43 @@ async def check_recording(request: Request) -> dict:
         return {"events": await asyncio.to_thread(run)}
     except ValueError as exc:
         raise HTTPException(400, str(exc)) from exc
+
+
+MAX_SAID_CHARS = 2000
+
+
+def check_said(text: str, lang: str = "en", country: str = "IN", judge=None) -> dict:
+    """What a caller said, typed in (or voice-typed) after the call: the same judge, quote check and
+    rules, plus the scam it matches and the rest of its script. It runs on the phone that had the call,
+    which live listening can't, so it can be checked before anyone pays."""
+    judge = judge or KeywordJudge()
+    call = Call("what-the-caller-said", (Turn(CALLER, 0.0, max(len(text.split()) / 2.5, 1.0), text),), set="typed")
+    listener = simulate(call, judge, Timing(check_every=float("inf"))).listener  # one question round, at the end
+    found = sorted(listener.found.values(), key=lambda f: f.said_at)
+    quotes = {f.id: f.quote for f in found}
+    return {
+        "judge": "Muse Spark" if judge.name.startswith("muse-spark") else "keyword stand-in (no model)",
+        "signals": [{"id": f.id, "name": SIGNAL_NAME[f.id][lang], "quote": f.quote} for f in found],
+        "warning": warning(listener.alarm, quotes, lang, country),
+        "ahead": script_ahead(ahead(quotes), lang),
+        "report_markdown": build_report(call, listener, lang, country=country).to_markdown(),
+    }
+
+
+@app.post("/api/said")
+async def said(request: Request) -> dict:
+    lang = request.query_params.get("lang", "en")
+    country = request.query_params.get("country", "IN")
+    if lang not in LANGS or country not in COUNTRIES:
+        raise HTTPException(400, "Unknown language or country.")
+    try:
+        text = str((await request.json()).get("text", "")).strip()
+    except (ValueError, AttributeError):
+        text = ""
+    if not text or len(text) > MAX_SAID_CHARS:
+        raise HTTPException(400, f"Write what the caller said, up to {MAX_SAID_CHARS} characters.")
+    judge = live_judge() if live_available() else KeywordJudge()
+    return await asyncio.to_thread(check_said, text, lang, country, judge)
 
 
 @app.websocket("/ws/live")

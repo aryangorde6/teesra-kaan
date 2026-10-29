@@ -144,7 +144,24 @@ def warning(alarm: Alarm, quotes: dict[str, str], lang: str = "en", country: str
             for sid in sorted(alarm.signals, key=lambda s: int(s[1:]))
         ],
         "facts": facts_for(alarm.signals, lang, country),
+        "family": family_message(alarm.signals, quotes, lang),
     }
+
+
+# "Don't tell anyone" is the scam's weapon, so the warning makes telling family one tap.
+FAMILY = {
+    "en": ("I got a call that looks like a scam.", "The caller said: “{quote}”.", "Please call me now."),
+    "hi": ("मुझे एक कॉल आया है जो धोखाधड़ी लगता है।", "कॉल करने वाले ने कहा: “{quote}”।", "कृपया मुझे अभी फ़ोन करें।"),
+    "mr": ("मला एक कॉल आला आहे जो फसवणुकीचा वाटतो.", "फोन करणाऱ्याने सांगितले: “{quote}”.", "कृपया मला लगेच फोन करा."),
+}
+
+
+def family_message(signals: frozenset[str], quotes: dict[str, str], lang: str = "en") -> str:
+    """The message the page offers to send to family. It quotes "don't tell anyone" when the caller said it."""
+    order = sorted(signals, key=lambda s: (s != "A4", int(s[1:])))
+    quote = next((quotes[s] for s in order if quotes.get(s)), "")
+    first, said, last = FAMILY[lang]
+    return " ".join(["Teesra Kaan:", first, *([said.format(quote=quote)] if quote else []), last])
 
 
 # The next line (playbook.py): each signal as a scam script's caller says it.
@@ -190,6 +207,66 @@ def next_line(step: str, lang: str = "en") -> dict:
 
 def came_true(step: str, quote: str, lang: str = "en") -> dict:
     return {"id": step, "text": CAME_TRUE[lang].format(quote=quote), "quote": quote}
+
+
+# Checking a call after it happened ("check before you pay"): the scam it matches and the rest of its script.
+SCRIPT_NAME = {
+    "digital-arrest": {"en": "Digital arrest", "hi": "डिजिटल अरेस्ट", "mr": "डिजिटल अरेस्ट"},
+    "parcel": {"en": "Courier or customs parcel", "hi": "कूरियर या कस्टम्स पार्सल", "mr": "कुरिअर किंवा कस्टम्स पार्सल"},
+    "number-block": {"en": "Your number will be blocked", "hi": "आपका नंबर बंद हो जाएगा", "mr": "तुमचा नंबर बंद होईल"},
+    "kyc": {"en": "KYC update or account block", "hi": "KYC अपडेट या खाता बंद", "mr": "KYC अपडेट किंवा खाते बंद"},
+    "pin-to-receive": {"en": "Enter your PIN to receive money", "hi": "पैसे पाने के लिए PIN डालें",
+                       "mr": "पैसे मिळवण्यासाठी PIN टाका"},
+    "fake-care": {"en": "Fake customer care or refund", "hi": "नकली कस्टमर केयर या रिफ़ंड",
+                  "mr": "बनावट कस्टमर केअर किंवा रिफंड"},
+    "family-emergency": {"en": "Family emergency", "hi": "परिवार में इमरजेंसी", "mr": "कुटुंबात इमर्जन्सी"},
+    "electricity": {"en": "Electricity disconnection", "hi": "बिजली कनेक्शन कटना", "mr": "वीज कनेक्शन तोडणे"},
+    "prize": {"en": "Prize, lottery or KBC", "hi": "इनाम, लॉटरी या KBC", "mr": "बक्षीस, लॉटरी किंवा KBC"},
+}
+
+MATCHES = {
+    "en": "This matches a known scam: {names}.",
+    "hi": "यह एक जानी-पहचानी ठगी से मिलता है: {names}।",
+    "mr": "हे एका ओळखीच्या फसवणुकीशी जुळते: {names}.",
+}
+
+COULD_BE = {
+    "en": "This could be one of these scams: {names}.",
+    "hi": "यह इनमें से कोई ठगी हो सकती है: {names}।",
+    "mr": "ही यापैकी एखादी फसवणूक असू शकते: {names}.",
+}
+
+AHEAD_LABEL = {
+    "en": "What they'll do next in this scam:",
+    "hi": "इस ठगी में आगे वे यह करेंगे:",
+    "mr": "या फसवणुकीत पुढे ते हे करतील:",
+}
+
+NOT_ENOUGH = {
+    "en": "Not enough yet to tell which scam this is. Add anything else the caller said.",
+    "hi": "अभी यह कहना मुश्किल है कि यह कौन-सी ठगी है। कॉल करने वाले ने और जो कहा, वह भी लिखें।",
+    "mr": "ही कोणती फसवणूक आहे हे सांगायला अजून पुरेसे नाही. फोन करणाऱ्याने आणखी जे सांगितले तेही लिहा.",
+}
+
+SCRIPT_DONE = {
+    "en": "The caller has reached the end of this scam's script. Don't pay or share anything.",
+    "hi": "कॉल करने वाला इस ठगी की स्क्रिप्ट के आख़िर तक पहुँच चुका है। पैसे न दें, कुछ भी न बताएँ।",
+    "mr": "फोन करणारा या फसवणुकीच्या स्क्रिप्टच्या शेवटापर्यंत पोहोचला आहे. पैसे देऊ नका, काहीही सांगू नका.",
+}
+
+
+def script_ahead(rest, lang: str = "en") -> dict:
+    """What the page shows for playbook.ahead(): the scam, then each step still to come as the caller would say it."""
+    if rest is None:
+        return {"matches": "", "label": "", "steps": [], "note": NOT_ENOUGH[lang]}
+    names = " · ".join(SCRIPT_NAME[sid][lang] for sid in rest.scripts)
+    known = rest.steps or rest.done
+    return {
+        "matches": (MATCHES if known else COULD_BE)[lang].format(names=names),
+        "label": AHEAD_LABEL[lang] if rest.steps else "",
+        "steps": [{"id": s, "name": SIGNAL_NAME[s][lang], "line": NEXT_LINE[s][lang]} for s in rest.steps],
+        "note": "" if rest.steps else (SCRIPT_DONE if rest.done else NOT_ENOUGH)[lang],
+    }
 
 
 def prediction_events(update, lang: str = "en") -> list[dict]:

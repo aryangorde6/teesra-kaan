@@ -6,10 +6,17 @@ const UI = {
     start: "Start listening",
     stop: "Stop listening",
     live_soon: "The live microphone connects with the speech API.",
-    live_on: "Put the call on speaker, then tap Start.",
+    live_on: "Open this page on a second phone or laptop: the phone on the call keeps its own microphone. Put the call on speaker next to it, then tap Start.",
+    silent: "Hearing nothing. If the call is on this phone, open this page on another phone or laptop.",
     demo: "Play a demo call",
     upload: "Check a call you recorded",
     checking: "Checking the recording…",
+    check_head: "Got a call like this? Check before you pay",
+    check_hint: "Type what the caller said, or tap your keyboard's microphone and say it. Works on this phone, after the call.",
+    check_ph: "e.g. He said he's from the CBI, there's an FIR on my Aadhaar, and I mustn't tell anyone…",
+    check: "Check",
+    checking_text: "Checking…",
+    family: "Tell family now",
     transcript: "What the caller is saying",
     signals: "Warning signs",
     report: "Report for 1930",
@@ -42,10 +49,17 @@ const UI = {
     start: "सुनना शुरू करें",
     stop: "सुनना बंद करें",
     live_soon: "लाइव माइक स्पीच API जुड़ने पर चालू होगा।",
-    live_on: "कॉल को स्पीकर पर रखें, फिर शुरू करें दबाएँ।",
+    live_on: "यह पेज किसी दूसरे फ़ोन या लैपटॉप पर खोलें: जिस फ़ोन पर कॉल चल रहा है, वह अपना माइक नहीं देता। कॉल को स्पीकर पर इसके पास रखें, फिर शुरू करें दबाएँ।",
+    silent: "कुछ सुनाई नहीं दे रहा। अगर कॉल इसी फ़ोन पर है, तो यह पेज किसी दूसरे फ़ोन या लैपटॉप पर खोलें।",
     demo: "डेमो कॉल चलाएँ",
     upload: "रिकॉर्ड किया हुआ कॉल जाँचें",
     checking: "रिकॉर्डिंग जाँची जा रही है…",
+    check_head: "ऐसा कॉल आया? पैसे देने से पहले जाँचें",
+    check_hint: "कॉल करने वाले ने जो कहा, वह लिखें, या कीबोर्ड का माइक दबाकर बोलें। कॉल के बाद इसी फ़ोन पर चलता है।",
+    check_ph: "जैसे: उसने कहा वह CBI से है, मेरे आधार पर FIR है, और किसी को नहीं बताना है…",
+    check: "जाँचें",
+    checking_text: "जाँच हो रही है…",
+    family: "परिवार को अभी बताएँ",
     transcript: "कॉल करने वाला क्या कह रहा है",
     signals: "चेतावनी के संकेत",
     report: "1930 के लिए रिपोर्ट",
@@ -78,10 +92,17 @@ const UI = {
     start: "ऐकायला सुरुवात करा",
     stop: "ऐकणे थांबवा",
     live_soon: "स्पीच API जोडल्यावर लाइव्ह माइक सुरू होईल.",
-    live_on: "कॉल स्पीकरवर ठेवा, मग सुरू करा दाबा.",
+    live_on: "हे पेज दुसऱ्या फोनवर किंवा लॅपटॉपवर उघडा: ज्या फोनवर कॉल चालू आहे तो आपला माइक देत नाही. कॉल स्पीकरवर याच्या जवळ ठेवा, मग सुरू करा दाबा.",
+    silent: "काहीच ऐकू येत नाही. कॉल याच फोनवर असेल, तर हे पेज दुसऱ्या फोनवर किंवा लॅपटॉपवर उघडा.",
     demo: "डेमो कॉल चालवा",
     upload: "रेकॉर्ड केलेला कॉल तपासा",
     checking: "रेकॉर्डिंग तपासत आहे…",
+    check_head: "असा कॉल आला? पैसे देण्याआधी तपासा",
+    check_hint: "फोन करणाऱ्याने जे सांगितले ते लिहा, किंवा कीबोर्डचा माइक दाबून बोला. कॉलनंतर याच फोनवर चालते.",
+    check_ph: "उदा. तो म्हणाला तो CBI मधून आहे, माझ्या आधारवर FIR आहे, आणि कोणालाही सांगायचं नाही…",
+    check: "तपासा",
+    checking_text: "तपासत आहे…",
+    family: "घरच्यांना आत्ता सांगा",
     transcript: "फोन करणारा काय बोलतोय",
     signals: "धोक्याची चिन्हे",
     report: "1930 साठी अहवाल",
@@ -181,6 +202,7 @@ function setLang(next) {
     const value = UI[next][el.dataset.t];
     if (typeof value === "string") el.textContent = value;
   });
+  document.querySelectorAll("[data-tp]").forEach((el) => { el.placeholder = UI[next][el.dataset.tp]; });
   renderQuestions();
 }
 
@@ -210,6 +232,8 @@ function reset() {
   $("#next").hidden = true;
   $("#next-now").hidden = true;
   $("#next .came-true").innerHTML = "";
+  $("#ahead").hidden = true;
+  $("#family").hidden = true;
   $("#timeline-wrap").hidden = true;
   $("#report-wrap").hidden = true;
   $("#report").textContent = "";
@@ -238,7 +262,8 @@ function addWord(e) {
 function addSignal(e) {
   const li = document.createElement("li");
   if (ASKS.has(e.id)) li.className = "ask";
-  li.innerHTML = `<span class="name"></span><span class="when">${clock(e.said_at)}</span><span class="quote"></span>`;
+  const when = e.said_at === null || e.said_at === undefined ? "" : `<span class="when">${clock(e.said_at)}</span>`;
+  li.innerHTML = `<span class="name"></span>${when}<span class="quote"></span>`;
   li.querySelector(".name").textContent = e.name;
   li.querySelector(".quote").textContent = `“${e.quote}”`;
   $("#signals").prepend(li);
@@ -297,6 +322,10 @@ function showAlarm(e) {
     li.textContent = f;
     facts.appendChild(li);
   });
+  // One tap to tell family, with the caller's words: WhatsApp in India, a text message in the US.
+  const family = $("#family");
+  family.hidden = !w.family;
+  family.href = country === "US" ? `sms:?&body=${encodeURIComponent(w.family)}` : `https://wa.me/?text=${encodeURIComponent(w.family)}`;
   box.scrollIntoView({ behavior: "smooth", block: "start" });
   if (navigator.vibrate) navigator.vibrate(w.level === "red" ? [300, 120, 300] : 200);
   speak(`${w.headline}. ${w.action}`);
@@ -371,6 +400,51 @@ async function checkFile(file) {
   }
 }
 
+function showAhead(a) {
+  // The scam a typed call matches, and the rest of its script, in the caller's words.
+  const box = $("#ahead");
+  box.hidden = false;
+  box.querySelector(".ahead-match").textContent = a.matches;
+  box.querySelector(".next-label").textContent = a.label;
+  const ol = box.querySelector(".ahead-steps");
+  ol.innerHTML = "";
+  a.steps.forEach((s) => {
+    const li = document.createElement("li");
+    li.textContent = s.line;
+    ol.appendChild(li);
+  });
+  box.querySelector(".ahead-note").textContent = a.note;
+}
+
+async function checkSaid() {
+  const text = $("#said").value.trim();
+  if (!text) { $("#said").focus(); return; }
+  stopMic();
+  if (player) { player.pause(); player = null; }
+  if (socket) socket.close();
+  reset();
+  $("#status").textContent = t("checking_text");
+  try {
+    const r = await fetch(`/api/said?lang=${lang}&country=${country}`, {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text }),
+    });
+    const data = await r.json();
+    if (!r.ok) throw new Error(data.detail || r.statusText);
+    $("#status").textContent = "";
+    $("#engine").textContent = `Judge: ${data.judge}`;
+    state.call = { id: "typed" };
+    data.signals.forEach(addSignal);
+    if (data.warning) showAlarm({ warning: data.warning });
+    showAhead(data.ahead);
+    if (!data.warning) $("#ahead").scrollIntoView({ behavior: "smooth", block: "start" });
+    state.report = data.report_markdown;
+    $("#report").textContent = data.report_markdown;
+    $("#report-wrap").hidden = false;
+  } catch (err) {
+    $("#status").textContent = String(err.message || err);
+  }
+}
+
 async function listen() {
   if (mic) {
     if (socket && socket.readyState === 1) socket.send(JSON.stringify({ type: "stop" }));
@@ -391,10 +465,16 @@ async function listen() {
     ctx.createMediaStreamSource(stream).connect(node).connect(mute).connect(ctx.destination);
     socket = new WebSocket(`${proto}://${location.host}/ws/live?lang=${lang}&country=${country}`);
     socket.binaryType = "arraybuffer";
-    node.port.onmessage = (m) => { if (socket.readyState === 1) socket.send(m.data); };
+    node.port.onmessage = (m) => {
+      // A phone on a call gives the page silence (the call keeps the microphone), so notice it.
+      const pcm = new Int16Array(m.data);
+      for (let i = 0; i < pcm.length; i += 4) if (Math.abs(pcm[i]) > 32) { if (mic) mic.heardAt = performance.now(); break; }
+      if (socket.readyState === 1) socket.send(m.data);
+    };
     socket.onmessage = (msg) => handle(JSON.parse(msg.data), 1);
     socket.onclose = stopMic;
-    mic = { stream, ctx };
+    mic = { stream, ctx, heardAt: performance.now() };
+    mic.quiet = setInterval(() => { $("#silent").hidden = performance.now() - mic.heardAt < 8000; }, 1000);
     $("#live [data-t]").textContent = t("stop");
   } catch (err) {
     $("#status").textContent = String(err.message || err);
@@ -406,6 +486,8 @@ function stopMic() {
   if (!mic) return;
   mic.stream.getTracks().forEach((track) => track.stop());
   mic.ctx.close();
+  clearInterval(mic.quiet);
+  $("#silent").hidden = true;
   mic = null;
   $("#live [data-t]").textContent = t("start");
 }
@@ -459,13 +541,14 @@ async function init() {
   });
   $("#play").addEventListener("click", play);
   $("#live").addEventListener("click", listen);
+  $("#check").addEventListener("click", checkSaid);
   try {
     liveAvailable = (await fetch("/api/status").then((r) => r.json())).live;
   } catch (e) {}
   $("#live").disabled = !liveAvailable;
   $("#upload").hidden = !liveAvailable;
   $("#file").addEventListener("change", (e) => { if (e.target.files[0]) checkFile(e.target.files[0]); e.target.value = ""; });
-  const hint = document.querySelector(".hint");
+  const hint = $("#live-hint");
   hint.dataset.t = liveAvailable ? "live_on" : "live_soon";
   hint.textContent = t(hint.dataset.t);
   $("#copy").addEventListener("click", async () => {

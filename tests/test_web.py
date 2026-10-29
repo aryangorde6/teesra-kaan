@@ -161,6 +161,29 @@ def test_checking_a_recording_end_to_end(monkeypatch):
     assert "1930" in events[-1]["report_markdown"]
 
 
+def test_a_call_typed_in_afterwards_gets_its_scam_and_the_rest_of_the_script(monkeypatch):
+    import teesrakaan.web.app as web
+
+    monkeypatch.setattr(web, "live_available", lambda: False)  # the free keyword stand-in, never a paid call
+    text = "Main CBI se bol raha hoon. Aapke Aadhaar pe FIR darj hai. Skype pe video call pe aaiye."
+    r = client.post("/api/said?lang=hi", json={"text": text})
+    assert r.status_code == 200
+    data = r.json()
+    assert [s["id"] for s in data["signals"]] == ["A1", "A2", "A8"]
+    assert data["warning"]["level"] == "amber" and "CBI" in data["warning"]["family"]
+    assert [s["id"] for s in data["ahead"]["steps"]] == ["A4", "A6"]
+    assert "1930" in data["report_markdown"]
+    one = client.post("/api/said?lang=en", json={"text": "A man said my parcel was seized."}).json()
+    assert one["warning"] is None and not one["ahead"]["steps"] and one["ahead"]["note"]
+
+
+def test_a_typed_call_must_be_some_text_and_not_too_long():
+    assert client.post("/api/said?lang=en", json={"text": "  "}).status_code == 400
+    assert client.post("/api/said?lang=en", json={"text": "x" * 2001}).status_code == 400
+    assert client.post("/api/said?lang=xx", json={"text": "hello"}).status_code == 400
+    assert client.post("/api/said?lang=en", content=b"not json").status_code == 400
+
+
 def test_live_call_loses_no_word_while_the_judge_runs():
     import threading
 
