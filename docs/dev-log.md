@@ -68,3 +68,20 @@ Every change to the signals, rules, keyword lists or the Spark prompt, with the 
 - **Typed retellings ("check before you pay").** The call prompt answered no to every question on a first-person retelling of the Rajkot case: "A Mumbai Police officer called me… They said I will be arrested, and told me not to tell my family". It reads the text as the listener talking. The typed check now has its own prompt, `SPARK_SYSTEM_TYPED_V1`, which treats the account as a report of what the caller said. The evaluation's prompt is unchanged.
   - With it, the Rajkot reconstruction goes red (A1, A8, A2, A4), matches digital arrest, and shows **"Transfer the money for verification."** as the next step. The page's en/hi/mr examples give the same result.
   - This prompt was written after seeing the Rajkot text fail, and checked on it and the three examples only.
+
+## Oct 30, 2026, 01:34 IST: run C (Muse Spark) on dev, rules v1.2, playbook v1
+Dev only. These are the same inputs as the keyword runs: the 28 dev scripts (text, estimated timings) and the 50 FTC dev calls (the dataset's transcripts). $1.16 in all through the ledger, including one reverted trial.
+
+| Set | Spark (C) | Keywords (A, v1.2c) |
+|---|---|---|
+| IN-scam warned / red | 16/16 / 14/16 | 16/16 / 14/16 |
+| IN-genuine red (amber) | **1/12** (2 more amber) | 0/12 (0) |
+| IN-scam: next line came true (naive) | 4/17 (3/17), 2 s ahead, 10/16 calls with one | 6/16 (2/16) |
+| FTC impersonation warned / red | 38/41 / 0/41 | 40/41 |
+| FTC: next line came true | 0/16 | 0/9 |
+
+- **The red false alarm is IG03,** a daughter asking her mother for mess fees who adds "Sunday ko video call karungi". Spark answered A6 (money) and A8 (video call), both fair readings of the questions, and an ask plus any signal is red.
+  - **Trial, reverted:** A8 narrowed to "move *this* conversation". IG03 stayed red, and A8 was then missed in three scam scripts (IS09, IS28, IS35). Kept as `runs/dev/*A8-trial-reverted*`; the signals stay v1.2.
+  - **The honest limit:** a relative asking for money plus one more signal goes red. It's hard to tell from the "Hi Maa, new number" scam without the caller's history.
+- **The next line with Spark:** Spark finds signals sooner than keywords, often several in one turn (IS16: A3 and A6 at 16 s), so there's less gap to predict into. Some keyword "hits" came from keywords catching a step late (IS13: A2 at 16 s by keywords, at 0 s by Spark).
+  - These are short text scripts. The re-enactment recordings are the real measure. The playbook isn't changed on this.
