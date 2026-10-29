@@ -16,6 +16,8 @@ const UI = {
     check_ph: "e.g. He said he's from the CBI, there's an FIR on my Aadhaar, and I mustn't tell anyone…",
     check: "Check",
     checking_text: "Checking…",
+    example: "Try an example",
+    example_text: "He said he is calling from Mumbai Police. My Aadhaar was found in a money laundering case. He put me on a video call and said do not tell anyone.",
     family: "Tell family now",
     transcript: "What the caller is saying",
     signals: "Warning signs",
@@ -59,6 +61,8 @@ const UI = {
     check_ph: "जैसे: उसने कहा वह CBI से है, मेरे आधार पर FIR है, और किसी को नहीं बताना है…",
     check: "जाँचें",
     checking_text: "जाँच हो रही है…",
+    example: "उदाहरण देखें",
+    example_text: "उसने कहा वह मुंबई पुलिस से बोल रहा है। मेरा आधार मनी लॉन्ड्रिंग केस में मिला है। उसने वीडियो कॉल पर आने को कहा और बोला किसी को मत बताना।",
     family: "परिवार को अभी बताएँ",
     transcript: "कॉल करने वाला क्या कह रहा है",
     signals: "चेतावनी के संकेत",
@@ -102,6 +106,8 @@ const UI = {
     check_ph: "उदा. तो म्हणाला तो CBI मधून आहे, माझ्या आधारवर FIR आहे, आणि कोणालाही सांगायचं नाही…",
     check: "तपासा",
     checking_text: "तपासत आहे…",
+    example: "उदाहरण पाहा",
+    example_text: "तो म्हणाला तो मुंबई पोलिसांकडून बोलतोय. माझं आधार मनी लाँडरिंग केसमध्ये सापडलं आहे. त्याने व्हिडिओ कॉलवर यायला सांगितलं आणि म्हणाला कोणालाही सांगू नका.",
     family: "घरच्यांना आत्ता सांगा",
     transcript: "फोन करणारा काय बोलतोय",
     signals: "धोक्याची चिन्हे",
@@ -542,6 +548,7 @@ async function init() {
   $("#play").addEventListener("click", play);
   $("#live").addEventListener("click", listen);
   $("#check").addEventListener("click", checkSaid);
+  $("#example").addEventListener("click", () => { $("#said").value = t("example_text"); checkSaid(); });
   try {
     liveAvailable = (await fetch("/api/status").then((r) => r.json())).live;
   } catch (e) {}
