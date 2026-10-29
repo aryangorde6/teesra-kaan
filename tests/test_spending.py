@@ -143,3 +143,11 @@ def test_the_meter_command_records_and_reports(tmp_path, monkeypatch, capsys):
     assert "$150.00 of $150 credits left" in out and "paid calls:  allowed" in out
     main(["meter", "--credits-left", "149", "--balance-inr", "5"])
     assert "REFUSED" in capsys.readouterr().out
+
+
+def test_the_paid_switch_in_dotenv_is_seen_before_any_key_is_needed(monkeypatch):
+    """TEESRAKAAN_ALLOW_PAID=1 in .env must count; it used to be read only once the key was."""
+    from teesrakaan import config
+
+    monkeypatch.setattr(config, "load_dotenv", lambda path=None: monkeypatch.setenv("TEESRAKAAN_ALLOW_PAID", "1"))
+    assert config.paid_calls_allowed()

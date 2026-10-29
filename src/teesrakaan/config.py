@@ -37,6 +37,7 @@ def data_dir() -> Path:
 
 
 def paid_calls_allowed() -> bool:
+    load_dotenv()  # .env is where the switch lives, and it's read before any key is needed
     return env("TEESRAKAAN_ALLOW_PAID") == "1"
 
 
