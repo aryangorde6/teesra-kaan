@@ -1,13 +1,17 @@
 # Runbook: from credits to results
 
-Every command below runs from `teesra-kaan/` with the venv. Paid commands need `MODEL_API_KEY` in `.env` and `TEESRAKAAN_ALLOW_PAID=1`; all of them stop at $120 in total (`teesrakaan budget`).
+Every command below runs from `teesra-kaan/` with the venv. Paid commands need `MODEL_API_KEY` in `.env` and `TEESRAKAAN_ALLOW_PAID=1`. All of them stop at $100 in total, and only while Meta's own meter has been read recently ([spending.md](spending.md)). `teesrakaan budget` says whether paid calls are allowed, and why not.
 
-## 1. When the credits show on Billing (Oct 30)
+## 1. When the credits show on Billing (they did on Oct 29)
+Read dev.meta.ai → Billing and record what it shows, then make one tiny call:
 ```bash
+.venv/bin/teesrakaan meter --credits-left 150.00 --balance-inr 0 --source "Billing, <time>"
 .venv/bin/teesrakaan ping
 .venv/bin/teesrakaan budget
 ```
-Then check on dev.meta.ai → Billing that the cost came off the credits, not the card. Check the dashboard for a zero-data-retention setting before any donated call is sent (the API reference, read Oct 28, documents no retention setting in the request).
+Then read Billing again. The balance must still be ₹0, with the cost taken from the credits. Record the new reading. **After every $10 of spend, paid calls stop until Billing is read and recorded again.** That's how the code knows its own count matches Meta's.
+
+Check the dashboard for a zero-data-retention setting before any donated call is sent (the API reference, read Oct 28, documents no retention setting in the request). While the free credits are in use, Billing says content "may be used for product improvement", so donated calls stay local.
 
 Then one dev re-enactment through `teesrakaan transcribe` and look at the saved events:
 - **When do `speaker` events arrive?** Per the schema, a `speaker` event labels the text *since the previous* `speechStart` or `speaker` event, so it can come after the words. If it does, live listening should hold a turn's words until its label arrives (`live.py`), or the first words of a turn are credited to the wrong voice.

@@ -4,7 +4,7 @@ pytest.importorskip("fastapi")
 
 from fastapi.testclient import TestClient  # noqa: E402
 
-from teesrakaan.web.app import app, demo_events  # noqa: E402
+from teesrakaan.web.app import MAX_LIVE_SECONDS, app, demo_events  # noqa: E402
 
 client = TestClient(app)
 
@@ -86,6 +86,9 @@ def test_live_listening_end_to_end_with_a_fake_transcriber(monkeypatch, tmp_path
     monkeypatch.setenv("MODEL_API_KEY", "test-key")
     monkeypatch.setenv("TEESRAKAAN_LIVE_JUDGE", "keywords")
     monkeypatch.setenv("TEESRAKAAN_ASR_URL", f"ws://127.0.0.1:{port}")
+    from teesrakaan.budget import Ledger
+
+    Ledger("meta", 100.0).record_meter(150.0, 0.0, "test")
     try:
         with client.websocket_connect("/ws/live?lang=hi") as ws:
             assert ws.receive_json()["type"] == "start"
@@ -104,6 +107,8 @@ def test_live_listening_end_to_end_with_a_fake_transcriber(monkeypatch, tmp_path
     alarms = [e["warning"]["level"] for e in events if e["type"] == "alarm"]
     assert alarms and alarms[-1] == "red"
     assert "1930" in events[-1]["report_markdown"]
+    spent = Ledger("meta", 100.0).summary()  # the session's transcription is in the ledger, at its real length
+    assert spent.calls == 1 and spent.reserved_usd == 0 and 0 < spent.spent_usd < MAX_LIVE_SECONDS / 3600 * 0.18
 
 
 def test_live_switches_itself_off_when_the_budget_is_spent(monkeypatch):
@@ -112,8 +117,10 @@ def test_live_switches_itself_off_when_the_budget_is_spent(monkeypatch):
     monkeypatch.setenv("TEESRAKAAN_ALLOW_PAID", "1")
     monkeypatch.setenv("MODEL_API_KEY", "test-key")
     monkeypatch.setenv("TEESRAKAAN_BUDGET_META_USD", "5")
-    assert client.get("/api/status").json() == {"live": True}
     ledger = Ledger("meta", 5.0)
+    assert client.get("/api/status").json() == {"live": False}  # Meta's meter not read yet
+    ledger.record_meter(150.0, 0.0, "test")
+    assert client.get("/api/status").json() == {"live": True}
     ledger.settle(ledger.reserve("muse-spark-1.3", 4.5), 4.5)
     assert client.get("/api/status").json() == {"live": False}
 
@@ -149,7 +156,10 @@ def test_checking_a_recording_end_to_end(monkeypatch):
     monkeypatch.setenv("MODEL_API_KEY", "test-key")
     monkeypatch.setenv("TEESRAKAAN_LIVE_JUDGE", "keywords")
     monkeypatch.setattr(asr, "wav16k", lambda path: b"wav")
-    monkeypatch.setattr(asr, "transcribe_batch", lambda wav: {"turns": [
+    from teesrakaan.budget import Ledger
+
+    Ledger("meta", 100.0).record_meter(150.0, 0.0, "test")
+    monkeypatch.setattr(asr, "transcribe_batch", lambda wav, ledger=None: {"turns": [
         {"startMs": 0, "endMs": 1200, "transcript": "Haan ji?", "speaker": "A"},
         {"startMs": 1500, "endMs": 9000, "speaker": "B",
          "transcript": "Main TRAI se bol raha hoon. Aapka number do ghante mein band ho jayega. OTP bata dijiye."}]})

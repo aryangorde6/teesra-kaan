@@ -207,11 +207,28 @@ def cmd_ping(args: argparse.Namespace) -> None:
 
 
 def cmd_budget(args: argparse.Namespace) -> None:
-    from .budget import Ledger, meta_cap
+    import time
+
+    from .budget import META_CREDIT_USD, Ledger, meta_cap, paid_until
 
     s = Ledger("meta", meta_cap()).summary()
-    print(f"meta: ${s.spent_usd:.4f} spent, ${s.reserved_usd:.4f} reserved, ${s.remaining_usd:.2f} left "
-          f"of the ${s.cap_usd:.2f} stop, {s.calls} calls")
+    print(f"ledger:      ${s.spent_usd:.4f} spent, ${s.reserved_usd:.4f} reserved, {s.calls} calls")
+    if s.reading is None:
+        print("Meta's meter: never read (teesrakaan meter)")
+    else:
+        r = s.reading
+        print(f"Meta's meter: ${r.credits_left_usd:.2f} of ${META_CREDIT_USD:.0f} credits left, balance Rs "
+              f"{r.balance_inr:.2f}, read {(time.time() - r.ts) / 3600:.1f} h ago at ledger ${r.ledger_usd:.4f}")
+    print(f"counted:     ${s.counted_usd:.4f}, ${s.remaining_usd:.2f} left of the ${s.cap_usd:.2f} stop; "
+          f"paid calls end {paid_until():%Y-%m-%d %H:%M} UTC")
+    print(f"paid calls:  {'REFUSED: ' + s.refusal if s.refusal else 'allowed'}")
+
+
+def cmd_meter(args: argparse.Namespace) -> None:
+    from .budget import Ledger, meta_cap
+
+    Ledger("meta", meta_cap()).record_meter(args.credits_left, args.balance_inr, args.source, args.drift_ok)
+    cmd_budget(args)
 
 
 def cmd_serve(args: argparse.Namespace) -> None:
@@ -293,8 +310,15 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--scratch", default="runs/ping-cache", help="cache folder, so a ping is never served from cache")
     p.set_defaults(func=cmd_ping)
 
-    p = sub.add_parser("budget", help="what the Meta API has cost so far, against the $120 stop")
+    p = sub.add_parser("budget", help="what the Meta API has cost so far, against the $100 stop")
     p.set_defaults(func=cmd_budget)
+
+    p = sub.add_parser("meter", help="record Meta's own meter, as dev.meta.ai -> Billing shows it now")
+    p.add_argument("--credits-left", type=float, required=True, help='"Free credits in use", in USD')
+    p.add_argument("--balance-inr", type=float, required=True, help='"Current balance", in rupees')
+    p.add_argument("--source", default="", help="where the reading came from, e.g. a screenshot's time")
+    p.add_argument("--drift-ok", action="store_true", help="Meta's meter is ahead of the ledger and the cause is known")
+    p.set_defaults(func=cmd_meter)
 
     p = sub.add_parser("serve", help="run the listener page")
     p.add_argument("--host", default="127.0.0.1")

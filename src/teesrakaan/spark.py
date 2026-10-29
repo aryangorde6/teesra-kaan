@@ -1,4 +1,4 @@
-"""Muse Spark over the Meta Model API (Chat Completions), behind the $120 ledger and a response cache.
+"""Muse Spark over the Meta Model API (Chat Completions), behind the $100 ledger and a response cache.
 
 Every call reserves its worst case before it's sent and settles to the real cost.
 Nothing is retried automatically: a retry is a second billed call. A cached reply

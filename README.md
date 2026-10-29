@@ -82,7 +82,7 @@ uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -e '.[we
 .venv/bin/teesrakaan serve            # open http://127.0.0.1:8000 and play a demo call
 .venv/bin/python -m pytest            # 100+ tests, no network, no key
 ```
-Live listening and the Meta-model runs need `MODEL_API_KEY` in `.env` and `TEESRAKAAN_ALLOW_PAID=1`; every paid call goes through a ledger that stops at $120. The full sequence is in [docs/runbook.md](docs/runbook.md).
+Live listening and the Meta-model runs need `MODEL_API_KEY` in `.env` and `TEESRAKAAN_ALLOW_PAID=1`; every paid call goes through a ledger that stops at $100 of the $150 credits, and is refused unless Meta's own meter, read from the Billing page, agrees ([docs/spending.md](docs/spending.md)). The full sequence is in [docs/runbook.md](docs/runbook.md).
 
 The demo calls in `examples/calls/` are written scripts, not real calls; every name, number and ID in them is made up.
 
@@ -100,7 +100,7 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 | `src/teesrakaan/playbook.py` | The nine scam scripts as ordered steps, the next line they predict, and the rest of the script for a call checked afterwards |
 | `src/teesrakaan/listener.py` | Hears the call, asks the judge, checks quotes, keeps the alarm. The same code runs live and in the evaluation |
 | `src/teesrakaan/judge.py`, `keywords.py` | The Muse Spark prompt and parser; the keyword baseline |
-| `src/teesrakaan/spark.py`, `asr.py`, `budget.py` | Muse Spark and Muse Voice Transcribe clients, behind a $120 hard stop |
+| `src/teesrakaan/spark.py`, `asr.py`, `budget.py` | Muse Spark and Muse Voice Transcribe clients, behind a $100 hard stop checked against Meta's meter |
 | `src/teesrakaan/live.py`, `web/` | Live listening and the page |
 | `src/teesrakaan/simulate.py`, `metrics.py`, `labels.py` | Replays calls with real delays; Wilson 95% intervals; the labelling sheet and fixed splits |
 | `src/teesrakaan/report.py`, `messages.py` | The 1930 report and the warnings, in English, Hindi and Marathi |

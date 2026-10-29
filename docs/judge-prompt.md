@@ -25,7 +25,7 @@ It replies with JSON that lists only the "yes" answers, each with a quote:
 - **Zero data retention:** the speech-to-text docs (read Oct 28) give it the same price but no request parameter, so it's probably an account or key setting. Check the dashboard before the first donated call is sent; until it's confirmed on, donated calls stay local.
 - JSON-schema output with `SPARK_SCHEMA_V1`; `reasoning_effort` minimal or low, picked on dev by latency.
 - The system prompt and the question list form a fixed prefix, so cached input ($0.15/M instead of $1.25/M) should apply to most of each request. Check that the usage figures show it.
-- The $120 hard stop is enforced in code before every call.
+- The $100 hard stop is enforced in code before every call, and checked against Meta's own meter ([spending.md](spending.md)).
 
 ## Expected cost (offline estimate, keyword judge sized as Spark)
 `teesrakaan simulate` counts the tokens Spark would get for the same checks:
@@ -35,7 +35,7 @@ It replies with JSON that lists only the "yes" answers, each with a quote:
 | digital arrest (Hinglish) | 76 s | 14 | ~14,000 | ~$0.024 |
 | TRAI, press 9 (Marathi) | 33 s | 6 | ~5,800 | ~$0.010 |
 
-About $0.02 a minute before caching, rising on long calls because the transcript grows. For the evaluation (about 70 IN calls and 200 FTC calls, run once each for comparison C, B and three ablations) that's roughly $30–50, inside the $120 stop. Real numbers replace these after the first run.
+About $0.02 a minute before caching, rising on long calls because the transcript grows. For the evaluation (about 70 IN calls and 200 FTC calls, run once each for comparison C, B and three ablations) that's roughly $30–50, inside the $100 stop. Real numbers replace these after the first run.
 
 ## First checks on dev (not test)
 1. 5 dev calls: does every "yes" quote pass the check? Count rejected quotes.
@@ -43,7 +43,7 @@ About $0.02 a minute before caching, rising on long calls because the transcript
 3. The two hard negatives in `examples/calls/` must not go red.
 
 ## The clients (written Oct 28, tested against fakes, never called)
-- [`spark.py`](../src/teesrakaan/spark.py): Chat Completions to `https://api.meta.ai/v1`, JSON-schema output, no automatic retries, every call reserved and settled in the $120 ledger, replies cached on disk with their original latency, the contributor tier refused in code.
+- [`spark.py`](../src/teesrakaan/spark.py): Chat Completions to `https://api.meta.ai/v1`, JSON-schema output, no automatic retries, every call reserved and settled in the $100 ledger, replies cached on disk with their original latency, the contributor tier refused in code.
 - [`asr.py`](../src/teesrakaan/asr.py): the realtime WebSocket (`wss://api.meta.ai/v1/asr/realtime`, `muse-voice-transcribe-1.0`, `PCM_16KHZ`, `DIARIZATION`, cumulative partials, language bias Hindi/Marathi/English, keyword biasing). Audio is paced at real time in 100 ms frames; every event is saved with the second it arrived. A saved session becomes a call whose words carry both the time said (the server's audio clock) and the time heard (arrival), so replays keep the real transcription delay.
 - **Which voice is the caller:** speaker separation only says "A" and "B". The listener treats whoever has said the most so far as the caller, using only what's been heard up to that moment.
 - **Paid calls are off** unless `TEESRAKAAN_ALLOW_PAID=1`. First check on Oct 30: `teesrakaan ping`, then `teesrakaan budget`, then confirm on dev.meta.ai Billing that the cost came off the credits.

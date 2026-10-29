@@ -80,7 +80,8 @@ def test_spark_client_reserves_settles_and_caches(tmp_path, monkeypatch):
             "usage": {"prompt_tokens": 1000, "completion_tokens": 20, "prompt_tokens_details": {"cached_tokens": 800}},
         })
 
-    ledger = Ledger("meta", 120.0, tmp_path / "budget.sqlite")
+    ledger = Ledger("meta", 100.0, tmp_path / "budget.sqlite")
+    ledger.record_meter(150.0, 0.0, "test")
     http = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://api.meta.ai/v1")
     client = SparkClient(ledger=ledger, cache_dir=tmp_path / "cache", http=http)
     first = client("system", "user", SPARK_SCHEMA_V1)
@@ -92,18 +93,19 @@ def test_spark_client_reserves_settles_and_caches(tmp_path, monkeypatch):
 
 
 def test_paid_calls_are_off_unless_allowed(tmp_path):
-    client = SparkClient(ledger=Ledger("meta", 120.0, tmp_path / "b.sqlite"), cache_dir=tmp_path / "c",
+    client = SparkClient(ledger=Ledger("meta", 100.0, tmp_path / "b.sqlite"), cache_dir=tmp_path / "c",
                          http=httpx.Client(transport=httpx.MockTransport(lambda r: httpx.Response(500))))
     with pytest.raises(PaidCallsDisabled):
         client("s", "u", None)
 
 
-def test_the_meta_cap_never_goes_above_120(tmp_path, monkeypatch):
+def test_the_meta_cap_never_goes_above_100(tmp_path, monkeypatch):
     monkeypatch.setenv("TEESRAKAAN_ALLOW_PAID", "1")
     ledger = Ledger("meta", 500.0, tmp_path / "b.sqlite")
-    assert ledger.cap_usd == 120.0
+    assert ledger.cap_usd == 100.0
+    ledger.record_meter(150.0, 0.0, "test")
     with pytest.raises(BudgetExceeded):
-        ledger.reserve("muse-spark-1.3", 121.0)
+        ledger.reserve("muse-spark-1.3", 101.0)
 
 
 def test_contributor_tier_is_refused():
@@ -161,7 +163,8 @@ def test_batch_transcription_reserves_and_becomes_a_call(tmp_path, monkeypatch):
             {"turnId": 2, "startMs": 1800, "endMs": 6000, "speaker": "B",
              "transcript": "Main crime branch se bol raha hoon. Aapke naam pe FIR hai. Kisi ko mat batana."}]})
 
-    ledger = Ledger("meta", 120.0, tmp_path / "b.sqlite")
+    ledger = Ledger("meta", 100.0, tmp_path / "b.sqlite")
+    ledger.record_meter(150.0, 0.0, "test")
     wav = b"RIFF" + b"\0" * 40 + b"\0" * BYTES_PER_SECOND * 6
     data = transcribe_batch(wav, ledger=ledger, http=httpx.Client(transport=httpx.MockTransport(handler)))
     assert seen["auth"] == "Bearer test-key" and b'"mode": "DIARIZATION"' in seen["body"] and b"call.wav" in seen["body"]

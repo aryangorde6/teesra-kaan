@@ -8,8 +8,6 @@ SPARK_CACHED_INPUT_PER_M = 0.15
 SPARK_OUTPUT_PER_M = 4.25
 TRANSCRIBE_PER_HOUR = 0.18  # Muse Voice Transcribe, the same with zero data retention
 
-BUDGET_STOP_USD = 120.0  # hard stop, of the $150 credits
-
 
 def estimate_tokens(text: str) -> int:
     """Upper-side estimate: about 3 characters per token, plus a margin. Devanagari runs higher."""

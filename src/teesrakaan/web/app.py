@@ -2,7 +2,8 @@
 
 Demo calls replay a written call at the speed it was spoken. Live listening relays the
 browser's microphone to Muse Voice Transcribe and runs Muse Spark on what it hears; it's
-paid, so it's off unless TEESRAKAAN_ALLOW_PAID=1, and each session is capped in length.
+paid, so it's off unless TEESRAKAAN_ALLOW_PAID=1, each session is capped in length, and
+everything the page spends counts against its own $5 share of the ledger's $100 stop.
 """
 
 from __future__ import annotations
@@ -31,6 +32,7 @@ STATIC = Path(__file__).parent / "static"
 DEMO_CALLS = Path(os.environ.get("TEESRAKAAN_DEMO_CALLS", Path(__file__).resolve().parents[3] / "examples" / "calls"))
 MAX_LIVE_SECONDS = 6 * 60
 MAX_LIVE_SESSIONS = 3
+WEB_CAP_USD = 5.0  # what the page may spend, of the ledger's $100 stop
 _live_sessions = 0
 
 app = FastAPI(title="Teesra Kaan", docs_url=None, redoc_url=None)
@@ -129,14 +131,19 @@ def status() -> dict:
     return {"live": live_available()}
 
 
+def web_ledger():
+    """The ledger, with everything the page spends counted against its own share."""
+    from ..budget import Ledger, meta_cap
+
+    return Ledger("meta", meta_cap(), scope="web", scope_cap_usd=WEB_CAP_USD)
+
+
 def live_available() -> bool:
-    """Paid calls allowed, a key set, and more than $1 left under this server's stop."""
+    """Paid calls allowed, a key set, and a $1 call would pass every spending check (budget.py)."""
     config.load_dotenv()
     if not (config.paid_calls_allowed() and config.env("MODEL_API_KEY")):
         return False
-    from ..budget import Ledger, meta_cap
-
-    return Ledger("meta", meta_cap()).summary().remaining_usd > 1.0
+    return web_ledger().refusal(1.0) is None
 
 
 def live_judge():
@@ -145,7 +152,7 @@ def live_judge():
         return KeywordJudge()
     from ..spark import SparkClient
 
-    return SparkJudge(SparkClient())
+    return SparkJudge(SparkClient(ledger=web_ledger()))
 
 
 @app.get("/api/signals")
@@ -216,7 +223,7 @@ async def check_recording(request: Request) -> dict:
             f.write(body)
             f.flush()
             wav = wav16k(f.name)
-        call = batch_to_call(transcribe_batch(wav), "your-recording")
+        call = batch_to_call(transcribe_batch(wav, ledger=web_ledger()), "your-recording")
         return [{"t": t, **event} for t, event in demo_events(call, lang, Timing(), live_judge(), country)]
 
     try:
@@ -281,10 +288,23 @@ async def live(ws: WebSocket) -> None:
         await ws.send_json({"type": "error", "message": "Too many people are listening right now. Try a demo call."})
         await ws.close()
         return
+    from ..asr import MODEL as ASR_MODEL
+    from ..budget import BudgetExceeded, PaidCallsDisabled
+    from ..pricing import TRANSCRIBE_PER_HOUR
+
+    ledger = web_ledger()
+    try:  # the whole session's worst case, settled to its real length at the end
+        call_id = ledger.reserve(ASR_MODEL, MAX_LIVE_SECONDS / 3600 * TRANSCRIBE_PER_HOUR, note="live")
+    except (BudgetExceeded, PaidCallsDisabled):
+        await ws.send_json({"type": "error", "message": "Live listening is switched off on this server."})
+        await ws.close()
+        return
     _live_sessions += 1
+    settled = False
     from websockets.asyncio.client import connect
 
     loop = asyncio.get_running_loop()
+    opened = loop.time()
     call = LiveCall(live_judge(), lang, country=country)
     send_lock = asyncio.Lock()
 
@@ -335,6 +355,9 @@ async def live(ws: WebSocket) -> None:
             await asyncio.gather(audio_in(), events_out())
             if checking is not None:
                 await checking
+            seconds = min(loop.time() - opened, MAX_LIVE_SECONDS)
+            ledger.settle(call_id, seconds / 3600 * TRANSCRIBE_PER_HOUR, request_id=ack["sessionId"])
+            settled = True
             await send(await asyncio.to_thread(call.end, loop.time() - started))
             await ws.close()
     except WebSocketDisconnect:
@@ -346,4 +369,6 @@ async def live(ws: WebSocket) -> None:
         except Exception:
             pass
     finally:
+        if not settled:
+            ledger.mark_unknown(call_id)  # it may have been billed: keep the worst case as spent
         _live_sessions -= 1

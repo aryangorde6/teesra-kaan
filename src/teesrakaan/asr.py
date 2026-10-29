@@ -166,7 +166,7 @@ def session_to_call(session: Session | dict, call_id: str, **meta) -> Call:
 
 def transcribe_file(path: str | Path, ledger=None, **settings) -> Session:
     """One recording through the realtime API, paced at real time. Paid ($0.18 per hour), so it
-    goes through the same $120 ledger as Spark, and only when TEESRAKAAN_ALLOW_PAID=1."""
+    goes through the same $100 ledger as Spark, and only when TEESRAKAAN_ALLOW_PAID=1."""
     from . import config
     from .budget import Ledger, meta_cap
     from .pricing import TRANSCRIBE_PER_HOUR
@@ -237,7 +237,7 @@ def wav16k(path: str | Path) -> bytes:
 
 
 def transcribe_batch(wav: bytes, ledger=None, http=None, **settings) -> dict:
-    """One recorded call through the batch endpoint (no real-time pacing). Paid, through the $120 ledger."""
+    """One recorded call through the batch endpoint (no real-time pacing). Paid, through the $100 ledger."""
     import httpx
 
     from . import config

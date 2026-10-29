@@ -1,6 +1,6 @@
 # Evaluation rule
 
-Version 1.3.1, Oct 29, 2026, **before any result exists** (v1 was written the same afternoon; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
+Version 1.3.2, Oct 29, 2026, **before any result exists** (v1 was written the same afternoon; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
 
 ## The question
 When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally before the caller asks for money or secrets), **without** crying wolf on genuine calls, in Hindi, Marathi and English?
@@ -84,7 +84,7 @@ One command runs every set, comparison and ablation from the cached transcripts 
 - Re-enactments are labelled as re-enactments wherever they appear, including the video.
 - FTC calls are US English robocalls. They show the system works on real scam audio; they say nothing about Indian languages.
 - **Small sets get their intervals shown.** For example, 9 of 10 caught is reported as "9/10 (60–98%)", not "90%".
-- **Budget:** a hard stop in code at $120 of the $150 Meta credits.
+- **Budget:** a hard stop in code at $100 of the $150 Meta credits, checked against Meta's own meter ([spending.md](spending.md)).
 
 ## Changes
 - **v1.1, Oct 28, 2026 (evening), before any call was recorded, downloaded or run:**
@@ -99,3 +99,4 @@ One command runs every set, comparison and ablation from the cached transcripts 
 - **v1.3, Oct 28, 2026 (22:23 IST), before any prediction had been run on an evaluation call:** added metric 7, the next line. The scripts are the nine patterns of `scam-tactics.md`, in the order their "How the call goes" column gives. They were checked only on the three written demo calls in `examples/calls/`.
 - **v1.3.1, Oct 29, 2026 (01:21 IST), before any evaluation call had been run:** the naive guess of metric 7 written out exactly as `metrics.py` computes it (it had said "the signal most often still unsaid"). Nothing else changed.
 - **Oct 29, 2026, 01:40 IST:** the times of v1.3 and v1.3.1 corrected to their commit times (they had been written as 22:50 and 01:30). No rule changed.
+- **v1.3.2, Oct 29, 2026 (14:19 IST), before any paid call had been made:** the budget stop lowered from $120 to $100, so $50 of the credits is never touched and the card is never charged. Paid calls also need a recent reading of Meta's own meter. Nothing about the calls, labels, metrics or comparisons changed.
