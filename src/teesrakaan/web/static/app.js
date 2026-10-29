@@ -278,8 +278,9 @@ function addSignal(e) {
 function showNext(e) {
   // The caller's next line from the scam's script, shown before it's said; hidden while the scripts disagree.
   $("#next-now").hidden = !e.id;
+  // With no line to show and none ticked yet, hide the whole card rather than leave it empty.
+  $("#next").hidden = !e.id && !$("#next .came-true").children.length;
   if (!e.id) return;
-  $("#next").hidden = false;
   $("#next .next-label").textContent = e.label;
   $("#next .next-line").textContent = e.line;
 }

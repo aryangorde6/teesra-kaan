@@ -2,9 +2,9 @@
 
 **Put a suspicious call on speaker and open the page. Teesra Kaan listens in Hindi, Marathi or English, and the moment the caller starts a known scam it warns you in your language, quoting the caller's own words. Then it shows you the caller's next line before they say it, and ticks it off in their own words when they do. When the call ends, it hands you a ready report for 1930 and cybercrime.gov.in, or for ReportFraud.ftc.gov in the US. Alone with one phone? Type what the caller said, and it names the scam and shows what they'll ask for next, before you pay.**
 
-<img src="docs/demo.gif" width="300" align="right" alt="The page playing a demo 'digital arrest' call: the transcript, then a red warning in Hindi quoting the caller">
+<img src="docs/demo.gif" width="300" align="right" alt="The page playing a demo 'digital arrest' call: the next-line card names what the caller will say, ticks it off when he says it, and the red warning quotes him">
 
-*Right: the page playing a written demo call (4× speed, offline keyword stand-in for Muse Spark). It will be replaced by a real re-enacted call through Muse Voice Transcribe and Muse Spark.*
+*Right: the page playing a written demo call (4× speed, offline keyword stand-in for Muse Spark). The card names the caller's next line before he says it and ticks it off in his words, then the red warning quotes him. It will be replaced by a real re-enacted call through Muse Voice Transcribe and Muse Spark.*
 
 - **Live:** https://teesrakaan.aryangorde.com *(from Nov 2)*
 - **Video (3 min):** *(link on Nov 4)*
