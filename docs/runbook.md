@@ -9,7 +9,7 @@ Read dev.meta.ai → Billing and record what it shows, then make one tiny call:
 .venv/bin/teesrakaan ping
 .venv/bin/teesrakaan budget
 ```
-Then read Billing again. The balance must still be ₹0, with the cost taken from the credits. Record the new reading. **After every $10 of spend, paid calls stop until Billing is read and recorded again.** That's how the code knows its own count matches Meta's.
+Then read Billing again, an hour later (recent activity can take that long to appear). The balance must still be ₹0, with the cost taken from the credits. Record the new reading. **After every $10 of spend, paid calls stop until Billing is read and recorded again.** That's how the code knows its own count matches Meta's.
 
 Check the dashboard for a zero-data-retention setting before any donated call is sent (the API reference, read Oct 28, documents no retention setting in the request). While the free credits are in use, Billing says content "may be used for product improvement", so donated calls stay local.
 

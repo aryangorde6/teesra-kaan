@@ -22,7 +22,7 @@ Every paid call is refused while any of these holds:
 - The last reading is more than 24 hours old, or more than **$10** has been spent since it was taken.
 - Meta's meter showed more than $5 spent beyond our count. That means something outside the ledger is spending, such as another machine or a leaked key. Calls stay refused until the cause is found and the reading is recorded again with `--drift-ok`.
 
-Whichever count is higher, ours or Meta's plus what we've spent since, is the one held against the $100 stop. `teesrakaan budget` shows both counts, and whether paid calls are allowed and why.
+Whichever count is higher, ours or Meta's plus what we've spent since, is the one held against the $100 stop. Billing says recent activity can take up to an hour to appear, so ours is usually the higher one, and a drift check is most useful an hour after the last call. `teesrakaan budget` shows both counts, and whether paid calls are allowed and why.
 
 ## 3. Outside the ledger
 - **A date:** paid calls end on Nov 5 at 00:00 IST (`PAID_UNTIL`), before the credits' 10-day window can close. After it, any call would go to the card.
