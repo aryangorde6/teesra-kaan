@@ -1,6 +1,6 @@
 # Teesra Kaan — the third ear on a scam call
 
-**Put a suspicious call on speaker and open the page. Teesra Kaan listens in Hindi, Marathi or English, and the moment the caller starts a known scam it warns you in your language, quoting the caller's own words. Then it shows you the caller's next line before they say it, and ticks it off in their own words when they do. When the call ends, it hands you a ready report for 1930 and cybercrime.gov.in, or for ReportFraud.ftc.gov in the US.**
+**Put a suspicious call on speaker and open the page. Teesra Kaan listens in Hindi, Marathi or English, and the moment the caller starts a known scam it warns you in your language, quoting the caller's own words. Then it shows you the caller's next line before they say it, and ticks it off in their own words when they do. When the call ends, it hands you a ready report for 1930 and cybercrime.gov.in, or for ReportFraud.ftc.gov in the US. Alone with one phone? Type what the caller said, and it names the scam and shows what they'll ask for next, before you pay.**
 
 <img src="docs/demo.gif" width="300" align="right" alt="The page playing a demo 'digital arrest' call: the transcript, then a red warning in Hindi quoting the caller">
 
@@ -27,6 +27,11 @@ When the caller says it, the line is ticked: *"The caller just said it: “kisi 
 - **Fixed scripts make the prediction, not a model.** It predicts only when every script that fits the call so far names the same next step. After "police" and "FIR" alone, the call could be a digital arrest or a KYC call, so it waits.
 - **A line counts only if the caller says it after it was shown.** A line said earlier but recognised late doesn't count.
 - **It's measured, not just demonstrated.** The frozen test reports how often the shown lines came true, against a naive guess made at the same moments; how many seconds ahead they were; on how many scam calls one was shown; and how many were shown on genuine calls (metric 7 in [docs/evaluation-rule.md](docs/evaluation-rule.md)). FTC robocalls usually end at "press 1", before the ask, so few lines will come true there.
+
+## Three ways it helps
+- **During the call, on a second device.** A phone on a call keeps its own microphone: Android gives it to the call, and an ordinary app or browser gets silence ([Android docs](https://developer.android.com/media/platform/sharing-audio-input)). So the page listens from another phone, a tablet or a laptop next to the call on speaker, such as an old phone kept beside a parent's. If it hears only silence, it says so.
+- **After the call, on the same phone: check before you pay.** Type what the caller said, or say it with the keyboard's microphone. The page runs the same questions, quote check and rules, names the scam, and shows the rest of its script: *"What they'll do next in this scam: “Don't tell anyone. Don't hang up.” “Transfer the money for verification.”"*
+- **Tell family in one tap.** "Don't tell anyone" is the scam's weapon. Every warning has a button that opens WhatsApp (a text message in the US) with a message to family that quotes the caller.
 
 ## How it decides
 | Step | Meta model | What it does |
@@ -84,7 +89,7 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 ## Limits (honest)
 - The Indian test calls are re-enactments; the FTC calls are real but American and in English. Real donated calls are few. Each set is reported separately, with 95% intervals.
 - Speaker separation labels voices "A" and "B"; the caller is taken to be whoever has said the most so far, which can be wrong in the first seconds.
-- It needs the call on speaker, near the phone or laptop running the page. It doesn't intercept calls.
+- Live listening needs a second device near the call on speaker, because a phone on a call keeps its own microphone. It doesn't intercept calls. On one phone it can only check a call afterwards, from what you type.
 - A warning is advice, not a verdict. The genuine-call set measures how often it warns when it shouldn't.
 - The next line knows only the nine scripts. A new script, or one played in an unusual order, gets no prediction or a wrong one; the test counts both.
 
@@ -92,7 +97,7 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 | File | What it does |
 |---|---|
 | `src/teesrakaan/signals.py` | The 12 signal questions and the alarm rules |
-| `src/teesrakaan/playbook.py` | The nine scam scripts as ordered steps, and the next line they predict |
+| `src/teesrakaan/playbook.py` | The nine scam scripts as ordered steps, the next line they predict, and the rest of the script for a call checked afterwards |
 | `src/teesrakaan/listener.py` | Hears the call, asks the judge, checks quotes, keeps the alarm. The same code runs live and in the evaluation |
 | `src/teesrakaan/judge.py`, `keywords.py` | The Muse Spark prompt and parser; the keyword baseline |
 | `src/teesrakaan/spark.py`, `asr.py`, `budget.py` | Muse Spark and Muse Voice Transcribe clients, behind a $120 hard stop |
