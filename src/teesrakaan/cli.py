@@ -200,7 +200,7 @@ def cmd_ping(args: argparse.Namespace) -> None:
     """One tiny Spark call, to check the key and that the credits pay for it."""
     from .spark import SparkClient
 
-    done = SparkClient(max_output_tokens=16, reasoning_effort=None, cache_dir=Path(args.scratch))(
+    done = SparkClient(max_output_tokens=256, cache_dir=Path(args.scratch))(
         "Reply with the single word: ok", f"ping {date.today().isoformat()}", None
     )
     print(f"reply {done.text!r}, {done.input_tokens} in / {done.output_tokens} out tokens, {done.latency:.2f} s")

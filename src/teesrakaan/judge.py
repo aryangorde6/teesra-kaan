@@ -52,6 +52,21 @@ SPARK_SYSTEM_V1 = """You listen to a phone call in India alongside the person wh
 Reply with JSON only, listing only the questions answered "yes":
 {"yes": [{"id": "A1", "quote": "..."}]}"""
 
+# "Check before you pay": the text is the listener's own account, typed after the call, not the caller's words.
+# On Oct 30 the call prompt above answered no to everything on a first-person retelling ("a police officer
+# called me… they said I will be arrested"). The evaluation never uses this prompt; only the typed check does.
+SPARK_SYSTEM_TYPED_V1 = """Someone in India got a phone call and afterwards wrote down what the CALLER said and did, in their own words (for example "he said…", "they told me…", "a police officer called me"). You answer fixed questions about what the caller said or did, as this account reports it. You never decide whether the call is a scam; you only answer the questions.
+
+- Treat whatever the account says the caller said or did as the caller saying or doing it: "he said my Aadhaar was found in a case" means the caller said that.
+- The account may be in Hindi, Marathi, English or a mix, in Devanagari or Latin script.
+- A question is "yes" only if the account clearly reports it, directly or in other words. Whether the caller's claim is true doesn't matter.
+- For each "yes", copy the account's exact words that show it, at most 25 words, into "quote". Keep the original script and spelling; don't translate, correct or join words from different places.
+- If the account doesn't report it, leave the question out. Don't guess what came next.
+- A caller saying they will NOT ask for something (for example "we never ask for your OTP") is not asking for it.
+
+Reply with JSON only, listing only the questions answered "yes":
+{"yes": [{"id": "A1", "quote": "..."}]}"""
+
 SPARK_SCHEMA_V1 = {
     "type": "object",
     "properties": {

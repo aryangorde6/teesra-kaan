@@ -57,3 +57,14 @@ Every change to the signals, rules, keyword lists or the Spark prompt, with the 
   - Nothing narrower: IS24's "don't keep any family member in the room" is one script's wording, so it's left out.
 - **What it says about the feature:** in these short written scripts the lines come true only seconds ahead (median 2 s). The caller often says the next step in the very next breath, before the judge's answer is back, and a line said before it's shown doesn't count. The demo call's 24 s and 11 s came from a longer call with the listener talking in between. Don't promise a lead time on screen until the test run gives one.
 - **FTC:** 0 of 9 came true, as the rule expected: robocalls stop at "press 1".
+
+## Oct 30, 2026, 01:14 IST: first Muse Spark calls (written demo calls and typed examples only, no evaluation call)
+- **Key and spending:** one ping, then $0.14 in all through the ledger (58 calls). Meta's meter last read Oct 29 at $150.00 of credits and ₹0.
+- **Reasoning eats the output limit.** With `reasoning_effort: low` and `max_tokens: 400`, Spark 1.3 spent about 398 tokens reasoning and returned an empty reply on 13 of 14 checks of the digital-arrest demo call. `none` is refused (the accepted values are minimal, low, medium, high, xhigh, max). With `minimal` it reasoned 144–361 tokens and still cut off 2 of 4 replies at 400. **Now `minimal` with `max_tokens: 1024`.** That gave 0 cut-off replies on all three demo calls (29 checks, longest reply 598 tokens), a median of about 2.1 s and a p90 of 2.7–3.3 s. Each check costs about $0.002.
+- **Demo calls with Spark:**
+  - digital arrest: red, with A1 A2 A9 A3 A4 A8 A6, every quote in the caller's words;
+  - Marathi TRAI: red;
+  - genuine bank alert: amber (A1, A2), not red.
+- **Typed retellings ("check before you pay").** The call prompt answered no to every question on a first-person retelling of the Rajkot case: "A Mumbai Police officer called me… They said I will be arrested, and told me not to tell my family". It reads the text as the listener talking. The typed check now has its own prompt, `SPARK_SYSTEM_TYPED_V1`, which treats the account as a report of what the caller said. The evaluation's prompt is unchanged.
+  - With it, the Rajkot reconstruction goes red (A1, A8, A2, A4), matches digital arrest, and shows **"Transfer the money for verification."** as the next step. The page's en/hi/mr examples give the same result.
+  - This prompt was written after seeing the Rajkot text fail, and checked on it and the three examples only.

@@ -216,3 +216,20 @@ def test_live_call_loses_no_word_while_the_judge_runs():
     worker.join()
     call.check(2.0)
     assert call.listener.transcript.n_words == 3000
+
+
+def test_a_typed_retelling_is_judged_as_one_with_spark():
+    """Spark reads typed text as the listener's account; the evaluation's call prompt stays as it was."""
+    from teesrakaan.judge import SPARK_SYSTEM_TYPED_V1, SPARK_SYSTEM_V1, Completion, SparkJudge
+    from teesrakaan.web.app import check_said
+
+    systems = []
+
+    def complete(system, user, schema):
+        systems.append(system)
+        return Completion('{"yes": [{"id": "A1", "quote": "Mumbai Police officer called me"}]}', 900, 40, 1.0)
+
+    judge = SparkJudge(complete)
+    out = check_said("A Mumbai Police officer called me on WhatsApp.", "en", "IN", judge)
+    assert systems == [SPARK_SYSTEM_TYPED_V1] and judge.system == SPARK_SYSTEM_V1
+    assert out["judge"] == "Muse Spark" and [s["id"] for s in out["signals"]] == ["A1"]

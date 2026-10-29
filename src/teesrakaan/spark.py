@@ -36,8 +36,11 @@ class SparkClient:
     def __init__(
         self,
         model: str = MODEL,
-        reasoning_effort: str | None = "low",
-        max_output_tokens: int = 400,
+        # Spark 1.3 reasons before it answers, and the reasoning counts against max_tokens: on dev (Oct 30)
+        # "low" used ~400 tokens and 13 of 14 replies came back empty at 400. "minimal" (the lowest it
+        # accepts) used 144-361, so the limit leaves room for the JSON after it (docs/dev-log.md).
+        reasoning_effort: str | None = "minimal",
+        max_output_tokens: int = 1024,
         ledger: Ledger | None = None,
         cache_dir: Path | None = None,
         http: httpx.Client | None = None,

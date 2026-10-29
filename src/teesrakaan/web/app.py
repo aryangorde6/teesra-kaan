@@ -9,6 +9,7 @@ everything the page spends counts against its own $5 share of the ledger's $100 
 from __future__ import annotations
 
 import asyncio
+import dataclasses
 import json
 import os
 from pathlib import Path
@@ -19,7 +20,7 @@ from fastapi.staticfiles import StaticFiles
 
 from .. import config
 from ..asr import REALTIME_URL, handshake
-from ..judge import SparkJudge
+from ..judge import SPARK_SYSTEM_TYPED_V1, SparkJudge
 from ..keywords import KeywordJudge
 from ..live import LiveCall
 from ..messages import COUNTRIES, LANGS, SIGNAL_NAME, prediction_events, script_ahead, warning
@@ -240,6 +241,8 @@ def check_said(text: str, lang: str = "en", country: str = "IN", judge=None) -> 
     rules, plus the scam it matches and the rest of its script. It runs on the phone that had the call,
     which live listening can't, so it can be checked before anyone pays."""
     judge = judge or KeywordJudge()
+    if isinstance(judge, SparkJudge):  # a retelling, not the caller's own words
+        judge = dataclasses.replace(judge, system=SPARK_SYSTEM_TYPED_V1)
     call = Call("what-the-caller-said", (Turn(CALLER, 0.0, max(len(text.split()) / 2.5, 1.0), text),), set="typed")
     listener = simulate(call, judge, Timing(check_every=float("inf"))).listener  # one question round, at the end
     found = sorted(listener.found.values(), key=lambda f: f.said_at)
