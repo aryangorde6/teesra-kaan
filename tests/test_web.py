@@ -320,3 +320,25 @@ def test_the_page_is_revalidated_so_returning_visitors_get_the_current_files():
     r = client.get("/")
     assert r.status_code == 200 and r.headers["cache-control"] == "no-cache"
     assert "/static/app.js?v=" in r.text and "/static/style.css?v=" in r.text
+
+
+def test_every_package_the_code_imports_is_declared():
+    # The server installs only what pyproject declares; on Oct 30 the demos crashed there for want of httpx.
+    import ast
+    import sys
+    import tomllib
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parents[1]
+    project = tomllib.loads((root / "pyproject.toml").read_text())["project"]
+    declared = {spec.split(">")[0].split("=")[0].split("[")[0].strip().lower()
+                for spec in project["dependencies"] + [d for extra in project["optional-dependencies"].values() for d in extra]}
+    imported = set()
+    for path in (root / "src" / "teesrakaan").rglob("*.py"):
+        for node in ast.walk(ast.parse(path.read_text())):
+            if isinstance(node, ast.Import):
+                imported |= {alias.name.split(".")[0] for alias in node.names}
+            elif isinstance(node, ast.ImportFrom) and node.level == 0 and node.module:
+                imported.add(node.module.split(".")[0])
+    third_party = imported - set(sys.stdlib_module_names) - {"teesrakaan", "__future__"}
+    assert third_party <= declared, f"imported but not in pyproject.toml: {sorted(third_party - declared)}"
