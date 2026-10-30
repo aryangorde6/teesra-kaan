@@ -162,6 +162,27 @@ const UI = {
   },
 };
 const SPEECH_LANG = { en: "en-IN", hi: "hi-IN", mr: "mr-IN" };
+// The demo calls' names in the menu, and what they're spoken in. A call not listed (a recorded re-enactment) shows its id.
+const CALL_NAME = {
+  "demo-digital-arrest": { en: "Digital arrest", hi: "डिजिटल अरेस्ट", mr: "डिजिटल अरेस्ट" },
+  "demo-trai-marathi": { en: "Your number will be cut off (TRAI)", hi: "आपका नंबर बंद होगा (TRAI)", mr: "तुमचा नंबर बंद होईल (TRAI)" },
+  "demo-bank-alert-genuine": { en: "A genuine bank alert", hi: "असली बैंक अलर्ट", mr: "खरा बँक अलर्ट" },
+};
+const CALL_LANG = {
+  "hi+en": { en: "Hindi and English", hi: "हिंदी और अंग्रेज़ी", mr: "हिंदी आणि इंग्रजी" },
+  hi: { en: "Hindi", hi: "हिंदी", mr: "हिंदी" },
+  mr: { en: "Marathi", hi: "मराठी", mr: "मराठी" },
+  en: { en: "English", hi: "अंग्रेज़ी", mr: "इंग्रजी" },
+};
+let demoCalls = [];
+function labelCalls() {
+  document.querySelectorAll("#call option").forEach((o) => {
+    const c = demoCalls.find((x) => x.id === o.value);
+    const name = (CALL_NAME[c.id] || {})[lang] || c.id.replace(/^demo-/, "");
+    const spoken = (CALL_LANG[c.language] || {})[lang] || c.language;
+    o.textContent = `${name} · ${spoken} · ${clock(c.duration)}`;
+  });
+}
 // Where the warning and the report send you. A US time zone starts in the US; anywhere else, India.
 const US_ZONE = /^(America\/(New_York|Detroit|Chicago|Denver|Boise|Phoenix|Los_Angeles|Anchorage|Juneau|Sitka|Metlakatla|Yakutat|Nome|Adak|Menominee|Indiana\/.+|Kentucky\/.+|North_Dakota\/.+)|Pacific\/Honolulu|US\/.+)$/;
 const HELPLINE = {
@@ -236,6 +257,7 @@ function setLang(next) {
   });
   document.querySelectorAll("[data-tp]").forEach((el) => { el.placeholder = UI[next][el.dataset.tp]; });
   renderQuestions();
+  labelCalls();
 }
 
 function setCountry(next) {
@@ -642,12 +664,13 @@ async function init() {
   renderQuestions();
   const calls = await fetch("/api/calls").then((r) => r.json());
   const select = $("#call");
+  demoCalls = calls;
   calls.forEach((c) => {
     const o = document.createElement("option");
     o.value = c.id;
-    o.textContent = `${c.id.replace(/^demo-/, "")} · ${c.language} · ${clock(c.duration)}`;
     select.appendChild(o);
   });
+  labelCalls();
   $("#play").addEventListener("click", play);
   // The hero plays the digital-arrest call: the one where the next line comes true.
   const hero = calls.find((c) => c.id === "demo-digital-arrest") || calls[0];

@@ -147,7 +147,8 @@ def demo_events(call: Call, lang: str, timing: Timing = Timing(), judge=None,
 
 @app.get("/")
 def index() -> FileResponse:
-    return FileResponse(STATIC / "index.html")
+    # Revalidated on every visit (cheap, by ETag), so its versioned CSS and JS links are always the current ones.
+    return FileResponse(STATIC / "index.html", headers={"Cache-Control": "no-cache"})
 
 
 @app.get("/healthz")

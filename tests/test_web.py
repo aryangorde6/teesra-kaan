@@ -314,3 +314,9 @@ def test_the_page_plays_only_lines_recorded_for_todays_words():
     assert r.status_code == 200 and r.headers["content-type"] == "audio/mp4"
     assert client.get("/voice/W-red-IN-mr.json").status_code == 404  # the words file isn't served
     assert client.get("/voice/..%2Fsecret.m4a").status_code == 404
+
+
+def test_the_page_is_revalidated_so_returning_visitors_get_the_current_files():
+    r = client.get("/")
+    assert r.status_code == 200 and r.headers["cache-control"] == "no-cache"
+    assert "/static/app.js?v=" in r.text and "/static/style.css?v=" in r.text
