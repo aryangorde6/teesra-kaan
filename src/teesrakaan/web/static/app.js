@@ -183,8 +183,8 @@ function labelCalls() {
     o.textContent = `${name} · ${spoken} · ${clock(c.duration)}`;
   });
 }
-// Where the warning and the report send you. A US time zone starts in the US; anywhere else, India.
-const US_ZONE = /^(America\/(New_York|Detroit|Chicago|Denver|Boise|Phoenix|Los_Angeles|Anchorage|Juneau|Sitka|Metlakatla|Yakutat|Nome|Adak|Menominee|Indiana\/.+|Kentucky\/.+|North_Dakota\/.+)|Pacific\/Honolulu|US\/.+)$/;
+// Where the warning and the report send you. It starts on India everywhere: the demo calls are Indian calls, and a judge
+// abroad should see what the person on them would (1930, not the FTC). "Where you are" switches it, and is remembered.
 const HELPLINE = {
   IN: { href: "tel:1930", text: "call1930", report: "report" },
   US: { href: "https://reportfraud.ftc.gov/", text: "call_us", report: "report_us" },
@@ -215,10 +215,13 @@ class Pcm16 extends AudioWorkletProcessor {
 }
 registerProcessor("pcm16", Pcm16);`;
 
-let lang = "hi";
+let zone = "";
+try { zone = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+// Hindi in India, who the page is for; elsewhere (a judge abroad, say) English, unless the browser asks for Hindi or Marathi.
+let lang = /^Asia\/(Kolkata|Calcutta)$/.test(zone) ? "hi" : "en";
+try { lang = navigator.languages.map((l) => l.slice(0, 2).toLowerCase()).find((l) => l === "hi" || l === "mr") || lang; } catch (e) {}
 try { lang = localStorage.getItem("tk-lang") || lang; } catch (e) {}
 let country = "IN";
-try { country = US_ZONE.test(Intl.DateTimeFormat().resolvedOptions().timeZone || "") ? "US" : "IN"; } catch (e) {}
 try { country = localStorage.getItem("tk-country") || country; } catch (e) {}
 if (!HELPLINE[country]) country = "IN";
 let socket = null;
