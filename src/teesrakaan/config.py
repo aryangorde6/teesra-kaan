@@ -36,6 +36,12 @@ def data_dir() -> Path:
     return path
 
 
+def voice_dir() -> Path:
+    """The recorded warning lines the page plays (`teesrakaan studio`). Audio stays out of git;
+    deploy/push.sh copies them to the server."""
+    return Path(env("TEESRAKAAN_VOICE") or REPO_ROOT / "voice")
+
+
 def paid_calls_allowed() -> bool:
     load_dotenv()  # .env is where the switch lives, and it's read before any key is needed
     return env("TEESRAKAAN_ALLOW_PAID") == "1"

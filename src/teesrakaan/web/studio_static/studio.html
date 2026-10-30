@@ -14,7 +14,7 @@
     <header class="top">
       <div>
         <h1><span class="deva">तीसरा कान</span> · Studio</h1>
-        <p class="muted">Record each re-enactment, then mark its times by listening. Only on this laptop; nothing here is sent anywhere.</p>
+        <p class="muted">Record each re-enactment, then mark its times by listening; and record the warning lines the page speaks. Only on this laptop; nothing here is sent anywhere.</p>
       </div>
       <p id="progress" class="progress"></p>
     </header>
@@ -23,6 +23,7 @@
       <div class="filters" role="radiogroup" aria-label="Split">
         <button role="radio" data-split="dev" aria-checked="true">Dev</button>
         <button role="radio" data-split="test" aria-checked="false">Test</button>
+        <button role="radio" data-split="voice" aria-checked="false">Warnings</button>
       </div>
       <ol id="cards"></ol>
     </nav>
@@ -82,6 +83,41 @@
         <span class="label-status small" role="status"></span>
       </div>
       <p class="muted small">Keys: <kbd>Space</kbd> play or pause · <kbd>←</kbd> <kbd>→</kbd> half a second · <kbd>T</kbd> mark t0 · <kbd>A</kbd> mark the ask.</p>
+    </section>
+  </template>
+
+  <template id="voice-tpl">
+    <section class="panel script">
+      <h2 class="title"></h2>
+      <ol class="lines"></ol>
+      <p class="muted small">The page plays this the moment it warns, in place of the browser's voice. Say it calmly, clearly and firmly, as you would to someone in your family on that call, not shouting. Leave a second of quiet before and after: the silence is trimmed and the level evened out for you.</p>
+      <p class="muted small">Record a line only after its words have passed the native-speaker check. If the words change later, the page stops playing this take until it's recorded again.</p>
+    </section>
+
+    <section class="panel record">
+      <h3>Record</h3>
+      <div class="consent">
+        <label>Voice (initials) <input class="voices" placeholder="AG" autocomplete="off"></label>
+        <label class="check"><input type="checkbox" class="consent-box"> This is my own voice, and I agree to its use</label>
+        <label class="check"><input type="checkbox" class="publish-box"> It may be played on the public page and in the video</label>
+      </div>
+      <div class="rec-row">
+        <button class="rec-btn">Start recording</button>
+        <span class="timer">0:00</span>
+        <span class="meter" aria-hidden="true"><span></span></span>
+      </div>
+      <div class="take" hidden>
+        <audio class="take-audio" controls></audio>
+        <div class="row">
+          <button class="save-take primary">Save this take</button>
+          <button class="discard">Discard</button>
+        </div>
+      </div>
+      <div class="saved" hidden>
+        <p class="small">Saved, as the page plays it:</p>
+        <audio class="saved-audio" controls preload="auto"></audio>
+      </div>
+      <p class="rec-status small" role="status"></p>
     </section>
   </template>
 

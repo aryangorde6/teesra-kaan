@@ -1,5 +1,8 @@
 import csv
 import io
+import json
+import math
+import struct
 import wave
 
 import pytest
@@ -8,8 +11,10 @@ pytest.importorskip("fastapi")
 
 from fastapi.testclient import TestClient  # noqa: E402
 
+from teesrakaan import voice  # noqa: E402
 from teesrakaan.labels import read_labels  # noqa: E402
-from teesrakaan.web.studio import app, labels_path, recordings_dir  # noqa: E402
+from teesrakaan.messages import voice_lines  # noqa: E402
+from teesrakaan.web.studio import _seconds, app, labels_path, recordings_dir  # noqa: E402
 
 client = TestClient(app, client=("127.0.0.1", 50000))
 CONSENT = "?voices=AG,PG&consent=1"
@@ -25,6 +30,19 @@ def wav(seconds: float = 3.0, rate: int = 16000) -> bytes:
     return buf.getvalue()
 
 
+def tone(seconds: float, quiet: float = 1.0, rate: int = 16000) -> bytes:
+    """A 440 Hz tone with `quiet` seconds of silence before and after, like a line said into the mic."""
+    pad = b"\x00\x00" * int(quiet * rate)
+    sound = b"".join(struct.pack("<h", int(8000 * math.sin(2 * math.pi * 440 * i / rate))) for i in range(int(seconds * rate)))
+    buf = io.BytesIO()
+    with wave.open(buf, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(rate)
+        w.writeframes(pad + sound + pad)
+    return buf.getvalue()
+
+
 def test_only_this_laptop_can_open_it():
     outside = TestClient(app, client=("192.168.1.20", 50000))
     assert outside.get("/").status_code == 403
@@ -35,9 +53,9 @@ def test_only_this_laptop_can_open_it():
 
 def test_cards_come_dev_first_from_the_fixed_split():
     cards = client.get("/api/cards").json()
-    assert len(cards) == 70
+    assert len(cards) == 79
     splits = [c["split"] for c in cards]
-    assert splits == ["dev"] * 28 + ["test"] * 42
+    assert splits == ["dev"] * 28 + ["test"] * 42 + ["voice"] * 9  # then the warning lines
     is04 = next(c for c in cards if c["id"] == "IS04")
     assert is04["is_scam"] and is04["pattern"] == 2 and is04["lines"] and not is04["recorded"]
 
@@ -94,3 +112,50 @@ def test_a_genuine_call_gets_no_times():
     assert client.post("/api/label/IG03", json={"t0": 1, "labeller": "AG"}).status_code == 400
     row = client.post("/api/label/IG03", json={"labeller": "AG"}).json()
     assert (row["is_scam"], row["t0"], row["t_ask"]) == ("0", "", "")
+
+
+LINE = "?voices=AG&consent=1&publish=1"
+
+
+def test_a_warning_line_needs_consent_and_the_ok_to_publish():
+    assert client.post("/api/voice/W-red-IN-hi?voices=AG&consent=1", content=tone(2)).status_code == 400
+    assert client.post("/api/voice/W-red-IN-hi?voices=AG&publish=1", content=tone(2)).status_code == 400
+    assert client.post(f"/api/voice/W-nope{LINE}", content=tone(2)).status_code == 404
+    assert not voice.audio_path("W-red-IN-hi").exists()
+
+
+def test_a_warning_line_is_trimmed_saved_for_the_page_and_a_retake_keeps_the_old_one():
+    r = client.post(f"/api/voice/W-red-IN-hi{LINE}", content=tone(2.0, quiet=1.5))
+    assert r.status_code == 200
+    assert 2.0 <= r.json()["seconds"] <= 2.7  # 1.5 s of quiet each side trimmed to under half a second in all
+    assert _seconds(recordings_dir() / "voice" / "W-red-IN-hi.wav") == 5.0  # the untouched take, kept privately
+    saved = json.loads(voice.meta_path("W-red-IN-hi").read_text(encoding="utf-8"))
+    assert saved["lines"] == voice_lines()["W-red-IN-hi"]["lines"]
+    assert list(voice.playable()) == ["W-red-IN-hi"]
+    assert client.get("/api/voice/W-red-IN-hi").status_code == 200
+    card = next(c for c in client.get("/api/cards").json() if c["id"] == "W-red-IN-hi")
+    assert card["recorded"] and not card["stale"] and card["language"] == "hi"
+    assert client.post(f"/api/voice/W-red-IN-hi{LINE}", content=tone(2)).status_code == 409
+    assert client.post(f"/api/voice/W-red-IN-hi{LINE}&replace=1", content=tone(3)).status_code == 200
+    assert len(list((recordings_dir() / "replaced").glob("W-red-IN-hi-*.m4a"))) == 1
+    assert not list((recordings_dir() / "incoming").iterdir())
+    with open(recordings_dir() / "voices.csv", newline="") as f:
+        assert [(row["call_id"], row["publish_ok"]) for row in csv.DictReader(f)] == [("W-red-IN-hi", "1")] * 2
+
+
+def test_a_silent_warning_line_is_refused():
+    assert client.post(f"/api/voice/W-amber-mr{LINE}", content=wav(3.0)).status_code == 400  # nothing but a hum
+    assert client.post(f"/api/voice/W-amber-mr{LINE}", content=b"not audio").status_code == 400
+    assert not voice.audio_path("W-amber-mr").exists()
+    assert not list((recordings_dir() / "incoming").iterdir())
+
+
+def test_a_line_whose_words_changed_is_stale_until_recorded_again(monkeypatch):
+    client.post(f"/api/voice/W-amber-en{LINE}", content=tone(2))
+    old = voice_lines()
+    changed = {**old, "W-amber-en": {**old["W-amber-en"], "lines": ["Careful", "New advice."]}}
+    monkeypatch.setattr("teesrakaan.voice.voice_lines", lambda: changed)
+    monkeypatch.setattr("teesrakaan.web.studio.voice_lines", lambda: changed)
+    assert voice.playable() == {}
+    card = next(c for c in client.get("/api/cards").json() if c["id"] == "W-amber-en")
+    assert card["stale"] and not card["recorded"]

@@ -18,7 +18,7 @@ from fastapi import FastAPI, HTTPException, Request, WebSocket, WebSocketDisconn
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from .. import config
+from .. import config, voice
 from ..asr import REALTIME_URL, handshake
 from ..judge import FREEFORM_SYSTEM_TYPED_V1, SPARK_SYSTEM_TYPED_V1, CheckedJudge, FreeFormJudge, SparkJudge
 from ..keywords import KeywordJudge
@@ -157,6 +157,21 @@ def healthz() -> dict:
 @app.get("/api/status")
 def status() -> dict:
     return {"live": live_available()}
+
+
+@app.get("/api/voice")
+def voice_lines() -> dict[str, str]:
+    """The warning lines recorded in the studio for today's words; the page uses the browser's voice for the rest."""
+    return voice.playable()
+
+
+@app.get("/voice/{name}")
+def voice_file(name: str) -> FileResponse:
+    folder = config.voice_dir().resolve()
+    path = (folder / name).resolve()
+    if path.parent != folder or path.suffix != ".m4a" or not path.is_file():
+        raise HTTPException(404)
+    return FileResponse(path, media_type="audio/mp4")
 
 
 def web_ledger():

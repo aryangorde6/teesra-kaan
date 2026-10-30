@@ -104,7 +104,7 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 | `src/teesrakaan/judge.py`, `keywords.py` | The Muse Spark prompt and parser; the keyword baseline |
 | `src/teesrakaan/spark.py`, `asr.py`, `budget.py` | Muse Spark and Muse Voice Transcribe clients, behind a $100 hard stop checked against Meta's meter |
 | `src/teesrakaan/live.py`, `web/` | Live listening and the page |
-| `src/teesrakaan/web/studio.py` | The recording studio (this laptop only): records each re-enactment the way the page hears a call, and saves its labels, made by listening before any output is seen |
+| `src/teesrakaan/web/studio.py`, `voice.py` | The recording studio (this laptop only): records each re-enactment the way the page hears a call, and saves its labels, made by listening before any output is seen. It also records the spoken warnings, which the page plays in place of the browser's voice |
 | `src/teesrakaan/simulate.py`, `metrics.py`, `labels.py` | Replays calls with real delays; Wilson 95% intervals; the labelling sheet and fixed splits |
 | `src/teesrakaan/report.py`, `messages.py` | The 1930 report and the warnings, in English, Hindi and Marathi |
 | `eval/` | Re-enactment scripts, their split, FTC dev labels |

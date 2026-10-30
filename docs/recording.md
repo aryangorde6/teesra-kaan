@@ -1,6 +1,6 @@
 # Recording the re-enactments
 
-Version 1.1, Oct 30, 2026 (the studio). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
+Version 1.2, Oct 30, 2026 (the studio; v1.2 adds the warning lines to it). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
 
 ## Who records what
 - **Scripts:** [`eval/scripts/in-scam.json`](../eval/scripts/in-scam.json) (40) and [`in-genuine.json`](../eval/scripts/in-genuine.json) (30). The dev/test split is fixed in [`eval/scripts/split.csv`](../eval/scripts/split.csv) (28 dev, 42 test).
@@ -24,6 +24,7 @@ Version 1.1, Oct 30, 2026 (the studio). How the IN-scam and IN-genuine calls are
 - **Label:** click the waveform or play the take, then *Mark here* (or press <kbd>T</kbd>) at the first word of the first scam move, and again (<kbd>A</kbd>) at the first word of the ask. Nudge by half a second, then *Save label*. The row goes to `data/labels-in.csv`, rounded to half seconds and checked with the same rules as `teesrakaan labels`. Set, split, pattern and languages come from the script, never typed.
 - It never transcribes or judges a call, so a label is always made before the system's output on that call has been seen, and test recordings aren't sent anywhere before the freeze.
 - It opens only on this laptop (127.0.0.1) and isn't part of the hosted page.
+- **Warnings** (the third tab): the spoken warning lines the page plays, one card each. See "Also recorded by Aryan" below.
 
 Audacity or a phone's voice recorder still work: save the file as below and fill the sheet by hand ([labelling.md](labelling.md)).
 
@@ -47,5 +48,8 @@ Audacity or a phone's voice recorder still work: save the file as below and fill
 Recordings without the second tick stay private, like donated calls.
 
 ## Also recorded by Aryan (Fri Oct 30)
-- **The warning lines** in Hindi, Marathi and English (`HEADLINE`, `ACTION` and the fact lines in [`src/teesrakaan/messages.py`](../src/teesrakaan/messages.py)), after a native speaker has checked the wording. These play aloud when the screen turns amber or red.
+- **The warning lines,** in the studio's *Warnings* tab: what the page says aloud the moment the screen turns amber or red, the headline then what to do (`HEADLINE` and `ACTION` in [`src/teesrakaan/messages.py`](../src/teesrakaan/messages.py)). Nine lines: red and amber in Hindi, Marathi and English for India first, then red for the US page. Record them only after a native speaker has checked the wording.
+  - Say each one calmly, clearly and firmly, as you would to someone in your family on that call. Leave a second of quiet before and after: the studio trims the silence, evens out the level, and saves `voice/<ID>.m4a`, which plays on every phone. The untouched take is kept privately in `data/recordings/voice/`.
+  - The page plays a line only while its words match what it was recorded for. If the words change, it uses the browser's voice for that line until it's recorded again; the studio marks it "words changed".
+  - `voice/` stays out of git; `deploy/push.sh` copies it to the server. It's your own voice on a public page, so the studio asks for both ticks.
 - **Two or three video-only calls,** separate from the test set, for the demo video (shot 6 of the shot list). The written demo calls in `examples/calls/` are ready for this.

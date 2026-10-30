@@ -58,6 +58,25 @@ def action(level: Level, lang: str, country: str = "IN") -> str:
     return ACTION[level][lang]
 
 
+def voice_id(level: str, lang: str, country: str = "IN") -> str:
+    """The spoken warning's id: `W-red-IN-hi`, or `W-amber-hi`, since amber says the same everywhere.
+    app.js builds the same id."""
+    return f"W-red-{country}-{lang}" if level == "red" else f"W-amber-{lang}"
+
+
+def voice_lines() -> dict[str, dict]:
+    """The spoken warnings, one recording each: the headline, then what to do now. India's come first."""
+    out = {}
+    for country, level in (("IN", Level.RED), ("IN", Level.AMBER), ("US", Level.RED)):
+        for lang in LANGS:
+            name = level.name.lower()
+            out[voice_id(name, lang, country)] = {
+                "level": name, "country": country, "language": lang,
+                "lines": [HEADLINE[level][lang], action(level, lang, country)],
+            }
+    return out
+
+
 CALLER_SAID = {"en": "The caller said:", "hi": "कॉल करने वाले ने कहा:", "mr": "फोन करणाऱ्याने सांगितले:"}
 
 SIGNAL_NAME = {

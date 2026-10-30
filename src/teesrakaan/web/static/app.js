@@ -205,6 +205,8 @@ let state = null;
 let mic = null;
 let player = null;
 let liveAvailable = false;
+let voiceLines = {}; // recorded warning line → its version (/api/voice)
+const voice = new Audio();
 
 function t(key) { return UI[lang][key]; }
 
@@ -256,6 +258,8 @@ function clock(s) {
 
 function reset() {
   if (state) { clearInterval(state.timer); state.pending.forEach(clearTimeout); }
+  voice.pause();
+  if ("speechSynthesis" in window) speechSynthesis.cancel();
   $("#transcript").innerHTML = "";
   $("#signals").innerHTML = "";
   $("#alert").hidden = true;
@@ -359,14 +363,38 @@ function cameTrue(e) {
   if (navigator.vibrate) navigator.vibrate(150);
 }
 
-function speak(text) {
+// The warning, said aloud: the line recorded in the studio, or the browser's own voice until it's recorded.
+function speak(w) {
+  const id = w.level === "red" ? `W-red-${country}-${lang}` : `W-amber-${lang}`; // messages.voice_id
+  if ("speechSynthesis" in window) speechSynthesis.cancel();
+  if (!voiceLines[id]) { sayInBrowser(w); return; }
+  voice.src = `/voice/${id}.m4a?v=${voiceLines[id]}`;
+  voice.muted = false;
+  if (player) player.volume = 0.3; // the call steps back while the third ear speaks
+  voice.play().catch(() => { unduck(); sayInBrowser(w); });
+}
+
+function sayInBrowser(w) {
   if (!("speechSynthesis" in window)) return;
-  // Placeholder until the recorded warning lines exist: the browser's own voice.
-  const u = new SpeechSynthesisUtterance(text);
+  const u = new SpeechSynthesisUtterance(`${w.headline}. ${w.action}`);
   u.lang = lang === "en" && country === "US" ? "en-US" : SPEECH_LANG[lang];
-  speechSynthesis.cancel();
   speechSynthesis.speak(u);
 }
+
+function unduck() { if (player) player.volume = 1; }
+voice.addEventListener("ended", unduck);
+voice.addEventListener("error", unduck);
+
+// Phones let a page play a sound later only from an element first played on a tap: this one, muted, on the first tap.
+function primeVoice() {
+  const id = Object.keys(voiceLines)[0];
+  if (!id || voice.dataset.primed) return;
+  voice.dataset.primed = "1";
+  voice.muted = true;
+  voice.src = `/voice/${id}.m4a?v=${voiceLines[id]}`;
+  voice.play().then(() => voice.pause(), () => {}).finally(() => { if (voice.paused) voice.muted = false; });
+}
+document.addEventListener("click", primeVoice, true);
 
 function showAlarm(e) {
   const w = e.warning;
@@ -398,7 +426,7 @@ function showAlarm(e) {
   updateWaiting(); // first, or the "listening" card vanishing above it shifts the warning under the bar mid-scroll
   box.scrollIntoView({ behavior: "smooth", block: "start" });
   if (navigator.vibrate) navigator.vibrate(w.level === "red" ? [300, 120, 300] : 200);
-  speak(`${w.headline}. ${w.action}`);
+  speak(w);
 }
 
 function mark(at, color, label) {
@@ -634,6 +662,9 @@ async function init() {
   $("#example").addEventListener("click", () => { $("#said").value = t("example_text"); checkSaid(); });
   try {
     liveAvailable = (await fetch("/api/status").then((r) => r.json())).live;
+  } catch (e) {}
+  try {
+    voiceLines = await fetch("/api/voice").then((r) => r.json());
   } catch (e) {}
   // With live listening on, it leads and the demo steps back; on the public page, the demo leads.
   $("#live").hidden = !liveAvailable;

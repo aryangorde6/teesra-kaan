@@ -1,4 +1,5 @@
 """The recording studio: record the re-enactments and label them by listening, on the laptop that hears the call.
+It also records the spoken warning lines the page plays.
 
 Local only. `teesrakaan studio` serves it on 127.0.0.1, it refuses any other client, and the
 hosted page never mounts it. It shows each script card, records the room the way the live page
@@ -13,20 +14,28 @@ from __future__ import annotations
 import csv
 import datetime as dt
 import io
+import json
+import shutil
 import subprocess
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, PlainTextResponse
 
-from .. import config
+from .. import config, voice
 from ..labels import COLUMNS, read_labels
+from ..messages import voice_lines
 from ..scripts import load_scripts, load_split
 
 STATIC = Path(__file__).parent / "studio_static"
 SCRIPTS = config.REPO_ROOT / "eval" / "scripts"
 MAX_RECORDING_BYTES = 60 * 1024 * 1024
 MAX_SECONDS = 10 * 60  # the batch endpoint's limit, and far longer than any card
+MAX_LINE_SECONDS = 30
+# A warning line starts at once and is as loud as any other: silence trimmed at both ends, then levelled.
+TRIM_AND_LEVEL = ("silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.15,areverse,"
+                  "silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.3,areverse,"
+                  "loudnorm=I=-16:TP=-1.5:LRA=11")
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 LOOPBACK = {"127.0.0.1", "::1"}
 VOICES = ("call_id", "voices", "consent", "publish_ok", "recorded_at", "seconds")
@@ -102,7 +111,8 @@ def static(name: str) -> FileResponse:
 
 @app.get("/api/cards")
 def list_cards() -> list[dict]:
-    """Dev cards first, as they're recorded first; each with whether it's recorded and labelled yet."""
+    """Dev cards first, as they're recorded first; each with whether it's recorded and labelled yet. Then the
+    warning lines, as cards of their own ("stale": recorded, but for words that have changed since)."""
     labels = _labels()
     out = []
     for card in sorted(cards().values(), key=lambda c: (c["split"] != "dev", c["id"])):
@@ -111,6 +121,14 @@ def list_cards() -> list[dict]:
             "pattern": card.get("pattern", 0), "kind": card.get("kind", ""), "roles": card.get("roles"),
             "lines": card["lines"], "is_scam": card["set"] == "IN-scam",
             "recorded": recording(card).exists(), "label": labels.get(card["id"]),
+        })
+    for line_id, line in voice_lines().items():
+        words = voice.recorded_words(line_id)
+        out.append({
+            "id": line_id, "set": "warning", "split": "voice", "language": line["language"], "kind": "warning",
+            "level": line["level"], "country": line["country"], "is_scam": False, "label": None,
+            "lines": [["headline", line["lines"][0], ""], ["then", line["lines"][1], ""]],
+            "recorded": words == line["lines"], "stale": words is not None and words != line["lines"],
         })
     return out
 
@@ -162,6 +180,75 @@ def get_recording(card_id: str) -> FileResponse:
     if not path.exists():
         raise HTTPException(404, f"{card_id} isn't recorded yet.")
     return FileResponse(path, media_type="audio/wav")
+
+
+def _line(line_id: str) -> dict:
+    line = voice_lines().get(line_id)
+    if line is None:
+        raise HTTPException(404, f"No warning line {line_id}.")
+    return line
+
+
+@app.post("/api/voice/{line_id}")
+async def save_voice(line_id: str, request: Request) -> dict:
+    """A spoken warning line → `<id>.m4a` for the page, trimmed and levelled, in AAC so every phone plays it. The
+    untouched take is kept as `recordings/voice/<id>.wav`. Everyone who opens the page hears it, so it needs the
+    voice's consent and their OK to publish. An earlier take is moved to `recordings/replaced/`, never deleted."""
+    line = _line(line_id)
+    q = request.query_params
+    voices = q.get("voices", "").strip()
+    if q.get("consent") != "1" or q.get("publish") != "1" or not voices:
+        raise HTTPException(400, "A warning line is played on the public page and in the video: tick both boxes.")
+    body = await request.body()
+    if not body or len(body) > MAX_RECORDING_BYTES:
+        raise HTTPException(413, "Send one recording, up to 60 MB.")
+    audio, meta = voice.audio_path(line_id), voice.meta_path(line_id)
+    raw = recordings_dir() / "voice" / f"{line_id}.wav"
+    if audio.exists() and q.get("replace") != "1":
+        raise HTTPException(409, f"{line_id} is already recorded. Record it again only to replace that take.")
+    incoming = recordings_dir() / "incoming"
+    incoming.mkdir(parents=True, exist_ok=True)
+    tmp_raw, tmp_audio = incoming / f"{line_id}.wav", incoming / f"{line_id}.m4a"
+    try:
+        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", "pipe:0", "-ac", "1", "-ar", "48000",
+                        "-c:a", "pcm_s16le", "-map_metadata", "-1", str(tmp_raw)],
+                       input=body, check=True, capture_output=True)
+        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", str(tmp_raw), "-af", TRIM_AND_LEVEL,
+                        "-ar", "48000", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(tmp_audio)],
+                       check=True, capture_output=True)
+        seconds = _seconds(tmp_audio)
+    except (subprocess.CalledProcessError, ValueError) as exc:
+        tmp_raw.unlink(missing_ok=True)
+        tmp_audio.unlink(missing_ok=True)
+        raise HTTPException(400, "That recording couldn't be read, or it was silent. Check the microphone and try again.") from exc
+    if not 1 <= seconds <= MAX_LINE_SECONDS:
+        tmp_raw.unlink(missing_ok=True)
+        tmp_audio.unlink(missing_ok=True)
+        raise HTTPException(400, "A warning line must be between 1 and 30 seconds once its silence is trimmed.")
+    if audio.exists():
+        meta.unlink(missing_ok=True)  # first: from here the page can't play a half-replaced line
+        stamp = f"{dt.datetime.now(IST):%Y%m%d-%H%M%S}"
+        old = recordings_dir() / "replaced"
+        old.mkdir(parents=True, exist_ok=True)
+        shutil.move(audio, old / f"{line_id}-{stamp}.m4a")
+        if raw.exists():
+            raw.rename(old / f"{line_id}-{stamp}.wav")
+    raw.parent.mkdir(parents=True, exist_ok=True)
+    audio.parent.mkdir(parents=True, exist_ok=True)
+    tmp_raw.rename(raw)
+    shutil.move(tmp_audio, audio)  # the voice folder may be on another disk than data/
+    meta.write_text(json.dumps({"lines": line["lines"], "voices": voices, "recorded_at": _now(), "seconds": seconds},
+                               ensure_ascii=False, indent=1), encoding="utf-8")
+    _log_voices(line_id, voices, True, seconds)
+    return {"id": line_id, "path": str(audio), "seconds": seconds}
+
+
+@app.get("/api/voice/{line_id}")
+def get_voice(line_id: str) -> FileResponse:
+    _line(line_id)
+    if not voice.audio_path(line_id).exists():
+        raise HTTPException(404, f"{line_id} isn't recorded yet.")
+    return FileResponse(voice.audio_path(line_id), media_type="audio/mp4")
 
 
 def _log_voices(card_id: str, voices: str, publish_ok: bool, seconds: float) -> None:

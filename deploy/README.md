@@ -10,7 +10,7 @@ Target: `https://teesrakaan.aryangorde.com`, one small server paid from the AWS 
 5. **DNS (Hostinger → aryangorde.com → DNS zone):** add an **A record**, name `teesrakaan`, value the Elastic IP, TTL 300. Leave `@` and `www` alone (the portfolio).
 6. **On the server:** `scp deploy/setup-server.sh ubuntu@<ip>:` then `ssh ubuntu@<ip> bash setup-server.sh`.
 7. **No API key on the server.** The public page plays the demo calls and the "Try an example" checks with Muse Spark's real replies, saved in `examples/spark-replies/`, so it needs no key and can't spend anything. Live listening and "check a call you recorded" say they're switched off there. Typed checks of other text use the keyword stand-in. Paid calls end on Nov 5, 00:00 IST in any case, before judging, so a key on the server would stop working mid-judging. The live features are shown in the video, run from the laptop.
-8. **From the laptop, in `teesra-kaan/`:** `deploy/push.sh ubuntu@<ip>`. Open `https://teesrakaan.aryangorde.com` from a phone.
+8. **From the laptop, in `teesra-kaan/`:** `deploy/push.sh ubuntu@<ip>`. Open `https://teesrakaan.aryangorde.com` from a phone. It also copies `voice/`, the warning lines recorded in the studio, which aren't in git; push again after recording more.
 
 ## Cost (from the credits)
 - t4g.small: about $0.017 an hour, about $12 a month;

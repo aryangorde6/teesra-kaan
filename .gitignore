@@ -12,6 +12,9 @@ runs/
 *.sqlite
 *.sqlite-journal
 
+# The spoken warning lines (teesrakaan studio): the page plays them and deploy/push.sh copies them, but they stay out of git
+voice/
+
 # Audio stays out of git unless it is a re-enactment we recorded and chose to publish
 *.wav
 *.mp3

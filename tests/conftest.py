@@ -19,5 +19,6 @@ def no_api_key(monkeypatch, tmp_path):
     for name in ("MODEL_API_KEY", "TEESRAKAAN_ALLOW_PAID", "TEESRAKAAN_BUDGET_META_USD", "TEESRAKAAN_ASR_URL"):
         monkeypatch.delenv(name, raising=False)
     monkeypatch.setenv("TEESRAKAAN_DATA", str(tmp_path / "data"))
+    monkeypatch.setenv("TEESRAKAAN_VOICE", str(tmp_path / "voice"))
     # A real .env (key, paid calls on) must never leak into a test.
     monkeypatch.setattr("teesrakaan.config.load_dotenv", lambda path=None: None)

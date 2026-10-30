@@ -109,3 +109,17 @@ def test_every_script_has_a_name_and_its_rest_reads_in_every_language():
         assert not unsure["steps"] and unsure["note"] and SCRIPT_NAME["kyc"][lang] in unsure["matches"]
         assert script_ahead(None, lang)["note"] and not script_ahead(None, lang)["matches"]
         assert script_ahead(ahead({"A1", "A2", "A8", "A4", "A6"}), lang)["note"] != unsure["note"]
+
+
+def test_every_warning_the_page_can_show_has_a_line_to_record():
+    from teesrakaan.messages import COUNTRIES, LANGS, voice_id, voice_lines
+
+    lines = voice_lines()
+    assert len(lines) == 9
+    for level in ("red", "amber"):
+        for lang in LANGS:
+            for country in COUNTRIES:
+                line = lines[voice_id(level, lang, country)]
+                assert line["level"] == level and line["language"] == lang
+                assert all(line["lines"])
+    assert list(lines)[:6] == ["W-red-IN-en", "W-red-IN-hi", "W-red-IN-mr", "W-amber-en", "W-amber-hi", "W-amber-mr"]

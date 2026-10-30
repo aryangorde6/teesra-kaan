@@ -1,3 +1,5 @@
+import json
+
 import pytest
 
 pytest.importorskip("fastapi")
@@ -296,3 +298,19 @@ def test_try_an_example_replays_muse_spark_without_a_key():
         assert out["judge"] == "Muse Spark" and out["warning"]["level"] == "red", lang
     out = client.post("/api/said?lang=en", json={"text": "He said he is from the CBI and I must not tell anyone."}).json()
     assert out["judge"] == "keyword stand-in (no model)"  # no saved reply for other text
+
+
+def test_the_page_plays_only_lines_recorded_for_todays_words():
+    from teesrakaan import config, voice
+    from teesrakaan.messages import voice_lines
+
+    assert client.get("/api/voice").json() == {}
+    config.voice_dir().mkdir(parents=True)
+    for line_id, words in (("W-red-IN-mr", voice_lines()["W-red-IN-mr"]["lines"]), ("W-amber-hi", ["old words"])):
+        voice.audio_path(line_id).write_bytes(b"m4a")
+        voice.meta_path(line_id).write_text(json.dumps({"lines": words}), encoding="utf-8")
+    assert list(client.get("/api/voice").json()) == ["W-red-IN-mr"]
+    r = client.get("/voice/W-red-IN-mr.m4a")
+    assert r.status_code == 200 and r.headers["content-type"] == "audio/mp4"
+    assert client.get("/voice/W-red-IN-mr.json").status_code == 404  # the words file isn't served
+    assert client.get("/voice/..%2Fsecret.m4a").status_code == 404

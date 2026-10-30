@@ -82,6 +82,8 @@ button:disabled { opacity: 0.5; cursor: default; }
 .lines .who { display: block; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
 .lines .caller .who { color: var(--caller); }
 .lines .how { font-style: italic; color: var(--muted); font-size: 0.9rem; }
+.lines .headline .text { font-weight: 600; }
+.saved { margin-top: 8px; }
 
 .steps { margin: 0 0 12px; padding-left: 20px; }
 .consent { display: grid; gap: 6px; margin-bottom: 12px; }

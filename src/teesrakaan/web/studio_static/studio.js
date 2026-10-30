@@ -1,4 +1,5 @@
 // The recording studio: one card at a time, recorded the way the live page hears a call, then labelled by listening.
+// The warning lines the page speaks are cards too, under "Warnings": recorded, never labelled.
 "use strict";
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -34,7 +35,8 @@ function progress() {
     const of = cards.filter((c) => c.split === s);
     return `${s}: ${of.filter((c) => c.recorded).length}/${of.length} recorded, ${of.filter((c) => c.label).length} labelled`;
   };
-  $("#progress").textContent = `${part("dev")} · ${part("test")}`;
+  const lines = cards.filter((c) => c.split === "voice");
+  $("#progress").textContent = `${part("dev")} · ${part("test")} · warnings: ${lines.filter((c) => c.recorded).length}/${lines.length} recorded`;
 }
 
 function renderList() {
@@ -50,7 +52,8 @@ function renderList() {
     name.textContent = `${c.id} · ${c.language}`;
     const state = document.createElement("span");
     state.className = "state";
-    state.innerHTML = c.label ? '<span class="done">labelled</span>' : c.recorded ? "recorded" : "to record";
+    if (c.kind === "warning") state.innerHTML = c.recorded ? '<span class="done">recorded</span>' : c.stale ? "words changed" : "to record";
+    else state.innerHTML = c.label ? '<span class="done">labelled</span>' : c.recorded ? "recorded" : "to record";
     b.append(name, state);
     b.addEventListener("click", () => show(c.id));
     li.append(b);
@@ -66,6 +69,9 @@ function setSplit(s) {
 
 document.querySelectorAll(".filters button").forEach((b) => b.addEventListener("click", () => setSplit(b.dataset.split)));
 
+const LANGUAGE = { en: "English", hi: "Hindi", mr: "Marathi" };
+const again = (c) => c.recorded || c.stale; // a take is saved, so recording replaces it
+
 function show(id) {
   if (recorder) return; // never leave a card mid-recording
   current = cards.find((c) => c.id === id);
@@ -73,20 +79,13 @@ function show(id) {
   history.replaceState(null, "", "#" + id);
   take = null;
   const view = $("#card");
-  view.replaceChildren($("#card-tpl").content.cloneNode(true));
   const c = current;
+  if (c.kind === "warning") { showLine(c, view); return; }
+  view.replaceChildren($("#card-tpl").content.cloneNode(true));
   const what = c.is_scam ? `scam, pattern ${c.pattern}` : `genuine${c.kind ? ", " + c.kind : ""}`;
   $(".title", view).textContent = `${c.id} · ${c.split} · ${c.language} · ${what}`;
   $(".roles", view).textContent = c.roles ? `Caller: ${c.roles.caller}. Listener: ${c.roles.listener}.` : "";
-  $(".lines", view).replaceChildren(...c.lines.map(([who, text, how]) => {
-    const li = document.createElement("li");
-    li.className = who;
-    li.innerHTML = `<span class="who"></span><span class="text deva"></span>`;
-    $(".who", li).textContent = who + (how ? " · " : "");
-    if (how) { const h = document.createElement("span"); h.className = "how"; h.textContent = how; $(".who", li).append(h); }
-    $(".text", li).textContent = text;
-    return li;
-  }));
+  renderLines(c, view);
   $(".voices", view).value = store.get("voices") || "";
   $(".labeller", view).value = store.get("labeller") || "";
   $(".rec-btn", view).addEventListener("click", toggleRecording);
@@ -101,6 +100,39 @@ function show(id) {
   renderList();
 }
 
+// A warning line: the words, the recorder, and the saved take as the page will play it.
+function showLine(c, view) {
+  view.replaceChildren($("#voice-tpl").content.cloneNode(true));
+  const where = c.country === "US" ? " · for the US page" : "";
+  $(".title", view).textContent = `${c.id} · ${LANGUAGE[c.language]} · ${c.level === "red" ? "red warning" : "amber warning"}${where}`;
+  renderLines(c, view);
+  $(".voices", view).value = store.get("line-voice") || "";
+  $(".rec-btn", view).addEventListener("click", toggleRecording);
+  $(".save-take", view).addEventListener("click", saveTake);
+  $(".discard", view).addEventListener("click", discardTake);
+  if (again(c)) {
+    $(".rec-btn", view).textContent = "Record again (replaces this take)";
+    $(".saved", view).hidden = false;
+    $(".saved-audio", view).src = `/api/voice/${c.id}?t=${Date.now()}`;
+    $(".rec-status", view).textContent = c.recorded
+      ? "Recorded. The page plays this take."
+      : "Recorded for words that have changed since, so the page doesn't play it. Record it again.";
+  }
+  renderList();
+}
+
+function renderLines(c, view) {
+  $(".lines", view).replaceChildren(...c.lines.map(([who, text, how]) => {
+    const li = document.createElement("li");
+    li.className = who;
+    li.innerHTML = `<span class="who"></span><span class="text deva"></span>`;
+    $(".who", li).textContent = who + (how ? " · " : "");
+    if (how) { const h = document.createElement("span"); h.className = "how"; h.textContent = how; $(".who", li).append(h); }
+    $(".text", li).textContent = text;
+    return li;
+  }));
+}
+
 // --- Recording ---------------------------------------------------------------
 
 async function toggleRecording() {
@@ -108,8 +140,9 @@ async function toggleRecording() {
   const status = $(".rec-status", view);
   status.classList.remove("err");
   if (recorder) { recorder.stop(); return; }
-  if (!$(".consent-box", view).checked || !$(".voices", view).value.trim()) {
-    status.textContent = "Add the voices' initials and tick the consent box first.";
+  const line = current.kind === "warning";
+  if (!$(".consent-box", view).checked || !$(".voices", view).value.trim() || (line && !$(".publish-box", view).checked)) {
+    status.textContent = line ? "Add your initials and tick both boxes first." : "Add the voices' initials and tick the consent box first.";
     status.classList.add("err");
     return;
   }
@@ -149,7 +182,7 @@ async function toggleRecording() {
     ctx.close();
     recorder = null;
     btn.classList.remove("on");
-    btn.textContent = current.recorded ? "Record again (replaces this take)" : "Start recording";
+    btn.textContent = again(current) ? "Record again (replaces this take)" : "Start recording";
     $(".meter span", view).style.width = "0";
     take = new Blob(chunks, { type: rec.mimeType });
     $(".take-audio", view).src = URL.createObjectURL(take);
@@ -161,29 +194,34 @@ async function toggleRecording() {
   btn.classList.add("on");
   btn.textContent = "Stop";
   $(".take", view).hidden = true;
-  status.textContent = "Recording. Dial now.";
+  status.textContent = line ? "Recording. Say the line, then press Stop." : "Recording. Dial now.";
 }
 
 async function saveTake() {
   const view = $("#card");
   const status = $(".rec-status", view);
   if (!take) return;
-  if (current.recorded && !confirm(`Replace the saved take of ${current.id}? The old one is kept in recordings/replaced/, and its label is cleared.`)) return;
+  const line = current.kind === "warning";
+  const old = line ? "The old one is kept in recordings/replaced/." : "The old one is kept in recordings/replaced/, and its label is cleared.";
+  if (again(current) && !confirm(`Replace the saved take of ${current.id}? ${old}`)) return;
   const voices = $(".voices", view).value.trim();
-  store.set("voices", voices);
+  store.set(line ? "line-voice" : "voices", voices); // a line has one voice, not a call's cast
   const q = new URLSearchParams({ voices, consent: $(".consent-box", view).checked ? "1" : "0",
-    publish: $(".publish-box", view).checked ? "1" : "0", replace: current.recorded ? "1" : "0" });
+    publish: $(".publish-box", view).checked ? "1" : "0", replace: again(current) ? "1" : "0" });
   $(".save-take", view).disabled = true;
-  status.textContent = "Saving…";
+  status.textContent = line ? "Trimming and levelling…" : "Saving…";
   try {
-    const r = await fetch(`/api/recording/${current.id}?${q}`, { method: "POST", body: take });
+    const r = await fetch(`/api/${line ? "voice" : "recording"}/${current.id}?${q}`, { method: "POST", body: take });
     const body = await r.json();
     if (!r.ok) throw new Error(body.detail || r.statusText);
     current.recorded = true;
+    current.stale = false;
     current.label = null;
     take = null;
     show(current.id);
-    $(".rec-status").textContent = `Saved ${body.path} (${fmt(body.seconds)}). Now mark its times below.`;
+    $(".rec-status").textContent = line
+      ? `Saved (${fmt(body.seconds)} once trimmed). The page plays it from now on; listen to it above.`
+      : `Saved ${body.path} (${fmt(body.seconds)}). Now mark its times below.`;
   } catch (e) {
     status.textContent = e.message;
     status.classList.add("err");
