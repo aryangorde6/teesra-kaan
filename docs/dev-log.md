@@ -85,3 +85,15 @@ Dev only. These are the same inputs as the keyword runs: the 28 dev scripts (tex
   - **The honest limit:** a relative asking for money plus one more signal goes red. It's hard to tell from the "Hi Maa, new number" scam without the caller's history.
 - **The next line with Spark:** Spark finds signals sooner than keywords, often several in one turn (IS16: A3 and A6 at 16 s), so there's less gap to predict into. Some keyword "hits" came from keywords catching a step late (IS13: A2 at 16 s by keywords, at 0 s by Spark).
   - These are short text scripts. The re-enactment recordings are the real measure. The playbook isn't changed on this.
+
+## Oct 30, 2026, 09:06 IST: first Muse Voice Transcribe session, and who said what
+One FTC dev robocall (`ftc-0081c9355a`, 34 s) streamed through `teesrakaan transcribe` at real time: 56 events, no close-code errors, so the pacing is right.
+- **Words arrive about 0.3 s behind the audio** (each partial's `received` against its `audioProcessedMs`).
+- **The `speaker` label comes at the end of each turn,** together with `speechEnd`, after all of that turn's words. The runbook asked to check exactly this.
+- **That was a bug in live listening.** `live.py` gave stable words to the Listener as partials came in, under the default label "A", before the label existed. On a speakerphone call, the person being called could have their own words ("should I transfer the money?") read and quoted as the caller's. The evaluation hid it, because `session_to_call` applied each turn's label in hindsight.
+- **Fixed, the same way in both places:**
+  - Live listening now waits for a word's label before the Listener sees it. Until then the page shows the words as grey partial text.
+  - The evaluation counts a word as heard only when its label arrived, so the reported times include this wait.
+  - A label in the middle of a turn splits it.
+  - Two new tests cover this. The live one fails on the old code.
+- **The cost:** the judge sees a turn when it ends, not every 6 s within it. For long robocall monologues that delays a warning by up to one turn. Conversations have shorter turns. The FTC dev transcripts measure it.

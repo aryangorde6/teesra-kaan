@@ -218,6 +218,30 @@ def test_live_call_loses_no_word_while_the_judge_runs():
     assert call.listener.transcript.n_words == 3000
 
 
+
+def test_live_words_wait_for_their_speaker():
+    """On speaker, your own "should I transfer the money?" must never be quoted as the caller's."""
+    from teesrakaan.keywords import KeywordJudge
+    from teesrakaan.live import LiveCall
+
+    call = LiveCall(KeywordJudge(), min_new_words=1, check_every=0)
+    scammer = "Main CBI se bol raha hoon. Aapke naam pe FIR darj hai. Kisi ko mat batana."
+    out = []
+    for tid, label, text in [(0, "A", scammer), (1, "B", "Kya main paise transfer karun?"), (2, "A", scammer)]:
+        call.on_event({"type": "speechStart", "turnId": tid})
+        for _ in range(2):  # the same partial twice: the old code took its words as stable, under "A"
+            shown = call.on_event({"type": "transcript", "transcript": text, "audioProcessedMs": 1000 * tid + 500})
+        assert not [e for e in shown if e["type"] == "word"] and shown[-1]["text"] == text
+        assert not call.pending
+        out += call.on_event({"type": "speaker", "label": label, "audioProcessedMs": 1000 * tid + 900})
+        call.on_event({"type": "speechComplete", "turnId": tid, "transcript": text})
+        out += call.check(float(tid + 1))
+    lines = call.listener.transcript.lines
+    assert [line.speaker for line in lines] == ["A", "B", "A"]
+    quotes = " ".join(e["quote"] for e in out if e["type"] == "signal")
+    assert quotes and "paise transfer" not in quotes
+    assert [e["t"] for e in out if e["type"] == "word"][:2] == [0.5, 0.5]
+
 def test_a_typed_retelling_is_judged_as_one_with_spark():
     """Spark reads typed text as the listener's account; the evaluation's call prompt stays as it was."""
     from teesrakaan.judge import SPARK_SYSTEM_TYPED_V1, SPARK_SYSTEM_V1, Completion, SparkJudge

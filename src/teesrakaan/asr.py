@@ -114,31 +114,48 @@ async def stream(pcm: bytes, first_frame: dict, url: str = REALTIME_URL, connect
 def session_to_call(session: Session | dict, call_id: str, **meta) -> Call:
     """Turns a session's events into turns, with each word's time said and time heard.
 
-    Partials are cumulative: a word's "heard" time is when it first appeared in one,
-    and its "said" time is the server's audio clock at that moment. The final text of
-    a turn comes from speechComplete (or the last final transcript).
+    Partials are cumulative: a word's "said" time is the server's audio clock when it
+    first appeared in one. A `speaker` event labels the words since the turn began or
+    since the previous label, and it arrives after them (on Oct 30 it came at the end of
+    every turn). Live listening can't tell who said a word before then (live.py), so a
+    word's "heard" time is when its label arrived. Words still unlabelled when the turn
+    completes take the turn's last label. Each labelled run of words becomes one Turn.
     """
     events = session.events if isinstance(session, Session) else session["events"]
     turns: dict[str, dict] = {}
-    order: list[str] = []
+    out: list[Turn] = []
     current = None
+
+    def release(t: dict, upto: int, at: float) -> None:
+        """Words t["done"]:upto get the turn's current label, heard no earlier than `at`."""
+        lo = t["done"]
+        if upto <= lo:
+            return
+        said = t["said"][lo:upto]
+        heard = [max(h, at) for h in t["heard"][lo:upto]]
+        start = t["start"] if lo == 0 else said[0]
+        end = t["end"] if upto == len(t["words"]) and t["end"] is not None else said[-1]
+        out.append(Turn(t["speaker"], start, max(end, start), " ".join(t["words"][lo:upto]),
+                        word_times=tuple(said), heard_times=tuple(heard)))
+        t["done"] = upto
+
     for e in events:
         kind = e.get("type")
         if kind == "speechStart":
             current = str(e.get("turnId"))
             turns[current] = {"start": e.get("audioProcessedMs", 0) / 1000, "end": None, "speaker": "A",
-                              "said": [], "heard": [], "text": ""}
-            order.append(current)
+                              "said": [], "heard": [], "words": [], "done": 0}
         elif kind == "transcript" and current is not None:
             turn = turns[current]
             words = (e.get("transcript") or "").split()
             for _ in range(len(turn["heard"]), len(words)):
                 turn["said"].append(e.get("audioProcessedMs", 0) / 1000)
                 turn["heard"].append(e["received"])
-            turn["text"] = " ".join(words)
+            turn["words"] = turn["words"][: turn["done"]] + words[turn["done"]:]
         elif kind == "speaker" and current is not None:
-            # A label covers the text since the previous speechStart or speaker event; a turn is taken as one voice.
-            turns[current]["speaker"] = str(e.get("label") or "A")
+            turn = turns[current]
+            turn["speaker"] = str(e.get("label") or "A")
+            release(turn, len(turn["words"]), e["received"])
         elif kind == "speechEnd":
             tid = str(e.get("turnId"))
             if tid in turns:
@@ -147,20 +164,16 @@ def session_to_call(session: Session | dict, call_id: str, **meta) -> Call:
             tid = str(e.get("turnId"))
             if tid in turns:
                 turn = turns[tid]
-                words = (e.get("transcript") or turn["text"]).split()
+                words = (e.get("transcript") or " ".join(turn["words"])).split()
                 while len(turn["heard"]) < len(words):  # words that never showed in a partial
                     turn["said"].append(e.get("audioProcessedMs", 0) / 1000)
                     turn["heard"].append(e["received"])
-                turn["text"] = " ".join(words)
+                turn["words"] = turn["words"][: turn["done"]] + words[turn["done"]:]
                 turn["said"], turn["heard"] = turn["said"][: len(words)], turn["heard"][: len(words)]
-    out = []
-    for tid in order:
-        t = turns[tid]
-        if not t["text"]:
-            continue
-        end = t["end"] if t["end"] is not None else max(t["said"], default=t["start"])
-        out.append(Turn(t["speaker"], t["start"], max(end, t["start"]), t["text"],
-                        word_times=tuple(t["said"]), heard_times=tuple(t["heard"])))
+                release(turn, len(turn["words"]), e["received"])
+    last = events[-1]["received"] if events else 0.0
+    for turn in turns.values():  # a stream that ended mid-turn
+        release(turn, len(turn["words"]), last)
     return Call(id=call_id, turns=tuple(out), **meta)
 
 

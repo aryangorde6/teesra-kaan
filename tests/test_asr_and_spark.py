@@ -68,6 +68,41 @@ def test_stream_collects_events_and_becomes_a_call():
     assert "Hello" not in " ".join(f.quote for f in result.listener.found.values())
 
 
+
+# As the real service sent them on Oct 30: each turn's label comes after its words.
+LABEL_LAST = [
+    {"type": "speechStart", "turnId": 0, "audioProcessedMs": 0, "received": 0.5},
+    {"type": "transcript", "transcript": "Main CBI se", "audioProcessedMs": 1000, "received": 1.3},
+    {"type": "transcript", "transcript": "Main CBI se bol raha hoon.", "audioProcessedMs": 2000, "received": 2.3},
+    {"type": "speaker", "label": "A", "audioProcessedMs": 2600, "received": 2.9},
+    {"type": "speechComplete", "turnId": 0, "transcript": "Main CBI se bol raha hoon.", "audioProcessedMs": 2500, "received": 2.9},
+    {"type": "speechStart", "turnId": 1, "audioProcessedMs": 2600, "received": 3.0},
+    {"type": "transcript", "transcript": "Kya main paise transfer karun?", "audioProcessedMs": 4000, "received": 4.3},
+    {"type": "speaker", "label": "B", "audioProcessedMs": 4500, "received": 4.8},
+    {"type": "speechComplete", "turnId": 1, "transcript": "Kya main paise transfer karun?", "audioProcessedMs": 4400, "received": 4.8},
+]
+
+
+def test_a_word_is_heard_only_once_its_speaker_is_known():
+    call = session_to_call({"events": LABEL_LAST}, "x")
+    assert [(t.speaker, t.text) for t in call.turns] == [("A", "Main CBI se bol raha hoon."),
+                                                          ("B", "Kya main paise transfer karun?")]
+    assert call.turns[0].word_times[0] == 1.0  # said when it first showed
+    assert set(call.turns[0].heard_times) == {2.9} and set(call.turns[1].heard_times) == {4.8}
+
+
+def test_a_label_in_mid_turn_splits_the_turn():
+    events = [
+        {"type": "speechStart", "turnId": 0, "audioProcessedMs": 0, "received": 0.1},
+        {"type": "transcript", "transcript": "Aapka parcel", "audioProcessedMs": 900, "received": 1.0},
+        {"type": "speaker", "label": "B", "audioProcessedMs": 1000, "received": 1.2},
+        {"type": "transcript", "transcript": "Aapka parcel haan ji", "audioProcessedMs": 1800, "received": 1.9},
+        {"type": "speaker", "label": "A", "audioProcessedMs": 2000, "received": 2.2},
+    ]
+    call = session_to_call({"events": events}, "x")
+    assert [(t.speaker, t.text, t.heard_times) for t in call.turns] == [
+        ("B", "Aapka parcel", (1.2, 1.2)), ("A", "haan ji", (2.2, 2.2))]
+
 def test_spark_client_reserves_settles_and_caches(tmp_path, monkeypatch):
     monkeypatch.setenv("TEESRAKAAN_ALLOW_PAID", "1")
     seen = []

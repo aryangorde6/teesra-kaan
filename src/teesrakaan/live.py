@@ -1,9 +1,12 @@
 """A live call: transcriber events in, page events out, through the same Listener as everything else.
 
-Partial transcripts can still change, so a word is passed to the Listener only once
-it's stable: unchanged across two partials, and not the last word of the partial. A
-completed turn commits the rest. Words wait in a buffer until the next check, so the
-judge, which runs in a worker thread, never reads a transcript that's being written.
+A word is passed to the Listener only once we know who said it. The transcriber's
+`speaker` event labels the words since the turn began or since the previous label, and
+it comes after them: on Oct 30 it arrived at the end of every turn. Until then the words
+show only as grey partial text, so the page never quotes your own words as the caller's.
+A completed turn commits the rest under its last label. Words wait in a buffer until the
+next check, so the judge, which runs in a worker thread, never reads a transcript that's
+being written. The evaluation replays the same rule (asr.session_to_call).
 """
 
 from __future__ import annotations
@@ -24,6 +27,7 @@ class _Turn:
     speaker: str = "A"
     committed: int = 0
     previous: list[str] = field(default_factory=list)
+    said: list[float] = field(default_factory=list)  # when each word first showed in a partial
 
 
 class LiveCall:
@@ -51,11 +55,12 @@ class LiveCall:
 
     def _commit(self, turn: _Turn, words: list[str], upto: int, said: float) -> list[dict]:
         out = []
-        for word in words[turn.committed : upto]:
+        for i in range(turn.committed, upto):
+            word, t = words[i], turn.said[i] if i < len(turn.said) else said
             with self._lock:
-                self.pending.append((said, turn.speaker, word))
+                self.pending.append((t, turn.speaker, word))
             self.counts[turn.speaker] = self.counts.get(turn.speaker, 0) + 1
-            out.append({"type": "word", "speaker": self._who(turn.speaker), "t": round(said, 2), "word": word})
+            out.append({"type": "word", "speaker": self._who(turn.speaker), "t": round(t, 2), "word": word})
         turn.committed = max(turn.committed, upto)
         return out
 
@@ -72,16 +77,12 @@ class LiveCall:
             return []
         if kind == "speaker":
             turn.speaker = str(e.get("label") or "A")
-            return []
+            out = self._commit(turn, turn.previous, len(turn.previous), said)
+            return out + [{"type": "partial", "speaker": "", "text": ""}]
         if kind == "transcript":
-            words = (e.get("transcript") or "").split()
-            stable = 0
-            while stable < min(len(words), len(turn.previous)) and words[stable] == turn.previous[stable]:
-                stable += 1
-            turn.previous = words
-            out = self._commit(turn, words, min(stable, len(words) - 1), said)
-            tail = " ".join(words[turn.committed :])
-            return out + [{"type": "partial", "speaker": self._who(turn.speaker), "text": tail}]
+            turn.previous = (e.get("transcript") or "").split()
+            turn.said += [said] * (len(turn.previous) - len(turn.said))
+            return [{"type": "partial", "speaker": "", "text": " ".join(turn.previous[turn.committed :])}]
         if kind == "speechComplete":
             tid = str(e.get("turnId"))
             turn = self.turns.get(tid, turn)
