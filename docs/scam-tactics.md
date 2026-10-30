@@ -1,6 +1,6 @@
 # Scam-call tactics in India: what Teesra Kaan listens for
 
-Version 1.2, Oct 28, 2026 (evening; v1 was the same afternoon, see "Changes" at the end). Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns 7 and 8 are sourced through news reports of official advisories (Oct 28); the advisory itself must be opened and cited before either appears in the video.
+Version 1.3, Oct 30, 2026 (09:24 IST, commit `cfca2cf`; v1 was Oct 28, see "Changes" at the end). Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns 7 and 8 are sourced through news reports of official advisories (Oct 28); the advisory itself must be opened and cited before either appears in the video.
 
 ## The signals
 
@@ -73,3 +73,5 @@ A genuine caller may sound alarming but never asks for secrets or money on the c
   - **A3** covers "as soon as possible".
   - **A12** covers "you qualify for" a discount, rate cut, loan or relief payment.
   - The rules themselves are unchanged. **Known cost:** a genuine bank fraud alert ("a suspicious transaction on your card") can now reach amber (A1 + A2). It still can't reach red without an ask, and amber's advice ("hang up and call the official number yourself") is what banks advise anyway. The IN-genuine set measures this.
+- **v1.3, Oct 30, 2026 (09:24 IST, commit `cfca2cf`), tuned on the dev set only** (no test call had been run or opened): a warning also needs Muse Spark's overall view, asked in a parallel call, to say "scam", plus at least one signal quoted in the caller's words. See "Alarm rules v1.3" above for the rules and why. The twelve signals are unchanged, and the keyword baseline (comparison A) keeps the v1.2 rules. Code: `RULES_VERSION = "v1.3 (Oct 30, 2026)"`.
+- **Oct 30, 2026, 13:10 IST:** the version line at the top raised to 1.3 and the v1.3 entry above added; both had been left at v1.2 when v1.3 was written. No rule changed.
