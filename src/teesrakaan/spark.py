@@ -117,3 +117,20 @@ class SparkClient:
             cached.parent.mkdir(parents=True, exist_ok=True)
             cached.write_text(json.dumps(done.__dict__, ensure_ascii=False), encoding="utf-8")
         return done
+
+
+class ReplayClient(SparkClient):
+    """Saved replies only, never the API. The hosted page plays its demo calls with Muse Spark's real
+    answers, recorded once on the development machine, so it needs no key and costs nothing."""
+
+    def __init__(self, cache_dir: Path) -> None:
+        super().__init__(ledger=_NO_LEDGER, cache_dir=cache_dir)
+
+    def __call__(self, system: str, user: str, schema: dict | None = None) -> Completion:
+        cached = self._cache_path(self.request(system, user, schema))
+        if not cached.is_file():
+            raise LookupError("no saved Muse Spark reply for this question")
+        return Completion(**json.loads(cached.read_text(encoding="utf-8")))
+
+
+_NO_LEDGER: Any = object()  # a replay never spends, so it never opens the ledger

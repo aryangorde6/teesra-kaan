@@ -4,7 +4,7 @@
 
 <img src="docs/demo.gif" width="300" align="right" alt="The page playing a demo 'digital arrest' call: the next-line card names what the caller will say, ticks it off when he says it, and the red warning quotes him">
 
-*Right: the page playing a written demo call (4× speed, offline keyword stand-in for Muse Spark). The card names the caller's next line before he says it and ticks it off in his words, then the red warning quotes him. It will be replaced by a real re-enacted call through Muse Voice Transcribe and Muse Spark.*
+*Right: the page playing a written demo call at 4× speed, judged by Muse Spark 1.3 (its real replies, saved in [`examples/spark-replies/`](examples/spark-replies) so the page replays them without a key). The card names the caller's next line before he says it and ticks it off in his words, then the red warning quotes him. It will be replaced by a recorded re-enactment through Muse Voice Transcribe.*
 
 - **Live:** https://teesrakaan.aryangorde.com *(from Nov 2)*
 - **Video (3 min):** *(link on Nov 4)*
@@ -84,7 +84,7 @@ uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -e '.[we
 ```
 Live listening and the Meta-model runs need `MODEL_API_KEY` in `.env` and `TEESRAKAAN_ALLOW_PAID=1`; every paid call goes through a ledger that stops at $100 of the $150 credits, and is refused unless Meta's own meter, read from the Billing page, agrees ([docs/spending.md](docs/spending.md)). The full sequence is in [docs/runbook.md](docs/runbook.md).
 
-The demo calls in `examples/calls/` are written scripts, not real calls; every name, number and ID in them is made up.
+The demo calls in `examples/calls/` are written scripts, not real calls; every name, number and ID in them is made up. Without a key, the page plays them with Muse Spark's saved replies from `examples/spark-replies/` (made with `teesrakaan demo-replies`), so the hosted demo shows the real model at no cost.
 
 ## Limits (honest)
 - The Indian test calls are re-enactments; the FTC calls are real but American and in English. Real donated calls are few. Each set is reported separately, with 95% intervals.

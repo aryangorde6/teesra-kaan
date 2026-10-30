@@ -67,12 +67,30 @@ def _audio(call_id: str) -> str | None:
     return None
 
 
+# Muse Spark's real replies for the demo calls, saved once (`teesrakaan demo-replies`) and committed.
+DEMO_REPLIES = DEMO_CALLS.parent / "spark-replies"
+
+
 def demo_judge():
-    """The keyword stand-in by default (free). With TEESRAKAAN_DEMO_JUDGE=spark and live listening available,
-    Muse Spark: the first play of a call is paid, and replays come from the reply cache at no cost."""
+    """Muse Spark's saved replies when they're here (free, no key); the keyword stand-in otherwise. With
+    TEESRAKAAN_DEMO_JUDGE=spark and live listening available, live Muse Spark: the first play of a call is
+    paid, and replays come from the reply cache at no cost."""
     if config.env("TEESRAKAAN_DEMO_JUDGE") == "spark" and live_available():
         return live_judge()
+    if DEMO_REPLIES.is_dir():
+        from ..spark import ReplayClient
+
+        client = ReplayClient(DEMO_REPLIES)
+        return CheckedJudge(SparkJudge(client), FreeFormJudge(client))
     return KeywordJudge()
+
+
+def demo_events_or_keywords(call: Call, lang: str, country: str) -> list[tuple[float, dict]]:
+    """A demo call with the demo judge; a call without saved replies falls back to the keyword stand-in."""
+    try:
+        return demo_events(call, lang, Timing(), demo_judge(), country)
+    except LookupError:
+        return demo_events(call, lang, Timing(), KeywordJudge(), country)
 
 
 def demo_events(call: Call, lang: str, timing: Timing = Timing(), judge=None,
@@ -190,7 +208,7 @@ async def demo(ws: WebSocket) -> None:
         return
     clock = 0.0
     try:
-        events = await asyncio.to_thread(demo_events, call, lang, Timing(), demo_judge(), country)
+        events = await asyncio.to_thread(demo_events_or_keywords, call, lang, country)
         for t, event in events:
             await asyncio.sleep(max(t - clock, 0) / speed)
             clock = max(clock, t)

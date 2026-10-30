@@ -262,3 +262,27 @@ def test_a_typed_retelling_is_judged_as_one_with_spark():
     assert judge.signs.system == SPARK_SYSTEM_V1 and judge.verdict.system == FREEFORM_SYSTEM_V1
     assert out["judge"] == "Muse Spark" and [s["id"] for s in out["signals"]] == ["A1"]
     assert out["warning"]["level"] == "amber"  # Spark says scam, and one signal is quoted
+
+
+def test_demo_calls_replay_muse_sparks_saved_replies_without_a_key(example, monkeypatch):
+    """The hosted page has no key: its demo calls play Spark's real replies, saved in the repo, in every language."""
+    import teesrakaan.web.app as web
+    from teesrakaan.spark import ReplayClient
+
+    monkeypatch.delenv("TEESRAKAAN_DEMO_JUDGE", raising=False)
+    judge = web.demo_judge()
+    assert isinstance(judge.signs.complete, ReplayClient)
+    for lang in ("en", "hi", "mr"):
+        for name, level in [("demo-digital-arrest", "red"), ("demo-trai-marathi", "red"), ("demo-bank-alert-genuine", None)]:
+            events = [e for _, e in web.demo_events(example(name), lang, judge=web.demo_judge())]
+            assert events[0]["call"]["judge"] == "Muse Spark"
+            levels = [e["warning"]["level"] for e in events if e["type"] == "alarm"]
+            assert (levels[-1] if levels else None) == level, (name, lang)
+
+
+def test_a_demo_call_without_saved_replies_falls_back_to_keywords(example, tmp_path, monkeypatch):
+    import teesrakaan.web.app as web
+
+    monkeypatch.setattr(web, "DEMO_REPLIES", tmp_path)
+    events = web.demo_events_or_keywords(example("demo-digital-arrest"), "en", "IN")
+    assert events[0][1]["call"]["judge"] == "keyword stand-in (no model)"

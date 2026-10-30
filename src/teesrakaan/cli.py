@@ -211,6 +211,37 @@ def cmd_ping(args: argparse.Namespace) -> None:
     print(f"reply {done.text!r}, {done.input_tokens} in / {done.output_tokens} out tokens, {done.latency:.2f} s")
 
 
+def cmd_demo_replies(args: argparse.Namespace) -> None:
+    """Muse Spark's replies for every demo call, saved beside them, so the hosted page replays them free."""
+    import shutil
+
+    from .judge import CheckedJudge, FreeFormJudge, SparkJudge
+    from .spark import SparkClient
+    from .web.app import DEMO_REPLIES, _demo_calls, demo_events
+
+    used: set[Path] = set()
+
+    class Saving(SparkClient):
+        def __call__(self, system, user, schema=None):
+            done = super().__call__(system, user, schema)
+            used.add(self._cache_path(self.request(system, user, schema)))
+            return done
+
+    client = Saving()
+    judge = CheckedJudge(SparkJudge(client), FreeFormJudge(client))
+    for call in _demo_calls().values():
+        events = demo_events(call, "en", judge=judge)
+        levels = [e["warning"]["level"] for _, e in events if e["type"] == "alarm"]
+        print(f"{call.id}: {' -> '.join(levels) or 'no warning'}")
+    if DEMO_REPLIES.exists():
+        shutil.rmtree(DEMO_REPLIES)
+    for path in sorted(used):
+        dest = DEMO_REPLIES / path.relative_to(client.cache_dir)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(path, dest)
+    print(f"{len(used)} replies saved in {DEMO_REPLIES}")
+
+
 def cmd_budget(args: argparse.Namespace) -> None:
     import time
 
@@ -314,6 +345,9 @@ def main(argv: list[str] | None = None) -> None:
     p = sub.add_parser("ping", help="PAID: one tiny Muse Spark call to check the key and credits")
     p.add_argument("--scratch", default="runs/ping-cache", help="cache folder, so a ping is never served from cache")
     p.set_defaults(func=cmd_ping)
+
+    p = sub.add_parser("demo-replies", help="PAID once: save Muse Spark's replies for the demo calls, for the hosted page")
+    p.set_defaults(func=cmd_demo_replies)
 
     p = sub.add_parser("budget", help="what the Meta API has cost so far, against the $100 stop")
     p.set_defaults(func=cmd_budget)
