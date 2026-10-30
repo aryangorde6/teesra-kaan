@@ -135,7 +135,7 @@ section { scroll-margin-top: 84px; }
 .hero-line { margin: 0; font-size: 1.25rem; font-weight: 600; line-height: 1.4; }
 .hero .hint:empty { display: none; }
 
-.controls { display: grid; gap: 10px; }
+.controls { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }  /* a select is as wide as its longest option: keep it from widening the page */
 .demo-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .demo-row button { flex: 1 0 auto; }
 .demo-row select, .where select {
