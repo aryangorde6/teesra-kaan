@@ -28,7 +28,7 @@ def _judge(name: str):
 
 # The runs in docs/evaluation-rule.md. The transcription ablations (no language hint,
 # no keyword biasing) are run C on transcripts made with those settings.
-RUNS = ("A", "B", "C", "C-no-speakers")
+RUNS = ("A", "B", "C", "C-no-speakers", "C-v1.2")
 
 
 def _run(name: str):
