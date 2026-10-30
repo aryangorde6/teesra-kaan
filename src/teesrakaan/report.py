@@ -31,6 +31,11 @@ _APPS = re.compile(
     r"एनीडेस्क|स्काइप|व्हाट्सएप|व्हॉट्सअ‍ॅप",
     re.IGNORECASE,
 )
+# An app's own spelling, for the complaint form: "anydesk", "any desk" and "एनीडेस्क" are all AnyDesk.
+_APP_NAME = {"anydesk": "AnyDesk", "any desk": "AnyDesk", "एनीडेस्क": "AnyDesk", "teamviewer": "TeamViewer",
+             "team viewer": "TeamViewer", "quicksupport": "QuickSupport", "quick support": "QuickSupport",
+             "skype": "Skype", "स्काइप": "Skype", "whatsapp": "WhatsApp", "व्हाट्सएप": "WhatsApp",
+             "व्हॉट्सअ‍ॅप": "WhatsApp", "telegram": "Telegram", "zoom": "Zoom"}
 
 # Per country (messages.COUNTRIES), then language. The US steps follow the FTC's consumer advice.
 WHAT_TO_DO = {"IN": {
@@ -83,6 +88,8 @@ TEXT = {
         "account_numbers": "Account numbers", "links": "Links", "apps": "Apps",
         "transcript": "Transcript", "caller": "Caller", "you": "You",
         "footer": "Prepared automatically by Teesra Kaan from the call audio. Check it before you submit it.",
+        "title_typed": "Scam call report (from what you typed after the call)", "typed": "What you typed",
+        "footer_typed": "Prepared automatically by Teesra Kaan from what you typed after the call. Check it before you submit it.",
     },
     "hi": {
         "title": "स्कैम कॉल रिपोर्ट", "length": "कॉल की अवधि", "number": "कॉल करने वाले का नंबर",
@@ -94,6 +101,8 @@ TEXT = {
         "account_numbers": "खाता नंबर", "links": "लिंक", "apps": "ऐप",
         "transcript": "बातचीत", "caller": "कॉल करने वाला", "you": "आप",
         "footer": "यह रिपोर्ट तीसरा कान ने कॉल की आवाज़ से अपने आप बनाई है। जमा करने से पहले जाँच लें।",
+        "title_typed": "स्कैम कॉल रिपोर्ट (कॉल के बाद आपने जो लिखा, उससे)", "typed": "आपने जो लिखा",
+        "footer_typed": "यह रिपोर्ट तीसरा कान ने, कॉल के बाद आपने जो लिखा उससे, अपने आप बनाई है। जमा करने से पहले जाँच लें।",
     },
     "mr": {
         "title": "फसवणुकीच्या कॉलचा अहवाल", "length": "कॉलचा कालावधी", "number": "फोन करणाऱ्याचा नंबर",
@@ -105,6 +114,8 @@ TEXT = {
         "account_numbers": "खाते नंबर", "links": "लिंक", "apps": "अ‍ॅप",
         "transcript": "संभाषण", "caller": "फोन करणारा", "you": "तुम्ही",
         "footer": "हा अहवाल तिसरा कानने कॉलच्या आवाजावरून आपोआप तयार केला आहे. सादर करण्यापूर्वी तपासा.",
+        "title_typed": "फसवणुकीच्या कॉलचा अहवाल (कॉलनंतर तुम्ही जे लिहिले त्यावरून)", "typed": "तुम्ही जे लिहिले",
+        "footer_typed": "हा अहवाल तिसरा कानने, कॉलनंतर तुम्ही जे लिहिले त्यावरून, आपोआप तयार केला आहे. सादर करण्यापूर्वी तपासा.",
     },
 }
 
@@ -132,7 +143,7 @@ def extract(text: str) -> dict[str, list[str]]:
         "emails": emails,
         "account_numbers": _unique([a for a in _ACCOUNT.findall(text) if a[-10:] not in phone_digits]),
         "links": _unique(_LINK.findall(text)),
-        "apps": _unique([a.lower() for a in _APPS.findall(text)]),
+        "apps": _unique([_APP_NAME.get(a.lower(), a) for a in _APPS.findall(text)]),
     }
 
 
@@ -154,35 +165,56 @@ class ReportPack:
     lang: str = "en"
     caller_number: str = ""  # typed in by the user afterwards, if they have it
     country: str = "IN"  # where to report (messages.COUNTRIES)
+    source: str = "call"  # "call" (heard or recorded) or "typed" (told afterwards: no real times)
 
     def to_dict(self) -> dict:
         return dict(self.__dict__)
 
     def to_markdown(self) -> str:
+        return self._render(markdown=True)
+
+    def to_text(self) -> str:
+        """Plain text, to paste into the 1930 or cybercrime.gov.in form: no Markdown marks to clean up."""
+        return self._render(markdown=False)
+
+    def _render(self, markdown: bool) -> str:
         t = TEXT[self.lang]
+        typed = self.source == "typed"  # a retelling: its times are word-count estimates, so none are shown
+        bold = (lambda s: f"**{s}**") if markdown else (lambda s: s)
+        item = "- " if markdown else ""
+        heading = (lambda s: f"## {s}") if markdown else (lambda s: s.upper())
         level = {"red": t["red"], "amber": t["amber"], "none": t["none"]}[self.level]
-        out = [f"# {t['title']}: {self.call_id}", ""]
-        out.append(f"- **{t['length']}:** {_clock(self.duration)}")
+        title = t["title_typed"] if typed else t["title"]
+        out = [f"# {title}" if markdown else title, ""]
+        if not typed:
+            out.append(f"{item}{bold(t['length'] + ':')} {_clock(self.duration)}")
         if self.caller_number:
-            out.append(f"- **{t['number']}:** {self.caller_number}")
-        out.append(f"- **{t['verdict']}:** {level}")
-        if self.warned_at is not None:
-            out.append(f"- **{t['warned']}:** {_clock(self.warned_at)}")
-        out += ["", f"## {t['todo']}", *[f"{i}. {s}" for i, s in enumerate(WHAT_TO_DO[self.country][self.lang], 1)]]
+            out.append(f"{item}{bold(t['number'] + ':')} {self.caller_number}")
+        out.append(f"{item}{bold(t['verdict'] + ':')} {level}")
+        if self.warned_at is not None and not typed:
+            out.append(f"{item}{bold(t['warned'] + ':')} {_clock(self.warned_at)}")
+        out += ["", heading(t["todo"]), *[f"{i}. {s}" for i, s in enumerate(WHAT_TO_DO[self.country][self.lang], 1)]]
         if self.facts:
-            out += ["", *[f"> {fact}" for fact in self.facts]]
-        out += ["", f"## {t['claims']}"]
+            out += ["", *[f"> {fact}" if markdown else fact for fact in self.facts]]
+        out += ["", heading(t["claims"])]
         for c in self.claims:
-            out.append(f"- **{_clock(c['said_at'])} · {c['name']}:** \"{c['quote']}\"")
+            when = "" if typed else f"{_clock(c['said_at'])} · "
+            out.append(f"{item}{bold(when + c['name'] + ':')} \"{c['quote']}\"")
         if not self.claims:
-            out.append(f"- {t['no_claims']}")
+            out.append(f"{item}{t['no_claims']}")
         found = [(t[k], v) for k, v in self.mentioned.items() if v]
-        out += ["", f"## {t['mentioned']}"]
-        out += [f"- **{name}:** {', '.join(values)}" for name, values in found] or [f"- {t['nothing']}"]
-        out += ["", f"## {t['transcript']}", ""]
-        who = {CALLER: t["caller"], LISTENER: t["you"]}
-        out += [f"- `{_clock(line['start'])}` **{who[line['speaker']]}:** {line['text']}" for line in self.transcript]
-        out += ["", f"_{t['footer']}_", ""]
+        out += ["", heading(t["mentioned"])]
+        out += [f"{item}{bold(name + ':')} {', '.join(values)}" for name, values in found] or [f"{item}{t['nothing']}"]
+        if typed:
+            out += ["", heading(t["typed"]), *[line["text"] for line in self.transcript]]
+        else:
+            who = {CALLER: t["caller"], LISTENER: t["you"]}
+            clock = (lambda x: f"`{x}`") if markdown else (lambda x: x)
+            out += ["", heading(t["transcript"]), *([""] if markdown else [])]
+            out += [f"{item}{clock(_clock(line['start']))} {bold(who[line['speaker']] + ':')} {line['text']}"
+                    for line in self.transcript]
+        footer = t["footer_typed"] if typed else t["footer"]
+        out += ["", f"_{footer}_" if markdown else footer, ""]
         return "\n".join(out)
 
 
@@ -210,4 +242,5 @@ def build_report(call: Call, listener: Listener, lang: str = "en", caller_number
         lang=lang,
         caller_number=caller_number,
         country=country,
+        source="typed" if call.set == "typed" else "call",
     )

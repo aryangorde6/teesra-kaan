@@ -184,7 +184,7 @@ def test_a_call_typed_in_afterwards_gets_its_scam_and_the_rest_of_the_script(mon
     assert [s["id"] for s in data["signals"]] == ["A1", "A2", "A8"]
     assert data["warning"]["level"] == "amber" and "CBI" in data["warning"]["family"]
     assert [s["id"] for s in data["ahead"]["steps"]] == ["A4", "A6"]
-    assert "1930" in data["report_markdown"]
+    assert "1930" in data["report_markdown"] and "आपने जो लिखा" in data["report_text"] and "**" not in data["report_text"]
     one = client.post("/api/said?lang=en", json={"text": "A man said my parcel was seized."}).json()
     assert one["warning"] is None and not one["ahead"]["steps"] and one["ahead"]["note"]
 

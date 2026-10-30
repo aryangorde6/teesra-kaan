@@ -134,5 +134,6 @@ class LiveCall:
                        "t0": None, "t_ask": None},
             "report": pack.to_dict(),
             "report_markdown": pack.to_markdown(),
+            "report_text": pack.to_text(),
         })
         return out

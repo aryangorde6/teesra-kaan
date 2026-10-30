@@ -139,6 +139,7 @@ def demo_events(call: Call, lang: str, timing: Timing = Timing(), judge=None,
                    "t0": call.label.get("t0"), "t_ask": call.label.get("t_ask")},
         "report": pack.to_dict(),
         "report_markdown": pack.to_markdown(),
+        "report_text": pack.to_text(),
     }))
     events.sort(key=lambda e: (e[0], e[1]))
     return [(t, e) for t, _, e in events]
@@ -279,6 +280,11 @@ async def check_recording(request: Request) -> dict:
 MAX_SAID_CHARS = 2000
 
 
+def _report(pack) -> dict:
+    """The report both ways: Markdown for the record, plain text for the page, Copy and Download."""
+    return {"report_markdown": pack.to_markdown(), "report_text": pack.to_text()}
+
+
 def check_said(text: str, lang: str = "en", country: str = "IN", judge=None) -> dict:
     """What a caller said, typed in (or voice-typed) after the call: the same judge, quote check and
     rules, plus the scam it matches and the rest of its script. It runs on the phone that had the call,
@@ -296,7 +302,7 @@ def check_said(text: str, lang: str = "en", country: str = "IN", judge=None) -> 
         "signals": [{"id": f.id, "name": SIGNAL_NAME[f.id][lang], "quote": f.quote} for f in found],
         "warning": warning(listener.alarm, quotes, lang, country),
         "ahead": script_ahead(ahead(quotes), lang),
-        "report_markdown": build_report(call, listener, lang, country=country).to_markdown(),
+        **_report(build_report(call, listener, lang, country=country)),
     }
 
 

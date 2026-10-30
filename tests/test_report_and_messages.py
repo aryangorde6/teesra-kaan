@@ -4,6 +4,7 @@ from teesrakaan.playbook import SCRIPTS, ahead
 from teesrakaan.report import WHAT_TO_DO, build_report, extract
 from teesrakaan.signals import SIGNALS, Alarm, Level
 from teesrakaan.simulate import simulate
+from teesrakaan.transcript import Call, Turn
 
 
 def test_extract_finds_what_the_complaint_form_asks_for():
@@ -16,7 +17,8 @@ def test_extract_finds_what_the_complaint_form_asks_for():
     assert found["emails"] == ["help@fake-rbi.in"]
     assert found["account_numbers"] == ["501234567890"]
     assert found["phone_numbers"] == ["98765 43210", "+91-9123456789"]
-    assert found["apps"] == ["anydesk"]
+    assert found["apps"] == ["AnyDesk"]
+    assert extract("any desk aur एनीडेस्क, phir WHATSAPP")["apps"] == ["AnyDesk", "WhatsApp"]
     assert "www.fake-kyc.com" in found["links"]
 
 
@@ -36,6 +38,26 @@ def test_report_pack_for_the_demo_call(example):
     assert "1930" in md and "cybercrime.gov.in" in md and "sancharsaathi.gov.in" in md
     assert "Inspector Sharma" in md
     assert "digital arrest" in md  # the fact line for A1 + A8
+
+
+def test_the_report_to_paste_into_the_complaint_form_is_plain_text(example):
+    call = example("demo-digital-arrest")
+    pack = build_report(call, simulate(call, KeywordJudge()).listener)
+    text, md = pack.to_text(), pack.to_markdown()
+    assert "**" not in text and "`" not in text and not any(line.startswith(("#", "- ", "> ")) for line in text.splitlines())
+    assert "WHAT TO DO NOW" in text and "1930" in text and "Inspector Sharma" in text and "rbi.verify@okaxis" in text
+    assert "Call length: 1:" in text and "digital arrest" in text
+    assert call.id not in text and call.id not in md  # no internal id in the title
+
+
+def test_a_typed_report_says_so_and_claims_no_times(example):
+    typed = Call("what-the-caller-said", (Turn("caller", 0.0, 9.0, "Main CBI se bol raha hoon. Kisi ko mat batana."),),
+                 set="typed")
+    pack = build_report(typed, simulate(typed, KeywordJudge()).listener)
+    for text in (pack.to_text(), pack.to_markdown()):
+        assert "what you typed" in text and "from the call audio" not in text
+        assert "Call length" not in text and "minutes into the call" not in text and "0:00" not in text
+        assert "Kisi ko mat batana." in text
 
 
 def test_report_pack_in_hindi_and_marathi(example):

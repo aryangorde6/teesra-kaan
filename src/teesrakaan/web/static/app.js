@@ -458,8 +458,8 @@ function finish(e) {
     const b = tm.t_ask === null || tm.t_ask === undefined ? null : Math.round(tm.t_ask - tm.t_warn);
     $("#lead").textContent = t("lead")(a, b);
   }
-  state.report = e.report_markdown;
-  $("#report").textContent = e.report_markdown;
+  state.report = e.report_text || e.report_markdown;
+  $("#report").textContent = state.report;
   $("#report-wrap").hidden = false;
   if ($("#alert").hidden) {
     $("#waiting").className = "waiting calm";
@@ -545,8 +545,8 @@ async function checkSaid() {
     if (data.warning) showAlarm({ warning: data.warning });
     showAhead(data.ahead);
     updateWaiting();
-    state.report = data.report_markdown;
-    $("#report").textContent = data.report_markdown;
+    state.report = data.report_text || data.report_markdown;
+    $("#report").textContent = state.report;
     $("#report-wrap").hidden = false;
   } catch (err) {
     $("#status").textContent = String(err.message || err);
@@ -682,10 +682,10 @@ async function init() {
     } catch (e) {}
   });
   $("#download").addEventListener("click", () => {
-    const blob = new Blob([state.report], { type: "text/markdown" });
+    const blob = new Blob([state.report], { type: "text/plain;charset=utf-8" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = `teesra-kaan-report-${state.call ? state.call.id : "call"}.md`;
+    a.download = `teesra-kaan-report-${state.call ? state.call.id : "call"}.txt`;
     a.click();
     URL.revokeObjectURL(a.href);
   });
