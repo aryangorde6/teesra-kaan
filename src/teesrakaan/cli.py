@@ -291,7 +291,7 @@ def cmd_strings(args: argparse.Namespace) -> None:
 
     git = subprocess.run(["git", "-C", str(config.REPO_ROOT), "log", "-1", "--format=%h, %ad", "--date=format:%b %d %H:%M"],
                          capture_output=True, text=True)
-    page = to_html(args.lang, f"commit {git.stdout.strip()}" if git.returncode == 0 else "this copy")
+    page = to_html(args.lang, f"commit {git.stdout.strip()}" if git.returncode == 0 else "this copy", since=args.since)
     Path(args.out).write_text(page, encoding="utf-8")
     print(f"Wrote {args.out}")
 
@@ -394,6 +394,7 @@ def main(argv: list[str] | None = None) -> None:
     p = sub.add_parser("strings", help="a page of every Hindi or Marathi line, for a native speaker to check")
     p.add_argument("--lang", choices=("hi", "mr"), required=True)
     p.add_argument("--out", required=True, help="the HTML file to write")
+    p.add_argument("--since", help="an addendum: only lines added or changed since the sheet made at this commit")
     p.set_defaults(func=cmd_strings)
 
     p = sub.add_parser("labels", help="check a labelling sheet, or write an empty one")

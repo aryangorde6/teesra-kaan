@@ -4,19 +4,26 @@
 lines, the spoken warnings first, each with where it appears. Corrections come back by number.
 It reads the lines from the code itself (messages.py, report.py and the page's app.js), so the
 sheet is never out of step with what the app says.
+
+`--since <commit>` writes an addendum instead: only the lines added or changed since the sheet made
+at that commit, numbered on from its last line, so a sheet already sent keeps its numbers.
 """
 
 from __future__ import annotations
 
 import html
 import json
+import os
 import shutil
 import subprocess
+import sys
+import tempfile
 from pathlib import Path
 
 from . import messages, report
 
 APP_JS = Path(__file__).parent / "web" / "static" / "app.js"
+REPO = Path(__file__).resolve().parents[2]
 LANGUAGE = {"hi": ("Hindi", "हिंदी"), "mr": ("Marathi", "मराठी")}
 
 # Where each table's lines appear, most important first: what's spoken aloud, then the warning screen.
@@ -37,6 +44,8 @@ WHERE = (
     ("NOT_ENOUGH", messages, "Checking a call afterwards"),
     ("SCRIPT_DONE", messages, "Checking a call afterwards"),
     ("UI", None, "The page: buttons and messages"),
+    ("CALL_NAME", None, "The menu of demo calls: the call's name"),
+    ("CALL_LANG", None, "The menu of demo calls: the language spoken in it"),
     ("WHAT_TO_DO", report, "The report for 1930: what to do now"),
     ("TEXT", report, "The report for 1930: its headings"),
     ("RED_ACTION_US", messages, "What to do now, on the US page: spoken aloud"),
@@ -66,20 +75,24 @@ def _leaves(table, lang: str, path: tuple = ()) -> list[tuple[tuple, str, str]]:
 
 
 def page_lines() -> dict | None:
-    """The page's UI table from app.js, with its few sentences that take numbers filled with examples.
-    None when node isn't installed."""
+    """The page's tables from app.js (UI, and the demo calls' names), with the UI's few sentences that take
+    numbers filled with examples. None when node isn't installed."""
     node = shutil.which("node")
     if node is None:
         return None
     script = (
         "const src = require('fs').readFileSync(process.argv[1], 'utf8');"
-        "const UI = eval('(' + src.match(/const UI = (\\{[\\s\\S]*?\\n\\});/)[1] + ')');"
-        "const out = {};"
+        "const table = (name) => eval('(' + src.match(new RegExp('const ' + name + ' = (\\\\{[\\\\s\\\\S]*?\\\\n\\\\});'))[1] + ')');"
+        "const UI = table('UI'), ui = {};"
         "for (const [lang, t] of Object.entries(UI)) {"
-        "  out[lang] = {};"
-        "  for (const [k, v] of Object.entries(t)) out[lang][k] = typeof v === 'function' ? v(2, 30) : v;"
+        "  ui[lang] = {};"
+        "  for (const [k, v] of Object.entries(t)) ui[lang][k] = typeof v === 'function' ? v(2, 30) : v;"
         "}"
-        "console.log(JSON.stringify(out));"
+        # The menu's tables are keyed by call (or spoken language) first: turn them language first, like UI.
+        "const byLang = (t) => { const o = {};"
+        "  for (const [k, v] of Object.entries(t)) for (const [lang, s] of Object.entries(v)) (o[lang] ||= {})[k] = s;"
+        "  return o; };"
+        "console.log(JSON.stringify({UI: ui, CALL_NAME: byLang(table('CALL_NAME')), CALL_LANG: byLang(table('CALL_LANG'))}));"
     )
     done = subprocess.run([node, "-e", script, str(APP_JS)], check=True, capture_output=True, text=True)
     return json.loads(done.stdout)
@@ -87,10 +100,10 @@ def page_lines() -> dict | None:
 
 def collect(lang: str) -> list[dict]:
     """The numbered lines for one language, in the order a reviewer should check them."""
-    ui = page_lines()
+    page = page_lines()
     out = []
     for name, module, where in WHERE:
-        table = ui if module is None else getattr(module, name)
+        table = (page or {}).get(name) if module is None else getattr(module, name)
         if table is None:
             continue
         for path, en, other in _leaves(table, lang):
@@ -104,21 +117,54 @@ def collect(lang: str) -> list[dict]:
     return out
 
 
-def to_html(lang: str, version: str) -> str:
-    """One page, phone-sized and printable."""
+def collect_at(commit: str, lang: str) -> list[dict]:
+    """collect() as the code stood at an earlier commit: the sheet a reviewer may already have."""
+    archive = subprocess.run(["git", "-C", str(REPO), "archive", commit, "src"], check=True, capture_output=True).stdout
+    with tempfile.TemporaryDirectory() as tmp:
+        subprocess.run(["tar", "-x", "-C", tmp], input=archive, check=True)
+        done = subprocess.run([sys.executable, "-c", f"import json, teesrakaan.strings as s; print(json.dumps(s.collect({lang!r})))"],
+                              env={**os.environ, "PYTHONPATH": str(Path(tmp) / "src")}, check=True, capture_output=True, text=True)
+    return json.loads(done.stdout)
+
+
+def collect_since(commit: str, lang: str) -> tuple[list[dict], int]:
+    """The lines added or changed since the sheet made at `commit`, numbered on from its last line, and that
+    sheet's length. A changed line says which old number it replaces."""
+    old = collect_at(commit, lang)
+    before = {(line["table"], line["key"]): line for line in old}
+    out = []
+    for line in collect(lang):
+        prev = before.get((line["table"], line["key"]))
+        if prev and (prev["en"], prev["text"]) == (line["en"], line["text"]):
+            continue
+        out.append({**line, "n": len(old) + len(out) + 1, "replaces": prev["n"] if prev else None})
+    return out, len(old)
+
+
+def to_html(lang: str, version: str, since: str | None = None) -> str:
+    """One page, phone-sized and printable; with `since`, the addendum to the sheet made at that commit."""
     name, native = LANGUAGE[lang]
-    lines = collect(lang)
+    if since:
+        lines, sent = collect_since(since, lang)
+        span = f"lines {sent + 1}–{sent + len(lines)}" if lines else "no lines"
+        intro = (f'<p><b>An addendum</b> to the sheet of {sent} lines from commit {html.escape(since)}: only the {len(lines)} '
+                 f"lines added or changed since, numbered on from it ({span}), so its numbers still hold. A changed line "
+                 "says which line it replaces; check it here, not there.</p>")
+    else:
+        lines, intro = collect(lang), ""
     spoken = [line["n"] for line in lines if line["spoken"] and not line["us"]]
     items = []
     for line in lines:
         cls = "item spoken" if line["spoken"] else "item"
+        replaces = f' · replaces line {line["replaces"]}' if line.get("replaces") else ""
         items.append(
-            f'<li class="{cls}"><div class="meta"><b>{line["n"]}</b> · {html.escape(line["where"])}'
+            f'<li class="{cls}"><div class="meta"><b>{line["n"]}</b> · {html.escape(line["where"])}{replaces}'
             f'<span class="key">{html.escape(line["table"])} {html.escape(line["key"])}</span></div>'
             f'<p class="en">{html.escape(line["en"])}</p>'
             f'<p class="text" lang="{lang}">{html.escape(line["text"])}</p>'
             '<p class="answer">☐ OK &nbsp; Better: ______________________________________</p></li>')
-    first, last = (spoken[0], spoken[-1]) if spoken else (0, 0)
+    most = (f"<p><b>Most important: lines {spoken[0]}–{spoken[-1]}</b> (red edge). They are spoken aloud the moment a "
+            "call looks like a scam, so they must be short, clear and calm.</p>") if spoken else ""
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Teesra Kaan: {name} check</title>
@@ -147,12 +193,12 @@ def to_html(lang: str, version: str) -> str:
   }}
 </style></head>
 <body>
-<h1>Teesra Kaan · {name} ({native}) language check</h1>
+<h1>Teesra Kaan · {name} ({native}) language check{" · addendum" if since else ""}</h1>
 <p class="meta">{len(lines)} lines · from the app's code at {html.escape(version)}</p>
 <div class="how">
-<p><b>What this is:</b> Teesra Kaan listens to a phone call on speaker and warns the person, in their language, when the caller sounds like a scammer. Every {name} line it shows or says is below, under its English.</p>
+{intro}<p><b>What this is:</b> Teesra Kaan listens to a phone call on speaker and warns the person, in their language, when the caller sounds like a scammer. Every {name} line it shows or says is below, under its English.</p>
 <p><b>For each line:</b> is it correct, and does it sound natural, the way a person in the family would say it to an older relative? If yes, tick OK. If not, write the better wording.</p>
-<p><b>Most important: lines {first}–{last}</b> (red edge). They are spoken aloud the moment a call looks like a scam, so they must be short, clear and calm.</p>
+{most}
 <p>Words in {{curly brackets}} are filled in by the app: keep them as they are. The US page's lines come last and matter least.</p>
 <p><b>Send back</b> only the lines to change, by number, e.g. "7: …". A photo of the marked page works too.</p>
 </div>

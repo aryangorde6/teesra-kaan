@@ -163,6 +163,27 @@ def test_the_language_check_sheet_has_every_line_spoken_ones_first():
         assert all(line["en"] and line["text"] for line in lines)
         assert lines[-1]["us"] and not lines[0]["us"]
         tables = {line["table"] for line in lines}
-        assert {"NEXT_LINE", "FAMILY", "FACTS", "WHAT_TO_DO", "TEXT"} <= tables
+        assert {"NEXT_LINE", "FAMILY", "FACTS", "WHAT_TO_DO", "TEXT", "CALL_NAME", "CALL_LANG"} <= tables
         page = to_html(lang, "test")
         assert f"<b>{len(lines)}</b>" in page and "lines 1–4" in page
+
+
+def test_the_language_check_addendum_numbers_on_from_the_sheet_already_sent():
+    import subprocess
+
+    import pytest
+
+    from teesrakaan.strings import REPO, collect, collect_since, to_html
+
+    first_sheet = "648a81c"  # the sheets sent for checking were made at this commit: 139 lines each
+    if subprocess.run(["git", "-C", str(REPO), "cat-file", "-e", first_sheet], capture_output=True).returncode:
+        pytest.skip("a copy without the git history")
+    for lang in ("hi", "mr"):
+        lines, sent = collect_since(first_sheet, lang)
+        assert sent == 139
+        assert [line["n"] for line in lines] == list(range(140, 140 + len(lines)))
+        assert {"CALL_NAME", "CALL_LANG"} <= {line["table"] for line in lines}  # the menu's names came after that sheet
+        now = {(line["table"], line["key"]) for line in collect(lang)}
+        assert all((line["table"], line["key"]) in now for line in lines)
+        page = to_html(lang, "test", since=first_sheet)
+        assert f"lines 140–{139 + len(lines)}" in page and "Most important" not in page
