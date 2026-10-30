@@ -112,3 +112,5 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 
 ## Licence
 MIT. The FTC recordings are public domain (NCSU Robocall Audio Dataset); they're fetched by `teesrakaan ftc-fetch`, not stored here.
+
+Not ours, used in the demo video under their licences: narration voiced with **Chatterbox TTS** (Resemble AI, MIT), its built-in voice, not a real person's; music: "Immersed" by **Kevin MacLeod** (incompetech.com), licensed under CC BY 4.0; fonts **Noto Sans, Noto Sans Devanagari, Noto Serif Devanagari** (SIL OFL 1.1).
