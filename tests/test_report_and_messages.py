@@ -123,3 +123,21 @@ def test_every_warning_the_page_can_show_has_a_line_to_record():
                 assert line["level"] == level and line["language"] == lang
                 assert all(line["lines"])
     assert list(lines)[:6] == ["W-red-IN-en", "W-red-IN-hi", "W-red-IN-mr", "W-amber-en", "W-amber-hi", "W-amber-mr"]
+
+
+def test_the_language_check_sheet_has_every_line_spoken_ones_first():
+    from teesrakaan.messages import ACTION, HEADLINE
+    from teesrakaan.signals import Level
+    from teesrakaan.strings import collect, to_html
+
+    for lang in ("hi", "mr"):
+        lines = collect(lang)
+        assert [line["n"] for line in lines] == list(range(1, len(lines) + 1))
+        assert [line["text"] for line in lines[:4]] == [HEADLINE[Level.RED][lang], HEADLINE[Level.AMBER][lang],
+                                                        ACTION[Level.RED][lang], ACTION[Level.AMBER][lang]]
+        assert all(line["en"] and line["text"] for line in lines)
+        assert lines[-1]["us"] and not lines[0]["us"]
+        tables = {line["table"] for line in lines}
+        assert {"NEXT_LINE", "FAMILY", "FACTS", "WHAT_TO_DO", "TEXT"} <= tables
+        page = to_html(lang, "test")
+        assert f"<b>{len(lines)}</b>" in page and "lines 1–4" in page

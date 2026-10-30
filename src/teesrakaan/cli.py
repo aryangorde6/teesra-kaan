@@ -4,10 +4,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import subprocess
 import sys
 from datetime import date
 from pathlib import Path
 
+from . import config
 from .judge import SparkSized
 from .keywords import KeywordJudge
 from .labels import read_labels, split_scripts, write_template
@@ -283,6 +285,17 @@ def cmd_studio(args: argparse.Namespace) -> None:
     uvicorn.run("teesrakaan.web.studio:app", host="127.0.0.1", port=args.port)
 
 
+def cmd_strings(args: argparse.Namespace) -> None:
+    """One page with every Hindi or Marathi line next to its English, for a native speaker to check by number."""
+    from .strings import to_html
+
+    git = subprocess.run(["git", "-C", str(config.REPO_ROOT), "log", "-1", "--format=%h, %ad", "--date=format:%b %d %H:%M"],
+                         capture_output=True, text=True)
+    page = to_html(args.lang, f"commit {git.stdout.strip()}" if git.returncode == 0 else "this copy")
+    Path(args.out).write_text(page, encoding="utf-8")
+    print(f"Wrote {args.out}")
+
+
 def cmd_labels(args: argparse.Namespace) -> None:
     if args.template:
         write_template(args.path)
@@ -377,6 +390,11 @@ def main(argv: list[str] | None = None) -> None:
     p = sub.add_parser("studio", help="record the re-enactments and label them by listening (this laptop only)")
     p.add_argument("--port", type=int, default=8770)
     p.set_defaults(func=cmd_studio)
+
+    p = sub.add_parser("strings", help="a page of every Hindi or Marathi line, for a native speaker to check")
+    p.add_argument("--lang", choices=("hi", "mr"), required=True)
+    p.add_argument("--out", required=True, help="the HTML file to write")
+    p.set_defaults(func=cmd_strings)
 
     p = sub.add_parser("labels", help="check a labelling sheet, or write an empty one")
     p.add_argument("path")
