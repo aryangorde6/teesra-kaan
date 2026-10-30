@@ -13,7 +13,9 @@ cd /opt/teesrakaan
 .venv/bin/pip install --quiet -e '.[web]'
 sudo cp deploy/teesrakaan.service /etc/systemd/system/teesrakaan.service
 sudo cp deploy/Caddyfile /etc/caddy/Caddyfile
-[ -f .env ] || { echo "Put /opt/teesrakaan/.env on the server first (see deploy/README.md)"; exit 1; }
+# The public page has no API key (deploy/README.md, step 7); the file only has to exist for systemd.
+[ -f .env ] || sudo touch .env
+if sudo grep -q '^MODEL_API_KEY=.' .env; then echo "The public page must not have an API key: remove it from /opt/teesrakaan/.env"; exit 1; fi
 sudo chown root:teesrakaan .env && sudo chmod 640 .env
 sudo systemctl daemon-reload
 sudo systemctl enable --now teesrakaan

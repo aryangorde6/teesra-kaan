@@ -9,13 +9,7 @@ Target: `https://teesrakaan.aryangorde.com`, one small server paid from the AWS 
 4. **Elastic IP:** allocate one and associate it with the instance.
 5. **DNS (Hostinger → aryangorde.com → DNS zone):** add an **A record**, name `teesrakaan`, value the Elastic IP, TTL 300. Leave `@` and `www` alone (the portfolio).
 6. **On the server:** `scp deploy/setup-server.sh ubuntu@<ip>:` then `ssh ubuntu@<ip> bash setup-server.sh`.
-7. **The server's `.env`** (typed on the server, never committed): `ssh ubuntu@<ip>`, then `nano /opt/teesrakaan/.env`:
-   ```
-   MODEL_API_KEY=<a separate key for the public page>
-   TEESRAKAAN_ALLOW_PAID=1
-   TEESRAKAAN_BUDGET_META_USD=25
-   ```
-   A separate key makes it easy to revoke after judging. The $25 stop is the public page's own; when it's reached, live listening switches itself off and the demo calls keep working.
+7. **No API key on the server.** The public page plays the demo calls and the "Try an example" checks with Muse Spark's real replies, saved in `examples/spark-replies/`, so it needs no key and can't spend anything. Live listening and "check a call you recorded" say they're switched off there. Typed checks of other text use the keyword stand-in. Paid calls end on Nov 5, 00:00 IST in any case, before judging, so a key on the server would stop working mid-judging. The live features are shown in the video, run from the laptop.
 8. **From the laptop, in `teesra-kaan/`:** `deploy/push.sh ubuntu@<ip>`. Open `https://teesrakaan.aryangorde.com` from a phone.
 
 ## Cost (from the credits)
@@ -26,4 +20,4 @@ Target: `https://teesrakaan.aryangorde.com`, one small server paid from the AWS 
 So about $16 a month while it runs (Nov 1–16), well inside the credits. Set the AWS Budgets alert at $50.
 
 ## After judging (after Nov 16)
-Stop the instance, release the Elastic IP, delete the page's API key on dev.meta.ai, and remove the DNS record.
+Stop the instance, release the Elastic IP, and remove the DNS record.
