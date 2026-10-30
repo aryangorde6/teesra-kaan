@@ -20,7 +20,7 @@ from fastapi.staticfiles import StaticFiles
 
 from .. import config
 from ..asr import REALTIME_URL, handshake
-from ..judge import SPARK_SYSTEM_TYPED_V1, SparkJudge
+from ..judge import FREEFORM_SYSTEM_TYPED_V1, SPARK_SYSTEM_TYPED_V1, CheckedJudge, FreeFormJudge, SparkJudge
 from ..keywords import KeywordJudge
 from ..live import LiveCall
 from ..messages import COUNTRIES, LANGS, SIGNAL_NAME, prediction_events, script_ahead, warning
@@ -153,7 +153,8 @@ def live_judge():
         return KeywordJudge()
     from ..spark import SparkClient
 
-    return SparkJudge(SparkClient(ledger=web_ledger()))
+    client = SparkClient(ledger=web_ledger())
+    return CheckedJudge(SparkJudge(client), FreeFormJudge(client))
 
 
 @app.get("/api/signals")
@@ -241,8 +242,9 @@ def check_said(text: str, lang: str = "en", country: str = "IN", judge=None) -> 
     rules, plus the scam it matches and the rest of its script. It runs on the phone that had the call,
     which live listening can't, so it can be checked before anyone pays."""
     judge = judge or KeywordJudge()
-    if isinstance(judge, SparkJudge):  # a retelling, not the caller's own words
-        judge = dataclasses.replace(judge, system=SPARK_SYSTEM_TYPED_V1)
+    if isinstance(judge, CheckedJudge):  # a retelling, not the caller's own words
+        judge = dataclasses.replace(judge, signs=dataclasses.replace(judge.signs, system=SPARK_SYSTEM_TYPED_V1),
+                                    verdict=dataclasses.replace(judge.verdict, system=FREEFORM_SYSTEM_TYPED_V1))
     call = Call("what-the-caller-said", (Turn(CALLER, 0.0, max(len(text.split()) / 2.5, 1.0), text),), set="typed")
     listener = simulate(call, judge, Timing(check_every=float("inf"))).listener  # one question round, at the end
     found = sorted(listener.found.values(), key=lambda f: f.said_at)

@@ -39,7 +39,7 @@ When the caller says it, the line is ticked: *"The caller just said it: “kisi 
 | 1. Hear | **Muse Voice Transcribe** (realtime, speaker separation, Hindi/Marathi/English bias, scam-term keyword biasing) | Writes the call down as it happens and keeps the two voices apart |
 | 2. Ask | **Muse Spark 1.3** (JSON-schema output) | After each thing the caller says, answers 12 fixed yes/no questions about the caller ("claims to be police?", "asks for an OTP?", "says don't tell family?"), quoting the caller's exact words for every yes |
 | 3. Check | — | Every quote is matched against what the caller actually said; a quote that isn't there is thrown away, so a made-up reason can't raise an alarm |
-| 4. Decide | — | Fixed rules, not the model: two warning signs give a warning; if one is an ask for money, an OTP or PIN, an app or a link, it's red. One sign alone never warns |
+| 4. Decide | **Muse Spark 1.3**, as a check | Fixed rules: a warning needs Spark's overall view of the call (asked in a parallel call) to say "scam" *and* at least one warning sign quoted in the caller's own words. If one is an ask for money, an OTP or PIN, an app or a link, it's red. Spark's view alone never warns, and neither do the signs alone, so a real bank's fraud alert stays quiet |
 | 5. Predict | — | The signs so far are matched against the nine scam scripts; when they agree on the next step, the page shows the caller's next line, and ticks it when it's said |
 | 6. Report | — | At hang-up: the caller's claims with quotes and times, every amount, number and UPI ID mentioned, and what to do next |
 
@@ -72,7 +72,7 @@ AI that spots scam calls is not new. This is what we found, and how Teesra Kaan 
 **How Teesra Kaan differs:**
 - **The next line, live, in Hindi, Marathi and English.** The two papers predict the scammer's next move in research settings (Korean cases with simulations; written scam reports), and neither abstract describes a live tool or an Indian language. Ours comes from fixed scripts out of the advisories, not from a model, which is where PreScam found models weak.
 - **It shows its proof.** Every warning quotes the caller's own words, and a quote the caller never said is thrown away.
-- **Fixed rules decide, not the model,** and one warning sign alone never warns.
+- **The model can't warn on its say-so.** Fixed rules decide, every warning needs a sign quoted in the caller's own words, and Muse Spark's overall view only holds a warning back or confirms it. On the dev set this kept all 12 genuine calls silent.
 - **It's measured** on a test fixed before any result, on real FTC calls and Indian re-enactments, against keyword lists and against Muse Spark asked plainly "is this a scam?".
 - **It works with any call app,** because it listens through the speaker. Digital-arrest callers move people to WhatsApp and Skype video calls, outside a phone maker's own dialer.
 
@@ -91,7 +91,9 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 - Speaker separation labels voices "A" and "B"; the caller is taken to be whoever has said the most so far, which can be wrong in the first seconds.
 - Live listening needs a second device near the call on speaker, because a phone on a call keeps its own microphone. It doesn't intercept calls. On one phone it can only check a call afterwards, from what you type.
 - A warning is advice, not a verdict. The genuine-call set measures how often it warns when it shouldn't.
-- The next line knows only the nine scripts. A new script, or one played in an unusual order, gets no prediction or a wrong one; the test counts both.
+- **A relative asking for money can go red.** On the dev set, a daughter asking her mother for mess fees, who added "I'll video call on Sunday", gave an ask plus one more sign, which the rules make red. Without the caller's history it can't tell a real request from the "Hi Maa, this is my new number" scam. A narrower question was tried and made things worse ([dev-log](docs/dev-log.md), Oct 30).
+- **It hears a turn when the turn ends.** The transcriber says who spoke only at the end of each turn, and nothing is judged before we know it was the caller. A long monologue can delay a warning by up to one turn.
+- The next line knows only the nine scripts. A new script, or one played in an unusual order, gets no prediction or a wrong one; the test counts both. Its dev numbers so far come from written scripts with estimated timings, where the caller often says the next step in the very next breath. How far ahead it is on recorded calls comes from the frozen test.
 
 ## Layout
 | File | What it does |

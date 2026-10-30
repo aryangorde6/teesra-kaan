@@ -97,3 +97,35 @@ One FTC dev robocall (`ftc-0081c9355a`, 34 s) streamed through `teesrakaan trans
   - A label in the middle of a turn splits it.
   - Two new tests cover this. The live one fails on the old code.
 - **The cost:** the judge sees a turn when it ends, not every 6 s within it. For long robocall monologues that delays a warning by up to one turn. Conversations have shorter turns. The FTC dev transcripts measure it.
+
+## Oct 30, 2026, 09:11–09:22 IST: real audio, comparison B, and rules v1.3
+Dev only.
+- **Transcription of the 50 FTC dev calls** (`transcribe-set` on a folder holding only the dev audio, linked by call id): all 50 transcribed, none failed. 19.5 min of speech for about $0.06.
+- **Comparison B on dev** (Spark asked "is this a scam?", no signals, no rules):
+
+| Set | B | C, rules v1.2 | A, keywords |
+|---|---|---|---|
+| IN-scam scripts warned / red | 16/16 / 16/16 | 16/16 / 14/16 | 16/16 / 14/16 |
+| IN-genuine scripts amber or red | **0/12** | 3/12 (1 red) | 0/12 |
+| FTC impersonation warned (real transcripts) | **41/41** | 38/41 | 40/41 |
+| FTC sales warned | 8/8 | 2/8 | 6/8 |
+
+- **What it says:** asked plainly, Spark is a very good detector. On the FTC transcripts B warned about 1 s before C on most calls; C's reply is longer, so it takes longer. B has no quote and no next line, so it can't show why. C's three FTC misses were short robocalls with only one signal each ("we just suspend your social security number… press 1"); C's genuine-call alarms came from family and bank calls with two signals.
+- **Estimated from the saved runs:** requiring B's "scam" plus at least one of C's quoted signals would keep every scam call and none of the genuine ones.
+- **Rules v1.3, so built (Oct 30, ~09:15).** `CheckedJudge` asks Spark both prompts in parallel, each unchanged: the signal questions (prompt v1) and B's question. A warning needs B's "scam" and at least one quoted signal. Red means an ask, or the digital-arrest opening. The overall view is kept apart from the signals: it isn't shown as a sign, has no quote, and isn't counted by metric 7's naive guess. The keyword baseline keeps v1.2, since it has no overall view. Evaluation rule v1.4.
+- **Rules v1.3 on dev** (every Spark reply came from the cache, $0):
+
+| Set | C, rules v1.3 | C, rules v1.2 |
+|---|---|---|
+| IN-scam warned / red | 16/16 / 14/16 | 16/16 / 14/16 |
+| IN-genuine amber or red | **0/12** | 3/12 (1 red) |
+| FTC impersonation warned | **41/41** | 38/41 |
+| FTC sales warned | 8/8 | 2/8 |
+| Next line, IN-scam | 4/17, as before | 4/17 |
+
+  - Time to warning: the same median, 4 calls earlier and 2 later (the latest by 11 s, when B said scam after two signals had already been quoted).
+  - Cost: $0.0179 per minute of audio, against $0.0155 for v1.2 (FTC dev, list prices).
+  - **Demo calls:** the genuine bank alert is now silent (it was amber). The digital arrest is still amber at 18.5 s and red at 45.0 s, the same as v1.2. The Marathi TRAI call is still red.
+  - **Typed check:** the Rajkot retelling and the en/hi/mr examples are still red, with "Transfer the money for verification." next. The typed check has its own B prompt (`FREEFORM_SYSTEM_TYPED_V1`), as it already had for the signals.
+  - **Caveat:** 12 genuine dev calls is a small set (0/12 is 0–24%). The 42 recorded test calls decide.
+- **Live listening end to end:** one FTC dev call streamed at real time through the page's `/ws/live` with the real APIs (the test client, not a browser). Words arrived about 0.3 s behind the audio. The quote was checked, and the call ended with its report.

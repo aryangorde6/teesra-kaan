@@ -12,7 +12,7 @@ from dataclasses import dataclass, field
 
 from .judge import Judge
 from .playbook import Next, predict
-from .signals import SIGNALS, Alarm, Level, Signal, decide
+from .signals import SCAM, SIGNALS, Alarm, Level, Signal, decide
 from .transcript import Transcript
 
 
@@ -54,8 +54,8 @@ class Update:
 @dataclass
 class Listener:
     judge: Judge
-    signals: tuple[Signal, ...] = SIGNALS
-    decide: Callable[[Iterable[str]], Alarm] = decide
+    signals: tuple[Signal, ...] | None = None  # None: the judge's own (CheckedJudge), else SIGNALS
+    decide: Callable[[Iterable[str]], Alarm] | None = None  # None: the judge's own, else rules v1.2
     verify_quotes: bool = True  # off only for comparison B, which answers without quotes
     predict: Callable[[Iterable[str]], Next | None] | None = predict
     transcript: Transcript = field(default_factory=Transcript)
@@ -65,10 +65,17 @@ class Listener:
     rejected: list[tuple[str, str]] = field(default_factory=list)  # (signal, quote) not found in the caller's words
     predictions: list[Prediction] = field(default_factory=list)
     next: Prediction | None = None
+    overall_at: float | None = None  # when Muse Spark's overall view first said "scam" (CheckedJudge, comparison B)
     judge_calls: int = 0
     input_tokens: int = 0
     output_tokens: int = 0
     _checked_at_words: int = -1
+
+    def __post_init__(self) -> None:
+        if self.signals is None:
+            self.signals = getattr(self.judge, "signals", SIGNALS)
+        if self.decide is None:
+            self.decide = getattr(self.judge, "decide", decide)
 
     def hear(self, t: float, speaker: str, word: str) -> None:
         self.transcript.add(t, speaker, word)
@@ -78,7 +85,8 @@ class Listener:
 
     @property
     def open_questions(self) -> tuple[Signal, ...]:
-        return tuple(s for s in self.signals if s.id not in self.found)
+        return tuple(s for s in self.signals
+                     if s.id not in self.found and not (s.id == SCAM.id and self.overall_at is not None))
 
     def check(self, asked_at: float, latency: float | None = None) -> Update | None:
         """Ask the judge about what's been heard. `latency` None means the judge's own: recorded, or measured.
@@ -100,6 +108,9 @@ class Listener:
 
         new = []
         for answer in reply.yes:
+            if answer.id == SCAM.id:  # the overall view: no quote, kept apart from the signals
+                self.overall_at = done_at if self.overall_at is None else self.overall_at
+                continue
             if answer.id in self.found:
                 continue
             said_at = self.transcript.locate(answer.quote) if self.verify_quotes else done_at
@@ -120,7 +131,7 @@ class Listener:
         shown = self.next
         self.next = self._predict(done_at)
 
-        alarm = self.decide(self.found)
+        alarm = self.decide(self.found.keys() | ({SCAM.id} if self.overall_at is not None else set()))
         raised = alarm.level > self.alarm.level
         if alarm.level >= self.alarm.level:
             self.alarm = alarm

@@ -110,3 +110,36 @@ def test_stop_at_red_saves_judge_calls(example):
     assert early.t_red == full.t_red
     assert early.listener.judge_calls < full.listener.judge_calls
     assert early.listener.transcript.n_words == full.listener.transcript.n_words  # the report still gets every word
+
+
+
+def test_the_checked_judge_asks_its_overall_view_once_and_keeps_it_apart():
+    from teesrakaan.judge import CheckedJudge, Completion, FreeFormJudge, SparkJudge
+    from teesrakaan.listener import Listener
+    from teesrakaan.signals import SCAM
+
+    asked = []
+
+    def complete(system, user, schema):
+        asked.append("verdict" if "scam" in schema["properties"] else "signs")
+        if asked[-1] == "verdict":
+            return Completion('{"scam": true}', 100, 5, 0.4)
+        return Completion('{"yes": [{"id": "A1", "quote": "main bank se"}]}', 900, 30, 1.2)
+
+    listener = Listener(CheckedJudge(SparkJudge(complete), FreeFormJudge(complete)))
+    for i, w in enumerate("main bank se bol raha hoon".split()):
+        listener.hear(i * 0.4, "caller", w)
+    update = listener.check(3.0)
+    assert sorted(asked) == ["signs", "verdict"] and update.t == 3.0 + 1.2  # in parallel: the slower one
+    assert listener.alarm.level == Level.AMBER and set(listener.found) == {"A1"} and listener.overall_at == 4.2
+    listener.hear(3.0, "caller", "ji")
+    listener.check(5.0)
+    assert asked.count("verdict") == 1 and SCAM.id not in listener.found
+
+
+def test_the_keyword_baseline_keeps_the_two_signal_rules():
+    from teesrakaan.listener import Listener
+    from teesrakaan.signals import SIGNALS, decide
+
+    listener = Listener(KeywordJudge())
+    assert listener.signals == SIGNALS and listener.decide is decide

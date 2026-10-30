@@ -1,7 +1,8 @@
 """The fixed yes/no questions about the caller, and the rules that turn answers into a warning.
 
-The model never decides whether a call is a scam. It answers these questions,
-quoting the caller, and the rules below decide. See docs/scam-tactics.md.
+The model never warns on its own say-so. It answers these questions, quoting the
+caller, and the rules below decide. Since v1.3, Muse Spark's overall view of the call
+is a check on them: no warning unless it judges the call a scam. See docs/scam-tactics.md.
 """
 
 from __future__ import annotations
@@ -10,7 +11,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass
 from enum import IntEnum
 
-RULES_VERSION = "v1.2 (Oct 28, 2026)"
+RULES_VERSION = "v1.3 (Oct 30, 2026)"
 
 
 @dataclass(frozen=True)
@@ -84,7 +85,8 @@ class Alarm:
 
 
 def decide(yes: Iterable[str]) -> Alarm:
-    """Rules v1.2. Two signals make a warning; if one of them is an ask, it's red.
+    """Rules v1.2, for a judge without an overall view (the keyword baseline). Two signals make
+    a warning; if one of them is an ask, it's red.
 
     - red, "ask": an ask (A5, A6, A7, A11) together with any other signal;
     - red, "digital-arrest opening": authority + threat + isolation (A1 + A2 + A4), before any ask;
@@ -111,3 +113,23 @@ def decide_freeform(yes: Iterable[str]) -> Alarm:
     if SCAM.id in found:
         return Alarm(Level.RED, "free-form", found)
     return Alarm(Level.NONE, "", found)
+
+
+def decide_checked(yes: Iterable[str]) -> Alarm:
+    """Rules v1.3 (Oct 30, 2026), for Muse Spark: its overall view ("SCAM", comparison B's own
+    question and prompt) must say scam, and at least one signal must be quoted in the caller's words.
+
+    - red, "ask": an ask (A5, A6, A7, A11) among them;
+    - red, "digital-arrest opening": authority + threat + isolation (A1 + A2 + A4);
+    - amber, "scam": any other signal;
+    - never on the overall view alone, and never on signals alone.
+    """
+    found = frozenset(yes)
+    signs = found & BY_ID.keys()
+    if SCAM.id not in found or not signs:
+        return Alarm(Level.NONE, "", signs)
+    if signs & ASKS:
+        return Alarm(Level.RED, "ask", signs)
+    if DIGITAL_ARREST_OPENING <= signs:
+        return Alarm(Level.RED, "digital-arrest opening", signs)
+    return Alarm(Level.AMBER, "scam", signs)

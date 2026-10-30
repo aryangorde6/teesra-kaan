@@ -1,6 +1,6 @@
 import pytest
 
-from teesrakaan.signals import ASKS, BY_ID, FLAGS, SIGNALS, Level, decide
+from teesrakaan.signals import ASKS, BY_ID, FLAGS, SCAM, SIGNALS, Level, decide, decide_checked
 
 
 def test_twelve_signals_split_into_asks_and_flags():
@@ -72,3 +72,16 @@ def test_every_documented_pattern_warns_and_goes_red_once_it_asks(pattern):
     assert decide(signals).level >= Level.AMBER
     if ASKS & set(signals):
         assert decide(signals).level == Level.RED
+
+
+
+@pytest.mark.parametrize("sid", [s.id for s in SIGNALS])
+def test_v13_one_quoted_signal_and_sparks_scam_warn(sid):
+    alarm = decide_checked({sid, SCAM.id})
+    assert alarm.level == (Level.RED if sid in ASKS else Level.AMBER) and SCAM.id not in alarm.signals
+
+
+def test_v13_never_on_the_overall_view_alone_nor_on_signals_alone():
+    assert decide_checked({SCAM.id}).level == Level.NONE
+    assert decide_checked({"A1", "A2", "A4", "A6"}).level == Level.NONE  # Spark hasn't said scam
+    assert decide_checked({"A1", "A2", "A4", SCAM.id}).rule == "digital-arrest opening"

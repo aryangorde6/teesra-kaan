@@ -4,7 +4,7 @@ Version 1.2, Oct 28, 2026 (evening; v1 was the same afternoon, see "Changes" at 
 
 ## The signals
 
-Teesra Kaan doesn't ask a model "is this a scam?". After each caller turn, Muse Spark answers a fixed set of yes/no questions about what the caller has said so far, and quotes the words that support each yes. Fixed rules (below) turn those answers into a warning.
+After each caller turn, Muse Spark answers a fixed set of yes/no questions about what the caller has said so far, and quotes the words that support each yes. Fixed rules (below) turn those answers into a warning. Since rules v1.3, Spark's overall view of the call ("is this a scam?", asked in a parallel call) is a check on those rules: it never warns on its own, and nothing warns without it.
 
 | ID | Question about the caller | Example words |
 |---|---|---|
@@ -21,7 +21,14 @@ Teesra Kaan doesn't ask a model "is this a scam?". After each caller turn, Muse 
 | **A11 PIN to receive** | Says you must enter a UPI PIN or approve a request to *receive* money? | "PIN daalo, paise aa jayenge" |
 | **A12 Windfall** | Says you've won a prize, lottery, cashback or refund, qualify for a special discount, rate cut, loan or relief payment, or that money was sent to you by mistake? | "aapne KBC lottery jeeti hai", "galti se paise aa gaye", "you qualify for 50% off" |
 
-**Alarm rules v1.2** (tuned on the development set only, then frozen; see `evaluation-rule.md`). In one line: **two signals make a warning; if one of them is an ask, it's red.**
+**Alarm rules v1.3** (Oct 30, 2026; tuned on the development set only, then frozen; see `evaluation-rule.md`). In one line: **Muse Spark must judge the call a scam, and at least one signal must be quoted in the caller's own words; if one of them is an ask, it's red.**
+- **Asks** and **flags** as below.
+- **Danger (red):** Spark says scam, and an ask is quoted. Or Spark says scam, and authority plus threat plus isolation (A1 + A2 + A4) are quoted: the "digital arrest" opening.
+- **Caution (amber):** Spark says scam, and any other signal is quoted.
+- **Never on Spark's view alone,** because a warning must show the caller's words. **Never on the signals alone,** because a real bank's fraud alert has authority and alarm in it too.
+- Why it changed: on the dev set, the v1.2 rules below warned on 3 of 12 genuine calls (1 red) and missed 3 of 41 FTC impersonation robocalls that had one signal each. v1.3 warned on 0 of 12 and caught 41 of 41, with the scam calls caught as before ([dev-log](dev-log.md), Oct 30).
+
+**Alarm rules v1.2**, still used by the keyword baseline (comparison A), which has no overall view. In one line: **two signals make a warning; if one of them is an ask, it's red.**
 - **Asks** are A5, A6, A7 and A11: the caller wants secrets, money, control or a PIN. **Flags** are the other eight: pressure (A1–A4) and the scam's props (A8–A10, A12).
 - **Danger (red):** an ask together with any other signal.
 - **Danger (red), before any ask:** authority plus threat plus isolation (A1 + A2 + A4). That's the "digital arrest" opening, which moves to money later.

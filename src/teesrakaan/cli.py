@@ -42,7 +42,12 @@ def _run(name: str):
     if name == "B":
         return FreeFormJudge(SparkClient()), {"signals": (SCAM,), "decide": decide_freeform, "verify_quotes": False}, False
     if name in ("C", "C-no-speakers"):
-        return SparkJudge(SparkClient()), {}, name == "C-no-speakers"
+        from .judge import CheckedJudge
+
+        client = SparkClient()
+        return CheckedJudge(SparkJudge(client), FreeFormJudge(client)), {}, name == "C-no-speakers"
+    if name == "C-v1.2":  # dev only: Spark's signals with the two-signal rules, as before Oct 30
+        return SparkJudge(SparkClient()), {}, False
     raise SystemExit(f"unknown run {name!r}; one of {RUNS}")
 
 

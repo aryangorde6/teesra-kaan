@@ -14,7 +14,7 @@ It replies with JSON that lists only the "yes" answers, each with a quote:
 ```
 
 ## Why it's built this way
-- **The model answers, the rules decide.** Spark is good at "did the caller ask for an OTP, in any language or wording?" and shouldn't be trusted with "is this a scam?". The rules in [`signals.py`](../src/teesrakaan/signals.py) are short enough to print on the screen.
+- **The model answers, the rules decide.** Spark is good at "did the caller ask for an OTP, in any language or wording?". Its answer to "is this a scam?" can't be shown as proof, so since rules v1.3 it's only a check: comparison B's prompt is asked in a parallel call, and a warning needs it to say "scam" *and* at least one quoted signal. On dev that removed every false alarm on genuine calls without losing a scam call ([dev-log](dev-log.md), Oct 30). The rules in [`signals.py`](../src/teesrakaan/signals.py) are short enough to print on the screen.
 - **Every "yes" must quote the caller,** and the code checks the quote against the caller's own words before it counts ([`listener.py`](../src/teesrakaan/listener.py)). A quote that isn't there, or that only the listener said, is dropped and logged. So a warning can always show the exact words, with the second they were said, and a hallucinated reason can't raise an alarm.
 - **Listing only "yes" answers** keeps the output to a few dozen tokens, which keeps latency and cost down.
 - **Negation is called out** in the prompt ("we never ask for your OTP" isn't asking), because it's exactly where the keyword baseline fails (see the test `test_keyword_baseline_is_fooled_by_negation`).

@@ -127,7 +127,7 @@ def test_live_switches_itself_off_when_the_budget_is_spent(monkeypatch):
 
 def test_signals_endpoint_lists_the_twelve_questions():
     data = client.get("/api/signals").json()
-    assert len(data["signals"]) == 12 and data["rules_version"].startswith("v1.2")
+    assert len(data["signals"]) == 12 and data["rules_version"].startswith("v1.3")
     assert {"en", "hi", "mr"} <= data["signals"][0]["name"].keys()
 
 
@@ -243,17 +243,22 @@ def test_live_words_wait_for_their_speaker():
     assert [e["t"] for e in out if e["type"] == "word"][:2] == [0.5, 0.5]
 
 def test_a_typed_retelling_is_judged_as_one_with_spark():
-    """Spark reads typed text as the listener's account; the evaluation's call prompt stays as it was."""
-    from teesrakaan.judge import SPARK_SYSTEM_TYPED_V1, SPARK_SYSTEM_V1, Completion, SparkJudge
+    """Spark reads typed text as the listener's account; the evaluation's call prompts stay as they were."""
+    from teesrakaan.judge import (FREEFORM_SYSTEM_TYPED_V1, FREEFORM_SYSTEM_V1, SPARK_SYSTEM_TYPED_V1,
+                                  SPARK_SYSTEM_V1, CheckedJudge, Completion, FreeFormJudge, SparkJudge)
     from teesrakaan.web.app import check_said
 
     systems = []
 
     def complete(system, user, schema):
         systems.append(system)
+        if system == FREEFORM_SYSTEM_TYPED_V1:
+            return Completion('{"scam": true}', 300, 5, 0.5)
         return Completion('{"yes": [{"id": "A1", "quote": "Mumbai Police officer called me"}]}', 900, 40, 1.0)
 
-    judge = SparkJudge(complete)
+    judge = CheckedJudge(SparkJudge(complete), FreeFormJudge(complete))
     out = check_said("A Mumbai Police officer called me on WhatsApp.", "en", "IN", judge)
-    assert systems == [SPARK_SYSTEM_TYPED_V1] and judge.system == SPARK_SYSTEM_V1
+    assert sorted(systems) == sorted([SPARK_SYSTEM_TYPED_V1, FREEFORM_SYSTEM_TYPED_V1])
+    assert judge.signs.system == SPARK_SYSTEM_V1 and judge.verdict.system == FREEFORM_SYSTEM_V1
     assert out["judge"] == "Muse Spark" and [s["id"] for s in out["signals"]] == ["A1"]
+    assert out["warning"]["level"] == "amber"  # Spark says scam, and one signal is quoted

@@ -166,13 +166,20 @@ FREEFORM_SCHEMA_V1 = {
 }
 
 
+# "Check before you pay": the overall view of a typed retelling, as SPARK_SYSTEM_TYPED_V1 is for the signals.
+FREEFORM_SYSTEM_TYPED_V1 = """Someone in India got a phone call and afterwards wrote down what the CALLER said and did, in their own words. The account may be in Hindi, Marathi, English or a mix.
+Was this call a scam? Answer only from what the account reports.
+Reply with JSON only: {"scam": true or false}"""
+
+
 @dataclass
 class FreeFormJudge:
     complete: Complete
     name: str = "muse-spark-1.3 free-form"
+    system: str = FREEFORM_SYSTEM_V1
 
     def ask(self, questions: Sequence[Signal], transcript: Transcript) -> Reply:
-        done = self.complete(FREEFORM_SYSTEM_V1, f"TRANSCRIPT SO FAR:\n{transcript.dialogue()}", FREEFORM_SCHEMA_V1)
+        done = self.complete(self.system, f"TRANSCRIPT SO FAR:\n{transcript.dialogue()}", FREEFORM_SCHEMA_V1)
         text = re.sub(r"^```(?:json)?|```$", "", done.text.strip(), flags=re.MULTILINE).strip()
         try:
             scam = json.loads(text[text.find("{"):]).get("scam") is True
@@ -180,3 +187,39 @@ class FreeFormJudge:
             return Reply([], done.input_tokens, done.output_tokens, "reply was not the expected JSON", done.latency)
         yes = [Answer("SCAM", "")] if scam else []
         return Reply(yes, done.input_tokens, done.output_tokens, "", done.latency)
+
+
+@dataclass
+class CheckedJudge:
+    """Teesra Kaan's judge since rules v1.3: Muse Spark answers the signal questions (prompt v1) and,
+    in a parallel call, gives its overall view of the call (comparison B's prompt). Both prompts are
+    unchanged; the rules (signals.decide_checked) need both a "scam" and a quoted signal. Once the
+    overall view has said scam it isn't asked again."""
+
+    signs: SparkJudge
+    verdict: FreeFormJudge
+    name: str = "muse-spark-1.3 checked"
+
+    @property
+    def signals(self) -> tuple[Signal, ...]:
+        from .signals import SCAM, SIGNALS
+
+        return SIGNALS + (SCAM,)
+
+    @property
+    def decide(self):
+        from .signals import decide_checked
+
+        return decide_checked
+
+    def ask(self, questions: Sequence[Signal], transcript: Transcript) -> Reply:
+        from concurrent.futures import ThreadPoolExecutor
+
+        signs = [q for q in questions if q.id != "SCAM"]
+        with ThreadPoolExecutor(2) as pool:
+            overall = pool.submit(self.verdict.ask, (), transcript) if len(signs) < len(questions) else None
+            a = self.signs.ask(signs, transcript) if signs else Reply([], 0, 0, "", 0.0)
+            b = overall.result() if overall else Reply([], 0, 0, "", 0.0)
+        latencies = [r.latency for r in (a, b) if r.latency is not None]
+        return Reply(a.yes + b.yes, a.input_tokens + b.input_tokens, a.output_tokens + b.output_tokens,
+                     "; ".join(n for n in (a.note, b.note) if n), max(latencies) if latencies else None)

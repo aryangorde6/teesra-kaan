@@ -64,9 +64,9 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
   **Then each test set is run once and reported as it comes out.** A fix after the freeze is reported as an extra "after freeze" row and never replaces the frozen row.
 
 ## Comparisons (on test, same run, after the freeze)
-- **A. Keyword baseline:** the fixed keyword lists in `src/teesrakaan/keywords.py` answer the same signal questions, and the same rules decide. No Muse Spark. So A vs C measures what Spark adds, nothing else.
+- **A. Keyword baseline:** the fixed keyword lists in `src/teesrakaan/keywords.py` answer the same signal questions, and rules v1.2 decide (two signals warn), since keywords can't give an overall view. No Muse Spark. So A vs C measures what Spark adds: its answers and its overall view.
 - **B. Muse Spark free-form:** "Is this call a scam? yes/no" after each turn.
-- **C. Teesra Kaan:** Spark's yes/no signal questions plus fixed rules.
+- **C. Teesra Kaan:** Spark's yes/no signal questions, each quoted and checked, plus fixed rules (v1.3), which also need B's answer to be "scam". So B vs C shows what the quoted signals cost or save against Spark's view alone.
 - **Ablations of C:**
   - without speaker separation;
   - without the language hint;
@@ -100,3 +100,4 @@ One command runs every set, comparison and ablation from the cached transcripts 
 - **v1.3.1, Oct 29, 2026 (01:21 IST), before any evaluation call had been run:** the naive guess of metric 7 written out exactly as `metrics.py` computes it (it had said "the signal most often still unsaid"). Nothing else changed.
 - **Oct 29, 2026, 01:40 IST:** the times of v1.3 and v1.3.1 corrected to their commit times (they had been written as 22:50 and 01:30). No rule changed.
 - **v1.3.2, Oct 29, 2026 (14:19 IST), before any paid call had been made:** the budget stop lowered from $120 to $100, so $50 of the credits is never touched and the card is never charged. Paid calls also need a recent reading of Meta's own meter. Nothing about the calls, labels, metrics or comparisons changed.
+- **v1.4, Oct 30, 2026 (09:25 IST), before the freeze, on dev only:** comparison C now uses rules v1.3 (`scam-tactics.md`): a warning needs Muse Spark's overall view, asked with comparison B's own prompt in a parallel call, to say "scam", plus at least one signal quoted in the caller's words. Both prompts are unchanged; only the rule combining them is new. Comparison A keeps rules v1.2. Why: on dev, v1.2 warned on 3 of 12 genuine calls (1 red) and missed 3 of 41 FTC impersonation calls; v1.3 warned on 0 of 12 and caught 41 of 41 ([dev-log.md](dev-log.md), Oct 30). No test call had been run or opened. Nothing else changed.
