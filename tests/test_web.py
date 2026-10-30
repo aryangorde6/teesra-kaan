@@ -286,3 +286,13 @@ def test_a_demo_call_without_saved_replies_falls_back_to_keywords(example, tmp_p
     monkeypatch.setattr(web, "DEMO_REPLIES", tmp_path)
     events = web.demo_events_or_keywords(example("demo-digital-arrest"), "en", "IN")
     assert events[0][1]["call"]["judge"] == "keyword stand-in (no model)"
+
+
+def test_try_an_example_replays_muse_spark_without_a_key():
+    from teesrakaan.web.app import example_texts
+
+    for lang, text in example_texts().items():
+        out = client.post(f"/api/said?lang={lang}", json={"text": text}).json()
+        assert out["judge"] == "Muse Spark" and out["warning"]["level"] == "red", lang
+    out = client.post("/api/said?lang=en", json={"text": "He said he is from the CBI and I must not tell anyone."}).json()
+    assert out["judge"] == "keyword stand-in (no model)"  # no saved reply for other text

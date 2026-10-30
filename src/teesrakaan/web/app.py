@@ -67,8 +67,17 @@ def _audio(call_id: str) -> str | None:
     return None
 
 
-# Muse Spark's real replies for the demo calls, saved once (`teesrakaan demo-replies`) and committed.
+# Muse Spark's real replies for the demo calls and the page's typed examples, saved once
+# (`teesrakaan demo-replies`) and committed.
 DEMO_REPLIES = DEMO_CALLS.parent / "spark-replies"
+
+
+def example_texts() -> dict[str, str]:
+    """The "Try an example" text of each language, as the page has it."""
+    import re
+
+    js = (Path(__file__).parent / "static" / "app.js").read_text(encoding="utf-8")
+    return dict(zip(LANGS, re.findall(r'example_text: "([^"]+)"', js)))
 
 
 def demo_judge():
@@ -288,8 +297,12 @@ async def said(request: Request) -> dict:
         text = ""
     if not text or len(text) > MAX_SAID_CHARS:
         raise HTTPException(400, f"Write what the caller said, up to {MAX_SAID_CHARS} characters.")
-    judge = live_judge() if live_available() else KeywordJudge()
-    return await asyncio.to_thread(check_said, text, lang, country, judge)
+    if live_available():
+        return await asyncio.to_thread(check_said, text, lang, country, live_judge())
+    try:  # the page's own examples have saved Muse Spark replies; anything else gets the keyword stand-in
+        return await asyncio.to_thread(check_said, text, lang, country, demo_judge())
+    except LookupError:
+        return await asyncio.to_thread(check_said, text, lang, country, KeywordJudge())
 
 
 @app.websocket("/ws/live")

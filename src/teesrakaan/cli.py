@@ -217,7 +217,7 @@ def cmd_demo_replies(args: argparse.Namespace) -> None:
 
     from .judge import CheckedJudge, FreeFormJudge, SparkJudge
     from .spark import SparkClient
-    from .web.app import DEMO_REPLIES, _demo_calls, demo_events
+    from .web.app import DEMO_REPLIES, _demo_calls, check_said, demo_events, example_texts
 
     used: set[Path] = set()
 
@@ -233,6 +233,8 @@ def cmd_demo_replies(args: argparse.Namespace) -> None:
         events = demo_events(call, "en", judge=judge)
         levels = [e["warning"]["level"] for _, e in events if e["type"] == "alarm"]
         print(f"{call.id}: {' -> '.join(levels) or 'no warning'}")
+    for lang, text in example_texts().items():
+        print(f"example ({lang}): {check_said(text, lang, 'IN', judge)['warning']['level']}")
     if DEMO_REPLIES.exists():
         shutil.rmtree(DEMO_REPLIES)
     for path in sorted(used):
