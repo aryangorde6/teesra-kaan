@@ -28,7 +28,9 @@ Labels for donated real calls live in `private/` with the audio, never in the re
 The checker refuses a sheet when: an IN scam call has no `t0`; a genuine call has a `t0` or `t_ask`; `t_ask` comes before `t0`; an FTC row has no `ftc_class`; a split isn't `dev` or `test`; `labelled_at` is empty; or a `call_id` repeats.
 
 ## How to mark the times
-1. Play the call from the start, with the waveform visible (Audacity, or any player that shows seconds).
+The studio (`teesrakaan studio`, [recording.md](recording.md)) does steps 1, 4 and 5 for you and writes `data/labels-in.csv`; the rules are the same.
+
+1. Play the call from the start, with the waveform visible (the studio, Audacity, or any player that shows seconds).
 2. **`t0`:** stop at the first word of the first scam move. "Main CBI se bol raha hoon" → the time of "Main". Greetings and "am I speaking to…" don't count.
 3. **`t_ask`:** the first word of the sentence that asks. "Verification ke liye paise transfer kariye" → the time of "Verification".
 4. Round to the nearest half second. Write what you hear; if unsure, write the earlier time and a note.

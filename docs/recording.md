@@ -1,6 +1,6 @@
 # Recording the re-enactments
 
-Version 1, Oct 28, 2026. How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
+Version 1.1, Oct 30, 2026 (the studio). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
 
 ## Who records what
 - **Scripts:** [`eval/scripts/in-scam.json`](../eval/scripts/in-scam.json) (40) and [`in-genuine.json`](../eval/scripts/in-genuine.json) (30). The dev/test split is fixed in [`eval/scripts/split.csv`](../eval/scripts/split.csv) (28 dev, 42 test).
@@ -11,9 +11,21 @@ Version 1, Oct 28, 2026. How the IN-scam and IN-genuine calls are recorded, so t
 ## Setup (about 2 minutes per call)
 1. Two phones. The "caller" phones the "listener".
 2. The listener puts the call **on speaker** and lays the phone on a table.
-3. A laptop or a third phone, about an arm's length away, **records the room** (Audacity, or any voice recorder). This is what Teesra Kaan will hear.
+3. A laptop, about an arm's length away, **records the room** with the studio (below). This is what Teesra Kaan will hear.
 4. A normal room: fan on is fine, no music.
 5. Start the recording, then dial. Stop the recording after the call ends.
+
+## The studio (one command, on the laptop that records)
+```bash
+.venv/bin/teesrakaan studio      # open http://127.0.0.1:8770
+```
+- It shows the cards one at a time, dev first, with each card's status (to record, recorded, labelled).
+- **Record:** type the voices' initials, tick consent, press *Start recording*, dial, press *Stop* after the call ends, listen back, then *Save this take*. It saves `data/recordings/<split>/<ID>.wav`, using the same microphone settings as the live page. Recording a card again moves the old take to `data/recordings/replaced/` and clears its label.
+- **Label:** click the waveform or play the take, then *Mark here* (or press <kbd>T</kbd>) at the first word of the first scam move, and again (<kbd>A</kbd>) at the first word of the ask. Nudge by half a second, then *Save label*. The row goes to `data/labels-in.csv`, rounded to half seconds and checked with the same rules as `teesrakaan labels`. Set, split, pattern and languages come from the script, never typed.
+- It never transcribes or judges a call, so a label is always made before the system's output on that call has been seen, and test recordings aren't sent anywhere before the freeze.
+- It opens only on this laptop (127.0.0.1) and isn't part of the hosted page.
+
+Audacity or a phone's voice recorder still work: save the file as below and fill the sheet by hand ([labelling.md](labelling.md)).
 
 ## Acting
 - Read the card once. Then **say each line in your own words**, in order. Don't read word for word: real callers don't, and a test that only works on the script's exact words is worthless.
@@ -24,7 +36,8 @@ Version 1, Oct 28, 2026. How the IN-scam and IN-genuine calls are recorded, so t
 ## Files
 - Name each file by its script ID: `IS07.m4a`, `IG21.wav`.
 - Put dev recordings in `data/recordings/dev/` and test recordings in `data/recordings/test/` (both gitignored).
-- After each session, fill the labelling sheet for the **dev** calls ([labelling.md](labelling.md)): `t0` and `t_ask` by listening. Test calls are labelled the same way, by Aryan, any time before the test run.
+- After each session, label the **dev** calls ([labelling.md](labelling.md)): `t0` and `t_ask` by listening, in the studio or by hand. Test calls are labelled the same way, by Aryan, any time before the test run.
+- The studio also logs who spoke on each take, and whether they agreed to publication, in `data/recordings/voices.csv` (never committed).
 
 ## Consent (each voice, once, in writing; a WhatsApp message is fine)
 > I agree that my voice, in re-enacted calls for the Teesra Kaan project, may be used to test the system and may be shown in its demo video. The calls are acted from scripts; they are not real.

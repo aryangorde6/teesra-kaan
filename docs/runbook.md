@@ -18,6 +18,7 @@ Then one dev re-enactment through `teesrakaan transcribe` and look at the saved 
 - **Pacing:** close code `1008` means the audio arrived slower than real time or ran ahead; `1013` is a rate limit.
 
 ## 2. Transcribe each set once (about $0.18 per hour of audio)
+Re-enactments are recorded and labelled in `teesrakaan studio` ([recording.md](recording.md)); labels go to `data/labels-in.csv` before any run.
 ```bash
 .venv/bin/teesrakaan transcribe-set data/ftc/audio --out data/transcripts/ftc
 .venv/bin/teesrakaan transcribe-set data/recordings/dev --out data/transcripts/in-dev

@@ -275,6 +275,14 @@ def cmd_serve(args: argparse.Namespace) -> None:
     uvicorn.run("teesrakaan.web.app:app", host=args.host, port=args.port)
 
 
+def cmd_studio(args: argparse.Namespace) -> None:
+    """Local only: the studio refuses any client but this laptop, so it never binds beyond loopback."""
+    import uvicorn
+
+    print(f"Recording studio: http://127.0.0.1:{args.port}  (recordings go to data/recordings/, labels to data/labels-in.csv)")
+    uvicorn.run("teesrakaan.web.studio:app", host="127.0.0.1", port=args.port)
+
+
 def cmd_labels(args: argparse.Namespace) -> None:
     if args.template:
         write_template(args.path)
@@ -365,6 +373,10 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--host", default="127.0.0.1")
     p.add_argument("--port", type=int, default=8000)
     p.set_defaults(func=cmd_serve)
+
+    p = sub.add_parser("studio", help="record the re-enactments and label them by listening (this laptop only)")
+    p.add_argument("--port", type=int, default=8770)
+    p.set_defaults(func=cmd_studio)
 
     p = sub.add_parser("labels", help="check a labelling sheet, or write an empty one")
     p.add_argument("path")

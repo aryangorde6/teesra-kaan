@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teesra Kaan Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/studio.css">
+</head>
+<body>
+  <div class="studio">
+    <header class="top">
+      <div>
+        <h1><span class="deva">तीसरा कान</span> · Studio</h1>
+        <p class="muted">Record each re-enactment, then mark its times by listening. Only on this laptop; nothing here is sent anywhere.</p>
+      </div>
+      <p id="progress" class="progress"></p>
+    </header>
+
+    <nav class="list" aria-label="Cards">
+      <div class="filters" role="radiogroup" aria-label="Split">
+        <button role="radio" data-split="dev" aria-checked="true">Dev</button>
+        <button role="radio" data-split="test" aria-checked="false">Test</button>
+      </div>
+      <ol id="cards"></ol>
+    </nav>
+
+    <main id="card" class="card-view">
+      <p class="muted">Loading the cards…</p>
+    </main>
+  </div>
+
+  <template id="card-tpl">
+    <section class="panel script">
+      <h2 class="title"></h2>
+      <p class="roles muted"></p>
+      <ol class="lines"></ol>
+      <p class="muted small">Say each line in your own words, in order. Keep the made-up names, numbers and amounts.</p>
+    </section>
+
+    <section class="panel record">
+      <h3>1 · Record</h3>
+      <ol class="steps small">
+        <li>The caller phones the listener; the listener puts the call <b>on speaker</b> on the table.</li>
+        <li>Keep this laptop about an arm's length from that phone. Fan on is fine; no music.</li>
+        <li>Press <b>Start recording</b>, then dial. Press <b>Stop</b> after the call ends.</li>
+      </ol>
+      <div class="consent">
+        <label>Voices (initials) <input class="voices" placeholder="AG, PG" autocomplete="off"></label>
+        <label class="check"><input type="checkbox" class="consent-box"> Every voice on this call agreed in writing, with the note in docs/recording.md</label>
+        <label class="check"><input type="checkbox" class="publish-box"> They also agreed it may be published as test data</label>
+      </div>
+      <div class="rec-row">
+        <button class="rec-btn">Start recording</button>
+        <span class="timer">0:00</span>
+        <span class="meter" aria-hidden="true"><span></span></span>
+      </div>
+      <div class="take" hidden>
+        <audio class="take-audio" controls></audio>
+        <div class="row">
+          <button class="save-take primary">Save this take</button>
+          <button class="discard">Discard</button>
+        </div>
+      </div>
+      <p class="rec-status small" role="status"></p>
+    </section>
+
+    <section class="panel label" hidden>
+      <h3>2 · Label by listening</h3>
+      <p class="hint small"></p>
+      <canvas class="wave" height="120"></canvas>
+      <audio class="label-audio" controls preload="auto"></audio>
+      <div class="marks"></div>
+      <div class="row wrap">
+        <label>Labeller <input class="labeller" size="5" placeholder="AG" autocomplete="off"></label>
+        <label class="grow">Notes <input class="notes" placeholder="bad audio, cut off, two patterns…" autocomplete="off"></label>
+      </div>
+      <div class="row">
+        <button class="save-label primary">Save label</button>
+        <span class="label-status small" role="status"></span>
+      </div>
+      <p class="muted small">Keys: <kbd>Space</kbd> play or pause · <kbd>←</kbd> <kbd>→</kbd> half a second · <kbd>T</kbd> mark t0 · <kbd>A</kbd> mark the ask.</p>
+    </section>
+  </template>
+
+  <script src="/static/studio.js"></script>
+</body>
+</html>
