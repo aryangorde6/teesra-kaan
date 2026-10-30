@@ -5,7 +5,15 @@ const UI = {
     tagline: "The third ear on a scam call",
     start: "Start listening",
     stop: "Stop listening",
-    live_soon: "The live microphone connects with the speech API.",
+    hero: "Teesra Kaan listens to a call on speaker. It warns you in the caller's own words, and shows his next line before he says it.",
+    watch: "Watch a scam call",
+    watch_hint: "A \"digital arrest\" call, acted from a script. Watch for the caller's next line.",
+    live_off: "Live listening is off on this public page: it uses paid speech and model APIs. The demo calls replay Muse Spark's real answers.",
+    back: "← Back",
+    typed: "Checked what you typed",
+    waiting: "Listening for warning signs. Nothing suspicious yet.",
+    calm_end: "Call ended. No warning: this call didn't look like a scam.",
+    calm_signs: (n) => `It heard ${n} warning sign${n === 1 ? "" : "s"}, but the call as a whole didn't look like a scam, so it stayed quiet.`,
     live_on: "Open this page on a second phone or laptop: the phone on the call keeps its own microphone. Put the call on speaker next to it, then tap Start.",
     silent: "Hearing nothing. If the call is on this phone, open this page on another phone or laptop.",
     demo: "Play a demo call",
@@ -50,7 +58,15 @@ const UI = {
     tagline: "स्कैम कॉल पर तीसरा कान",
     start: "सुनना शुरू करें",
     stop: "सुनना बंद करें",
-    live_soon: "लाइव माइक स्पीच API जुड़ने पर चालू होगा।",
+    hero: "तीसरा कान स्पीकर पर चल रहा कॉल सुनता है। यह कॉल करने वाले के अपने शब्दों में चेतावनी देता है, और उसकी अगली बात उसके बोलने से पहले दिखाता है।",
+    watch: "एक स्कैम कॉल देखें",
+    watch_hint: "स्क्रिप्ट से अभिनय किया गया \"डिजिटल अरेस्ट\" कॉल। कॉल करने वाले की अगली बात पर नज़र रखें।",
+    live_off: "इस सार्वजनिक पेज पर लाइव सुनना बंद है: इसमें पेड स्पीच और मॉडल API लगते हैं। डेमो कॉल Muse Spark के असली जवाब दोबारा चलाते हैं।",
+    back: "← वापस",
+    typed: "आपने जो लिखा, उसकी जाँच",
+    waiting: "चेतावनी के संकेत सुन रहा है। अभी तक कुछ संदिग्ध नहीं।",
+    calm_end: "कॉल खत्म। कोई चेतावनी नहीं: यह कॉल स्कैम नहीं लगा।",
+    calm_signs: (n) => `${n} चेतावनी के संकेत सुने, पर पूरा कॉल स्कैम नहीं लगा, इसलिए चुप रहा।`,
     live_on: "यह पेज किसी दूसरे फ़ोन या लैपटॉप पर खोलें: जिस फ़ोन पर कॉल चल रहा है, वह अपना माइक नहीं देता। कॉल को स्पीकर पर इसके पास रखें, फिर शुरू करें दबाएँ।",
     silent: "कुछ सुनाई नहीं दे रहा। अगर कॉल इसी फ़ोन पर है, तो यह पेज किसी दूसरे फ़ोन या लैपटॉप पर खोलें।",
     demo: "डेमो कॉल चलाएँ",
@@ -95,7 +111,15 @@ const UI = {
     tagline: "फसवणुकीच्या कॉलवर तिसरा कान",
     start: "ऐकायला सुरुवात करा",
     stop: "ऐकणे थांबवा",
-    live_soon: "स्पीच API जोडल्यावर लाइव्ह माइक सुरू होईल.",
+    hero: "तिसरा कान स्पीकरवरचा कॉल ऐकतो. तो फोन करणाऱ्याच्या स्वतःच्या शब्दांत इशारा देतो, आणि त्याचं पुढचं वाक्य तो बोलण्याआधीच दाखवतो.",
+    watch: "एक फसवणुकीचा कॉल पाहा",
+    watch_hint: "स्क्रिप्टवरून अभिनय केलेला \"डिजिटल अरेस्ट\" कॉल. फोन करणाऱ्याच्या पुढच्या वाक्याकडे लक्ष ठेवा.",
+    live_off: "या सार्वजनिक पेजवर लाइव्ह ऐकणे बंद आहे: त्यासाठी सशुल्क स्पीच आणि मॉडेल API लागतात. डेमो कॉल Muse Spark ची खरी उत्तरे पुन्हा चालवतात.",
+    back: "← मागे",
+    typed: "तुम्ही लिहिलेल्याची तपासणी",
+    waiting: "धोक्याची चिन्हे ऐकत आहे. अजून काही संशयास्पद नाही.",
+    calm_end: "कॉल संपला. इशारा नाही: हा कॉल फसवणुकीचा वाटला नाही.",
+    calm_signs: (n) => `${n} धोक्याची चिन्हे ऐकली, पण पूर्ण कॉल फसवणुकीचा वाटला नाही, म्हणून तो शांत राहिला.`,
     live_on: "हे पेज दुसऱ्या फोनवर किंवा लॅपटॉपवर उघडा: ज्या फोनवर कॉल चालू आहे तो आपला माइक देत नाही. कॉल स्पीकरवर याच्या जवळ ठेवा, मग सुरू करा दाबा.",
     silent: "काहीच ऐकू येत नाही. कॉल याच फोनवर असेल, तर हे पेज दुसऱ्या फोनवर किंवा लॅपटॉपवर उघडा.",
     demo: "डेमो कॉल चालवा",
@@ -231,6 +255,7 @@ function clock(s) {
 }
 
 function reset() {
+  if (state) { clearInterval(state.timer); state.pending.forEach(clearTimeout); }
   $("#transcript").innerHTML = "";
   $("#signals").innerHTML = "";
   $("#alert").hidden = true;
@@ -248,7 +273,44 @@ function reset() {
   document.querySelectorAll(".timeline .mark").forEach((m) => m.remove());
   $("#legend").innerHTML = "";
   $("#lead").textContent = "";
-  state = { call: null, line: null, speaker: null, started: 0, timer: null, report: "" };
+  $("#engine").textContent = "";
+  $("#status").className = "status";
+  $("#status").textContent = "";
+  $("#waiting").className = "waiting";
+  $("#waiting .waiting-text").dataset.t = "waiting";
+  $("#waiting .waiting-text").textContent = t("waiting");
+  $("#waiting .waiting-why").textContent = "";
+  state = { call: null, line: null, speaker: null, started: 0, timer: null, pending: [], report: "" };
+  updateWaiting();
+}
+
+// The call screen: everything else steps aside, so the warning and the next line are what's on screen.
+function enterCall(kind) {
+  document.body.classList.add("in-call");
+  document.body.classList.toggle("typed", kind === "typed");
+  setBack(kind === "live" ? "stop" : "back");
+  window.scrollTo(0, 0);
+}
+
+function goHome() {
+  if (mic && socket && socket.readyState === 1) socket.send(JSON.stringify({ type: "stop" }));
+  stopMic();
+  if (player) { player.pause(); player = null; }
+  if (socket) { socket.close(); socket = null; }
+  reset();
+  document.body.classList.remove("in-call", "typed");
+  window.scrollTo(0, 0);
+}
+
+function setBack(key) {
+  const b = $("#back");
+  b.dataset.t = key;
+  b.textContent = (key === "stop" ? "■ " : "") + t(key);
+}
+
+// "Listening, nothing yet" until there's a warning or a next line; a call that ends without one says so.
+function updateWaiting() {
+  $("#waiting").hidden = !($("#alert").hidden && $("#next").hidden && $("#ahead").hidden);
 }
 
 function addWord(e) {
@@ -333,6 +395,7 @@ function showAlarm(e) {
   const family = $("#family");
   family.hidden = !w.family;
   family.href = country === "US" ? `sms:?&body=${encodeURIComponent(w.family)}` : `https://wa.me/?text=${encodeURIComponent(w.family)}`;
+  updateWaiting(); // first, or the "listening" card vanishing above it shifts the warning under the bar mid-scroll
   box.scrollIntoView({ behavior: "smooth", block: "start" });
   if (navigator.vibrate) navigator.vibrate(w.level === "red" ? [300, 120, 300] : 200);
   speak(`${w.headline}. ${w.action}`);
@@ -370,6 +433,13 @@ function finish(e) {
   state.report = e.report_markdown;
   $("#report").textContent = e.report_markdown;
   $("#report-wrap").hidden = false;
+  if ($("#alert").hidden) {
+    $("#waiting").className = "waiting calm";
+    $("#waiting .waiting-text").dataset.t = "calm_end";
+    $("#waiting .waiting-text").textContent = t("calm_end");
+    const n = $("#signals").children.length;
+    $("#waiting .waiting-why").textContent = n ? t("calm_signs")(n) : "";
+  }
 }
 
 function showPartial(e) {
@@ -385,6 +455,7 @@ function play() {
   if (player) { player.pause(); player = null; }
   if (socket) socket.close();
   reset();
+  enterCall("call");
   const id = $("#call").value;
   const speed = new URLSearchParams(location.search).get("speed") || "1";
   socket = new WebSocket(`${proto}://${location.host}/ws/demo?call=${encodeURIComponent(id)}&lang=${lang}&country=${country}&speed=${speed}`);
@@ -395,13 +466,14 @@ async function checkFile(file) {
   stopMic();
   if (socket) socket.close();
   reset();
+  enterCall("call");
   $("#status").textContent = t("checking");
   try {
     const r = await fetch(`/api/check?lang=${lang}&country=${country}`, { method: "POST", body: file });
     const data = await r.json();
     if (!r.ok) throw new Error(data.detail || r.statusText);
     // Replay the result at 4x, so the warning still arrives at the moment it would have.
-    data.events.forEach((e) => setTimeout(() => handle(e, 4), (e.t * 1000) / 4));
+    data.events.forEach((e) => state.pending.push(setTimeout(() => handle(e, 4), (e.t * 1000) / 4)));
   } catch (err) {
     $("#status").textContent = String(err.message || err);
   }
@@ -430,6 +502,7 @@ async function checkSaid() {
   if (player) { player.pause(); player = null; }
   if (socket) socket.close();
   reset();
+  enterCall("typed");
   $("#status").textContent = t("checking_text");
   try {
     const r = await fetch(`/api/said?lang=${lang}&country=${country}`, {
@@ -437,13 +510,13 @@ async function checkSaid() {
     });
     const data = await r.json();
     if (!r.ok) throw new Error(data.detail || r.statusText);
-    $("#status").textContent = "";
+    $("#status").textContent = t("typed");
     $("#engine").textContent = `Judge: ${data.judge}`;
     state.call = { id: "typed" };
     data.signals.forEach(addSignal);
     if (data.warning) showAlarm({ warning: data.warning });
     showAhead(data.ahead);
-    if (!data.warning) $("#ahead").scrollIntoView({ behavior: "smooth", block: "start" });
+    updateWaiting();
     state.report = data.report_markdown;
     $("#report").textContent = data.report_markdown;
     $("#report-wrap").hidden = false;
@@ -460,6 +533,7 @@ async function listen() {
   }
   if (socket) socket.close();
   reset();
+  enterCall("live");
   try {
     const stream = await navigator.mediaDevices.getUserMedia({
       audio: { echoCancellation: false, noiseSuppression: true, autoGainControl: true },
@@ -482,7 +556,6 @@ async function listen() {
     socket.onclose = stopMic;
     mic = { stream, ctx, heardAt: performance.now() };
     mic.quiet = setInterval(() => { $("#silent").hidden = performance.now() - mic.heardAt < 8000; }, 1000);
-    $("#live [data-t]").textContent = t("stop");
   } catch (err) {
     $("#status").textContent = String(err.message || err);
     stopMic();
@@ -496,7 +569,7 @@ function stopMic() {
   clearInterval(mic.quiet);
   $("#silent").hidden = true;
   mic = null;
-  $("#live [data-t]").textContent = t("start");
+  setBack("back");
 }
 
 function handle(e, speed) {
@@ -521,6 +594,7 @@ function handle(e, speed) {
     else if (e.type === "came_true") cameTrue(e);
     else if (e.type === "end") finish(e);
     else if (e.type === "error") $("#status").textContent = e.message;
+    updateWaiting();
 }
 
 async function init() {
@@ -547,17 +621,27 @@ async function init() {
     select.appendChild(o);
   });
   $("#play").addEventListener("click", play);
+  // The hero plays the digital-arrest call: the one where the next line comes true.
+  const hero = calls.find((c) => c.id === "demo-digital-arrest") || calls[0];
+  if (hero) $("#watch-len").textContent = clock(hero.duration);
+  $("#watch").addEventListener("click", () => { if (hero) select.value = hero.id; play(); });
+  $("#back").addEventListener("click", () => {
+    if (mic) { if (socket && socket.readyState === 1) socket.send(JSON.stringify({ type: "stop" })); stopMic(); }
+    else goHome();
+  });
   $("#live").addEventListener("click", listen);
   $("#check").addEventListener("click", checkSaid);
   $("#example").addEventListener("click", () => { $("#said").value = t("example_text"); checkSaid(); });
   try {
     liveAvailable = (await fetch("/api/status").then((r) => r.json())).live;
   } catch (e) {}
-  $("#live").disabled = !liveAvailable;
+  // With live listening on, it leads and the demo steps back; on the public page, the demo leads.
+  $("#live").hidden = !liveAvailable;
+  $("#watch").classList.toggle("quiet", liveAvailable);
   $("#upload").hidden = !liveAvailable;
   $("#file").addEventListener("change", (e) => { if (e.target.files[0]) checkFile(e.target.files[0]); e.target.value = ""; });
   const hint = $("#live-hint");
-  hint.dataset.t = liveAvailable ? "live_on" : "live_soon";
+  hint.dataset.t = liveAvailable ? "live_on" : "live_off";
   hint.textContent = t(hint.dataset.t);
   $("#copy").addEventListener("click", async () => {
     try {

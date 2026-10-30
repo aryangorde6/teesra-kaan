@@ -7,36 +7,41 @@
   <meta name="description" content="A third listener on a scam call: it warns you in your language, with the caller's own words.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Ubuntu+Sans:wdth,wght@75..100,400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css?v=5">
   <link rel="manifest" href="/static/manifest.json">
   <link rel="icon" href="/static/icon-192.png">
-  <meta name="theme-color" content="#2d5b4f">
+  <meta name="theme-color" content="#161311">
 </head>
 <body>
-  <main class="app">
-    <header class="top">
-      <div class="brand">
-        <span class="ear" aria-hidden="true"></span>
-        <div>
-          <h1><span class="deva">तीसरा कान</span> · Teesra Kaan</h1>
-          <p class="tagline" data-t="tagline">The third ear on a scam call</p>
-        </div>
-      </div>
-      <div class="langs" role="radiogroup" aria-label="Language">
-        <button role="radio" data-lang="hi" class="deva">हिंदी</button>
-        <button role="radio" data-lang="mr" class="deva">मराठी</button>
-        <button role="radio" data-lang="en">English</button>
-        <button id="big" class="big-toggle" aria-pressed="false" title="Large text">A+</button>
-      </div>
-    </header>
+  <header class="bar">
+    <div class="brand">
+      <h1><span class="name">Teesra Kaan</span> <span class="deva">तीसरा कान</span></h1>
+      <p class="tagline" data-t="tagline">The third ear on a scam call</p>
+    </div>
+    <button id="big" class="big-toggle" aria-pressed="false" title="Large text">A+</button>
+  </header>
 
-    <section class="controls">
-      <button id="live" class="primary" disabled>
+  <main class="app">
+    <div class="langs home" role="radiogroup" aria-label="Language">
+      <button role="radio" data-lang="hi" class="deva">हिंदी</button>
+      <button role="radio" data-lang="mr" class="deva">मराठी</button>
+      <button role="radio" data-lang="en">English</button>
+    </div>
+
+    <section class="hero home">
+      <p class="hero-line" data-t="hero">Teesra Kaan listens to a call on speaker. It warns you in the caller's own words, and shows his next line before he says it.</p>
+      <button id="live" class="cta" hidden>
         <span class="dot"></span><span data-t="start">Start listening</span>
       </button>
-      <p id="live-hint" class="hint" data-t="live_soon">The live microphone connects with the speech API.</p>
-      <p id="silent" class="hint silent" data-t="silent" hidden>Hearing nothing. If the call is on this phone, open this page on another phone or laptop.</p>
+      <button id="watch" class="cta">
+        <span class="play" aria-hidden="true">▶</span><span data-t="watch">Watch a scam call</span><span id="watch-len" class="len"></span>
+      </button>
+      <p class="hint" data-t="watch_hint">A "digital arrest" call, acted from a script. Watch for the caller's next line.</p>
+      <p id="live-hint" class="hint" data-t="live_off">Live listening is off on this public page: it uses paid speech and model APIs. The demo calls replay Muse Spark's real answers.</p>
+    </section>
+
+    <section class="controls home">
       <div class="demo-row">
         <select id="call" aria-label="Demo call"></select>
         <button id="play" class="secondary" data-t="demo">Play a demo call</button>
@@ -54,7 +59,7 @@
       </label>
     </section>
 
-    <section class="panel check">
+    <section class="panel check home">
       <h2 data-t="check_head">Got a call like this? Check before you pay</h2>
       <p class="hint" data-t="check_hint">Type what the caller said, or tap your keyboard's microphone and say it. Works on this phone, after the call.</p>
       <textarea id="said" rows="3" maxlength="2000" data-tp="check_ph"></textarea>
@@ -62,66 +67,80 @@
       <button id="check" class="primary" data-t="check">Check</button>
     </section>
 
-    <section id="alert" class="alert" hidden aria-live="assertive">
-      <p class="alert-head"></p>
-      <p class="alert-action"></p>
-      <div class="alert-quotes">
-        <p class="label" data-t="caller_said">The caller said:</p>
-        <ul></ul>
+    <div class="callbar">
+      <span id="status" class="status"></span>
+      <button id="back" class="back" data-t="back">← Back</button>
+    </div>
+    <p id="silent" class="silent" data-t="silent" hidden>Hearing nothing. If the call is on this phone, open this page on another phone or laptop.</p>
+
+    <div class="stage">
+      <div class="col-main">
+        <section id="waiting" class="waiting">
+          <p class="waiting-text" data-t="waiting">Listening for warning signs. Nothing suspicious yet.</p>
+          <p class="waiting-why"></p>
+        </section>
+
+        <section id="alert" class="alert" hidden aria-live="assertive">
+          <p class="alert-head"></p>
+          <p class="alert-action"></p>
+          <div class="alert-quotes">
+            <p class="label" data-t="caller_said">The caller said:</p>
+            <ul></ul>
+          </div>
+          <ul class="facts"></ul>
+          <a id="helpline" class="call1930" href="tel:1930" data-t="call1930">Call 1930</a>
+          <a id="family" class="family" target="_blank" rel="noopener" data-t="family" hidden>Tell family now</a>
+        </section>
+
+        <section id="next" class="next" hidden aria-live="polite">
+          <div id="next-now">
+            <p class="next-label"></p>
+            <p class="next-line"></p>
+          </div>
+          <ul class="came-true"></ul>
+        </section>
+
+        <section id="ahead" class="next ahead" hidden aria-live="polite">
+          <p class="ahead-match"></p>
+          <p class="next-label"></p>
+          <ol class="ahead-steps"></ol>
+          <p class="ahead-note"></p>
+        </section>
       </div>
-      <ul class="facts"></ul>
-      <a id="helpline" class="call1930" href="tel:1930" data-t="call1930">Call 1930</a>
-      <a id="family" class="family" target="_blank" rel="noopener" data-t="family" hidden>Tell family now</a>
-    </section>
 
-    <section id="next" class="next" hidden aria-live="polite">
-      <div id="next-now">
-        <p class="next-label"></p>
-        <p class="next-line"></p>
+      <div class="col-side">
+        <section class="panel transcript-panel">
+          <h2 data-t="transcript">What the caller is saying</h2>
+          <p id="engine" class="engine"></p>
+          <div id="transcript" class="transcript" aria-live="polite"></div>
+          <p id="partial" class="partial" hidden></p>
+        </section>
+
+        <section class="panel">
+          <h2 data-t="signals">Warning signs</h2>
+          <ul id="signals" class="chips"></ul>
+        </section>
+
+        <section id="timeline-wrap" class="panel" hidden>
+          <div class="timeline" id="timeline"><div class="progress" id="progress"></div></div>
+          <ul class="legend" id="legend"></ul>
+          <p id="lead" class="lead"></p>
+        </section>
+
+        <section id="report-wrap" class="panel" hidden>
+          <div class="panel-head">
+            <h2 id="report-head" data-t="report">Report for 1930</h2>
+            <div class="report-actions">
+              <button id="copy" class="secondary small" data-t="copy">Copy</button>
+              <button id="download" class="secondary small" data-t="download">Download</button>
+            </div>
+          </div>
+          <pre id="report" class="report"></pre>
+        </section>
       </div>
-      <ul class="came-true"></ul>
-    </section>
+    </div>
 
-    <section id="ahead" class="next ahead" hidden aria-live="polite">
-      <p class="ahead-match"></p>
-      <p class="next-label"></p>
-      <ol class="ahead-steps"></ol>
-      <p class="ahead-note"></p>
-    </section>
-
-    <section class="panel">
-      <div class="panel-head">
-        <h2 data-t="transcript">What the caller is saying</h2>
-        <span id="status" class="status"></span>
-      </div>
-      <p id="engine" class="hint" style="text-align:left;margin-top:4px"></p>
-      <div id="transcript" class="transcript" aria-live="polite"></div>
-      <p id="partial" class="partial" hidden></p>
-    </section>
-
-    <section class="panel">
-      <h2 data-t="signals">Warning signs</h2>
-      <ul id="signals" class="chips"></ul>
-    </section>
-
-    <section id="timeline-wrap" class="panel" hidden>
-      <div class="timeline" id="timeline"><div class="progress" id="progress"></div></div>
-      <ul class="legend" id="legend"></ul>
-      <p id="lead" class="lead"></p>
-    </section>
-
-    <section id="report-wrap" class="panel" hidden>
-      <div class="panel-head">
-        <h2 id="report-head" data-t="report">Report for 1930</h2>
-        <div class="report-actions">
-          <button id="copy" class="secondary small" data-t="copy">Copy</button>
-          <button id="download" class="secondary small" data-t="download">Download</button>
-        </div>
-      </div>
-      <pre id="report" class="report"></pre>
-    </section>
-
-    <details class="panel how">
+    <details class="panel how home">
       <summary data-t="how">How it decides</summary>
       <p data-t="how_1">Muse Voice Transcribe writes down the call as it happens and keeps the two voices apart. After each thing the caller says, Muse Spark answers these questions about the caller, and must quote the caller's exact words for every "yes". A quote the caller never said is thrown away.</p>
       <ol id="questions"></ol>
@@ -130,6 +149,6 @@
 
     <footer class="foot" data-t="note">Demo calls are acted from scripts; they are not real. Nothing is recorded or stored.</footer>
   </main>
-  <script src="/static/app.js"></script>
+  <script src="/static/app.js?v=4"></script>
 </body>
 </html>
