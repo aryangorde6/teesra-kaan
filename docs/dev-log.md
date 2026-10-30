@@ -129,3 +129,25 @@ Dev only.
   - **Typed check:** the Rajkot retelling and the en/hi/mr examples are still red, with "Transfer the money for verification." next. The typed check has its own B prompt (`FREEFORM_SYSTEM_TYPED_V1`), as it already had for the signals.
   - **Caveat:** 12 genuine dev calls is a small set (0/12 is 0–24%). The 42 recorded test calls decide.
 - **Live listening end to end:** one FTC dev call streamed at real time through the page's `/ws/live` with the real APIs (the test client, not a browser). Words arrived about 0.3 s behind the audio. The quote was checked, and the call ended with its report.
+
+## Oct 30, 2026, 16:14–16:21 IST: a synthetic-speech pre-check of Hindi and Marathi transcription
+Dev only. **Synthetic speech, not the kill check and not a result:** no person has recorded a call yet, so this only asks whether Muse Voice Transcribe handles Hindi and Marathi at all before the recordings arrive.
+- **How:** the 21 dev scripts written in Devanagari or English (7 Hindi, 8 Marathi, 6 English; the 6 Hinglish ones are in Latin letters and were left out) were spoken by Kokoro v1.0 (open weights, Apache 2.0), with one voice for the caller and another for the listener and 0.6 s between turns. Kokoro has Hindi voices but no Marathi one, so Marathi is a Hindi voice reading Marathi. Each call was then passed through a phone band (300–3,400 Hz, through 8 kHz) with light pink noise. That gave 9.0 min of audio, transcribed with the same settings as everything else (`transcribe-set`, language bias HI/MR/EN). The audio and transcripts stay in `data/` and the results in `runs/dev/` (both gitignored).
+- **Transcription against the script** (character error rate, punctuation ignored):
+
+| | Hindi (7) | Marathi (8) | English (6) |
+|---|---|---|---|
+| Phone band and noise | 5.4% | 18.6% | 1.2% |
+| The same audio, clean | 3.8% | 8.6% | 1.2% |
+| Words given to the right voice (phone band) | 93% | 93% | 95% |
+
+  - Hindi and Marathi come back in Devanagari. English loanwords come back in Latin letters ("AnyDesk", "Metro Pathology Lab", "Constable"), which counts as an error here but keeps the meaning, so the rates overstate the damage.
+  - **One real failure:** IG21, a 16-second Marathi call, came back partly in **Gujarati script** through the phone band, and correctly when clean. The language bias doesn't stop that on a short, noisy Marathi call.
+  - Marathi "बँक" (bank) was misheard in both versions ("पिंकीच्या", "बेंकीच्या", once "बनावटच्या", meaning "of a fake…"). That may be the Hindi voice saying the Marathi sound; a person's voice will tell.
+  - Speaker labels: the two voices were told apart, and "the caller is whoever has said the most" picked the right one on every call.
+- **The runs on the phone-band transcripts, against the same scripts as text** (rules v1.3; every call compared one by one):
+  - **Keywords (A):** the same level on 21/21 calls.
+  - **Teesra Kaan (C, Muse Spark):** the same level on 20/21. Scam calls warned 12/12 (red 10/12), the same as text. Genuine calls red 0/9. **One genuine call went amber:** IG14, a Marathi bank fraud-desk call ("did you make this ₹15,000 payment?"), silent as text. Its transcript had "बँकेच्या" misheard twice, once as "बनावटच्या" ("of a fake…"), and Spark's overall view then said scam. On the clean transcript of the same call ("बेंकीच्या", but no "बनावट"), Spark quoted the same two signs, its overall view said no scam, and the call stayed silent. So the one word "fake" decided it.
+  - The next line came true 4/11 (text: 3/12 on the same calls).
+  - Cost: $0.22 for both transcriptions and the runs (ledger $1.64 → $1.86).
+- **What it says:** speech-to-text in Hindi is close to the text. Marathi is the weak spot, and the phone channel roughly doubles its errors. Nothing was tuned on this. The kill check still needs people: two or three recorded calls (one Hindi, one Marathi) on a real speakerphone, which decide whether Marathi is usable.
