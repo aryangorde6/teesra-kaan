@@ -118,6 +118,9 @@ def test_the_family_message_quotes_dont_tell_anyone_first():
         msg = warning(alarm, quotes, lang)["family"]
         assert msg.startswith("Teesra Kaan:") and "“kisi ko mat batana”" in msg
     assert "“" not in warning(alarm, {}, "en")["family"]
+    ended = warning(alarm, {"A4": "told me not to tell my family or anyone else."}, "en")["family"]
+    assert "“told me not to tell my family or anyone else”." in ended and ".”." not in ended
+    assert "”।" in warning(alarm, {"A4": "किसी को मत बताना।"}, "hi")["family"] and "।”" not in warning(alarm, {"A4": "किसी को मत बताना।"}, "hi")["family"]
 
 
 def test_every_script_has_a_name_and_its_rest_reads_in_every_language():

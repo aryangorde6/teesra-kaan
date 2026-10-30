@@ -178,7 +178,7 @@ FAMILY = {
 def family_message(signals: frozenset[str], quotes: dict[str, str], lang: str = "en") -> str:
     """The message the page offers to send to family. It quotes "don't tell anyone" when the caller said it."""
     order = sorted(signals, key=lambda s: (s != "A4", int(s[1:])))
-    quote = next((quotes[s] for s in order if quotes.get(s)), "")
+    quote = next((quotes[s] for s in order if quotes.get(s)), "").rstrip(" .,;!?।")  # the template ends the sentence
     first, said, last = FAMILY[lang]
     return " ".join(["Teesra Kaan:", first, *([said.format(quote=quote)] if quote else []), last])
 
