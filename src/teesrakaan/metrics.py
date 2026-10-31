@@ -174,16 +174,21 @@ def results_table(results: list[dict]) -> str:
     sets = sorted({name for r in results for name in r["by_set"]})
     for name in sets:
         out += [f"**{name}** ({results[0]['split']})", "",
-                "| Run | Warned (red or amber) | Red | Red false alarms | Median time to warning | Warned before the ask |",
-                "|---|---|---|---|---|---|"]
+                "| Run | Warned (red or amber) | Red | Red false alarms | Amber false alarms "
+                "| Time to warning, median (90th pct) | Time to red, median | Warned before the ask |",
+                "|---|---|---|---|---|---|---|---|"]
         for r in results:
             s = r["by_set"].get(name)
             if not s:
                 continue
+            warn = s["seconds_to_warning"]
+            to_warn = f"{_secs(warn['median'])} ({_secs(warn['p90'])})" if warn["median"] is not None else "–"
             out.append(
                 f"| {r['run']} | {s['caught_red_or_amber']['text']} | {s['caught_red']['text']} | "
                 f"{s['false_alarms_red']['text'] if s['genuine_calls'] else '–'} | "
-                f"{_secs(s['seconds_to_warning']['median'])} | "
+                f"{s['false_alarms_amber']['text'] if s['genuine_calls'] else '–'} | "
+                f"{to_warn} | "
+                f"{_secs(s['seconds_to_red']['median'])} | "
                 f"{s['warned_before_ask']['text'] if s['warned_before_ask']['n'] else '–'} |"
             )
         out.append("")

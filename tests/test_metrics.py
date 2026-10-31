@@ -55,6 +55,17 @@ def test_results_table_has_a_row_per_run():
     assert "The next line, **IN-scam**" in table
 
 
+def test_results_table_shows_amber_false_alarms_and_the_90th_percentile():
+    from teesrakaan.metrics import results_table
+
+    s = summarize([Outcome("s1", "IN-scam", True, 2, t_warn=20, t_red=30, t0=5),
+                   Outcome("g1", "IN-genuine", False, 1), Outcome("g2", "IN-genuine", False, 0)])
+    row = results_table([{"run": "C", "split": "test", "by_set": {"IN-scam": s}}]).splitlines()[4]
+    cells = [c.strip() for c in row.strip("|").split("|")]
+    assert cells[3].startswith("0/2") and cells[4].startswith("1/2")  # red, then amber false alarms
+    assert cells[5] == "15 s (15 s)" and cells[6] == "25 s"
+
+
 def test_results_files_from_before_the_next_line_have_no_next_line_block():
     from teesrakaan.metrics import results_table
 
