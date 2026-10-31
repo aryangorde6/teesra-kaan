@@ -1,0 +1,533 @@
+{
+ "set": "IN-scam",
+ "version": "dev paraphrase v1, Oct 31, 2026, before the freeze",
+ "about": "Dev only: the 16 dev scam scripts rewritten the way the paraphrase test's were (docs/evaluation-rule.md, Robustness), so that no pattern of the keyword baseline (src/teesrakaan/keywords.py) matches anywhere in them. The same pattern, moves in the same order, ask (or none) and roles; only the words change. A dev check, before the freeze, that the system still hears a scam with the keywords gone; never part of any test result. Wording not yet checked by a native speaker. Every name, number and amount is made up.",
+ "scripts": [
+  {
+   "id": "DP04",
+   "from": "IS04",
+   "pattern": 2,
+   "language": "en",
+   "ask": false,
+   "roles": {
+    "caller": "recorded voice, then a fake 'FedEx executive', then a fake 'sub-inspector'",
+    "listener": "college student"
+   },
+   "lines": [
+    [
+     "caller",
+     "This is an automated message from your shipping company. A box sent in your name has been stopped at the airport. Choose option 1 to speak to an agent.",
+     "recorded voice"
+    ],
+    [
+     "caller",
+     "Good afternoon, I'm Rahul from the shipping company's Mumbai desk. A box booked with your national ID from Mumbai to Taipei has been stopped by the airport authorities."
+    ],
+    [
+     "listener",
+     "I haven't sent anything."
+    ],
+    [
+     "caller",
+     "It contains five travel documents, three credit cards and two hundred grams of a banned substance. I'm connecting you to the Mumbai cyber investigators."
+    ],
+    [
+     "caller",
+     "Hello, this is Vikram Singh from the Mumbai cyber unit. Your name has come up in a smuggling investigation.",
+     "a second voice"
+    ],
+    [
+     "listener",
+     "I think this is a scam. I'm hanging up."
+    ]
+   ]
+  },
+  {
+   "id": "DP05",
+   "from": "IS05",
+   "pattern": 5,
+   "language": "hi",
+   "ask": true,
+   "roles": {
+    "caller": "fake buyer claiming to be in the army",
+    "listener": "woman selling a sofa online"
+   },
+   "lines": [
+    [
+     "caller",
+     "हेलो, मैंने आपके सोफ़े वाला विज्ञापन देखा, मुझे वो लेना है।"
+    ],
+    [
+     "listener",
+     "हाँ जी, सोफ़ा अभी है।"
+    ],
+    [
+     "caller",
+     "मैं फ़ौज में हूँ, अभी बाहर तैनात हूँ। मैं आपको पेशगी के पंद्रह हज़ार डाल रहा हूँ।"
+    ],
+    [
+     "caller",
+     "आपके फ़ोन पे पर एक मंज़ूरी का संदेश आएगा, उसमें अपने यूपीआई के चार अंकों वाला कोड डाल दीजिए, रकम आपके खाते में आ जाएगी।"
+    ],
+    [
+     "listener",
+     "रकम लेने के लिए कोड क्यों?"
+    ],
+    [
+     "caller",
+     "मैडम, यही तरीका है, ज़रा फटाफट कीजिए, मेरी ड्यूटी का वक़्त हो रहा है।"
+    ]
+   ]
+  },
+  {
+   "id": "DP06",
+   "from": "IS06",
+   "pattern": 7,
+   "language": "mr",
+   "ask": true,
+   "roles": {
+    "caller": "stranger claiming to be the son's friend, panicky",
+    "listener": "mother, 50s"
+   },
+   "lines": [
+    [
+     "caller",
+     "हॅलो, काकू, मी तुमच्या मुलाचा मित्र अमित बोलतोय. रोहनचा अपघात झालाय, तो दवाखान्यात आहे."
+    ],
+    [
+     "listener",
+     "काय? तो ठीक आहे ना?"
+    ],
+    [
+     "caller",
+     "डॉक्टर म्हणतात ऑपरेशन आत्ता करावं लागेल. पन्नास हजार आत्ता लागतील."
+    ],
+    [
+     "caller",
+     "मी तुम्हाला एक नंबर पाठवतो, त्यावर गुगल पे करा. आणि काकांना यातलं काही कळू देऊ नका, त्यांना टेन्शन येईल."
+    ],
+    [
+     "listener",
+     "मी रोहनला फोन करते."
+    ],
+    [
+     "caller",
+     "त्याचा फोन तुटलाय, तो बोलू शकत नाही. प्लीज लवकर करा."
+    ]
+   ]
+  },
+  {
+   "id": "DP09",
+   "from": "IS09",
+   "pattern": 8,
+   "language": "hi",
+   "ask": true,
+   "roles": {
+    "caller": "fake 'electricity office' caller",
+    "listener": "elderly man"
+   },
+   "lines": [
+    [
+     "caller",
+     "नमस्कार, मैं बिजली दफ़्तर से बोल रहा हूँ। आपका पिछले महीने का बिल अपडेट नहीं हुआ है।"
+    ],
+    [
+     "listener",
+     "मैंने तो बिल भर दिया था।"
+    ],
+    [
+     "caller",
+     "सिस्टम में नहीं दिख रहा। आज रात साढ़े नौ बजे आपके घर की सप्लाई रोक दी जाएगी।"
+    ],
+    [
+     "caller",
+     "अगर सप्लाई चालू रखनी है तो अभी 'बिजली सहायता' नाम का एप्लिकेशन फ़ोन में डालिए और उसमें दस रुपये चुका कर बिल अपडेट कीजिए।"
+    ],
+    [
+     "listener",
+     "ठीक है, कौन सा एप्लिकेशन?"
+    ]
+   ]
+  },
+  {
+   "id": "DP11",
+   "from": "IS11",
+   "pattern": 1,
+   "language": "hi+en",
+   "ask": false,
+   "roles": {
+    "caller": "fake 'ED deputy director'",
+    "listener": "businessman, 50s"
+   },
+   "lines": [
+    [
+     "caller",
+     "Hello, main ek central agency se Deputy Director Anil Kapoor bol raha hoon."
+    ],
+    [
+     "listener",
+     "Ji, boliye."
+    ],
+    [
+     "caller",
+     "Hawala ke ek maamle mein aapke khaate se do crore ka len-den mila hai. Aapko hirasat mein lene ka hukm nikla hai."
+    ],
+    [
+     "caller",
+     "Main aapko us hukm ki copy aapke number pe bhej raha hoon. Phir camere ke saamne baith kar baat kariye."
+    ],
+    [
+     "caller",
+     "Aur dhyan rahe, yeh jaanch bahar nahi jaani chahiye. Kisi se zikr kiya toh aapko usi waqt hirasat mein liya jayega."
+    ],
+    [
+     "listener",
+     "Main apne lawyer se baat karke call karta hoon."
+    ]
+   ]
+  },
+  {
+   "id": "DP13",
+   "from": "IS13",
+   "pattern": 2,
+   "language": "hi",
+   "ask": true,
+   "roles": {
+    "caller": "recorded voice, a fake 'courier' woman, then a fake 'sub-inspector'",
+    "listener": "teacher, 40s"
+   },
+   "lines": [
+    [
+     "caller",
+     "आपकी खेप हवाई अड्डे पर रोकी गई है। ज़्यादा जानकारी के लिए एक चुनें।",
+     "recorded voice"
+    ],
+    [
+     "caller",
+     "नमस्ते, मैं शिपिंग कंपनी से बोल रही हूँ। आपके नाम से ईरान भेजा गया एक डिब्बा हवाई अड्डे पर रोक लिया गया है।"
+    ],
+    [
+     "listener",
+     "मैंने कुछ नहीं भेजा।"
+    ],
+    [
+     "caller",
+     "डिब्बे में नशीला सामान और जाली यात्रा दस्तावेज़ मिले हैं। आपको अभी मुंबई की जाँच टीम से बात करनी होगी, मैं आपकी कॉल आगे जोड़ रही हूँ।"
+    ],
+    [
+     "caller",
+     "मुंबई जाँच दल से देशमुख बोल रहा हूँ। आपका पहचान पत्र इस मामले में इस्तेमाल हुआ है। अपने पहचान पत्र का बारह अंकों वाला नंबर पढ़कर सुनाइए, हम जाँच करते हैं।",
+     "a second voice"
+    ]
+   ]
+  },
+  {
+   "id": "DP16",
+   "from": "IS16",
+   "pattern": 7,
+   "language": "hi",
+   "ask": true,
+   "roles": {
+    "caller": "fake 'head constable', then a crying 'son'",
+    "listener": "father, 50s"
+   },
+   "lines": [
+    [
+     "caller",
+     "हेलो, मैं थाने से हवलदार शर्मा बोल रहा हूँ। आपके बेटे विकास को एक झगड़े के मामले में रोक कर बिठाया है।"
+    ],
+    [
+     "listener",
+     "क्या? वो तो कॉलेज गया है।"
+    ],
+    [
+     "caller",
+     "पापा, मुझे बचा लो, प्लीज़।",
+     "a second voice, crying"
+    ],
+    [
+     "caller",
+     "अगर मामला आगे नहीं बढ़वाना है तो अभी पचास हज़ार का इंतज़ाम कीजिए, मैं नंबर दे रहा हूँ। यह बात बाहर गई तो रिपोर्ट लिख दी जाएगी और लड़के का करियर खत्म।"
+    ]
+   ]
+  },
+  {
+   "id": "DP18",
+   "from": "IS18",
+   "pattern": 1,
+   "language": "mr",
+   "ask": true,
+   "roles": {
+    "caller": "fake 'crime branch inspector'",
+    "listener": "professor, 60s"
+   },
+   "lines": [
+    [
+     "caller",
+     "नमस्कार, मी मुंबईच्या तपास विभागातून जाधव बोलतोय. तुमच्या नावावर काळ्या पैशाच्या व्यवहाराची नोंद झाली आहे."
+    ],
+    [
+     "listener",
+     "माझ्यावर? काय झालं?"
+    ],
+    [
+     "caller",
+     "तुमच्या ओळखपत्रावर उघडलेल्या खात्यात हवालाची रक्कम आली आहे. तुम्हाला ताब्यात घेतलं जाऊ शकतं."
+    ],
+    [
+     "caller",
+     "आता कॅमेऱ्यासमोर बसा आणि तो सुरू ठेवा. चौकशी संपेपर्यंत संभाषण थांबवू नका, आणि ही गोष्ट कुटुंबात कुणालाच कळू देऊ नका."
+    ],
+    [
+     "listener",
+     "ठीक आहे साहेब."
+    ],
+    [
+     "caller",
+     "तुमच्या खात्यातली सगळी शिल्लक मध्यवर्ती तपासणी खात्यात हलवा. चौकशीनंतर परत मिळेल."
+    ]
+   ]
+  },
+  {
+   "id": "DP21",
+   "from": "IS21",
+   "pattern": 2,
+   "language": "mr",
+   "ask": false,
+   "roles": {
+    "caller": "recorded voice, then a fake 'FedEx office' man",
+    "listener": "engineer, 30s"
+   },
+   "lines": [
+    [
+     "caller",
+     "तुमची खेप परत आली आहे. अधिक माहितीसाठी एक निवडा.",
+     "recorded voice"
+    ],
+    [
+     "caller",
+     "नमस्कार, शिपिंग कंपनीचं मुंबई कार्यालय. तुमच्या नावाने थायलंडला पाठवलेल्या पेटीत नशेचे पदार्थ सापडले आहेत."
+    ],
+    [
+     "listener",
+     "मी काहीच पाठवलं नाही."
+    ],
+    [
+     "caller",
+     "मग कोणीतरी तुमच्या ओळखपत्राचा गैरवापर केला आहे. तुम्ही आत्ता सायबर तपास पथकाकडे तक्रार करा. मी तुम्हाला थेट त्यांच्याशी जोडतो."
+    ]
+   ]
+  },
+  {
+   "id": "DP23",
+   "from": "IS23",
+   "pattern": 4,
+   "language": "hi+en",
+   "ask": true,
+   "roles": {
+    "caller": "fake 'bank app team'",
+    "listener": "man, 40s"
+   },
+   "lines": [
+    [
+     "caller",
+     "Hello, SBI YONO team se bol raha hoon. Aapka YONO khaata aaj raat se ruk jayega kyunki aapka tax number update nahi hai."
+    ],
+    [
+     "listener",
+     "Arre, kaise update karun?"
+    ],
+    [
+     "caller",
+     "Main aapko ek file bhejta hoon WhatsApp pe, usse phone mein chala dijiye, wahan apna tax number daal dijiye."
+    ],
+    [
+     "caller",
+     "Chalne ke baad woh jo bhi ijazat maange, sab haan kar dena."
+    ]
+   ]
+  },
+  {
+   "id": "DP24",
+   "from": "IS24",
+   "pattern": 1,
+   "language": "hi+en",
+   "ask": true,
+   "roles": {
+    "caller": "fake 'customs assistant commissioner'",
+    "listener": "woman, 50s, alone at home"
+   },
+   "lines": [
+    [
+     "caller",
+     "Hello, main Mumbai airport ke maal-jaanch vibhag se Assistant Commissioner Shukla bol raha hoon. Aapke naam ka videsh ka saamaan humne rok liya hai."
+    ],
+    [
+     "caller",
+     "Ismein ek sau chaalis gram nasheela padaarth mila hai. Aapka maamla ab central jaanch agency ke paas hai."
+    ],
+    [
+     "listener",
+     "Lekin main toh kuch nahi jaanti."
+    ],
+    [
+     "caller",
+     "Aapko online sunwaai mein haazir hona hoga. Ek naya calling program apne phone mein daaliye, saahab camere pe aayenge. Ghar ke kisi sadasya ko kamre mein mat rakhiye."
+    ],
+    [
+     "caller",
+     "Saahab ne kaha hai ki aapki jama-poonji ka nabbe pratishat zamaanat ke roop mein rakhna hoga. Jaanch ke baad wapas mil jayega."
+    ]
+   ]
+  },
+  {
+   "id": "DP28",
+   "from": "IS28",
+   "pattern": 6,
+   "language": "en",
+   "ask": true,
+   "roles": {
+    "caller": "fake 'shopping site support'",
+    "listener": "man, 40s, returned a mixer"
+   },
+   "lines": [
+    [
+     "caller",
+     "Hello, I'm calling from the shopping site's customer care. The money for your returned order is still waiting to be credited back to you."
+    ],
+    [
+     "listener",
+     "Oh yes, I returned a mixer last week."
+    ],
+    [
+     "caller",
+     "To get it credited, tap the message I've sent you and type in your UPI ID and the four digits you use to approve a UPI transaction."
+    ],
+    [
+     "caller",
+     "Or I can do it for you from here if you put a remote-help program on your phone."
+    ]
+   ]
+  },
+  {
+   "id": "DP29",
+   "from": "IS29",
+   "pattern": 7,
+   "language": "hi+en",
+   "ask": true,
+   "roles": {
+    "caller": "someone pretending to be a nephew abroad, hoarse voice",
+    "listener": "aunt, 50s"
+   },
+   "lines": [
+    [
+     "caller",
+     "Hello mausi, main Kunal bol raha hoon, Canada se. Mera phone kho gaya, yeh dost ka number hai."
+    ],
+    [
+     "listener",
+     "Kunal? Awaaz alag lag rahi hai."
+    ],
+    [
+     "caller",
+     "Mausi, gala kharab hai. Yahan ke afsaron ne rok liya hai, visa ki problem hai. Mujhe abhi assi hazaar lagenge vakeel ke liye."
+    ],
+    [
+     "caller",
+     "Mummy papa ko is baare mein kuch mat kehna please, woh pareshaan ho jayenge. Main dost ka UPI ID bhejta hoon."
+    ]
+   ]
+  },
+  {
+   "id": "DP33",
+   "from": "IS33",
+   "pattern": 1,
+   "language": "en",
+   "ask": true,
+   "roles": {
+    "caller": "fake 'CBI inspector', calm and menacing",
+    "listener": "retired engineer, 70s"
+   },
+   "lines": [
+    [
+     "caller",
+     "This is Kavita Rao from the central investigation bureau, Delhi headquarters. Is this Mr. Thomas Mathew?"
+    ],
+    [
+     "listener",
+     "Yes, speaking."
+    ],
+    [
+     "caller",
+     "Sir, your SIM was used to open accounts in a sixty-eight crore hawala racket. An order to take you into custody has been issued."
+    ],
+    [
+     "caller",
+     "Keep your camera facing you and do not end this conversation. You are being watched. Nobody in your family or at your branch is to hear of this, or they will be taken in too."
+    ],
+    [
+     "listener",
+     "I'll do whatever you say."
+    ],
+    [
+     "caller",
+     "Good. Now let us see your phone's display so we can check your statements."
+    ]
+   ]
+  },
+  {
+   "id": "DP34",
+   "from": "IS34",
+   "pattern": 9,
+   "language": "hi",
+   "ask": true,
+   "roles": {
+    "caller": "fake 'insurance office' man",
+    "listener": "retired woman"
+   },
+   "lines": [
+    [
+     "caller",
+     "नमस्कार, मैं बीमा कंपनी के दिल्ली दफ़्तर से बोल रहा हूँ। आपकी पुरानी पॉलिसी पर तीन लाख बीस का अतिरिक्त लाभ निकला है।"
+    ],
+    [
+     "listener",
+     "अच्छा? मुझे तो पता नहीं था।"
+    ],
+    [
+     "caller",
+     "यह लाभ छुड़वाने के लिए आपको सात हज़ार का कागज़ी खर्च पहले चुकाना होगा। यह मौका आज रात तक ही है।"
+    ]
+   ]
+  },
+  {
+   "id": "DP35",
+   "from": "IS35",
+   "pattern": 6,
+   "language": "mr",
+   "ask": true,
+   "roles": {
+    "caller": "fake 'railway booking customer care' woman",
+    "listener": "man, 50s"
+   },
+   "lines": [
+    [
+     "caller",
+     "नमस्कार, मी रेल्वे तिकीट ग्राहक सेवेतून बोलतेय. तुमच्या रद्द केलेल्या तिकिटाचे परत येणारे पैसे अडकले आहेत."
+    ],
+    [
+     "listener",
+     "हो, अजून पैसे आले नाहीत."
+    ],
+    [
+     "caller",
+     "त्यासाठी तुम्हाला एक मदतीचं सॉफ्टवेअर फोनमध्ये घ्यावं लागेल. मग मी तुमच्या फोनचा पडदा बघून ते पैसे मोकळे करते."
+    ],
+    [
+     "caller",
+     "त्या सॉफ्टवेअरमध्ये दिसणारा नऊ अंकी क्रमांक वाचून दाखवा."
+    ]
+   ]
+  }
+ ]
+}

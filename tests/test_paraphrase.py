@@ -56,3 +56,16 @@ def test_keywords_counts_what_came_back_in_a_transcript(tmp_path, capsys):
     main(["keywords", str(tmp_path)])
     out = capsys.readouterr().out
     assert out.startswith("IP99: 1 in the caller's words, 2 in all: A5 ")
+
+
+def test_the_dev_rewrites_cover_every_dev_scam_and_leave_no_keyword():
+    with open(SCRIPTS / "split.csv", newline="", encoding="utf-8") as f:
+        dev = sorted(r["id"] for r in csv.DictReader(f) if r["set"] == "IN-scam" and r["split"] == "dev")
+    rewrites, scams = _load("in-paraphrase-dev.json"), _load("in-scam.json")
+    assert sorted(s["from"] for s in rewrites.values()) == dev
+    for pid, s in rewrites.items():
+        source = scams[s["from"]]
+        assert pid == "DP" + s["from"][2:]
+        assert (s["pattern"], s["language"], s["ask"]) == (source["pattern"], source["language"], source["ask"])
+        assert [line[0] for line in s["lines"]] == [line[0] for line in source["lines"]]
+        assert keyword_hits("\n".join(line[1] for line in s["lines"])) == [], pid

@@ -174,3 +174,18 @@ Dev only, nothing from the test sets. **Real people, but not calls:** no one has
 - **What's left in Marathi** (phone band, after the fix; median clip 10.8%, 9 of 17 under 15%): numbers said as words ("दोन" for "2"), names in Latin letters ("Kruger National Park"), a few words romanized ("Vidnyanata darshu vidhe…"), and real mishearings, some toward Gujarati ("त्रण हजार", three thousand, for 7,000).
 - **Verdict:** Hindi passes. Marathi passes with the script fix: usable, not clean. The project goes on, with no switch to the fallback. **What this can't show:** read sentences aren't a conversation, the phone band is simulated, and each clip has one voice. People's recorded calls still decide the test results.
 - Cost: $0.05 (ledger $1.8739 → $1.9251). The clips and transcripts stay out of the repo (`data/` is gitignored).
+
+## Oct 31, 2026, 14:50–14:56 IST: the paraphrase test's idea, tried on dev before the freeze
+Dev only, nothing from the test sets. The paraphrase test (evaluation rule v1.4.1) is the row where keywords and Teesra Kaan should part ways, and it runs once, after the freeze. So the same rewrite was tried on the 16 dev scam scripts first, while a fix was still allowed.
+- **What:** each dev scam script rewritten the way the test ones were: the same pattern, moves in the same order, ask (or none) and roles, and no pattern of `keywords.py` anywhere, caller or listener (`tests/test_paraphrase.py`). [`eval/scripts/in-paraphrase-dev.json`](../eval/scripts/in-paraphrase-dev.json), IDs DP04 to DP35, written by the same author as the rules; the wording isn't checked by a native speaker. Run as text with estimated timings, like the dev scripts in G2 ([`eval/dev_paraphrase.py`](../eval/dev_paraphrase.py)).
+
+| Run | Warned (red or amber) | Red | Next line came true |
+|---|---|---|---|
+| A. Keywords | 0/16 (0–19%) | 0/16 (0–19%) | – (none shown) |
+| B. Spark alone | 16/16 (81–100%) | 16/16 (81–100%) | – (B shows none) |
+| C. Teesra Kaan | 16/16 (81–100%) | 14/16 (64–97%) | 7/16 (23–67%), shown on 11 of 16 calls |
+
+- **The two ambers** (DP04, DP21) are the two scripts with no ask, as with their keywords (red needs an ask). With the keywords in, the same scripts gave C 16/16 warned and 14/16 red (G2).
+- **B and C:** C's warning needs B's view too (rules v1.3), so it is never earlier: the same time on 14 of 16, later on DP21 (12 s against 6 s) and DP29 (22 s against 19 s). What C adds is in the warning itself: the quoted signs and the next line.
+- **What it says:** with the keywords gone, the keyword baseline hears nothing, and Spark, alone or with the quoted signals, still hears every scam. If the test rewrites behave like these, the paraphrase row is where the difference shows. Nothing was changed: no fix was needed.
+- **Cost:** $0.26 (ledger $1.9251 → $2.1885); B came from the cache of C's run.
