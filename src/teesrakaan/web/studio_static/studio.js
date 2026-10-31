@@ -36,7 +36,7 @@ function progress() {
     return `${s}: ${of.filter((c) => c.recorded).length}/${of.length} recorded, ${of.filter((c) => c.label).length} labelled`;
   };
   const lines = cards.filter((c) => c.split === "voice");
-  $("#progress").textContent = `${part("dev")} · ${part("test")} · warnings: ${lines.filter((c) => c.recorded).length}/${lines.length} recorded`;
+  $("#progress").textContent = `${part("dev")} · ${part("test")} · ${part("paraphrase")} · warnings:${lines.filter((c) => c.recorded).length}/${lines.length} recorded`;
 }
 
 function renderList() {
@@ -83,8 +83,10 @@ function show(id) {
   if (c.kind === "warning") { showLine(c, view); return; }
   view.replaceChildren($("#card-tpl").content.cloneNode(true));
   const what = c.is_scam ? `scam, pattern ${c.pattern}` : `genuine${c.kind ? ", " + c.kind : ""}`;
-  $(".title", view).textContent = `${c.id} · ${c.split} · ${c.language} · ${what}`;
+  $(".title", view).textContent = `${c.id} · ${c.split} · ${c.language} · ${what}${c.from ? ` · rewritten from ${c.from}` : ""}`;
   $(".roles", view).textContent = c.roles ? `Caller: ${c.roles.caller}. Listener: ${c.roles.listener}.` : "";
+  // The paraphrase test is only a test while the words the keyword lists look for stay out.
+  if (c.split === "paraphrase") $(".say", view).textContent = "Read these lines as written. They leave out certain words on purpose (police, arrest, OTP, PIN, bank, video call, refund and the like), so don't put any back in. Keep the made-up names and numbers.";
   renderLines(c, view);
   $(".voices", view).value = store.get("voices") || "";
   $(".labeller", view).value = store.get("labeller") || "";

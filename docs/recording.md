@@ -1,11 +1,12 @@
 # Recording the re-enactments
 
-Version 1.2, Oct 30, 2026 (the studio; v1.2 adds the warning lines to it). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
+Version 1.3, Oct 31, 2026 (the studio; v1.2 added the warning lines to it, v1.3 the paraphrase cards). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
 
 ## Who records what
 - **Scripts:** [`eval/scripts/in-scam.json`](../eval/scripts/in-scam.json) (40) and [`in-genuine.json`](../eval/scripts/in-genuine.json) (30). The dev/test split is fixed in [`eval/scripts/split.csv`](../eval/scripts/split.csv) (28 dev, 42 test).
 - **Voices:** Aryan and friends or family who agree in writing (below). Any gender can play any role; change the verb forms to match (bol raha / bol rahi).
-- **Order:** the 28 dev scripts first (Thu Oct 29), then the 42 test scripts (by Fri Oct 30).
+- **Paraphrase cards:** [`eval/scripts/in-paraphrase.json`](../eval/scripts/in-paraphrase.json) (10, IDs `IP…`): test scam scripts rewritten without any word the keyword baseline looks for ([evaluation-rule.md](evaluation-rule.md), Robustness). They're in the studio's *Paraphrase* tab.
+- **Order:** the 28 dev scripts first (Thu Oct 29), then the 42 test scripts (by Fri Oct 30), then the 10 paraphrase cards.
 - **Test recordings are kept away from tuning.** The person tuning prompts and rules doesn't open or listen to them until the freeze (Sun Nov 1, 12:00 IST).
 
 ## Setup (about 2 minutes per call)
@@ -31,12 +32,13 @@ Audacity or a phone's voice recorder still work: save the file as below and fill
 ## Acting
 - Read the card once. Then **say each line in your own words**, in order. Don't read word for word: real callers don't, and a test that only works on the script's exact words is worthless.
 - Keep the made-up names, numbers, amounts and IDs.
+- **Except the paraphrase cards: read those as written.** They leave out words like police, arrest, OTP, PIN, bank, video call and refund on purpose, to test whether Teesra Kaan still hears the scam without them. Don't put any of them back.
 - Lines marked "recorded voice" are said flat, like an automated message. "A second voice" means another person takes over the call, if there's one available; otherwise the same caller changes tone.
 - The listener can react naturally (hesitate, ask "who is this?"), but shouldn't add new scam content or change how the call ends.
 
 ## Files
 - Name each file by its script ID: `IS07.m4a`, `IG21.wav`.
-- Put dev recordings in `data/recordings/dev/` and test recordings in `data/recordings/test/` (both gitignored).
+- Put dev recordings in `data/recordings/dev/`, test recordings in `data/recordings/test/` and paraphrase recordings in `data/recordings/paraphrase/` (all gitignored).
 - After each session, label the **dev** calls ([labelling.md](labelling.md)): `t0` and `t_ask` by listening, in the studio or by hand. Test calls are labelled the same way, by Aryan, any time before the test run.
 - The studio also logs who spoke on each take, and whether they agreed to publication, in `data/recordings/voices.csv` (never committed).
 

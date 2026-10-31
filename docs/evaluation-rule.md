@@ -1,6 +1,6 @@
 # Evaluation rule
 
-Version 1.4, Oct 30, 2026 (09:24 IST, commit `cfca2cf`), **before any test call was run or opened** (v1 was written Oct 28, before any result existed; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
+Version 1.4.1, Oct 31, 2026 (11:23 IST), **before any test call was recorded, run or opened** (v1 was written Oct 28, before any result existed; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
 
 ## The question
 When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally before the caller asks for money or secrets), **without** crying wolf on genuine calls, in Hindi, Marathi and English?
@@ -75,6 +75,10 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
 ## Robustness
 - **Speakerphone:** the IN test calls are played through a phone speaker and re-recorded on the laptop microphone in a normal room. Report how much "caught" and "time to warning" change.
 - **Paraphrase:** 10 test scam scripts are rewritten to avoid every keyword in the baseline's list, recorded, and run once after the freeze.
+  - **Which 10:** `random.Random(20261028).sample` of the 24 test scam IDs, sorted: IS02, IS08, IS12, IS25, IS27, IS31, IS32, IS36, IS37, IS38 (2 Marathi, 4 Hindi, 3 English, 1 Hinglish).
+  - **The rewrite** ([`eval/scripts/in-paraphrase.json`](../eval/scripts/in-paraphrase.json), IDs IP02 to IP38): the same pattern, roles, moves in the same order and ask (or none); only the words change. No pattern of `keywords.py` matches anywhere in a script, caller or listener (`tests/test_paraphrase.py`). Unlike the other re-enactments, they're read as written, so the missing words stay missing.
+  - **Recorded and labelled** like the others, into their own split, `paraphrase`; transcribed after the freeze; run once with A, B and C (`teesrakaan eval … --split paraphrase`) and reported as their own row.
+  - **Keywords that come back anyway** (an actor's slip, or the transcription) are counted in each transcript and reported. The take stays in.
 
 ## Reproducing
 One command runs every set, comparison and ablation from the cached transcripts and writes `runs/eval-<date>/results.json` plus the README table. Real donated calls are excluded from the public run, since their audio is private. Their numbers are reported, with a note that the audio can't be shared.
@@ -102,3 +106,4 @@ One command runs every set, comparison and ablation from the cached transcripts 
 - **v1.3.2, Oct 29, 2026 (14:19 IST), before any paid call had been made:** the budget stop lowered from $120 to $100, so $50 of the credits is never touched and the card is never charged. Paid calls also need a recent reading of Meta's own meter. Nothing about the calls, labels, metrics or comparisons changed.
 - **v1.4, Oct 30, 2026 (09:24 IST, commit `cfca2cf`), before the freeze, on dev only:** comparison C now uses rules v1.3 (`scam-tactics.md`): a warning needs Muse Spark's overall view, asked with comparison B's own prompt in a parallel call, to say "scam", plus at least one signal quoted in the caller's words. Both prompts are unchanged; only the rule combining them is new. Comparison A keeps rules v1.2. Why: on dev, v1.2 warned on 3 of 12 genuine calls (1 red) and missed 3 of 41 FTC impersonation calls; v1.3 warned on 0 of 12 and caught 41 of 41 ([dev-log.md](dev-log.md), Oct 30). No test call had been run or opened. Nothing else changed.
 - **Oct 30, 2026, 13:10 IST:** the version line at the top raised from 1.3.2 to 1.4, which it had missed. No rule changed.
+- **v1.4.1, Oct 31, 2026 (11:23 IST), before any test call was recorded:** the paraphrase test written out (Robustness): how the 10 scripts were drawn, the rewritten scripts, their own `paraphrase` split, read as written, and keywords that come back anyway counted and reported. Writing them meant reading those 10 test scripts' text, written on Oct 28 by the same author as the rules; no test audio exists, and nothing that decides a warning changed. The rewrites aren't run before the freeze, not even as text.

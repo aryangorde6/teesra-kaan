@@ -54,7 +54,7 @@ The questions, rules and the scam patterns they come from (with official sources
 | **IN-scam / IN-genuine** | 40 scam and 30 genuine calls in Hindi, Marathi, English and Hinglish, re-enacted from police, RBI and NPCI advisories, recorded on speakerphone (28 dev / 42 test) |
 | **IN-real** | Real scam calls donated by Indian families with written consent (private; numbers only) |
 
-Compared on the same test: **A** keyword lists + the same rules, **B** Muse Spark asked "is this a scam?", **C** Teesra Kaan, plus C without speaker separation, language hint or keyword biasing. Every number in the video comes from `teesrakaan table` on that run. Development steps and their dev-set numbers are logged in [docs/dev-log.md](docs/dev-log.md).
+Compared on the same test: **A** keyword lists + the same rules, **B** Muse Spark asked "is this a scam?", **C** Teesra Kaan, plus C without speaker separation, language hint or keyword biasing. Two robustness checks: the IN test calls played through a phone speaker and recorded again, and 10 test scam calls rewritten so that not one word of the keyword lists is left ([eval/scripts/in-paraphrase.json](eval/scripts/in-paraphrase.json)). Every number in the video comes from `teesrakaan table` on that run. Development steps and their dev-set numbers are logged in [docs/dev-log.md](docs/dev-log.md).
 
 ## What already exists
 AI that spots scam calls is not new. This is what we found, and how Teesra Kaan differs.

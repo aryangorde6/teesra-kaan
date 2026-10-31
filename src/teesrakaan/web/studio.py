@@ -64,6 +64,9 @@ def cards() -> dict[str, dict]:
     for name in ("in-scam.json", "in-genuine.json"):
         for s in load_scripts(SCRIPTS / name):
             out[s["id"]] = {**s, "split": split[s["id"]]}
+    # The paraphrase test: 10 test scam scripts rewritten without the baseline's keywords, recorded on their own.
+    for s in load_scripts(SCRIPTS / "in-paraphrase.json"):
+        out[s["id"]] = {**s, "split": "paraphrase"}
     return out
 
 
@@ -111,14 +114,17 @@ def static(name: str) -> FileResponse:
 
 @app.get("/api/cards")
 def list_cards() -> list[dict]:
-    """Dev cards first, as they're recorded first; each with whether it's recorded and labelled yet. Then the
-    warning lines, as cards of their own ("stale": recorded, but for words that have changed since)."""
+    """Dev cards first, as they're recorded first, then test, then the paraphrase test; each with whether it's
+    recorded and labelled yet. Then the warning lines, as cards of their own ("stale": recorded, but for words
+    that have changed since)."""
     labels = _labels()
     out = []
-    for card in sorted(cards().values(), key=lambda c: (c["split"] != "dev", c["id"])):
+    order = {"dev": 0, "test": 1, "paraphrase": 2}
+    for card in sorted(cards().values(), key=lambda c: (order[c["split"]], c["id"])):
         out.append({
             "id": card["id"], "set": card["set"], "split": card["split"], "language": card["language"],
             "pattern": card.get("pattern", 0), "kind": card.get("kind", ""), "roles": card.get("roles"),
+            "from": card.get("from"),
             "lines": card["lines"], "is_scam": card["set"] == "IN-scam",
             "recorded": recording(card).exists(), "label": labels.get(card["id"]),
         })

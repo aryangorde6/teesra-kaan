@@ -53,11 +53,22 @@ def test_only_this_laptop_can_open_it():
 
 def test_cards_come_dev_first_from_the_fixed_split():
     cards = client.get("/api/cards").json()
-    assert len(cards) == 79
+    assert len(cards) == 89
     splits = [c["split"] for c in cards]
-    assert splits == ["dev"] * 28 + ["test"] * 42 + ["voice"] * 9  # then the warning lines
+    assert splits == ["dev"] * 28 + ["test"] * 42 + ["paraphrase"] * 10 + ["voice"] * 9  # then the warning lines
     is04 = next(c for c in cards if c["id"] == "IS04")
     assert is04["is_scam"] and is04["pattern"] == 2 and is04["lines"] and not is04["recorded"]
+    ip02 = next(c for c in cards if c["id"] == "IP02")
+    assert ip02["is_scam"] and ip02["from"] == "IS02" and ip02["pattern"] == 3
+
+
+def test_a_paraphrase_take_goes_to_its_own_folder_and_labels_as_a_scam():
+    assert client.post(f"/api/recording/IP02{CONSENT}", content=wav(3.0)).status_code == 200
+    assert (recordings_dir() / "paraphrase" / "IP02.wav").exists()
+    r = client.post("/api/label/IP02", json={"t0": 0.5, "t_ask": 2, "labeller": "AG"})
+    assert r.status_code == 200
+    row = read_labels(labels_path())["IP02"]
+    assert (row.set, row.split, row.is_scam, row.pattern) == ("IN-scam", "paraphrase", True, 3)
 
 
 def test_a_take_needs_every_voices_consent():

@@ -12,7 +12,7 @@ from pathlib import Path
 from . import config
 from .judge import SparkSized
 from .keywords import KeywordJudge
-from .labels import read_labels, split_scripts, write_template
+from .labels import SPLITS, read_labels, split_scripts, write_template
 from .messages import COUNTRIES, LANGS, warning
 from .metrics import Outcome, ftc_summary, summarize_by
 from .pricing import call_cost
@@ -328,7 +328,7 @@ def main(argv: list[str] | None = None) -> None:
     p = sub.add_parser("eval", help="run every labelled call in a folder and write results.json")
     p.add_argument("calls")
     p.add_argument("--labels", required=True)
-    p.add_argument("--split", choices=("dev", "test"), default="dev")
+    p.add_argument("--split", choices=SPLITS, default="dev")
     p.add_argument("--run", choices=RUNS, default="A", help="A keywords, B Spark free-form, C Teesra Kaan (B and C are PAID)")
     p.add_argument("--out")
     p.set_defaults(func=cmd_eval)

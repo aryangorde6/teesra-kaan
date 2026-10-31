@@ -1,0 +1,152 @@
+{
+  "set": "IN-scam",
+  "version": "paraphrase v1, Oct 31, 2026, written before the freeze and before any test call was recorded",
+  "about": "The paraphrase test in docs/evaluation-rule.md: 10 test scam scripts, drawn with the split's seed (20261028) from the 24 test scam scripts, each rewritten so that no word in the keyword baseline's list (src/teesrakaan/keywords.py) appears anywhere in it. The same pattern, the same moves in the same order, the same ask (or none), the same roles; only the words change. Unlike the other cards, these are read as written, so the missing words stay missing. Every name, number and amount is made up.",
+  "scripts": [
+    {
+      "id": "IP02",
+      "from": "IS02",
+      "pattern": 3,
+      "language": "mr",
+      "ask": true,
+      "roles": {"caller": "recorded voice, then a man claiming to be from the telecom office", "listener": "working woman, 40s"},
+      "lines": [
+        ["caller", "नमस्कार. हा दूरसंचार खात्याकडून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाईल नंबरवरची सेवा थांबवण्यात येईल. पुढील माहितीसाठी नऊ क्रमांकाचे बटण वापरा.", "recorded voice"],
+        ["caller", "हॅलो, मी दूरसंचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे, आणि त्यावरून लोकांना फसवणारे मेसेज जात आहेत."],
+        ["listener", "पण माझ्याकडे एकच सिम आहे."],
+        ["caller", "म्हणूनच तुमची पडताळणी करावी लागेल. नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल."],
+        ["caller", "पडताळणीसाठी तुमच्या ओळखपत्रावरचा बारा अंकी क्रमांक आणि आत्ता आलेला सहा अंकी कोड वाचून दाखवा."]
+      ]
+    },
+    {
+      "id": "IP08",
+      "from": "IS08",
+      "pattern": 1,
+      "language": "en",
+      "ask": true,
+      "roles": {"caller": "a man claiming to be from a central anti-smuggling bureau, cold and official", "listener": "homemaker, 50s"},
+      "lines": [
+        ["caller", "Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Mehta, with the central anti-smuggling bureau in Mumbai."],
+        ["listener", "Yes, what happened?"],
+        ["caller", "Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name."],
+        ["caller", "Until our inquiry is over, you are in remote custody. Stay with me on camera and keep this line open."],
+        ["caller", "This concerns national security. Nobody else may hear about it, including your husband."],
+        ["listener", "Will I be taken to prison?"],
+        ["caller", "If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today, and they come back after the inquiry."]
+      ]
+    },
+    {
+      "id": "IP12",
+      "from": "IS12",
+      "pattern": 4,
+      "language": "en",
+      "ask": true,
+      "roles": {"caller": "a woman claiming to be from a credit card team", "listener": "IT employee, 30s"},
+      "lines": [
+        ["caller", "Good evening sir, Priya here, from the HDFC credit card team. Your card ending in 44 71 was just used abroad for a large purchase, about forty-eight thousand."],
+        ["listener", "What? I didn't buy anything abroad."],
+        ["caller", "Don't worry sir, I can stop it from here, but first I have to confirm it's you. The sixteen digits on the front of the card, and the month and year it expires?"],
+        ["caller", "Now a six-digit code will come to your phone in a text. Say those six digits to me so I can stop the card this minute."]
+      ]
+    },
+    {
+      "id": "IP25",
+      "from": "IS25",
+      "pattern": 5,
+      "language": "mr",
+      "ask": true,
+      "roles": {"caller": "a man claiming to be from PhonePe", "listener": "college student"},
+      "lines": [
+        ["caller", "नमस्कार, मी फोनपे मधून बोलतोय. तुमच्या मागच्या एका व्यवहारावर तुम्हाला दोन हजार परत मिळणार आहेत."],
+        ["listener", "अरे वा, कसे मिळणार?"],
+        ["caller", "तुमच्या फोनपेवर आत्ता एक विनंती आली आहे. ती स्वीकारा आणि व्यवहार मंजूर करायचा तुमचा चार अंकी क्रमांक टाका, पैसे खात्यात येतील."],
+        ["listener", "क्रमांक टाकल्यावर पैसे येतील?"],
+        ["caller", "हो, फक्त ही ऑफर पाच मिनिटांत संपेल, लवकर करा."]
+      ]
+    },
+    {
+      "id": "IP27",
+      "from": "IS27",
+      "pattern": 1,
+      "language": "hi",
+      "ask": true,
+      "roles": {"caller": "a man claiming to be from the telecom regulator, then a second man claiming to be from a Mumbai station", "listener": "widow, 60s"},
+      "lines": [
+        ["caller", "नमस्कार, मैं दूरसंचार नियामक दफ़्तर से बोल रहा हूँ। आपके नंबर से ग़लत धंधों के संदेश गए हैं, मैं आपकी बात मुंबई के थाने से करवा रहा हूँ।"],
+        ["caller", "तिलक नगर थाना, मुंबई। आपके नाम पर मानव व्यापार का मामला है। कैमरे के सामने बैठी रहिए; बात बीच में छोड़ी तो आपको हिरासत में लिया जाएगा।", "a second voice"],
+        ["listener", "मेरी बेटी को बुला लूँ?"],
+        ["caller", "नहीं, यह जाँच अभी बाहर नहीं जा सकती। आपने किसी से भी ज़िक्र किया, तो वो भी इस मामले में फँसेंगे।"],
+        ["caller", "अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफ़डी तुड़वाकर पूरी रकम हमारे दिए खाते में डालनी होगी।"]
+      ]
+    },
+    {
+      "id": "IP31",
+      "from": "IS31",
+      "pattern": 4,
+      "language": "hi",
+      "ask": true,
+      "roles": {"caller": "a woman claiming to be from Punjab National's head office", "listener": "man, 60s"},
+      "lines": [
+        ["caller", "नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ। आपके खाते की केवाईसी की तारीख निकल चुकी है, शाम तक आपका खाता फ़्रीज़ कर दिया जाएगा।"],
+        ["listener", "मैं कल शाखा जाकर करवा दूँगा।"],
+        ["caller", "कल तक तो खाते से लेन-देन रुक जाएगा, सर। मैं यहीं से कर देती हूँ। आपके एटीएम कार्ड के सामने लिखे सोलह अंक और पीछे के तीन अंक पढ़ दीजिए।"]
+      ]
+    },
+    {
+      "id": "IP32",
+      "from": "IS32",
+      "pattern": 3,
+      "language": "en",
+      "ask": false,
+      "roles": {"caller": "recorded voice, then a man claiming to be from the telecom regulator", "listener": "man, 30s, sceptical"},
+      "lines": [
+        ["caller", "This is a recorded message from the national telecom regulator. Every mobile service on your number will stop in a couple of hours. To speak with a staff member, key in nine now.", "recorded voice"],
+        ["caller", "Hello, Mr. Mehra speaking, from the telecom regulator. Your SIM has been flagged for sending messages that cheat people. Are you aware of this?"],
+        ["listener", "No. Who is this again?"],
+        ["caller", "Sir, if you don't cooperate, a complaint goes to the cyber investigation wing before the day ends."],
+        ["listener", "I'll go to my telecom store myself. Bye."]
+      ]
+    },
+    {
+      "id": "IP36",
+      "from": "IS36",
+      "pattern": 1,
+      "language": "hi",
+      "ask": false,
+      "roles": {"caller": "a man claiming to be from Lucknow's special task force", "listener": "woman, 50s, who decides to go to the station herself"},
+      "lines": [
+        ["caller", "हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के ज़रिए लोगों से ऑनलाइन ठगी हुई है।"],
+        ["caller", "आपके नाम पर रिपोर्ट लिख ली गई है। अभी कैमरे पर आकर अपनी सफ़ाई दीजिए, वरना हमारी टीम आपके दरवाज़े पर होगी।"],
+        ["listener", "मैं ख़ुद थाने आ जाती हूँ।"],
+        ["caller", "थाने आने की ज़रूरत नहीं है। सब कुछ कैमरे पर ही होगा, और यह बात अपने तक ही रखिए।"],
+        ["listener", "नहीं, मैं अपने बेटे के साथ थाने आऊँगी। नमस्ते।"]
+      ]
+    },
+    {
+      "id": "IP37",
+      "from": "IS37",
+      "pattern": 8,
+      "language": "hi+en",
+      "ask": true,
+      "roles": {"caller": "a man claiming to be from the electricity office", "listener": "woman, 40s"},
+      "lines": [
+        ["caller", "Hello, main bijli office se bol raha hoon. Aapka bill system mein update nahi hua."],
+        ["listener", "Maine toh online kar diya tha."],
+        ["caller", "Woh online wala fail ho gaya. Aaj raat aapki light chali jayegi. Main aapko ek message bhej raha hoon, usme jo neela likha hai us pe dabake sirf baarah ka chhota sa charge kar dijiye, bill system mein aa jayega."]
+      ]
+    },
+    {
+      "id": "IP38",
+      "from": "IS38",
+      "pattern": 5,
+      "language": "hi",
+      "ask": true,
+      "roles": {"caller": "a man claiming to be from Google Pay's help team", "listener": "man, 30s"},
+      "lines": [
+        ["caller", "नमस्ते, मैं गूगल पे की सहायता टीम से बोल रहा हूँ। आपकी एक पुरानी ख़रीद की वापसी रुकी हुई है, आपको चार हज़ार मिलने हैं।"],
+        ["listener", "कैसे मिलेंगे?"],
+        ["caller", "आपके गूगल पे पर अभी एक रिक्वेस्ट आई है। उसे मंज़ूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए, रकम सीधे आपके खाते में आ जाएगी।"]
+      ]
+    }
+  ]
+}

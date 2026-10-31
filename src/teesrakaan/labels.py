@@ -19,6 +19,8 @@ FTC_SAMPLE = 200
 FTC_DEV = 50
 
 SETS = ("IN-real", "IN-scam", "IN-genuine", "FTC")
+# "paraphrase": the paraphrase test's own recordings (eval/scripts/in-paraphrase.json), run once after the freeze
+SPLITS = ("dev", "test", "paraphrase")
 FTC_CLASSES = ("impersonation", "sales", "other")
 COLUMNS = (
     "call_id", "set", "split", "is_scam", "pattern", "languages",
@@ -30,7 +32,7 @@ COLUMNS = (
 class Label:
     call_id: str
     set: str
-    split: str  # dev or test
+    split: str  # one of SPLITS
     is_scam: bool
     pattern: int  # 1-9 from docs/scam-tactics.md; 0 for genuine or none
     languages: str  # e.g. "hi+en"
@@ -58,8 +60,8 @@ def _check(row: dict[str, str], line: int) -> list[str]:
     where = f"line {line} ({row.get('call_id', '?')})"
     if row["set"] not in SETS:
         errors.append(f"{where}: set must be one of {SETS}")
-    if row["split"] not in ("dev", "test"):
-        errors.append(f"{where}: split must be dev or test")
+    if row["split"] not in SPLITS:
+        errors.append(f"{where}: split must be one of {SPLITS}")
     if row["is_scam"] not in ("0", "1"):
         errors.append(f"{where}: is_scam must be 0 or 1")
     scam = row["is_scam"] == "1"

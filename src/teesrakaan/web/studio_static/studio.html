@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/static/studio.css">
+  <link rel="stylesheet" href="/static/studio.css?v=2">
 </head>
 <body>
   <div class="studio">
@@ -23,6 +23,7 @@
       <div class="filters" role="radiogroup" aria-label="Split">
         <button role="radio" data-split="dev" aria-checked="true">Dev</button>
         <button role="radio" data-split="test" aria-checked="false">Test</button>
+        <button role="radio" data-split="paraphrase" aria-checked="false">Paraphrase</button>
         <button role="radio" data-split="voice" aria-checked="false">Warnings</button>
       </div>
       <ol id="cards"></ol>
@@ -38,7 +39,7 @@
       <h2 class="title"></h2>
       <p class="roles muted"></p>
       <ol class="lines"></ol>
-      <p class="muted small">Say each line in your own words, in order. Keep the made-up names, numbers and amounts.</p>
+      <p class="say muted small">Say each line in your own words, in order. Keep the made-up names, numbers and amounts.</p>
     </section>
 
     <section class="panel record">
@@ -121,6 +122,6 @@
     </section>
   </template>
 
-  <script src="/static/studio.js"></script>
+  <script src="/static/studio.js?v=2"></script>
 </body>
 </html>
