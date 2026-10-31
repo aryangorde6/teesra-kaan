@@ -36,6 +36,8 @@ MAX_LINE_SECONDS = 30
 TRIM_AND_LEVEL = ("silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.15,areverse,"
                   "silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.3,areverse,"
                   "loudnorm=I=-16:TP=-1.5:LRA=11")
+# A solo take's caller speaks in the room, not through a phone: the synthetic set's phone band (evaluation rule v1.5.1).
+PHONE_BAND = "highpass=f=300,lowpass=f=3400,aresample=8000,aresample=48000"
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 LOOPBACK = {"127.0.0.1", "::1"}
 VOICES = ("call_id", "voices", "consent", "publish_ok", "recorded_at", "seconds")
@@ -81,6 +83,25 @@ def recording(card: dict) -> Path:
     return recordings_dir() / card["split"] / f"{card['id']}.wav"
 
 
+def solo_raw(card_id: str) -> Path:
+    """A solo take, untouched; its being there marks the saved take as solo."""
+    return recordings_dir() / "solo-raw" / f"{card_id}.wav"
+
+
+def solo_lines(card: dict) -> list[int]:
+    """The listener lines' indices, if every one has its audio (eval/solo_listener.py); else none."""
+    if card["split"] != "paraphrase":
+        return []
+    lines = [n for n, line in enumerate(card["lines"]) if line[0] == "listener"]
+    folder = config.data_dir() / "solo" / card["id"]
+    return lines if all((folder / f"{n}.wav").exists() for n in lines) else []
+
+
+def _solo_voice(card_id: str) -> str:
+    manifest = json.loads((config.REPO_ROOT / "eval" / "solo-listener.json").read_text(encoding="utf-8"))
+    return manifest["cards"][card_id]["voice"]
+
+
 def _labels() -> dict[str, dict[str, str]]:
     path = labels_path()
     if not path.exists():
@@ -124,7 +145,7 @@ def list_cards() -> list[dict]:
         out.append({
             "id": card["id"], "set": card["set"], "split": card["split"], "language": card["language"],
             "pattern": card.get("pattern", 0), "kind": card.get("kind", ""), "roles": card.get("roles"),
-            "from": card.get("from"),
+            "from": card.get("from"), "solo": solo_lines(card),
             "lines": card["lines"], "is_scam": card["set"] == "IN-scam",
             "recorded": recording(card).exists(), "label": labels.get(card["id"]),
         })
@@ -143,12 +164,17 @@ def list_cards() -> list[dict]:
 async def save_recording(card_id: str, request: Request) -> dict:
     """The browser's recording (any format ffmpeg reads) → `<split>/<ID>.wav`, 48 kHz mono. Needs every voice's
     written consent. An earlier take is moved to `recordings/replaced/`, never deleted, and its label is cleared,
-    because its times belong to the old take."""
+    because its times belong to the old take. A solo take (`solo=1`, paraphrase cards only) is saved through the
+    phone band, and the untouched take is kept in `recordings/solo-raw/`."""
     card = _card(card_id)
     q = request.query_params
     voices = q.get("voices", "").strip()
     if q.get("consent") != "1" or not voices:
         raise HTTPException(400, "Every voice on the call must have given written consent (docs/recording.md).")
+    solo = q.get("solo") == "1"
+    if solo and not solo_lines(card):
+        raise HTTPException(400, "Only paraphrase cards can be recorded solo, once their listener lines are made "
+                                 "(eval/solo_listener.py).")
     body = await request.body()
     if not body or len(body) > MAX_RECORDING_BYTES:
         raise HTTPException(413, "Send one recording, up to 60 MB.")
@@ -164,20 +190,46 @@ async def save_recording(card_id: str, request: Request) -> dict:
                         "-c:a", "pcm_s16le", "-map_metadata", "-1", str(tmp)],
                        input=body, check=True, capture_output=True)
         seconds = _seconds(tmp)
+        if solo:
+            banded = tmp.with_name(f"{card_id}-band.wav")
+            subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", str(tmp), "-af", PHONE_BAND,
+                            "-ac", "1", "-ar", "48000", "-c:a", "pcm_s16le", "-map_metadata", "-1", str(banded)],
+                           check=True, capture_output=True)
     except (subprocess.CalledProcessError, ValueError) as exc:
         tmp.unlink(missing_ok=True)
         raise HTTPException(400, "That recording couldn't be read. Try again.") from exc
     if not 1 <= seconds <= MAX_SECONDS:
         tmp.unlink(missing_ok=True)
+        if solo:
+            banded.unlink(missing_ok=True)
         raise HTTPException(400, "A recording must be between 1 second and 10 minutes long.")
+    stamp = f"{dt.datetime.now(IST):%Y%m%d-%H%M%S}"
     if path.exists():
         _drop_label(card_id)  # first: if the sheet can't be rewritten, nothing has moved
-        old = recordings_dir() / "replaced" / f"{card_id}-{dt.datetime.now(IST):%Y%m%d-%H%M%S}.wav"
+        old = recordings_dir() / "replaced" / f"{card_id}-{stamp}.wav"
         old.parent.mkdir(parents=True, exist_ok=True)
         path.rename(old)
-    tmp.rename(path)
+    raw = solo_raw(card_id)
+    if raw.exists():  # the old take's, solo or not, goes with it
+        (recordings_dir() / "replaced").mkdir(parents=True, exist_ok=True)
+        raw.rename(recordings_dir() / "replaced" / f"{card_id}-{stamp}-solo-raw.wav")
+    if solo:
+        raw.parent.mkdir(parents=True, exist_ok=True)
+        tmp.rename(raw)
+        banded.rename(path)
+        voices = f"{voices} + listener: synthetic voice (Kokoro {_solo_voice(card_id)})"
+    else:
+        tmp.rename(path)
     _log_voices(card_id, voices, q.get("publish") == "1", seconds)
     return {"id": card_id, "path": str(path.relative_to(config.data_dir().parent)), "seconds": seconds}
+
+
+@app.get("/api/solo/{card_id}/{line}")
+def get_solo_line(card_id: str, line: int) -> FileResponse:
+    """One of the listener's lines a solo take plays (eval/solo_listener.py)."""
+    if line not in solo_lines(_card(card_id)):
+        raise HTTPException(404, f"{card_id} has no solo listener line {line}.")
+    return FileResponse(config.data_dir() / "solo" / card_id / f"{line}.wav", media_type="audio/wav")
 
 
 @app.get("/api/recording/{card_id}")
@@ -325,7 +377,14 @@ async def save_label(card_id: str, request: Request) -> dict:
         "call_id": card_id, "set": card["set"], "split": card["split"],
         "is_scam": "1" if card["set"] == "IN-scam" else "0", "pattern": str(card.get("pattern", 0)),
         "languages": card["language"], "t0": t0, "t_ask": t_ask, "ftc_class": "",
-        "labeller": labeller, "labelled_at": _now(), "notes": str(body.get("notes", "")).strip(),
+        "labeller": labeller, "labelled_at": _now(), "notes": _notes(card_id, str(body.get("notes", "")).strip()),
     }
     _write_labels(rows)
     return rows[card_id]
+
+
+def _notes(card_id: str, notes: str) -> str:
+    """A solo take's label always says so, so the results can count them (evaluation rule v1.5.1)."""
+    if solo_raw(card_id).exists() and not notes.startswith("solo take"):
+        return f"solo take; {notes}" if notes else "solo take"
+    return notes

@@ -13,6 +13,7 @@ let split = store.get("split") || "dev";
 let current = null;
 let recorder = null;
 let take = null;
+let solo = null; // a solo take in progress: the line being said, when each line began, the listener's audio
 
 const fmt = (s) => {
   if (s == null || s === "") return "–";
@@ -88,6 +89,15 @@ function show(id) {
   // The paraphrase test is only a test while the words the keyword lists look for stay out.
   if (c.split === "paraphrase") $(".say", view).textContent = "Read these lines as written. They leave out certain words on purpose (police, arrest, OTP, PIN, bank, video call, refund and the like), so don't put any back in. Keep the made-up names and numbers.";
   renderLines(c, view);
+  // A paraphrase card can be recorded by one person: they read the caller, the laptop says the listener's lines.
+  if (c.solo && c.solo.length) {
+    $(".solo", view).hidden = false;
+    const box = $(".solo-box", view);
+    box.checked = store.get("solo") === "1";
+    const steps = () => { $(".steps", view).hidden = box.checked; $(".solo-steps", view).hidden = !box.checked; };
+    box.addEventListener("change", () => { store.set("solo", box.checked ? "1" : "0"); steps(); });
+    steps();
+  }
   $(".voices", view).value = store.get("voices") || "";
   $(".labeller", view).value = store.get("labeller") || "";
   $(".rec-btn", view).addEventListener("click", toggleRecording);
@@ -124,15 +134,51 @@ function showLine(c, view) {
 }
 
 function renderLines(c, view) {
-  $(".lines", view).replaceChildren(...c.lines.map(([who, text, how]) => {
+  // After a solo take, each line shows when it began; clicking it plays the take from there.
+  let times = null;
+  try { times = c.recorded && JSON.parse(store.get("times." + c.id) || "null"); } catch { times = null; }
+  $(".lines", view).replaceChildren(...c.lines.map(([who, text, how], n) => {
     const li = document.createElement("li");
     li.className = who;
     li.innerHTML = `<span class="who"></span><span class="text deva"></span>`;
     $(".who", li).textContent = who + (how ? " · " : "");
     if (how) { const h = document.createElement("span"); h.className = "how"; h.textContent = how; $(".who", li).append(h); }
+    if (times && times[n] != null) {
+      const at = document.createElement("button");
+      at.className = "at-line";
+      at.textContent = fmt(times[n]);
+      at.addEventListener("click", () => { const a = $(".label-audio", view); a.currentTime = times[n]; a.play(); });
+      $(".who", li).append(" ", at);
+    }
     $(".text", li).textContent = text;
     return li;
   }));
+}
+
+// --- Solo takes (paraphrase cards) --------------------------------------------
+
+function soloAt(n, view) {
+  solo.line = n;
+  solo.times[n] = (performance.now() - solo.started) / 1000;
+  view.querySelectorAll(".lines li").forEach((li, i) => li.classList.toggle("now", i === n));
+  view.querySelectorAll(".lines li")[n].scrollIntoView({ block: "nearest" });
+  const [who] = current.lines[n];
+  if (who !== "listener") {
+    $(".rec-status", view).textContent = "Read the highlighted line, then press Space.";
+    return;
+  }
+  $(".rec-status", view).textContent = "The listener is answering…";
+  solo.audio = new Audio(`/api/solo/${current.id}/${n}`);
+  solo.audio.onended = () => { solo.audio = null; soloNext(view); };
+  solo.audio.play().catch(() => { solo.audio = null; $(".rec-status", view).textContent = "The listener's line didn't play. Press Space to go on."; });
+}
+
+function soloNext(view) {
+  if (!solo || solo.audio) return; // the listener is still speaking
+  if (solo.line + 1 < current.lines.length) { soloAt(solo.line + 1, view); return; }
+  $(".rec-status", view).textContent = "That was the last line.";
+  view.querySelectorAll(".lines li").forEach((li) => li.classList.remove("now"));
+  setTimeout(() => recorder && recorder.stop(), 800); // a moment of the room after the last word
 }
 
 // --- Recording ---------------------------------------------------------------
@@ -169,6 +215,8 @@ async function toggleRecording() {
   const buf = new Float32Array(analyser.fftSize);
   const started = performance.now();
   const btn = $(".rec-btn", view);
+  const soloBox = $(".solo-box", view);
+  solo = soloBox && !$(".solo", view).hidden && soloBox.checked ? { started, times: {}, line: -1, audio: null } : null;
   // A timer, not animation frames, so the clock keeps running if the page is in the background.
   const tick = setInterval(() => {
     analyser.getFloatTimeDomainData(buf);
@@ -187,6 +235,10 @@ async function toggleRecording() {
     btn.textContent = again(current) ? "Record again (replaces this take)" : "Start recording";
     $(".meter span", view).style.width = "0";
     take = new Blob(chunks, { type: rec.mimeType });
+    take.solo = solo ? solo.times : null;
+    if (solo && solo.audio) solo.audio.pause();
+    solo = null;
+    view.querySelectorAll(".lines li").forEach((li) => li.classList.remove("now"));
     $(".take-audio", view).src = URL.createObjectURL(take);
     $(".take", view).hidden = false;
     status.textContent = "Listen back if you like, then save it, or discard it and record again.";
@@ -197,6 +249,7 @@ async function toggleRecording() {
   btn.textContent = "Stop";
   $(".take", view).hidden = true;
   status.textContent = line ? "Recording. Say the line, then press Stop." : "Recording. Dial now.";
+  if (solo) { btn.blur(); soloAt(0, view); } // Space now moves through the lines; it must not press Stop
 }
 
 async function saveTake() {
@@ -209,7 +262,8 @@ async function saveTake() {
   const voices = $(".voices", view).value.trim();
   store.set(line ? "line-voice" : "voices", voices); // a line has one voice, not a call's cast
   const q = new URLSearchParams({ voices, consent: $(".consent-box", view).checked ? "1" : "0",
-    publish: $(".publish-box", view).checked ? "1" : "0", replace: again(current) ? "1" : "0" });
+    publish: $(".publish-box", view).checked ? "1" : "0", replace: again(current) ? "1" : "0", solo: take.solo ? "1" : "0" });
+  const times = take.solo;
   $(".save-take", view).disabled = true;
   status.textContent = line ? "Trimming and levelling…" : "Saving…";
   try {
@@ -219,6 +273,7 @@ async function saveTake() {
     current.recorded = true;
     current.stale = false;
     current.label = null;
+    store.set("times." + current.id, times ? JSON.stringify(times) : "null");
     take = null;
     show(current.id);
     $(".rec-status").textContent = line
@@ -381,6 +436,11 @@ async function saveLabel() {
 }
 
 document.addEventListener("keydown", (e) => {
+  if (solo && recorder && e.key === " " && !e.target.closest("input, textarea")) {
+    e.preventDefault();
+    soloNext($("#card"));
+    return;
+  }
   if (e.target.closest("input, textarea") || !current || !current.recorded) return;
   const audio = $(".label-audio", $("#card"));
   if (!audio) return;

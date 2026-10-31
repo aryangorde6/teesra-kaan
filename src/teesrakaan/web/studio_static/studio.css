@@ -82,6 +82,10 @@ button:disabled { opacity: 0.5; cursor: default; }
 .lines .who { display: block; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
 .lines .caller .who { color: var(--caller); }
 .lines .how { font-style: italic; color: var(--muted); font-size: 0.9rem; }
+.lines li.now { outline: 3px solid var(--accent); outline-offset: 6px; border-radius: 4px; }
+.lines .at-line { margin-left: 6px; font: inherit; font-size: 0.8rem; padding: 0 6px; cursor: pointer; }
+.solo { margin: 10px 0; }
+.solo[hidden] { display: none; }
 .lines .headline .text { font-weight: 600; }
 .saved { margin-top: 8px; }
 

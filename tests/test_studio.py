@@ -170,3 +170,46 @@ def test_a_line_whose_words_changed_is_stale_until_recorded_again(monkeypatch):
     assert voice.playable() == {}
     card = next(c for c in client.get("/api/cards").json() if c["id"] == "W-amber-en")
     assert card["stale"] and not card["recorded"]
+
+
+def _rms(path) -> float:
+    with wave.open(str(path)) as w:
+        frames = w.readframes(w.getnframes())
+    samples = struct.unpack(f"<{len(frames) // 2}h", frames)
+    return math.sqrt(sum(s * s for s in samples) / len(samples))
+
+
+def test_a_solo_take_is_saved_through_the_phone_band_keeps_the_raw_and_says_so():
+    """Evaluation rule v1.5.1: one person reads the caller, the laptop says the listener's lines."""
+    from teesrakaan import config
+    from teesrakaan.web.studio import solo_raw
+
+    assert next(c for c in client.get("/api/cards").json() if c["id"] == "IP02")["solo"] == []  # no listener audio yet
+    (config.data_dir() / "solo" / "IP02").mkdir(parents=True)
+    (config.data_dir() / "solo" / "IP02" / "2.wav").write_bytes(wav(1.0))
+    cards = {c["id"]: c for c in client.get("/api/cards").json()}
+    assert cards["IP02"]["solo"] == [2] and cards["IS04"]["solo"] == []
+    assert client.get("/api/solo/IP02/2").content[:4] == b"RIFF"
+    assert client.get("/api/solo/IP02/0").status_code == 404  # a caller line: the person says it
+    assert client.post(f"/api/recording/IS04{CONSENT}&solo=1", content=wav()).status_code == 400  # not a paraphrase card
+
+    rate = 16000  # a 6 kHz tone: above the phone band, so the saved take is far quieter than the raw one
+    buf = io.BytesIO()
+    with wave.open(buf, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(rate)
+        w.writeframes(b"".join(struct.pack("<h", int(8000 * math.sin(2 * math.pi * 6000 * i / rate))) for i in range(3 * rate)))
+    assert client.post(f"/api/recording/IP02?voices=AG&consent=1&solo=1", content=buf.getvalue()).status_code == 200
+    saved, raw = recordings_dir() / "paraphrase" / "IP02.wav", solo_raw("IP02")
+    assert raw.exists() and _rms(saved) < _rms(raw) / 10
+    with open(recordings_dir() / "voices.csv", newline="") as f:
+        assert [row["voices"] for row in csv.DictReader(f)] == ["AG + listener: synthetic voice (Kokoro hf_alpha)"]
+    assert client.post("/api/label/IP02", json={"t0": 0.5, "labeller": "AG", "notes": "fan on"}).status_code == 200
+    assert read_labels(labels_path())["IP02"].notes == "solo take; fan on"
+
+    # Recorded again by two people: the solo raw goes with the old take, and the label no longer says solo.
+    assert client.post(f"/api/recording/IP02{CONSENT}&replace=1", content=wav(3.0)).status_code == 200
+    assert not raw.exists() and len(list((recordings_dir() / "replaced").glob("IP02-*-solo-raw.wav"))) == 1
+    assert client.post("/api/label/IP02", json={"t0": 0.5, "labeller": "AG"}).status_code == 200
+    assert read_labels(labels_path())["IP02"].notes == ""

@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/static/studio.css?v=2">
+  <link rel="stylesheet" href="/static/studio.css?v=3">
 </head>
 <body>
   <div class="studio">
@@ -48,6 +48,12 @@
         <li>The caller phones the listener; the listener puts the call <b>on speaker</b> on the table.</li>
         <li>Keep this laptop about an arm's length from that phone. Fan on is fine; no music.</li>
         <li>Press <b>Start recording</b>, then dial. Press <b>Stop</b> after the call ends.</li>
+      </ol>
+      <label class="check solo" hidden><input type="checkbox" class="solo-box"> <b>Solo:</b> I read the caller; the laptop says the listener's lines (synthetic voice)</label>
+      <ol class="solo-steps steps small" hidden>
+        <li>Laptop volume at about half. Sit at arm's length from it, facing it.</li>
+        <li>Press <b>Start recording</b> and read the highlighted line as written.</li>
+        <li>Press <b>Space</b> when you finish each of your lines. The laptop answers as the listener when it's their turn; after your last line, Space ends the take.</li>
       </ol>
       <div class="consent">
         <label>Voices (initials) <input class="voices" placeholder="AG, PG" autocomplete="off"></label>
@@ -122,6 +128,6 @@
     </section>
   </template>
 
-  <script src="/static/studio.js?v=2"></script>
+  <script src="/static/studio.js?v=3"></script>
 </body>
 </html>
