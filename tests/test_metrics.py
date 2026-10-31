@@ -66,6 +66,15 @@ def test_results_table_shows_amber_false_alarms_and_the_90th_percentile():
     assert cells[5] == "15 s (15 s)" and cells[6] == "25 s"
 
 
+def test_the_transcription_ablations_are_named_by_their_transcripts():
+    from teesrakaan.metrics import results_table
+
+    s = summarize([Outcome("s1", "IN-scam", True, 2, t_warn=20, t0=5)])
+    table = results_table([{"run": "C", "split": "test", "by_set": {"IN-scam": s}, "calls_from": f"data/transcripts/{d}"}
+                           for d in ("in-test", "in-test-nolang", "in-test-nokw/")])
+    assert "| C | " in table and "| C without the language hint | " in table and "| C without keyword biasing | " in table
+
+
 def test_results_files_from_before_the_next_line_have_no_next_line_block():
     from teesrakaan.metrics import results_table
 

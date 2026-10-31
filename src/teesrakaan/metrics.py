@@ -168,6 +168,17 @@ def _secs(x: float | None) -> str:
     return "–" if x is None else f"{x:.0f} s"
 
 
+# The transcription ablations are run C on their own transcripts (docs/runbook.md), named by the folder's ending.
+ABLATIONS = {"-nolang": "C without the language hint", "-nokw": "C without keyword biasing"}
+
+
+def _run_name(r: dict) -> str:
+    for ending, name in ABLATIONS.items():
+        if str(r.get("calls_from", "")).rstrip("/").endswith(ending):
+            return name
+    return r["run"]
+
+
 def results_table(results: list[dict]) -> str:
     """The README and video table: one block per set, one row per run. Sets are never pooled."""
     out = []
@@ -184,7 +195,7 @@ def results_table(results: list[dict]) -> str:
             warn = s["seconds_to_warning"]
             to_warn = f"{_secs(warn['median'])} ({_secs(warn['p90'])})" if warn["median"] is not None else "–"
             out.append(
-                f"| {r['run']} | {s['caught_red_or_amber']['text']} | {s['caught_red']['text']} | "
+                f"| {_run_name(r)} | {s['caught_red_or_amber']['text']} | {s['caught_red']['text']} | "
                 f"{s['false_alarms_red']['text'] if s['genuine_calls'] else '–'} | "
                 f"{s['false_alarms_amber']['text'] if s['genuine_calls'] else '–'} | "
                 f"{to_warn} | "
@@ -198,7 +209,7 @@ def results_table(results: list[dict]) -> str:
 
 def _next_line_rows(results: list[dict], name: str) -> list[str]:
     """Metric 7 for one set. Result files from before the metric existed are left out."""
-    rows = [(r["run"], r["by_set"][name]["next_line"]) for r in results if "next_line" in r["by_set"].get(name, {})]
+    rows = [(_run_name(r), r["by_set"][name]["next_line"]) for r in results if "next_line" in r["by_set"].get(name, {})]
     if not rows:
         return []
     out = [f"The next line, **{name}**", "",
