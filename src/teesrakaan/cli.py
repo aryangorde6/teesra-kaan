@@ -151,10 +151,22 @@ def cmd_table(args: argparse.Namespace) -> None:
 
 
 def cmd_keywords(args: argparse.Namespace) -> None:
-    """For the paraphrase test: a rewritten script must match none of the baseline's keywords."""
+    """For the paraphrase test. A text file (a rewritten script) must match none of the baseline's keywords.
+    A call or transcript, or a folder of them: the keywords that came back anyway, in the caller's words (what
+    run A sees) and in anyone's, to report beside the results."""
     from .keywords import keyword_hits
 
-    hits = keyword_hits(Path(args.text).read_text(encoding="utf-8"))
+    path = Path(args.text)
+    if path.is_dir() or path.suffix == ".json":
+        for p in sorted(path.glob("*.json")) if path.is_dir() else [path]:
+            call = _load(p)
+            caller = call.caller_label()
+            hits = [(t.speaker == caller, sid, w) for t in call.turns for sid, w in keyword_hits(t.text)]
+            said = [f"{sid} {w!r}" for by_caller, sid, w in hits if by_caller]
+            print(f"{call.id}: {len(said)} in the caller's words, {len(hits)} in all"
+                  + (f": {', '.join(said)}" if said else ""))
+        return
+    hits = keyword_hits(path.read_text(encoding="utf-8"))
     for sid, words in hits:
         print(f"{sid}: {words!r}")
     print("no baseline keyword found" if not hits else f"{len(hits)} keyword matches: rewrite these")
@@ -333,7 +345,7 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--out")
     p.set_defaults(func=cmd_eval)
 
-    p = sub.add_parser("keywords", help="list baseline keywords in a text file (the paraphrase test needs none)")
+    p = sub.add_parser("keywords", help="baseline keywords in a text file, or in a call, transcript or folder of them (the paraphrase test)")
     p.add_argument("text")
     p.set_defaults(func=cmd_keywords)
 

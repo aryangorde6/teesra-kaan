@@ -40,6 +40,14 @@ The transcription ablations are separate transcripts of the test sets:
 | C without speaker separation | | `… --run C-no-speakers` |
 | C without language hint / keywords | C on the ablation transcripts | `teesrakaan eval data/transcripts/in-test-nolang … --run C` |
 
+The paraphrase test (10 test scam calls rewritten without the baseline's keywords, evaluation rule v1.4.1), once, after the freeze:
+```bash
+.venv/bin/teesrakaan transcribe-set data/recordings/paraphrase --out data/transcripts/in-paraphrase
+.venv/bin/teesrakaan eval data/transcripts/in-paraphrase --labels data/labels-in.csv --split paraphrase --run A   # then B, C
+.venv/bin/teesrakaan keywords data/transcripts/in-paraphrase   # keywords that came back anyway, reported beside the results
+.venv/bin/teesrakaan table runs/eval-*/results-paraphrase-*.json   # its own table, never mixed into the test rows
+```
+
 Then the table for the README and the video:
 ```bash
 .venv/bin/teesrakaan table runs/eval-*/results-test-*.json

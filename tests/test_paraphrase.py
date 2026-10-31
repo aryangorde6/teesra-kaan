@@ -42,3 +42,17 @@ def test_each_keeps_its_scripts_pattern_language_ask_and_order_of_voices():
 
 def test_the_set_is_scam_so_labels_and_runs_score_them_as_scams():
     assert json.loads((SCRIPTS / "in-paraphrase.json").read_text(encoding="utf-8"))["set"] == "IN-scam"
+
+
+def test_keywords_counts_what_came_back_in_a_transcript(tmp_path, capsys):
+    from teesrakaan.cli import main
+
+    turns = [
+        {"speaker": "A", "start": 0, "end": 4, "text": "Namaste, main ek sarkari daftar se baat kar raha hoon, OTP bata do."},
+        {"speaker": "B", "start": 4, "end": 5, "text": "Police ko bataun?"},
+        {"speaker": "A", "start": 5, "end": 9, "text": "Nahi, yeh baat apne tak rakhiye aur woh chhe ank padh dijiye."},
+    ]
+    (tmp_path / "IP99.json").write_text(json.dumps({"id": "IP99", "turns": turns}), encoding="utf-8")
+    main(["keywords", str(tmp_path)])
+    out = capsys.readouterr().out
+    assert out.startswith("IP99: 1 in the caller's words, 2 in all: A5 ")

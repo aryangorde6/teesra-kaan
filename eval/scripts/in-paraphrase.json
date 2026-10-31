@@ -1,6 +1,6 @@
 {
   "set": "IN-scam",
-  "version": "paraphrase v1, Oct 31, 2026, written before the freeze and before any test call was recorded",
+  "version": "paraphrase v1, Oct 31, 2026, written before the freeze and before any test call was recorded; the Hindi, Marathi, Hinglish and English wording checked by Aryan (who speaks all three) by 11:53 IST the same day, with no changes",
   "about": "The paraphrase test in docs/evaluation-rule.md: 10 test scam scripts, drawn with the split's seed (20261028) from the 24 test scam scripts, each rewritten so that no word in the keyword baseline's list (src/teesrakaan/keywords.py) appears anywhere in it. The same pattern, the same moves in the same order, the same ask (or none), the same roles; only the words change. Unlike the other cards, these are read as written, so the missing words stay missing. Every name, number and amount is made up.",
   "scripts": [
     {
