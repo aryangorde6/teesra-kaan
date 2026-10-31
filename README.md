@@ -18,7 +18,7 @@ The script isn't only Indian. Americans reported losing $3.5 billion to impostor
 ## The next line
 A warning often loses to fear. In September 2026 a retired doctor in Rajkot sent ₹58.5 lakh to "digital arrest" callers even after her bank warned her ([DeshGujarat](https://deshgujarat.com/2026/10/02/despite-bank-warning-doctor-gripped-by-fear-transfers-%e2%82%b958-50-lakh-in-digital-arrest-scam/)). What a frightened person can't argue with is proof that the caller is reading from a script, and a field experiment found that forewarning people about a specific scam made them less likely to fall for it ([Scheibe et al., 2014](https://longevity.stanford.edu/forewarning-reduces-fraud-susceptibility-in-vulnerable-consumers)).
 
-So Teesra Kaan says the caller's next line before they say it. The nine scam patterns in [docs/scam-tactics.md](docs/scam-tactics.md) are written in [`playbook.py`](src/teesrakaan/playbook.py) as ordered steps, taken from the police, RBI and DoT advisories. Once two steps of a script have been heard, the page shows the next one:
+So Teesra Kaan says the caller's next line before they say it. The ten scam patterns in [docs/scam-tactics.md](docs/scam-tactics.md) are written in [`playbook.py`](src/teesrakaan/playbook.py) as ordered steps, taken from the police, RBI and DoT advisories. Once two steps of a script have been heard, the page shows the next one:
 
 > **Next line in this scam's script:** "Don't tell anyone. Don't hang up."
 
@@ -37,10 +37,10 @@ When the caller says it, the line is ticked: *"The caller just said it: “kisi 
 | Step | Meta model | What it does |
 |---|---|---|
 | 1. Hear | **Muse Voice Transcribe** (realtime, speaker separation, Hindi/Marathi/English bias, scam-term keyword biasing) | Writes the call down as it happens and keeps the two voices apart |
-| 2. Ask | **Muse Spark 1.3** (JSON-schema output) | After each thing the caller says, answers 12 fixed yes/no questions about the caller ("claims to be police?", "asks for an OTP?", "says don't tell family?"), quoting the caller's exact words for every yes |
+| 2. Ask | **Muse Spark 1.3** (JSON-schema output) | After each thing the caller says, answers 13 fixed yes/no questions about the caller ("claims to be police?", "asks for an OTP?", "says don't tell family?"), quoting the caller's exact words for every yes |
 | 3. Check | — | Every quote is matched against what the caller actually said; a quote that isn't there is thrown away, so a made-up reason can't raise an alarm |
 | 4. Decide | **Muse Spark 1.3**, as a check | Fixed rules: a warning needs Spark's overall view of the call (asked in a parallel call) to say "scam" *and* at least one warning sign quoted in the caller's own words. If one is an ask for money, an OTP or PIN, an app or a link, it's red. Spark's view alone never warns, and neither do the signs alone, so a real bank's fraud alert stays quiet |
-| 5. Predict | — | The signs so far are matched against the nine scam scripts; when they agree on the next step, the page shows the caller's next line, and ticks it when it's said |
+| 5. Predict | — | The signs so far are matched against the ten scam scripts; when they agree on the next step, the page shows the caller's next line, and ticks it when it's said |
 | 6. Report | — | At hang-up: the caller's claims with quotes and times, every amount, number and UPI ID mentioned, and what to do next |
 
 The questions, rules and the scam patterns they come from (with official sources) are in [docs/scam-tactics.md](docs/scam-tactics.md).
@@ -63,7 +63,7 @@ On Oct 31 we phoned 10 people (5 elderly, 3 middle-aged, 2 Gen Z), told them it 
 - **One of the five elders lost ₹20,000.** The caller used the name of someone he knew and said he was sending ₹25,000. A fake SMS showed ₹45,000 credited, and the caller asked for the "extra" ₹20,000 back. It was sent, and never reported: he thought he would look like a fool.
 - They liked the interface, and said having it in their own language was a sweet addition.
 
-We wrote that call down as he described it, with made-up names, and played it through Teesra Kaan as text ([eval/probe_wrong_credit.py](eval/probe_wrong_credit.py)). In Hinglish and in English it turned **amber when the caller said he had sent too much by mistake, before any ask, and red when he asked for the money back.** The keyword lists missed the English one. That is one written call, not a test; the test is above.
+Before the freeze, we taught Teesra Kaan that call as its tenth script ([scam-tactics.md](docs/scam-tactics.md) v1.4: the fake "money sent" SMS, then "too much went by mistake", then "send the extra back"). Written down as he described it, with made-up names ([eval/probe_wrong_credit.py](eval/probe_wrong_credit.py)), in Hinglish and in English it turns **amber at "too much went by mistake", shows the caller's next line, "Please send the extra back to this number", before he says it, and goes red when he does.** It's on the page as a demo call, "Sent too much by mistake". The keyword lists miss the English one. That is one written call, not a test; the test is above.
 
 ## What already exists
 AI that spots scam calls is not new. This is what we found, and how Teesra Kaan differs.
@@ -102,13 +102,13 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 - A warning is advice, not a verdict. The genuine-call set measures how often it warns when it shouldn't.
 - **A relative asking for money is the hardest case.** On the dev set, a daughter asking her mother for mess fees, who added "I'll video call on Sunday", went red under the first rules (an ask plus one more sign). With Muse Spark's overall view as a check, it stays silent, but that's one call. The "Hi Maa, this is my new number" scam sounds the same, and only the test set says how often each is judged right ([dev-log](docs/dev-log.md), Oct 30).
 - **It hears a turn when the turn ends.** The transcriber says who spoke only at the end of each turn, and nothing is judged before we know it was the caller. A long monologue can delay a warning by up to one turn.
-- The next line knows only the nine scripts. A new script, or one played in an unusual order, gets no prediction or a wrong one; the test counts both. The "I sent too much by mistake, send the rest back" call that cost an elder we spoke to ₹20,000 is one: it is warned on, amber then red, but gets no scam name and no next line. Its dev numbers so far come from written scripts with estimated timings, where the caller often says the next step in the very next breath. How far ahead it is on recorded calls comes from the frozen test.
+- The next line knows only the ten scripts. A new script, or one played in an unusual order, gets no prediction or a wrong one; the test counts both. The tenth was added on Oct 31, before the freeze, after an elder we phoned lost ₹20,000 to it ("What people said"). Its dev numbers so far come from written scripts with estimated timings, where the caller often says the next step in the very next breath. How far ahead it is on recorded calls comes from the frozen test.
 
 ## Layout
 | File | What it does |
 |---|---|
-| `src/teesrakaan/signals.py` | The 12 signal questions and the alarm rules |
-| `src/teesrakaan/playbook.py` | The nine scam scripts as ordered steps, the next line they predict, and the rest of the script for a call checked afterwards |
+| `src/teesrakaan/signals.py` | The 13 signal questions and the alarm rules |
+| `src/teesrakaan/playbook.py` | The ten scam scripts as ordered steps, the next line they predict, and the rest of the script for a call checked afterwards |
 | `src/teesrakaan/listener.py` | Hears the call, asks the judge, checks quotes, keeps the alarm. The same code runs live and in the evaluation |
 | `src/teesrakaan/judge.py`, `keywords.py` | The Muse Spark prompt and parser; the keyword baseline |
 | `src/teesrakaan/spark.py`, `asr.py`, `budget.py` | Muse Spark and Muse Voice Transcribe clients, behind a $100 hard stop checked against Meta's meter |

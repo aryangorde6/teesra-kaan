@@ -35,6 +35,7 @@ WHERE = (
     ("FACTS", messages, "A fact shown under the warning"),
     ("NEXT_LABEL", messages, "Above the caller's next line"),
     ("NEXT_LINE", messages, "The caller's next line, shown before he says it"),
+    ("SCRIPT_LINE", messages, "The caller's next line, in one scam's own words"),
     ("CAME_TRUE", messages, "When the caller says that line"),
     ("FAMILY", messages, "The message sent to family in one tap"),
     ("SCRIPT_NAME", messages, "The name of a scam"),

@@ -12,7 +12,7 @@ DOCS = Path(__file__).resolve().parent.parent / "docs"
 
 
 def test_every_script_is_a_pattern_from_the_tactics_doc_with_known_signals():
-    patterns = {int(n) for n in re.findall(r"^\| (\d) \| \*\*", (DOCS / "scam-tactics.md").read_text(), re.M)}
+    patterns = {int(n) for n in re.findall(r"^\| (\d+) \| \*\*", (DOCS / "scam-tactics.md").read_text(), re.M)}
     assert {s.pattern for s in SCRIPTS} == patterns
     for s in SCRIPTS:
         assert set(s.steps) <= BY_ID.keys() and len(set(s.steps)) == len(s.steps)
@@ -41,6 +41,15 @@ def test_the_ask_comes_last():
 
 def test_fake_customer_care_predicts_the_app():
     assert predict({"A1", "A12"}).step == "A7"
+
+
+def test_sent_by_mistake_predicts_the_ask_to_send_it_back():
+    # "I'm sending you money, check the message", then "too much went by mistake": he'll ask for the extra back.
+    nxt = predict({"A13", "A12"})
+    assert nxt.step == "A6" and nxt.scripts == ("wrong-credit",)
+    assert "send the extra back" in next_line(nxt.step, "en", nxt.scripts)["line"]
+    assert next_line("A6", "en")["line"] == NEXT_LINE["A6"]["en"]  # any other script keeps the usual line
+    assert predict({"A13"}) is None  # one step alone predicts nothing
 
 
 def test_a_finished_script_still_blocks_a_guess():

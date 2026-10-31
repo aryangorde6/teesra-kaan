@@ -128,6 +128,8 @@ PATTERNS: dict[str, tuple[str, ...]] = {
              r"lottery|prize|you have won|aap jeet|jeet gaye|jeete|kbc|kaun banega|cashback|refund|by mistake|"
              r"galti se|wrong transfer|लॉटरी|इनाम|जीत|रिफंड|कैशबैक|गलती से|बक्षीस|चुकून"),
     ),
+    # A13 (credit message, Oct 31) has no list: "check the message" is said on genuine calls too, and the
+    # wrong-credit call's own words ("by mistake", "galti se") are already A12's above.
 }
 
 

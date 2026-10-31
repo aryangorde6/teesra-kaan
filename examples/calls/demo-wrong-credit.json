@@ -1,0 +1,18 @@
+{
+  "id": "demo-wrong-credit",
+  "set": "demo",
+  "language": "hi+en",
+  "re_enactment": true,
+  "note": "A written demo script of the 'sent too much by mistake' scam, as an elder we phoned on Oct 31, 2026 described the call that cost him Rs 20,000. Not a real call: the names are made up.",
+  "label": {"is_scam": true, "pattern": 10, "t0": 11.0, "t_ask": 32.0},
+  "turns": [
+    {"speaker": "caller", "start": 0.0, "end": 8.0, "text": "Namaste uncle, main Ramesh bol raha hoon, Suresh bhaiya ka dost. Bhaiya ne kaha tha aapko pachees hazaar rupaye bhejne hain."},
+    {"speaker": "listener", "start": 8.5, "end": 10.5, "text": "Achha, haan, Suresh ne bataya tha."},
+    {"speaker": "caller", "start": 11.0, "end": 17.5, "text": "Main abhi Google Pay se bhej raha hoon. Aapke phone pe message aa jayega, dekh lijiye."},
+    {"speaker": "listener", "start": 18.0, "end": 19.0, "text": "Theek hai."},
+    {"speaker": "caller", "start": 19.5, "end": 28.0, "text": "Uncle, message aaya? Arre, galti se pachees ki jagah paintalees hazaar chale gaye. Mera haath galat jagah dab gaya."},
+    {"speaker": "listener", "start": 28.5, "end": 31.0, "text": "Haan, message mein paintalees hazaar likha hai."},
+    {"speaker": "caller", "start": 32.0, "end": 42.0, "text": "Uncle please, baaki ke bees hazaar isi number pe wapas bhej dijiye. Mujhe abhi hospital mein jama karne hain, jaldi kijiye."},
+    {"speaker": "listener", "start": 42.5, "end": 44.0, "text": "Achha, main dekhta hoon."}
+  ]
+}

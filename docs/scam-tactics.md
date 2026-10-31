@@ -1,6 +1,6 @@
 # Scam-call tactics in India: what Teesra Kaan listens for
 
-Version 1.3, Oct 30, 2026 (09:24 IST, commit `cfca2cf`; v1 was Oct 28, see "Changes" at the end). Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns 7 and 8 are sourced through news reports of official advisories (Oct 28); the advisory itself must be opened and cited before either appears in the video.
+Version 1.4, Oct 31, 2026 (A13 and pattern 10; v1.3 was Oct 30, commit `cfca2cf`; v1 was Oct 28, see "Changes" at the end). Built from public advisories by Indian government bodies and regulators. Each pattern lists its source. Patterns 7, 8 and 10 are sourced through news reports of official advisories (Oct 28); the advisory itself must be opened and cited before either appears in the video.
 
 ## The signals
 
@@ -13,13 +13,14 @@ After each caller turn, Muse Spark answers a fixed set of yes/no questions about
 | **A3 Urgency** | Demands action right now, as soon as possible, or within a deadline? | "abhi ke abhi", "within two hours" |
 | **A4 Isolation** | Tells you to keep it secret, not to tell family, stay on the call or video, or go somewhere alone? | "kisi ko mat batana", "call disconnect mat karna" |
 | **A5 Secrets** | Asks for an OTP, PIN, CVV, password, or Aadhaar, PAN or card number? | "OTP bata dijiye" |
-| **A6 Money** | Asks you to pay or move money (a fine, a "verification" deposit, a "safe" or "RBI" account, a UPI request)? | "verification ke liye paise transfer karo" |
+| **A6 Money** | Asks you to pay, move or send back money (a fine, a "verification" deposit, a "safe" or "RBI" account, a UPI request, money "sent by mistake")? Not money the caller says he is sending you. | "verification ke liye paise transfer karo" |
 | **A7 Remote control** | Asks you to install an app, share your screen, or open a link? | "AnyDesk download karo" |
 | **A8 Channel switch** | Moves you to a video call, WhatsApp or Skype? | "Skype pe aaiye, video on rakhiye" |
 | **A9 Parcel** | Says a parcel or courier in your name holds illegal items? | "aapke parcel mein drugs mile hain" |
 | **A10 Press-a-key** | An automated voice says to press a key to talk to an officer? | "press 9" |
 | **A11 PIN to receive** | Says you must enter a UPI PIN or approve a request to *receive* money? | "PIN daalo, paise aa jayenge" |
 | **A12 Windfall** | Says you've won a prize, lottery, cashback or refund, qualify for a special discount, rate cut, loan or relief payment, or that money was sent to you by mistake? | "aapne KBC lottery jeeti hai", "galti se paise aa gaye", "you qualify for 50% off" |
+| **A13 Credit message** | Says they are sending, or have sent, you money, and points to an SMS or message on your phone as proof that it arrived? | "aapke phone pe message aa jayega", "message aaya? check kijiye" |
 
 **Alarm rules v1.3** (Oct 30, 2026; tuned on the development set only, then frozen; see `evaluation-rule.md`). In one line: **Muse Spark must judge the call a scam, and at least one signal must be quoted in the caller's own words; if one of them is an ask, it's red.**
 - **Asks** and **flags** as below.
@@ -29,7 +30,7 @@ After each caller turn, Muse Spark answers a fixed set of yes/no questions about
 - Why it changed: on the dev set, the v1.2 rules below warned on 3 of 12 genuine calls (1 red) and missed 3 of 41 FTC impersonation robocalls that had one signal each. v1.3 warned on 0 of 12 and caught 41 of 41, with the scam calls caught as before ([dev-log](dev-log.md), Oct 30).
 
 **Alarm rules v1.2**, still used by the keyword baseline (comparison A), which has no overall view. In one line: **two signals make a warning; if one of them is an ask, it's red.**
-- **Asks** are A5, A6, A7 and A11: the caller wants secrets, money, control or a PIN. **Flags** are the other eight: pressure (A1–A4) and the scam's props (A8–A10, A12).
+- **Asks** are A5, A6, A7 and A11: the caller wants secrets, money, control or a PIN. **Flags** are the other nine: pressure (A1–A4) and the scam's props (A8–A10, A12, A13).
 - **Danger (red):** an ask together with any other signal.
 - **Danger (red), before any ask:** authority plus threat plus isolation (A1 + A2 + A4). That's the "digital arrest" opening, which moves to money later.
 - **Caution (amber):** any two flags.
@@ -48,6 +49,7 @@ After each caller turn, Muse Spark answers a fixed set of yes/no questions about
 | 7 | **Family emergency** | "Your son has been arrested" or "had an accident": money needed right now, don't call anyone. Sometimes a cloned voice | A2 A3 A4 → A6 | Tamil Nadu Police cyber crime wing advisory on AI voice-cloning calls in fake emergencies, Apr 2024 ([MediaNama](https://www.medianama.com/2024/04/223-tamil-nadu-police-cybercrime-advisory-ai-voice-cloning/), [Inc42](https://inc42.com/?p=454767)); a Hyderabad case with a fake nephew, an accident and a threat of jail ([IndiaAI](https://indiaai.gov.in/news/a-woman-from-hyderabad-loses-1-4-lakh-rupees-in-an-ai-scam)). *Open the police advisory itself before the video* |
 | 8 | **Electricity disconnection** | "Your power will be cut tonight because the bill isn't updated; call this officer" | A1 A2 A3 → A6 A7 | MSEDCL appeals not to answer messages saying power will be cut at 9.30 pm and to call a personal number; it never contacts consumers from personal numbers ([Punekar News](https://www.punekarnews.in/?p=104719), [Punekar News](https://www.punekarnews.in/?p=159591)); Maharashtra DGIPR warning on fake electricity bill messages ([Free Press Journal](https://www.freepressjournal.in/amp/mumbai/fact-check-maharashtra-dgipr-warns-of-fake-electricity-bill-messages-urges-citizens-to-stay-alert)). *Open MSEDCL's own notice before the video* |
 | 9 | **Prize, lottery or KBC** | You've won, but must pay a fee or tax first | A12 → A6 | RBI BE(A)WARE (lottery fraud) |
+| 10 | **"Sent too much by mistake"** | A caller says he is sending you money, often for someone you know, and that an SMS will show it. A fake SMS shows more than he said. "Too much went by mistake": he asks you to send the extra back, to his number | A13 A12 → A6 | Kerala Police warning on fake bank-credit SMS sent with "transferred by mistake" calls, reported by UNI, Sep 15, 2026 ([UNI](https://www.uniindia.com/south-india/crime-kerala-sms-fraud/180744)); Tripura Police cyber crime unit: don't send money "sent by mistake" back over UPI, reported by EastMojo, Apr 17, 2023 ([EastMojo](https://eastmojo.com/national/2023/04/17/tripura-police-sounds-alert-against-upi-fraud/)). Heard firsthand: an elder we phoned on Oct 31 lost ₹20,000 to it |
 
 **Where to report**, as the warning and the report pack say:
 - money lost: **1930**, or **cybercrime.gov.in**;
@@ -75,3 +77,4 @@ A genuine caller may sound alarming but never asks for secrets or money on the c
   - The rules themselves are unchanged. **Known cost:** a genuine bank fraud alert ("a suspicious transaction on your card") can now reach amber (A1 + A2). It still can't reach red without an ask, and amber's advice ("hang up and call the official number yourself") is what banks advise anyway. The IN-genuine set measures this.
 - **v1.3, Oct 30, 2026 (09:24 IST, commit `cfca2cf`), tuned on the dev set only** (no test call had been run or opened): a warning also needs Muse Spark's overall view, asked in a parallel call, to say "scam", plus at least one signal quoted in the caller's words. See "Alarm rules v1.3" above for the rules and why. The twelve signals are unchanged, and the keyword baseline (comparison A) keeps the v1.2 rules. Code: `RULES_VERSION = "v1.3 (Oct 30, 2026)"`.
 - **Oct 30, 2026, 13:10 IST:** the version line at the top raised to 1.3 and the v1.3 entry above added; both had been left at v1.2 when v1.3 was written. No rule changed.
+- **v1.4, Oct 31, 2026 (20:36 IST), before the freeze; no test call had been run or opened, and no test script was read for it:** added **A13 Credit message** and **pattern 10, "sent too much by mistake"** (playbook v2, `wrong-credit`), from a call an elder we phoned had lost ₹20,000 to ([dev-log](dev-log.md), Oct 31, 20:17). Without them that call was warned on, amber then red, but matched five scripts, so the page named no scam and showed no next line. A13 is a flag, so the rules are unchanged (v1.3): it can make an amber with Spark's overall view, and red still needs an ask. The keyword baseline gets no A13 list: "check the message" is said on genuine calls too, and the call's own "by mistake" words are already A12's. **A6** now also says "send back", and that money the caller says he is sending you is not an ask: on that call Spark had read "aapko pachees hazaar bhejne hain" ("I have to send you 25,000") as asking for money. **A12** loses "and must be returned", which the code had and this table never did: the claim "too much went by mistake" comes before the ask, and with it A12 waited for the ask.

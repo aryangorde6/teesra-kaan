@@ -3,8 +3,8 @@ import pytest
 from teesrakaan.signals import ASKS, BY_ID, FLAGS, SCAM, SIGNALS, Level, decide, decide_checked
 
 
-def test_twelve_signals_split_into_asks_and_flags():
-    assert [s.id for s in SIGNALS] == [f"A{i}" for i in range(1, 13)]
+def test_thirteen_signals_split_into_asks_and_flags():
+    assert [s.id for s in SIGNALS] == [f"A{i}" for i in range(1, 14)]
     assert ASKS == {"A5", "A6", "A7", "A11"}
     assert ASKS | FLAGS == BY_ID.keys() and not ASKS & FLAGS
 
@@ -63,6 +63,7 @@ PATTERNS = {
     7: "A2 A3 A4 A6",
     8: "A1 A2 A3 A6 A7",
     9: "A12 A6",
+    10: "A13 A12 A6",
 }
 
 

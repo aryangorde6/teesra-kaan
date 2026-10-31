@@ -92,6 +92,7 @@ SIGNAL_NAME = {
     "A10": {"en": "Press-a-key message", "hi": "बटन दबाने को कहा", "mr": "बटण दाबायला सांगितले"},
     "A11": {"en": "PIN to receive money", "hi": "पैसे पाने के लिए PIN", "mr": "पैसे मिळवण्यासाठी PIN"},
     "A12": {"en": "Prize, refund or offer bait", "hi": "इनाम, रिफंड या ऑफ़र का लालच", "mr": "बक्षीस, रिफंड किंवा ऑफरचे आमिष"},
+    "A13": {"en": "Points to a 'money sent' SMS", "hi": "पैसे भेजने के मैसेज की बात", "mr": "पैसे पाठवल्याच्या मेसेजचा उल्लेख"},
 }
 
 # (signals that must all be present, country, fact). The matching facts for the country are shown.
@@ -110,6 +111,11 @@ FACTS: tuple[tuple[frozenset[str], str, dict[str, str]], ...] = (
         "en": "Your UPI PIN is only for sending money. You never need it to receive money.",
         "hi": "UPI PIN सिर्फ़ पैसे भेजने के लिए होता है। पैसे पाने के लिए PIN की कभी ज़रूरत नहीं होती।",
         "mr": "UPI PIN फक्त पैसे पाठवण्यासाठी असतो. पैसे मिळवण्यासाठी PIN ची कधीच गरज नसते.",
+    }),
+    (frozenset({"A13"}), "IN", {
+        "en": "A 'money credited' SMS is easy to fake. Check your bank app or passbook, not the message. Don't send 'extra' money back to anyone who asks on the phone.",
+        "hi": "'पैसे जमा हुए' वाला SMS आसानी से नकली बनता है। मैसेज नहीं, अपना बैंक ऐप या पासबुक देखिए। फ़ोन पर माँगने वाले को 'ज़्यादा आए' पैसे वापस मत भेजिए।",
+        "mr": "'पैसे जमा झाले' असा SMS सहज खोटा बनवता येतो. मेसेज नाही, तुमचे बँक ॲप किंवा पासबुक पाहा. फोनवर मागणाऱ्याला 'जास्त आलेले' पैसे परत पाठवू नका.",
     }),
     (frozenset({"A5"}), "IN", {
         "en": "Your bank will never ask for your OTP, PIN, CVV or password.",
@@ -211,7 +217,23 @@ NEXT_LINE = {
             "mr": "पैसे मिळवण्यासाठी UPI PIN टाका."},
     "A12": {"en": "You've won a prize, or you're owed a refund.", "hi": "आपने इनाम जीता है, या आपका रिफ़ंड बाकी है।",
             "mr": "तुम्ही बक्षीस जिंकलं आहे, किंवा तुमचा रिफंड बाकी आहे."},
+    "A13": {"en": "I'm sending you the money. Check the message on your phone.",
+            "hi": "मैं आपको पैसे भेज रहा हूँ। फ़ोन पर मैसेज देखिए।", "mr": "मी तुम्हाला पैसे पाठवतोय. फोनवर मेसेज बघा."},
 }
+
+# A step that one script's caller says in his own way. Used when every matching script is that one.
+SCRIPT_LINE = {
+    ("wrong-credit", "A12"): {"en": "Oh no, too much went to you by mistake.", "hi": "अरे, गलती से आपको ज़्यादा पैसे चले गए।",
+                              "mr": "अरे, चुकून तुम्हाला जास्त पैसे गेले."},
+    ("wrong-credit", "A6"): {"en": "Please send the extra back to this number.", "hi": "ज़्यादा वाले पैसे इसी नंबर पर वापस भेज दीजिए।",
+                             "mr": "जास्तीचे पैसे याच नंबरवर परत पाठवा."},
+}
+
+
+def line(step: str, scripts=(), lang: str = "en") -> str:
+    """The caller's line for a step: the script's own, when every matching script has one, else the usual one."""
+    own = {SCRIPT_LINE[(s, step)][lang] if (s, step) in SCRIPT_LINE else None for s in scripts}
+    return own.pop() if len(own) == 1 and None not in own else NEXT_LINE[step][lang]
 
 CAME_TRUE = {
     "en": "The caller just said it: “{quote}”. This call is following a scam script.",
@@ -220,8 +242,8 @@ CAME_TRUE = {
 }
 
 
-def next_line(step: str, lang: str = "en") -> dict:
-    return {"id": step, "label": NEXT_LABEL[lang], "line": NEXT_LINE[step][lang], "name": SIGNAL_NAME[step][lang]}
+def next_line(step: str, lang: str = "en", scripts=()) -> dict:
+    return {"id": step, "label": NEXT_LABEL[lang], "line": line(step, scripts, lang), "name": SIGNAL_NAME[step][lang]}
 
 
 def came_true(step: str, quote: str, lang: str = "en") -> dict:
@@ -241,6 +263,7 @@ SCRIPT_NAME = {
     "family-emergency": {"en": "Family emergency", "hi": "परिवार में इमरजेंसी", "mr": "कुटुंबात इमर्जन्सी"},
     "electricity": {"en": "Electricity disconnection", "hi": "बिजली कनेक्शन कटना", "mr": "वीज कनेक्शन तोडणे"},
     "prize": {"en": "Prize, lottery or KBC", "hi": "इनाम, लॉटरी या KBC", "mr": "बक्षीस, लॉटरी किंवा KBC"},
+    "wrong-credit": {"en": "Sent too much by mistake", "hi": "गलती से ज़्यादा पैसे भेजे", "mr": "चुकून जास्त पैसे पाठवले"},
 }
 
 MATCHES = {
@@ -283,7 +306,7 @@ def script_ahead(rest, lang: str = "en") -> dict:
     return {
         "matches": (MATCHES if known else COULD_BE)[lang].format(names=names),
         "label": AHEAD_LABEL[lang] if rest.steps else "",
-        "steps": [{"id": s, "name": SIGNAL_NAME[s][lang], "line": NEXT_LINE[s][lang]} for s in rest.steps],
+        "steps": [{"id": s, "name": SIGNAL_NAME[s][lang], "line": line(s, rest.scripts, lang)} for s in rest.steps],
         "note": "" if rest.steps else (SCRIPT_DONE if rest.done else NOT_ENOUGH)[lang],
     }
 
@@ -293,5 +316,6 @@ def prediction_events(update, lang: str = "en") -> list[dict]:
     out = [{"type": "came_true", "said_at": round(p.said_at, 1), **came_true(p.step, p.quote, lang)}
            for p in update.came_true]
     if update.next_changed:
-        out.append({"type": "next", **next_line(update.next.step, lang)} if update.next else {"type": "next", "id": None})
+        out.append({"type": "next", **next_line(update.next.step, lang, update.next.scripts)} if update.next
+                   else {"type": "next", "id": None})
     return out

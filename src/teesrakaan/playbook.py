@@ -14,7 +14,7 @@ from __future__ import annotations
 from collections.abc import Iterable
 from dataclasses import dataclass
 
-PLAYBOOK_VERSION = "v1 (Oct 28, 2026)"
+PLAYBOOK_VERSION = "v2 (Oct 31, 2026)"
 MIN_STEPS = 2  # steps of a script heard before it may predict
 
 
@@ -38,6 +38,8 @@ SCRIPTS: tuple[Script, ...] = (
     Script("family-emergency", "Family emergency", 7, ("A2", "A3", "A4", "A6")),
     Script("electricity", "Electricity disconnection", 8, ("A1", "A2", "A3", "A6", "A7")),
     Script("prize", "Prize, lottery or KBC", 9, ("A12", "A6")),
+    # v2: "I'm sending you money" (a fake credit SMS), "too much went by mistake", "send the extra back".
+    Script("wrong-credit", "Sent too much by mistake", 10, ("A13", "A12", "A6")),
 )
 
 BY_ID: dict[str, Script] = {s.id: s for s in SCRIPTS}

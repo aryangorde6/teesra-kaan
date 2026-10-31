@@ -167,6 +167,7 @@ const CALL_NAME = {
   "demo-digital-arrest": { en: "Digital arrest", hi: "डिजिटल अरेस्ट", mr: "डिजिटल अरेस्ट" },
   "demo-trai-marathi": { en: "Your number will be cut off (TRAI)", hi: "आपका नंबर बंद होगा (TRAI)", mr: "तुमचा नंबर बंद होईल (TRAI)" },
   "demo-bank-alert-genuine": { en: "A genuine bank alert", hi: "असली बैंक अलर्ट", mr: "खरा बँक अलर्ट" },
+  "demo-wrong-credit": { en: "Sent too much by mistake", hi: "गलती से ज़्यादा पैसे भेजे", mr: "चुकून जास्त पैसे पाठवले" },
 };
 const CALL_LANG = {
   "hi+en": { en: "Hindi and English", hi: "हिंदी और अंग्रेज़ी", mr: "हिंदी आणि इंग्रजी" },

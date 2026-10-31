@@ -127,9 +127,9 @@ def test_live_switches_itself_off_when_the_budget_is_spent(monkeypatch):
     assert client.get("/api/status").json() == {"live": False}
 
 
-def test_signals_endpoint_lists_the_twelve_questions():
+def test_signals_endpoint_lists_the_thirteen_questions():
     data = client.get("/api/signals").json()
-    assert len(data["signals"]) == 12 and data["rules_version"].startswith("v1.3")
+    assert len(data["signals"]) == 13 and data["rules_version"].startswith("v1.3")
     assert {"en", "hi", "mr"} <= data["signals"][0]["name"].keys()
 
 

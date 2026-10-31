@@ -216,3 +216,22 @@ Dev only. The entry above ran the rewrites as text; this puts them through speec
 
 - **The gap:** no script fits. A12 then A6 is also the prize script's order, so five scripts tie, the page names no scam and the next line shows nothing. Not changed before the freeze: the warning already comes, and a tenth script with the prize script's steps couldn't tell the two apart without a new question for Spark.
 - **Cost:** $0.0425 (ledger $2.3255 → $2.3680); the re-run came from the cache.
+
+## Oct 31, 2026, 20:30–20:50 IST: the tenth script, before the freeze (signals v1.4, playbook v2)
+- **Why:** the probe above was warned on but matched five scripts, so the page named no scam and showed no next line, on a call that had cost a real person ₹20,000. Taught before the freeze (12:00 tomorrow), so the frozen test runs the system the page shows. From that person's account, not from any dev or test call; no test call was run or opened and no test script was read.
+- **What changed** ([scam-tactics.md](scam-tactics.md) v1.4, [evaluation-rule.md](evaluation-rule.md) v1.5.2):
+  - **A13 Credit message** (a flag): "says they are sending, or have sent, money to the listener, and points to an SMS or message as proof".
+  - **Pattern 10, "sent too much by mistake"** (`wrong-credit`, A13 → A12 → A6), sourced from Kerala Police and Tripura Police warnings; its own lines for A12 and A6 ("Please send the extra back to this number"), and a fact: a "money credited" SMS is easy to fake, check the bank app.
+  - **A6** also says "send back", and money the caller says he is sending you is not an ask: Spark had read "aapko pachees hazaar bhejne hain" as asking for money. **A12** loses "and must be returned", which the code had and the tactics table never did; with it, A12 waited for the ask.
+  - Rules v1.3 unchanged. The keyword baseline gets no A13 list (`keywords.py` says why).
+- **Dev, the 28 dev scripts as text** ([`eval/dev_scripts.py`](../eval/dev_scripts.py), `runs/dev/in-dev-scripts-C-v1.4.json`), against v1.3 (`in-dev-scripts-C-v1.3.json`):
+
+| Run C | Warned (red or amber) | Red | Genuine: red / amber | Next line came true (naive guess) |
+|---|---|---|---|---|
+| v1.3, Oct 30 | 16/16 | 14/16 | 0/12 / 0/12 | 4/17 (3/17) |
+| v1.4, tonight | 16/16 (81–100%) | 14/16 (64–97%) | 0/12 / 0/12 | 6/18 (4/18), median 2 s ahead |
+
+  A13 was found on one dev scam (IS05) and no genuine call. No call's level changed.
+- **The probe:** in Hinglish and in English, amber at "too much went by mistake", the next line "send the extra back" shown, came true at the ask, red. A demo call of it is on the page (`examples/calls/demo-wrong-credit.json`): amber at 28.0 s with the next line, the ask at 32.0 s, red and ticked at 40.5 s.
+- **Not re-run with the new prompt:** FTC dev, the dev paraphrases and the synthetic dev calls, to keep tonight's spend small before the freeze run; the freeze run covers FTC and the paraphrase and synthetic test sets.
+- **Cost:** $1.04 in all tonight (ledger $2.3255 → $3.3665), with the demo replies re-saved ($0.09).

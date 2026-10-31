@@ -42,8 +42,9 @@ SIGNALS: tuple[Signal, ...] = (
            "Does the caller ask the listener to say, type or send an OTP, PIN, CVV or password, "
            "or their Aadhaar, PAN, card or bank account number?"),
     Signal("A6", "Money", "ask",
-           "Does the caller ask the listener to pay, transfer or deposit money (a fine, fee or tax, "
-           "a 'verification' or 'security' deposit, a 'safe' or 'RBI' account, a UPI request)?"),
+           "Does the caller ask the listener to pay, transfer, deposit or send back money (a fine, fee or tax, "
+           "a 'verification' or 'security' deposit, a 'safe' or 'RBI' account, a UPI request, money 'sent by "
+           "mistake')? Money the caller says he is sending to the listener is not this."),
     Signal("A7", "Remote control", "ask",
            "Does the caller ask the listener to install an app (such as AnyDesk, TeamViewer or an APK file), "
            "share their screen, or open or click a link?"),
@@ -61,8 +62,11 @@ SIGNALS: tuple[Signal, ...] = (
            "in order to receive money, a refund or a prize?"),
     Signal("A12", "Windfall", "flag",
            "Does the caller say the listener has won a prize, lottery, cashback or refund, qualifies for "
-           "a special discount, rate cut, loan or relief payment, or that money was sent to them by mistake "
-           "and must be returned?"),
+           "a special discount, rate cut, loan or relief payment, or that money was sent to them by mistake?"),
+    # v1.4 (Oct 31): the fake credit SMS behind pattern 10, from a call that cost an elder ₹20,000.
+    Signal("A13", "Credit message", "flag",
+           "Does the caller say they are sending, or have sent, money to the listener, and point to an SMS "
+           "or message on the listener's phone as proof that it arrived?"),
 )
 
 BY_ID: dict[str, Signal] = {s.id: s for s in SIGNALS}
