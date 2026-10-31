@@ -1,6 +1,6 @@
 # Evaluation rule
 
-Version 1.4.1, Oct 31, 2026 (11:23 IST), **before any test call was recorded, run or opened** (v1 was written Oct 28, before any result existed; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
+Version 1.5, Oct 31, 2026 (12:01 IST), **before any test call was recorded, run or opened** (v1 was written Oct 28, before any result existed; see "Changes" at the end). Any change is a new version with its date and reason, and the README reports which version produced each number.
 
 ## The question
 When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally before the caller asks for money or secrets), **without** crying wolf on genuine calls, in Hindi, Marathi and English?
@@ -13,11 +13,21 @@ When a scam call is on speaker, does Teesra Kaan warn **in time** (ideally befor
 | **IN-scam** | Re-enacted scam calls in Hindi, Marathi, English and Hinglish, scripted from the documented patterns in `scam-tactics.md`. Voiced by people who agreed, and labelled as re-enactments everywhere. | ≥40 | Dev and test, split by script |
 | **IN-genuine** | Re-enacted genuine calls that sound alarming but aren't scams: real bank fraud alerts, couriers, family asking for money, hospitals, telemarketing. | ≥30 | Dev and test, split by script |
 | **FTC** | Real US robocalls from the FTC's Project Point of No Entry, via NCSU's Robocall Audio Dataset (public domain). English. | 200 sampled | Dev and test |
+| **IN-synth** | **Synthetic voices, not people:** the IN test scripts in Hindi, Marathi and English, and the paraphrase scripts, spoken by an open text-to-speech model and passed through a phone band (see "The synthetic set"). | 33 test + 9 paraphrase | Test only. A fallback for Indian-language audio, never pooled with people's recordings |
 
 **Splits:**
 - **IN-scam and IN-genuine:** every script is written and numbered first. A shuffle with seed `20261028` then assigns 40% to dev and 60% to test, before anything is recorded.
 - **FTC:** the 1,378 English rows of `metadata.csv` are 1,353 distinct recordings (25 are listed under two FTC cases). The distinct file names are sorted by `sha256(file_name)` and the first 200 are taken. The first 50 of those are dev, the other 150 test. The dataset is pinned to commit `5aa6f3b`, and every file is checked against its git hash (`teesrakaan ftc-fetch`).
 - **Test audio** is not listened to or inspected by anyone working on prompts or rules until the freeze.
+
+## The synthetic set (IN-synth, added in v1.5)
+People's recordings stay the real test. This set exists so there are Indian-language results on audio even if fewer of them are recorded than planned, and it is always called synthetic.
+- **What:** every test script in Hindi, Marathi or English (18 scam, 15 genuine) and every paraphrase script but one (9). The Hinglish scripts are left out: they're written in Latin letters, which the Hindi voices can't read.
+- **How** ([`eval/synthetic.py`](../eval/synthetic.py)): the same pipeline as the synthetic pre-check on dev ([dev-log.md](dev-log.md), Oct 30, 16:14), unchanged since. Kokoro v1.0 (open weights, Apache 2.0), one voice for the caller and another for the listener: `hm_omega`/`hf_alpha` for Hindi and Marathi (`hm_psi`/`hf_beta` when both speakers are the same gender), `am_michael`/`af_heart` for English (`am_adam`/`af_bella`). Kokoro has no Marathi voice, so Marathi is read by a Hindi voice. 0.6 s between turns, 0.5 s before the first. Then 300–3,400 Hz through 8 kHz, with pink noise (amplitude 0.012, seed 7), 16 kHz mono.
+- **Fixed before the freeze:** the audio is made before the freeze and the SHA-256 of every file is committed ([`eval/synth-audio.sha256`](../eval/synth-audio.sha256)), so it can't change afterwards. Nobody listens to it or transcribes it before the freeze.
+- **Labels** ([`eval/synth-labels.csv`](../eval/synth-labels.csv)), from each script's text before any run: `t0` is the start of the caller's first line with a scam move (A1–A4, A8–A10, A12), `t_ask` the start of the caller's first line with an ask (A5, A6, A7, A11). The times come from the audio's own manifest, which is exact because the audio is built line by line. Sets `IN-synth-scam` and `IN-synth-genuine`; splits `test` and `paraphrase`.
+- **Runs:** after the freeze, transcribed once with the same settings as everything else, then A, B and C once each. The paraphrase ones also get the keyword count.
+- **Reported** in their own rows, always as synthetic voices, never pooled with people's recordings and never as a headline. They say nothing about real voices, accents, rooms or speakerphones.
 
 ## Labels (made before the system runs on a call)
 - **Every call:** scam or genuine; pattern number from `scam-tactics.md`; language(s).
@@ -86,6 +96,7 @@ One command runs every set, comparison and ablation from the cached transcripts 
 ## Honesty rules
 - IN-real, IN re-enactments and FTC are always reported separately, never pooled into one headline.
 - Re-enactments are labelled as re-enactments wherever they appear, including the video.
+- The synthetic set is called synthetic wherever it appears, and its numbers never stand in for people's recordings.
 - FTC calls are US English robocalls. They show the system works on real scam audio; they say nothing about Indian languages.
 - **Small sets get their intervals shown.** For example, 9 of 10 caught is reported as "9/10 (60–98%)", not "90%".
 - **Budget:** a hard stop in code at $100 of the $150 Meta credits, checked against Meta's own meter ([spending.md](spending.md)).
@@ -107,3 +118,4 @@ One command runs every set, comparison and ablation from the cached transcripts 
 - **v1.4, Oct 30, 2026 (09:24 IST, commit `cfca2cf`), before the freeze, on dev only:** comparison C now uses rules v1.3 (`scam-tactics.md`): a warning needs Muse Spark's overall view, asked with comparison B's own prompt in a parallel call, to say "scam", plus at least one signal quoted in the caller's words. Both prompts are unchanged; only the rule combining them is new. Comparison A keeps rules v1.2. Why: on dev, v1.2 warned on 3 of 12 genuine calls (1 red) and missed 3 of 41 FTC impersonation calls; v1.3 warned on 0 of 12 and caught 41 of 41 ([dev-log.md](dev-log.md), Oct 30). No test call had been run or opened. Nothing else changed.
 - **Oct 30, 2026, 13:10 IST:** the version line at the top raised from 1.3.2 to 1.4, which it had missed. No rule changed.
 - **v1.4.1, Oct 31, 2026 (11:23 IST), before any test call was recorded:** the paraphrase test written out (Robustness): how the 10 scripts were drawn, the rewritten scripts, their own `paraphrase` split, read as written, and keywords that come back anyway counted and reported. Writing them meant reading those 10 test scripts' text, written on Oct 28 by the same author as the rules; no test audio exists, and nothing that decides a warning changed. The rewrites aren't run before the freeze, not even as text.
+- **v1.5, Oct 31, 2026 (12:01 IST), before any test call was recorded and before the synthetic audio was made:** the synthetic set (IN-synth) added: what it is, how it's made (the dev pre-check's pipeline, unchanged), fixed by hashes before the freeze, labelled from the scripts' text, run once after the freeze, and always reported apart as synthetic. Why: no person had recorded a call by Oct 31, a day before the freeze. Nothing that decides a warning changed.

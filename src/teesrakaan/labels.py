@@ -18,7 +18,7 @@ DEV_SHARE = 0.4
 FTC_SAMPLE = 200
 FTC_DEV = 50
 
-SETS = ("IN-real", "IN-scam", "IN-genuine", "FTC")
+SETS = ("IN-real", "IN-scam", "IN-genuine", "FTC", "IN-synth-scam", "IN-synth-genuine")  # IN-synth: synthetic voices, never pooled
 # "paraphrase": the paraphrase test's own recordings (eval/scripts/in-paraphrase.json), run once after the freeze
 SPLITS = ("dev", "test", "paraphrase")
 FTC_CLASSES = ("impersonation", "sales", "other")
