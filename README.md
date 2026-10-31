@@ -52,10 +52,13 @@ The questions, rules and the scam patterns they come from (with official sources
 |---|---|
 | **FTC** | 200 real US scam robocalls from the FTC's Project Point of No Entry (public domain), 50 dev / 150 test |
 | **IN-scam / IN-genuine** | 40 scam and 30 genuine calls in Hindi, Marathi, English and Hinglish, re-enacted from police, RBI and NPCI advisories, recorded on speakerphone (28 dev / 42 test) |
-| **IN-real** | Real scam calls donated by Indian families with written consent (private; numbers only) |
+| **IN-real** | Real scam calls donated by Indian families with written consent (private; numbers only). None so far: none of the 10 people we asked had a recording |
 | **IN-synth** | **Synthetic voices, not people:** the Hindi, Marathi and English test scripts and 9 paraphrase scripts spoken by Kokoro through a phone band, fixed before the freeze ([eval/synthetic.py](eval/synthetic.py)); always reported apart |
 
 Compared on the same test: **A** keyword lists + the same rules, **B** Muse Spark asked "is this a scam?", **C** Teesra Kaan, plus C without speaker separation, language hint or keyword biasing. Two robustness checks: the IN test calls played through a phone speaker and recorded again, and 10 test scam calls rewritten so that not one word of the keyword lists is left ([eval/scripts/in-paraphrase.json](eval/scripts/in-paraphrase.json)); their caller is always a person, and the rule lets the listener's short replies be a synthetic voice (solo takes, reported as such). Every number in the video comes from `teesrakaan table` on that run. Development steps and their dev-set numbers are logged in [docs/dev-log.md](docs/dev-log.md).
+
+## What people said
+On Oct 31 we showed the page by phone to 10 people: 5 elderly, 3 middle-aged and 2 Gen Z, each told it was for this hackathon. They liked the interface, and said having it in their own language was a sweet addition. That is a first impression from 10 people, not a test; the test is above.
 
 ## What already exists
 AI that spots scam calls is not new. This is what we found, and how Teesra Kaan differs.
@@ -88,7 +91,7 @@ Live listening and the Meta-model runs need `MODEL_API_KEY` in `.env` and `TEESR
 The demo calls in `examples/calls/` are written scripts, not real calls; every name, number and ID in them is made up. Without a key, the page plays them with Muse Spark's saved replies from `examples/spark-replies/` (made with `teesrakaan demo-replies`), so the hosted demo shows the real model at no cost.
 
 ## Limits (honest)
-- The Indian test calls are re-enactments; the FTC calls are real but American and in English. Real donated calls are few. Each set is reported separately, with 95% intervals.
+- The Indian test calls are re-enactments; the FTC calls are real but American and in English. No real Indian call has been donated: none of the 10 people we asked had a recording. Each set is reported separately, with 95% intervals.
 - Speaker separation labels voices "A" and "B"; the caller is taken to be whoever has said the most so far, which can be wrong in the first seconds.
 - Live listening needs a second device near the call on speaker, because a phone on a call keeps its own microphone. It doesn't intercept calls. On one phone it can only check a call afterwards, from what you type.
 - A warning is advice, not a verdict. The genuine-call set measures how often it warns when it shouldn't.
