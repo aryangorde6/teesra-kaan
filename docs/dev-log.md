@@ -151,3 +151,9 @@ Dev only. **Synthetic speech, not the kill check and not a result:** no person h
   - The next line came true 4/11 (text: 3/12 on the same calls).
   - Cost: $0.22 for both transcriptions and the runs (ledger $1.64 → $1.86).
 - **What it says:** speech-to-text in Hindi is close to the text. Marathi is the weak spot, and the phone channel roughly doubles its errors. Nothing was tuned on this. The kill check still needs people: two or three recorded calls (one Hindi, one Marathi) on a real speakerphone, which decide whether Marathi is usable.
+
+## Oct 31, 2026, 11:25 IST: gate G2 (due 12:00 today), on what exists
+- **Nothing that decides a warning has changed since rules v1.3** (`cfca2cf`, Oct 30, 09:24). The one later change to `spark.py` adds the replay client for the hosted page (`2f973f2`). The paraphrase cards added this morning (evaluation rule v1.4.1, `20a5fd8`) change nothing here either, and they aren't run before the freeze.
+- **Re-run from Muse Spark's saved replies only** (no API call, $0; the ledger stayed at $1.8739): the 28 dev scripts as text give the same level, warning time and predictions on every call as Oct 30's run. IN-scam warned 16/16 (81–100%), red 14/16 (64–97%); IN-genuine red 0/12 (0–24%), amber 0/12; next line came true 4/17 (naive guess 3/17).
+- **The bars:** at least 80% of scam calls warned: 16/16, passes. At most 1 red per 10 genuine calls: 0/12, passes. On synthetic speech (Oct 30, 16:21): 12/12 warned, red 0/9, amber 1/9.
+- **What G2 can't say yet:** the bars are meant for recorded dev calls, and none has been recorded. So G2 passes on the scripts as text and on synthetic speech, not on people's voices. It's checked again the day the dev recordings arrive, and the README will say which it was.
