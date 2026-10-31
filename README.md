@@ -58,7 +58,12 @@ The questions, rules and the scam patterns they come from (with official sources
 Compared on the same test: **A** keyword lists + the same rules, **B** Muse Spark asked "is this a scam?", **C** Teesra Kaan, plus C without speaker separation, language hint or keyword biasing. Two robustness checks: the IN test calls played through a phone speaker and recorded again, and 10 test scam calls rewritten so that not one word of the keyword lists is left ([eval/scripts/in-paraphrase.json](eval/scripts/in-paraphrase.json)); their caller is always a person, and the rule lets the listener's short replies be a synthetic voice (solo takes, reported as such). Every number in the video comes from `teesrakaan table` on that run. Development steps and their dev-set numbers are logged in [docs/dev-log.md](docs/dev-log.md).
 
 ## What people said
-On Oct 31 we showed the page by phone to 10 people: 5 elderly, 3 middle-aged and 2 Gen Z, each told it was for this hackathon. They liked the interface, and said having it in their own language was a sweet addition. That is a first impression from 10 people, not a test; the test is above.
+On Oct 31 we phoned 10 people (5 elderly, 3 middle-aged, 2 Gen Z), told them it was for this hackathon, and showed them the page.
+- **Every one of them gets at least one scam call a week**; some get three or four. The two Gen Z and some of the middle-aged don't pick up such calls.
+- **One of the five elders lost ₹20,000.** The caller used the name of someone he knew and said he was sending ₹25,000. A fake SMS showed ₹45,000 credited, and the caller asked for the "extra" ₹20,000 back. It was sent, and never reported: he thought he would look like a fool.
+- They liked the interface, and said having it in their own language was a sweet addition.
+
+We wrote that call down as he described it, with made-up names, and played it through Teesra Kaan as text ([eval/probe_wrong_credit.py](eval/probe_wrong_credit.py)). In Hinglish and in English it turned **amber when the caller said he had sent too much by mistake, before any ask, and red when he asked for the money back.** The keyword lists missed the English one. That is one written call, not a test; the test is above.
 
 ## What already exists
 AI that spots scam calls is not new. This is what we found, and how Teesra Kaan differs.
@@ -97,7 +102,7 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 - A warning is advice, not a verdict. The genuine-call set measures how often it warns when it shouldn't.
 - **A relative asking for money is the hardest case.** On the dev set, a daughter asking her mother for mess fees, who added "I'll video call on Sunday", went red under the first rules (an ask plus one more sign). With Muse Spark's overall view as a check, it stays silent, but that's one call. The "Hi Maa, this is my new number" scam sounds the same, and only the test set says how often each is judged right ([dev-log](docs/dev-log.md), Oct 30).
 - **It hears a turn when the turn ends.** The transcriber says who spoke only at the end of each turn, and nothing is judged before we know it was the caller. A long monologue can delay a warning by up to one turn.
-- The next line knows only the nine scripts. A new script, or one played in an unusual order, gets no prediction or a wrong one; the test counts both. Its dev numbers so far come from written scripts with estimated timings, where the caller often says the next step in the very next breath. How far ahead it is on recorded calls comes from the frozen test.
+- The next line knows only the nine scripts. A new script, or one played in an unusual order, gets no prediction or a wrong one; the test counts both. The "I sent too much by mistake, send the rest back" call that cost an elder we spoke to ₹20,000 is one: it is warned on, amber then red, but gets no scam name and no next line. Its dev numbers so far come from written scripts with estimated timings, where the caller often says the next step in the very next breath. How far ahead it is on recorded calls comes from the frozen test.
 
 ## Layout
 | File | What it does |

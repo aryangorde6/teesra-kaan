@@ -204,3 +204,15 @@ Dev only. The entry above ran the rewrites as text; this puts them through speec
 - **B and C:** C's warning comes a median 1.2 s after B's (it waits for B's view and the quoted signs), 9.9 s on DP05.
 - **The next line, 3 of 10 (7 of 16 as text):** of the 7 misses, 5 are calls that end before the predicted step (these scripts are 3 to 6 lines; the listener hangs up or the script stops), 1 went another way (DP33: screen sharing where the playbook expects the money ask), and 1 was said before it could be shown (DP04: the caller claimed to be an official at 13.0 s, the step was predicted at 14.5 s, because a step is known only once the transcript and Spark catch up). Nothing changed: fitting the playbook to 12 scripts by the same author would be fitting it to the check.
 - **What it says:** through speech the picture holds: without keywords the baseline hears nothing, and Spark, alone or with the quoted signals, hears all 12. **Cost:** $0.14 (ledger $2.1885 → $2.3255).
+
+## Oct 31, 2026, 20:17–20:19 IST: the scam that cost an elder ₹20,000, as a written probe
+- **Why:** Aryan phoned 10 people today (5 elderly, 3 middle-aged, 2 Gen Z; README, "What people said"). Every one gets at least one scam call a week. One elder lost ₹20,000: the caller used the name of someone he knew, said he was sending ₹25,000, a fake SMS showed ₹45,000 credited, and the caller asked for the "extra" ₹20,000 back. It was never reported.
+- **How:** that call written fresh from Aryan's description, in Hinglish and in English, with made-up names: [`eval/probe_wrong_credit.py`](../eval/probe_wrong_credit.py), as text with estimated timings. **Not a dev or test call, and never in a reported row.** Nothing was changed for it.
+
+| Run | Hinglish | English |
+|---|---|---|
+| A. Keywords | red at the ask (38.3 s; "galti se" + the ask) | silent |
+| C. Teesra Kaan | amber 29.0 s, at "sent too much by mistake" (A12), before any ask; red 38.3 s, at "send the rest back" (A6) | amber 25.7 s (A12); red 35.2 s (A6) |
+
+- **The gap:** no script fits. A12 then A6 is also the prize script's order, so five scripts tie, the page names no scam and the next line shows nothing. Not changed before the freeze: the warning already comes, and a tenth script with the prize script's steps couldn't tell the two apart without a new question for Spark.
+- **Cost:** $0.0425 (ledger $2.3255 → $2.3680); the re-run came from the cache.
