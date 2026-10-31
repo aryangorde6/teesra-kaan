@@ -189,3 +189,18 @@ Dev only, nothing from the test sets. The paraphrase test (evaluation rule v1.4.
 - **B and C:** C's warning needs B's view too (rules v1.3), so it is never earlier: the same time on 14 of 16, later on DP21 (12 s against 6 s) and DP29 (22 s against 19 s). What C adds is in the warning itself: the quoted signs and the next line.
 - **What it says:** with the keywords gone, the keyword baseline hears nothing, and Spark, alone or with the quoted signals, still hears every scam. If the test rewrites behave like these, the paraphrase row is where the difference shows. Nothing was changed: no fix was needed.
 - **Cost:** $0.26 (ledger $1.9251 → $2.1885); B came from the cache of C's run.
+
+## Oct 31, 2026, 15:03–15:12 IST: the same rewrites through synthetic speech
+Dev only. The entry above ran the rewrites as text; this puts them through speech and transcription, the path the synthetic paraphrase row takes after the freeze. **Synthetic voices, not people.**
+- **How:** [`eval/synthetic_dev_paraphrase.py`](../eval/synthetic_dev_paraphrase.py) runs `eval/synthetic.py`'s pipeline unchanged (the same Kokoro voices, phone band and noise) on the 12 rewrites that aren't Hinglish (6.7 min); the fixed synthetic set's hashes were checked before and after (unchanged). Transcribed with the same settings as everything else (`transcribe-set`, $0.02). `teesrakaan keywords`: no keyword came back in any of the 12 transcripts. Then A, B and C from the transcripts, with the transcription's real timing (`eval/dev_paraphrase.py <run> <out> data/transcripts/synth-dev-paraphrase`).
+
+| Run | Warned (red or amber) | Red | Next line came true |
+|---|---|---|---|
+| A. Keywords | 0/12 (0–24%) | 0/12 (0–24%) | – (none shown) |
+| B. Spark alone | 12/12 (76–100%) | 12/12 (76–100%) | – (B shows none) |
+| C. Teesra Kaan | 12/12 (76–100%) | 10/12 (55–95%) | 3/10 (11–60%), shown on 7 of 12 calls |
+
+- **The two ambers** are DP04 and DP21 again, the scripts with no ask.
+- **B and C:** C's warning comes a median 1.2 s after B's (it waits for B's view and the quoted signs), 9.9 s on DP05.
+- **The next line, 3 of 10 (7 of 16 as text):** of the 7 misses, 5 are calls that end before the predicted step (these scripts are 3 to 6 lines; the listener hangs up or the script stops), 1 went another way (DP33: screen sharing where the playbook expects the money ask), and 1 was said before it could be shown (DP04: the caller claimed to be an official at 13.0 s, the step was predicted at 14.5 s, because a step is known only once the transcript and Spark catch up). Nothing changed: fitting the playbook to 12 scripts by the same author would be fitting it to the check.
+- **What it says:** through speech the picture holds: without keywords the baseline hears nothing, and Spark, alone or with the quoted signals, hears all 12. **Cost:** $0.14 (ledger $2.1885 → $2.3255).
