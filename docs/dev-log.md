@@ -175,7 +175,7 @@ Dev only, nothing from the test sets. **Real people, but not calls:** no one has
 - **Verdict:** Hindi passes. Marathi passes with the script fix: usable, not clean. The project goes on, with no switch to the fallback. **What this can't show:** read sentences aren't a conversation, the phone band is simulated, and each clip has one voice. People's recorded calls still decide the test results.
 - Cost: $0.05 (ledger $1.8739 → $1.9251). The clips and transcripts stay out of the repo (`data/` is gitignored).
 
-## Oct 31, 2026, 14:50–14:56 IST: the paraphrase test's idea, tried on dev before the freeze
+## Oct 31, 2026, 14:48–14:56 IST: the paraphrase test's idea, tried on dev before the freeze
 Dev only, nothing from the test sets. The paraphrase test (evaluation rule v1.4.1) is the row where keywords and Teesra Kaan should part ways, and it runs once, after the freeze. So the same rewrite was tried on the 16 dev scam scripts first, while a fix was still allowed.
 - **What:** each dev scam script rewritten the way the test ones were: the same pattern, moves in the same order, ask (or none) and roles, and no pattern of `keywords.py` anywhere, caller or listener (`tests/test_paraphrase.py`). [`eval/scripts/in-paraphrase-dev.json`](../eval/scripts/in-paraphrase-dev.json), IDs DP04 to DP35, written by the same author as the rules; the wording isn't checked by a native speaker. Run as text with estimated timings, like the dev scripts in G2 ([`eval/dev_paraphrase.py`](../eval/dev_paraphrase.py)).
 
