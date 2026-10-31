@@ -48,6 +48,17 @@ The paraphrase test (10 test scam calls rewritten without the baseline's keyword
 .venv/bin/teesrakaan table runs/eval-*/results-paraphrase-*.json   # its own table, never mixed into the test rows
 ```
 
+The synthetic set (synthetic voices, not people; evaluation rule v1.5), once, after the freeze. The audio was made before it (`eval/synthetic.py`, Kokoro v1.0), so check it first:
+```bash
+(cd data/synthetic/eval && sha256sum -c ../../../eval/synth-audio.sha256)
+.venv/bin/teesrakaan transcribe-set data/synthetic/eval/test --out data/transcripts/synth-test
+.venv/bin/teesrakaan transcribe-set data/synthetic/eval/paraphrase --out data/transcripts/synth-paraphrase
+.venv/bin/teesrakaan eval data/transcripts/synth-test --labels eval/synth-labels.csv --split test --run A --out runs/eval-synth/results-test-A.json   # then B, C
+.venv/bin/teesrakaan eval data/transcripts/synth-paraphrase --labels eval/synth-labels.csv --split paraphrase --run A --out runs/eval-synth/results-paraphrase-A.json   # then B, C
+.venv/bin/teesrakaan keywords data/transcripts/synth-paraphrase
+.venv/bin/teesrakaan table runs/eval-synth/results-*.json   # rows named IN-synth-…, never mixed with people's recordings
+```
+
 Then the table for the README and the video:
 ```bash
 .venv/bin/teesrakaan table runs/eval-*/results-test-*.json

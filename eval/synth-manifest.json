@@ -1,0 +1,1574 @@
+{
+ "IS01": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 1,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 55.48,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.1,
+    "text": "नमस्ते, मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ। क्या आप सुरेश कुमार जी बोल रहे हैं?"
+   },
+   {
+    "speaker": "listener",
+    "start": 9.7,
+    "end": 11.34,
+    "text": "हाँ, बोलिए। क्या बात है?"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.94,
+    "end": 20.67,
+    "text": "आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है। आपके नाम पर केस दर्ज हुआ है।"
+   },
+   {
+    "speaker": "listener",
+    "start": 21.27,
+    "end": 24.06,
+    "text": "मैंने तो ऐसा कोई खाता नहीं खोला।"
+   },
+   {
+    "speaker": "caller",
+    "start": 24.66,
+    "end": 33.53,
+    "text": "यह सीबीआई का मामला है। आपको अभी वीडियो कॉल पर बयान देना होगा। कैमरा चालू रखिए और कमरे में अकेले रहिए।"
+   },
+   {
+    "speaker": "caller",
+    "start": 34.13,
+    "end": 40.13,
+    "text": "इस बारे में अपने परिवार को कुछ मत बताइए, नहीं तो उन पर भी कार्रवाई होगी।"
+   },
+   {
+    "speaker": "listener",
+    "start": 40.73,
+    "end": 43.35,
+    "text": "ठीक है, लेकिन मुझे डर लग रहा है।"
+   },
+   {
+    "speaker": "caller",
+    "start": 43.95,
+    "end": 54.88,
+    "text": "डरिए मत। जाँच पूरी होने तक आपके खाते का सारा पैसा आरबीआई के सुरक्षित खाते में ट्रांसफ़र करना होगा। जाँच के बाद पैसा वापस मिल जाएगा।"
+   }
+  ]
+ },
+ "IS02": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "mr",
+  "pattern": 3,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hf_alpha"
+  },
+  "duration": 42.71,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 11.7,
+    "text": "नमस्कार. हा दूरसंचार विभागाकडून स्वयंचलित संदेश आहे. तुमचा मोबाईल नंबर आज रात्री बंद केला जाईल. अधिकाऱ्याशी बोलण्यासाठी 9 दाबा."
+   },
+   {
+    "speaker": "caller",
+    "start": 12.3,
+    "end": 25.23,
+    "text": "हॅलो, मी दूरसंचार विभागातून अधिकारी पाटील बोलतोय. तुमच्या नावावर मुंबईत दुसरे सिम कार्ड घेतले आहे आणि त्यावरून फसवणुकीचे मेसेज पाठवले जात आहेत."
+   },
+   {
+    "speaker": "listener",
+    "start": 25.83,
+    "end": 28.09,
+    "text": "पण माझ्याकडे एकच सिम आहे."
+   },
+   {
+    "speaker": "caller",
+    "start": 28.69,
+    "end": 35.54,
+    "text": "म्हणूनच तुम्हाला पडताळणी करावी लागेल. नाहीतर तुमच्यावर पोलीस तक्रार दाखल होईल."
+   },
+   {
+    "speaker": "caller",
+    "start": 36.14,
+    "end": 42.11,
+    "text": "पडताळणीसाठी तुमचा आधार नंबर आणि आत्ता आलेला OTP सांगा."
+   }
+  ]
+ },
+ "IS08": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "en",
+  "pattern": 1,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 48.24,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.03,
+    "text": "Hello, am I speaking with Mrs. Anita Desai? This is Officer Arjun Mehta from the Narcotics Control Bureau, Mumbai."
+   },
+   {
+    "speaker": "listener",
+    "start": 9.63,
+    "end": 10.68,
+    "text": "Yes, what happened?"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.28,
+    "end": 20.11,
+    "text": "Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket."
+   },
+   {
+    "speaker": "caller",
+    "start": 20.71,
+    "end": 28.03,
+    "text": "You are under digital arrest until the investigation is complete. Join this Skype call and do not disconnect."
+   },
+   {
+    "speaker": "caller",
+    "start": 28.63,
+    "end": 35.01,
+    "text": "This is a matter of national security. You cannot discuss it with anyone, not even your husband."
+   },
+   {
+    "speaker": "listener",
+    "start": 35.61,
+    "end": 36.89,
+    "text": "Am I going to jail?"
+   },
+   {
+    "speaker": "caller",
+    "start": 37.49,
+    "end": 47.64,
+    "text": "If you cooperate, no. The judge has ordered that your funds be verified. You will transfer your fixed deposit to the government verification account today."
+   }
+  ]
+ },
+ "IS10": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "mr",
+  "pattern": 9,
+  "voices": {
+   "caller": "hf_alpha",
+   "listener": "hf_beta"
+  },
+  "duration": 29.8,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.67,
+    "text": "अभिनंदन! मी कौन बनेगा करोडपती लकी ड्रॉ विभागातून बोलतेय. तुमच्या नंबरला पंचवीस लाखांची लॉटरी लागली आहे."
+   },
+   {
+    "speaker": "listener",
+    "start": 10.27,
+    "end": 12.79,
+    "text": "खरंच? मी तर काहीच भाग घेतला नाही."
+   },
+   {
+    "speaker": "caller",
+    "start": 13.39,
+    "end": 22.88,
+    "text": "हा मोबाईल कंपनी आणि केबीसीचा संयुक्त लकी ड्रॉ आहे. बक्षीस मिळवण्यासाठी फक्त प्रोसेसिंग फी आणि जीएसटी भरावा लागेल."
+   },
+   {
+    "speaker": "caller",
+    "start": 23.48,
+    "end": 29.2,
+    "text": "बारा हजार पाचशे रुपये आजच भरा, उद्या रक्कम तुमच्या खात्यात जमा होईल."
+   }
+  ]
+ },
+ "IS12": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "en",
+  "pattern": 4,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 33.53,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 15.13,
+    "text": "Good evening sir, I'm calling from HDFC Bank credit card department. Your card ending 4471 has been used for an international transaction of 48,000 rupees."
+   },
+   {
+    "speaker": "listener",
+    "start": 15.73,
+    "end": 17.63,
+    "text": "What? I didn't do any transaction."
+   },
+   {
+    "speaker": "caller",
+    "start": 18.23,
+    "end": 26.53,
+    "text": "Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date."
+   },
+   {
+    "speaker": "caller",
+    "start": 27.13,
+    "end": 32.93,
+    "text": "Now you'll receive an OTP. Please read it out to me so I can block the card immediately."
+   }
+  ]
+ },
+ "IS15": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "en",
+  "pattern": 5,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "af_heart"
+  },
+  "duration": 26.11,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.95,
+    "text": "Hello madam, sorry to disturb you. By mistake I sent 5,000 rupees to your Google Pay number. It was meant for my brother's fees."
+   },
+   {
+    "speaker": "listener",
+    "start": 10.55,
+    "end": 11.83,
+    "text": "Oh, I haven't checked."
+   },
+   {
+    "speaker": "caller",
+    "start": 12.43,
+    "end": 21.41,
+    "text": "Please check, madam. I am sending you a request for 5,000 now. Just accept and enter your PIN, the money goes back to me."
+   },
+   {
+    "speaker": "caller",
+    "start": 22.01,
+    "end": 25.51,
+    "text": "Please madam, quickly, my brother's college is closing."
+   }
+  ]
+ },
+ "IS17": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "mr",
+  "pattern": 4,
+  "voices": {
+   "caller": "hf_alpha",
+   "listener": "hf_beta"
+  },
+  "duration": 24.64,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 6.6,
+    "text": "नमस्कार, मी बँक ऑफ महाराष्ट्रमधून बोलतेय. तुमचे पॅन कार्ड खात्याशी लिंक नाही."
+   },
+   {
+    "speaker": "listener",
+    "start": 7.2,
+    "end": 9.1,
+    "text": "हो का? मला माहीत नव्हतं."
+   },
+   {
+    "speaker": "caller",
+    "start": 9.7,
+    "end": 17.87,
+    "text": "आज संध्याकाळपर्यंत लिंक केलं नाही तर तुमचं खातं ब्लॉक होईल. मी तुम्हाला एक लिंक पाठवते, त्यावर क्लिक करा."
+   },
+   {
+    "speaker": "caller",
+    "start": 18.47,
+    "end": 24.04,
+    "text": "लिंकवर तुमचा कस्टमर आयडी, पासवर्ड आणि आलेला OTP टाका."
+   }
+  ]
+ },
+ "IS19": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 6,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 25.3,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 6.94,
+    "text": "नमस्ते, मैं पेटीएम कस्टमर केयर से बोल रहा हूँ। आपने कल रिफ़ंड की शिकायत की थी।"
+   },
+   {
+    "speaker": "listener",
+    "start": 7.54,
+    "end": 10.68,
+    "text": "हाँ, मेरे 2,300 रुपये कट गए थे।"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.28,
+    "end": 20.32,
+    "text": "आपका रिफ़ंड मंज़ूर हो गया है। उसके लिए क्विक सपोर्ट ऐप डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ।"
+   },
+   {
+    "speaker": "caller",
+    "start": 20.92,
+    "end": 24.7,
+    "text": "अब पेटीएम खोलिए और जो मैं बोलूँ वो रकम डालिए।"
+   }
+  ]
+ },
+ "IS22": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 3,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hf_alpha"
+  },
+  "duration": 30.36,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.76,
+    "text": "यह दूरसंचार विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा। ज़्यादा जानकारी के लिए नौ दबाएँ।"
+   },
+   {
+    "speaker": "caller",
+    "start": 10.36,
+    "end": 18.19,
+    "text": "नमस्कार, मैं दूरसंचार विभाग से अधिकारी वर्मा। आपके नंबर के खिलाफ़ उत्पीड़न की शिकायत आई है।"
+   },
+   {
+    "speaker": "listener",
+    "start": 18.79,
+    "end": 21.39,
+    "text": "मैंने किसी को परेशान नहीं किया।"
+   },
+   {
+    "speaker": "caller",
+    "start": 21.99,
+    "end": 29.76,
+    "text": "तो आपको वेरिफ़िकेशन करवाना होगा। अपना आधार नंबर बताइए और जो ओटीपी आएगा वो भी बताइए।"
+   }
+  ]
+ },
+ "IS25": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "mr",
+  "pattern": 5,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 28.67,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 8.52,
+    "text": "नमस्कार, मी फोनपे कॅशबॅक विभागातून बोलतोय. तुम्हाला दोन हजार रुपयांचा कॅशबॅक मिळाला आहे."
+   },
+   {
+    "speaker": "listener",
+    "start": 9.12,
+    "end": 10.68,
+    "text": "अरे वा, कसा मिळेल?"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.28,
+    "end": 20.81,
+    "text": "तुमच्या फोनपे अ‍ॅपवर एक रिक्वेस्ट आली आहे. ती स्वीकारा आणि तुमचा UPI पिन टाका, कॅशबॅक लगेच जमा होईल."
+   },
+   {
+    "speaker": "listener",
+    "start": 21.41,
+    "end": 23.63,
+    "text": "पिन टाकल्यावर पैसे येतील?"
+   },
+   {
+    "speaker": "caller",
+    "start": 24.23,
+    "end": 28.07,
+    "text": "हो, फक्त पाच मिनिटांत ऑफर संपेल, लवकर करा."
+   }
+  ]
+ },
+ "IS26": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "mr",
+  "pattern": 8,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 26.79,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 8.22,
+    "text": "नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमचं मागील महिन्याचं बिल अपडेट झालेलं नाही."
+   },
+   {
+    "speaker": "listener",
+    "start": 8.82,
+    "end": 11.21,
+    "text": "पण मी ऑनलाइन भरलं होतं."
+   },
+   {
+    "speaker": "caller",
+    "start": 11.81,
+    "end": 17.38,
+    "text": "सिस्टममध्ये दिसत नाही. आज रात्री साडेनऊ वाजता तुमची वीज कापली जाईल."
+   },
+   {
+    "speaker": "caller",
+    "start": 17.98,
+    "end": 26.19,
+    "text": "वीज चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये भरा, आणि तुमचे कार्ड डिटेल्स टाका."
+   }
+  ]
+ },
+ "IS27": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 1,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 39.89,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 10.95,
+    "text": "नमस्कार, मैं ट्राई से बोल रहा हूँ, आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है, मैं आपकी कॉल मुंबई पुलिस को ट्रांसफ़र कर रहा हूँ।"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.55,
+    "end": 21.22,
+    "text": "मुंबई पुलिस, तिलक नगर थाना। आपके खिलाफ़ ह्यूमन ट्रैफ़िकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तुरंत गिरफ़्तारी होगी।"
+   },
+   {
+    "speaker": "listener",
+    "start": 21.82,
+    "end": 23.65,
+    "text": "मेरी बेटी को बुला लूँ?"
+   },
+   {
+    "speaker": "caller",
+    "start": 24.25,
+    "end": 29.63,
+    "text": "नहीं, यह गोपनीय जाँच है। किसी को बताया तो वो भी आरोपी माने जाएँगे।"
+   },
+   {
+    "speaker": "caller",
+    "start": 30.23,
+    "end": 39.29,
+    "text": "आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफ़डी तुड़वाकर रकम हमारे बताए खाते में जमा करनी होगी।"
+   }
+  ]
+ },
+ "IS31": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 4,
+  "voices": {
+   "caller": "hf_alpha",
+   "listener": "hm_omega"
+  },
+  "duration": 22.65,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 10.97,
+    "text": "नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की केवाईसी की तारीख निकल गई है, आज आपका खाता फ़्रीज़ हो जाएगा।"
+   },
+   {
+    "speaker": "listener",
+    "start": 11.57,
+    "end": 13.92,
+    "text": "मैं कल बैंक जाकर करवा दूँगा।"
+   },
+   {
+    "speaker": "caller",
+    "start": 14.52,
+    "end": 22.05,
+    "text": "कल तक तो खाता बंद हो जाएगा सर। मैं यहीं से कर देती हूँ। अपना एटीएम कार्ड नंबर और सीवीवी बताइए।"
+   }
+  ]
+ },
+ "IS32": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "en",
+  "pattern": 3,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 34.67,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 13.21,
+    "text": "This is an automated message from the Telecom Regulatory Authority of India. All mobile services on your number will be suspended within two hours. Press 9 to speak to an officer."
+   },
+   {
+    "speaker": "caller",
+    "start": 13.81,
+    "end": 22.22,
+    "text": "Hello, this is Officer Mehra from TRAI. Your SIM has been reported for sending illegal messages. Are you aware of this?"
+   },
+   {
+    "speaker": "listener",
+    "start": 22.82,
+    "end": 24.16,
+    "text": "No. Who is this again?"
+   },
+   {
+    "speaker": "caller",
+    "start": 24.76,
+    "end": 30.76,
+    "text": "Sir, if you don't cooperate, a case will be filed with the cyber crime department today itself."
+   },
+   {
+    "speaker": "listener",
+    "start": 31.36,
+    "end": 34.07,
+    "text": "I'll visit my telecom store myself. Bye."
+   }
+  ]
+ },
+ "IS36": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 1,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hf_alpha"
+  },
+  "duration": 33.03,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.33,
+    "text": "हेलो, मैं लखनऊ एसटीएफ़ से सब-इंस्पेक्टर मिश्रा बोल रहा हूँ। आपके बैंक खाते का इस्तेमाल साइबर फ़्रॉड में हुआ है।"
+   },
+   {
+    "speaker": "caller",
+    "start": 9.93,
+    "end": 17.44,
+    "text": "आपके खिलाफ़ एफ़आईआर दर्ज है। अभी वीडियो कॉल पर बयान दीजिए वरना पुलिस आपके घर पहुँच जाएगी।"
+   },
+   {
+    "speaker": "listener",
+    "start": 18.04,
+    "end": 20.17,
+    "text": "मैं ख़ुद थाने आ जाती हूँ।"
+   },
+   {
+    "speaker": "caller",
+    "start": 20.77,
+    "end": 28.09,
+    "text": "थाने आने की ज़रूरत नहीं है। वीडियो कॉल पर ही सब होगा, और इस बारे में किसी से बात मत कीजिए।"
+   },
+   {
+    "speaker": "listener",
+    "start": 28.69,
+    "end": 32.43,
+    "text": "नहीं, मैं अपने बेटे के साथ थाने आऊँगी। नमस्ते।"
+   }
+  ]
+ },
+ "IS38": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 5,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 21.24,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.44,
+    "text": "नमस्ते, मैं गूगल पे सपोर्ट से बोल रहा हूँ। आपके खाते में एक कैशबैक अटका हुआ है, आपको चार हज़ार रुपये मिलने हैं।"
+   },
+   {
+    "speaker": "listener",
+    "start": 10.04,
+    "end": 11.23,
+    "text": "कैसे मिलेंगे?"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.83,
+    "end": 20.64,
+    "text": "अभी आपको एक रिक्वेस्ट भेजी है। उसे खोलिए और अपना यूपीआई पिन डालिए, पैसे सीधे आपके खाते में आ जाएँगे।"
+   }
+  ]
+ },
+ "IS39": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "en",
+  "pattern": 2,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "af_heart"
+  },
+  "duration": 27.28,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 4.98,
+    "text": "Your FedEx consignment has been cancelled. Press 1 for details."
+   },
+   {
+    "speaker": "caller",
+    "start": 5.58,
+    "end": 15.48,
+    "text": "Hi, FedEx Andheri. A package in your name to Cambodia had 4 kg of illegal drugs and 7 fake passports. Customs has seized it."
+   },
+   {
+    "speaker": "listener",
+    "start": 16.08,
+    "end": 17.21,
+    "text": "That's impossible."
+   },
+   {
+    "speaker": "caller",
+    "start": 17.81,
+    "end": 26.68,
+    "text": "You must file a statement with Mumbai Cyber Police now. They'll call you on Skype. Keep your Aadhaar card ready and tell me the number first."
+   }
+  ]
+ },
+ "IS40": {
+  "split": "test",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 7,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hf_alpha"
+  },
+  "duration": 31.45,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 7.54,
+    "text": "हेलो आंटी, मैं राहुल का दोस्त बोल रहा हूँ। राहुल का बाइक से एक्सीडेंट हो गया है, सिर में चोट है।"
+   },
+   {
+    "speaker": "listener",
+    "start": 8.14,
+    "end": 10.79,
+    "text": "हे भगवान! कौन से अस्पताल में है?"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.39,
+    "end": 18.62,
+    "text": "सिटी हॉस्पिटल में। डॉक्टर कह रहे हैं तीस हज़ार अभी जमा करने होंगे, तभी इलाज शुरू करेंगे।"
+   },
+   {
+    "speaker": "caller",
+    "start": 19.22,
+    "end": 26.75,
+    "text": "मैं अपना यूपीआई नंबर भेज रहा हूँ, अभी भेज दीजिए। अंकल को बाद में बता देना, अभी टाइम नहीं है।"
+   },
+   {
+    "speaker": "listener",
+    "start": 27.35,
+    "end": 30.85,
+    "text": "मैं अस्पताल का नंबर लेकर ख़ुद फ़ोन करती हूँ।"
+   }
+  ]
+ },
+ "IG01": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "hi",
+  "pattern": 0,
+  "voices": {
+   "caller": "hf_alpha",
+   "listener": "hm_omega"
+  },
+  "duration": 31.62,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 7.41,
+    "text": "नमस्ते, मैं बैंक की फ़्रॉड मॉनिटरिंग टीम से बोल रही हूँ। क्या मेरी बात रमेश जी से हो रही है?"
+   },
+   {
+    "speaker": "listener",
+    "start": 8.01,
+    "end": 8.63,
+    "text": "हाँ।"
+   },
+   {
+    "speaker": "caller",
+    "start": 9.23,
+    "end": 18.77,
+    "text": "आपके क्रेडिट कार्ड पर अभी बारह हज़ार रुपये का एक ऑनलाइन लेन-देन संदिग्ध लगा, इसलिए हमने उसे रोका है। क्या यह आपने किया था?"
+   },
+   {
+    "speaker": "listener",
+    "start": 19.37,
+    "end": 21.01,
+    "text": "नहीं, मैंने नहीं किया।"
+   },
+   {
+    "speaker": "caller",
+    "start": 21.61,
+    "end": 31.02,
+    "text": "ठीक है, हमने कार्ड ब्लॉक कर दिया है। नया कार्ड सात दिन में आपके पते पर आ जाएगा। ध्यान रखिए, बैंक कभी ओटीपी या पिन नहीं माँगता।"
+   }
+  ]
+ },
+ "IG02": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "mr",
+  "pattern": 0,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 19.28,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 7.33,
+    "text": "नमस्कार, मी डिलिव्हरी बॉय बोलतोय, अमेझॉनचं पार्सल आहे तुमचं. घरी कोणी आहे का?"
+   },
+   {
+    "speaker": "listener",
+    "start": 7.93,
+    "end": 10.1,
+    "text": "हो, मी आहे. किती वाजता याल?"
+   },
+   {
+    "speaker": "caller",
+    "start": 10.7,
+    "end": 17.1,
+    "text": "दहा मिनिटांत येतो. कॅश ऑन डिलिव्हरी आहे, सातशे एकोणपन्नास रुपये. सुट्टे ठेवा."
+   },
+   {
+    "speaker": "listener",
+    "start": 17.7,
+    "end": 18.68,
+    "text": "ठीक आहे."
+   }
+  ]
+ },
+ "IG04": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "en",
+  "pattern": 0,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 25.38,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 10.7,
+    "text": "Hello, this is Sister Mary from City Hospital, Mulund. I'm calling about your father, Mr. Joseph D'Souza. He's been admitted after a fall, he's stable."
+   },
+   {
+    "speaker": "listener",
+    "start": 11.3,
+    "end": 13.99,
+    "text": "Oh God, is he okay? I'm coming right now."
+   },
+   {
+    "speaker": "caller",
+    "start": 14.59,
+    "end": 24.78,
+    "text": "He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you come. Ask for the emergency ward."
+   }
+  ]
+ },
+ "IG05": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "hi",
+  "pattern": 0,
+  "voices": {
+   "caller": "hf_alpha",
+   "listener": "hm_omega"
+  },
+  "duration": 20.5,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 10.19,
+    "text": "नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ। हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है, क्या आपके पास दो मिनट हैं?"
+   },
+   {
+    "speaker": "listener",
+    "start": 10.79,
+    "end": 12.19,
+    "text": "अभी मैं व्यस्त हूँ।"
+   },
+   {
+    "speaker": "caller",
+    "start": 12.79,
+    "end": 19.9,
+    "text": "कोई बात नहीं सर, मैं आपको व्हाट्सएप पर ब्रोशर भेज देती हूँ, आप फ़ुर्सत में देख लीजिए। धन्यवाद।"
+   }
+  ]
+ },
+ "IG08": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "en",
+  "pattern": 0,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 13.13,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 12.53,
+    "text": "Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at any of our stores. Thank you."
+   }
+  ]
+ },
+ "IG09": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "hi",
+  "pattern": 0,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 23.1,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.4,
+    "text": "नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ। आपके पासपोर्ट वेरिफ़िकेशन के लिए कॉल किया है।"
+   },
+   {
+    "speaker": "listener",
+    "start": 10.0,
+    "end": 11.15,
+    "text": "जी, बताइए।"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.75,
+    "end": 22.5,
+    "text": "कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फ़ोटो लेकर थाने आ जाइए। साथ में कोई पड़ोसी गवाह हो तो अच्छा है।"
+   }
+  ]
+ },
+ "IG10": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "mr",
+  "pattern": 0,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 19.26,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 8.78,
+    "text": "नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी असेल का?"
+   },
+   {
+    "speaker": "listener",
+    "start": 9.38,
+    "end": 10.66,
+    "text": "हो, आई असेल."
+   },
+   {
+    "speaker": "caller",
+    "start": 11.26,
+    "end": 18.66,
+    "text": "ठीक आहे. मीटर बघायला येईन. काही पैसे द्यायचे नाहीत, बिल नेहमीप्रमाणे एसएमएसवर येईल."
+   }
+  ]
+ },
+ "IG16": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "hi",
+  "pattern": 0,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 14.42,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 8.93,
+    "text": "नमस्ते, मैं बैंक की ओर से बोल रहा हूँ। आपके लिए लाइफ़टाइम फ़्री क्रेडिट कार्ड प्री-अप्रूव्ड है। क्या आप रुचि रखते हैं?"
+   },
+   {
+    "speaker": "listener",
+    "start": 9.53,
+    "end": 10.87,
+    "text": "नहीं, धन्यवाद।"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.47,
+    "end": 13.82,
+    "text": "ठीक है सर, आपका दिन शुभ हो।"
+   }
+  ]
+ },
+ "IG19": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "en",
+  "pattern": 0,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 19.75,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 13.17,
+    "text": "Namaste, this is Sunita, the ASHA worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your ration card and Aadhaar card."
+   },
+   {
+    "speaker": "listener",
+    "start": 13.77,
+    "end": 14.9,
+    "text": "Is there any fee?"
+   },
+   {
+    "speaker": "caller",
+    "start": 15.5,
+    "end": 19.15,
+    "text": "No, it's completely free. Just come between 10 and 2."
+   }
+  ]
+ },
+ "IG20": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "hi",
+  "pattern": 0,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 19.56,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 8.71,
+    "text": "नमस्ते शर्मा जी, मैं सोसायटी का सेक्रेटरी गुप्ता। इस महीने का मेंटेनेंस अभी तक नहीं आया है, ढाई हज़ार।"
+   },
+   {
+    "speaker": "listener",
+    "start": 9.31,
+    "end": 12.09,
+    "text": "अरे, भूल गया था। आज ही भेज देता हूँ।"
+   },
+   {
+    "speaker": "caller",
+    "start": 12.69,
+    "end": 18.96,
+    "text": "कोई बात नहीं। सोसायटी के खाते में ऑनलाइन भेज दीजिए या ऑफ़िस में चेक दे दीजिए।"
+   }
+  ]
+ },
+ "IG22": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "en",
+  "pattern": 0,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 23.8,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 12.89,
+    "text": "Good morning, I'm calling from your bank's Dadar branch. Your account's periodic KYC update is due. Please visit the branch with your PAN and Aadhaar before the end of the month."
+   },
+   {
+    "speaker": "listener",
+    "start": 13.49,
+    "end": 14.88,
+    "text": "Can I do it online?"
+   },
+   {
+    "speaker": "caller",
+    "start": 15.48,
+    "end": 23.2,
+    "text": "Yes, you can also do it through the bank's official app. Please don't share your details with anyone who calls asking for them."
+   }
+  ]
+ },
+ "IG24": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "hi",
+  "pattern": 0,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 20.37,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 11.23,
+    "text": "नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ। ठाणे में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ़ इस हफ़्ते बुकिंग पर पाँच लाख की छूट है।"
+   },
+   {
+    "speaker": "listener",
+    "start": 11.83,
+    "end": 13.71,
+    "text": "अभी कोई इरादा नहीं है।"
+   },
+   {
+    "speaker": "caller",
+    "start": 14.31,
+    "end": 19.77,
+    "text": "ठीक है सर, अगर कभी ज़रूरत हो तो इसी नंबर पर कॉल कीजिए। धन्यवाद।"
+   }
+  ]
+ },
+ "IG25": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "mr",
+  "pattern": 0,
+  "voices": {
+   "caller": "hf_alpha",
+   "listener": "hm_omega"
+  },
+  "duration": 20.43,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.84,
+    "text": "नमस्कार, मी ॲडव्होकेट देशपांडे यांच्या ऑफिसमधून बोलतेय. तुमच्या जमिनीच्या केसची पुढची तारीख वीस नोव्हेंबरला आहे."
+   },
+   {
+    "speaker": "listener",
+    "start": 10.44,
+    "end": 12.11,
+    "text": "ठीक आहे, मी येईन."
+   },
+   {
+    "speaker": "caller",
+    "start": 12.71,
+    "end": 19.83,
+    "text": "सातबाराचा उतारा आणि जुनी कागदपत्रं घेऊन या. फी नंतर ऑफिसमध्ये भरली तरी चालेल."
+   }
+  ]
+ },
+ "IG26": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "en",
+  "pattern": 0,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 15.4,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 7.63,
+    "text": "Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday. Don't tell her anything, okay?"
+   },
+   {
+    "speaker": "listener",
+    "start": 8.23,
+    "end": 9.59,
+    "text": "Of course! What do you need?"
+   },
+   {
+    "speaker": "caller",
+    "start": 10.19,
+    "end": 14.8,
+    "text": "Can you send 800 for the cake to my GPay? Everyone is chipping in."
+   }
+  ]
+ },
+ "IG29": {
+  "split": "test",
+  "set": "IN-genuine",
+  "language": "mr",
+  "pattern": 0,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 19.67,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 10.06,
+    "text": "नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे, पहिला महिना मोफत."
+   },
+   {
+    "speaker": "listener",
+    "start": 10.66,
+    "end": 12.02,
+    "text": "किती खर्च येईल?"
+   },
+   {
+    "speaker": "caller",
+    "start": 12.62,
+    "end": 19.07,
+    "text": "महिना पाचशे निन्यान्नव रुपये. आवडलं तर आमचा माणूस घरी येऊन माहिती देईल."
+   }
+  ]
+ },
+ "IP02": {
+  "split": "paraphrase",
+  "set": "IN-scam",
+  "language": "mr",
+  "pattern": 3,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hf_alpha"
+  },
+  "duration": 48.9,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 13.96,
+    "text": "नमस्कार. हा दूरसंचार खात्याकडून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाईल नंबरवरची सेवा थांबवण्यात येईल. पुढील माहितीसाठी नऊ क्रमांकाचे बटण वापरा."
+   },
+   {
+    "speaker": "caller",
+    "start": 14.56,
+    "end": 26.42,
+    "text": "हॅलो, मी दूरसंचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे, आणि त्यावरून लोकांना फसवणारे मेसेज जात आहेत."
+   },
+   {
+    "speaker": "listener",
+    "start": 27.02,
+    "end": 29.28,
+    "text": "पण माझ्याकडे एकच सिम आहे."
+   },
+   {
+    "speaker": "caller",
+    "start": 29.88,
+    "end": 39.06,
+    "text": "म्हणूनच तुमची पडताळणी करावी लागेल. नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल."
+   },
+   {
+    "speaker": "caller",
+    "start": 39.66,
+    "end": 48.3,
+    "text": "पडताळणीसाठी तुमच्या ओळखपत्रावरचा बारा अंकी क्रमांक आणि आत्ता आलेला सहा अंकी कोड वाचून दाखवा."
+   }
+  ]
+ },
+ "IP08": {
+  "split": "paraphrase",
+  "set": "IN-scam",
+  "language": "en",
+  "pattern": 1,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 48.77,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.31,
+    "text": "Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Mehta, with the central anti-smuggling bureau in Mumbai."
+   },
+   {
+    "speaker": "listener",
+    "start": 9.91,
+    "end": 10.96,
+    "text": "Yes, what happened?"
+   },
+   {
+    "speaker": "caller",
+    "start": 11.56,
+    "end": 18.98,
+    "text": "Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name."
+   },
+   {
+    "speaker": "caller",
+    "start": 19.58,
+    "end": 26.71,
+    "text": "Until our inquiry is over, you are in remote custody. Stay with me on camera and keep this line open."
+   },
+   {
+    "speaker": "caller",
+    "start": 27.31,
+    "end": 33.02,
+    "text": "This concerns national security. Nobody else may hear about it, including your husband."
+   },
+   {
+    "speaker": "listener",
+    "start": 33.62,
+    "end": 35.12,
+    "text": "Will I be taken to prison?"
+   },
+   {
+    "speaker": "caller",
+    "start": 35.72,
+    "end": 48.17,
+    "text": "If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today, and they come back after the inquiry."
+   }
+  ]
+ },
+ "IP12": {
+  "split": "paraphrase",
+  "set": "IN-scam",
+  "language": "en",
+  "pattern": 4,
+  "voices": {
+   "caller": "af_heart",
+   "listener": "am_michael"
+  },
+  "duration": 32.7,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 12.17,
+    "text": "Good evening sir, Priya here, from the HDFC credit card team. Your card ending in 44 71 was just used abroad for a large purchase, about forty-eight thousand."
+   },
+   {
+    "speaker": "listener",
+    "start": 12.77,
+    "end": 14.86,
+    "text": "What? I didn't buy anything abroad."
+   },
+   {
+    "speaker": "caller",
+    "start": 15.46,
+    "end": 24.57,
+    "text": "Don't worry sir, I can stop it from here, but first I have to confirm it's you. The sixteen digits on the front of the card, and the month and year it expires?"
+   },
+   {
+    "speaker": "caller",
+    "start": 25.17,
+    "end": 32.1,
+    "text": "Now a six-digit code will come to your phone in a text. Say those six digits to me so I can stop the card this minute."
+   }
+  ]
+ },
+ "IP25": {
+  "split": "paraphrase",
+  "set": "IN-scam",
+  "language": "mr",
+  "pattern": 5,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 31.62,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.31,
+    "text": "नमस्कार, मी फोनपे मधून बोलतोय. तुमच्या मागच्या एका व्यवहारावर तुम्हाला दोन हजार परत मिळणार आहेत."
+   },
+   {
+    "speaker": "listener",
+    "start": 9.91,
+    "end": 11.43,
+    "text": "अरे वा, कसे मिळणार?"
+   },
+   {
+    "speaker": "caller",
+    "start": 12.03,
+    "end": 23.33,
+    "text": "तुमच्या फोनपेवर आत्ता एक विनंती आली आहे. ती स्वीकारा आणि व्यवहार मंजूर करायचा तुमचा चार अंकी क्रमांक टाका, पैसे खात्यात येतील."
+   },
+   {
+    "speaker": "listener",
+    "start": 23.93,
+    "end": 26.39,
+    "text": "क्रमांक टाकल्यावर पैसे येतील?"
+   },
+   {
+    "speaker": "caller",
+    "start": 26.99,
+    "end": 31.02,
+    "text": "हो, फक्त ही ऑफर पाच मिनिटांत संपेल, लवकर करा."
+   }
+  ]
+ },
+ "IP27": {
+  "split": "paraphrase",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 1,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 43.67,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 11.42,
+    "text": "नमस्कार, मैं दूरसंचार नियामक दफ़्तर से बोल रहा हूँ। आपके नंबर से ग़लत धंधों के संदेश गए हैं, मैं आपकी बात मुंबई के थाने से करवा रहा हूँ।"
+   },
+   {
+    "speaker": "caller",
+    "start": 12.02,
+    "end": 23.05,
+    "text": "तिलक नगर थाना, मुंबई। आपके नाम पर मानव व्यापार का मामला है। कैमरे के सामने बैठी रहिए; बात बीच में छोड़ी तो आपको हिरासत में लिया जाएगा।"
+   },
+   {
+    "speaker": "listener",
+    "start": 23.65,
+    "end": 25.49,
+    "text": "मेरी बेटी को बुला लूँ?"
+   },
+   {
+    "speaker": "caller",
+    "start": 26.09,
+    "end": 33.62,
+    "text": "नहीं, यह जाँच अभी बाहर नहीं जा सकती। आपने किसी से भी ज़िक्र किया, तो वो भी इस मामले में फँसेंगे।"
+   },
+   {
+    "speaker": "caller",
+    "start": 34.22,
+    "end": 43.07,
+    "text": "अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफ़डी तुड़वाकर पूरी रकम हमारे दिए खाते में डालनी होगी।"
+   }
+  ]
+ },
+ "IP31": {
+  "split": "paraphrase",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 4,
+  "voices": {
+   "caller": "hf_alpha",
+   "listener": "hm_omega"
+  },
+  "duration": 26.11,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 11.51,
+    "text": "नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ। आपके खाते की केवाईसी की तारीख निकल चुकी है, शाम तक आपका खाता फ़्रीज़ कर दिया जाएगा।"
+   },
+   {
+    "speaker": "listener",
+    "start": 12.11,
+    "end": 14.65,
+    "text": "मैं कल शाखा जाकर करवा दूँगा।"
+   },
+   {
+    "speaker": "caller",
+    "start": 15.25,
+    "end": 25.51,
+    "text": "कल तक तो खाते से लेन-देन रुक जाएगा, सर। मैं यहीं से कर देती हूँ। आपके एटीएम कार्ड के सामने लिखे सोलह अंक और पीछे के तीन अंक पढ़ दीजिए।"
+   }
+  ]
+ },
+ "IP32": {
+  "split": "paraphrase",
+  "set": "IN-scam",
+  "language": "en",
+  "pattern": 3,
+  "voices": {
+   "caller": "am_michael",
+   "listener": "am_adam"
+  },
+  "duration": 35.73,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 12.11,
+    "text": "This is a recorded message from the national telecom regulator. Every mobile service on your number will stop in a couple of hours. To speak with a staff member, key in nine now."
+   },
+   {
+    "speaker": "caller",
+    "start": 12.71,
+    "end": 23.05,
+    "text": "Hello, Mr. Mehra speaking, from the telecom regulator. Your SIM has been flagged for sending messages that cheat people. Are you aware of this?"
+   },
+   {
+    "speaker": "listener",
+    "start": 23.65,
+    "end": 25.0,
+    "text": "No. Who is this again?"
+   },
+   {
+    "speaker": "caller",
+    "start": 25.6,
+    "end": 31.89,
+    "text": "Sir, if you don't cooperate, a complaint goes to the cyber investigation wing before the day ends."
+   },
+   {
+    "speaker": "listener",
+    "start": 32.49,
+    "end": 35.13,
+    "text": "I'll go to my telecom store myself. Bye."
+   }
+  ]
+ },
+ "IP36": {
+  "split": "paraphrase",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 1,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hf_alpha"
+  },
+  "duration": 33.94,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.25,
+    "text": "हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के ज़रिए लोगों से ऑनलाइन ठगी हुई है।"
+   },
+   {
+    "speaker": "caller",
+    "start": 9.85,
+    "end": 18.98,
+    "text": "आपके नाम पर रिपोर्ट लिख ली गई है। अभी कैमरे पर आकर अपनी सफ़ाई दीजिए, वरना हमारी टीम आपके दरवाज़े पर होगी।"
+   },
+   {
+    "speaker": "listener",
+    "start": 19.58,
+    "end": 21.71,
+    "text": "मैं ख़ुद थाने आ जाती हूँ।"
+   },
+   {
+    "speaker": "caller",
+    "start": 22.31,
+    "end": 29.01,
+    "text": "थाने आने की ज़रूरत नहीं है। सब कुछ कैमरे पर ही होगा, और यह बात अपने तक ही रखिए।"
+   },
+   {
+    "speaker": "listener",
+    "start": 29.61,
+    "end": 33.34,
+    "text": "नहीं, मैं अपने बेटे के साथ थाने आऊँगी। नमस्ते।"
+   }
+  ]
+ },
+ "IP38": {
+  "split": "paraphrase",
+  "set": "IN-scam",
+  "language": "hi",
+  "pattern": 5,
+  "voices": {
+   "caller": "hm_omega",
+   "listener": "hm_psi"
+  },
+  "duration": 24.51,
+  "lines": [
+   {
+    "speaker": "caller",
+    "start": 0.5,
+    "end": 9.97,
+    "text": "नमस्ते, मैं गूगल पे की सहायता टीम से बोल रहा हूँ। आपकी एक पुरानी ख़रीद की वापसी रुकी हुई है, आपको चार हज़ार मिलने हैं।"
+   },
+   {
+    "speaker": "listener",
+    "start": 10.57,
+    "end": 11.77,
+    "text": "कैसे मिलेंगे?"
+   },
+   {
+    "speaker": "caller",
+    "start": 12.37,
+    "end": 23.91,
+    "text": "आपके गूगल पे पर अभी एक रिक्वेस्ट आई है। उसे मंज़ूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए, रकम सीधे आपके खाते में आ जाएगी।"
+   }
+  ]
+ }
+}

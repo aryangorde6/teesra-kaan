@@ -53,6 +53,7 @@ The questions, rules and the scam patterns they come from (with official sources
 | **FTC** | 200 real US scam robocalls from the FTC's Project Point of No Entry (public domain), 50 dev / 150 test |
 | **IN-scam / IN-genuine** | 40 scam and 30 genuine calls in Hindi, Marathi, English and Hinglish, re-enacted from police, RBI and NPCI advisories, recorded on speakerphone (28 dev / 42 test) |
 | **IN-real** | Real scam calls donated by Indian families with written consent (private; numbers only) |
+| **IN-synth** | **Synthetic voices, not people:** the Hindi, Marathi and English test scripts and 9 paraphrase scripts spoken by Kokoro through a phone band, fixed before the freeze ([eval/synthetic.py](eval/synthetic.py)); always reported apart |
 
 Compared on the same test: **A** keyword lists + the same rules, **B** Muse Spark asked "is this a scam?", **C** Teesra Kaan, plus C without speaker separation, language hint or keyword biasing. Two robustness checks: the IN test calls played through a phone speaker and recorded again, and 10 test scam calls rewritten so that not one word of the keyword lists is left ([eval/scripts/in-paraphrase.json](eval/scripts/in-paraphrase.json)). Every number in the video comes from `teesrakaan table` on that run. Development steps and their dev-set numbers are logged in [docs/dev-log.md](docs/dev-log.md).
 
@@ -113,4 +114,4 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 ## Licence
 MIT. The FTC recordings are public domain (NCSU Robocall Audio Dataset); they're fetched by `teesrakaan ftc-fetch`, not stored here.
 
-Not ours, used in the demo video under their licences: narration voiced with **Chatterbox TTS** (Resemble AI, MIT), its built-in voice, not a real person's; music: "Immersed" by **Kevin MacLeod** (incompetech.com), licensed under CC BY 4.0; fonts **Noto Sans, Noto Sans Devanagari, Noto Serif Devanagari** (SIL OFL 1.1).
+The synthetic test set's voices are **Kokoro v1.0** (hexgrad, Apache 2.0). Not ours, used in the demo video under their licences: narration voiced with **Chatterbox TTS** (Resemble AI, MIT), its built-in voice, not a real person's; music: "Immersed" by **Kevin MacLeod** (incompetech.com), licensed under CC BY 4.0; fonts **Noto Sans, Noto Sans Devanagari, Noto Serif Devanagari** (SIL OFL 1.1).
