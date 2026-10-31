@@ -14,6 +14,7 @@ from __future__ import annotations
 import threading
 from dataclasses import dataclass, field
 
+from .asr import devanagari
 from .judge import Judge
 from .listener import Listener
 from .messages import SIGNAL_NAME, prediction_events, warning
@@ -80,13 +81,13 @@ class LiveCall:
             out = self._commit(turn, turn.previous, len(turn.previous), said)
             return out + [{"type": "partial", "speaker": "", "text": ""}]
         if kind == "transcript":
-            turn.previous = (e.get("transcript") or "").split()
+            turn.previous = devanagari(e.get("transcript") or "").split()
             turn.said += [said] * (len(turn.previous) - len(turn.said))
             return [{"type": "partial", "speaker": "", "text": " ".join(turn.previous[turn.committed :])}]
         if kind == "speechComplete":
             tid = str(e.get("turnId"))
             turn = self.turns.get(tid, turn)
-            words = (e.get("transcript") or " ".join(turn.previous)).split()
+            words = devanagari(e.get("transcript") or " ".join(turn.previous)).split()
             self.turn_done = True
             return self._commit(turn, words, len(words), said) + [{"type": "partial", "speaker": "", "text": ""}]
         return []

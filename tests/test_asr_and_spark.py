@@ -4,7 +4,7 @@ import json
 import httpx
 import pytest
 
-from teesrakaan.asr import BYTES_PER_SECOND, handshake, session_to_call, stream
+from teesrakaan.asr import BYTES_PER_SECOND, batch_to_call, devanagari, handshake, session_to_call, stream
 from teesrakaan.budget import BudgetExceeded, Ledger, PaidCallsDisabled
 from teesrakaan.judge import SPARK_SCHEMA_V1
 from teesrakaan.keywords import KeywordJudge
@@ -102,6 +102,21 @@ def test_a_label_in_mid_turn_splits_the_turn():
     call = session_to_call({"events": events}, "x")
     assert [(t.speaker, t.text, t.heard_times) for t in call.turns] == [
         ("B", "Aapka parcel", (1.2, 1.2)), ("A", "haan ji", (2.2, 2.2))]
+
+def test_marathi_in_gujarati_letters_comes_back_in_devanagari():
+    # FLEURS, a real Marathi voice (dev-log, Oct 31): the transcriber switched script mid-sentence.
+    assert devanagari("एका સંસ્થા નવીન્યપૂર્ણ केले पाहिजे") == "एका संस्था नवीन्यपूर्ण केले पाहिजे"
+    assert devanagari("Main CBI se bol raha hoon, ૧૯૩૦") == "Main CBI se bol raha hoon, १९३०"
+    events = [
+        {"type": "speechStart", "turnId": 0, "audioProcessedMs": 0, "received": 0.1},
+        {"type": "transcript", "transcript": "તુમચે ખાતે", "audioProcessedMs": 900, "received": 1.0},
+        {"type": "speaker", "label": "A", "audioProcessedMs": 1000, "received": 1.2},
+        {"type": "speechComplete", "turnId": 0, "transcript": "તુમચે ખાતે બંદ", "audioProcessedMs": 1500, "received": 1.6},
+    ]
+    assert [t.text for t in session_to_call({"events": events}, "x").turns] == ["तुमचे खाते", "बंद"]
+    batch = {"turns": [{"speaker": "A", "startMs": 0, "endMs": 900, "transcript": "ખાતે બંદ"}]}
+    assert batch_to_call(batch, "x").turns[0].text == "खाते बंद"
+
 
 def test_spark_client_reserves_settles_and_caches(tmp_path, monkeypatch):
     monkeypatch.setenv("TEESRAKAAN_ALLOW_PAID", "1")

@@ -31,6 +31,15 @@ KEYWORDS = (
 )
 LANGUAGES = ("Hindi", "Marathi", "English")
 
+# Gujarati and Devanagari letters share one layout, 0x180 apart. On real Marathi voices the transcriber
+# sometimes writes the words in Gujarati letters (dev-log, Oct 31); no call here is in Gujarati.
+_GUJARATI = {c: c - 0x180 for c in range(0x0A81, 0x0AF0)}
+
+
+def devanagari(text: str) -> str:
+    """Gujarati letters in a transcript, written as the same Devanagari letters."""
+    return text.translate(_GUJARATI)
+
 
 def handshake(
     key: str,
@@ -147,7 +156,7 @@ def session_to_call(session: Session | dict, call_id: str, **meta) -> Call:
                               "said": [], "heard": [], "words": [], "done": 0}
         elif kind == "transcript" and current is not None:
             turn = turns[current]
-            words = (e.get("transcript") or "").split()
+            words = devanagari(e.get("transcript") or "").split()
             for _ in range(len(turn["heard"]), len(words)):
                 turn["said"].append(e.get("audioProcessedMs", 0) / 1000)
                 turn["heard"].append(e["received"])
@@ -164,7 +173,7 @@ def session_to_call(session: Session | dict, call_id: str, **meta) -> Call:
             tid = str(e.get("turnId"))
             if tid in turns:
                 turn = turns[tid]
-                words = (e.get("transcript") or " ".join(turn["words"])).split()
+                words = devanagari(e.get("transcript") or " ".join(turn["words"])).split()
                 while len(turn["heard"]) < len(words):  # words that never showed in a partial
                     turn["said"].append(e.get("audioProcessedMs", 0) / 1000)
                     turn["heard"].append(e["received"])
@@ -289,9 +298,9 @@ def transcribe_batch(wav: bytes, ledger=None, http=None, **settings) -> dict:
 def batch_to_call(data: dict, call_id: str) -> Call:
     """The batch response's turns (start, end, speaker) as a call; words are spread over each turn."""
     turns = tuple(
-        Turn(str(t.get("speaker") or "A"), t.get("startMs", 0) / 1000, t.get("endMs", 0) / 1000, t.get("transcript", ""))
+        Turn(str(t.get("speaker") or "A"), t.get("startMs", 0) / 1000, t.get("endMs", 0) / 1000, devanagari(t.get("transcript", "")))
         for t in data.get("turns", []) if (t.get("transcript") or "").strip()
     )
     if not turns and (data.get("transcript") or "").strip():
-        turns = (Turn("A", 0.0, data.get("audioDurationMs", 0) / 1000, data["transcript"]),)
+        turns = (Turn("A", 0.0, data.get("audioDurationMs", 0) / 1000, devanagari(data["transcript"])),)
     return Call(call_id, turns)

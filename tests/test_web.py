@@ -342,3 +342,16 @@ def test_every_package_the_code_imports_is_declared():
                 imported.add(node.module.split(".")[0])
     third_party = imported - set(sys.stdlib_module_names) - {"teesrakaan", "__future__"}
     assert third_party <= declared, f"imported but not in pyproject.toml: {sorted(third_party - declared)}"
+
+
+def test_live_shows_gujarati_letters_in_devanagari():
+    """A real Marathi voice sometimes comes back in Gujarati letters (dev-log, Oct 31)."""
+    from teesrakaan.keywords import KeywordJudge
+    from teesrakaan.live import LiveCall
+
+    call = LiveCall(KeywordJudge())
+    call.on_event({"type": "speechStart", "turnId": 0})
+    shown = call.on_event({"type": "transcript", "transcript": "તુમચે ખાતે", "audioProcessedMs": 900})
+    assert shown[-1]["text"] == "तुमचे खाते"
+    out = call.on_event({"type": "speaker", "label": "A", "audioProcessedMs": 1000})
+    assert [e["word"] for e in out if e["type"] == "word"] == ["तुमचे", "खाते"]

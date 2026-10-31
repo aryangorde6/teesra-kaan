@@ -157,3 +157,20 @@ Dev only. **Synthetic speech, not the kill check and not a result:** no person h
 - **Re-run from Muse Spark's saved replies only** (no API call, $0; the ledger stayed at $1.8739): the 28 dev scripts as text give the same level, warning time and predictions on every call as Oct 30's run. IN-scam warned 16/16 (81–100%), red 14/16 (64–97%); IN-genuine red 0/12 (0–24%), amber 0/12; next line came true 4/17 (naive guess 3/17).
 - **The bars:** at least 80% of scam calls warned: 16/16, passes. At most 1 red per 10 genuine calls: 0/12, passes. On synthetic speech (Oct 30, 16:21): 12/12 warned, red 0/9, amber 1/9.
 - **What G2 can't say yet:** the bars are meant for recorded dev calls, and none has been recorded. So G2 passes on the scripts as text and on synthetic speech, not on people's voices. It's checked again the day the dev recordings arrive, and the README will say which it was.
+
+## Oct 31, 2026, 12:54–13:03 IST: the kill check on real voices, and a script fix
+Dev only, nothing from the test sets. **Real people, but not calls:** no one has recorded a call yet, so the kill check's question (does a speech model transcribe Hindi and Marathi usably?) was put to native speakers reading sentences aloud, from Google's FLEURS dataset (CC BY 4.0).
+- **How:** the first 20 Hindi and first 18 Marathi clips in FLEURS's dev archives, in archive order, fixed before any was transcribed (the 18th Marathi clip was cut off by the 25 MB download cap, so 17). 7.4 min in all. Each clip was transcribed clean and through the same phone band and noise as the synthetic pre-check, with the same settings as everything else. Scored against FLEURS's own text: character error rate, pooled over the clips, punctuation ignored. The synthetic pre-check's transcripts were re-scored the same way so the columns compare (this measure gives slightly lower synthetic figures than the Oct 30 entry's).
+
+| | Hindi, real (20) | Marathi, real (17) | Hindi, synthetic (7) | Marathi, synthetic (8) |
+|---|---|---|---|---|
+| Phone band, as transcribed | 11.1% | 25.0% | 4.6% | 12.1% |
+| Phone band, Gujarati letters as Devanagari | 11.1% | 13.8% | 4.6% | 10.5% |
+| Clean, as transcribed | 5.4% | 30.8% | 3.4% | 6.8% |
+| Clean, Gujarati letters as Devanagari | 5.4% | 13.6% | 3.4% | 6.8% |
+
+- **The Gujarati drift is the transcriber's, not Kokoro's:** 8 of the 17 real Marathi clips came back partly in Gujarati letters (4 through the phone band), often switching mid-sentence ("एका સંસ્થા નવીન્યપૂર્ણ … केले पाहिजे"). The words are mostly right, in the wrong letters. Hindi never drifted.
+- **The fix, before the freeze:** Gujarati and Devanagari letters share one layout, so `asr.devanagari` writes any Gujarati letter as the same Devanagari one, wherever a transcript comes in (replay, batch uploads, live listening). No call in our sets is in Gujarati. It's part of transcription, so runs A, B and C all get it. Of the saved dev transcripts it touches one call, IG21 (synthetic, genuine, Marathi), which stays silent under A and C. FTC dev is English and unchanged.
+- **What's left in Marathi** (phone band, after the fix; median clip 10.8%, 9 of 17 under 15%): numbers said as words ("दोन" for "2"), names in Latin letters ("Kruger National Park"), a few words romanized ("Vidnyanata darshu vidhe…"), and real mishearings, some toward Gujarati ("त्रण हजार", three thousand, for 7,000).
+- **Verdict:** Hindi passes. Marathi passes with the script fix: usable, not clean. The project goes on, with no switch to the fallback. **What this can't show:** read sentences aren't a conversation, the phone band is simulated, and each clip has one voice. People's recorded calls still decide the test results.
+- Cost: $0.05 (ledger $1.8739 → $1.9251). The clips and transcripts stay out of the repo (`data/` is gitignored).
