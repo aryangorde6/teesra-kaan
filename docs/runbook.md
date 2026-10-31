@@ -20,7 +20,8 @@ Then one dev re-enactment through `teesrakaan transcribe` and look at the saved 
 ## 2. Transcribe each set once (about $0.18 per hour of audio)
 Re-enactments are recorded and labelled in `teesrakaan studio` ([recording.md](recording.md)); labels go to `data/labels-in.csv` before any run.
 ```bash
-.venv/bin/teesrakaan transcribe-set data/ftc/audio --out data/transcripts/ftc
+.venv/bin/teesrakaan transcribe-set data/ftc/audio-dev --out data/transcripts/ftc-dev     # done Oct 30
+.venv/bin/teesrakaan transcribe-set data/ftc/audio-test --out data/transcripts/ftc-test   # after the freeze
 .venv/bin/teesrakaan transcribe-set data/recordings/dev --out data/transcripts/in-dev
 ```
 Sessions are saved with every event and its arrival time, so all runs below replay the same transcripts with the real transcription delay. **Test recordings are transcribed only after the freeze** (Sun Nov 1, 12:00).
@@ -69,3 +70,10 @@ Then the table for the README and the video:
 git tag eval-freeze && git log -1 --format='%h %ad' eval-freeze
 ```
 After the tag, prompts, signals, rules, keyword lists, model names and transcription settings don't change for the reported rows. Any fix after it is an extra "after freeze" row.
+
+### After the tag, in this order
+1. **A fresh Billing reading first.** Paid calls need one from the last 24 hours and the last $10 of spend (`teesrakaan budget` says which). Read dev.meta.ai → Billing and record it with `teesrakaan meter`. All the runs below cost about $6–8, so one reading should cover them; `budget` says when another is needed.
+2. **FTC test labels** in `eval/ftc-test-labels.csv`, from each call's audio and the dataset transcript, committed before any test run (`teesrakaan labels` checks the sheet).
+3. **Transcribe** the FTC test calls (`data/ftc/audio-test`), the IN test recordings and their two ablations, and the paraphrase recordings; then check the synthetic set's hashes and transcribe it.
+4. **Run** A, B, C and C-no-speakers on each set, and C on the ablation transcripts. Count the keywords in the paraphrase transcripts.
+5. **Tables:** one per group (FTC and IN test; paraphrase; synthetic), never mixed. Each test set runs once, and every number goes in as it comes out.
