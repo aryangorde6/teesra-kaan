@@ -1,6 +1,6 @@
 # Recording the re-enactments
 
-Version 1.3, Oct 31, 2026 (the studio; v1.2 added the warning lines to it, v1.3 the paraphrase cards). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
+Version 1.4, Oct 31, 2026 (the studio; v1.2 added the warning lines to it, v1.3 the paraphrase cards, v1.4 solo takes of them). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
 
 ## Who records what
 - **Scripts:** [`eval/scripts/in-scam.json`](../eval/scripts/in-scam.json) (40) and [`in-genuine.json`](../eval/scripts/in-genuine.json) (30). The dev/test split is fixed in [`eval/scripts/split.csv`](../eval/scripts/split.csv) (28 dev, 42 test).
@@ -28,6 +28,15 @@ Version 1.3, Oct 31, 2026 (the studio; v1.2 added the warning lines to it, v1.3 
 - **Warnings** (the third tab): the spoken warning lines the page plays, one card each. See "Also recorded by Aryan" below.
 
 Audacity or a phone's voice recorder still work: save the file as below and fill the sheet by hand ([labelling.md](labelling.md)).
+
+## Solo takes (paraphrase cards only, about 1 minute each)
+One person can record a paraphrase card alone ([evaluation-rule.md](evaluation-rule.md), Robustness, v1.5.1): you read the caller, and the laptop speaks the listener's short replies in a synthetic voice.
+1. In the studio's *Paraphrase* tab, open a card and tick **Solo**. Laptop volume at about half; sit at arm's length from it, facing it.
+2. Add your initials, tick consent, press **Start recording**. The first caller line is highlighted: read it as written.
+3. Press **Space** when you finish each of your lines. If the listener answers next, the laptop says it, then highlights your next line. After your last line, Space ends the take.
+4. Listen back, save, then mark t0 and the ask as usual. Each line's start time is shown next to it: click a line to jump there.
+
+The take is saved through a phone band, since your voice is in the room rather than coming out of a phone; the untouched take is kept in `data/recordings/solo-raw/`.
 
 ## Acting
 - Read the card once. Then **say each line in your own words**, in order. Don't read word for word: real callers don't, and a test that only works on the script's exact words is worthless.

@@ -1,0 +1,136 @@
+{
+ "about": "The listener's lines played in solo takes of the paraphrase cards (docs/evaluation-rule.md, Robustness). Kokoro v1.0 (Apache 2.0), made by eval/solo_listener.py; the audio stays in data/solo/.",
+ "cards": {
+  "IP02": {
+   "language": "mr",
+   "voice": "hf_alpha",
+   "lines": {
+    "2": {
+     "text": "पण माझ्याकडे एकच सिम आहे.",
+     "seconds": 2.26,
+     "sha256": "ae7ec3b22db90b8e2ce8afe35ed47fd91d27b5d1d2d7aae8117dea2adfaf2d81"
+    }
+   }
+  },
+  "IP08": {
+   "language": "en",
+   "voice": "af_heart",
+   "lines": {
+    "1": {
+     "text": "Yes, what happened?",
+     "seconds": 1.22,
+     "sha256": "a21337897e4ee862bf999cd80012cd3ab6a5bea74ea8306a9e6c02e38a6c1128"
+    },
+    "5": {
+     "text": "Will I be taken to prison?",
+     "seconds": 1.47,
+     "sha256": "16929bef25a129e32bd972aa386dbf4a7124c03d862c98e5c6ced08e8dd8c122"
+    }
+   }
+  },
+  "IP12": {
+   "language": "en",
+   "voice": "am_michael",
+   "lines": {
+    "1": {
+     "text": "What? I didn't buy anything abroad.",
+     "seconds": 2.09,
+     "sha256": "7141750085643f3a3e4c36671d01c541a3c8cf9635f9b21e7f0883f2df58643f"
+    }
+   }
+  },
+  "IP25": {
+   "language": "mr",
+   "voice": "hm_omega",
+   "lines": {
+    "1": {
+     "text": "अरे वा, कसे मिळणार?",
+     "seconds": 1.58,
+     "sha256": "88a8469fbd1eb879d3ea8d7233c89ec00d417a6687efb4818fb289388ffc7f91"
+    },
+    "3": {
+     "text": "क्रमांक टाकल्यावर पैसे येतील?",
+     "seconds": 2.41,
+     "sha256": "3bfabd4cb210c816d49e18e3977565307e552ba3b33e6e74966a41d8d2a92a04"
+    }
+   }
+  },
+  "IP27": {
+   "language": "hi",
+   "voice": "hf_alpha",
+   "lines": {
+    "2": {
+     "text": "मेरी बेटी को बुला लूँ?",
+     "seconds": 1.86,
+     "sha256": "67fd80c96513b3c4e9374bd113972bb15e2c5133ac063c412a59a5b2d5ba4fe9"
+    }
+   }
+  },
+  "IP31": {
+   "language": "hi",
+   "voice": "hm_omega",
+   "lines": {
+    "1": {
+     "text": "मैं कल शाखा जाकर करवा दूँगा।",
+     "seconds": 2.54,
+     "sha256": "fea196421f00fa0c2e7151fa60b07b742d1a7c4fd52326dbfb1af2da64cdffbe"
+    }
+   }
+  },
+  "IP32": {
+   "language": "en",
+   "voice": "am_michael",
+   "lines": {
+    "2": {
+     "text": "No. Who is this again?",
+     "seconds": 1.47,
+     "sha256": "ec9ac8d77b1a21ec17ede575093aa217416cad875ca5a1264d9873692a9c6167"
+    },
+    "4": {
+     "text": "I'll go to my telecom store myself. Bye.",
+     "seconds": 3.18,
+     "sha256": "7766e1f070e4751ac522fa43d945d9e07962ba0276e73744a73879975a0829aa"
+    }
+   }
+  },
+  "IP36": {
+   "language": "hi",
+   "voice": "hf_alpha",
+   "lines": {
+    "2": {
+     "text": "मैं ख़ुद थाने आ जाती हूँ।",
+     "seconds": 2.13,
+     "sha256": "a05f3a6894e2a7faaa89005b40c5286c58f8fb241ba4012cc8b8e8a384cea597"
+    },
+    "4": {
+     "text": "नहीं, मैं अपने बेटे के साथ थाने आऊँगी। नमस्ते।",
+     "seconds": 3.73,
+     "sha256": "50c9376060f87b42f53fb0c9bb35731528ef7fed3064605b90016e1c548d6788"
+    }
+   }
+  },
+  "IP37": {
+   "language": "hi+en",
+   "voice": "hf_alpha",
+   "lines": {
+    "1": {
+     "text": "Maine toh online kar diya tha.",
+     "spoken_as": "मैंने तो ऑनलाइन कर दिया था।",
+     "seconds": 2.28,
+     "sha256": "140efc25603d7155fcf8b4c07e94d79497512bd6d32ebb404a1392eed97f23fe"
+    }
+   }
+  },
+  "IP38": {
+   "language": "hi",
+   "voice": "hm_omega",
+   "lines": {
+    "1": {
+     "text": "कैसे मिलेंगे?",
+     "seconds": 1.19,
+     "sha256": "85dfe610e7cab167a84070f6137de1844b9613e22f1541b9e50b7b9b6d9f11e3"
+    }
+   }
+  }
+ }
+}
