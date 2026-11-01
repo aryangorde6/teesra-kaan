@@ -254,6 +254,8 @@ section { scroll-margin-top: 84px; }
 
 .engine { margin: -4px 0 0; font-family: var(--mono); font-size: 0.85rem; color: var(--muted); }
 .engine:empty { display: none; }
+.voiced { margin: 2px 0 0; font-family: var(--mono); font-size: 0.85rem; font-weight: 700; color: var(--ink); }
+.voiced[hidden] { display: none; }
 .transcript { max-height: 340px; overflow-y: auto; display: grid; gap: 8px; margin-top: 10px; }
 body.typed .transcript-panel, body.typed #timeline-wrap { display: none; }
 .line { margin: 0; }

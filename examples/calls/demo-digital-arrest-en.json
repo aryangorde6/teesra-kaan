@@ -1,0 +1,81 @@
+{
+  "id": "demo-digital-arrest-en",
+  "set": "demo",
+  "language": "en",
+  "re_enactment": true,
+  "note": "demo-digital-arrest in English, for viewers who don't speak Hindi. A written demo script, not a real call: names, numbers and IDs are made up, and the voices are synthetic.",
+  "label": {
+    "is_scam": true,
+    "pattern": 1,
+    "t0": 1.9,
+    "t_ask": 44.2
+  },
+  "turns": [
+    {
+      "speaker": "caller",
+      "start": 0.4,
+      "end": 6.46,
+      "text": "Hello, this is Inspector Sharma from the Mumbai Crime Branch. Am I speaking to Sunita Verma?"
+    },
+    {
+      "speaker": "listener",
+      "start": 7.01,
+      "end": 8.19,
+      "text": "Yes, speaking."
+    },
+    {
+      "speaker": "caller",
+      "start": 8.74,
+      "end": 17.89,
+      "text": "Madam, a FedEx parcel was sent on your Aadhaar card, and we found drugs and five fake passports in it. An FIR has been filed in your name."
+    },
+    {
+      "speaker": "listener",
+      "start": 18.44,
+      "end": 20.59,
+      "text": "What? I never sent any parcel."
+    },
+    {
+      "speaker": "caller",
+      "start": 21.14,
+      "end": 28.61,
+      "text": "This is a very serious money laundering case. You have to do the verification right now, or an arrest warrant will be issued."
+    },
+    {
+      "speaker": "listener",
+      "start": 29.16,
+      "end": 31.18,
+      "text": "Let me talk to my son first."
+    },
+    {
+      "speaker": "caller",
+      "start": 31.73,
+      "end": 38.53,
+      "text": "No madam, this case is confidential. Don't tell anyone, not even your family. And don't disconnect this call."
+    },
+    {
+      "speaker": "caller",
+      "start": 38.88,
+      "end": 42.26,
+      "text": "I'm moving you to a Skype video call. Keep your camera on."
+    },
+    {
+      "speaker": "listener",
+      "start": 42.81,
+      "end": 43.67,
+      "text": "Okay."
+    },
+    {
+      "speaker": "caller",
+      "start": 44.22,
+      "end": 54.22,
+      "text": "For verification, you have to transfer all the money in your account to RBI's safe account. Send two lakh rupees now, you'll get it back after verification."
+    },
+    {
+      "speaker": "caller",
+      "start": 54.57,
+      "end": 70.98,
+      "text": "Write down the account number: 501234567890, IFSC HDFC0001234. Or send it by UPI to rbi.verify@okaxis."
+    }
+  ]
+}

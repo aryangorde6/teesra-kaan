@@ -276,11 +276,26 @@ def test_demo_calls_replay_muse_sparks_saved_replies_without_a_key(example, monk
     judge = web.demo_judge()
     assert isinstance(judge.signs.complete, ReplayClient)
     for lang in ("en", "hi", "mr"):
-        for name, level in [("demo-digital-arrest", "red"), ("demo-trai-marathi", "red"), ("demo-bank-alert-genuine", None)]:
+        for name, level in [("demo-digital-arrest", "red"), ("demo-trai-marathi", "red"), ("demo-bank-alert-genuine", None),
+                            ("demo-digital-arrest-en", "red"), ("demo-wrong-credit-en", "red")]:
             events = [e for _, e in web.demo_events(example(name), lang, judge=web.demo_judge())]
             assert events[0]["call"]["judge"] == "Muse Spark"
             levels = [e["warning"]["level"] for e in events if e["type"] == "alarm"]
             assert (levels[-1] if levels else None) == level, (name, lang)
+
+
+def test_the_voiced_english_calls_play_their_audio_and_say_the_voices_are_synthetic():
+    """Synthetic voices are labelled on screen: the page shows the line while a call with audio plays."""
+    import re
+
+    listed = {c["id"]: c for c in client.get("/api/calls").json()}
+    for name in ("demo-digital-arrest-en", "demo-wrong-credit-en"):
+        assert listed[name]["audio"] == f"/demo-audio/{name}.m4a"
+        assert client.get(listed[name]["audio"]).content[4:8] == b"ftyp"
+    js = client.get("/static/app.js").text
+    assert len(re.findall(r'synthetic: "', js)) == 3
+    assert '$("#voiced").hidden = !(e.call.audio && speed === 1);' in js
+    assert 'id="voiced"' in client.get("/").text
 
 
 def test_a_demo_call_without_saved_replies_falls_back_to_keywords(example, tmp_path, monkeypatch):

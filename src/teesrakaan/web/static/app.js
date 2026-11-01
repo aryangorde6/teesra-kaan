@@ -45,6 +45,7 @@ const UI = {
     listening: "Listening",
     ended: "Call ended",
     note: "Demo calls are acted from scripts; they are not real. Nothing is recorded or stored.",
+    synthetic: "You're hearing synthetic voices, not real people.",
     how: "How it decides",
     how_1: "Muse Voice Transcribe writes down the call as it happens and keeps the two voices apart. After each thing the caller says, Muse Spark answers these questions about the caller, and must quote the caller's exact words for every \"yes\". A quote the caller never said is thrown away.",
     how_2: "Fixed rules raise the alarm, never the model on its own: Muse Spark must judge the call a scam, and at least one warning sign must be shown in the caller's own words. If one of them is a request for money, an OTP or PIN, an app or a link, it turns red.",
@@ -98,6 +99,7 @@ const UI = {
     listening: "सुन रहा है",
     ended: "कॉल खत्म",
     note: "डेमो कॉल अभिनय करके बनाए गए हैं, असली नहीं। कुछ भी रिकॉर्ड या सेव नहीं होता।",
+    synthetic: "आप सिंथेटिक आवाज़ें सुन रहे हैं, असली लोग नहीं।",
     how: "यह कैसे तय करता है",
     how_1: "Muse Voice Transcribe कॉल को साथ-साथ लिखता है और दोनों आवाज़ें अलग रखता है। कॉल करने वाले की हर बात के बाद Muse Spark उसके बारे में ये सवाल हाँ/ना में बताता है, और हर \"हाँ\" के लिए उसके असली शब्द दिखाने होते हैं। जो शब्द कॉल करने वाले ने कहे ही नहीं, वे हटा दिए जाते हैं।",
     how_2: "चेतावनी तय नियम देते हैं, मॉडल अकेले कभी नहीं: Muse Spark को कॉल स्कैम लगना चाहिए, और कम से कम एक संकेत कॉल करने वाले के अपने शब्दों में दिखना चाहिए। अगर उनमें से एक पैसे, OTP या PIN, ऐप या लिंक की माँग हो तो लाल।",
@@ -151,6 +153,7 @@ const UI = {
     listening: "ऐकत आहे",
     ended: "कॉल संपला",
     note: "डेमो कॉल अभिनय करून बनवले आहेत, खरे नाहीत. काहीही रेकॉर्ड किंवा सेव्ह होत नाही.",
+    synthetic: "तुम्ही सिंथेटिक आवाज ऐकत आहात, खरी माणसे नाहीत.",
     how: "हे कसे ठरवते",
     how_1: "Muse Voice Transcribe कॉल चालू असतानाच लिहून काढतो आणि दोन्ही आवाज वेगळे ठेवतो. फोन करणाऱ्याच्या प्रत्येक बोलण्यानंतर Muse Spark त्याच्याबद्दल हे प्रश्न हो/नाही मध्ये सांगतो, आणि प्रत्येक \"हो\" साठी त्याचे नेमके शब्द दाखवावे लागतात. फोन करणाऱ्याने न बोललेले शब्द काढून टाकले जातात.",
     how_2: "इशारा ठरलेले नियम देतात, मॉडेल एकटे कधीच नाही: Muse Spark ला कॉल फसवणुकीचा वाटला पाहिजे, आणि किमान एक चिन्ह फोन करणाऱ्याच्या स्वतःच्या शब्दांत दिसले पाहिजे. त्यातले एक पैसे, OTP किंवा PIN, अ‍ॅप किंवा लिंकची मागणी असेल तर लाल.",
@@ -168,6 +171,9 @@ const CALL_NAME = {
   "demo-trai-marathi": { en: "Your number will be cut off (TRAI)", hi: "आपका नंबर बंद होगा (TRAI)", mr: "तुमचा नंबर बंद होईल (TRAI)" },
   "demo-bank-alert-genuine": { en: "A genuine bank alert", hi: "असली बैंक अलर्ट", mr: "खरा बँक अलर्ट" },
   "demo-wrong-credit": { en: "Sent too much by mistake", hi: "गलती से ज़्यादा पैसे भेजे", mr: "चुकून जास्त पैसे पाठवले" },
+  // The English calls are voiced (synthetic voices, said on screen while they play), for viewers who don't speak Hindi.
+  "demo-digital-arrest-en": { en: "Digital arrest, voiced", hi: "डिजिटल अरेस्ट, आवाज़ के साथ", mr: "डिजिटल अरेस्ट, आवाजासह" },
+  "demo-wrong-credit-en": { en: "Sent too much by mistake, voiced", hi: "गलती से ज़्यादा पैसे भेजे, आवाज़ के साथ", mr: "चुकून जास्त पैसे पाठवले, आवाजासह" },
 };
 const CALL_LANG = {
   "hi+en": { en: "Hindi and English", hi: "हिंदी और अंग्रेज़ी", mr: "हिंदी आणि इंग्रजी" },
@@ -176,6 +182,11 @@ const CALL_LANG = {
   en: { en: "English", hi: "अंग्रेज़ी", mr: "इंग्रजी" },
 };
 let demoCalls = [];
+// The hero plays the digital-arrest call, the one where the next line comes true: voiced in English when the page is.
+function hero() {
+  const find = (id) => demoCalls.find((c) => c.id === id);
+  return (lang === "en" && find("demo-digital-arrest-en")) || find("demo-digital-arrest") || demoCalls[0];
+}
 function labelCalls() {
   document.querySelectorAll("#call option").forEach((o) => {
     const c = demoCalls.find((x) => x.id === o.value);
@@ -183,6 +194,8 @@ function labelCalls() {
     const spoken = (CALL_LANG[c.language] || {})[lang] || c.language;
     o.textContent = `${name} · ${spoken} · ${clock(c.duration)}`;
   });
+  const h = hero();
+  if (h) $("#watch-len").textContent = clock(h.duration);
 }
 // Where the warning and the report send you. It starts on India everywhere: the demo calls are Indian calls, and a judge
 // abroad should see what the person on them would (1930, not the FTC). "Where you are" switches it, and is remembered.
@@ -287,6 +300,7 @@ function reset() {
   voice.pause();
   if ("speechSynthesis" in window) speechSynthesis.cancel();
   $("#transcript").innerHTML = "";
+  $("#voiced").hidden = true;
   $("#signals").innerHTML = "";
   $("#alert").hidden = true;
   $("#alert").className = "alert";
@@ -631,6 +645,7 @@ function handle(e, speed) {
       state.call = e.call;
       // A recorded re-enactment plays its own audio, in step with its saved transcript (speed 1 only).
       if (e.call.audio && speed === 1) { player = new Audio(e.call.audio); player.play().catch(() => {}); }
+      $("#voiced").hidden = !(e.call.audio && speed === 1);
       $("#engine").textContent = e.call.judge ? `Judge: ${e.call.judge}` : "";
       state.started = performance.now();
       $("#status").className = "status on";
@@ -676,10 +691,7 @@ async function init() {
   });
   labelCalls();
   $("#play").addEventListener("click", play);
-  // The hero plays the digital-arrest call: the one where the next line comes true.
-  const hero = calls.find((c) => c.id === "demo-digital-arrest") || calls[0];
-  if (hero) $("#watch-len").textContent = clock(hero.duration);
-  $("#watch").addEventListener("click", () => { if (hero) select.value = hero.id; play(); });
+  $("#watch").addEventListener("click", () => { const h = hero(); if (h) select.value = h.id; play(); });
   $("#back").addEventListener("click", () => {
     if (mic) { if (socket && socket.readyState === 1) socket.send(JSON.stringify({ type: "stop" })); stopMic(); }
     else goHome();

@@ -23,6 +23,8 @@ voice/
 *.aac
 *.ogg
 *.opus
+# ...except the English demo calls: written scripts in synthetic voices (Kokoro), labelled as such on the page
+!examples/calls/*-en.m4a
 *.3gp
 
 # Python

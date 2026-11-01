@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Ubuntu+Sans:wdth,wght@75..100,400..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/static/style.css?v=6">
+  <link rel="stylesheet" href="/static/style.css?v=7">
   <link rel="manifest" href="/static/manifest.json">
   <link rel="icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#161311">
@@ -121,6 +121,7 @@
         <section class="panel transcript-panel">
           <h2 data-t="transcript">What the caller is saying</h2>
           <p id="engine" class="engine"></p>
+          <p id="voiced" class="voiced" data-t="synthetic" hidden></p>
           <div id="transcript" class="transcript" aria-live="polite"></div>
           <p id="partial" class="partial" hidden></p>
         </section>
@@ -158,6 +159,6 @@
 
     <footer class="foot" data-t="note">Demo calls are acted from scripts; they are not real. Nothing is recorded or stored.</footer>
   </main>
-  <script src="/static/app.js?v=10"></script>
+  <script src="/static/app.js?v=11"></script>
 </body>
 </html>
