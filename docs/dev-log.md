@@ -235,3 +235,87 @@ Dev only. The entry above ran the rewrites as text; this puts them through speec
 - **The probe:** in Hinglish and in English, amber at "too much went by mistake", the next line "send the extra back" shown, came true at the ask, red. A demo call of it is on the page (`examples/calls/demo-wrong-credit.json`): amber at 28.0 s with the next line, the ask at 32.0 s, red and ticked at 40.5 s.
 - **Not re-run with the new prompt:** FTC dev, the dev paraphrases and the synthetic dev calls, to keep tonight's spend small before the freeze run; the freeze run covers FTC and the paraphrase and synthetic test sets.
 - **Cost:** $1.04 in all tonight (ledger $2.3255 → $3.3665), with the demo replies re-saved ($0.09).
+
+## Nov 1, 2026, 12:00–12:30 IST: the frozen test run
+- **The freeze:** `git tag eval-freeze` at 12:01, on `332732b` (Oct 31, 20:52, signals v1.4, playbook v2, rules v1.3). Nothing that decides a warning has changed since.
+- **FTC test labels** committed before any test run (`957e873`, 12:02), drafted from the dataset's transcripts by [labelling.md](labelling.md) and the dev sheet's precedents: 132 impersonation, 16 sales, 2 other (borderline calls noted in the sheet).
+- **Ran** (`eval/after_freeze.sh`, 12:02–12:29, log `runs/after-freeze-1202.log`): FTC test (150 calls; A, B, C, C-no-speakers) and the synthetic set (33 test and 9 paraphrase recordings; A, B, C), each once. **Skipped:** IN test (people's recordings) and the people's paraphrase takes: `data/recordings/` and `data/labels-in.csv` don't exist yet, so no ablation rows either.
+- **FTC and IN test** (FTC only; `runs/eval-test/table.md`):
+
+**FTC** (test)
+
+| Run | Warned (red or amber) | Red | Red false alarms | Amber false alarms | Time to warning, median (90th pct) | Time to red, median | Warned before the ask |
+|---|---|---|---|---|---|---|---|
+| A | 121/132 (86–95%) | 11/132 (5–14%) | – | – | – | – | – |
+| B | 132/132 (97–100%) | 132/132 (97–100%) | – | – | – | – | – |
+| C | 131/132 (96–100%) | 0/132 (0–3%) | – | – | – | – | – |
+| C-no-speakers | 131/132 (96–100%) | 0/132 (0–3%) | – | – | – | – | – |
+
+The next line, **FTC**
+
+| Run | Came true | Naive guess (dev only) | Median seconds ahead | Scam calls with one | Per genuine call |
+|---|---|---|---|---|---|
+| A | 0/13 (0–23%) | – | – | 13/132 (6–16%) | – |
+| B | – | – | – | 0/132 (0–3%) | – |
+| C | 0/43 (0–8%) | – | – | 41/132 (24–39%) | – |
+| C-no-speakers | 0/43 (0–8%) | – | – | 41/132 (24–39%) | – |
+
+  By FTC class (the sales and other calls are reported by class, never as false alarms): A warned 7/16 sales (red 0/16), 0/2 other; B 16/16 sales (red 16/16), 0/2 other; C and C-no-speakers 13/16 sales (red 0/16), 0/2 other.
+- **Paraphrase:** no people's takes yet, so no table.
+- **IN-synth, synthetic voices, not people** (`runs/eval-synth/table-test.md`):
+
+**IN-synth-genuine** (test)
+
+| Run | Warned (red or amber) | Red | Red false alarms | Amber false alarms | Time to warning, median (90th pct) | Time to red, median | Warned before the ask |
+|---|---|---|---|---|---|---|---|
+| A | 0/0 | 0/0 | 1/15 (1–30%) | 1/15 (1–30%) | – | – | – |
+| B | 0/0 | 0/0 | 0/15 (0–20%) | 0/15 (0–20%) | – | – | – |
+| C | 0/0 | 0/0 | 0/15 (0–20%) | 0/15 (0–20%) | – | – | – |
+
+The next line, **IN-synth-genuine**
+
+| Run | Came true | Naive guess (dev only) | Median seconds ahead | Scam calls with one | Per genuine call |
+|---|---|---|---|---|---|
+| A | – | – | – | – | 0.00 (0 on 15 calls) |
+| B | – | – | – | – | 0.00 (0 on 15 calls) |
+| C | 0/1 (0–79%) | – | – | – | 0.07 (1 on 15 calls) |
+
+**IN-synth-scam** (test)
+
+| Run | Warned (red or amber) | Red | Red false alarms | Amber false alarms | Time to warning, median (90th pct) | Time to red, median | Warned before the ask |
+|---|---|---|---|---|---|---|---|
+| A | 17/18 (74–99%) | 13/18 (49–88%) | – | – | 21 s (28 s) | 30 s | 8/16 (28–72%) |
+| B | 18/18 (82–100%) | 18/18 (82–100%) | – | – | 21 s (27 s) | 21 s | 7/16 (23–67%) |
+| C | 18/18 (82–100%) | 17/18 (74–99%) | – | – | 22 s (29 s) | 30 s | 7/16 (23–67%) |
+
+The next line, **IN-synth-scam**
+
+| Run | Came true | Naive guess (dev only) | Median seconds ahead | Scam calls with one | Per genuine call |
+|---|---|---|---|---|---|
+| A | 4/10 (17–69%) | – | 4 s | 7/18 (20–61%) | – |
+| B | – | – | – | 0/18 (0–18%) | – |
+| C | 5/8 (31–86%) | – | 5 s | 8/18 (25–66%) | – |
+
+
+- **IN-synth paraphrase, synthetic voices, not people** (`runs/eval-synth/table-paraphrase.md`):
+
+**IN-synth-scam** (paraphrase)
+
+| Run | Warned (red or amber) | Red | Red false alarms | Amber false alarms | Time to warning, median (90th pct) | Time to red, median | Warned before the ask |
+|---|---|---|---|---|---|---|---|
+| A | 0/9 (0–30%) | 0/9 (0–30%) | – | – | – | – | 0/7 (0–35%) |
+| B | 9/9 (70–100%) | 9/9 (70–100%) | – | – | 23 s (29 s) | 23 s | 4/7 (25–84%) |
+| C | 9/9 (70–100%) | 8/9 (57–98%) | – | – | 25 s (30 s) | 29 s | 3/7 (16–75%) |
+
+The next line, **IN-synth-scam**
+
+| Run | Came true | Naive guess (dev only) | Median seconds ahead | Scam calls with one | Per genuine call |
+|---|---|---|---|---|---|
+| A | – | – | – | 0/9 (0–30%) | – |
+| B | – | – | – | 0/9 (0–30%) | – |
+| C | 3/7 (16–75%) | – | 12 s | 6/9 (35–88%) | – |
+
+
+- **Keywords that came back in the synthetic paraphrase transcripts:** none; 0 in the caller's words and 0 in all on each of the 9 (IP02, IP08, IP12, IP25, IP27, IP31, IP32, IP36, IP38).
+- **What the numbers show:** on FTC, C warned on 131 of 132 impersonation calls but never went red (these robocalls say "press 1" and never ask for money, a code or an app, which red waits for unless authority, threat and isolation come together), while B went red on every FTC call, sales included; on the synthetic paraphrases the keyword baseline heard nothing and B and C warned on all 9.
+- **Cost:** $1.3794 (ledger $3.4185 → $4.7979, `teesrakaan budget` before and after); Billing last read 09:38, $146.65 left, ₹0.00.
