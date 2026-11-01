@@ -6,7 +6,7 @@
 
 *Right: the page playing a written demo call at 4× speed, judged by Muse Spark 1.3 (its real replies, saved in [`examples/spark-replies/`](examples/spark-replies) so the page replays them without a key). The card names the caller's next line before he says it and ticks it off in his words, then the red warning quotes him. A call re-enacted by people on a real phone line, heard by Muse Voice Transcribe at real-time speed, is the live run in the video ("Does it work?" has its timeline).*
 
-- **Live:** https://teesrakaan.aryangorde.com (the demo calls and the "check before you pay" box; live listening runs on the laptop, see [deploy/README.md](deploy/README.md))
+- **Live:** https://teesrakaan.aryangorde.com (the demo calls and the "check before you pay" box; live listening runs on the laptop, see [deploy/README.md](deploy/README.md)). The public page has no model key: the demo calls and the box's "Try an example" replay Muse Spark's real answers, and anything else you type there is checked by the keyword stand-in, which the page says on screen.
 - **Video (3 min):** *(link on Nov 4)*
 - **Built during** the Meta Global AI Developer Hackathon, Oct 26 – Nov 4, 2026. Every commit in this repo is from those dates. One module is adapted from code written earlier in the same event: the spending ledger in `src/teesrakaan/budget.py` comes from this hackathon's first project, Double Take (Oct 27, 2026). The project changed after the application; the submission says so.
 

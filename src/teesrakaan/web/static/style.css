@@ -188,6 +188,10 @@ section { scroll-margin-top: 84px; }
   margin: 0; padding: 10px 14px; border-radius: var(--radius); background: var(--red); color: var(--on); font-weight: 700;
 }
 .silent[hidden] { display: none; }
+.standin {
+  margin: 0; padding: 10px 14px; border-radius: var(--radius); border: 2px dashed var(--sun); background: var(--sheet); color: var(--ink);
+}
+.standin[hidden] { display: none; }
 
 .waiting {
   padding: 16px 18px; border: 2px dashed var(--line); border-radius: var(--radius); background: var(--sheet);

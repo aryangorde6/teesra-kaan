@@ -15,6 +15,7 @@ const UI = {
     calm_end: "Call ended. No warning: this call didn't look like a scam.",
     calm_signs: (n) => `It heard ${n} warning sign${n === 1 ? "" : "s"}, but the call as a whole didn't look like a scam, so it stayed quiet.`,
     live_on: "Open this page on a second phone or laptop: the phone on the call keeps its own microphone. Put the call on speaker next to it, then tap Start.",
+    standin: "Checked by keywords only: this public page doesn't call the paid model API, so Muse Spark doesn't read what you type. Keywords miss calls worded without them. \"Try an example\" shows Muse Spark's real answer.",
     silent: "Hearing nothing. If the call is on this phone, open this page on another phone or laptop.",
     demo: "Play a demo call",
     upload: "Check a call you recorded",
@@ -69,6 +70,7 @@ const UI = {
     calm_end: "कॉल खत्म। कोई चेतावनी नहीं: यह कॉल स्कैम नहीं लगा।",
     calm_signs: (n) => `${n} चेतावनी के संकेत सुने, पर पूरा कॉल स्कैम नहीं लगा, इसलिए चुप रहा।`,
     live_on: "यह पेज किसी दूसरे फ़ोन या लैपटॉप पर खोलें: जिस फ़ोन पर कॉल चल रहा है, वह अपना माइक नहीं देता। कॉल को स्पीकर पर इसके पास रखें, फिर शुरू करें दबाएँ।",
+    standin: "सिर्फ़ कीवर्ड से जाँचा गया: यह सार्वजनिक पेज पेड मॉडल API नहीं चलाता, इसलिए आपका लिखा Muse Spark नहीं पढ़ता। जिन कॉल में ये शब्द नहीं होते, वे कीवर्ड से छूट जाती हैं। \"उदाहरण देखें\" Muse Spark का असली जवाब दिखाता है।",
     silent: "कुछ सुनाई नहीं दे रहा। अगर कॉल इसी फ़ोन पर है, तो यह पेज किसी दूसरे फ़ोन या लैपटॉप पर खोलें।",
     demo: "डेमो कॉल चलाएँ",
     upload: "रिकॉर्ड किया हुआ कॉल जाँचें",
@@ -123,6 +125,7 @@ const UI = {
     calm_end: "कॉल संपला. इशारा नाही: हा कॉल फसवणुकीचा वाटला नाही.",
     calm_signs: (n) => `${n} धोक्याची चिन्हे ऐकली, पण पूर्ण कॉल फसवणुकीचा वाटला नाही, म्हणून तो शांत राहिला.`,
     live_on: "हे पेज दुसऱ्या फोनवर किंवा लॅपटॉपवर उघडा: ज्या फोनवर कॉल चालू आहे तो आपला माइक देत नाही. कॉल स्पीकरवर याच्या जवळ ठेवा, मग सुरू करा दाबा.",
+    standin: "फक्त कीवर्डने तपासले: हे सार्वजनिक पेज सशुल्क मॉडेल API चालवत नाही, त्यामुळे तुम्ही लिहिलेले Muse Spark वाचत नाही. ज्या कॉलमध्ये हे शब्द नसतात, त्या कीवर्डमधून सुटतात. \"उदाहरण पाहा\" Muse Spark चे खरे उत्तर दाखवते.",
     silent: "काहीच ऐकू येत नाही. कॉल याच फोनवर असेल, तर हे पेज दुसऱ्या फोनवर किंवा लॅपटॉपवर उघडा.",
     demo: "डेमो कॉल चालवा",
     upload: "रेकॉर्ड केलेला कॉल तपासा",
@@ -311,6 +314,7 @@ function reset() {
   $("#family").hidden = true;
   $("#timeline-wrap").hidden = true;
   $("#report-wrap").hidden = true;
+  $("#standin").hidden = true;
   $("#report").textContent = "";
   $("#partial").textContent = "";
   $("#partial").hidden = true;
@@ -580,6 +584,7 @@ async function checkSaid() {
     if (!r.ok) throw new Error(data.detail || r.statusText);
     $("#status").textContent = t("typed");
     $("#engine").textContent = `Judge: ${data.judge}`;
+    $("#standin").hidden = data.judge.startsWith("Muse Spark");  // the transcript panel, with the judge line, is hidden here
     state.call = { id: "typed" };
     data.signals.forEach(addSignal);
     if (data.warning) showAlarm({ warning: data.warning });
