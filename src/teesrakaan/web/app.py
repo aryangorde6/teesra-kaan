@@ -12,7 +12,10 @@ import asyncio
 import dataclasses
 import json
 import os
+import time
+from collections import deque
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from fastapi import FastAPI, HTTPException, Request, WebSocket, WebSocketDisconnect
 from fastapi.responses import FileResponse
@@ -36,10 +39,83 @@ MAX_LIVE_SESSIONS = 3
 WEB_CAP_USD = 5.0  # what the page may spend, of the ledger's $100 stop
 _live_sessions = 0
 
-app = FastAPI(title="Teesra Kaan", docs_url=None, redoc_url=None)
+app = FastAPI(title="Teesra Kaan", docs_url=None, redoc_url=None, openapi_url=None)
 app.mount("/static", StaticFiles(directory=STATIC), name="static")
 if DEMO_CALLS.is_dir():
     app.mount("/demo-audio", StaticFiles(directory=DEMO_CALLS), name="demo-audio")
+
+# On every page and file: only the page's own scripts (the microphone's worklet is a blob), styles, fonts from Google
+# Fonts, and sockets to this site; the microphone for this site alone; never inside another site's frame.
+# HTTPS-only (HSTS) is Caddy's (deploy/Caddyfile).
+SECURITY_HEADERS = {
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' blob:; style-src 'self' 'unsafe-inline' "
+                               "https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; "
+                               "media-src 'self' blob:; connect-src 'self' wss://teesrakaan.aryangorde.com; "
+                               "object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'",
+    "Permissions-Policy": "microphone=(self), camera=(), geolocation=()",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+}
+
+
+@app.middleware("http")
+async def security_headers(request: Request, call_next):
+    response = await call_next(request)
+    response.headers.update(SECURITY_HEADERS)
+    return response
+
+
+class RateLimit:
+    """At most `n` uses a minute from one address, counted in this process (the server runs one). Behind Caddy the
+    address is the visitor's: uvicorn takes it from X-Forwarded-For, which it trusts only from 127.0.0.1."""
+
+    def __init__(self, n: int, per: float = 60.0):
+        self.n, self.per, self.hits = n, per, {}
+
+    def allow(self, address: str) -> bool:
+        now = time.monotonic()
+        if len(self.hits) > 10_000:  # forget addresses gone quiet, so the table can't grow without end
+            self.hits = {a: q for a, q in self.hits.items() if now - q[-1] < self.per}
+        hits = self.hits.setdefault(address, deque())
+        while hits and now - hits[0] > self.per:
+            hits.popleft()
+        if len(hits) >= self.n:
+            return False
+        hits.append(now)
+        return True
+
+
+# Far above what one person clicking through the page does; they stop one machine from tying the server up.
+DEMO_LIMIT, SAID_LIMIT, CHECK_LIMIT, LIVE_LIMIT = RateLimit(30), RateLimit(20), RateLimit(5), RateLimit(6)
+TOO_MANY = "Too many tries from here in a minute. Wait a moment and try again."
+
+
+def _address(conn: Request | WebSocket) -> str:
+    return conn.client.host if conn.client else ""
+
+
+def _same_site(ws: WebSocket) -> bool:
+    """A browser always says which page opened a socket, and only this site's own pages may: another site can't run
+    the page's calls from its visitors' browsers. A client that sends no Origin isn't a browser."""
+    origin = ws.headers.get("origin")
+    return origin is None or urlsplit(origin).netloc == ws.headers.get("host")
+
+
+async def _body(request: Request, limit: int, message: str) -> bytes:
+    """The request's body, refused as soon as it passes `limit`, so a huge one never sits in memory."""
+    try:
+        declared = int(request.headers.get("content-length", 0))
+    except ValueError:
+        declared = 0
+    if declared > limit:
+        raise HTTPException(413, message)
+    body = bytearray()
+    async for chunk in request.stream():
+        body += chunk
+        if len(body) > limit:
+            raise HTTPException(413, message)
+    return bytes(body)
 
 
 AUDIO_SUFFIXES = (".m4a", ".mp3", ".ogg", ".wav")
@@ -220,7 +296,14 @@ def calls() -> list[dict]:
 
 @app.websocket("/ws/demo")
 async def demo(ws: WebSocket) -> None:
+    if not _same_site(ws):
+        await ws.close(code=1008)
+        return
     await ws.accept()
+    if not DEMO_LIMIT.allow(_address(ws)):
+        await ws.send_json({"type": "error", "message": TOO_MANY})
+        await ws.close()
+        return
     call = _demo_calls().get(ws.query_params.get("call", ""))
     lang = ws.query_params.get("lang", "en")
     country = ws.query_params.get("country", "IN")
@@ -245,21 +328,33 @@ async def demo(ws: WebSocket) -> None:
 
 
 MAX_UPLOAD_BYTES = 25 * 1024 * 1024
+# A recording's first bytes: WAV, MP3, Ogg or Opus, FLAC, WebM, AMR, Apple's CAF; MP4, M4A and 3GP by their "ftyp"
+# box; MP3 or AAC with no tag by their frame sync. Anything else is refused before ffmpeg sees it: a playlist or
+# concat file would have ffmpeg open other files, or URLs.
+AUDIO_MAGIC = (b"RIFF", b"ID3", b"OggS", b"fLaC", b"\x1a\x45\xdf\xa3", b"#!AMR", b"caff")
+
+
+def is_recording(body: bytes) -> bool:
+    return body.startswith(AUDIO_MAGIC) or body[4:8] == b"ftyp" or (body[:1] == b"\xff" and body[1:2] >= b"\xe0")
 
 
 @app.post("/api/check")
 async def check_recording(request: Request) -> dict:
     """A call someone already recorded: batch-transcribed, then the same Listener, warnings and report.
     The audio is converted in memory and never stored."""
+    if not CHECK_LIMIT.allow(_address(request)):
+        raise HTTPException(429, TOO_MANY)
     lang = request.query_params.get("lang", "en")
     country = request.query_params.get("country", "IN")
     if lang not in LANGS or country not in COUNTRIES:
         raise HTTPException(400, "Unknown language or country.")
     if not live_available():
         raise HTTPException(503, "Checking recordings is switched off on this server.")
-    body = await request.body()
-    if not body or len(body) > MAX_UPLOAD_BYTES:
+    body = await _body(request, MAX_UPLOAD_BYTES, "Send one recording, up to 25 MB and 10 minutes.")
+    if not body:
         raise HTTPException(413, "Send one recording, up to 25 MB and 10 minutes.")
+    if not is_recording(body):
+        raise HTTPException(400, "That doesn't look like a recording: send a WAV, MP3, M4A, Ogg, WebM, AMR or 3GP file.")
     from ..asr import batch_to_call, transcribe_batch, wav16k
 
     def run() -> list[dict]:
@@ -309,12 +404,15 @@ def check_said(text: str, lang: str = "en", country: str = "IN", judge=None) -> 
 
 @app.post("/api/said")
 async def said(request: Request) -> dict:
+    if not SAID_LIMIT.allow(_address(request)):
+        raise HTTPException(429, TOO_MANY)
     lang = request.query_params.get("lang", "en")
     country = request.query_params.get("country", "IN")
     if lang not in LANGS or country not in COUNTRIES:
         raise HTTPException(400, "Unknown language or country.")
+    body = await _body(request, 16 * MAX_SAID_CHARS, f"Write what the caller said, up to {MAX_SAID_CHARS} characters.")
     try:
-        text = str((await request.json()).get("text", "")).strip()
+        text = str(json.loads(body).get("text", "")).strip()
     except (ValueError, AttributeError):
         text = ""
     if not text or len(text) > MAX_SAID_CHARS:
@@ -331,7 +429,14 @@ async def said(request: Request) -> dict:
 async def live(ws: WebSocket) -> None:
     """Browser audio (16 kHz 16-bit mono PCM, binary frames) in; the same events as a demo call out."""
     global _live_sessions
+    if not _same_site(ws):
+        await ws.close(code=1008)
+        return
     await ws.accept()
+    if not LIVE_LIMIT.allow(_address(ws)):
+        await ws.send_json({"type": "error", "message": TOO_MANY})
+        await ws.close()
+        return
     lang = ws.query_params.get("lang", "en")
     country = ws.query_params.get("country", "IN")
     if lang not in LANGS or country not in COUNTRIES:

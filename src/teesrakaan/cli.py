@@ -286,7 +286,7 @@ def cmd_meter(args: argparse.Namespace) -> None:
 def cmd_serve(args: argparse.Namespace) -> None:
     import uvicorn
 
-    uvicorn.run("teesrakaan.web.app:app", host=args.host, port=args.port)
+    uvicorn.run("teesrakaan.web.app:app", host=args.host, port=args.port, server_header=False)
 
 
 def cmd_studio(args: argparse.Namespace) -> None:

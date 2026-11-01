@@ -10,7 +10,7 @@ set -euo pipefail
 cd /opt/teesrakaan
 [ -d .venv ] || python3.12 -m venv .venv
 .venv/bin/pip install --quiet --upgrade pip
-.venv/bin/pip install --quiet -e '.[web]'
+.venv/bin/pip install --quiet -c deploy/constraints.txt -e '.[web]'
 sudo cp deploy/teesrakaan.service /etc/systemd/system/teesrakaan.service
 sudo cp deploy/Caddyfile /etc/caddy/Caddyfile
 # The public page has no API key (deploy/README.md, step 7); the file only has to exist for systemd.

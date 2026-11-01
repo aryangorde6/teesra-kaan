@@ -165,7 +165,8 @@ def test_checking_a_recording_end_to_end(monkeypatch):
         {"startMs": 0, "endMs": 1200, "transcript": "Haan ji?", "speaker": "A"},
         {"startMs": 1500, "endMs": 9000, "speaker": "B",
          "transcript": "Main TRAI se bol raha hoon. Aapka number do ghante mein band ho jayega. OTP bata dijiye."}]})
-    r = client.post("/api/check?lang=mr", content=b"fake audio")
+    assert client.post("/api/check?lang=mr", content=b"#EXTM3U\nfile:///etc/passwd").status_code == 400  # never reaches ffmpeg
+    r = client.post("/api/check?lang=mr", content=b"RIFF\x24\x00\x00\x00WAVEfmt ")
     assert r.status_code == 200
     events = r.json()["events"]
     assert events[0]["type"] == "start" and events[-1]["type"] == "end"
@@ -355,3 +356,69 @@ def test_live_shows_gujarati_letters_in_devanagari():
     assert shown[-1]["text"] == "तुमचे खाते"
     out = call.on_event({"type": "speaker", "label": "A", "audioProcessedMs": 1000})
     assert [e["word"] for e in out if e["type"] == "word"] == ["तुमचे", "खाते"]
+
+
+def test_the_page_sets_its_security_headers_and_lists_no_api():
+    r = client.get("/")
+    assert "frame-ancestors 'none'" in r.headers["content-security-policy"]
+    assert r.headers["x-content-type-options"] == "nosniff" and r.headers["x-frame-options"] == "DENY"
+    assert "microphone=(self)" in r.headers["permissions-policy"]
+    assert client.get("/static/app.js").headers["x-content-type-options"] == "nosniff"
+    assert client.get("/openapi.json").status_code == 404
+
+
+def test_another_site_cant_open_the_sockets():
+    from starlette.websockets import WebSocketDisconnect
+
+    for path in ("/ws/demo?call=demo-trai-marathi&lang=en&speed=20", "/ws/live?lang=en"):
+        with pytest.raises(WebSocketDisconnect):
+            with client.websocket_connect(path, headers={"origin": "https://elsewhere.example"}):
+                pass
+    with client.websocket_connect("/ws/demo?call=demo-trai-marathi&lang=en&speed=20",
+                                  headers={"origin": "http://testserver"}) as ws:
+        assert ws.receive_json()["type"] == "start"
+
+
+def test_one_address_is_limited_and_a_huge_body_is_refused(monkeypatch):
+    import teesrakaan.web.app as web
+
+    monkeypatch.setattr(web, "live_available", lambda: False)
+    monkeypatch.setattr(web, "SAID_LIMIT", web.RateLimit(2))
+    assert [client.post("/api/said?lang=en", json={"text": "hello"}).status_code for _ in range(3)] == [200, 200, 429]
+    monkeypatch.setattr(web, "SAID_LIMIT", web.RateLimit(2))
+    assert client.post("/api/said?lang=en", content=b"x" * 40_000).status_code == 413
+    monkeypatch.setattr(web, "DEMO_LIMIT", web.RateLimit(0))
+    with client.websocket_connect("/ws/demo?call=demo-trai-marathi&lang=en&speed=20") as ws:
+        assert ws.receive_json() == {"type": "error", "message": web.TOO_MANY}
+
+
+def test_a_rate_limit_forgets_after_its_minute(monkeypatch):
+    import teesrakaan.web.app as web
+
+    now = [100.0]
+    monkeypatch.setattr(web.time, "monotonic", lambda: now[0])
+    limit = web.RateLimit(1)
+    assert limit.allow("a") and not limit.allow("a") and limit.allow("b")
+    now[0] += 61
+    assert limit.allow("a")
+
+
+def test_only_recordings_reach_ffmpeg():
+    from teesrakaan.web.app import is_recording
+
+    for head in (b"RIFF\0\0\0\0WAVE", b"ID3\4", b"\xff\xfb\x90", b"OggS", b"\x1aE\xdf\xa3", b"#!AMR\n", b"\0\0\0\x18ftypM4A "):
+        assert is_recording(head), head
+    for head in (b"#EXTM3U\n", b"ffconcat version 1.0", b"<html>", b"", b"\xff"):
+        assert not is_recording(head), head
+
+
+def test_the_server_installs_pinned_versions_of_everything_it_needs():
+    import tomllib
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parents[1]
+    pinned = {line.split("==")[0].lower().replace("_", "-") for line in (root / "deploy" / "constraints.txt").read_text().splitlines()
+              if "==" in line and not line.startswith("#")}
+    web = tomllib.loads((root / "pyproject.toml").read_text())["project"]["optional-dependencies"]["web"]
+    assert {spec.split(">")[0].lower() for spec in web} <= pinned
+    assert "-c deploy/constraints.txt" in (root / "deploy" / "push.sh").read_text()

@@ -1,5 +1,11 @@
 # Caddy gets and renews the HTTPS certificate itself (the microphone needs HTTPS).
 teesrakaan.aryangorde.com {
 	encode gzip
+	# Browsers keep to HTTPS here for a year; the app sets the other security headers itself (web/app.py).
+	header Strict-Transport-Security "max-age=31536000"
+	# Nothing bigger than a recording gets through; the app stops reading past each endpoint's own limit.
+	request_body {
+		max_size 26MB
+	}
 	reverse_proxy 127.0.0.1:8000
 }

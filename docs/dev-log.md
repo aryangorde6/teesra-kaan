@@ -319,3 +319,16 @@ The next line, **IN-synth-scam**
 - **Keywords that came back in the synthetic paraphrase transcripts:** none; 0 in the caller's words and 0 in all on each of the 9 (IP02, IP08, IP12, IP25, IP27, IP31, IP32, IP36, IP38).
 - **What the numbers show:** on FTC, C warned on 131 of 132 impersonation calls but never went red (these robocalls say "press 1" and never ask for money, a code or an app, which red waits for unless authority, threat and isolation come together), while B went red on every FTC call, sales included; on the synthetic paraphrases the keyword baseline heard nothing and B and C warned on all 9.
 - **Cost:** $1.3794 (ledger $3.4185 → $4.7979, `teesrakaan budget` before and after); Billing last read 09:38, $146.65 left, ₹0.00.
+
+## Nov 1, 2026, 12:25–12:37 IST: a security pass on the public page
+
+Aryan asked which items on a common web-security checklist apply here. The page has no accounts, so CSRF tokens, object-level authorization, JWT, password hashing, MFA, tokens in localStorage, RLS and webhook signatures don't. These were already fine: the API key is only in `.env` (in no tracked file or commit); the ledger's SQL uses placeholders; nothing logs typed text or audio; `/voice/` checks its path; there's no CORS and no source maps; SSH is open to one address, IMDSv2 is required, and the service runs as a locked-down user. The public server has no key, so its paid features are off. Six things were worth fixing, none of which touches what decides a warning:
+
+- **Limits:** per address, 30 demo calls, 20 typed checks, 5 recording checks and 6 live sessions a minute (`RateLimit` in `web/app.py`). Bodies are read only up to each endpoint's limit (32 KB typed, 25 MB recording), not whole first; Caddy refuses anything over 26 MB.
+- **Headers:** a Content-Security-Policy (the page's own scripts and sockets, Google Fonts, the microphone's blob worklet), `nosniff`, no framing, `Permissions-Policy: microphone=(self)`, a referrer policy; HSTS from Caddy; no `server: uvicorn`.
+- **Sockets:** `/ws/demo` and `/ws/live` refuse a browser page from another site (Origin must match Host).
+- **Uploads:** `/api/check` passes only recognisable audio (WAV, MP3/AAC, Ogg, FLAC, WebM, AMR, CAF, MP4/M4A/3GP) to ffmpeg, so a playlist or concat file can't make ffmpeg open other files or URLs.
+- **No `/openapi.json`.**
+- **Pinned versions:** `deploy/push.sh` installs with `deploy/constraints.txt`, the 17 versions the tests passed with; none had a known vulnerability on OSV today.
+
+Checked in the browser on the laptop: the demo calls, typed checks, fonts and the microphone worklet all work under the new policy, with no violations. It also showed that the timeline's "Warning" mark had no colour since the palette change (`--amber` became `--sun`); fixed. 215 tests pass. Not deployed: SSH to the server now times out, because the security group allows only the address it was set up from, and this laptop's address has changed.
