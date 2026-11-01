@@ -4,7 +4,7 @@
 
 <img src="docs/demo.gif" width="300" align="right" alt="The page playing a demo 'digital arrest' call: the next-line card names what the caller will say, ticks it off when he says it, and the red warning quotes him">
 
-*Right: the page playing a written demo call at 4× speed, judged by Muse Spark 1.3 (its real replies, saved in [`examples/spark-replies/`](examples/spark-replies) so the page replays them without a key). The card names the caller's next line before he says it and ticks it off in his words, then the red warning quotes him. It will be replaced by a recorded re-enactment through Muse Voice Transcribe.*
+*Right: the page playing a written demo call at 4× speed, judged by Muse Spark 1.3 (its real replies, saved in [`examples/spark-replies/`](examples/spark-replies) so the page replays them without a key). The card names the caller's next line before he says it and ticks it off in his words, then the red warning quotes him. A call re-enacted by people on a real phone line, heard by Muse Voice Transcribe at real-time speed, is the live run in the video ("Does it work?" has its timeline).*
 
 - **Live:** https://teesrakaan.aryangorde.com (the demo calls and the "check before you pay" box; live listening runs on the laptop, see [deploy/README.md](deploy/README.md))
 - **Video (3 min):** *(link on Nov 4)*
@@ -105,7 +105,7 @@ AI that spots scam calls is not new. This is what we found, and how Teesra Kaan 
 - **The next line, live, in Hindi, Marathi and English.** The two papers predict the scammer's next move in research settings (Korean cases with simulations; written scam reports), and neither abstract describes a live tool or an Indian language. Ours comes from fixed scripts out of the advisories, not from a model, which is where PreScam found models weak.
 - **It shows its proof.** Every warning quotes the caller's own words, and a quote the caller never said is thrown away.
 - **The model can't warn on its say-so.** Fixed rules decide, every warning needs a sign quoted in the caller's own words, and Muse Spark's overall view only holds a warning back or confirms it. On the dev set this kept all 12 genuine calls silent, and on the test none of the 15 synthetic genuine calls was warned on.
-- **It's measured** on a test fixed before any result, on real FTC calls and Indian re-enactments, against keyword lists and against Muse Spark asked plainly "is this a scam?".
+- **It's measured** on a test fixed before any result, on real FTC robocalls and Indian calls read by synthetic voices, against keyword lists and against Muse Spark asked plainly "is this a scam?".
 - **It works with any call app,** because it listens through the speaker. Digital-arrest callers move people to WhatsApp and Skype video calls, outside a phone maker's own dialer.
 
 ## Try it
