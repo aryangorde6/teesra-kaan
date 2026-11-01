@@ -79,9 +79,10 @@ What this shows, and what it doesn't:
 Every number in the video comes from `teesrakaan table` on that run. Development steps and their dev-set numbers are logged in [docs/dev-log.md](docs/dev-log.md).
 
 ## What people said
-On Oct 31 we phoned 10 people (5 elderly, 3 middle-aged, 2 Gen Z), told them it was for this hackathon, and showed them the page.
+On Oct 31 we phoned 10 people (5 elderly, 3 middle-aged, 2 Gen Z), told them it was for this hackathon, and showed them the page. By Nov 1 all 10 had used it themselves.
 - **Every one of them gets at least one scam call a week**; some get three or four. The two Gen Z and some of the middle-aged don't pick up such calls.
 - **One of the five elders lost ₹20,000.** The caller used the name of someone he knew and said he was sending ₹25,000. A fake SMS showed ₹45,000 credited, and the caller asked for the "extra" ₹20,000 back. It was sent, and never reported: he thought he would look like a fool.
+- **All 10 used it: the demo calls, "check before you pay" and the tell-family button.** The five elders used it in Hindi (2), Marathi (2) and English (1). Almost everyone understood the warnings on their own; the elders needed a little explanation first. Most said they would keep it open when an unknown number calls.
 - They liked the interface, and said having it in their own language was a sweet addition.
 
 Before the freeze, we taught Teesra Kaan that call as its tenth script ([scam-tactics.md](docs/scam-tactics.md) v1.4: the fake "money sent" SMS, then "too much went by mistake", then "send the extra back"). Written down as he described it, with made-up names ([eval/probe_wrong_credit.py](eval/probe_wrong_credit.py)), in Hinglish and in English it turns **amber at "too much went by mistake", shows the caller's next line, "Please send the extra back to this number", before he says it, and goes red when he does.** It's on the page as a demo call, "Sent too much by mistake". The keyword lists miss the English one. That is one written call, not a test; the test is above.
@@ -119,6 +120,7 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 ## Limits (honest)
 - The Indian test calls so far are synthetic voices reading scripts written from advisories; the FTC calls are real but American and in English. No real Indian call has been donated: none of the 10 people we asked had a recording. Each set is reported separately, with 95% intervals, and the sets are small: 18 synthetic scam calls give a range of 82–100% for 18 of 18.
 - Speaker separation labels voices "A" and "B"; the caller is taken to be whoever has said the most so far, which can be wrong in the first seconds.
+- **Elders need it explained once.** The five elders who used it understood the warnings after a little explanation, not before, so someone in the family should set it up with them the first time.
 - Live listening needs a second device near the call on speaker, because a phone on a call keeps its own microphone. It doesn't intercept calls. On one phone it can only check a call afterwards, from what you type.
 - A warning is advice, not a verdict. The genuine-call set measures how often it warns when it shouldn't.
 - **A relative asking for money is the hardest case.** On the dev set, a daughter asking her mother for mess fees, who added "I'll video call on Sunday", went red under the first rules (an ask plus one more sign). With Muse Spark's overall view as a check, it stays silent, but that's one call. The "Hi Maa, this is my new number" scam sounds the same, and only the test set says how often each is judged right ([dev-log](docs/dev-log.md), Oct 30).
