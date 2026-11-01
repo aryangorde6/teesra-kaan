@@ -1,0 +1,151 @@
+call_id,set,split,is_scam,pattern,languages,t0,t_ask,ftc_class,labeller,labelled_at,notes
+ftc-084a22f9a2,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"864700_normalized.wav; fake order; company not named (""cancellation department"")"
+ftc-0864962d89,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"1199327_normalized.wav; poses as Comcast Xfinity (discount, call back)"
+ftc-08d5b8153c,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1656277418.151007_in_OneEye_Robocall__Authorized-Order_normalized.wav; fake pre-authorized order; company not named
+ftc-08f7dd0c51,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,795454_normalized.wav
+ftc-08ff8692fb,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,549490_normalized.wav
+ftc-094e2d4c7e,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,630197_normalized.wav
+ftc-098cc2616e,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,800227_normalized.wav
+ftc-09c4d973d9,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,"1348024_normalized.wav; borderline: energy-supply pitch ""reviewing the supply charges"" on a Penelec statement; doesn't claim to be Penelec"
+ftc-09de1d3d64,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,605713_normalized.wav
+ftc-0a4be5d36e,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,560769_normalized.wav
+ftc-0a641934ca,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,800137_normalized.wav
+ftc-0a6ab0c631,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"1294790_normalized.wav; fragment: disconnection for delinquent account, unnamed ""billing department"""
+ftc-0aa0df484d,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,"1134630_normalized.wav; borderline: student-loan relief from a ""Processing Center""; no government body named"
+ftc-0b05905d65,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,833951_normalized.wav
+ftc-0b89b1bb64,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,520013_normalized.wav; poses as San Diego Gas and Electric
+ftc-0ba6ec37e8,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"303957_normalized.wav; rate-reduction pitch posing as MasterCard, Visa and Discover"
+ftc-0bb1847241,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"509676_normalized.wav; unnamed ""legal department"""
+ftc-0bb45bf035,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"1626726860.369721_in_AKA_Management_Robocall__TechSupport-Refund_normalized.wav; tech-support refund; poses as ""your tech support company"""
+ftc-0bd08133a1,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,790381_normalized.wav
+ftc-0bd313abe2,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,892547_normalized.wav; borderline: free-stay offer posing as Hilton Hotels
+ftc-0bed383961,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,640819_normalized.wav
+ftc-0c2ace028a,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,482009_normalized.wav
+ftc-0c2d31d805,FTC,test,0,0,en,,,other,draft,2026-11-01T12:02+05:30,62996_normalized.wav; fragment
+ftc-0c7026bc12,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"1263033_normalized.wav; debt-elimination pitch posing as the ""Visa and MasterCard Department"""
+ftc-0ccfc1e911,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,1348034_normalized.wav; borderline: energy-supply pitch on a Penelec statement; doesn't claim to be Penelec
+ftc-0cdec62a2f,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,838927_normalized.wav
+ftc-0d0cfc0b8a,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,60681_normalized.wav
+ftc-0d2cc99f2c,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,694448_normalized.wav
+ftc-0df7897507,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,500499_normalized.wav
+ftc-0e48c6adb7,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,668383_normalized.wav
+ftc-0e4bee28d0,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,668375_normalized.wav
+ftc-0e4f52292f,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,807773_normalized.wav; borderline: free-stay offer posing as Hilton Hotels
+ftc-0e562efb40,FTC,test,0,0,en,,,other,draft,2026-11-01T12:02+05:30,"1175828_normalized.wav; fragment too short to tell (""start your claim... billing department"")"
+ftc-0e721e2e1e,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,787204_normalized.wav
+ftc-0e8b020af7,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,482012_normalized.wav
+ftc-0e8d2ce915,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"1025739_normalized.wav; poses as Xfinity Comcast (discount, call back)"
+ftc-0ec5fa8fc4,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,795470_normalized.wav
+ftc-0ec7a2d5ed,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"55641_normalized.wav; borderline fragment: ""your account"" qualified for 50% off; provider not named (the Xfinity/DirecTV script)"
+ftc-0f0f17fbbc,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,723501_normalized.wav
+ftc-0f1b09a807,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,675288_normalized.wav
+ftc-0f23df7462,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,701187_normalized.wav
+ftc-0fa3b87d18,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,525135_normalized.wav
+ftc-0fc3563b18,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1249398_normalized.wav
+ftc-0fc72a8861,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1361911_normalized.wav; fake order confirmation; company not named
+ftc-0fd5bfdcaa,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,447364_normalized.wav
+ftc-0ff24095e9,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,605703_normalized.wav
+ftc-1008f49e50,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,525137_normalized.wav
+ftc-10421eae9f,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,392268_normalized.wav
+ftc-1050b3dd3b,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,211195_normalized.wav; tax-debt relief pitch; mentions the IRS but no fake agency
+ftc-107b55ef9d,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,855180_normalized.wav; poses as Discover (rate reduction)
+ftc-10a7964106,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,543063_normalized.wav
+ftc-10ab3b5a5f,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"701101_normalized.wav; borderline fragment: the ""speak with officer"" end of the SSA script"
+ftc-1127c9a2db,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,857375_normalized.wav
+ftc-11bd4a51d5,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,568836_normalized.wav
+ftc-12862a6643,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"525243_normalized.wav; unnamed ""legal department"""
+ftc-128a1a68be,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,823641_normalized.wav
+ftc-12c0b49e75,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,565718_normalized.wav
+ftc-12ddfd7a33,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,444724_normalized.wav; poses as Microsoft
+ftc-1316e30d83,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,"368913_normalized.wav; borderline: student-loan relief from a ""US Center for Debt Relief""; not a government body"
+ftc-132e8023f3,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,314194_normalized.wav; rate-reduction pitch posing as Visa and MasterCard
+ftc-13499fb2b7,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,557674_normalized.wav
+ftc-1364468b9f,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,584749_normalized.wav
+ftc-136581422b,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,387224_normalized.wav
+ftc-136d1942b4,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1630350028.16156_in_Range_Telecom_Robocall__CreditCard-RateReduction_normalized.wav; poses as Discover (rate reduction)
+ftc-13d2274454,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,817207_normalized.wav
+ftc-13eade8b84,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,795468_normalized.wav
+ftc-13f22130a8,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,568980_normalized.wav
+ftc-140862e6e0,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1361066_normalized.wav; poses as the Chinese consulate
+ftc-140ba1132d,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,516514_normalized.wav
+ftc-1444986d92,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"1360311_normalized.wav; fragment: electric disconnection for non-payment, pushes payment"
+ftc-14498e4dd5,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,701175_normalized.wav
+ftc-1449eba891,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,537352_normalized.wav
+ftc-1470f51e73,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,"711074_normalized.wav; borderline: back-tax relief from a ""Central Processing Center for Federal Back Tax Negotiations""; doesn't claim to be the government"
+ftc-147672859a,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,27576_normalized.wav
+ftc-148b3490dd,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,560646_normalized.wav
+ftc-1494499e10,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"864698_normalized.wav; fake order; company not named (""cancellation department"")"
+ftc-1496266e8b,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,431173_normalized.wav
+ftc-14bb04956e,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,63408_normalized.wav; fragment of a credit-card rate pitch; no company named
+ftc-150d37ae8f,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,286367_normalized.wav
+ftc-151e120bd8,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,792366_normalized.wav
+ftc-1530fe48f2,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"1365678_normalized.wav; fragment: disconnection for non-payment, pushes payment"
+ftc-1531d34eb1,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,567529_normalized.wav; poses as Jersey Central Power and Light
+ftc-153685edcf,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"927211_normalized.wav; fake order; company not named (""cancellation department"")"
+ftc-158a025ec0,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,855188_normalized.wav; poses as Discover (rate reduction)
+ftc-15ae29947e,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,936578_normalized.wav
+ftc-15c9ecc4f0,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1315925_normalized.wav
+ftc-15fe18de1f,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"59615_normalized.wav; poses as ""your electric company"""
+ftc-15fe796c0b,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"723513_normalized.wav; borderline fragment: the ""speak with officer"" end of the SSA script"
+ftc-15ff5334e7,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,431108_normalized.wav
+ftc-166461830e,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,s6diZGlyX2Z4NmRmYTp0b21jYXQ5ODg1OjE2NDM4MjI5MTEzNDBwofPl07.gen_Centurylink_Robocall__SSA-KindlyPressOne_normalized.wav
+ftc-1691bc5c77,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,456143_normalized.wav
+ftc-170830a3df,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,491055_normalized.wav
+ftc-17185580c2,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,948020_normalized.wav
+ftc-1719ac69df,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,520018_normalized.wav; poses as Delmarva Power
+ftc-172d72f547,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1357916_normalized.wav
+ftc-174c14ed14,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,576032_normalized.wav
+ftc-17967e195c,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,28733_normalized.wav
+ftc-180c0fc716,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1363524_normalized.wav
+ftc-184057a2c5,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,579548_normalized.wav; rate-reduction pitch posing as Visa MasterCard account services
+ftc-189808e566,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,557672_normalized.wav
+ftc-18e03a6a18,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,584766_normalized.wav
+ftc-1917857ad0,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,530069_normalized.wav
+ftc-19715432d8,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,431150_normalized.wav
+ftc-197d1a9489,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,723504_normalized.wav
+ftc-198a6f4268,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1365168_normalized.wav
+ftc-19a047bbc3,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,554989_normalized.wav; poses as AT&T DirecTV
+ftc-19b8eac497,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,855190_normalized.wav; poses as Discover (rate reduction)
+ftc-19bf70d0fd,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"1157297_normalized.wav; fragment: delinquent account disconnection, unnamed ""billing department"""
+ftc-19ced3ed37,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,280167_normalized.wav; poses as the Federal Reserve
+ftc-19fa1348d1,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,595127_normalized.wav
+ftc-1a31e1064c,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,64038_normalized.wav; poses as Chase Bank (rate reduction)
+ftc-1a58763cfc,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,598186_normalized.wav
+ftc-1a5efa1d74,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,707413_normalized.wav
+ftc-1aa6c4a91a,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,s6diZGlyX2duemRpcjp0b21jYXQ3OTUxOjE2NDMwMzc1NTkxNDlSyn5kd9.gen_Global_Net_Holdings_Robocall__SSA-Suspended_normalized.wav
+ftc-1ad01ece80,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"1364654_normalized.wav; poses as ""your electric company"""
+ftc-1b1585800d,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1098320_normalized.wav; fake pre-authorized order; company not named
+ftc-1b9ca41fb0,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,"360182_normalized.wav; borderline: IVR greeting of an ""IRS Back Tax Negotiations"" relief line; no pitch, doesn't claim to be the IRS"
+ftc-1b9d5a8ba5,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,s6diZGlyX3dqbWRpcjp0b21jYXQxMzY1OjE2MzIzNTIyNTc0NDg1Yft6tv.gen_MatrixTelecom_Robocall__Utility-30MinDisconnect_normalized.wav; poses as Pacific Gas and Electric
+ftc-1bba30ea68,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"525225_normalized.wav; unnamed ""legal department"""
+ftc-1bc87caee4,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,1019377_normalized.wav; fragment of a rate-reduction pitch; no company in the fragment
+ftc-1bf6b79ac3,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,683852_normalized.wav
+ftc-1c218867cc,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,643799_normalized.wav
+ftc-1c46bde05f,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,959857_normalized.wav
+ftc-1c616ef794,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,61296_normalized.wav; poses as Jersey Central Power and Light
+ftc-1c6c22ea66,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1202408_normalized.wav
+ftc-1c8faf139c,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,3399693_T2HGih1P_left.wav
+ftc-1caa6074c4,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,959879_normalized.wav
+ftc-1cd2d330f9,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,625971_normalized.wav
+ftc-1d32dcc6c4,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,608000_normalized.wav
+ftc-1d547c9715,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,948016_normalized.wav
+ftc-1d5c5b6cc9,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,"872754_normalized.wav; poses as AT&T DirecTV (discount, call back)"
+ftc-1d93932d22,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1627660500.450148_in_Range_Telecom_Robocall__CreditCard-ZeroInterest_normalized.wav; rate-reduction pitch posing as Visa and MasterCard
+ftc-1da5b4b5ac,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1246813_normalized.wav; poses as Bank of America (rate reduction)
+ftc-1e05356d90,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1195631_normalized.wav; poses as FedEx
+ftc-1e13ba7ef0,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,1348028_normalized.wav; borderline: energy-supply pitch on a Penelec statement; doesn't claim to be Penelec
+ftc-1e6ab7c269,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,102406_normalized.wav
+ftc-1e713a5c89,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1364429_left.wav
+ftc-1e941e6954,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,668376_normalized.wav
+ftc-1ec6cfacaf,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,848900_normalized.wav
+ftc-1f316679eb,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,598192_normalized.wav
+ftc-1f784002cc,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,668377_normalized.wav
+ftc-1f87cd7c10,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,719746_normalized.wav
+ftc-1f8c487eaf,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1252749_normalized.wav
+ftc-1f9df69582,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,1006858_normalized.wav
+ftc-1fe0b8eed4,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,702999_normalized.wav
+ftc-1fe0e73240,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,453395_normalized.wav; poses as US Customs and Border Protection
+ftc-2050adf9b7,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,819788_normalized.wav; borderline: free-stay offer posing as Marriott Hotels
+ftc-20d30df119,FTC,test,0,0,en,,,sales,draft,2026-11-01T12:02+05:30,286370_normalized.wav
+ftc-219263e5e3,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,431124_normalized.wav
+ftc-220ab0a4bd,FTC,test,1,0,en,,,impersonation,draft,2026-11-01T12:02+05:30,917091_normalized.wav
