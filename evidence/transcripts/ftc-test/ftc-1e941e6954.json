@@ -1,0 +1,358 @@
+{
+ "session_id": "voyager/duplex/63313C5B7A954120BEB8FEFA42BB6916",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 34.22,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 1980,
+   "turnId": 0,
+   "received": 2.677
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.076
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer,",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.584
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.771
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.777
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.981
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.673
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.779
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.377
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.488
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.06
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 8.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.677
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.171
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.061
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 14.975
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.391
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.867
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.275
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.891
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.071
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.583
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.479
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1 to",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1 to talk to our",
+   "final": false,
+   "audioProcessedMs": 20800,
+   "received": 20.998
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1 to talk to our Amazon",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 21.973
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1 to talk to our Amazon security",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1 to talk to our Amazon security department",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.58
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1 to talk to our Amazon security department thank",
+   "final": false,
+   "audioProcessedMs": 23840,
+   "received": 24.07
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1 to talk to our Amazon security department thank you",
+   "final": false,
+   "audioProcessedMs": 24080,
+   "received": 24.27
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1 to talk to our Amazon security department thank you ",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.722
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 24480,
+   "received": 24.722
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23980,
+   "turnId": 0,
+   "received": 24.722
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23980,
+   "turnId": 0,
+   "transcript": " Dear customer, this is Marnie from Amazon we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500 from unknown IP address coming from Albany New York York kindly press 1 to talk to our Amazon security department thank you ",
+   "received": 24.722
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 34240,
+   "received": 34.596
+  }
+ ]
+}

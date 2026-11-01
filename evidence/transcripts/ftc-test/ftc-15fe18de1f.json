@@ -1,0 +1,562 @@
+{
+ "session_id": "voyager/duplex/0B0F8D2ADB8B421BAAC39329ADBAEBDC",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 23.293,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 0.993
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is",
+   "final": false,
+   "audioProcessedMs": 800,
+   "received": 1.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.177
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.177
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.779
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.063
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.382
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.688
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.087
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.777
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.978
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.082
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.786
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.077
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.178
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.873
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 6.996
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.591
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.177
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.681
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 8.99
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.268
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status.",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 10.968
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.169
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.074
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error,",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.284
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.066
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.088
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the interruption,",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the interruption, please",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.217
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the interruption, please press",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.273
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the interruption, please press 1",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the interruption, please press 1 to speak with",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.143
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the interruption, please press 1 to speak with the",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.389
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the interruption, please press 1 to speak with the billing",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.64
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the interruption, please press 1 to speak with the billing department. ",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.573
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 17280,
+   "received": 17.573
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 16780,
+   "turnId": 0,
+   "received": 17.573
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 16780,
+   "turnId": 0,
+   "transcript": " This is is the notifications department from your electric company service you have an automatic interruption of service in the next 30 to 45 minutes due to delinquent account status. If you find this to be an error, or would like to stop the interruption, please press 1 to speak with the billing department. ",
+   "received": 17.573
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 16940,
+   "turnId": 1,
+   "received": 17.727
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise,",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.545
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise, please",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.959
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise, please press",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise, please press 2",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise, please press 2 to",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.884
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise, please press 2 to speak with",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.629
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise, please press 2 to speak with the",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise, please press 2 to speak with the disconnections",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise, please press 2 to speak with the disconnections department.",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 21.992
+  },
+  {
+   "type": "transcript",
+   "transcript": " Otherwise, please press 2 to speak with the disconnections department. ",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.357
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 22080,
+   "received": 22.357
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21580,
+   "turnId": 1,
+   "received": 22.357
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21580,
+   "turnId": 1,
+   "transcript": " Otherwise, please press 2 to speak with the disconnections department. ",
+   "received": 22.357
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 21580,
+   "turnId": 2,
+   "received": 22.357
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.668
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.064
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.371
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing our",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.568
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing our services. ",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.651
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23360,
+   "received": 23.651
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22860,
+   "turnId": 2,
+   "received": 23.651
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22860,
+   "turnId": 2,
+   "transcript": " Thank you for choosing our services. ",
+   "received": 23.651
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 23360,
+   "received": 23.668
+  }
+ ]
+}

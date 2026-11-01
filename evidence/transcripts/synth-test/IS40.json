@@ -1,0 +1,657 @@
+{
+ "session_id": "voyager/duplex/C2E445F920FA4F189CE5D7566EDBA9E1",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 31.446625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.849
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty,",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.258
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.429
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.225
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.327
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.432
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.039
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.13
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ,",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.259
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.137
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.237
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का बाइक से",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.463
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का बाइक से एक्सीडेंट",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.323
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का बाइक से एक्सीडेंट हो",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.438
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का बाइक से एक्सीडेंट हो गया है।",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.064
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का बाइक से एक्सीडेंट हो गया है। सिर",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.734
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का बाइक से एक्सीडेंट हो गया है। सिर में",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.852
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का बाइक से एक्सीडेंट हो गया है। सिर में चोट है।",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.085
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का बाइक से एक्सीडेंट हो गया है। सिर में चोट है। ",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.993
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 8640,
+   "received": 8.993
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 8140,
+   "turnId": 0,
+   "received": 8.993
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 8140,
+   "turnId": 0,
+   "transcript": " Hello aunty, मैं राहुल का दोस्त बोल रहा हूँ, राहुल का बाइक से एक्सीडेंट हो गया है। सिर में चोट है। ",
+   "received": 8.993
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 8380,
+   "turnId": 1,
+   "received": 9.166
+  },
+  {
+   "type": "transcript",
+   "transcript": " हे",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.32
+  },
+  {
+   "type": "transcript",
+   "transcript": " हे भगवान,",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.844
+  },
+  {
+   "type": "transcript",
+   "transcript": " हे भगवान, कौन",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " हे भगवान, कौन से",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.248
+  },
+  {
+   "type": "transcript",
+   "transcript": " हे भगवान, कौन से अस्पताल",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.724
+  },
+  {
+   "type": "transcript",
+   "transcript": " हे भगवान, कौन से अस्पताल में",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " हे भगवान, कौन से अस्पताल में है?",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.447
+  },
+  {
+   "type": "transcript",
+   "transcript": " हे भगवान, कौन से अस्पताल में है? ",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.094
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 11760,
+   "received": 12.094
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11260,
+   "turnId": 1,
+   "received": 12.094
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11260,
+   "turnId": 1,
+   "transcript": " हे भगवान, कौन से अस्पताल में है? ",
+   "received": 12.094
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11420,
+   "turnId": 2,
+   "received": 12.254
+  },
+  {
+   "type": "transcript",
+   "transcript": " City",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.754
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.462
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.944
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.257
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.15
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.453
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.534
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.697
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.039
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.434
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.056
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.082
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे।",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.58
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज",
+   "final": false,
+   "audioProcessedMs": 22000,
+   "received": 22.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 22.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.09
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 24.034
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.544
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल को",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.827
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल को बाद में",
+   "final": false,
+   "audioProcessedMs": 24960,
+   "received": 25.239
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल को बाद में बता",
+   "final": false,
+   "audioProcessedMs": 25440,
+   "received": 25.734
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल को बाद में बता देना",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.247
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल को बाद में बता देना अभी",
+   "final": false,
+   "audioProcessedMs": 26480,
+   "received": 26.738
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल को बाद में बता देना अभी टाइम नहीं",
+   "final": false,
+   "audioProcessedMs": 26960,
+   "received": 27.26
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल को बाद में बता देना अभी टाइम नहीं है।",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल को बाद में बता देना अभी टाइम नहीं है। ",
+   "final": false,
+   "audioProcessedMs": 27680,
+   "received": 27.964
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 27680,
+   "received": 27.964
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 27180,
+   "turnId": 2,
+   "received": 27.964
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 27180,
+   "turnId": 2,
+   "transcript": " City hospital में डॉक्टर कह रहे हैं तीस हजार अभी जमा करने होंगे तभी इलाज शुरू करेंगे। मैं अपना UPI नंबर भेज रहा हूँ अभी भेज दीजिए अंकल को बाद में बता देना अभी टाइम नहीं है। ",
+   "received": 27.964
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 27340,
+   "turnId": 3,
+   "received": 28.134
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं",
+   "final": false,
+   "audioProcessedMs": 27920,
+   "received": 28.242
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं अस्पताल",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं अस्पताल का",
+   "final": false,
+   "audioProcessedMs": 28800,
+   "received": 29.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं अस्पताल का नंबर",
+   "final": false,
+   "audioProcessedMs": 29280,
+   "received": 29.534
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं अस्पताल का नंबर लेकर",
+   "final": false,
+   "audioProcessedMs": 29600,
+   "received": 29.852
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं अस्पताल का नंबर लेकर खुद",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.439
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं अस्पताल का नंबर लेकर खुद फोन",
+   "final": false,
+   "audioProcessedMs": 30480,
+   "received": 30.732
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं अस्पताल का नंबर लेकर खुद फोन करती",
+   "final": false,
+   "audioProcessedMs": 30960,
+   "received": 31.233
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं अस्पताल का नंबर लेकर खुद फोन करती हूँ।",
+   "final": false,
+   "audioProcessedMs": 31200,
+   "received": 31.462
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं अस्पताल का नंबर लेकर खुद फोन करती हूँ। ",
+   "final": false,
+   "audioProcessedMs": 31520,
+   "received": 31.877
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 31520,
+   "received": 31.877
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 31020,
+   "turnId": 3,
+   "received": 31.877
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 31020,
+   "turnId": 3,
+   "transcript": " मैं अस्पताल का नंबर लेकर खुद फोन करती हूँ। ",
+   "received": 31.877
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 31520,
+   "received": 31.917
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"this is Marnie from Amazon\"}, {\"id\": \"A2\", \"quote\": \"we have noticed some fraudulent activities on your Amazon account regarding some unauthorized charge of $1,500\"}, {\"id\": \"A10\", \"quote\": \"kindly press 1 to talk to our Amazon security department\"}]}", "input_tokens": 973, "output_tokens": 311, "latency": 1.382}

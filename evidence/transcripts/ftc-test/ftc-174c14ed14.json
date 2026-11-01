@@ -1,0 +1,530 @@
+{
+ "session_id": "voyager/duplex/24EB868F6DFB4340AD4F8CC58E3146E4",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 25.010125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.717
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.425
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.532
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.617
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.02
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.235
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.63
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.911
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.332
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.723
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.011
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.409
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.111
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.519
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.702
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of fraudulent",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of fraudulent activities",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.409
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of fraudulent activities in the",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.503
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of fraudulent activities in the south",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.004
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of fraudulent activities in the south border",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of fraudulent activities in the south border of",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of fraudulent activities in the south border of Texas.",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of fraudulent activities in the south border of Texas. ",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.86
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13520,
+   "received": 13.86
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13020,
+   "turnId": 0,
+   "received": 13.86
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13020,
+   "turnId": 0,
+   "transcript": " Miss Officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social social security number has been used for some kind of fraudulent activities in the south border of Texas. ",
+   "received": 13.86
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 13020,
+   "turnId": 1,
+   "received": 13.86
+  },
+  {
+   "type": "transcript",
+   "transcript": " So",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 14.011
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.298
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.505
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information.",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.431
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.419
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.668
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1.",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.818
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I repeat",
+   "final": false,
+   "audioProcessedMs": 21840,
+   "received": 22.101
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I repeat press",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I repeat press 1",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.513
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I repeat press 1 thank",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I repeat press 1 thank you",
+   "final": false,
+   "audioProcessedMs": 24000,
+   "received": 24.351
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I repeat press 1 thank you and",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I repeat press 1 thank you and have a",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 25.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I repeat press 1 thank you and have a great day ",
+   "final": false,
+   "audioProcessedMs": 25040,
+   "received": 25.461
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 25040,
+   "received": 25.461
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 24540,
+   "turnId": 1,
+   "received": 25.461
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 24540,
+   "turnId": 1,
+   "transcript": " So please in order go ahead get more information. To speak with officer press 1. I repeat press 1 thank you and have a great day ",
+   "received": 25.461
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 25040,
+   "received": 25.484
+  }
+ ]
+}

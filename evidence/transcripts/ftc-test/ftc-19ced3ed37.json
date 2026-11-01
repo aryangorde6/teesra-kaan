@@ -1,0 +1,393 @@
+{
+ "session_id": "voyager/duplex/4B5D60CEA2B047D0A71414E8B187BEC1",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 31.04,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 380,
+   "turnId": 0,
+   "received": 1.095
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello,",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.707
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.099
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.447
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 4.991
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System.",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.44
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.617
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 7.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.601
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.69
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 8.993
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.015
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.942
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.897
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 14.991
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.926
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 16.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case just",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case just press 1 and",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.63
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case just press 1 and talk to",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.411
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case just press 1 and talk to officer",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case just press 1 and talk to officer regarding",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case just press 1 and talk to officer regarding this",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.691
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case just press 1 and talk to officer regarding this case",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case just press 1 and talk to officer regarding this case ",
+   "final": false,
+   "audioProcessedMs": 23040,
+   "received": 23.333
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23040,
+   "received": 23.333
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22540,
+   "turnId": 0,
+   "received": 23.333
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22540,
+   "turnId": 0,
+   "transcript": " Hello, this call is from Department of Federal Reserve System. System the reason of this particular phone call is we are going to suspend your bank account because we have a found some suspicious activity so if you want to know about this case just press 1 and talk to officer regarding this case ",
+   "received": 23.333
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 31040,
+   "received": 31.392
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "session_id": "voyager/duplex/9FBAB986F9B348328E4B01D974F1B8AE",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 15.69175,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 780,
+   "turnId": 0,
+   "received": 1.525
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.697
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.966
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.064
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.572
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.771
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 3.981
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.563
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.495
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.977
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.383
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.866
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 6.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.871
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.296
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.476
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.076
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.175
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.567
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.271
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.377
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.304
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.774
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.277
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press 1",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press 1 to",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.665
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press 1 to get",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.167
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press 1 to get more",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.555
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press 1 to get more details",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.475
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press 1 to get more details thank",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.782
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press 1 to get more details thank thank",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.821
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press 1 to get more details thank thank you ",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.094
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15760,
+   "received": 16.094
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15260,
+   "turnId": 0,
+   "received": 16.094
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15260,
+   "turnId": 0,
+   "transcript": " This is to note by you that your social security number has been compromised so to find out some more information and to get connected with an officer press 1 I repeat press 1 to get more details thank thank you ",
+   "received": 16.094
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 15760,
+   "received": 16.115
+  }
+ ]
+}

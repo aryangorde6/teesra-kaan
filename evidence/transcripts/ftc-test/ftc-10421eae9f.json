@@ -1,0 +1,628 @@
+{
+ "session_id": "voyager/duplex/DE3D8DAECB874E1D92BFA3F2643D07AA",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 28.58975,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 640,
+   "received": 0.963
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.258
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.521
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.715
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.343
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.631
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.243
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.559
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.801
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.635
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.694
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name,",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.697
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity.",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.647
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.679
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.891
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name.",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.305
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.513
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.687
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.301
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.298
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.785
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 16.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.487
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.794
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or grand",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.087
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for",
+   "final": false,
+   "audioProcessedMs": 21120,
+   "received": 21.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.729
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal",
+   "final": false,
+   "audioProcessedMs": 21840,
+   "received": 22.098
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.296
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal offense.",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal offense. ",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.05
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 22720,
+   "received": 23.05
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22220,
+   "turnId": 0,
+   "received": 23.05
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22220,
+   "turnId": 0,
+   "transcript": " This is an important call regarding illegal enforcement action being executed under your name, suspicious fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal offense. ",
+   "received": 23.05
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 22540,
+   "turnId": 1,
+   "received": 23.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 23.981
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.228
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.691
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you.",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.116
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For",
+   "final": false,
+   "audioProcessedMs": 25520,
+   "received": 25.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.49
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press",
+   "final": false,
+   "audioProcessedMs": 26640,
+   "received": 26.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1",
+   "final": false,
+   "audioProcessedMs": 27120,
+   "received": 27.419
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and",
+   "final": false,
+   "audioProcessedMs": 27200,
+   "received": 27.463
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for",
+   "final": false,
+   "audioProcessedMs": 27360,
+   "received": 27.61
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the",
+   "final": false,
+   "audioProcessedMs": 27600,
+   "received": 27.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the next",
+   "final": false,
+   "audioProcessedMs": 27840,
+   "received": 28.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the next available",
+   "final": false,
+   "audioProcessedMs": 28640,
+   "received": 28.884
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the next available officer ",
+   "final": false,
+   "audioProcessedMs": 28640,
+   "received": 28.976
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 28640,
+   "received": 28.976
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 28140,
+   "turnId": 1,
+   "received": 28.976
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 28140,
+   "turnId": 1,
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the next available officer ",
+   "received": 28.976
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 28640,
+   "received": 28.996
+  }
+ ]
+}

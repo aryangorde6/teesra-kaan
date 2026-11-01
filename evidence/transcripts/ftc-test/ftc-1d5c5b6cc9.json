@@ -1,0 +1,369 @@
+{
+ "session_id": "voyager/duplex/6F8EC152AEDE43829EEDDFBAC19AA081",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 22.209375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there.",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.425
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.465
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.017
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.107
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.22
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.619
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.217
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50%",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.013
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50%",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.061
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off.",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.597
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.007
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.638
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount,",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.464
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at 8886040734",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.636
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at 8886040734 from",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.691
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at 8886040734 from 8 AM to",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.441
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at 8886040734 from 8 AM to 5",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at 8886040734 from 8 AM to 5 PM",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at 8886040734 from 8 AM to 5 PM Pacific",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.807
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at 8886040734 from 8 AM to 5 PM Pacific Standard Time.",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.629
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at 8886040734 from 8 AM to 5 PM Pacific Standard Time. ",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.845
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20560,
+   "received": 20.845
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 20060,
+   "turnId": 0,
+   "received": 20.845
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 20060,
+   "turnId": 0,
+   "transcript": " Hi there. I'm calling you from AT&T DirecTV to let you know that your existing account is qualified for 50% 50% off. In order to avail the discount, kindly call us back at 8886040734 from 8 AM to 5 PM Pacific Standard Time. ",
+   "received": 20.845
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 20460,
+   "turnId": 1,
+   "received": 21.209
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank",
+   "final": false,
+   "audioProcessedMs": 21040,
+   "received": 21.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.411
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you and have",
+   "final": false,
+   "audioProcessedMs": 21840,
+   "received": 22.095
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you and have a",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you and have a great day. ",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.685
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 22240,
+   "received": 22.685
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21740,
+   "turnId": 1,
+   "received": 22.685
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21740,
+   "turnId": 1,
+   "transcript": " Thank you and have a great day. ",
+   "received": 22.685
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 22240,
+   "received": 22.709
+  }
+ ]
+}

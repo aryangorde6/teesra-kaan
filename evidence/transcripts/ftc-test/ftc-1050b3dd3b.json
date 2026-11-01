@@ -1,0 +1,653 @@
+{
+ "session_id": "voyager/duplex/E39DCCB807B449D6A1CC9D16DABF314C",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 34.8,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 3100,
+   "turnId": 0,
+   "received": 3.812
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello,",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.307
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot.",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.697
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.901
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.832
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.903
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.788
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 11.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.797
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.383
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.304
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.797
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have.",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.083
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.797
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.098
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.293
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily non-collectible",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.844
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily non-collectible and",
+   "final": false,
+   "audioProcessedMs": 22000,
+   "received": 22.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily non-collectible and can be",
+   "final": false,
+   "audioProcessedMs": 22400,
+   "received": 22.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily non-collectible and can be forced",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily non-collectible and can be forced into",
+   "final": false,
+   "audioProcessedMs": 23040,
+   "received": 23.307
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily non-collectible and can be forced into a",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily non-collectible and can be forced into a settlement on",
+   "final": false,
+   "audioProcessedMs": 23520,
+   "received": 23.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily non-collectible and can be forced into a settlement on your behalf. ",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.459
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 24160,
+   "received": 24.459
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23660,
+   "turnId": 0,
+   "received": 24.459
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23660,
+   "turnId": 0,
+   "transcript": " Hello, I am an artificial intelligent notification bot. The purpose of this call is to make you aware that a recent lawsuit settlement now requires the IRS to settle all old tax debt that any US residents currently have. This means you do not need to pay back your past due taxes as they are temporarily non-collectible and can be forced into a settlement on your behalf. ",
+   "received": 24.459
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 24140,
+   "turnId": 1,
+   "received": 24.904
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our",
+   "final": false,
+   "audioProcessedMs": 25040,
+   "received": 25.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated",
+   "final": false,
+   "audioProcessedMs": 25680,
+   "received": 25.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.312
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology,",
+   "final": false,
+   "audioProcessedMs": 27120,
+   "received": 27.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you",
+   "final": false,
+   "audioProcessedMs": 27520,
+   "received": 27.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are",
+   "final": false,
+   "audioProcessedMs": 27680,
+   "received": 27.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 28.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now able to",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.236
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now able to obtain",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.639
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now able to obtain enrollment",
+   "final": false,
+   "audioProcessedMs": 28800,
+   "received": 29.021
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now able to obtain enrollment information",
+   "final": false,
+   "audioProcessedMs": 29760,
+   "received": 29.993
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now able to obtain enrollment information based on",
+   "final": false,
+   "audioProcessedMs": 30000,
+   "received": 30.218
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now able to obtain enrollment information based on your",
+   "final": false,
+   "audioProcessedMs": 30240,
+   "received": 30.522
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now able to obtain enrollment information based on your current",
+   "final": false,
+   "audioProcessedMs": 30800,
+   "received": 31.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now able to obtain enrollment information based on your current situation.",
+   "final": false,
+   "audioProcessedMs": 31280,
+   "received": 31.53
+  },
+  {
+   "type": "transcript",
+   "transcript": " Using our automated approval technology, you are now able to obtain enrollment information based on your current situation. ",
+   "final": false,
+   "audioProcessedMs": 32000,
+   "received": 32.272
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 32000,
+   "received": 32.272
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 31500,
+   "turnId": 1,
+   "received": 32.272
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 31500,
+   "turnId": 1,
+   "transcript": " Using our automated approval technology, you are now able to obtain enrollment information based on your current situation. ",
+   "received": 32.272
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 31500,
+   "turnId": 2,
+   "received": 32.272
+  },
+  {
+   "type": "transcript",
+   "transcript": " To",
+   "final": false,
+   "audioProcessedMs": 32000,
+   "received": 32.272
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use",
+   "final": false,
+   "audioProcessedMs": 32560,
+   "received": 32.793
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI",
+   "final": false,
+   "audioProcessedMs": 32800,
+   "received": 33.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation",
+   "final": false,
+   "audioProcessedMs": 33120,
+   "received": 33.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation and",
+   "final": false,
+   "audioProcessedMs": 34000,
+   "received": 34.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation and find",
+   "final": false,
+   "audioProcessedMs": 34240,
+   "received": 34.493
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation and find the",
+   "final": false,
+   "audioProcessedMs": 34480,
+   "received": 34.684
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation and find the program",
+   "final": false,
+   "audioProcessedMs": 34560,
+   "received": 34.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation and find the program you are approved ",
+   "final": false,
+   "audioProcessedMs": 34800,
+   "received": 35.154
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 34800,
+   "received": 35.154
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 34300,
+   "turnId": 2,
+   "received": 35.154
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 34300,
+   "turnId": 2,
+   "transcript": " To use our AI automation and find the program you are approved ",
+   "received": 35.154
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 34800,
+   "received": 35.169
+  }
+ ]
+}

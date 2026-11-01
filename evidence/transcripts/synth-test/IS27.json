@@ -1,0 +1,670 @@
+{
+ "session_id": "voyager/duplex/C51FF903CB2447148BF8F4EAF3D2AAF2",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 39.894625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 380,
+   "turnId": 0,
+   "received": 1.131
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.878
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.344
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.959
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.131
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.434
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ।",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.754
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.226
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.629
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.485
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.655
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.529
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है।",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.755
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.735
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.229
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.515
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.261
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.433
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.954
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.13
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.358
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ।",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.868
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.665
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस,",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.97
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.891
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 14.085
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.559
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.059
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.319
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.945
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.068
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.173
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है।",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.439
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.83
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.029
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए,",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.151
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.625
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.129
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.229
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.259
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो तुरंत",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.732
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो तुरंत गिरफ्तारी",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.545
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो तुरंत गिरफ्तारी होगी।",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.845
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो तुरंत गिरफ्तारी होगी। मेरी",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.146
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो तुरंत गिरफ्तारी होगी। मेरी बेटी को",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.559
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो तुरंत गिरफ्तारी होगी। मेरी बेटी को बुला",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 24.029
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो तुरंत गिरफ्तारी होगी। मेरी बेटी को बुला लूँ?",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.255
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो तुरंत गिरफ्तारी होगी। मेरी बेटी को बुला लूँ? ",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.675
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 24400,
+   "received": 24.675
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23900,
+   "turnId": 0,
+   "received": 24.675
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23900,
+   "turnId": 0,
+   "transcript": " नमस्कार, मैं TRAI से बोल रहा हूँ। आपका नंबर गैरकानूनी गतिविधियों में इस्तेमाल हुआ है। मैं आपकी कॉल मूवी पुलिस को ट्रांसफर कर रहा हूँ। मूवी पुलिस, तिलक नगर थाना आपके खिलाफ ह्यूमन ट्रैफिकिंग ट्रैफिकिंग का केस है। आप वीडियो कॉल पर रहिए, कॉल काटी तो तो तुरंत गिरफ्तारी होगी। मेरी बेटी को बुला लूँ? ",
+   "received": 24.675
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 24140,
+   "turnId": 1,
+   "received": 24.935
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं,",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह",
+   "final": false,
+   "audioProcessedMs": 25520,
+   "received": 25.831
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.557
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच",
+   "final": false,
+   "audioProcessedMs": 26320,
+   "received": 26.634
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है,",
+   "final": false,
+   "audioProcessedMs": 26480,
+   "received": 26.738
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को",
+   "final": false,
+   "audioProcessedMs": 27200,
+   "received": 27.439
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो",
+   "final": false,
+   "audioProcessedMs": 28080,
+   "received": 28.334
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो",
+   "final": false,
+   "audioProcessedMs": 28240,
+   "received": 28.53
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.729
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी",
+   "final": false,
+   "audioProcessedMs": 29280,
+   "received": 29.531
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने",
+   "final": false,
+   "audioProcessedMs": 29600,
+   "received": 29.84
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे।",
+   "final": false,
+   "audioProcessedMs": 29920,
+   "received": 30.235
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको",
+   "final": false,
+   "audioProcessedMs": 30960,
+   "received": 31.227
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी",
+   "final": false,
+   "audioProcessedMs": 31360,
+   "received": 31.625
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही",
+   "final": false,
+   "audioProcessedMs": 32480,
+   "received": 32.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित",
+   "final": false,
+   "audioProcessedMs": 33120,
+   "received": 33.455
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने",
+   "final": false,
+   "audioProcessedMs": 33200,
+   "received": 33.486
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के",
+   "final": false,
+   "audioProcessedMs": 33280,
+   "received": 33.52
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए",
+   "final": false,
+   "audioProcessedMs": 33440,
+   "received": 33.727
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी",
+   "final": false,
+   "audioProcessedMs": 34720,
+   "received": 35.027
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी",
+   "final": false,
+   "audioProcessedMs": 35120,
+   "received": 35.442
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी",
+   "final": false,
+   "audioProcessedMs": 35920,
+   "received": 36.255
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी तुड़वाकर",
+   "final": false,
+   "audioProcessedMs": 36480,
+   "received": 36.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी तुड़वाकर रकम",
+   "final": false,
+   "audioProcessedMs": 36640,
+   "received": 36.94
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी तुड़वाकर रकम हमारे",
+   "final": false,
+   "audioProcessedMs": 37200,
+   "received": 37.454
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी तुड़वाकर रकम हमारे बताए",
+   "final": false,
+   "audioProcessedMs": 38000,
+   "received": 38.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी तुड़वाकर रकम हमारे बताए खाते में",
+   "final": false,
+   "audioProcessedMs": 38240,
+   "received": 38.542
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी तुड़वाकर रकम हमारे बताए खाते में जमा",
+   "final": false,
+   "audioProcessedMs": 38880,
+   "received": 39.139
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी तुड़वाकर रकम हमारे बताए खाते में जमा करनी",
+   "final": false,
+   "audioProcessedMs": 39040,
+   "received": 39.331
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी तुड़वाकर रकम हमारे बताए खाते में जमा करनी होगी। ",
+   "final": false,
+   "audioProcessedMs": 39760,
+   "received": 40.101
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 39760,
+   "received": 40.101
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 39260,
+   "turnId": 1,
+   "received": 40.101
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 39260,
+   "turnId": 1,
+   "transcript": " नहीं, यह गोपनीय जांच है, किसी को बताया तो वो भी आरोपी माने जाएंगे। आपको अपनी बेगुनाही साबित करने के लिए अपनी सारी एफडी तुड़वाकर रकम हमारे बताए खाते में जमा करनी होगी। ",
+   "received": 40.101
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 39920,
+   "received": 40.261
+  }
+ ]
+}

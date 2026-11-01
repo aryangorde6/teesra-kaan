@@ -1,0 +1,966 @@
+{
+ "session_id": "voyager/duplex/8179FF23C4C3476E90F1D9AD8118F03D",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 48.774625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.07
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.764
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.948
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.943
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs.",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.08
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai?",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.656
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.446
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.547
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.671
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta with",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.152
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta with the",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.358
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta with the Central",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.652
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta with the Central Anti-Smuggling",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.782
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta with the Central Anti-Smuggling Bureau",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.93
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta with the Central Anti-Smuggling Bureau in",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.262
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta with the Central Anti-Smuggling Bureau in Mumbai.",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.948
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta with the Central Anti-Smuggling Bureau in Mumbai. ",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.69
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10400,
+   "received": 10.69
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9900,
+   "turnId": 0,
+   "received": 10.69
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9900,
+   "turnId": 0,
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai? My name is Arjun Meta with the Central Anti-Smuggling Bureau in Mumbai. ",
+   "received": 10.69
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 10060,
+   "turnId": 1,
+   "received": 10.874
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes,",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.874
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, what",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.048
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, what happened?",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.378
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, what happened? ",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.179
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 11840,
+   "received": 12.179
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11340,
+   "turnId": 1,
+   "received": 12.179
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11340,
+   "turnId": 1,
+   "transcript": " Yes, what happened? ",
+   "received": 12.179
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11580,
+   "turnId": 2,
+   "received": 12.356
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam,",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.872
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.452
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.637
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.165
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.348
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.96
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.761
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.713
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network.",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.98
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.621
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.794
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.342
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.466
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name.",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.744
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.762
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.853
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.571
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.748
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over,",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 22.004
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.739
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.975
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody.",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.391
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 25.074
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.304
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with me on",
+   "final": false,
+   "audioProcessedMs": 25040,
+   "received": 25.462
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with me on camera",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.868
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with me on camera and",
+   "final": false,
+   "audioProcessedMs": 25600,
+   "received": 26.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with me on camera and keep",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.745
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with me on camera and keep this",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.866
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with me on camera and keep this line",
+   "final": false,
+   "audioProcessedMs": 26640,
+   "received": 27.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with me on camera and keep this line open.",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.172
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with me on camera and keep this line open. ",
+   "final": false,
+   "audioProcessedMs": 27440,
+   "received": 27.92
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 27440,
+   "received": 27.92
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 26940,
+   "turnId": 2,
+   "received": 27.92
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 26940,
+   "turnId": 2,
+   "transcript": " Madam, your mobile number has come up in an international smuggling network. There is a formal matter open in your name. Until our inquiry is over, you are in remote custody. Stay with me on camera and keep this line open. ",
+   "received": 27.92
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 27180,
+   "turnId": 3,
+   "received": 28.078
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 28080,
+   "received": 28.503
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns",
+   "final": false,
+   "audioProcessedMs": 28800,
+   "received": 29.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national",
+   "final": false,
+   "audioProcessedMs": 29120,
+   "received": 29.552
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security.",
+   "final": false,
+   "audioProcessedMs": 29920,
+   "received": 30.43
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody",
+   "final": false,
+   "audioProcessedMs": 30880,
+   "received": 31.333
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody else",
+   "final": false,
+   "audioProcessedMs": 30960,
+   "received": 31.44
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody else may",
+   "final": false,
+   "audioProcessedMs": 31520,
+   "received": 31.972
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody else may hear",
+   "final": false,
+   "audioProcessedMs": 31600,
+   "received": 32.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody else may hear about",
+   "final": false,
+   "audioProcessedMs": 32080,
+   "received": 32.466
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody else may hear about it,",
+   "final": false,
+   "audioProcessedMs": 32160,
+   "received": 32.572
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody else may hear about it, including",
+   "final": false,
+   "audioProcessedMs": 32640,
+   "received": 33.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody else may hear about it, including your",
+   "final": false,
+   "audioProcessedMs": 32720,
+   "received": 33.217
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody else may hear about it, including your husband.",
+   "final": false,
+   "audioProcessedMs": 33680,
+   "received": 34.079
+  },
+  {
+   "type": "transcript",
+   "transcript": " This concerns national security. Nobody else may hear about it, including your husband. ",
+   "final": false,
+   "audioProcessedMs": 34080,
+   "received": 34.562
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 34080,
+   "received": 34.562
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 33580,
+   "turnId": 3,
+   "received": 34.562
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 33580,
+   "turnId": 3,
+   "transcript": " This concerns national security. Nobody else may hear about it, including your husband. ",
+   "received": 34.562
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 33740,
+   "turnId": 4,
+   "received": 34.744
+  },
+  {
+   "type": "transcript",
+   "transcript": " Will",
+   "final": false,
+   "audioProcessedMs": 34240,
+   "received": 34.744
+  },
+  {
+   "type": "transcript",
+   "transcript": " Will I be",
+   "final": false,
+   "audioProcessedMs": 34480,
+   "received": 34.945
+  },
+  {
+   "type": "transcript",
+   "transcript": " Will I be taken",
+   "final": false,
+   "audioProcessedMs": 34640,
+   "received": 35.209
+  },
+  {
+   "type": "transcript",
+   "transcript": " Will I be taken to",
+   "final": false,
+   "audioProcessedMs": 34800,
+   "received": 35.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " Will I be taken to prison?",
+   "final": false,
+   "audioProcessedMs": 35360,
+   "received": 35.77
+  },
+  {
+   "type": "transcript",
+   "transcript": " Will I be taken to prison? ",
+   "final": false,
+   "audioProcessedMs": 36240,
+   "received": 36.766
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 36240,
+   "received": 36.766
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 35740,
+   "turnId": 4,
+   "received": 36.766
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 35740,
+   "turnId": 4,
+   "transcript": " Will I be taken to prison? ",
+   "received": 36.766
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 35980,
+   "turnId": 5,
+   "received": 36.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you",
+   "final": false,
+   "audioProcessedMs": 36480,
+   "received": 36.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate,",
+   "final": false,
+   "audioProcessedMs": 37120,
+   "received": 37.682
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no.",
+   "final": false,
+   "audioProcessedMs": 37440,
+   "received": 37.906
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The",
+   "final": false,
+   "audioProcessedMs": 38320,
+   "received": 38.786
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate",
+   "final": false,
+   "audioProcessedMs": 39200,
+   "received": 39.621
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has",
+   "final": false,
+   "audioProcessedMs": 39680,
+   "received": 40.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that",
+   "final": false,
+   "audioProcessedMs": 40160,
+   "received": 40.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all",
+   "final": false,
+   "audioProcessedMs": 40480,
+   "received": 40.722
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your",
+   "final": false,
+   "audioProcessedMs": 40560,
+   "received": 40.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings",
+   "final": false,
+   "audioProcessedMs": 41280,
+   "received": 41.554
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be",
+   "final": false,
+   "audioProcessedMs": 41440,
+   "received": 41.736
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked.",
+   "final": false,
+   "audioProcessedMs": 41760,
+   "received": 42.072
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You",
+   "final": false,
+   "audioProcessedMs": 42480,
+   "received": 42.736
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will",
+   "final": false,
+   "audioProcessedMs": 42640,
+   "received": 42.944
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your",
+   "final": false,
+   "audioProcessedMs": 42800,
+   "received": 43.023
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term",
+   "final": false,
+   "audioProcessedMs": 43760,
+   "received": 44.23
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings",
+   "final": false,
+   "audioProcessedMs": 44160,
+   "received": 44.628
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the",
+   "final": false,
+   "audioProcessedMs": 44480,
+   "received": 44.924
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's",
+   "final": false,
+   "audioProcessedMs": 44960,
+   "received": 45.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding",
+   "final": false,
+   "audioProcessedMs": 45360,
+   "received": 45.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account",
+   "final": false,
+   "audioProcessedMs": 45680,
+   "received": 46.082
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today",
+   "final": false,
+   "audioProcessedMs": 46480,
+   "received": 46.899
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today and",
+   "final": false,
+   "audioProcessedMs": 46720,
+   "received": 47.217
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today and they",
+   "final": false,
+   "audioProcessedMs": 46960,
+   "received": 47.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today and they come",
+   "final": false,
+   "audioProcessedMs": 47120,
+   "received": 47.61
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today and they come back after",
+   "final": false,
+   "audioProcessedMs": 47840,
+   "received": 48.307
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today and they come back after the",
+   "final": false,
+   "audioProcessedMs": 48080,
+   "received": 48.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today and they come back after the inquiry.",
+   "final": false,
+   "audioProcessedMs": 48480,
+   "received": 48.952
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today and they come back after the inquiry. ",
+   "final": false,
+   "audioProcessedMs": 48800,
+   "received": 49.336
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 48800,
+   "received": 49.336
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 48300,
+   "turnId": 5,
+   "received": 49.336
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 48300,
+   "turnId": 5,
+   "transcript": " If you cooperate, no. The magistrate has ordered that all your savings be checked. You will move your term savings into the government's holding account today and they come back after the inquiry. ",
+   "received": 49.336
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 48800,
+   "received": 49.371
+  }
+ ]
+}

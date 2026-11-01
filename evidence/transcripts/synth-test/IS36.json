@@ -1,0 +1,622 @@
+{
+ "session_id": "voyager/duplex/8A3EA41886794ACAB4D9906590D94938",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 33.025375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 300,
+   "turnId": 0,
+   "received": 1.023
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.877
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ,",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.664
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से,",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.222
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.829
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.907
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ,",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.919
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 6.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.488
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.277
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.026
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है,",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.715
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.799
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है,",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 13.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.182
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान दीजिए",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.812
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान दीजिए वरना",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान दीजिए वरना पुलिस",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान दीजिए वरना पुलिस आपके",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.085
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान दीजिए वरना पुलिस आपके घर",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान दीजिए वरना पुलिस आपके घर पहुँच",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.421
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान दीजिए वरना पुलिस आपके घर पहुँच जाएगी,",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान दीजिए वरना पुलिस आपके घर पहुँच जाएगी, ",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.634
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18400,
+   "received": 18.634
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17900,
+   "turnId": 0,
+   "received": 18.634
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17900,
+   "turnId": 0,
+   "transcript": " हेलो, मैं लखनऊ, STF से, सभी इंस्पेक्टर मिश्रा बोल रहा हूँ, आपके बैंक खाते का इस्तेमाल साइबर फ्रॉड में हुआ है, आपके खिलाफ FIR दर्ज है, अभी वीडियो कॉल पर बयान दीजिए वरना पुलिस आपके घर पहुँच जाएगी, ",
+   "received": 18.634
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 18140,
+   "turnId": 1,
+   "received": 18.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 18.993
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.507
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने आ",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने आ जाती",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.188
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने आ जाती हूँ",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.489
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने आ जाती हूँ ",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.555
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 21280,
+   "received": 21.555
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 20780,
+   "turnId": 1,
+   "received": 21.555
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 20780,
+   "turnId": 1,
+   "transcript": " मैं खुद थाने आ जाती हूँ ",
+   "received": 21.555
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 20940,
+   "turnId": 2,
+   "received": 21.693
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने",
+   "final": false,
+   "audioProcessedMs": 21680,
+   "received": 21.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.195
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.209
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है,",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.697
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 24.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा,",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा, और",
+   "final": false,
+   "audioProcessedMs": 25840,
+   "received": 26.078
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा, और इस",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा, और इस बारे",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 26.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा, और इस बारे में",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.315
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा, और इस बारे में किसी से",
+   "final": false,
+   "audioProcessedMs": 27520,
+   "received": 27.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा, और इस बारे में किसी से बात मत",
+   "final": false,
+   "audioProcessedMs": 28080,
+   "received": 28.292
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा, और इस बारे में किसी से बात मत कीजिए,",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा, और इस बारे में किसी से बात मत कीजिए, ",
+   "final": false,
+   "audioProcessedMs": 29280,
+   "received": 29.523
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 29280,
+   "received": 29.523
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 28780,
+   "turnId": 2,
+   "received": 29.523
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 28780,
+   "turnId": 2,
+   "transcript": " थाने आने की जरूरत नहीं है, वीडियो कॉल पर ही सब होगा, और इस बारे में किसी से बात मत कीजिए, ",
+   "received": 29.523
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 28860,
+   "turnId": 3,
+   "received": 29.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.694
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं मैं",
+   "final": false,
+   "audioProcessedMs": 29840,
+   "received": 30.098
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं मैं अपने",
+   "final": false,
+   "audioProcessedMs": 30240,
+   "received": 30.483
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं मैं अपने बेटे",
+   "final": false,
+   "audioProcessedMs": 30320,
+   "received": 30.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं मैं अपने बेटे के",
+   "final": false,
+   "audioProcessedMs": 30880,
+   "received": 31.079
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं मैं अपने बेटे के साथ",
+   "final": false,
+   "audioProcessedMs": 31040,
+   "received": 31.286
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं मैं अपने बेटे के साथ थाने",
+   "final": false,
+   "audioProcessedMs": 31360,
+   "received": 31.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं मैं अपने बेटे के साथ थाने आऊंगी",
+   "final": false,
+   "audioProcessedMs": 32000,
+   "received": 32.229
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं मैं अपने बेटे के साथ थाने आऊंगी नमस्ते",
+   "final": false,
+   "audioProcessedMs": 32560,
+   "received": 32.807
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं मैं अपने बेटे के साथ थाने आऊंगी नमस्ते ",
+   "final": false,
+   "audioProcessedMs": 33040,
+   "received": 33.493
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 33040,
+   "received": 33.493
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 32540,
+   "turnId": 3,
+   "received": 33.493
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 32540,
+   "turnId": 3,
+   "transcript": " नहीं मैं अपने बेटे के साथ थाने आऊंगी नमस्ते ",
+   "received": 33.493
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 33040,
+   "received": 33.535
+  }
+ ]
+}

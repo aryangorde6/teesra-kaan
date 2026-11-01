@@ -1,0 +1,267 @@
+{
+ "session_id": "voyager/duplex/B5043A46652C4B48947D6D3606083B8D",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 12.522125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.735
+  },
+  {
+   "type": "transcript",
+   "transcript": " and",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.231
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.034
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.525
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.855
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.037
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.74
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.228
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.465
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.534
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.732
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.84
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity.",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.65
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.542
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.886
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want to know",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want to know about",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.331
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want to know about this",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.635
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want to know about this case,",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.05
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want to know about this case, just",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.451
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want to know about this case, just press",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.841
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want to know about this case, just press one.",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want to know about this case, just press one. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 13.161
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12560,
+   "received": 13.161
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12060,
+   "turnId": 0,
+   "received": 13.161
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12060,
+   "turnId": 0,
+   "transcript": " and is to inform you that we just suspend your social security number because we found some suspicious activity. So if you want to know about this case, just press one. Thank you. ",
+   "received": 13.161
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 12560,
+   "received": 13.161
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"I'm calling from HDFC bank credit card department.\"}, {\"id\": \"A2\", \"quote\": \"Your card ending 4471 has been used for an international transaction of 48,000 rupees.\"}]}", "input_tokens": 955, "output_tokens": 239, "latency": 1.084}

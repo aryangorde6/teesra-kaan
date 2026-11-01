@@ -1,0 +1,407 @@
+{
+ "session_id": "voyager/duplex/D4EBBD8FF57641948576E25FE3AE29AE",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 18.9195,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.801
+  },
+  {
+   "type": "transcript",
+   "transcript": " already",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.685
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.996
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.292
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.695
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.619
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.709
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 6.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.794
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.283
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 10.985
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So,",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.702
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 13.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.195
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.693
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.591
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.107
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one to",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.501
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.018
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available officer.",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.509
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available officer. Thank you.",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.623
+  },
+  {
+   "type": "transcript",
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available officer. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.127
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18880,
+   "received": 19.127
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18380,
+   "turnId": 0,
+   "received": 19.127
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18380,
+   "turnId": 0,
+   "transcript": " already administration the reason you received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available officer. Thank you. ",
+   "received": 19.127
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 18960,
+   "received": 19.315
+  }
+ ]
+}

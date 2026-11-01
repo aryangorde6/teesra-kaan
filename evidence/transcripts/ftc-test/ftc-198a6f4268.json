@@ -1,0 +1,621 @@
+{
+ "session_id": "voyager/duplex/3317A0CD468540D289CA028CE0776134",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 37.38,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 2940,
+   "turnId": 0,
+   "received": 3.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.508
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.99
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.733
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support.",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.871
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.01
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.899
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.22
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com.",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.428
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 11.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been charged",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.097
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been charged $1,279.99 on",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.552
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been charged $1,279.99 on your",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been charged $1,279.99 on your default",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.097
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been charged $1,279.99 on your default card",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.297
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been charged $1,279.99 on your default card saved on",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been charged $1,279.99 on your default card saved on Amazon.com.",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.627
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been charged $1,279.99 on your default card saved on Amazon.com. ",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.442
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19120,
+   "received": 19.442
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18620,
+   "turnId": 0,
+   "received": 19.442
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18620,
+   "turnId": 0,
+   "transcript": " Hello, this is an important call from Amazon customer support. This This is to notify you regarding your today's purchase on Amazon.com. You have been charged $1,279.99 on your default card saved on Amazon.com. ",
+   "received": 19.442
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 18780,
+   "turnId": 1,
+   "received": 19.515
+  },
+  {
+   "type": "transcript",
+   "transcript": " If",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.305
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction,",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.833
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 22.822
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order.",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 24.01
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.136
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on",
+   "final": false,
+   "audioProcessedMs": 25600,
+   "received": 25.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com",
+   "final": false,
+   "audioProcessedMs": 26720,
+   "received": 27.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.048
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize",
+   "final": false,
+   "audioProcessedMs": 27840,
+   "received": 28.085
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it,",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.221
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then",
+   "final": false,
+   "audioProcessedMs": 28160,
+   "received": 28.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please",
+   "final": false,
+   "audioProcessedMs": 28960,
+   "received": 29.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press",
+   "final": false,
+   "audioProcessedMs": 29120,
+   "received": 29.473
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2",
+   "final": false,
+   "audioProcessedMs": 29280,
+   "received": 29.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm",
+   "final": false,
+   "audioProcessedMs": 29520,
+   "received": 29.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.297
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order",
+   "final": false,
+   "audioProcessedMs": 30480,
+   "received": 30.702
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or",
+   "final": false,
+   "audioProcessedMs": 30880,
+   "received": 31.105
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to",
+   "final": false,
+   "audioProcessedMs": 31280,
+   "received": 31.496
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk",
+   "final": false,
+   "audioProcessedMs": 31360,
+   "received": 31.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our",
+   "final": false,
+   "audioProcessedMs": 31760,
+   "received": 32.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer",
+   "final": false,
+   "audioProcessedMs": 32400,
+   "received": 32.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please",
+   "final": false,
+   "audioProcessedMs": 32720,
+   "received": 33.023
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press",
+   "final": false,
+   "audioProcessedMs": 32880,
+   "received": 33.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3",
+   "final": false,
+   "audioProcessedMs": 33680,
+   "received": 33.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to",
+   "final": false,
+   "audioProcessedMs": 34080,
+   "received": 34.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat",
+   "final": false,
+   "audioProcessedMs": 34560,
+   "received": 34.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat this",
+   "final": false,
+   "audioProcessedMs": 34800,
+   "received": 35.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat this message",
+   "final": false,
+   "audioProcessedMs": 35120,
+   "received": 35.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat this message please",
+   "final": false,
+   "audioProcessedMs": 35440,
+   "received": 35.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat this message please press",
+   "final": false,
+   "audioProcessedMs": 35680,
+   "received": 35.912
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat this message please press 4",
+   "final": false,
+   "audioProcessedMs": 36560,
+   "received": 36.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat this message please press 4 thank",
+   "final": false,
+   "audioProcessedMs": 36720,
+   "received": 36.998
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat this message please press 4 thank you",
+   "final": false,
+   "audioProcessedMs": 37360,
+   "received": 37.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat this message please press 4 thank you ",
+   "final": false,
+   "audioProcessedMs": 37440,
+   "received": 37.731
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 37440,
+   "received": 37.731
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 36940,
+   "turnId": 1,
+   "received": 37.731
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 36940,
+   "turnId": 1,
+   "transcript": " If you have not made any such transaction, then please press 1 to cancel your order. Else if you have made this purchase on Amazon.com and recognize it, then please press 2 to confirm your order or to talk to our customer care please press 3 to repeat this message please press 4 thank you ",
+   "received": 37.731
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 37440,
+   "received": 37.762
+  }
+ ]
+}

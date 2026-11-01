@@ -1,0 +1,1209 @@
+{
+  "split": "test",
+  "run": "A",
+  "calls_from": "data/transcripts/synth-test",
+  "rules": "v1.3 (Oct 30, 2026)",
+  "by_set": {
+    "IN-synth-genuine": {
+      "scam_calls": 0,
+      "genuine_calls": 15,
+      "caught_red": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "caught_red_or_amber": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "false_alarms_red": {
+        "k": 1,
+        "n": 15,
+        "text": "1/15 (1–30%)"
+      },
+      "false_alarms_amber": {
+        "k": 1,
+        "n": 15,
+        "text": "1/15 (1–30%)"
+      },
+      "seconds_to_warning": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "seconds_to_red": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "warned_before_ask": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "next_line": {
+        "shown": 0,
+        "came_true": {
+          "k": 0,
+          "n": 0,
+          "text": "0/0"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 0,
+          "median": null
+        },
+        "reach": {
+          "k": 0,
+          "n": 0,
+          "text": "0/0"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 15,
+          "mean": 0.0
+        }
+      }
+    },
+    "IN-synth-scam": {
+      "scam_calls": 18,
+      "genuine_calls": 0,
+      "caught_red": {
+        "k": 13,
+        "n": 18,
+        "text": "13/18 (49–88%)"
+      },
+      "caught_red_or_amber": {
+        "k": 17,
+        "n": 18,
+        "text": "17/18 (74–99%)"
+      },
+      "false_alarms_red": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "false_alarms_amber": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "seconds_to_warning": {
+        "n": 17,
+        "median": 21.12888915899687,
+        "p90": 27.862821290998326
+      },
+      "seconds_to_red": {
+        "n": 13,
+        "median": 29.736171662996057,
+        "p90": 40.58765091680016
+      },
+      "warned_before_ask": {
+        "k": 8,
+        "n": 16,
+        "text": "8/16 (28–72%)"
+      },
+      "next_line": {
+        "shown": 10,
+        "came_true": {
+          "k": 4,
+          "n": 10,
+          "text": "4/10 (17–69%)"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 4,
+          "median": 3.831773553505192
+        },
+        "reach": {
+          "k": 7,
+          "n": 18,
+          "text": "7/18 (20–61%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 0,
+          "mean": null
+        }
+      }
+    }
+  },
+  "by_language": {
+    "en": {
+      "scam_calls": 5,
+      "genuine_calls": 5,
+      "caught_red": {
+        "k": 4,
+        "n": 5,
+        "text": "4/5 (38–96%)"
+      },
+      "caught_red_or_amber": {
+        "k": 5,
+        "n": 5,
+        "text": "5/5 (57–100%)"
+      },
+      "false_alarms_red": {
+        "k": 0,
+        "n": 5,
+        "text": "0/5 (0–43%)"
+      },
+      "false_alarms_amber": {
+        "k": 0,
+        "n": 5,
+        "text": "0/5 (0–43%)"
+      },
+      "seconds_to_warning": {
+        "n": 5,
+        "median": 14.154640461992589,
+        "p90": 26.5779899157994
+      },
+      "seconds_to_red": {
+        "n": 4,
+        "median": 30.138953012502576,
+        "p90": 34.94497629029877
+      },
+      "warned_before_ask": {
+        "k": 3,
+        "n": 4,
+        "text": "3/4 (30–95%)"
+      },
+      "next_line": {
+        "shown": 5,
+        "came_true": {
+          "k": 2,
+          "n": 5,
+          "text": "2/5 (12–77%)"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 2,
+          "median": 2.399763212004734
+        },
+        "reach": {
+          "k": 3,
+          "n": 5,
+          "text": "3/5 (23–88%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 5,
+          "mean": 0.0
+        }
+      }
+    },
+    "hi": {
+      "scam_calls": 8,
+      "genuine_calls": 6,
+      "caught_red": {
+        "k": 5,
+        "n": 8,
+        "text": "5/8 (31–86%)"
+      },
+      "caught_red_or_amber": {
+        "k": 7,
+        "n": 8,
+        "text": "7/8 (53–98%)"
+      },
+      "false_alarms_red": {
+        "k": 1,
+        "n": 6,
+        "text": "1/6 (3–56%)"
+      },
+      "false_alarms_amber": {
+        "k": 1,
+        "n": 6,
+        "text": "1/6 (3–56%)"
+      },
+      "seconds_to_warning": {
+        "n": 7,
+        "median": 21.12888915899687,
+        "p90": 23.2188291716018
+      },
+      "seconds_to_red": {
+        "n": 5,
+        "median": 30.255781661990913,
+        "p90": 40.34121819059928
+      },
+      "warned_before_ask": {
+        "k": 4,
+        "n": 7,
+        "text": "4/7 (25–84%)"
+      },
+      "next_line": {
+        "shown": 5,
+        "came_true": {
+          "k": 2,
+          "n": 5,
+          "text": "2/5 (12–77%)"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 2,
+          "median": 3.831773553505192
+        },
+        "reach": {
+          "k": 4,
+          "n": 8,
+          "text": "4/8 (22–78%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 6,
+          "mean": 0.0
+        }
+      }
+    },
+    "mr": {
+      "scam_calls": 5,
+      "genuine_calls": 4,
+      "caught_red": {
+        "k": 4,
+        "n": 5,
+        "text": "4/5 (38–96%)"
+      },
+      "caught_red_or_amber": {
+        "k": 5,
+        "n": 5,
+        "text": "5/5 (57–100%)"
+      },
+      "false_alarms_red": {
+        "k": 0,
+        "n": 4,
+        "text": "0/4 (0–49%)"
+      },
+      "false_alarms_amber": {
+        "k": 0,
+        "n": 4,
+        "text": "0/4 (0–49%)"
+      },
+      "seconds_to_warning": {
+        "n": 5,
+        "median": 24.54490266999905,
+        "p90": 28.48727141499757
+      },
+      "seconds_to_red": {
+        "n": 4,
+        "median": 28.175046352997946,
+        "p90": 38.78221194109195
+      },
+      "warned_before_ask": {
+        "k": 1,
+        "n": 5,
+        "text": "1/5 (4–62%)"
+      },
+      "next_line": {
+        "shown": 0,
+        "came_true": {
+          "k": 0,
+          "n": 0,
+          "text": "0/0"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 0,
+          "median": null
+        },
+        "reach": {
+          "k": 0,
+          "n": 5,
+          "text": "0/5 (0–43%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 4,
+          "mean": 0.0
+        }
+      }
+    }
+  },
+  "ftc_by_class": {},
+  "usage": {
+    "audio_seconds": 878.2400000000001,
+    "judge_calls": 72,
+    "input_tokens": 88677,
+    "output_tokens": 3832
+  },
+  "usd_per_minute_list_price": 0.01169,
+  "calls": [
+    {
+      "call_id": "IG01",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 20.047789407000412,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.44,
+          8.816423207005952
+        ],
+        [
+          "A2",
+          10.0,
+          20.047789407000412
+        ]
+      ]
+    },
+    {
+      "call_id": "IG02",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.44,
+          18.007759808011937
+        ]
+      ]
+    },
+    {
+      "call_id": "IG04",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IG05",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IG08",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IG09",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 2,
+      "t_warn": 10.699421112010372,
+      "t_red": 10.699421112010372,
+      "t0": null,
+      "t_ask": null,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.6,
+          10.699421112010372
+        ],
+        [
+          "A6",
+          2.24,
+          10.699421112010372
+        ]
+      ]
+    },
+    {
+      "call_id": "IG10",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.68,
+          12.239418550000178
+        ]
+      ]
+    },
+    {
+      "call_id": "IG16",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.36,
+          10.234434131987276
+        ]
+      ]
+    },
+    {
+      "call_id": "IG19",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IG20",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A4",
+          1.44,
+          9.927482358998851
+        ]
+      ]
+    },
+    {
+      "call_id": "IG22",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          2.4,
+          14.197536556995939
+        ]
+      ]
+    },
+    {
+      "call_id": "IG24",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IG25",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IG26",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A6",
+          10.72,
+          15.730579883999308
+        ]
+      ]
+    },
+    {
+      "call_id": "IG29",
+      "set": "IN-synth-genuine",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IS01",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 22.077724580997486,
+      "t_red": 41.33408364300104,
+      "t0": 0.5,
+      "t_ask": 43.95,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [
+        [
+          "A6",
+          41.33408364300104,
+          45.28
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.6,
+          10.329408673004131
+        ],
+        [
+          "A2",
+          15.76,
+          22.077724580997486
+        ],
+        [
+          "A4",
+          28.64,
+          41.33408364300104
+        ],
+        [
+          "A8",
+          25.2,
+          41.33408364300104
+        ],
+        [
+          "A6",
+          45.28,
+          55.85004339000245
+        ]
+      ]
+    },
+    {
+      "call_id": "IS02",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 17.733660894991598,
+      "t_red": 43.15908634599019,
+      "t0": 0.5,
+      "t_ask": 36.14,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          13.12,
+          17.733660894991598
+        ],
+        [
+          "A2",
+          6.32,
+          17.733660894991598
+        ],
+        [
+          "A5",
+          37.68,
+          43.15908634599019
+        ]
+      ]
+    },
+    {
+      "call_id": "IS08",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 10.318320617997204,
+      "t_red": 36.22583311399794,
+      "t0": 0.5,
+      "t_ask": 37.49,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [
+        [
+          "A6",
+          36.22583311399794,
+          40.72
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          3.92,
+          10.318320617997204
+        ],
+        [
+          "A2",
+          3.92,
+          10.318320617997204
+        ],
+        [
+          "A4",
+          26.16,
+          36.22583311399794
+        ],
+        [
+          "A8",
+          26.16,
+          36.22583311399794
+        ],
+        [
+          "A6",
+          40.72,
+          48.64087177399837
+        ]
+      ]
+    },
+    {
+      "call_id": "IS10",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 30.236171662996057,
+      "t_red": 30.236171662996057,
+      "t0": 0.5,
+      "t_ask": 13.39,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A12",
+          2.72,
+          13.972577955986955
+        ],
+        [
+          "A6",
+          24.4,
+          30.236171662996057
+        ]
+      ]
+    },
+    {
+      "call_id": "IS12",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 33.62297703500069,
+      "t_red": 33.62297703500069,
+      "t0": 0.5,
+      "t_ask": 18.23,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          2.48,
+          16.210520984001924
+        ],
+        [
+          "A3",
+          18.88,
+          33.62297703500069
+        ],
+        [
+          "A5",
+          24.48,
+          33.62297703500069
+        ]
+      ]
+    },
+    {
+      "call_id": "IS15",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 11.25243970400293,
+      "t_red": 11.25243970400293,
+      "t0": 0.5,
+      "t_ask": 12.43,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A6",
+          4.4,
+          11.25243970400293
+        ],
+        [
+          "A12",
+          4.4,
+          11.25243970400293
+        ]
+      ]
+    },
+    {
+      "call_id": "IS17",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 25.04490266999905,
+      "t_red": 25.04490266999905,
+      "t0": 0.5,
+      "t_ask": 9.7,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.6,
+          10.377415982998675
+        ],
+        [
+          "A2",
+          10.48,
+          25.04490266999905
+        ],
+        [
+          "A7",
+          12.0,
+          25.04490266999905
+        ]
+      ]
+    },
+    {
+      "call_id": "IS19",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 8.28236924998858,
+      "t_red": 25.680832082005217,
+      "t0": 0.5,
+      "t_ask": 11.28,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [
+        [
+          "A7",
+          8.28236924998858,
+          12.0
+        ],
+        [
+          "A5",
+          25.680832082005217,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.52,
+          8.28236924998858
+        ],
+        [
+          "A12",
+          1.52,
+          8.28236924998858
+        ],
+        [
+          "A7",
+          12.0,
+          25.680832082005217
+        ]
+      ]
+    },
+    {
+      "call_id": "IS22",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 19.484761785995566,
+      "t_red": 30.755781661990913,
+      "t0": 0.5,
+      "t_ask": 21.99,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          11.28,
+          19.484761785995566
+        ],
+        [
+          "A2",
+          4.72,
+          19.484761785995566
+        ],
+        [
+          "A3",
+          4.72,
+          19.484761785995566
+        ],
+        [
+          "A5",
+          22.72,
+          30.755781661990913
+        ],
+        [
+          "A6",
+          22.72,
+          30.755781661990913
+        ]
+      ]
+    },
+    {
+      "call_id": "IS25",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 22.25075290100358,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 11.28,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A12",
+          1.68,
+          10.172392086003558
+        ],
+        [
+          "A3",
+          20.16,
+          22.25075290100358
+        ]
+      ]
+    },
+    {
+      "call_id": "IS26",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 27.113921042999834,
+      "t_red": 27.113921042999834,
+      "t0": 0.5,
+      "t_ask": 17.98,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.52,
+          18.60469921699469
+        ],
+        [
+          "A6",
+          18.72,
+          27.113921042999834
+        ]
+      ]
+    },
+    {
+      "call_id": "IS27",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 24.675864607005497,
+      "t_red": 40.10192001199664,
+      "t0": 0.5,
+      "t_ask": 30.23,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [
+        [
+          "A6",
+          40.10192001199664,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.6,
+          24.675864607005497
+        ],
+        [
+          "A2",
+          17.52,
+          24.675864607005497
+        ],
+        [
+          "A3",
+          17.52,
+          24.675864607005497
+        ],
+        [
+          "A8",
+          17.52,
+          24.675864607005497
+        ],
+        [
+          "A4",
+          25.36,
+          40.10192001199664
+        ]
+      ]
+    },
+    {
+      "call_id": "IS31",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 23.080805547999333,
+      "t_red": 23.080805547999333,
+      "t0": 0.5,
+      "t_ask": 14.52,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.68,
+          12.301523595008417
+        ],
+        [
+          "A2",
+          15.44,
+          23.080805547999333
+        ],
+        [
+          "A5",
+          17.12,
+          23.080805547999333
+        ]
+      ]
+    },
+    {
+      "call_id": "IS32",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.26050923699746,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [
+        [
+          "A5",
+          31.949847970994075,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          14.8,
+          17.26050923699746
+        ],
+        [
+          "A2",
+          6.96,
+          17.26050923699746
+        ],
+        [
+          "A10",
+          11.6,
+          17.26050923699746
+        ],
+        [
+          "A3",
+          26.72,
+          31.949847970994075
+        ]
+      ]
+    },
+    {
+      "call_id": "IS36",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.634868843999342,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": null,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [
+        [
+          "A4",
+          18.634868843999342,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.6,
+          18.634868843999342
+        ],
+        [
+          "A2",
+          6.32,
+          18.634868843999342
+        ],
+        [
+          "A8",
+          9.12,
+          18.634868843999342
+        ]
+      ]
+    },
+    {
+      "call_id": "IS38",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 21.62888915899687,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 11.83,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          4.72,
+          21.62888915899687
+        ],
+        [
+          "A12",
+          4.72,
+          21.62888915899687
+        ]
+      ]
+    },
+    {
+      "call_id": "IS39",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 2,
+      "t_warn": 14.654640461992589,
+      "t_red": 27.654928990004468,
+      "t0": 0.5,
+      "t_ask": 17.81,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [
+        [
+          "A1",
+          14.654640461992589,
+          14.96
+        ],
+        [
+          "A2",
+          16.738629540008958,
+          null
+        ],
+        [
+          "A4",
+          27.654928990004468,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A9",
+          8.64,
+          14.654640461992589
+        ],
+        [
+          "A10",
+          4.32,
+          14.654640461992589
+        ],
+        [
+          "A1",
+          14.96,
+          16.738629540008958
+        ],
+        [
+          "A5",
+          24.24,
+          27.654928990004468
+        ],
+        [
+          "A8",
+          22.32,
+          27.654928990004468
+        ]
+      ]
+    },
+    {
+      "call_id": "IS40",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 11.39,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    }
+  ]
+}

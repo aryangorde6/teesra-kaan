@@ -1,0 +1,288 @@
+{
+ "session_id": "voyager/duplex/97E6544C8CA245BC882FAA462FEC3C44",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 10.071,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 0.955
+  },
+  {
+   "type": "transcript",
+   "transcript": " account",
+   "final": false,
+   "audioProcessedMs": 800,
+   "received": 0.985
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status.",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.156
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.362
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.96
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.358
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.758
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.156
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.261
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.36
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.57
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.57
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.955
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.16
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.369
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.554
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.263
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.06
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise press",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise press 2",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 8.975
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise press 2 2 to",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.027
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise press 2 2 to speak",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.361
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise press 2 2 to speak with",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise press 2 2 to speak with the",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.076
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise press 2 2 to speak with the billing",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.347
+  },
+  {
+   "type": "transcript",
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise press 2 2 to speak with the billing department ",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.425
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10080,
+   "received": 10.425
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9580,
+   "turnId": 0,
+   "received": 10.425
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9580,
+   "turnId": 0,
+   "transcript": " account status. If you find this to be an error or would like to stop the disjoin please press 1 to start your claim otherwise press 2 2 to speak with the billing department ",
+   "received": 10.425
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 10080,
+   "received": 10.442
+  }
+ ]
+}

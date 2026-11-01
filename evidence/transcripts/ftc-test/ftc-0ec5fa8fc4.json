@@ -1,0 +1,372 @@
+{
+ "session_id": "voyager/duplex/FB7D09A7448A48ED92E134A56BD06F66",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 17.459625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.638
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello,",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.348
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.834
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.864
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon.",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.628
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.018
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.435
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.718
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.629
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.659
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.047
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999.",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 7.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.36
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.677
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.161
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.566
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.051
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.391
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.445
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.647
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.962
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.828
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.049
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.53
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.84
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.926
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.344
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.743
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.627
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.759
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.129
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.23
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.631
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this order",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.133
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this order press",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.42
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this order press 1",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this order press 1 or",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this order press 1 or press",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.924
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this order press 1 or press 2 to",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.345
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this order press 1 or press 2 to authorize this",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.734
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this order press 1 or press 2 to authorize this order ",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.874
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 17520,
+   "received": 17.874
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17020,
+   "turnId": 0,
+   "received": 17.874
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17020,
+   "turnId": 0,
+   "transcript": " Hello, this is Amazon. This call is to authorize a payment of $999. We would like to inform you that there is an order placed for app iPhone 11 Pro using your Amazon account. If you do not authorize this order press 1 or press 2 to authorize this order ",
+   "received": 17.874
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 17520,
+   "received": 17.892
+  }
+ ]
+}

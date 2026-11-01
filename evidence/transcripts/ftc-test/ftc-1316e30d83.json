@@ -1,0 +1,1091 @@
+{
+ "session_id": "voyager/duplex/795757A3EED540AEA7DF51670D6A2292",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 53.62,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 1.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.453
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.934
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.331
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.721
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.952
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.625
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.247
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.67
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.722
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.306
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.558
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.855
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.223
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.495
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.122
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.018
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.221
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student loan",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.609
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student loan cancellation",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student loan cancellation efforts",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student loan cancellation efforts which",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student loan cancellation efforts which are",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student loan cancellation efforts which are now",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student loan cancellation efforts which are now underway.",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.016
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student loan cancellation efforts which are now underway. ",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.468
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13120,
+   "received": 13.468
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12620,
+   "turnId": 0,
+   "received": 13.468
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12620,
+   "turnId": 0,
+   "transcript": " I'm calling on behalf of the US hello this is Gloria Simpson and I'm calling on behalf of the US Center for Debt Relief with an important update regarding the Biden administration's student loan cancellation efforts which are now underway. ",
+   "received": 13.468
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12620,
+   "turnId": 1,
+   "received": 13.468
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.115
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.819
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.244
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.413
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.844
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 17.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.822
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.904
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months.",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.219
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this",
+   "final": false,
+   "audioProcessedMs": 22160,
+   "received": 22.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.702
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will",
+   "final": false,
+   "audioProcessedMs": 23520,
+   "received": 23.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.209
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student",
+   "final": false,
+   "audioProcessedMs": 25120,
+   "received": 25.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student loan",
+   "final": false,
+   "audioProcessedMs": 25280,
+   "received": 25.506
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student loan debt",
+   "final": false,
+   "audioProcessedMs": 25840,
+   "received": 26.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student loan debt and",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.214
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student loan debt and may",
+   "final": false,
+   "audioProcessedMs": 26000,
+   "received": 26.244
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student loan debt and may forgive the",
+   "final": false,
+   "audioProcessedMs": 26560,
+   "received": 26.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student loan debt and may forgive the debt",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.301
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student loan debt and may forgive the debt completely.",
+   "final": false,
+   "audioProcessedMs": 27440,
+   "received": 27.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student loan debt and may forgive the debt completely. ",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 28.044
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 27760,
+   "received": 28.044
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 27260,
+   "turnId": 1,
+   "received": 28.044
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 27260,
+   "turnId": 1,
+   "transcript": " Just so you know the Biden administration has canceled over three billion dollars in student loan debt over the past 12 months. You are now able to enroll into this program which will significantly reduce your student loan debt and may forgive the debt completely. ",
+   "received": 28.044
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 28060,
+   "turnId": 2,
+   "received": 28.843
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 28560,
+   "received": 28.843
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an",
+   "final": false,
+   "audioProcessedMs": 28800,
+   "received": 29.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this",
+   "final": false,
+   "audioProcessedMs": 29280,
+   "received": 29.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.336
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as",
+   "final": false,
+   "audioProcessedMs": 30560,
+   "received": 30.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part",
+   "final": false,
+   "audioProcessedMs": 30640,
+   "received": 30.904
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their",
+   "final": false,
+   "audioProcessedMs": 30800,
+   "received": 31.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial",
+   "final": false,
+   "audioProcessedMs": 31440,
+   "received": 31.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief",
+   "final": false,
+   "audioProcessedMs": 31840,
+   "received": 32.109
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program",
+   "final": false,
+   "audioProcessedMs": 32240,
+   "received": 32.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help",
+   "final": false,
+   "audioProcessedMs": 32720,
+   "received": 33.01
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans",
+   "final": false,
+   "audioProcessedMs": 33040,
+   "received": 33.306
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover",
+   "final": false,
+   "audioProcessedMs": 33520,
+   "received": 33.822
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially",
+   "final": false,
+   "audioProcessedMs": 34160,
+   "received": 34.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the",
+   "final": false,
+   "audioProcessedMs": 34560,
+   "received": 34.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus",
+   "final": false,
+   "audioProcessedMs": 35120,
+   "received": 35.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak.",
+   "final": false,
+   "audioProcessedMs": 35760,
+   "received": 36.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However,",
+   "final": false,
+   "audioProcessedMs": 36560,
+   "received": 36.866
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits",
+   "final": false,
+   "audioProcessedMs": 36960,
+   "received": 37.234
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will",
+   "final": false,
+   "audioProcessedMs": 37360,
+   "received": 37.686
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be",
+   "final": false,
+   "audioProcessedMs": 37440,
+   "received": 37.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon.",
+   "final": false,
+   "audioProcessedMs": 38080,
+   "received": 38.361
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So",
+   "final": false,
+   "audioProcessedMs": 38800,
+   "received": 39.056
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you",
+   "final": false,
+   "audioProcessedMs": 39120,
+   "received": 39.441
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only",
+   "final": false,
+   "audioProcessedMs": 39200,
+   "received": 39.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only have a",
+   "final": false,
+   "audioProcessedMs": 39520,
+   "received": 39.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only have a very",
+   "final": false,
+   "audioProcessedMs": 39920,
+   "received": 40.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only have a very limited",
+   "final": false,
+   "audioProcessedMs": 40080,
+   "received": 40.311
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only have a very limited time",
+   "final": false,
+   "audioProcessedMs": 40480,
+   "received": 40.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only have a very limited time to",
+   "final": false,
+   "audioProcessedMs": 40640,
+   "received": 40.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only have a very limited time to enroll",
+   "final": false,
+   "audioProcessedMs": 40880,
+   "received": 41.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only have a very limited time to enroll into the",
+   "final": false,
+   "audioProcessedMs": 41520,
+   "received": 41.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only have a very limited time to enroll into the program. ",
+   "final": false,
+   "audioProcessedMs": 42160,
+   "received": 42.461
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 42160,
+   "received": 42.461
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 41660,
+   "turnId": 2,
+   "received": 42.461
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 41660,
+   "turnId": 2,
+   "transcript": " This is an effort from this administration as part of their financial relief program to help Americans recover financially from the virus outbreak. However, benefits will be ending soon. So you only have a very limited time to enroll into the program. ",
+   "received": 42.461
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 41980,
+   "turnId": 3,
+   "received": 42.733
+  },
+  {
+   "type": "transcript",
+   "transcript": " So",
+   "final": false,
+   "audioProcessedMs": 42480,
+   "received": 42.733
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a",
+   "final": false,
+   "audioProcessedMs": 43120,
+   "received": 43.422
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call",
+   "final": false,
+   "audioProcessedMs": 43680,
+   "received": 43.897
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back",
+   "final": false,
+   "audioProcessedMs": 43840,
+   "received": 44.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my",
+   "final": false,
+   "audioProcessedMs": 44240,
+   "received": 44.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone",
+   "final": false,
+   "audioProcessedMs": 44480,
+   "received": 44.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is",
+   "final": false,
+   "audioProcessedMs": 45200,
+   "received": 45.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight",
+   "final": false,
+   "audioProcessedMs": 45600,
+   "received": 45.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five",
+   "final": false,
+   "audioProcessedMs": 46160,
+   "received": 46.417
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five",
+   "final": false,
+   "audioProcessedMs": 46560,
+   "received": 46.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two",
+   "final": false,
+   "audioProcessedMs": 46720,
+   "received": 47.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine",
+   "final": false,
+   "audioProcessedMs": 47360,
+   "received": 47.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five",
+   "final": false,
+   "audioProcessedMs": 47600,
+   "received": 47.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four",
+   "final": false,
+   "audioProcessedMs": 48320,
+   "received": 48.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two",
+   "final": false,
+   "audioProcessedMs": 48400,
+   "received": 48.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one",
+   "final": false,
+   "audioProcessedMs": 48800,
+   "received": 49.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine",
+   "final": false,
+   "audioProcessedMs": 49040,
+   "received": 49.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would",
+   "final": false,
+   "audioProcessedMs": 49920,
+   "received": 50.234
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call",
+   "final": false,
+   "audioProcessedMs": 50240,
+   "received": 50.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon",
+   "final": false,
+   "audioProcessedMs": 50480,
+   "received": 50.736
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon so you",
+   "final": false,
+   "audioProcessedMs": 50880,
+   "received": 51.115
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon so you don't miss",
+   "final": false,
+   "audioProcessedMs": 51280,
+   "received": 51.544
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon so you don't miss the",
+   "final": false,
+   "audioProcessedMs": 51360,
+   "received": 51.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon so you don't miss the cutoff",
+   "final": false,
+   "audioProcessedMs": 51920,
+   "received": 52.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon so you don't miss the cutoff talk",
+   "final": false,
+   "audioProcessedMs": 52640,
+   "received": 52.901
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon so you don't miss the cutoff talk to",
+   "final": false,
+   "audioProcessedMs": 52800,
+   "received": 53.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon so you don't miss the cutoff talk to you",
+   "final": false,
+   "audioProcessedMs": 52960,
+   "received": 53.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon so you don't miss the cutoff talk to you soon ",
+   "final": false,
+   "audioProcessedMs": 53200,
+   "received": 53.465
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 53200,
+   "received": 53.465
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 52700,
+   "turnId": 3,
+   "received": 53.465
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 52700,
+   "turnId": 3,
+   "transcript": " So give me a call back my phone is eight five five two nine five four two one nine I would call soon so you don't miss the cutoff talk to you soon ",
+   "received": 53.465
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 53680,
+   "received": 54.043
+  }
+ ]
+}

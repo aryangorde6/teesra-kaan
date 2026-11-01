@@ -1,0 +1,2001 @@
+{
+ "session_id": "voyager/duplex/508089A577A24519AED7214FCE5607B8",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 113.6895,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.515
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.418
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.505
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.107
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.832
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.015
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.113
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.815
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.619
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.923
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.23
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.228
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status. ",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.259
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12960,
+   "received": 13.259
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12460,
+   "turnId": 0,
+   "received": 13.259
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12460,
+   "turnId": 0,
+   "transcript": " Department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status. ",
+   "received": 13.259
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12620,
+   "turnId": 1,
+   "received": 13.411
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.899
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.61
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.743
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.126
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.64
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.419
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for",
+   "final": false,
+   "audioProcessedMs": 21840,
+   "received": 22.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.533
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.534
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light",
+   "final": false,
+   "audioProcessedMs": 23600,
+   "received": 23.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and",
+   "final": false,
+   "audioProcessedMs": 25280,
+   "received": 25.506
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.214
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption.",
+   "final": false,
+   "audioProcessedMs": 26560,
+   "received": 26.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption. ",
+   "final": false,
+   "audioProcessedMs": 27280,
+   "received": 27.558
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 27280,
+   "received": 27.558
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 26780,
+   "turnId": 1,
+   "received": 27.558
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 26780,
+   "turnId": 1,
+   "transcript": " If you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption. ",
+   "received": 27.558
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 26780,
+   "turnId": 2,
+   "received": 27.558
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again",
+   "final": false,
+   "audioProcessedMs": 27600,
+   "received": 27.812
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this",
+   "final": false,
+   "audioProcessedMs": 28320,
+   "received": 28.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the",
+   "final": false,
+   "audioProcessedMs": 28640,
+   "received": 28.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications",
+   "final": false,
+   "audioProcessedMs": 30000,
+   "received": 30.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with",
+   "final": false,
+   "audioProcessedMs": 30720,
+   "received": 31.06
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey",
+   "final": false,
+   "audioProcessedMs": 30800,
+   "received": 31.085
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central",
+   "final": false,
+   "audioProcessedMs": 31280,
+   "received": 31.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power",
+   "final": false,
+   "audioProcessedMs": 32000,
+   "received": 32.216
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and",
+   "final": false,
+   "audioProcessedMs": 32160,
+   "received": 32.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light",
+   "final": false,
+   "audioProcessedMs": 32720,
+   "received": 33.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you",
+   "final": false,
+   "audioProcessedMs": 33200,
+   "received": 33.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an",
+   "final": false,
+   "audioProcessedMs": 33600,
+   "received": 33.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic",
+   "final": false,
+   "audioProcessedMs": 33920,
+   "received": 34.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of",
+   "final": false,
+   "audioProcessedMs": 34560,
+   "received": 34.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the",
+   "final": false,
+   "audioProcessedMs": 35360,
+   "received": 35.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next",
+   "final": false,
+   "audioProcessedMs": 36000,
+   "received": 36.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to",
+   "final": false,
+   "audioProcessedMs": 36640,
+   "received": 36.953
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45",
+   "final": false,
+   "audioProcessedMs": 37280,
+   "received": 37.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes",
+   "final": false,
+   "audioProcessedMs": 37600,
+   "received": 37.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to",
+   "final": false,
+   "audioProcessedMs": 38000,
+   "received": 38.268
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to",
+   "final": false,
+   "audioProcessedMs": 38720,
+   "received": 39.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue",
+   "final": false,
+   "audioProcessedMs": 39520,
+   "received": 39.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of",
+   "final": false,
+   "audioProcessedMs": 39760,
+   "received": 39.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the",
+   "final": false,
+   "audioProcessedMs": 39920,
+   "received": 40.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service",
+   "final": false,
+   "audioProcessedMs": 40240,
+   "received": 40.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or",
+   "final": false,
+   "audioProcessedMs": 40480,
+   "received": 40.683
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent",
+   "final": false,
+   "audioProcessedMs": 40640,
+   "received": 40.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account",
+   "final": false,
+   "audioProcessedMs": 41360,
+   "received": 41.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if",
+   "final": false,
+   "audioProcessedMs": 41920,
+   "received": 42.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you",
+   "final": false,
+   "audioProcessedMs": 42240,
+   "received": 42.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find",
+   "final": false,
+   "audioProcessedMs": 42400,
+   "received": 42.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to",
+   "final": false,
+   "audioProcessedMs": 43120,
+   "received": 43.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be",
+   "final": false,
+   "audioProcessedMs": 43200,
+   "received": 43.456
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an",
+   "final": false,
+   "audioProcessedMs": 43280,
+   "received": 43.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error",
+   "final": false,
+   "audioProcessedMs": 43600,
+   "received": 43.818
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and",
+   "final": false,
+   "audioProcessedMs": 43760,
+   "received": 44.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would",
+   "final": false,
+   "audioProcessedMs": 44320,
+   "received": 44.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like",
+   "final": false,
+   "audioProcessedMs": 44480,
+   "received": 44.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to",
+   "final": false,
+   "audioProcessedMs": 44560,
+   "received": 44.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop",
+   "final": false,
+   "audioProcessedMs": 44800,
+   "received": 45.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the",
+   "final": false,
+   "audioProcessedMs": 45280,
+   "received": 45.509
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption",
+   "final": false,
+   "audioProcessedMs": 45920,
+   "received": 46.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please",
+   "final": false,
+   "audioProcessedMs": 46240,
+   "received": 46.508
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press",
+   "final": false,
+   "audioProcessedMs": 46720,
+   "received": 46.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to",
+   "final": false,
+   "audioProcessedMs": 47200,
+   "received": 47.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 47760,
+   "received": 48.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with",
+   "final": false,
+   "audioProcessedMs": 47840,
+   "received": 48.098
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the",
+   "final": false,
+   "audioProcessedMs": 47920,
+   "received": 48.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications",
+   "final": false,
+   "audioProcessedMs": 48960,
+   "received": 49.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and",
+   "final": false,
+   "audioProcessedMs": 49040,
+   "received": 49.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections",
+   "final": false,
+   "audioProcessedMs": 50160,
+   "received": 50.424
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for",
+   "final": false,
+   "audioProcessedMs": 50640,
+   "received": 50.919
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey",
+   "final": false,
+   "audioProcessedMs": 51360,
+   "received": 51.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central",
+   "final": false,
+   "audioProcessedMs": 52000,
+   "received": 52.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and",
+   "final": false,
+   "audioProcessedMs": 52160,
+   "received": 52.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light",
+   "final": false,
+   "audioProcessedMs": 52400,
+   "received": 52.613
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to",
+   "final": false,
+   "audioProcessedMs": 52960,
+   "received": 53.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify",
+   "final": false,
+   "audioProcessedMs": 53360,
+   "received": 53.609
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the",
+   "final": false,
+   "audioProcessedMs": 53680,
+   "received": 53.897
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue",
+   "final": false,
+   "audioProcessedMs": 54080,
+   "received": 54.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and",
+   "final": false,
+   "audioProcessedMs": 54320,
+   "received": 54.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop",
+   "final": false,
+   "audioProcessedMs": 54560,
+   "received": 54.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the",
+   "final": false,
+   "audioProcessedMs": 54640,
+   "received": 54.891
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption",
+   "final": false,
+   "audioProcessedMs": 55520,
+   "received": 55.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption ",
+   "final": false,
+   "audioProcessedMs": 55920,
+   "received": 56.247
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 55920,
+   "received": 56.247
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 55420,
+   "turnId": 2,
+   "received": 56.247
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 55420,
+   "turnId": 2,
+   "transcript": " Again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption ",
+   "received": 56.247
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 57740,
+   "turnId": 3,
+   "received": 58.511
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 58480,
+   "received": 58.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the",
+   "final": false,
+   "audioProcessedMs": 58800,
+   "received": 59.004
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications",
+   "final": false,
+   "audioProcessedMs": 59680,
+   "received": 59.9
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with",
+   "final": false,
+   "audioProcessedMs": 60480,
+   "received": 60.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey",
+   "final": false,
+   "audioProcessedMs": 60960,
+   "received": 61.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central",
+   "final": false,
+   "audioProcessedMs": 61280,
+   "received": 61.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power",
+   "final": false,
+   "audioProcessedMs": 61600,
+   "received": 61.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and",
+   "final": false,
+   "audioProcessedMs": 62000,
+   "received": 62.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light",
+   "final": false,
+   "audioProcessedMs": 62400,
+   "received": 62.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you",
+   "final": false,
+   "audioProcessedMs": 62880,
+   "received": 63.092
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an",
+   "final": false,
+   "audioProcessedMs": 63120,
+   "received": 63.423
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic",
+   "final": false,
+   "audioProcessedMs": 64080,
+   "received": 64.297
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption",
+   "final": false,
+   "audioProcessedMs": 64320,
+   "received": 64.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of",
+   "final": false,
+   "audioProcessedMs": 64800,
+   "received": 64.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service",
+   "final": false,
+   "audioProcessedMs": 64880,
+   "received": 65.099
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the",
+   "final": false,
+   "audioProcessedMs": 65200,
+   "received": 65.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next",
+   "final": false,
+   "audioProcessedMs": 65440,
+   "received": 65.712
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30",
+   "final": false,
+   "audioProcessedMs": 65920,
+   "received": 66.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to",
+   "final": false,
+   "audioProcessedMs": 66080,
+   "received": 66.289
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45",
+   "final": false,
+   "audioProcessedMs": 66640,
+   "received": 66.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes",
+   "final": false,
+   "audioProcessedMs": 67120,
+   "received": 67.422
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due",
+   "final": false,
+   "audioProcessedMs": 67760,
+   "received": 68.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to",
+   "final": false,
+   "audioProcessedMs": 67920,
+   "received": 68.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to",
+   "final": false,
+   "audioProcessedMs": 68320,
+   "received": 68.621
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of",
+   "final": false,
+   "audioProcessedMs": 69440,
+   "received": 69.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the",
+   "final": false,
+   "audioProcessedMs": 69520,
+   "received": 69.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service",
+   "final": false,
+   "audioProcessedMs": 70000,
+   "received": 70.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or",
+   "final": false,
+   "audioProcessedMs": 70160,
+   "received": 70.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent",
+   "final": false,
+   "audioProcessedMs": 70480,
+   "received": 70.721
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account",
+   "final": false,
+   "audioProcessedMs": 71120,
+   "received": 71.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status",
+   "final": false,
+   "audioProcessedMs": 71600,
+   "received": 71.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if",
+   "final": false,
+   "audioProcessedMs": 72160,
+   "received": 72.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find",
+   "final": false,
+   "audioProcessedMs": 72400,
+   "received": 72.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this",
+   "final": false,
+   "audioProcessedMs": 72560,
+   "received": 72.801
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be",
+   "final": false,
+   "audioProcessedMs": 72960,
+   "received": 73.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an",
+   "final": false,
+   "audioProcessedMs": 73280,
+   "received": 73.495
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error",
+   "final": false,
+   "audioProcessedMs": 73360,
+   "received": 73.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and",
+   "final": false,
+   "audioProcessedMs": 73760,
+   "received": 74.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would",
+   "final": false,
+   "audioProcessedMs": 73840,
+   "received": 74.091
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to",
+   "final": false,
+   "audioProcessedMs": 74320,
+   "received": 74.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop",
+   "final": false,
+   "audioProcessedMs": 74400,
+   "received": 74.64
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the",
+   "final": false,
+   "audioProcessedMs": 74960,
+   "received": 75.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption",
+   "final": false,
+   "audioProcessedMs": 75840,
+   "received": 76.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please",
+   "final": false,
+   "audioProcessedMs": 76000,
+   "received": 76.259
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press",
+   "final": false,
+   "audioProcessedMs": 76320,
+   "received": 76.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1",
+   "final": false,
+   "audioProcessedMs": 76720,
+   "received": 77.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to",
+   "final": false,
+   "audioProcessedMs": 76960,
+   "received": 77.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 77280,
+   "received": 77.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with",
+   "final": false,
+   "audioProcessedMs": 77600,
+   "received": 77.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the",
+   "final": false,
+   "audioProcessedMs": 77680,
+   "received": 77.892
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and",
+   "final": false,
+   "audioProcessedMs": 78960,
+   "received": 79.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections",
+   "final": false,
+   "audioProcessedMs": 80000,
+   "received": 80.207
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department",
+   "final": false,
+   "audioProcessedMs": 80240,
+   "received": 80.494
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for",
+   "final": false,
+   "audioProcessedMs": 80480,
+   "received": 80.689
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey",
+   "final": false,
+   "audioProcessedMs": 80880,
+   "received": 81.092
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central",
+   "final": false,
+   "audioProcessedMs": 81760,
+   "received": 82.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power",
+   "final": false,
+   "audioProcessedMs": 81920,
+   "received": 82.239
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and",
+   "final": false,
+   "audioProcessedMs": 82080,
+   "received": 82.289
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light",
+   "final": false,
+   "audioProcessedMs": 82160,
+   "received": 82.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to",
+   "final": false,
+   "audioProcessedMs": 82880,
+   "received": 83.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify",
+   "final": false,
+   "audioProcessedMs": 83520,
+   "received": 83.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue",
+   "final": false,
+   "audioProcessedMs": 83760,
+   "received": 84.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and",
+   "final": false,
+   "audioProcessedMs": 84000,
+   "received": 84.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop",
+   "final": false,
+   "audioProcessedMs": 84160,
+   "received": 84.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the",
+   "final": false,
+   "audioProcessedMs": 84640,
+   "received": 84.913
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption",
+   "final": false,
+   "audioProcessedMs": 85360,
+   "received": 85.601
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again",
+   "final": false,
+   "audioProcessedMs": 86080,
+   "received": 86.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this",
+   "final": false,
+   "audioProcessedMs": 86880,
+   "received": 87.111
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is",
+   "final": false,
+   "audioProcessedMs": 87040,
+   "received": 87.292
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the",
+   "final": false,
+   "audioProcessedMs": 87280,
+   "received": 87.489
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications",
+   "final": false,
+   "audioProcessedMs": 88560,
+   "received": 88.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department",
+   "final": false,
+   "audioProcessedMs": 88880,
+   "received": 89.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with",
+   "final": false,
+   "audioProcessedMs": 89200,
+   "received": 89.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey",
+   "final": false,
+   "audioProcessedMs": 89520,
+   "received": 89.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central",
+   "final": false,
+   "audioProcessedMs": 90000,
+   "received": 90.187
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power",
+   "final": false,
+   "audioProcessedMs": 90320,
+   "received": 90.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and",
+   "final": false,
+   "audioProcessedMs": 90640,
+   "received": 90.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light",
+   "final": false,
+   "audioProcessedMs": 91360,
+   "received": 91.645
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you",
+   "final": false,
+   "audioProcessedMs": 91520,
+   "received": 91.847
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an",
+   "final": false,
+   "audioProcessedMs": 92160,
+   "received": 92.417
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic",
+   "final": false,
+   "audioProcessedMs": 92640,
+   "received": 92.942
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption",
+   "final": false,
+   "audioProcessedMs": 93040,
+   "received": 93.357
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of",
+   "final": false,
+   "audioProcessedMs": 93520,
+   "received": 93.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service",
+   "final": false,
+   "audioProcessedMs": 93680,
+   "received": 93.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in",
+   "final": false,
+   "audioProcessedMs": 94080,
+   "received": 94.301
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the",
+   "final": false,
+   "audioProcessedMs": 94240,
+   "received": 94.531
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next",
+   "final": false,
+   "audioProcessedMs": 94400,
+   "received": 94.609
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to",
+   "final": false,
+   "audioProcessedMs": 95120,
+   "received": 95.424
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45",
+   "final": false,
+   "audioProcessedMs": 95680,
+   "received": 95.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due",
+   "final": false,
+   "audioProcessedMs": 96400,
+   "received": 96.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to",
+   "final": false,
+   "audioProcessedMs": 96480,
+   "received": 96.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request",
+   "final": false,
+   "audioProcessedMs": 97120,
+   "received": 97.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to",
+   "final": false,
+   "audioProcessedMs": 97200,
+   "received": 97.434
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue",
+   "final": false,
+   "audioProcessedMs": 98000,
+   "received": 98.221
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of",
+   "final": false,
+   "audioProcessedMs": 98480,
+   "received": 98.691
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the",
+   "final": false,
+   "audioProcessedMs": 98640,
+   "received": 98.901
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service",
+   "final": false,
+   "audioProcessedMs": 98880,
+   "received": 99.097
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or",
+   "final": false,
+   "audioProcessedMs": 98960,
+   "received": 99.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent",
+   "final": false,
+   "audioProcessedMs": 99440,
+   "received": 99.727
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account",
+   "final": false,
+   "audioProcessedMs": 99760,
+   "received": 99.993
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status",
+   "final": false,
+   "audioProcessedMs": 100160,
+   "received": 100.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you",
+   "final": false,
+   "audioProcessedMs": 100720,
+   "received": 101.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to",
+   "final": false,
+   "audioProcessedMs": 101520,
+   "received": 101.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be",
+   "final": false,
+   "audioProcessedMs": 101680,
+   "received": 101.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error",
+   "final": false,
+   "audioProcessedMs": 101920,
+   "received": 102.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and",
+   "final": false,
+   "audioProcessedMs": 102480,
+   "received": 102.689
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would",
+   "final": false,
+   "audioProcessedMs": 102720,
+   "received": 102.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like",
+   "final": false,
+   "audioProcessedMs": 102800,
+   "received": 103.031
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to",
+   "final": false,
+   "audioProcessedMs": 102880,
+   "received": 103.105
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop",
+   "final": false,
+   "audioProcessedMs": 103200,
+   "received": 103.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the",
+   "final": false,
+   "audioProcessedMs": 103760,
+   "received": 103.985
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption",
+   "final": false,
+   "audioProcessedMs": 104240,
+   "received": 104.495
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please",
+   "final": false,
+   "audioProcessedMs": 105120,
+   "received": 105.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press",
+   "final": false,
+   "audioProcessedMs": 105520,
+   "received": 105.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 106000,
+   "received": 106.238
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with",
+   "final": false,
+   "audioProcessedMs": 106320,
+   "received": 106.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the",
+   "final": false,
+   "audioProcessedMs": 106720,
+   "received": 106.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications",
+   "final": false,
+   "audioProcessedMs": 107360,
+   "received": 107.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and",
+   "final": false,
+   "audioProcessedMs": 107520,
+   "received": 107.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections",
+   "final": false,
+   "audioProcessedMs": 108640,
+   "received": 108.911
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for",
+   "final": false,
+   "audioProcessedMs": 109280,
+   "received": 109.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey",
+   "final": false,
+   "audioProcessedMs": 109840,
+   "received": 110.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central",
+   "final": false,
+   "audioProcessedMs": 110240,
+   "received": 110.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power",
+   "final": false,
+   "audioProcessedMs": 110480,
+   "received": 110.709
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and",
+   "final": false,
+   "audioProcessedMs": 111040,
+   "received": 111.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light",
+   "final": false,
+   "audioProcessedMs": 111280,
+   "received": 111.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to",
+   "final": false,
+   "audioProcessedMs": 111440,
+   "received": 111.69
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the",
+   "final": false,
+   "audioProcessedMs": 112400,
+   "received": 112.623
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue",
+   "final": false,
+   "audioProcessedMs": 112800,
+   "received": 113.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and",
+   "final": false,
+   "audioProcessedMs": 113040,
+   "received": 113.304
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop",
+   "final": false,
+   "audioProcessedMs": 113360,
+   "received": 113.609
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the",
+   "final": false,
+   "audioProcessedMs": 113440,
+   "received": 113.685
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption ",
+   "final": false,
+   "audioProcessedMs": 113760,
+   "received": 114.062
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 113760,
+   "received": 114.062
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 113260,
+   "turnId": 3,
+   "received": 114.062
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 113260,
+   "turnId": 3,
+   "transcript": " This is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption again this is the notifications department with Jersey Central Power and Light you have an automatic interruption of service in the next 30 to 45 minutes due to request to discontinue of the service or delinquent account status if you find this to be an error and would like to stop the interruption please press 1 to speak with the notifications and disconnections department for Jersey Central Power and Light to rectify the issue and stop the interruption ",
+   "received": 114.062
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 113760,
+   "received": 114.079
+  }
+ ]
+}

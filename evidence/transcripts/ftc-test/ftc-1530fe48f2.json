@@ -1,0 +1,274 @@
+{
+ "session_id": "voyager/duplex/875B2092F312419CB4F3AB17FC87680E",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 12.539,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 540,
+   "turnId": 0,
+   "received": 1.283
+  },
+  {
+   "type": "transcript",
+   "transcript": " A",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.876
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.297
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.878
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.38
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.097
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today.",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.286
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.783
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.975
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.38
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements,",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.055
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.156
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.446
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.975
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.058
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer service",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.817
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer service representative,",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.409
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.821
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.433
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.92
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for Spanish,",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for Spanish, press",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.583
+  },
+  {
+   "type": "transcript",
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for Spanish, press 9. ",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.976
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12560,
+   "received": 12.976
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12060,
+   "turnId": 0,
+   "received": 12.976
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12060,
+   "turnId": 0,
+   "transcript": " A immediate action is required to avoid disconnection today. For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for Spanish, press 9. ",
+   "received": 12.976
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 12560,
+   "received": 12.995
+  }
+ ]
+}

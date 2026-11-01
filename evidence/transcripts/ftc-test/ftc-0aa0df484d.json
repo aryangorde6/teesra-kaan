@@ -1,0 +1,919 @@
+{
+ "session_id": "voyager/duplex/1F05A71A6E8A4E8EA124923CD46652E9",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 57.892125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 300,
+   "turnId": 0,
+   "received": 1.051
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi,",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.446
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.145
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.335
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.658
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.447
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center.",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.662
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.151
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.233
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.455
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.941
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.041
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.435
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.851
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.347
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.856
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.552
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.066
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.649
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.856
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.155
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.36
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.66
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.851
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.452
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes to",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.851
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes to the",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.883
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes to the federal",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes to the federal student",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.88
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes to the federal student loan",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes to the federal student loan programs",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.448
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes to the federal student loan programs recently.",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 14.058
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes to the federal student loan programs recently. ",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.908
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14560,
+   "received": 14.908
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14060,
+   "turnId": 0,
+   "received": 14.908
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14060,
+   "turnId": 0,
+   "transcript": " Hi, this is Emma with the processing center. I was giving you a quick call because I am reviewing your student loan profile and as you know there have been some pretty big changes to the federal student loan programs recently. ",
+   "received": 14.908
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14060,
+   "turnId": 1,
+   "received": 14.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " When",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.137
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.365
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.447
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.855
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.448
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.741
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back.",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.057
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.545
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.751
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.911
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.25
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.65
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.045
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.95
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.251
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.281
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.437
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.656
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.925
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still",
+   "final": false,
+   "audioProcessedMs": 21120,
+   "received": 21.448
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available.",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.758
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 22.844
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.261
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.645
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 23.945
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return my",
+   "final": false,
+   "audioProcessedMs": 24080,
+   "received": 24.345
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return my call",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.541
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return my call prior",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.851
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return my call prior to",
+   "final": false,
+   "audioProcessedMs": 24720,
+   "received": 25.087
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return my call prior to when",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return my call prior to when payments",
+   "final": false,
+   "audioProcessedMs": 25600,
+   "received": 25.85
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return my call prior to when payments resume.",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.458
+  },
+  {
+   "type": "transcript",
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return my call prior to when payments resume. ",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.105
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 26800,
+   "received": 27.105
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 26300,
+   "turnId": 1,
+   "received": 27.105
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 26300,
+   "turnId": 1,
+   "transcript": " When you have a moment give me a call back. I would like to discuss your possible options with you while the programs are still available. It's urgent that you return my call prior to when payments resume. ",
+   "received": 27.105
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 26700,
+   "turnId": 2,
+   "received": 27.468
+  },
+  {
+   "type": "transcript",
+   "transcript": " If",
+   "final": false,
+   "audioProcessedMs": 27200,
+   "received": 27.468
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could",
+   "final": false,
+   "audioProcessedMs": 27520,
+   "received": 27.853
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please",
+   "final": false,
+   "audioProcessedMs": 27600,
+   "received": 27.876
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call",
+   "final": false,
+   "audioProcessedMs": 27920,
+   "received": 28.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.271
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at",
+   "final": false,
+   "audioProcessedMs": 28240,
+   "received": 28.54
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276",
+   "final": false,
+   "audioProcessedMs": 33440,
+   "received": 33.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to",
+   "final": false,
+   "audioProcessedMs": 34080,
+   "received": 34.344
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete",
+   "final": false,
+   "audioProcessedMs": 34720,
+   "received": 35.055
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your",
+   "final": false,
+   "audioProcessedMs": 34800,
+   "received": 35.078
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and",
+   "final": false,
+   "audioProcessedMs": 35520,
+   "received": 35.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize",
+   "final": false,
+   "audioProcessedMs": 36000,
+   "received": 36.229
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your",
+   "final": false,
+   "audioProcessedMs": 36480,
+   "received": 36.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment",
+   "final": false,
+   "audioProcessedMs": 36560,
+   "received": 36.833
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as",
+   "final": false,
+   "audioProcessedMs": 36880,
+   "received": 37.126
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as",
+   "final": false,
+   "audioProcessedMs": 37280,
+   "received": 37.541
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible.",
+   "final": false,
+   "audioProcessedMs": 37760,
+   "received": 38.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again,",
+   "final": false,
+   "audioProcessedMs": 38400,
+   "received": 38.644
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's",
+   "final": false,
+   "audioProcessedMs": 38880,
+   "received": 39.152
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276",
+   "final": false,
+   "audioProcessedMs": 44480,
+   "received": 44.767
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please",
+   "final": false,
+   "audioProcessedMs": 45360,
+   "received": 45.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have",
+   "final": false,
+   "audioProcessedMs": 45600,
+   "received": 45.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your",
+   "final": false,
+   "audioProcessedMs": 46000,
+   "received": 46.243
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference",
+   "final": false,
+   "audioProcessedMs": 46400,
+   "received": 46.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number",
+   "final": false,
+   "audioProcessedMs": 46640,
+   "received": 46.936
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready,",
+   "final": false,
+   "audioProcessedMs": 47040,
+   "received": 47.342
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your",
+   "final": false,
+   "audioProcessedMs": 47440,
+   "received": 47.741
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference",
+   "final": false,
+   "audioProcessedMs": 47760,
+   "received": 48.037
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number",
+   "final": false,
+   "audioProcessedMs": 48240,
+   "received": 48.536
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is",
+   "final": false,
+   "audioProcessedMs": 49120,
+   "received": 49.533
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367.",
+   "final": false,
+   "audioProcessedMs": 52640,
+   "received": 52.96
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look",
+   "final": false,
+   "audioProcessedMs": 53120,
+   "received": 53.441
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look",
+   "final": false,
+   "audioProcessedMs": 53200,
+   "received": 53.476
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to",
+   "final": false,
+   "audioProcessedMs": 53680,
+   "received": 53.95
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from",
+   "final": false,
+   "audioProcessedMs": 54320,
+   "received": 54.648
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you",
+   "final": false,
+   "audioProcessedMs": 54480,
+   "received": 54.742
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you soon",
+   "final": false,
+   "audioProcessedMs": 54720,
+   "received": 55.032
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you soon and I",
+   "final": false,
+   "audioProcessedMs": 55040,
+   "received": 55.351
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you soon and I hope",
+   "final": false,
+   "audioProcessedMs": 55760,
+   "received": 56.038
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you soon and I hope you have",
+   "final": false,
+   "audioProcessedMs": 55920,
+   "received": 56.25
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you soon and I hope you have a",
+   "final": false,
+   "audioProcessedMs": 56000,
+   "received": 56.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you soon and I hope you have a great",
+   "final": false,
+   "audioProcessedMs": 56240,
+   "received": 56.55
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you soon and I hope you have a great day.",
+   "final": false,
+   "audioProcessedMs": 56480,
+   "received": 56.75
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you soon and I hope you have a great day. ",
+   "final": false,
+   "audioProcessedMs": 56720,
+   "received": 57.076
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 56720,
+   "received": 57.076
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 56220,
+   "turnId": 2,
+   "received": 57.076
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 56220,
+   "turnId": 2,
+   "transcript": " If you could please call me at 8667551276 to complete your application and finalize your enrollment as soon as possible. Again, that's 8667581276 Please have your reference number ready, your reference number is SL367. I look I look forward to hearing from you soon and I hope you have a great day. ",
+   "received": 57.076
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 57920,
+   "received": 58.272
+  }
+ ]
+}

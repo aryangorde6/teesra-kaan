@@ -1,0 +1,225 @@
+{
+ "session_id": "voyager/duplex/966ACA2514004D7B8E478CF6DC6F498A",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 11.86225,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.799
+  },
+  {
+   "type": "transcript",
+   "transcript": " so",
+   "final": false,
+   "audioProcessedMs": 640,
+   "received": 0.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.096
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.011
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.708
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press 1",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press 1 I",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.207
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press 1 I repeat",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.613
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press 1 I repeat press",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press 1 I repeat press 1",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.622
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press 1 I repeat press 1 thank you",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.34
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press 1 I repeat press 1 thank you and have a",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.834
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press 1 I repeat press 1 thank you and have a great",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.103
+  },
+  {
+   "type": "transcript",
+   "transcript": " so please in order go ahead get more information to speak with officer press 1 I repeat press 1 thank you and have a great day ",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.252
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 11920,
+   "received": 12.252
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11420,
+   "turnId": 0,
+   "received": 12.252
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11420,
+   "turnId": 0,
+   "transcript": " so please in order go ahead get more information to speak with officer press 1 I repeat press 1 thank you and have a great day ",
+   "received": 12.252
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 11920,
+   "received": 12.275
+  }
+ ]
+}

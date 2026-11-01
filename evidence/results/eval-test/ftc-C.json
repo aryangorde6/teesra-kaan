@@ -1,0 +1,4633 @@
+{
+  "split": "test",
+  "run": "C",
+  "calls_from": "data/transcripts/ftc-test",
+  "rules": "v1.3 (Oct 30, 2026)",
+  "by_set": {
+    "FTC": {
+      "scam_calls": 132,
+      "genuine_calls": 0,
+      "caught_red": {
+        "k": 0,
+        "n": 132,
+        "text": "0/132 (0–3%)"
+      },
+      "caught_red_or_amber": {
+        "k": 131,
+        "n": 132,
+        "text": "131/132 (96–100%)"
+      },
+      "false_alarms_red": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "false_alarms_amber": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "seconds_to_warning": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "seconds_to_red": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "warned_before_ask": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "next_line": {
+        "shown": 43,
+        "came_true": {
+          "k": 0,
+          "n": 43,
+          "text": "0/43 (0–8%)"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 0,
+          "median": null
+        },
+        "reach": {
+          "k": 41,
+          "n": 132,
+          "text": "41/132 (24–39%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 0,
+          "mean": null
+        }
+      }
+    }
+  },
+  "by_language": {
+    "en": {
+      "scam_calls": 132,
+      "genuine_calls": 0,
+      "caught_red": {
+        "k": 0,
+        "n": 132,
+        "text": "0/132 (0–3%)"
+      },
+      "caught_red_or_amber": {
+        "k": 131,
+        "n": 132,
+        "text": "131/132 (96–100%)"
+      },
+      "false_alarms_red": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "false_alarms_amber": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "seconds_to_warning": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "seconds_to_red": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "warned_before_ask": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "next_line": {
+        "shown": 43,
+        "came_true": {
+          "k": 0,
+          "n": 43,
+          "text": "0/43 (0–8%)"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 0,
+          "median": null
+        },
+        "reach": {
+          "k": 41,
+          "n": 132,
+          "text": "41/132 (24–39%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 0,
+          "mean": null
+        }
+      }
+    }
+  },
+  "ftc_by_class": {
+    "impersonation": {
+      "n": 132,
+      "warned": 131,
+      "red": 0,
+      "warned_text": "131/132 (96–100%)",
+      "red_text": "0/132 (0–3%)"
+    },
+    "other": {
+      "n": 2,
+      "warned": 0,
+      "red": 0,
+      "warned_text": "0/2 (0–66%)",
+      "red_text": "0/2 (0–66%)"
+    },
+    "sales": {
+      "n": 16,
+      "warned": 13,
+      "red": 0,
+      "warned_text": "13/16 (57–93%)",
+      "red_text": "0/16 (0–19%)"
+    }
+  },
+  "usage": {
+    "audio_seconds": 3399.1200000000003,
+    "judge_calls": 265,
+    "input_tokens": 271540,
+    "output_tokens": 132808
+  },
+  "usd_per_minute_list_price": 0.01895,
+  "calls": [
+    {
+      "call_id": "ftc-084a22f9a2",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 21.494,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          6.88,
+          21.494
+        ],
+        [
+          "A10",
+          14.08,
+          21.494
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0864962d89",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 23.336,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          23.336,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.36,
+          23.336
+        ],
+        [
+          "A12",
+          4.16,
+          23.336
+        ],
+        [
+          "A8",
+          9.36,
+          25.601
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-08d5b8153c",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.066,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          5.52,
+          18.066
+        ],
+        [
+          "A10",
+          11.6,
+          18.066
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-08f7dd0c51",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.089,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.56,
+          19.089
+        ],
+        [
+          "A2",
+          8.48,
+          19.089
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-08ff8692fb",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 7.769,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.88,
+          7.769
+        ],
+        [
+          "A2",
+          2.08,
+          7.769
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-094e2d4c7e",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.116,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.36,
+          19.116
+        ],
+        [
+          "A2",
+          4.4,
+          19.116
+        ],
+        [
+          "A10",
+          13.36,
+          19.116
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-098cc2616e",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.297,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.56,
+          19.297
+        ],
+        [
+          "A2",
+          20.48,
+          24.166
+        ],
+        [
+          "A3",
+          25.92,
+          33.730000000000004
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-09c4d973d9",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "ftc-09de1d3d64",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.259,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          2.56,
+          16.259
+        ],
+        [
+          "A2",
+          9.2,
+          16.259
+        ],
+        [
+          "A3",
+          15.04,
+          20.163999999999998
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0a4be5d36e",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 18.369999999999997,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          3.76,
+          18.369999999999997
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0a641934ca",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.653,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.28,
+          16.653
+        ],
+        [
+          "A2",
+          3.36,
+          16.653
+        ],
+        [
+          "A10",
+          9.84,
+          16.653
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0a6ab0c631",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.678,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          0.88,
+          14.678
+        ],
+        [
+          "A10",
+          6.88,
+          14.678
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0aa0df484d",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 29.944,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A3",
+          22.56,
+          29.944
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0b05905d65",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.942,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          0.72,
+          18.942
+        ],
+        [
+          "A10",
+          9.84,
+          18.942
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0b89b1bb64",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.619,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          19.619,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          2.0,
+          19.619
+        ],
+        [
+          "A2",
+          7.52,
+          19.619
+        ],
+        [
+          "A3",
+          9.52,
+          19.619
+        ],
+        [
+          "A10",
+          1.76,
+          19.619
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0ba6ec37e8",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.971999999999998,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          19.971999999999998,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          4.32,
+          19.971999999999998
+        ],
+        [
+          "A12",
+          13.84,
+          19.971999999999998
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0bb1847241",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 29.494,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          29.494,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A10",
+          6.0,
+          29.494
+        ],
+        [
+          "A2",
+          13.92,
+          29.494
+        ],
+        [
+          "A3",
+          18.08,
+          29.494
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0bb45bf035",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 21.333000000000002,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.28,
+          21.333000000000002
+        ],
+        [
+          "A4",
+          4.8,
+          21.333000000000002
+        ],
+        [
+          "A12",
+          11.04,
+          21.333000000000002
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0bd08133a1",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.799,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.2,
+          17.799
+        ],
+        [
+          "A2",
+          4.32,
+          17.799
+        ],
+        [
+          "A10",
+          10.24,
+          17.799
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0bd313abe2",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.641,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          16.641,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          3.76,
+          16.641
+        ],
+        [
+          "A12",
+          11.04,
+          16.641
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0bed383961",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 31.142000000000003,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          2.32,
+          31.142000000000003
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0c2ace028a",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 21.406,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          5.04,
+          21.406
+        ],
+        [
+          "A2",
+          0.88,
+          21.406
+        ],
+        [
+          "A10",
+          20.72,
+          26.238000000000003
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0c2d31d805",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "other",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "ftc-0c7026bc12",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.105999999999998,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          17.105999999999998,
+          null
+        ],
+        [
+          "A5",
+          22.584,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          4.0,
+          17.105999999999998
+        ],
+        [
+          "A12",
+          10.96,
+          17.105999999999998
+        ],
+        [
+          "A3",
+          18.08,
+          22.584
+        ],
+        [
+          "A10",
+          18.08,
+          22.584
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0ccfc1e911",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 26.826,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          8.32,
+          26.826
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0cdec62a2f",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.758,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.36,
+          16.758
+        ],
+        [
+          "A2",
+          9.12,
+          16.758
+        ],
+        [
+          "A3",
+          14.64,
+          20.95
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0d0cfc0b8a",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.892,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.88,
+          15.892
+        ],
+        [
+          "A2",
+          8.72,
+          15.892
+        ],
+        [
+          "A10",
+          17.28,
+          22.59
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0d2cc99f2c",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.146,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          6.16,
+          15.146
+        ],
+        [
+          "A2",
+          9.44,
+          15.146
+        ],
+        [
+          "A10",
+          2.72,
+          15.146
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0df7897507",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 22.754,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.56,
+          22.754
+        ],
+        [
+          "A2",
+          8.16,
+          22.754
+        ],
+        [
+          "A12",
+          17.2,
+          22.754
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0e48c6adb7",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.29,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.16,
+          20.29
+        ],
+        [
+          "A2",
+          6.4,
+          20.29
+        ],
+        [
+          "A10",
+          19.6,
+          24.914
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0e4bee28d0",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.664,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.24,
+          20.664
+        ],
+        [
+          "A2",
+          6.48,
+          20.664
+        ],
+        [
+          "A10",
+          19.52,
+          25.843
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0e4f52292f",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 23.232,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          15.892000000000001,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          3.84,
+          15.892000000000001
+        ],
+        [
+          "A12",
+          10.8,
+          15.892000000000001
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0e562efb40",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "other",
+      "predictions": [],
+      "found": [
+        [
+          "A10",
+          4.0,
+          8.008
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0e721e2e1e",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.048000000000002,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.04,
+          16.048000000000002
+        ],
+        [
+          "A2",
+          7.76,
+          16.048000000000002
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0e8b020af7",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.016000000000002,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.4,
+          20.016000000000002
+        ],
+        [
+          "A2",
+          0.8,
+          20.016000000000002
+        ],
+        [
+          "A10",
+          20.24,
+          25.416
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0e8d2ce915",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 28.139999999999997,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          28.139999999999997,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          2.72,
+          28.139999999999997
+        ],
+        [
+          "A12",
+          6.64,
+          28.139999999999997
+        ],
+        [
+          "A8",
+          13.04,
+          30.282999999999998
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0ec5fa8fc4",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.541999999999998,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.04,
+          19.541999999999998
+        ],
+        [
+          "A2",
+          8.72,
+          19.541999999999998
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0ec7a2d5ed",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.089,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A10",
+          6.64,
+          14.089
+        ],
+        [
+          "A12",
+          1.44,
+          14.089
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0f0f17fbbc",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 34.466,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.64,
+          34.466
+        ],
+        [
+          "A2",
+          14.64,
+          34.466
+        ],
+        [
+          "A10",
+          26.48,
+          34.466
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0f1b09a807",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.362,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          23.8,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          3.68,
+          16.362
+        ],
+        [
+          "A2",
+          3.68,
+          16.362
+        ],
+        [
+          "A10",
+          9.84,
+          16.362
+        ],
+        [
+          "A3",
+          9.84,
+          23.8
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0f23df7462",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 21.972,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.08,
+          21.972
+        ],
+        [
+          "A2",
+          7.28,
+          21.972
+        ],
+        [
+          "A10",
+          25.68,
+          33.054
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0fa3b87d18",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.846,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.8,
+          15.846
+        ],
+        [
+          "A2",
+          8.08,
+          15.846
+        ],
+        [
+          "A10",
+          16.56,
+          21.951
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0fc3563b18",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 28.03,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          3.04,
+          28.03
+        ],
+        [
+          "A2",
+          3.04,
+          28.03
+        ],
+        [
+          "A10",
+          19.76,
+          28.03
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0fc72a8861",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "ftc-0fd5bfdcaa",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.939,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.44,
+          16.939
+        ],
+        [
+          "A2",
+          1.44,
+          16.939
+        ],
+        [
+          "A10",
+          17.36,
+          22.304000000000002
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-0ff24095e9",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.222,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          7.44,
+          19.222
+        ],
+        [
+          "A10",
+          13.44,
+          19.222
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1008f49e50",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.233,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.36,
+          15.233
+        ],
+        [
+          "A2",
+          6.96,
+          15.233
+        ],
+        [
+          "A10",
+          15.6,
+          20.282
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-10421eae9f",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 25.143,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          31.323,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          9.6,
+          25.143
+        ],
+        [
+          "A2",
+          6.4,
+          25.143
+        ],
+        [
+          "A3",
+          23.12,
+          31.323
+        ],
+        [
+          "A10",
+          25.52,
+          31.323
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1050b3dd3b",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 34.766,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A12",
+          12.16,
+          34.766
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-107b55ef9d",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.350999999999999,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          15.350999999999999,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.2,
+          15.350999999999999
+        ],
+        [
+          "A12",
+          7.52,
+          15.350999999999999
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-10a7964106",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 27.540999999999997,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          5.36,
+          27.540999999999997
+        ],
+        [
+          "A2",
+          15.36,
+          27.540999999999997
+        ],
+        [
+          "A10",
+          27.44,
+          33.397
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-10ab3b5a5f",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.055,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A10",
+          4.72,
+          14.055
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1127c9a2db",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.667,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          2.56,
+          14.667
+        ],
+        [
+          "A2",
+          2.56,
+          14.667
+        ],
+        [
+          "A10",
+          9.84,
+          14.667
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-11bd4a51d5",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.654,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.36,
+          18.654
+        ],
+        [
+          "A2",
+          6.48,
+          18.654
+        ],
+        [
+          "A10",
+          18.0,
+          26.583
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-12862a6643",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.625,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          28.524,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A10",
+          5.44,
+          16.625
+        ],
+        [
+          "A2",
+          15.44,
+          28.524
+        ],
+        [
+          "A3",
+          17.92,
+          28.524
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-128a1a68be",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.429,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.56,
+          14.429
+        ],
+        [
+          "A2",
+          8.32,
+          14.429
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-12c0b49e75",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.473,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          9.12,
+          14.473
+        ],
+        [
+          "A2",
+          5.04,
+          14.473
+        ],
+        [
+          "A10",
+          9.12,
+          14.473
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-12ddfd7a33",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.875999999999998,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          32.262,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          2.08,
+          17.875999999999998
+        ],
+        [
+          "A2",
+          4.72,
+          17.875999999999998
+        ],
+        [
+          "A3",
+          16.4,
+          32.262
+        ],
+        [
+          "A10",
+          28.0,
+          32.262
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1316e30d83",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 30.242,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A12",
+          20.64,
+          30.242
+        ],
+        [
+          "A1",
+          3.92,
+          45.54
+        ],
+        [
+          "A3",
+          36.96,
+          45.54
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-132e8023f3",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 21.917,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          21.917,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          3.92,
+          21.917
+        ],
+        [
+          "A12",
+          16.4,
+          21.917
+        ],
+        [
+          "A3",
+          27.28,
+          30.445
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-13499fb2b7",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 13.212,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.44,
+          13.212
+        ],
+        [
+          "A2",
+          1.44,
+          13.212
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1364468b9f",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.898999999999997,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          3.04,
+          20.898999999999997
+        ],
+        [
+          "A2",
+          6.8,
+          20.898999999999997
+        ],
+        [
+          "A10",
+          15.36,
+          20.898999999999997
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-136581422b",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.898000000000003,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          3.52,
+          18.898000000000003
+        ],
+        [
+          "A10",
+          9.52,
+          18.898000000000003
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-136d1942b4",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.369,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          17.369,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          3.52,
+          17.369
+        ],
+        [
+          "A12",
+          10.0,
+          17.369
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-13d2274454",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.42,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          14.4,
+          17.42
+        ],
+        [
+          "A2",
+          4.16,
+          17.42
+        ],
+        [
+          "A10",
+          14.4,
+          17.42
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-13eade8b84",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 12.642000000000001,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.36,
+          12.642000000000001
+        ],
+        [
+          "A2",
+          1.36,
+          12.642000000000001
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-13f22130a8",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "ftc-140862e6e0",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 13.585,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.56,
+          13.585
+        ],
+        [
+          "A3",
+          4.8,
+          13.585
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-140ba1132d",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.665,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          2.08,
+          17.665
+        ],
+        [
+          "A2",
+          2.08,
+          17.665
+        ],
+        [
+          "A10",
+          17.92,
+          23.993000000000002
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1444986d92",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.306,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          19.306,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          0.96,
+          19.306
+        ],
+        [
+          "A2",
+          0.96,
+          19.306
+        ],
+        [
+          "A3",
+          6.16,
+          19.306
+        ],
+        [
+          "A10",
+          11.28,
+          19.306
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-14498e4dd5",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 32.841,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          32.841,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          4.8,
+          32.841
+        ],
+        [
+          "A2",
+          20.32,
+          32.841
+        ],
+        [
+          "A3",
+          25.52,
+          32.841
+        ],
+        [
+          "A10",
+          25.52,
+          32.841
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1449eba891",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.580000000000002,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.28,
+          16.580000000000002
+        ],
+        [
+          "A2",
+          7.28,
+          16.580000000000002
+        ],
+        [
+          "A10",
+          16.24,
+          22.289
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1470f51e73",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 21.308,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [
+        [
+          "A7",
+          21.308,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          3.76,
+          21.308
+        ],
+        [
+          "A12",
+          15.04,
+          21.308
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-147672859a",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.703000000000001,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          2.0,
+          14.703000000000001
+        ],
+        [
+          "A2",
+          5.6,
+          14.703000000000001
+        ],
+        [
+          "A10",
+          13.04,
+          19.705000000000002
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-148b3490dd",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 26.559,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.52,
+          26.559
+        ],
+        [
+          "A2",
+          6.56,
+          26.559
+        ],
+        [
+          "A10",
+          17.92,
+          26.559
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1494499e10",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.775,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          11.6,
+          20.775
+        ],
+        [
+          "A10",
+          16.4,
+          20.775
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1496266e8b",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.977,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          22.695,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.2,
+          19.977
+        ],
+        [
+          "A2",
+          6.16,
+          19.977
+        ],
+        [
+          "A3",
+          15.2,
+          22.695
+        ],
+        [
+          "A10",
+          17.44,
+          22.695
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-14bb04956e",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 8.226,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A10",
+          2.64,
+          8.226
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-150d37ae8f",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 19.184,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A12",
+          11.12,
+          19.184
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-151e120bd8",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 27.247,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          8.64,
+          27.247
+        ],
+        [
+          "A2",
+          2.96,
+          27.247
+        ],
+        [
+          "A10",
+          19.92,
+          27.247
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1530fe48f2",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.302000000000001,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          15.302000000000001,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          7.12,
+          15.302000000000001
+        ],
+        [
+          "A2",
+          1.68,
+          15.302000000000001
+        ],
+        [
+          "A3",
+          1.68,
+          15.302000000000001
+        ],
+        [
+          "A10",
+          7.12,
+          15.302000000000001
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1531d34eb1",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.812999999999999,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          14.812999999999999,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.76,
+          14.812999999999999
+        ],
+        [
+          "A2",
+          1.76,
+          14.812999999999999
+        ],
+        [
+          "A3",
+          1.76,
+          14.812999999999999
+        ],
+        [
+          "A10",
+          8.08,
+          14.812999999999999
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-153685edcf",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.649,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          11.76,
+          15.649
+        ],
+        [
+          "A10",
+          14.32,
+          19.89
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-158a025ec0",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.157,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          14.157,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.28,
+          6.096
+        ],
+        [
+          "A12",
+          6.16,
+          14.157
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-15ae29947e",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.64,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          17.64,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          10.4,
+          17.64
+        ],
+        [
+          "A3",
+          0.56,
+          17.64
+        ],
+        [
+          "A10",
+          10.4,
+          17.64
+        ],
+        [
+          "A2",
+          15.76,
+          25.488
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-15c9ecc4f0",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.899,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.84,
+          14.899
+        ],
+        [
+          "A2",
+          8.72,
+          14.899
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-15fe18de1f",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.181,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          20.181,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          0.56,
+          20.181
+        ],
+        [
+          "A2",
+          4.56,
+          20.181
+        ],
+        [
+          "A3",
+          4.56,
+          20.181
+        ],
+        [
+          "A10",
+          14.96,
+          20.181
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-15fe796c0b",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 12.738999999999999,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A10",
+          4.16,
+          12.738999999999999
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-15ff5334e7",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.101,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.72,
+          18.101
+        ],
+        [
+          "A2",
+          4.48,
+          18.101
+        ],
+        [
+          "A10",
+          13.12,
+          18.101
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-166461830e",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.461,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.88,
+          16.461
+        ],
+        [
+          "A2",
+          4.64,
+          16.461
+        ],
+        [
+          "A10",
+          10.8,
+          16.461
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1691bc5c77",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.477,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          9.28,
+          18.477
+        ],
+        [
+          "A2",
+          3.6,
+          18.477
+        ],
+        [
+          "A10",
+          9.28,
+          18.477
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-170830a3df",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.064,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          30.951,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          9.76,
+          16.064
+        ],
+        [
+          "A2",
+          6.32,
+          16.064
+        ],
+        [
+          "A3",
+          23.52,
+          30.951
+        ],
+        [
+          "A10",
+          25.52,
+          30.951
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-17185580c2",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 21.21,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          21.21,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          13.92,
+          21.21
+        ],
+        [
+          "A2",
+          8.0,
+          21.21
+        ],
+        [
+          "A3",
+          12.88,
+          21.21
+        ],
+        [
+          "A10",
+          12.88,
+          21.21
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1719ac69df",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.999,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          14.999,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.68,
+          14.999
+        ],
+        [
+          "A2",
+          6.88,
+          14.999
+        ],
+        [
+          "A3",
+          6.88,
+          14.999
+        ],
+        [
+          "A10",
+          11.12,
+          14.999
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-172d72f547",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 28.642,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          3.76,
+          28.642
+        ],
+        [
+          "A2",
+          3.76,
+          28.642
+        ],
+        [
+          "A10",
+          20.56,
+          28.642
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-174c14ed14",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.963999999999999,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.12,
+          14.963999999999999
+        ],
+        [
+          "A2",
+          6.64,
+          14.963999999999999
+        ],
+        [
+          "A10",
+          18.32,
+          26.730999999999998
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-17967e195c",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.936,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.36,
+          16.936
+        ],
+        [
+          "A2",
+          8.88,
+          16.936
+        ],
+        [
+          "A3",
+          17.68,
+          30.779
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-180c0fc716",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 30.657,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.56,
+          30.657
+        ],
+        [
+          "A2",
+          4.56,
+          30.657
+        ],
+        [
+          "A10",
+          21.44,
+          30.657
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-184057a2c5",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.491,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          17.491,
+          null
+        ],
+        [
+          "A5",
+          24.65,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          0.96,
+          17.491
+        ],
+        [
+          "A12",
+          11.04,
+          17.491
+        ],
+        [
+          "A3",
+          15.68,
+          24.65
+        ],
+        [
+          "A10",
+          19.12,
+          24.65
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-189808e566",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 12.975,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.96,
+          12.975
+        ],
+        [
+          "A2",
+          5.68,
+          12.975
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-18e03a6a18",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.413999999999998,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.64,
+          17.413999999999998
+        ],
+        [
+          "A2",
+          2.8,
+          17.413999999999998
+        ],
+        [
+          "A10",
+          11.52,
+          17.413999999999998
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1917857ad0",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.607000000000001,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.04,
+          14.607000000000001
+        ],
+        [
+          "A2",
+          6.24,
+          14.607000000000001
+        ],
+        [
+          "A10",
+          17.52,
+          26.38
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-19715432d8",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 24.335,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          30.931,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          2.72,
+          24.335
+        ],
+        [
+          "A2",
+          9.6,
+          24.335
+        ],
+        [
+          "A3",
+          23.52,
+          30.931
+        ],
+        [
+          "A10",
+          25.28,
+          30.931
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-197d1a9489",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.557,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.64,
+          15.557
+        ],
+        [
+          "A2",
+          6.88,
+          15.557
+        ],
+        [
+          "A10",
+          18.4,
+          27.016
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-198a6f4268",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.898,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.16,
+          20.898
+        ],
+        [
+          "A2",
+          11.76,
+          20.898
+        ],
+        [
+          "A10",
+          31.28,
+          39.557
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-19a047bbc3",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.75,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          16.226,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.28,
+          16.226
+        ],
+        [
+          "A12",
+          9.52,
+          16.226
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-19b8eac497",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.334000000000001,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          14.334000000000001,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.12,
+          14.334000000000001
+        ],
+        [
+          "A12",
+          7.12,
+          14.334000000000001
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-19bf70d0fd",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 12.996,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          0.8,
+          12.996
+        ],
+        [
+          "A10",
+          5.76,
+          12.996
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-19ced3ed37",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 24.717,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.84,
+          24.717
+        ],
+        [
+          "A2",
+          8.56,
+          24.717
+        ],
+        [
+          "A10",
+          17.28,
+          24.717
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-19fa1348d1",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.315,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          31.173000000000002,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          3.76,
+          18.315
+        ],
+        [
+          "A2",
+          7.84,
+          18.315
+        ],
+        [
+          "A3",
+          25.84,
+          31.173000000000002
+        ],
+        [
+          "A10",
+          25.84,
+          31.173000000000002
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1a31e1064c",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.311,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.28,
+          15.311
+        ],
+        [
+          "A10",
+          10.56,
+          15.311
+        ],
+        [
+          "A12",
+          5.6,
+          15.311
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1a58763cfc",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.754999999999999,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          2.56,
+          14.754999999999999
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1a5efa1d74",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 12.909,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.6,
+          12.909
+        ],
+        [
+          "A2",
+          6.72,
+          12.909
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1aa6c4a91a",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.043,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          0.48,
+          15.043
+        ],
+        [
+          "A10",
+          7.52,
+          15.043
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1ad01ece80",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.081000000000001,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          22.655,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          0.72,
+          14.081000000000001
+        ],
+        [
+          "A2",
+          4.48,
+          14.081000000000001
+        ],
+        [
+          "A3",
+          9.76,
+          14.081000000000001
+        ],
+        [
+          "A10",
+          15.28,
+          22.655
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1b1585800d",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.421,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          5.52,
+          17.421
+        ],
+        [
+          "A10",
+          11.76,
+          17.421
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1b9ca41fb0",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 24.869,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          10.72,
+          24.869
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1b9d5a8ba5",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.824,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          16.824,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.2,
+          16.824
+        ],
+        [
+          "A2",
+          1.2,
+          16.824
+        ],
+        [
+          "A3",
+          1.2,
+          16.824
+        ],
+        [
+          "A10",
+          8.24,
+          16.824
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1bba30ea68",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.191,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          27.329,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.04,
+          18.191
+        ],
+        [
+          "A2",
+          2.4,
+          18.191
+        ],
+        [
+          "A10",
+          9.2,
+          18.191
+        ],
+        [
+          "A3",
+          21.28,
+          27.329
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1bc87caee4",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 7.013,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A12",
+          1.2,
+          7.013
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1bf6b79ac3",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 9.259,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.88,
+          9.259
+        ],
+        [
+          "A2",
+          3.36,
+          9.259
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1c218867cc",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.467000000000002,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.56,
+          17.467000000000002
+        ],
+        [
+          "A2",
+          3.44,
+          17.467000000000002
+        ],
+        [
+          "A10",
+          11.84,
+          17.467000000000002
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1c46bde05f",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 18.708000000000002,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.8,
+          18.708000000000002
+        ],
+        [
+          "A2",
+          8.08,
+          18.708000000000002
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1c616ef794",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 14.823,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          28.969,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.52,
+          14.823
+        ],
+        [
+          "A2",
+          4.0,
+          14.823
+        ],
+        [
+          "A3",
+          4.0,
+          28.969
+        ],
+        [
+          "A10",
+          17.36,
+          28.969
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1c6c22ea66",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.413,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.0,
+          16.413
+        ],
+        [
+          "A2",
+          5.84,
+          16.413
+        ],
+        [
+          "A10",
+          17.6,
+          22.717
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1c8faf139c",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.343000000000004,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.64,
+          20.343000000000004
+        ],
+        [
+          "A2",
+          12.64,
+          20.343000000000004
+        ],
+        [
+          "A10",
+          31.44,
+          39.309
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1caa6074c4",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.401,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.88,
+          19.401
+        ],
+        [
+          "A2",
+          8.64,
+          19.401
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1cd2d330f9",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.732,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          37.356,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A2",
+          2.56,
+          19.732
+        ],
+        [
+          "A3",
+          9.68,
+          19.732
+        ],
+        [
+          "A1",
+          18.4,
+          37.356
+        ],
+        [
+          "A10",
+          30.96,
+          37.356
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1d32dcc6c4",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 9.542,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.2,
+          9.542
+        ],
+        [
+          "A2",
+          1.2,
+          9.542
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1d547c9715",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 15.294,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          22.043000000000003,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          2.96,
+          15.294
+        ],
+        [
+          "A2",
+          8.24,
+          15.294
+        ],
+        [
+          "A3",
+          13.28,
+          22.043000000000003
+        ],
+        [
+          "A10",
+          13.28,
+          22.043000000000003
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1d5c5b6cc9",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 22.241,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          22.241,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          1.2,
+          22.241
+        ],
+        [
+          "A12",
+          4.32,
+          22.241
+        ],
+        [
+          "A8",
+          9.12,
+          25.087
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1d93932d22",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 22.505,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A7",
+          22.505,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          3.84,
+          22.505
+        ],
+        [
+          "A12",
+          16.4,
+          22.505
+        ],
+        [
+          "A3",
+          26.72,
+          32.163
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1da5b4b5ac",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 23.903000000000002,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          23.903000000000002,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          4.0,
+          23.903000000000002
+        ],
+        [
+          "A3",
+          17.6,
+          23.903000000000002
+        ],
+        [
+          "A10",
+          17.76,
+          23.903000000000002
+        ],
+        [
+          "A12",
+          7.92,
+          23.903000000000002
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1e05356d90",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.214,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          7.04,
+          19.214
+        ],
+        [
+          "A10",
+          1.92,
+          19.214
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1e13ba7ef0",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "ftc-1e6ab7c269",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 14.512,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A10",
+          4.32,
+          14.512
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1e713a5c89",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.820999999999998,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.8,
+          20.820999999999998
+        ],
+        [
+          "A2",
+          12.48,
+          20.820999999999998
+        ],
+        [
+          "A10",
+          31.28,
+          39.573
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1e941e6954",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 26.104000000000003,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.32,
+          26.104000000000003
+        ],
+        [
+          "A2",
+          6.48,
+          26.104000000000003
+        ],
+        [
+          "A10",
+          19.28,
+          26.104000000000003
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1ec6cfacaf",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.214000000000002,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A2",
+          2.72,
+          19.214000000000002
+        ],
+        [
+          "A1",
+          2.72,
+          28.718
+        ],
+        [
+          "A10",
+          18.08,
+          28.718
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1f316679eb",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 16.841,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.64,
+          16.841
+        ],
+        [
+          "A2",
+          9.92,
+          16.841
+        ],
+        [
+          "A10",
+          15.6,
+          20.703
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1f784002cc",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.291999999999998,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          4.32,
+          20.291999999999998
+        ],
+        [
+          "A2",
+          6.4,
+          20.291999999999998
+        ],
+        [
+          "A10",
+          19.36,
+          24.585
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1f87cd7c10",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 20.014999999999997,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [
+        [
+          "A5",
+          20.014999999999997,
+          null
+        ]
+      ],
+      "found": [
+        [
+          "A1",
+          7.52,
+          20.014999999999997
+        ],
+        [
+          "A2",
+          14.88,
+          20.014999999999997
+        ],
+        [
+          "A3",
+          0.72,
+          20.014999999999997
+        ],
+        [
+          "A10",
+          7.52,
+          20.014999999999997
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1f8c487eaf",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 29.052,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          2.72,
+          29.052
+        ],
+        [
+          "A2",
+          2.72,
+          29.052
+        ],
+        [
+          "A10",
+          19.6,
+          29.052
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1f9df69582",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 11.72,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          1.28,
+          11.72
+        ],
+        [
+          "A2",
+          5.36,
+          11.72
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1fe0b8eed4",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.04,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          6.88,
+          19.04
+        ],
+        [
+          "A2",
+          14.16,
+          19.04
+        ],
+        [
+          "A10",
+          6.88,
+          19.04
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-1fe0e73240",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 21.969,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          3.28,
+          21.969
+        ],
+        [
+          "A2",
+          14.16,
+          21.969
+        ],
+        [
+          "A3",
+          11.68,
+          21.969
+        ],
+        [
+          "A9",
+          3.28,
+          21.969
+        ],
+        [
+          "A10",
+          14.16,
+          21.969
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-2050adf9b7",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.025,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A12",
+          5.52,
+          17.025
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-20d30df119",
+      "set": "FTC",
+      "is_scam": false,
+      "level": 1,
+      "t_warn": 20.567999999999998,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "sales",
+      "predictions": [],
+      "found": [
+        [
+          "A12",
+          10.16,
+          20.567999999999998
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-219263e5e3",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 17.122,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.56,
+          17.122
+        ],
+        [
+          "A2",
+          9.44,
+          17.122
+        ],
+        [
+          "A10",
+          17.76,
+          23.107
+        ]
+      ]
+    },
+    {
+      "call_id": "ftc-220ab0a4bd",
+      "set": "FTC",
+      "is_scam": true,
+      "level": 1,
+      "t_warn": 19.372,
+      "t_red": null,
+      "t0": null,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "impersonation",
+      "predictions": [],
+      "found": [
+        [
+          "A1",
+          0.56,
+          19.372
+        ],
+        [
+          "A2",
+          8.48,
+          19.372
+        ]
+      ]
+    }
+  ]
+}

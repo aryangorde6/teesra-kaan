@@ -1,0 +1,492 @@
+{
+ "session_id": "voyager/duplex/BA2619B19CE74E15B58D05B61EEDEFA0",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 22.652,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.936
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते,",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.971
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.243
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.645
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.46
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.53
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.941
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.542
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.143
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.442
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ।",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.956
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.749
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.227
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.54
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.93
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.347
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.432
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल गई",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.73
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल गई है।",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल गई है। आज",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.568
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल गई है। आज आपका",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.284
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल गई है। आज आपका खाता",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.75
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल गई है। आज आपका खाता फ्रीज़ हो",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल गई है। आज आपका खाता फ्रीज़ हो जाएगा।",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.577
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल गई है। आज आपका खाता फ्रीज़ हो जाएगा। ",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.301
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 11920,
+   "received": 12.301
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11420,
+   "turnId": 0,
+   "received": 12.301
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11420,
+   "turnId": 0,
+   "transcript": " नमस्ते, मैं पंजाब नेशनल बैंक के मुख्यालय से बोल रही हूँ। आपके खाते की KYC की तारीख निकल गई है। आज आपका खाता फ्रीज़ हो जाएगा। ",
+   "received": 12.301
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11580,
+   "turnId": 1,
+   "received": 12.376
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.376
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.654
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल बैंक",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.145
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल बैंक जाकर",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.745
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल बैंक जाकर करवा",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.948
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल बैंक जाकर करवा दूंगा।",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.667
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल बैंक जाकर करवा दूंगा। ",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.196
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 14880,
+   "received": 15.196
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14380,
+   "turnId": 1,
+   "received": 15.196
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14380,
+   "turnId": 1,
+   "transcript": " मैं कल बैंक जाकर करवा दूंगा। ",
+   "received": 15.196
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14540,
+   "turnId": 2,
+   "received": 15.348
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.747
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.243
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.734
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.94
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.44
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.636
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.741
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.247
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.629
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.145
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ अपना",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.744
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ अपना ATM",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.632
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ अपना ATM कार्ड",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.242
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ अपना ATM कार्ड नंबर",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.53
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ अपना ATM कार्ड नंबर और",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.671
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ अपना ATM कार्ड नंबर और CVV",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 22.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ अपना ATM कार्ड नंबर और CVV बताइए।",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.569
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ अपना ATM कार्ड नंबर और CVV बताइए। ",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.08
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 22720,
+   "received": 23.08
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22220,
+   "turnId": 2,
+   "received": 23.08
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22220,
+   "turnId": 2,
+   "transcript": " कल तक तो खाता बंद हो जाएगा सर मैं यहीं से कर देती हूँ अपना ATM कार्ड नंबर और CVV बताइए। ",
+   "received": 23.08
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 22720,
+   "received": 23.122
+  }
+ ]
+}

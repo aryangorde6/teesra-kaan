@@ -1,0 +1,733 @@
+{
+ "session_id": "voyager/duplex/13474AE373354A368407F1FB2BE294B5",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 35.721,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " which",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.841
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.13
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.685
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.986
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.512
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.631
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.389
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 8.988
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas.",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.899
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.892
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message,",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.702
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.312
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 14.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.794
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your case",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.149
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your case and",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 15.991
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your case and take",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your case and take necessary",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.904
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your case and take necessary action on",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.311
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your case and take necessary action on this",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your case and take necessary action on this matter.",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.919
+  },
+  {
+   "type": "transcript",
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. ",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.33
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18080,
+   "received": 18.33
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17580,
+   "turnId": 0,
+   "received": 18.33
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17580,
+   "turnId": 0,
+   "transcript": " which you is to let you know that your social security number has been used for some kind of fraudulent activities. In the south border of Texas. The very second you receive this message, you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. ",
+   "received": 18.33
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 17820,
+   "turnId": 1,
+   "received": 18.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " In",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.296
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.666
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 19.99
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer,",
+   "final": false,
+   "audioProcessedMs": 20800,
+   "received": 21.028
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.798
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.708
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.01
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.424
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 24.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.095
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer.",
+   "final": false,
+   "audioProcessedMs": 25440,
+   "received": 25.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.31
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from",
+   "final": false,
+   "audioProcessedMs": 26640,
+   "received": 26.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you",
+   "final": false,
+   "audioProcessedMs": 27200,
+   "received": 27.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we",
+   "final": false,
+   "audioProcessedMs": 27520,
+   "received": 27.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.197
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be",
+   "final": false,
+   "audioProcessedMs": 28080,
+   "received": 28.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced",
+   "final": false,
+   "audioProcessedMs": 28160,
+   "received": 28.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.692
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal",
+   "final": false,
+   "audioProcessedMs": 29040,
+   "received": 29.336
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action",
+   "final": false,
+   "audioProcessedMs": 29520,
+   "received": 29.801
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against",
+   "final": false,
+   "audioProcessedMs": 29840,
+   "received": 30.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you",
+   "final": false,
+   "audioProcessedMs": 30320,
+   "received": 30.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I",
+   "final": false,
+   "audioProcessedMs": 30960,
+   "received": 31.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat",
+   "final": false,
+   "audioProcessedMs": 31280,
+   "received": 31.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press",
+   "final": false,
+   "audioProcessedMs": 31680,
+   "received": 31.9
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to",
+   "final": false,
+   "audioProcessedMs": 32320,
+   "received": 32.609
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect",
+   "final": false,
+   "audioProcessedMs": 32640,
+   "received": 32.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the",
+   "final": false,
+   "audioProcessedMs": 32800,
+   "received": 33.01
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the concern",
+   "final": false,
+   "audioProcessedMs": 33520,
+   "received": 33.794
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the concern department",
+   "final": false,
+   "audioProcessedMs": 33920,
+   "received": 34.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the concern department officer",
+   "final": false,
+   "audioProcessedMs": 34720,
+   "received": 34.99
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the concern department officer thank",
+   "final": false,
+   "audioProcessedMs": 35040,
+   "received": 35.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the concern department officer thank you",
+   "final": false,
+   "audioProcessedMs": 35200,
+   "received": 35.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the concern department officer thank you have",
+   "final": false,
+   "audioProcessedMs": 35520,
+   "received": 35.797
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the concern department officer thank you have a",
+   "final": false,
+   "audioProcessedMs": 35680,
+   "received": 35.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the concern department officer thank you have a nice day ",
+   "final": false,
+   "audioProcessedMs": 35760,
+   "received": 36.164
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 35760,
+   "received": 36.164
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 35260,
+   "turnId": 1,
+   "received": 36.164
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 35260,
+   "turnId": 1,
+   "transcript": " In order to connect to the government officer, press 1 and you will be connected to the concern department officer. If we don't hear from you then we will be forced to take legal action against you I repeat press 1 to connect to the concern department officer thank you have a nice day ",
+   "received": 36.164
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 35760,
+   "received": 36.18
+  }
+ ]
+}

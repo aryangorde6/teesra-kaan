@@ -1,0 +1,607 @@
+{
+ "session_id": "voyager/duplex/DCE41BA215024C1DB0FA5A623F8EB787",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 33.86375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.655
+  },
+  {
+   "type": "transcript",
+   "transcript": " to",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.165
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.369
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.67
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.045
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.072
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.871
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.07
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.482
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.482
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.362
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.644
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes.",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.305
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.222
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.638
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.047
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account,",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.438
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.695
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.267
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with a",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.38
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with a representative",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.465
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with a representative please",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with a representative please press",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with a representative please press 1",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.783
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with a representative please press 1 thank",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.049
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with a representative please press 1 thank you",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.266
+  },
+  {
+   "type": "transcript",
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with a representative please press 1 thank you ",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.023
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12720,
+   "received": 13.023
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12220,
+   "turnId": 0,
+   "received": 13.023
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12220,
+   "turnId": 0,
+   "transcript": " to inform you that you will be experiencing a disconnection of service today within 30 minutes. due to non-payment on the account, please press 1 to speak with a representative please press 1 thank you ",
+   "received": 13.023
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14300,
+   "turnId": 1,
+   "received": 14.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.789
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.569
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.773
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 16.968
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.677
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.467
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 18.976
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.154
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.879
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.159
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.851
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.476
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.771
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.371
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.561
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.668
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 23.883
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.76
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a",
+   "final": false,
+   "audioProcessedMs": 24720,
+   "received": 24.968
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of",
+   "final": false,
+   "audioProcessedMs": 25440,
+   "received": 25.683
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.283
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.308
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes",
+   "final": false,
+   "audioProcessedMs": 27120,
+   "received": 27.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 28.023
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.658
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on",
+   "final": false,
+   "audioProcessedMs": 28800,
+   "received": 29.004
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the",
+   "final": false,
+   "audioProcessedMs": 28880,
+   "received": 29.127
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account",
+   "final": false,
+   "audioProcessedMs": 29120,
+   "received": 29.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please",
+   "final": false,
+   "audioProcessedMs": 29920,
+   "received": 30.261
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press",
+   "final": false,
+   "audioProcessedMs": 30240,
+   "received": 30.465
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1",
+   "final": false,
+   "audioProcessedMs": 30320,
+   "received": 30.571
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to",
+   "final": false,
+   "audioProcessedMs": 30480,
+   "received": 30.679
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to speak with",
+   "final": false,
+   "audioProcessedMs": 31120,
+   "received": 31.413
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to speak with a",
+   "final": false,
+   "audioProcessedMs": 31200,
+   "received": 31.423
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to speak with a representative",
+   "final": false,
+   "audioProcessedMs": 31840,
+   "received": 32.065
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to speak with a representative please",
+   "final": false,
+   "audioProcessedMs": 32880,
+   "received": 33.06
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to speak with a representative please press",
+   "final": false,
+   "audioProcessedMs": 33200,
+   "received": 33.375
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to speak with a representative please press 1",
+   "final": false,
+   "audioProcessedMs": 33600,
+   "received": 33.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to speak with a representative please press 1 thank",
+   "final": false,
+   "audioProcessedMs": 33840,
+   "received": 34.053
+  },
+  {
+   "type": "transcript",
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to speak with a representative please press 1 thank you ",
+   "final": false,
+   "audioProcessedMs": 33920,
+   "received": 34.228
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 33920,
+   "received": 34.228
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 33420,
+   "turnId": 1,
+   "received": 34.228
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 33420,
+   "turnId": 1,
+   "transcript": " greetings this is an automated message from the disconnection department of Jersey Central Power and Light electricity company to inform you that you will be experiencing a disconnection of service today within 30 minutes due to non-payment on the account please press 1 to speak with a representative please press 1 thank you ",
+   "received": 34.228
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 33920,
+   "received": 34.246
+  }
+ ]
+}

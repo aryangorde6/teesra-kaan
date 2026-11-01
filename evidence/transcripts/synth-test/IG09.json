@@ -1,0 +1,457 @@
+{
+ "session_id": "voyager/duplex/02D73EFE713B4B61BA085941F026A775",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 23.1,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 0.959
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते,",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.459
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.069
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.361
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.771
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.769
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.962
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ,",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.175
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ, आपके",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.269
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ, आपके पासपोर्ट",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.675
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ, आपके पासपोर्ट वेरिफिकेशन",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ, आपके पासपोर्ट वेरिफिकेशन के",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 8.963
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ, आपके पासपोर्ट वेरिफिकेशन के लिए",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.254
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ, आपके पासपोर्ट वेरिफिकेशन के लिए कॉल किया",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.765
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ, आपके पासपोर्ट वेरिफिकेशन के लिए कॉल किया है।",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.905
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ, आपके पासपोर्ट वेरिफिकेशन के लिए कॉल किया है। ",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.699
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10480,
+   "received": 10.699
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9980,
+   "turnId": 0,
+   "received": 10.699
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9980,
+   "turnId": 0,
+   "transcript": " नमस्ते, मैं विक्रोली पुलिस स्टेशन से कांस्टेबल पवार बोल रहा हूँ, आपके पासपोर्ट वेरिफिकेशन के लिए कॉल किया है। ",
+   "received": 10.699
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 10060,
+   "turnId": 1,
+   "received": 10.779
+  },
+  {
+   "type": "transcript",
+   "transcript": " जी,",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.779
+  },
+  {
+   "type": "transcript",
+   "transcript": " जी, बताइए।",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " जी, बताइए। ",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.411
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 12160,
+   "received": 12.411
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11660,
+   "turnId": 1,
+   "received": 12.411
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11660,
+   "turnId": 1,
+   "transcript": " जी, बताइए। ",
+   "received": 12.411
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11900,
+   "turnId": 2,
+   "received": 12.589
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.589
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.367
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.769
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.549
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.373
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड,",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.872
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.877
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.057
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.259
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.859
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.071
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.479
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 18.963
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.262
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 19.954
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए,",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.494
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए, साथ में",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.663
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए, साथ में कोई",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.356
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए, साथ में कोई पड़ोसी",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.571
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए, साथ में कोई पड़ोसी गवाह",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.171
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए, साथ में कोई पड़ोसी गवाह हो",
+   "final": false,
+   "audioProcessedMs": 22000,
+   "received": 22.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए, साथ में कोई पड़ोसी गवाह हो तो",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.249
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए, साथ में कोई पड़ोसी गवाह हो तो अच्छा है।",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 22.979
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए, साथ में कोई पड़ोसी गवाह हो तो अच्छा है। ",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.384
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23120,
+   "received": 23.384
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22620,
+   "turnId": 2,
+   "received": 23.384
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22620,
+   "turnId": 2,
+   "transcript": " कल सुबह ग्यारह बजे अपना आधार कार्ड, पुराने पते का प्रमाण और दो फोटो लेकर थाने आ जाइए, साथ में कोई पड़ोसी गवाह हो तो अच्छा है। ",
+   "received": 23.384
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 23120,
+   "received": 23.433
+  }
+ ]
+}

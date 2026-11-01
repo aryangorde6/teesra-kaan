@@ -1,0 +1,323 @@
+{
+ "session_id": "voyager/duplex/6C8B6987262F4836BBC7D51B60187304",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 16.98375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " for",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 1.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.694
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.849
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.996
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.109
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.007
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information.",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.489
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.007
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.904
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.632
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.906
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1 thank",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1 thank you",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1 thank you you",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1 thank you you and",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.61
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1 thank you you and have",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.639
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1 thank you you and have a",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1 thank you you and have a great",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.321
+  },
+  {
+   "type": "transcript",
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1 thank you you and have a great day ",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.414
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 17040,
+   "received": 17.414
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 16540,
+   "turnId": 0,
+   "received": 17.414
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 16540,
+   "turnId": 0,
+   "transcript": " for some kind of fraudulent activities in the South border of Texas so please in order go ahead get more information. To speak with officer press 1 I repeat press 1 thank you you and have a great day ",
+   "received": 17.414
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 17040,
+   "received": 17.435
+  }
+ ]
+}

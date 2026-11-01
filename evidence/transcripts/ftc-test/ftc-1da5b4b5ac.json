@@ -1,0 +1,400 @@
+{
+ "session_id": "voyager/duplex/C7380E5AE19A4168A6B1DC33E6182337",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 29.96,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 3500,
+   "turnId": 0,
+   "received": 4.252
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi,",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.252
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.85
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.035
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.238
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.436
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.648
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.244
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.113
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.136
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.852
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.883
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.936
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.242
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.636
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.655
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0%",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.266
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.646
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.352
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.522
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.43
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.637
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.025
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.528
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.632
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.248
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.735
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.34
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.935
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.237
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.652
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.74
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.142
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.445
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.834
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please press",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please press 1",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.646
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please press 1 now",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.732
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please press 1 now to",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.847
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please press 1 now to talk",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.232
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please press 1 now to talk to",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.532
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please press 1 now to talk to representative",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please press 1 now to talk to representative ",
+   "final": false,
+   "audioProcessedMs": 22160,
+   "received": 22.46
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 22160,
+   "received": 22.46
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21660,
+   "turnId": 0,
+   "received": 22.46
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21660,
+   "turnId": 0,
+   "transcript": " Hi, this is Alex from Bank of America calling about your existing credit existing credit card Bank of America offering 0% interest rate on your existing credit card to check your eligibility press 1 now and if you don't respond Bank of America will cancel this promotion so please press 1 now to talk to representative ",
+   "received": 22.46
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 30000,
+   "received": 30.367
+  }
+ ]
+}

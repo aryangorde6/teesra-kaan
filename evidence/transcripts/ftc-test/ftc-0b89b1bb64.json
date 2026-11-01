@@ -1,0 +1,362 @@
+{
+ "session_id": "voyager/duplex/4A7DB5B270E348D081A4481E7C60BE35",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 14.38675,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.67
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings.",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 1.965
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.083
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.176
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 2.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.378
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.092
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.293
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.373
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.582
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.063
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.075
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.177
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.666
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.767
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.776
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 9.97
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.074
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.275
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.471
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.879
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes.",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.252
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.253
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press 1",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.586
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press 1 to",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 12.972
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press 1 to speak speak",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 12.998
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press 1 to speak speak to",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.072
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press 1 to speak speak to a",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.27
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press 1 to speak speak to a representative.",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.087
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press 1 to speak speak to a representative. ",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.214
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14000,
+   "received": 14.214
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13500,
+   "turnId": 0,
+   "received": 14.214
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13500,
+   "turnId": 0,
+   "transcript": " Greetings. This is an automated message from the disconnection department of San Diego Gas and Electric to inform you that you will be experiencing a disconnection of service today within 30 minutes. Please press 1 to speak speak to a representative. ",
+   "received": 14.214
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 13660,
+   "turnId": 1,
+   "received": 14.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you. ",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.75
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14400,
+   "received": 14.75
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13900,
+   "turnId": 1,
+   "received": 14.75
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13900,
+   "turnId": 1,
+   "transcript": " Thank you. ",
+   "received": 14.75
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 14400,
+   "received": 14.772
+  }
+ ]
+}

@@ -1,0 +1,428 @@
+{
+ "session_id": "voyager/duplex/0B690388E2E644D8943E03BD96BF82FE",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 19.341875,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.788
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.709
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.389
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.296
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.522
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.214
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.23
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.254
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.097
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.243
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.619
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.917
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.812
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.119
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.117
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.015
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.693
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive or",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive or press",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive or press 2",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.411
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive or press 2 to",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive or press 2 to allow the",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive or press 2 to allow the transaction",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive or press 2 to allow the transaction thank",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.519
+  },
+  {
+   "type": "transcript",
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive or press 2 to allow the transaction thank you ",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.761
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19360,
+   "received": 19.761
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18860,
+   "turnId": 0,
+   "received": 19.761
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18860,
+   "turnId": 0,
+   "transcript": " plus on your account which is built on your card attached to your Amazon account the amount charged is $149 we noticed some suspicious activity on your account so we have put on hold this transaction please press 1 now to speak to our Amazon customer executive or press 2 to allow the transaction thank you ",
+   "received": 19.761
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 19360,
+   "received": 19.776
+  }
+ ]
+}

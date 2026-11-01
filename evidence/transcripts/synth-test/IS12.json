@@ -1,0 +1,576 @@
+{
+ "session_id": "voyager/duplex/0A0EA63A944A451DA6DC2D7BFB3662F3",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 33.534625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.869
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.269
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening,",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir.",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 1.978
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.665
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 2.977
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.377
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.878
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.474
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.57
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department.",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.974
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.779
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.269
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.19
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.296
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.332
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been used",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been used for an",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been used for an international",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been used for an international transaction",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been used for an international transaction of",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.906
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been used for an international transaction of 48,000",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.411
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been used for an international transaction of 48,000 rupees.",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been used for an international transaction of 48,000 rupees. ",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.21
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 16000,
+   "received": 16.21
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15500,
+   "turnId": 0,
+   "received": 16.21
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15500,
+   "turnId": 0,
+   "transcript": " Good evening, sir. I'm calling from HDFC bank credit card department. Your card ending 4471 has been used for an international transaction of 48,000 rupees. ",
+   "received": 16.21
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15660,
+   "turnId": 1,
+   "received": 16.38
+  },
+  {
+   "type": "transcript",
+   "transcript": " What?",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 16.988
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I didn't do",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I didn't do any",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I didn't do any transaction.",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I didn't do any transaction. ",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.81
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 18560,
+   "received": 18.81
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18060,
+   "turnId": 1,
+   "received": 18.81
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18060,
+   "turnId": 1,
+   "transcript": " What? I didn't do any transaction. ",
+   "received": 18.81
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 18380,
+   "turnId": 2,
+   "received": 19.096
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.096
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.572
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir,",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.799
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.832
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.174
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.785
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 20.985
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now.",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For",
+   "final": false,
+   "audioProcessedMs": 21680,
+   "received": 21.871
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you.",
+   "final": false,
+   "audioProcessedMs": 23520,
+   "received": 23.776
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.672
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell",
+   "final": false,
+   "audioProcessedMs": 24720,
+   "received": 24.97
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 25.01
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the",
+   "final": false,
+   "audioProcessedMs": 25040,
+   "received": 25.282
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card",
+   "final": false,
+   "audioProcessedMs": 25280,
+   "received": 25.46
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number",
+   "final": false,
+   "audioProcessedMs": 25520,
+   "received": 25.776
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and",
+   "final": false,
+   "audioProcessedMs": 25600,
+   "received": 25.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date.",
+   "final": false,
+   "audioProcessedMs": 26720,
+   "received": 27.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll",
+   "final": false,
+   "audioProcessedMs": 28240,
+   "received": 28.491
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.692
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP.",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.707
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it",
+   "final": false,
+   "audioProcessedMs": 30560,
+   "received": 30.786
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out",
+   "final": false,
+   "audioProcessedMs": 30880,
+   "received": 31.07
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out to",
+   "final": false,
+   "audioProcessedMs": 30960,
+   "received": 31.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out to me",
+   "final": false,
+   "audioProcessedMs": 31440,
+   "received": 31.685
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out to me so",
+   "final": false,
+   "audioProcessedMs": 31520,
+   "received": 31.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out to me so I can",
+   "final": false,
+   "audioProcessedMs": 31760,
+   "received": 31.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out to me so I can block the",
+   "final": false,
+   "audioProcessedMs": 32320,
+   "received": 32.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out to me so I can block the card",
+   "final": false,
+   "audioProcessedMs": 32400,
+   "received": 32.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out to me so I can block the card immediately.",
+   "final": false,
+   "audioProcessedMs": 33200,
+   "received": 33.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out to me so I can block the card immediately. ",
+   "final": false,
+   "audioProcessedMs": 33360,
+   "received": 33.622
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 33360,
+   "received": 33.622
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 32860,
+   "turnId": 2,
+   "received": 33.622
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 32860,
+   "turnId": 2,
+   "transcript": " Don't worry sir, I can block it right now. For that I need to verify you. Please tell me the card number and expiry date. Now you'll receive an OTP. please read it out to me so I can block the card immediately. ",
+   "received": 33.622
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 33600,
+   "received": 33.898
+  }
+ ]
+}

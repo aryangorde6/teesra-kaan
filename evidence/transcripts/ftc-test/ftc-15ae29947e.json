@@ -1,0 +1,530 @@
+{
+ "session_id": "voyager/duplex/3654FAED3C164105A3208E278FCEAE99",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 23.627875,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.874
+  },
+  {
+   "type": "transcript",
+   "transcript": " the",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.874
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 1.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.259
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.45
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.182
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.591
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.142
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.237
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.456
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.485
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.041
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.546
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.466
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.888
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.231
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.952
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.531
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.74
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.833
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.341
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter.",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.851
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.64
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.843
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.438
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.541
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.131
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.441
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.149
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.347
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department.",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.454
+  },
+  {
+   "type": "transcript",
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. ",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.102
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15760,
+   "received": 16.102
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15260,
+   "turnId": 0,
+   "received": 16.102
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15260,
+   "turnId": 0,
+   "transcript": " the very very second you receive this message you need to leave your work aside so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. ",
+   "received": 16.102
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15260,
+   "turnId": 1,
+   "received": 16.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " If",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.241
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.646
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.744
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.461
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.161
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.361
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.443
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 20.033
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.465
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you.",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.658
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you. Press",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.777
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you. Press one",
+   "final": false,
+   "audioProcessedMs": 21680,
+   "received": 21.96
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you. Press one and you",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 22.078
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you. Press one and you will be",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.365
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you. Press one and you will be connected",
+   "final": false,
+   "audioProcessedMs": 22640,
+   "received": 22.955
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you. Press one and you will be connected to",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.078
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you. Press one and you will be connected to the",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.507
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you. Press one and you will be connected to the concerned department. ",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 24.163
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23680,
+   "received": 24.163
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23180,
+   "turnId": 1,
+   "received": 24.163
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23180,
+   "turnId": 1,
+   "transcript": " If we don't hear from you then we will be forced to take legal action against you. Press one and you will be connected to the concerned department. ",
+   "received": 24.163
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 23680,
+   "received": 24.181
+  }
+ ]
+}

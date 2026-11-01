@@ -1,0 +1,502 @@
+{
+ "session_id": "voyager/duplex/95FD4B18FF0F4F1FB49D18E99654C9B8",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 22.76625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.58
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi.",
+   "final": false,
+   "audioProcessedMs": 480,
+   "received": 0.693
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.677
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.782
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 1.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.991
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.072
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.382
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 4.985
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.388
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.973
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.679
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.249
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.387
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle.",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.866
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.382
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.473
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.188
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.379
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history.",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.785
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.27
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.466
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.182
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.222
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.295
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a 0%",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a 0% interest rate on",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a 0% interest rate on all",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.171
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a 0% interest rate on all your",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a 0% interest rate on all your credit",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a 0% interest rate on all your credit card",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a 0% interest rate on all your credit card accounts.",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.187
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a 0% interest rate on all your credit card accounts. ",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 16.017
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15680,
+   "received": 16.017
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15180,
+   "turnId": 0,
+   "received": 16.017
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15180,
+   "turnId": 0,
+   "transcript": " Hi. This is the alert system with Visa Visa Mastercard account services with important changes to your account before the next billing cycle. Congratulations on your excellent payment history. You now qualify for a 0% interest rate on all your credit card accounts. ",
+   "received": 16.017
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15180,
+   "turnId": 1,
+   "received": 16.017
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 16.017
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.256
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.337
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.461
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.847
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.057
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.731
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.032
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately.",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.451
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1 now",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.923
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1 now to speak",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.144
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1 now to speak to our",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.474
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1 now to speak to our qualification",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.26
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1 now to speak to our qualification department and",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1 now to speak to our qualification department and complete the",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.473
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1 now to speak to our qualification department and complete the enrollment",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.662
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1 now to speak to our qualification department and complete the enrollment process. ",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.144
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 22800,
+   "received": 23.144
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22300,
+   "turnId": 1,
+   "received": 23.144
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22300,
+   "turnId": 1,
+   "transcript": " This is a limited time offer and you must respond immediately. Press 1 now to speak to our qualification department and complete the enrollment process. ",
+   "received": 23.144
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 22800,
+   "received": 23.161
+  }
+ ]
+}

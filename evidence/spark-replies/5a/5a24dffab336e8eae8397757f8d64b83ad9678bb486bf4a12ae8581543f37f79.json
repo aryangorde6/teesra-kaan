@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"billed on your card attached to your Amazon account.\"}, {\"id\": \"A2\", \"quote\": \"We noticed some suspicious activity on your account so we have put on hold this transaction.\"}]}", "input_tokens": 960, "output_tokens": 533, "latency": 2.015}

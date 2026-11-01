@@ -1,0 +1,1089 @@
+{
+ "session_id": "voyager/duplex/6E0B950CB16541E98A49A90FF7302620",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 55.476,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.041
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.859
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.833
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.992
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.752
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.717
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.197
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.113
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ क्या",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ क्या आप",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ क्या आप सुरेश",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ क्या आप सुरेश कुमार जी",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ क्या आप सुरेश कुमार जी बोल रहे",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.413
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ क्या आप सुरेश कुमार जी बोल रहे हैं",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ क्या आप सुरेश कुमार जी बोल रहे हैं ",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.329
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10080,
+   "received": 10.329
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9580,
+   "turnId": 0,
+   "received": 10.329
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9580,
+   "turnId": 0,
+   "transcript": " नमस्ते मैं दिल्ली पुलिस साइबर सेल से इंस्पेक्टर राकेश यादव बोल रहा हूँ क्या आप सुरेश कुमार जी बोल रहे हैं ",
+   "received": 10.329
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 9660,
+   "turnId": 1,
+   "received": 10.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ बोलिए",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.023
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ बोलिए क्या",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ बोलिए क्या बात",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ बोलिए क्या बात है",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ बोलिए क्या बात है ",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.634
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 12320,
+   "received": 12.635
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11820,
+   "turnId": 1,
+   "received": 12.635
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11820,
+   "turnId": 1,
+   "transcript": " हाँ बोलिए क्या बात है ",
+   "received": 12.635
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12140,
+   "turnId": 2,
+   "received": 12.907
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.797
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.495
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.313
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.842
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.489
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है आपके",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है आपके नाम",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.708
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है आपके नाम पर",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है आपके नाम पर केस",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.232
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है आपके नाम पर केस दर्ज",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.628
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है आपके नाम पर केस दर्ज हुआ",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.841
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है आपके नाम पर केस दर्ज हुआ है",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.029
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है आपके नाम पर केस दर्ज हुआ है ",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 22.077
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 21760,
+   "received": 22.077
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21260,
+   "turnId": 2,
+   "received": 22.077
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21260,
+   "turnId": 2,
+   "transcript": " आपके आधार नंबर से एक बैंक खाता खुला है जिसमें मनी लॉन्ड्रिंग का पैसा आया है आपके नाम पर केस दर्ज हुआ है ",
+   "received": 22.077
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 21340,
+   "turnId": 3,
+   "received": 22.149
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.307
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने तो",
+   "final": false,
+   "audioProcessedMs": 22160,
+   "received": 22.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने तो ऐसा",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.029
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने तो ऐसा कोई",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.429
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने तो ऐसा कोई खाता नहीं",
+   "final": false,
+   "audioProcessedMs": 24000,
+   "received": 24.229
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने तो ऐसा कोई खाता नहीं खोला",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने तो ऐसा कोई खाता नहीं खोला ",
+   "final": false,
+   "audioProcessedMs": 25040,
+   "received": 25.332
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 25040,
+   "received": 25.332
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 24540,
+   "turnId": 3,
+   "received": 25.332
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 24540,
+   "turnId": 3,
+   "transcript": " मैंने तो ऐसा कोई खाता नहीं खोला ",
+   "received": 25.332
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 24620,
+   "turnId": 4,
+   "received": 25.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.443
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI",
+   "final": false,
+   "audioProcessedMs": 25840,
+   "received": 26.093
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.389
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला",
+   "final": false,
+   "audioProcessedMs": 26480,
+   "received": 26.708
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है",
+   "final": false,
+   "audioProcessedMs": 26720,
+   "received": 27.015
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको",
+   "final": false,
+   "audioProcessedMs": 27840,
+   "received": 28.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी",
+   "final": false,
+   "audioProcessedMs": 27920,
+   "received": 28.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो",
+   "final": false,
+   "audioProcessedMs": 28640,
+   "received": 28.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर",
+   "final": false,
+   "audioProcessedMs": 29040,
+   "received": 29.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.283
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना",
+   "final": false,
+   "audioProcessedMs": 30240,
+   "received": 30.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा",
+   "final": false,
+   "audioProcessedMs": 30560,
+   "received": 30.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा",
+   "final": false,
+   "audioProcessedMs": 31200,
+   "received": 31.433
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू",
+   "final": false,
+   "audioProcessedMs": 31520,
+   "received": 31.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए",
+   "final": false,
+   "audioProcessedMs": 32080,
+   "received": 32.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और",
+   "final": false,
+   "audioProcessedMs": 32480,
+   "received": 32.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में",
+   "final": false,
+   "audioProcessedMs": 32880,
+   "received": 33.123
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए",
+   "final": false,
+   "audioProcessedMs": 33840,
+   "received": 34.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस",
+   "final": false,
+   "audioProcessedMs": 34720,
+   "received": 35.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे",
+   "final": false,
+   "audioProcessedMs": 34960,
+   "received": 35.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में",
+   "final": false,
+   "audioProcessedMs": 35440,
+   "received": 35.693
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने",
+   "final": false,
+   "audioProcessedMs": 36080,
+   "received": 36.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को",
+   "final": false,
+   "audioProcessedMs": 36560,
+   "received": 36.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ",
+   "final": false,
+   "audioProcessedMs": 36960,
+   "received": 37.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत",
+   "final": false,
+   "audioProcessedMs": 37360,
+   "received": 37.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए",
+   "final": false,
+   "audioProcessedMs": 37680,
+   "received": 37.928
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए नहीं",
+   "final": false,
+   "audioProcessedMs": 38400,
+   "received": 38.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए नहीं तो",
+   "final": false,
+   "audioProcessedMs": 38800,
+   "received": 39.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए नहीं तो उन",
+   "final": false,
+   "audioProcessedMs": 39280,
+   "received": 39.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए नहीं तो उन पर",
+   "final": false,
+   "audioProcessedMs": 39360,
+   "received": 39.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए नहीं तो उन पर भी",
+   "final": false,
+   "audioProcessedMs": 39600,
+   "received": 39.807
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए नहीं तो उन पर भी कार्यवाही",
+   "final": false,
+   "audioProcessedMs": 40000,
+   "received": 40.223
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए नहीं तो उन पर भी कार्यवाही होगी",
+   "final": false,
+   "audioProcessedMs": 40560,
+   "received": 40.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए नहीं तो उन पर भी कार्यवाही होगी ",
+   "final": false,
+   "audioProcessedMs": 41040,
+   "received": 41.333
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 41040,
+   "received": 41.333
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 40540,
+   "turnId": 4,
+   "received": 41.333
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 40540,
+   "turnId": 4,
+   "transcript": " यह CBI का मामला है आपको अभी वीडियो कॉल पर बयान देना होगा कैमरा चालू रखिए और कमरे में अकेले रहिए इस बारे में अपने परिवार को कुछ मत बताइए नहीं तो उन पर भी कार्यवाही होगी ",
+   "received": 41.333
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 40620,
+   "turnId": 5,
+   "received": 41.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक",
+   "final": false,
+   "audioProcessedMs": 41360,
+   "received": 41.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है",
+   "final": false,
+   "audioProcessedMs": 41760,
+   "received": 42.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है लेकिन",
+   "final": false,
+   "audioProcessedMs": 42080,
+   "received": 42.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है लेकिन मुझे",
+   "final": false,
+   "audioProcessedMs": 42480,
+   "received": 42.692
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है लेकिन मुझे डर लग",
+   "final": false,
+   "audioProcessedMs": 43040,
+   "received": 43.307
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है लेकिन मुझे डर लग रहा",
+   "final": false,
+   "audioProcessedMs": 43600,
+   "received": 43.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है लेकिन मुझे डर लग रहा है",
+   "final": false,
+   "audioProcessedMs": 43680,
+   "received": 43.9
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है लेकिन मुझे डर लग रहा है ",
+   "final": false,
+   "audioProcessedMs": 44320,
+   "received": 44.637
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 44320,
+   "received": 44.637
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 43820,
+   "turnId": 5,
+   "received": 44.638
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 43820,
+   "turnId": 5,
+   "transcript": " ठीक है लेकिन मुझे डर लग रहा है ",
+   "received": 44.638
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 43900,
+   "turnId": 6,
+   "received": 44.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए",
+   "final": false,
+   "audioProcessedMs": 44720,
+   "received": 45.017
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत",
+   "final": false,
+   "audioProcessedMs": 45280,
+   "received": 45.507
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच",
+   "final": false,
+   "audioProcessedMs": 45440,
+   "received": 45.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी",
+   "final": false,
+   "audioProcessedMs": 45680,
+   "received": 45.905
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने",
+   "final": false,
+   "audioProcessedMs": 46240,
+   "received": 46.482
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक",
+   "final": false,
+   "audioProcessedMs": 46320,
+   "received": 46.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके",
+   "final": false,
+   "audioProcessedMs": 46960,
+   "received": 47.183
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते",
+   "final": false,
+   "audioProcessedMs": 47360,
+   "received": 47.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का",
+   "final": false,
+   "audioProcessedMs": 47520,
+   "received": 47.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा",
+   "final": false,
+   "audioProcessedMs": 48000,
+   "received": 48.217
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा",
+   "final": false,
+   "audioProcessedMs": 48560,
+   "received": 48.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI",
+   "final": false,
+   "audioProcessedMs": 49360,
+   "received": 49.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के",
+   "final": false,
+   "audioProcessedMs": 49520,
+   "received": 49.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित",
+   "final": false,
+   "audioProcessedMs": 50160,
+   "received": 50.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते",
+   "final": false,
+   "audioProcessedMs": 50720,
+   "received": 51.007
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में",
+   "final": false,
+   "audioProcessedMs": 50800,
+   "received": 51.035
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर",
+   "final": false,
+   "audioProcessedMs": 51680,
+   "received": 51.912
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना",
+   "final": false,
+   "audioProcessedMs": 52240,
+   "received": 52.494
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना होगा",
+   "final": false,
+   "audioProcessedMs": 52640,
+   "received": 52.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना होगा जांच के",
+   "final": false,
+   "audioProcessedMs": 53280,
+   "received": 53.56
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना होगा जांच के बाद",
+   "final": false,
+   "audioProcessedMs": 53760,
+   "received": 54.016
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना होगा जांच के बाद पैसा",
+   "final": false,
+   "audioProcessedMs": 54320,
+   "received": 54.649
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना होगा जांच के बाद पैसा वापस",
+   "final": false,
+   "audioProcessedMs": 54640,
+   "received": 54.929
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना होगा जांच के बाद पैसा वापस मिल",
+   "final": false,
+   "audioProcessedMs": 54800,
+   "received": 55.044
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना होगा जांच के बाद पैसा वापस मिल जाएगा",
+   "final": false,
+   "audioProcessedMs": 55040,
+   "received": 55.337
+  },
+  {
+   "type": "transcript",
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना होगा जांच के बाद पैसा वापस मिल जाएगा ",
+   "final": false,
+   "audioProcessedMs": 55520,
+   "received": 55.849
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 55520,
+   "received": 55.849
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 55020,
+   "turnId": 6,
+   "received": 55.849
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 55020,
+   "turnId": 6,
+   "transcript": " डरिए मत जांच पूरी होने तक आपके खाते का सारा पैसा RBI के सुरक्षित खाते में ट्रांसफर करना होगा जांच के बाद पैसा वापस मिल जाएगा ",
+   "received": 55.849
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 55520,
+   "received": 55.885
+  }
+ ]
+}

@@ -1,0 +1,278 @@
+{
+ "session_id": "voyager/duplex/4C2E4A4A16974158A7F423DAADC32632",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 13.348625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer,",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.411
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.448
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support.",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.225
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.02
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.901
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.63
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on Amazon.com.",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.227
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on Amazon.com. You have",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on Amazon.com. You have been",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.101
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on Amazon.com. You have been charged",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on Amazon.com. You have been charged 349 dollars and 99 cents on your",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.281
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on Amazon.com. You have been charged 349 dollars and 99 cents on your Visa",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on Amazon.com. You have been charged 349 dollars and 99 cents on your Visa card.",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on Amazon.com. You have been charged 349 dollars and 99 cents on your Visa card. ",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.581
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13280,
+   "received": 13.581
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12780,
+   "turnId": 0,
+   "received": 13.581
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12780,
+   "turnId": 0,
+   "transcript": " Dear customer, this call is from Amazon customer support. This is to notify you regarding your today's purchase on Amazon.com. You have been charged 349 dollars and 99 cents on your Visa card. ",
+   "received": 13.581
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12780,
+   "turnId": 1,
+   "received": 13.581
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you have made ",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.795
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13360,
+   "received": 13.795
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12860,
+   "turnId": 1,
+   "received": 13.795
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12860,
+   "turnId": 1,
+   "transcript": " If you have made ",
+   "received": 13.795
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 13360,
+   "received": 13.807
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"This is Jessica calling you from AT&T Directv.\"}, {\"id\": \"A12\", \"quote\": \"Directv is offering 50% discount to all of its its existing customers.\"}]}", "input_tokens": 963, "output_tokens": 285, "latency": 1.322}

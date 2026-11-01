@@ -1,0 +1,365 @@
+{
+ "session_id": "voyager/duplex/91EECB7C6C8349998496C5FF26A13E0D",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 16.646375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.913
+  },
+  {
+   "type": "transcript",
+   "transcript": " which",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 1.016
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.319
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.105
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.209
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.623
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.717
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499.",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.543
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.31
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.708
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account.",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.218
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.812
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.427
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.815
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.934
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction.",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.721
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.242
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1 now",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.435
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1 now and",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1 now and to",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1 now and to report",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.449
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1 now and to report please",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1 now and to report please press",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1 now and to report please press 2.",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1 now and to report please press 2. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.09
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 16720,
+   "received": 17.09
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 16220,
+   "turnId": 0,
+   "received": 17.09
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 16220,
+   "turnId": 0,
+   "transcript": " which is billed on your card attached to your Amazon account. The amount charged in $1499. We noticed some suspicious activity activity on your account. So we have put in hold to this transaction. Please press 1 now and to report please press 2. Thank you. ",
+   "received": 17.09
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 16720,
+   "received": 17.107
+  }
+ ]
+}

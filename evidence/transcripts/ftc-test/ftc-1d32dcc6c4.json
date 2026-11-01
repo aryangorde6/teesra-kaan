@@ -1,0 +1,197 @@
+{
+ "session_id": "voyager/duplex/F4DE9C81D94645FBABAF2951E7D446A3",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 7.4455,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.421
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.707
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.231
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.921
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.432
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.42
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If you do",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If you do not",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.868
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If you do not authorize",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.305
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If you do not authorize this order",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.923
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If you do not authorize this order to",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.007
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If you do not authorize this order to cancel",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If you do not authorize this order to cancel press",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.63
+  },
+  {
+   "type": "transcript",
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If you do not authorize this order to cancel press 1. ",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.886
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 7520,
+   "received": 7.886
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 7020,
+   "turnId": 0,
+   "received": 7.886
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 7020,
+   "turnId": 0,
+   "transcript": " placed for Apple MacBook Pro and iPhone 11 using your Amazon account. If you do not authorize this order to cancel press 1. ",
+   "received": 7.886
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 7520,
+   "received": 7.906
+  }
+ ]
+}

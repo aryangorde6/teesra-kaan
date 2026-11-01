@@ -1,0 +1,330 @@
+{
+ "session_id": "voyager/duplex/1B51402560074758969FDA1190DCF648",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 34.9,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 9340,
+   "turnId": 0,
+   "received": 10.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello,",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 10.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.597
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 12.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.418
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.749
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.25
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.509
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations.",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.577
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.951
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.25
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.463
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.081
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.244
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.758
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.26
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call,",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.574
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.652
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.261
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.376
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you?",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.458
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 20.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like responding",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.846
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like responding to a",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.846
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like responding to a text",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.317
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like responding to a text or",
+   "final": false,
+   "audioProcessedMs": 22160,
+   "received": 22.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like responding to a text or returning a",
+   "final": false,
+   "audioProcessedMs": 22640,
+   "received": 22.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like responding to a text or returning a phone",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.108
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like responding to a text or returning a phone call.",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.226
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like responding to a text or returning a phone call. ",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.546
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23280,
+   "received": 23.546
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22780,
+   "turnId": 0,
+   "received": 23.546
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22780,
+   "turnId": 0,
+   "transcript": " Hello, you have reached the central processing center for IRS back tax negotiations. I am a virtual assistant that can help direct your call, how can I help you? You can say things like responding to a text or returning a phone call. ",
+   "received": 23.546
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 34960,
+   "received": 35.231
+  }
+ ]
+}

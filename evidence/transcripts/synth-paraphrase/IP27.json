@@ -1,0 +1,730 @@
+{
+ "session_id": "voyager/duplex/4937CD3231454680A2DC1F34DEE80B3C",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 43.670625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.07
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.124
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.496
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.445
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.9
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.976
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.305
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.463
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.668
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ,",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.322
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.306
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.473
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.55
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं।",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.688
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.112
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.312
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.885
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ।",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.188
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.925
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.38
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना,",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 14.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 15.018
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.088
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.684
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.242
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.326
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है,",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.785
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.69
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए,",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.996
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए, बात बीच",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.85
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए, बात बीच में",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.222
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए, बात बीच में छोड़ी तो",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.855
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए, बात बीच में छोड़ी तो आपको",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.472
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए, बात बीच में छोड़ी तो आपको हिरासत",
+   "final": false,
+   "audioProcessedMs": 22400,
+   "received": 22.932
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए, बात बीच में छोड़ी तो आपको हिरासत में",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 23.099
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए, बात बीच में छोड़ी तो आपको हिरासत में लिया",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.708
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए, बात बीच में छोड़ी तो आपको हिरासत में लिया जाएगा। ",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 24.217
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23680,
+   "received": 24.217
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23180,
+   "turnId": 0,
+   "received": 24.217
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23180,
+   "turnId": 0,
+   "transcript": " नमस्कार, मैं दूरसंचार नियामक दफ्तर से बोल रहा हूँ, आपके नंबर से गलत धंधों के संदेश गए हैं। मैं आपकी बात मूवी के थाने से करवा रहा हूँ। तिलक नगर थाना, मूवी आपके नाम पर मानव व्यापार का मामला है, कैमरे के सामने बैठी रहिए, बात बीच में छोड़ी तो आपको हिरासत में लिया जाएगा। ",
+   "received": 24.217
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 23580,
+   "turnId": 1,
+   "received": 24.515
+  },
+  {
+   "type": "transcript",
+   "transcript": " मेरी",
+   "final": false,
+   "audioProcessedMs": 24640,
+   "received": 25.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " मेरी बेटी",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 25.346
+  },
+  {
+   "type": "transcript",
+   "transcript": " मेरी बेटी को",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " मेरी बेटी को बुला लूँ।",
+   "final": false,
+   "audioProcessedMs": 25840,
+   "received": 26.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " मेरी बेटी को बुला लूँ। ",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 27.012
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 26400,
+   "received": 27.012
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 25900,
+   "turnId": 1,
+   "received": 27.012
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 25900,
+   "turnId": 1,
+   "transcript": " मेरी बेटी को बुला लूँ। ",
+   "received": 27.012
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 25980,
+   "turnId": 2,
+   "received": 27.183
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.256
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह",
+   "final": false,
+   "audioProcessedMs": 27120,
+   "received": 27.575
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच",
+   "final": false,
+   "audioProcessedMs": 27440,
+   "received": 28.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी",
+   "final": false,
+   "audioProcessedMs": 28080,
+   "received": 28.464
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं",
+   "final": false,
+   "audioProcessedMs": 29120,
+   "received": 29.657
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती",
+   "final": false,
+   "audioProcessedMs": 29280,
+   "received": 29.718
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने",
+   "final": false,
+   "audioProcessedMs": 29920,
+   "received": 30.441
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से",
+   "final": false,
+   "audioProcessedMs": 30320,
+   "received": 30.834
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी",
+   "final": false,
+   "audioProcessedMs": 30720,
+   "received": 31.271
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया",
+   "final": false,
+   "audioProcessedMs": 31200,
+   "received": 31.764
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो",
+   "final": false,
+   "audioProcessedMs": 31920,
+   "received": 32.434
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो",
+   "final": false,
+   "audioProcessedMs": 32080,
+   "received": 32.548
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी",
+   "final": false,
+   "audioProcessedMs": 32640,
+   "received": 33.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस",
+   "final": false,
+   "audioProcessedMs": 32800,
+   "received": 33.299
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में",
+   "final": false,
+   "audioProcessedMs": 33360,
+   "received": 33.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे",
+   "final": false,
+   "audioProcessedMs": 34080,
+   "received": 34.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी",
+   "final": false,
+   "audioProcessedMs": 35120,
+   "received": 35.666
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही",
+   "final": false,
+   "audioProcessedMs": 35600,
+   "received": 36.13
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित",
+   "final": false,
+   "audioProcessedMs": 36320,
+   "received": 36.854
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने",
+   "final": false,
+   "audioProcessedMs": 36560,
+   "received": 37.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए",
+   "final": false,
+   "audioProcessedMs": 37040,
+   "received": 37.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको",
+   "final": false,
+   "audioProcessedMs": 37760,
+   "received": 38.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी",
+   "final": false,
+   "audioProcessedMs": 38480,
+   "received": 38.928
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी",
+   "final": false,
+   "audioProcessedMs": 38880,
+   "received": 39.299
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी",
+   "final": false,
+   "audioProcessedMs": 39920,
+   "received": 40.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर",
+   "final": false,
+   "audioProcessedMs": 40160,
+   "received": 40.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर पूरी",
+   "final": false,
+   "audioProcessedMs": 40880,
+   "received": 41.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर पूरी रकम",
+   "final": false,
+   "audioProcessedMs": 41040,
+   "received": 41.372
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर पूरी रकम हमारे",
+   "final": false,
+   "audioProcessedMs": 41680,
+   "received": 41.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर पूरी रकम हमारे दिए",
+   "final": false,
+   "audioProcessedMs": 42240,
+   "received": 42.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर पूरी रकम हमारे दिए खाते में",
+   "final": false,
+   "audioProcessedMs": 42560,
+   "received": 42.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर पूरी रकम हमारे दिए खाते में डालनी",
+   "final": false,
+   "audioProcessedMs": 42960,
+   "received": 43.293
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर पूरी रकम हमारे दिए खाते में डालनी होगी",
+   "final": false,
+   "audioProcessedMs": 43360,
+   "received": 43.761
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर पूरी रकम हमारे दिए खाते में डालनी होगी ",
+   "final": false,
+   "audioProcessedMs": 43680,
+   "received": 44.248
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 43680,
+   "received": 44.248
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 43180,
+   "turnId": 2,
+   "received": 44.248
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 43180,
+   "turnId": 2,
+   "transcript": " नहीं यह जांच अभी बाहर नहीं जा सकती आपने किसी से भी जिक्र किया तो वो भी इस मामले में फंसेंगे अपनी बेगुनाही साबित करने के लिए आपको अपनी सारी एफडी तुड़वाकर पूरी रकम हमारे दिए खाते में डालनी होगी ",
+   "received": 44.248
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 43680,
+   "received": 44.288
+  }
+ ]
+}

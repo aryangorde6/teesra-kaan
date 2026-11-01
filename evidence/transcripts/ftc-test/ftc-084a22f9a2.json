@@ -1,0 +1,358 @@
+{
+ "session_id": "voyager/duplex/06E648367DA84EC1BADA493C8D133639",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 29.86,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 2700,
+   "turnId": 0,
+   "received": 3.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello.",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.73
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.725
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.437
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.52
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.015
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.217
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.328
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.732
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.636
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods.",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.236
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.026
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.234
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.822
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.946
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.925
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.431
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.505
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.315
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.627
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.817
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.026
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then press",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.515
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then press one",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then press one to",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.027
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then press one to speak",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.646
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then press one to speak to",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.671
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then press one to speak to our",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.819
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then press one to speak to our representative",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then press one to speak to our representative ",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.952
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18640,
+   "received": 18.952
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18140,
+   "turnId": 0,
+   "received": 18.952
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18140,
+   "turnId": 0,
+   "transcript": " Hello. You have been contacted by the cancellation department regarding a purchase on your account for MacBook Pro and AirPods. We would like to inform you that this order has been placed from your account if you don't authorize this order then press one to speak to our representative ",
+   "received": 18.952
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 29920,
+   "received": 30.246
+  }
+ ]
+}

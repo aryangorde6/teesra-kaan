@@ -1,0 +1,393 @@
+{
+ "session_id": "voyager/duplex/8A9BF1195E704F8ABEBAF0965FD4B217",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 21.244,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 300,
+   "turnId": 0,
+   "received": 1.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते,",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.852
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.697
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 2.992
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.476
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ।",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.235
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.195
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.082
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है।",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.702
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.488
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.035
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.883
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं।",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे?",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.807
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.788
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.312
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है,",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.586
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.885
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.432
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए।",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.298
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए। पैसे",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए। पैसे सीधे",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए। पैसे सीधे आपके",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.785
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए। पैसे सीधे आपके खाते",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए। पैसे सीधे आपके खाते में",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए। पैसे सीधे आपके खाते में आ",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए। पैसे सीधे आपके खाते में आ जाएंगे।",
+   "final": false,
+   "audioProcessedMs": 21120,
+   "received": 21.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए। पैसे सीधे आपके खाते में आ जाएंगे। ",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.628
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 21280,
+   "received": 21.628
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 20780,
+   "turnId": 0,
+   "received": 21.628
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 20780,
+   "turnId": 0,
+   "transcript": " नमस्ते, मैं Google Pay सपोर्ट से बोल रहा हूँ। आपके आपके खाते में एक कैशबैक अटका हुआ है। आपको चार हजार रुपये मिलने हैं। कैसे मिलेंगे? अभी आपको एक रिक्वेस्ट भेजी है, उसे खोलिए और अपना UPI PIN डालिए। पैसे सीधे आपके खाते में आ जाएंगे। ",
+   "received": 21.628
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 21280,
+   "received": 21.679
+  }
+ ]
+}

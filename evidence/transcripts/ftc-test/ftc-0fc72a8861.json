@@ -1,0 +1,246 @@
+{
+ "session_id": "voyager/duplex/219592E419A84478968E701FAEDBA84A",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 32.46,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 6460,
+   "turnId": 0,
+   "received": 7.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.797
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.209
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.116
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.219
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.917
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press 1 or",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.529
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press 1 or you",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press 1 or you can give",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 20.042
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press 1 or you can give us",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.518
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press 1 or you can give us a",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.656
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press 1 or you can give us a call",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.765
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press 1 or you can give us a call back",
+   "final": false,
+   "audioProcessedMs": 21040,
+   "received": 21.349
+  },
+  {
+   "type": "transcript",
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press 1 or you can give us a call back ",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.476
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 21200,
+   "received": 21.476
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 20700,
+   "turnId": 0,
+   "received": 21.476
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 20700,
+   "turnId": 0,
+   "transcript": " hello this is a confirmation call for the order placed under your name so to find out more information please press 1 or you can give us a call back ",
+   "received": 21.476
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 32480,
+   "received": 32.81
+  }
+ ]
+}

@@ -1,0 +1,411 @@
+{
+ "session_id": "voyager/duplex/6EDB2B083ADB48D5BF9D8A257EE6FF7E",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 18.1495,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello?",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.485
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon.",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.35
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.391
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.425
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.963
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.289
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.793
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.188
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.61
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.184
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro and an",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro and an iPhone",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro and an iPhone 11",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.435
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro and an iPhone 11 using",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.932
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro and an iPhone 11 using your",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.239
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro and an iPhone 11 using your Amazon",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.529
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro and an iPhone 11 using your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.634
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro and an iPhone 11 using your Amazon account. ",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.394
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13040,
+   "received": 13.394
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12540,
+   "turnId": 0,
+   "received": 13.395
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12540,
+   "turnId": 0,
+   "transcript": " Hello? This is Amazon. This call is to authorize a payment of $1,500. We would like to inform you that there's an order placed for a MacBook Pro and an iPhone 11 using your Amazon account. ",
+   "received": 13.395
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12540,
+   "turnId": 1,
+   "received": 13.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " If",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.548
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.031
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.736
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order or",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.954
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order or to",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order or to cancel the",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order or to cancel the order,",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.899
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order or to cancel the order, please",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order or to cancel the order, please press",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.689
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order or to cancel the order, please press 1",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order or to cancel the order, please press 1 and",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you do not wish to authorize this order or to cancel the order, please press 1 and hold the line. ",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.568
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18160,
+   "received": 18.568
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17660,
+   "turnId": 1,
+   "received": 18.568
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17660,
+   "turnId": 1,
+   "transcript": " If you do not wish to authorize this order or to cancel the order, please press 1 and hold the line. ",
+   "received": 18.568
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 18160,
+   "received": 18.578
+  }
+ ]
+}

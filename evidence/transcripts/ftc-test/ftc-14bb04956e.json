@@ -1,0 +1,176 @@
+{
+ "session_id": "voyager/duplex/FA9FBF3C65E04338992D4D905942F167",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 5.87,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.467
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.187
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card.",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.355
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.93
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.317
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press 1",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.537
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.091
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press 1 to speak with a",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.549
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press 1 to speak with a live",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.628
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press 1 to speak with a live operator",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.929
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press 1 to speak with a live operator and",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.329
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press 1 to speak with a live operator and get",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.427
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press 1 to speak with a live operator and get the",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " 6% on your credit card. please press 1 to speak with a live operator and get the confirmation code ",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.309
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 5920,
+   "received": 6.309
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 5420,
+   "turnId": 0,
+   "received": 6.309
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 5420,
+   "turnId": 0,
+   "transcript": " 6% on your credit card. please press 1 to speak with a live operator and get the confirmation code ",
+   "received": 6.309
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 5920,
+   "received": 6.329
+  }
+ ]
+}

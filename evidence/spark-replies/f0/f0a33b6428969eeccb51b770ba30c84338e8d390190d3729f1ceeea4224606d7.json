@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"kindly press 1 to speak Amazon customer service.\"}, {\"id\": \"A2\", \"quote\": \"If you have not made any such purchases or transactions then kindly press 1\"}, {\"id\": \"A10\", \"quote\": \"kindly press 1 to speak Amazon customer service.\"}]}", "input_tokens": 953, "output_tokens": 335, "latency": 1.419}

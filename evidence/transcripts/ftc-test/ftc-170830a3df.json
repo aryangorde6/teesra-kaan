@@ -1,0 +1,664 @@
+{
+ "session_id": "voyager/duplex/6AF4830FFFF34A5F9F948BAE6036F044",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 49.368125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.242
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.354
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.773
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.181
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 2.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 3.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.892
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.387
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.789
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.786
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 6.989
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity.",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.227
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 9.993
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.901
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.483
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension notice",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.875
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension notice along with",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension notice along with a",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.238
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.582
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name.",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. ",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.831
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13520,
+   "received": 13.832
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13020,
+   "turnId": 0,
+   "received": 13.832
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13020,
+   "turnId": 0,
+   "transcript": " This is an important call regarding a legal enforcement action being executed under your name for suspicious and fraudulent activities carried out using your identity. The court has issued a suspension notice along with a warrant against your name. ",
+   "received": 13.832
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 13100,
+   "turnId": 1,
+   "received": 13.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.789
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.308
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 16.978
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.016
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.652
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.577
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.891
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate judge",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.283
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate judge or grand",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate judge or grand jury",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.086
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate judge or grand jury for",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate judge or grand jury for a",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate judge or grand jury for a federal",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.681
+  },
+  {
+   "type": "transcript",
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal offense. ",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.239
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 22960,
+   "received": 23.239
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22460,
+   "turnId": 1,
+   "received": 23.239
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22460,
+   "turnId": 1,
+   "transcript": " Ignoring this message will be an intentional second attempt attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal offense. ",
+   "received": 23.239
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 22780,
+   "turnId": 2,
+   "received": 23.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 23520,
+   "received": 23.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 23.979
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.23
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you.",
+   "final": false,
+   "audioProcessedMs": 24720,
+   "received": 25.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For",
+   "final": false,
+   "audioProcessedMs": 25520,
+   "received": 25.785
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more",
+   "final": false,
+   "audioProcessedMs": 25600,
+   "received": 25.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.514
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press",
+   "final": false,
+   "audioProcessedMs": 26640,
+   "received": 26.884
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press one and",
+   "final": false,
+   "audioProcessedMs": 27360,
+   "received": 27.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press one and hold for",
+   "final": false,
+   "audioProcessedMs": 27520,
+   "received": 27.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press one and hold for the",
+   "final": false,
+   "audioProcessedMs": 27680,
+   "received": 27.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press one and hold for the next",
+   "final": false,
+   "audioProcessedMs": 28080,
+   "received": 28.277
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press one and hold for the next available",
+   "final": false,
+   "audioProcessedMs": 28320,
+   "received": 28.58
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press one and hold for the next available officer.",
+   "final": false,
+   "audioProcessedMs": 28720,
+   "received": 28.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press one and hold for the next available officer. ",
+   "final": false,
+   "audioProcessedMs": 29280,
+   "received": 29.53
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 29280,
+   "received": 29.53
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 28780,
+   "turnId": 2,
+   "received": 29.53
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 28780,
+   "turnId": 2,
+   "transcript": " This is the final attempt to reach you. For more information press one and hold for the next available officer. ",
+   "received": 29.53
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 48460,
+   "turnId": 3,
+   "received": 49.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " Goodbye ",
+   "final": false,
+   "audioProcessedMs": 49440,
+   "received": 49.763
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 49440,
+   "received": 49.763
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 48940,
+   "turnId": 3,
+   "received": 49.763
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 48940,
+   "turnId": 3,
+   "transcript": " Goodbye ",
+   "received": 49.763
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 49440,
+   "received": 49.77
+  }
+ ]
+}

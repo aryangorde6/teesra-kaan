@@ -1,0 +1,390 @@
+{
+ "session_id": "voyager/duplex/0ADEBB24621D4AE49A0032E38633392D",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 18.25675,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.815
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.122
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.317
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.106
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.318
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.822
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.922
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.225
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.812
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.218
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499.",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.257
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 10.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity on",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity on your account.",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.713
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity on your account. So",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.506
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity on your account. So we",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity on your account. So we have put",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity on your account. So we have put in hold to this",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.523
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity on your account. So we have put in hold to this transaction.",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.628
+  },
+  {
+   "type": "transcript",
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity on your account. So we have put in hold to this transaction. ",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.962
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14640,
+   "received": 14.962
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14140,
+   "turnId": 0,
+   "received": 14.962
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14140,
+   "turnId": 0,
+   "transcript": " 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in $1,499. We noticed some suspicious activity on your account. So we have put in hold to this transaction. ",
+   "received": 14.962
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14140,
+   "turnId": 1,
+   "received": 14.962
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press 1",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.632
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press 1 now",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.899
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press 1 now and",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press 1 now and to",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press 1 now and to report",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.217
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press 1 now and to report please",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press 1 now and to report please press",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press 1 now and to report please press 2.",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.325
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please press 1 now and to report please press 2. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.7
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18320,
+   "received": 18.7
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17820,
+   "turnId": 1,
+   "received": 18.7
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17820,
+   "turnId": 1,
+   "transcript": " Please press 1 now and to report please press 2. Thank you. ",
+   "received": 18.7
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 18320,
+   "received": 18.727
+  }
+ ]
+}

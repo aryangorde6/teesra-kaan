@@ -1,0 +1,390 @@
+{
+ "session_id": "voyager/duplex/E4402237D359444C83673E4BA602B7D1",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 20.369375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 540,
+   "turnId": 0,
+   "received": 1.271
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर,",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.886
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.758
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 2.981
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.232
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.586
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.788
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है,",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.292
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.496
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग पर",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग पर पाँच",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 10.996
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग पर पाँच लाख की",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग पर पाँच लाख की छूट है,",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.506
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग पर पाँच लाख की छूट है, अभी कोई",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.101
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग पर पाँच लाख की छूट है, अभी कोई इरादा नहीं",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 14.124
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग पर पाँच लाख की छूट है, अभी कोई इरादा नहीं है,",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग पर पाँच लाख की छूट है, अभी कोई इरादा नहीं है, ",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.02
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14720,
+   "received": 15.02
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14220,
+   "turnId": 0,
+   "received": 15.02
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14220,
+   "turnId": 0,
+   "transcript": " नमस्कार सर, मैं एक रियल एस्टेट कंपनी से बोल रहा हूँ, थाने में हमारा नया प्रोजेक्ट लॉन्च हुआ है, सिर्फ इस हफ्ते बुकिंग पर पाँच लाख की छूट है, अभी कोई इरादा नहीं है, ",
+   "received": 15.02
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14300,
+   "turnId": 1,
+   "received": 15.061
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर,",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.377
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.862
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.264
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.686
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो तो",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.878
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो तो इसी",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 17.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो तो इसी नंबर",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.472
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो तो इसी नंबर पर",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.872
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो तो इसी नंबर पर कॉल",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.521
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो तो इसी नंबर पर कॉल कीजिए",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो तो इसी नंबर पर कॉल कीजिए धन्यवाद,",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो तो इसी नंबर पर कॉल कीजिए धन्यवाद, ",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.713
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20400,
+   "received": 20.713
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19900,
+   "turnId": 1,
+   "received": 20.713
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19900,
+   "turnId": 1,
+   "transcript": " ठीक है सर, अगर कभी जरूरत हो तो इसी नंबर पर कॉल कीजिए धन्यवाद, ",
+   "received": 20.713
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 20400,
+   "received": 20.743
+  }
+ ]
+}

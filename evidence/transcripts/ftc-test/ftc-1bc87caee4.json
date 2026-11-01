@@ -1,0 +1,162 @@
+{
+ "session_id": "voyager/duplex/09A4A933151A475FB0E0EB6D1E8CD2CA",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 5.220625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 300,
+   "turnId": 0,
+   "received": 1.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " for",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.438
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.724
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.044
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to expire.",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.228
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to expire. Press",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to expire. Press one for",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.726
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to expire. Press one for more",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.224
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to expire. Press one for more information",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to expire. Press one for more information or",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to expire. Press one for more information or hang",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to expire. Press one for more information or hang up",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " for rate reduction is about to expire. Press one for more information or hang up this call. ",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.718
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 5280,
+   "received": 5.718
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 4780,
+   "turnId": 0,
+   "received": 5.718
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 4780,
+   "turnId": 0,
+   "transcript": " for rate reduction is about to expire. Press one for more information or hang up this call. ",
+   "received": 5.718
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 5280,
+   "received": 5.74
+  }
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "session_id": "voyager/duplex/50DF71C1DC324FD49438A6B40AC2AAE7",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 25.382625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.041
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello,",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.447
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.841
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.638
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.747
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.042
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.436
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.843
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund.",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.869
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.051
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.452
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.148
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father,",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.253
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.236
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph D'Souza.",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.375
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph D'Souza. He's",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.248
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph D'Souza. He's been",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.446
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph D'Souza. He's been admitted after",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.151
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph D'Souza. He's been admitted after a fall,",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.448
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph D'Souza. He's been admitted after a fall, he's",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph D'Souza. He's been admitted after a fall, he's stable.",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.161
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph D'Souza. He's been admitted after a fall, he's stable. ",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.991
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 11680,
+   "received": 11.991
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11180,
+   "turnId": 0,
+   "received": 11.991
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11180,
+   "turnId": 0,
+   "transcript": " Hello, this is Sister Mary from City Hospital Mulund. I'm calling about your father, Mister Joseph D'Souza. He's been admitted after a fall, he's stable. ",
+   "received": 11.991
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11260,
+   "turnId": 1,
+   "received": 12.05
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh God,",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.366
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh God, is he okay?",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.08
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh God, is he okay? I'm",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.442
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh God, is he okay? I'm coming",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh God, is he okay? I'm coming right",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh God, is he okay? I'm coming right now.",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.35
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh God, is he okay? I'm coming right now. ",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.18
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 14880,
+   "received": 15.18
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14380,
+   "turnId": 1,
+   "received": 15.18
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14380,
+   "turnId": 1,
+   "transcript": " Oh God, is he okay? I'm coming right now. ",
+   "received": 15.18
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14460,
+   "turnId": 2,
+   "received": 15.248
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.745
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine,",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.256
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.295
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.943
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.755
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist.",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.354
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 19.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.247
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.646
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.872
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.627
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.351
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.76
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you come.",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.068
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you come. Ask for",
+   "final": false,
+   "audioProcessedMs": 23600,
+   "received": 23.852
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you come. Ask for the",
+   "final": false,
+   "audioProcessedMs": 24000,
+   "received": 24.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you come. Ask for the emergency",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.738
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you come. Ask for the emergency ward.",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.643
+  },
+  {
+   "type": "transcript",
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you come. Ask for the emergency ward. ",
+   "final": false,
+   "audioProcessedMs": 25440,
+   "received": 25.78
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 25440,
+   "received": 25.78
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 24940,
+   "turnId": 2,
+   "received": 25.78
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 24940,
+   "turnId": 2,
+   "transcript": " He's fine, a small fracture in the wrist. Please bring his previous reports and his medical insurance card when you come. Ask for the emergency ward. ",
+   "received": 25.78
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 25440,
+   "received": 25.804
+  }
+ ]
+}

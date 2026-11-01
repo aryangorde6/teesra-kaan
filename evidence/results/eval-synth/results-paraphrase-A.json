@@ -1,0 +1,394 @@
+{
+  "split": "paraphrase",
+  "run": "A",
+  "calls_from": "data/transcripts/synth-paraphrase",
+  "rules": "v1.3 (Oct 30, 2026)",
+  "by_set": {
+    "IN-synth-scam": {
+      "scam_calls": 9,
+      "genuine_calls": 0,
+      "caught_red": {
+        "k": 0,
+        "n": 9,
+        "text": "0/9 (0–30%)"
+      },
+      "caught_red_or_amber": {
+        "k": 0,
+        "n": 9,
+        "text": "0/9 (0–30%)"
+      },
+      "false_alarms_red": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "false_alarms_amber": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "seconds_to_warning": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "seconds_to_red": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "warned_before_ask": {
+        "k": 0,
+        "n": 7,
+        "text": "0/7 (0–35%)"
+      },
+      "next_line": {
+        "shown": 0,
+        "came_true": {
+          "k": 0,
+          "n": 0,
+          "text": "0/0"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 0,
+          "median": null
+        },
+        "reach": {
+          "k": 0,
+          "n": 9,
+          "text": "0/9 (0–30%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 0,
+          "mean": null
+        }
+      }
+    }
+  },
+  "by_language": {
+    "en": {
+      "scam_calls": 3,
+      "genuine_calls": 0,
+      "caught_red": {
+        "k": 0,
+        "n": 3,
+        "text": "0/3 (0–56%)"
+      },
+      "caught_red_or_amber": {
+        "k": 0,
+        "n": 3,
+        "text": "0/3 (0–56%)"
+      },
+      "false_alarms_red": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "false_alarms_amber": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "seconds_to_warning": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "seconds_to_red": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "warned_before_ask": {
+        "k": 0,
+        "n": 2,
+        "text": "0/2 (0–66%)"
+      },
+      "next_line": {
+        "shown": 0,
+        "came_true": {
+          "k": 0,
+          "n": 0,
+          "text": "0/0"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 0,
+          "median": null
+        },
+        "reach": {
+          "k": 0,
+          "n": 3,
+          "text": "0/3 (0–56%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 0,
+          "mean": null
+        }
+      }
+    },
+    "hi": {
+      "scam_calls": 4,
+      "genuine_calls": 0,
+      "caught_red": {
+        "k": 0,
+        "n": 4,
+        "text": "0/4 (0–49%)"
+      },
+      "caught_red_or_amber": {
+        "k": 0,
+        "n": 4,
+        "text": "0/4 (0–49%)"
+      },
+      "false_alarms_red": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "false_alarms_amber": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "seconds_to_warning": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "seconds_to_red": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "warned_before_ask": {
+        "k": 0,
+        "n": 3,
+        "text": "0/3 (0–56%)"
+      },
+      "next_line": {
+        "shown": 0,
+        "came_true": {
+          "k": 0,
+          "n": 0,
+          "text": "0/0"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 0,
+          "median": null
+        },
+        "reach": {
+          "k": 0,
+          "n": 4,
+          "text": "0/4 (0–49%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 0,
+          "mean": null
+        }
+      }
+    },
+    "mr": {
+      "scam_calls": 2,
+      "genuine_calls": 0,
+      "caught_red": {
+        "k": 0,
+        "n": 2,
+        "text": "0/2 (0–66%)"
+      },
+      "caught_red_or_amber": {
+        "k": 0,
+        "n": 2,
+        "text": "0/2 (0–66%)"
+      },
+      "false_alarms_red": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "false_alarms_amber": {
+        "k": 0,
+        "n": 0,
+        "text": "0/0"
+      },
+      "seconds_to_warning": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "seconds_to_red": {
+        "n": 0,
+        "median": null,
+        "p90": null
+      },
+      "warned_before_ask": {
+        "k": 0,
+        "n": 2,
+        "text": "0/2 (0–66%)"
+      },
+      "next_line": {
+        "shown": 0,
+        "came_true": {
+          "k": 0,
+          "n": 0,
+          "text": "0/0"
+        },
+        "naive_guess": null,
+        "seconds_ahead": {
+          "n": 0,
+          "median": null
+        },
+        "reach": {
+          "k": 0,
+          "n": 2,
+          "text": "0/2 (0–66%)"
+        },
+        "per_genuine_call": {
+          "shown": 0,
+          "calls": 0,
+          "mean": null
+        }
+      }
+    }
+  },
+  "ftc_by_class": {},
+  "usage": {
+    "audio_seconds": 324.0,
+    "judge_calls": 23,
+    "input_tokens": 30540,
+    "output_tokens": 368
+  },
+  "usd_per_minute_list_price": 0.01036,
+  "calls": [
+    {
+      "call_id": "IP02",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 39.66,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IP08",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 35.72,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IP12",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 15.46,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IP25",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 12.03,
+      "language": "mr",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IP27",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 34.22,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IP31",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 15.25,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IP32",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": null,
+      "language": "en",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IP36",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": null,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    },
+    {
+      "call_id": "IP38",
+      "set": "IN-synth-scam",
+      "is_scam": true,
+      "level": 0,
+      "t_warn": null,
+      "t_red": null,
+      "t0": 0.5,
+      "t_ask": 12.37,
+      "language": "hi",
+      "ftc_class": "",
+      "predictions": [],
+      "found": []
+    }
+  ]
+}

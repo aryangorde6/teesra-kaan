@@ -1,0 +1,541 @@
+{
+ "session_id": "voyager/duplex/4EE2CABC78A44B0FA7F9AD62BFAA50CE",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 26.108,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 380,
+   "turnId": 0,
+   "received": 1.179
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते,",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.266
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.912
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.277
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.878
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.936
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ,",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.264
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.382
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.582
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.865
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.389
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है,",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.496
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.864
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक आपका",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक आपका खाता",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.072
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक आपका खाता खाता",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.122
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक आपका खाता खाता फ्रीज",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक आपका खाता खाता फ्रीज कर",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.54
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक आपका खाता खाता फ्रीज कर दिया",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक आपका खाता खाता फ्रीज कर दिया जाएगा.",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक आपका खाता खाता फ्रीज कर दिया जाएगा. ",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.152
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12720,
+   "received": 13.152
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12220,
+   "turnId": 0,
+   "received": 13.152
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12220,
+   "turnId": 0,
+   "transcript": " नमस्ते, पंजाब नेशनल के मुख्यालय से नेहा बोल रही हूँ, आपके खाते की KYC की तारीख निकल चुकी है, शाम तक आपका खाता खाता फ्रीज कर दिया जाएगा. ",
+   "received": 13.152
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12300,
+   "turnId": 1,
+   "received": 13.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.466
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल शाखा",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 14.126
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल शाखा जाकर",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.692
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल शाखा जाकर करवा",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.824
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल शाखा जाकर करवा दूँगा.",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.627
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं कल शाखा जाकर करवा दूँगा. ",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 16.184
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 15680,
+   "received": 16.184
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15180,
+   "turnId": 1,
+   "received": 16.184
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15180,
+   "turnId": 1,
+   "transcript": " मैं कल शाखा जाकर करवा दूँगा. ",
+   "received": 16.184
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15260,
+   "turnId": 2,
+   "received": 16.249
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.45
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.922
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 17.032
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 18.118
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.462
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा,",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.827
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 19.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.427
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.925
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.432
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ,",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.647
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.264
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM",
+   "final": false,
+   "audioProcessedMs": 21680,
+   "received": 22.144
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के",
+   "final": false,
+   "audioProcessedMs": 22000,
+   "received": 22.511
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.859
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 23.096
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.844
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक",
+   "final": false,
+   "audioProcessedMs": 23600,
+   "received": 24.073
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक और",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.377
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक और पीछे",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.555
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक और पीछे के",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.949
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक और पीछे के तीन",
+   "final": false,
+   "audioProcessedMs": 25120,
+   "received": 25.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक और पीछे के तीन अंक",
+   "final": false,
+   "audioProcessedMs": 25280,
+   "received": 25.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक और पीछे के तीन अंक पढ़",
+   "final": false,
+   "audioProcessedMs": 25760,
+   "received": 26.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक और पीछे के तीन अंक पढ़ दीजिए.",
+   "final": false,
+   "audioProcessedMs": 25840,
+   "received": 26.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक और पीछे के तीन अंक पढ़ दीजिए. ",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.987
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 26160,
+   "received": 26.987
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 25660,
+   "turnId": 2,
+   "received": 26.987
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 25660,
+   "turnId": 2,
+   "transcript": " कल तक तो खाते से लेन-देन रुक जाएगा, सर मैं यहीं से कर देती हूँ, आपके ATM कार्ड के सामने लिखे सोलह अंक और पीछे के तीन अंक पढ़ दीजिए. ",
+   "received": 26.987
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 26160,
+   "received": 26.987
+  }
+ ]
+}

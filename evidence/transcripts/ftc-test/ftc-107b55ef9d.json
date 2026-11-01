@@ -1,0 +1,316 @@
+{
+ "session_id": "voyager/duplex/9B1710780A3849E381B326D8718AD98E",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 12.502,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.581
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello.",
+   "final": false,
+   "audioProcessedMs": 640,
+   "received": 0.887
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.477
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.878
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 1.978
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover.",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 3.986
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration.",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.788
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 6.986
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.296
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.188
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.177
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.266
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.476
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.776
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire.",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire. Press",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.267
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.379
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.073
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information or",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information or hang up",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.686
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information or hang up this call. ",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.962
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12560,
+   "received": 12.962
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12060,
+   "turnId": 0,
+   "received": 12.962
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12060,
+   "turnId": 0,
+   "transcript": " Hello. This is Sarah from Discover. I am calling in regards to rate expiration. We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information or hang up this call. ",
+   "received": 12.962
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 12560,
+   "received": 12.963
+  }
+ ]
+}

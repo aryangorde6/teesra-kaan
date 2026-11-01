@@ -1,0 +1,584 @@
+{
+ "session_id": "voyager/duplex/9DD728FB8F6C43C4B0042BF9EF751116",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 31.617375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 540,
+   "turnId": 0,
+   "received": 1.35
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.69
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.553
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.486
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय,",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.372
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.866
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.263
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका व्यवहारावर",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका व्यवहारावर तुम्हाला",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका व्यवहारावर तुम्हाला दोन",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.566
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका व्यवहारावर तुम्हाला दोन हजार",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.844
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका व्यवहारावर तुम्हाला दोन हजार परत",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.078
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका व्यवहारावर तुम्हाला दोन हजार परत मिळणार",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.771
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका व्यवहारावर तुम्हाला दोन हजार परत मिळणार आहेत.",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.871
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका व्यवहारावर तुम्हाला दोन हजार परत मिळणार आहेत. ",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.73
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10400,
+   "received": 10.73
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9900,
+   "turnId": 0,
+   "received": 10.73
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9900,
+   "turnId": 0,
+   "transcript": " नमस्कार, मी फोनपे मधून बोलतोय, तुमच्या मागच्या एका व्यवहारावर तुम्हाला दोन हजार परत मिळणार आहेत. ",
+   "received": 10.73
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 9900,
+   "turnId": 1,
+   "received": 10.73
+  },
+  {
+   "type": "transcript",
+   "transcript": " अरे",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.072
+  },
+  {
+   "type": "transcript",
+   "transcript": " अरे वा,",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.376
+  },
+  {
+   "type": "transcript",
+   "transcript": " अरे वा, कसे",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " अरे वा, कसे मिळणार?",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.171
+  },
+  {
+   "type": "transcript",
+   "transcript": " अरे वा, कसे मिळणार? ",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.102
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 12800,
+   "received": 13.102
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12300,
+   "turnId": 1,
+   "received": 13.102
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12300,
+   "turnId": 1,
+   "transcript": " अरे वा, कसे मिळणार? ",
+   "received": 13.102
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12300,
+   "turnId": 2,
+   "received": 13.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.469
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.906
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.258
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.366
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.93
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 16.109
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे,",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.244
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 18.036
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 18.12
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.84
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.725
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 20.058
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.557
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या चार",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.304
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या चार अंकी",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.86
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या चार अंकी क्रमांक",
+   "final": false,
+   "audioProcessedMs": 21680,
+   "received": 22.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या चार अंकी क्रमांक टाका",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या चार अंकी क्रमांक टाका पैसे",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.178
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या चार अंकी क्रमांक टाका पैसे खात्यात",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.632
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या चार अंकी क्रमांक टाका पैसे खात्यात येतील.",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.93
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या चार अंकी क्रमांक टाका पैसे खात्यात येतील. ",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.777
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 24160,
+   "received": 24.777
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23660,
+   "turnId": 2,
+   "received": 24.777
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23660,
+   "turnId": 2,
+   "transcript": " तुमच्या फोनपेवर आता एक विनंती आली आहे, ती स्विकारा आणि व्यवहार मंजूर करायचा तुमच्या चार अंकी क्रमांक टाका पैसे खात्यात येतील. ",
+   "received": 24.777
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 23980,
+   "turnId": 3,
+   "received": 25.147
+  },
+  {
+   "type": "transcript",
+   "transcript": " क्रमांक",
+   "final": false,
+   "audioProcessedMs": 24720,
+   "received": 25.237
+  },
+  {
+   "type": "transcript",
+   "transcript": " क्रमांक टाकल्यावर",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.55
+  },
+  {
+   "type": "transcript",
+   "transcript": " क्रमांक टाकल्यावर पैसे",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.652
+  },
+  {
+   "type": "transcript",
+   "transcript": " क्रमांक टाकल्यावर पैसे येतील.",
+   "final": false,
+   "audioProcessedMs": 26720,
+   "received": 27.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " क्रमांक टाकल्यावर पैसे येतील. ",
+   "final": false,
+   "audioProcessedMs": 27440,
+   "received": 27.84
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 27440,
+   "received": 27.84
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 26940,
+   "turnId": 3,
+   "received": 27.84
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 26940,
+   "turnId": 3,
+   "transcript": " क्रमांक टाकल्यावर पैसे येतील. ",
+   "received": 27.84
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 27260,
+   "turnId": 4,
+   "received": 28.274
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 28.274
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो फक्त",
+   "final": false,
+   "audioProcessedMs": 28160,
+   "received": 28.667
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो फक्त ही",
+   "final": false,
+   "audioProcessedMs": 28320,
+   "received": 28.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो फक्त ही ऑफर",
+   "final": false,
+   "audioProcessedMs": 29040,
+   "received": 29.495
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो फक्त ही ऑफर पाच",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.9
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो फक्त ही ऑफर पाच मिनिटांत",
+   "final": false,
+   "audioProcessedMs": 30000,
+   "received": 30.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो फक्त ही ऑफर पाच मिनिटांत संपेल",
+   "final": false,
+   "audioProcessedMs": 30320,
+   "received": 30.827
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो फक्त ही ऑफर पाच मिनिटांत संपेल लवकर",
+   "final": false,
+   "audioProcessedMs": 31360,
+   "received": 31.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो फक्त ही ऑफर पाच मिनिटांत संपेल लवकर करा.",
+   "final": false,
+   "audioProcessedMs": 31440,
+   "received": 31.899
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो फक्त ही ऑफर पाच मिनिटांत संपेल लवकर करा. ",
+   "final": false,
+   "audioProcessedMs": 31680,
+   "received": 32.266
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 31680,
+   "received": 32.266
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 31180,
+   "turnId": 4,
+   "received": 32.266
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 31180,
+   "turnId": 4,
+   "transcript": " हो फक्त ही ऑफर पाच मिनिटांत संपेल लवकर करा. ",
+   "received": 32.266
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 31680,
+   "received": 32.278
+  }
+ ]
+}

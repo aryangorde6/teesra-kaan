@@ -1,0 +1,428 @@
+{
+ "session_id": "voyager/duplex/FF9ABA2F59C446A1A5AE51B734DD362E",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 24.508,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 1.086
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते,",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.885
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.17
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता,",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.227
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.967
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ।",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 6.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.632
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.686
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.979
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.218
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.353
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है।",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.734
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.188
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.752
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.447
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं।",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.831
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे?",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.441
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.433
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.74
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.318
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 16.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 16.049
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है,",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 17.092
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.31
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 19.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 20.093
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.976
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.27
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए।",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए। रकम",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए। रकम सीधे",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए। रकम सीधे आपके",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए। रकम सीधे आपके खाते",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए। रकम सीधे आपके खाते में",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.892
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए। रकम सीधे आपके खाते में आ",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 24.224
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए। रकम सीधे आपके खाते में आ जाएगी। ",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.84
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 24400,
+   "received": 24.84
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23900,
+   "turnId": 0,
+   "received": 24.84
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23900,
+   "turnId": 0,
+   "transcript": " नमस्ते, मैं Google Pay की सहायता, टीम से बोल रहा हूँ। आपकी एक पुरानी खरीद की वापसी रुकी हुई है। आपको चार हजार मिलने हैं। कैसे मिलेंगे? आपके Google Pay पर अभी एक रिक्वेस्ट आई है, उसे मंजूर कीजिए और अपना चार अंकों वाला लेन-देन का नंबर डालिए। रकम सीधे आपके खाते में आ जाएगी। ",
+   "received": 24.84
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 24560,
+   "received": 25.042
+  }
+ ]
+}

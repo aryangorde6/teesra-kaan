@@ -1,0 +1,274 @@
+{
+ "session_id": "voyager/duplex/BF4293D3D9154B06825394D211E4FD63",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 13.132,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 460,
+   "turnId": 0,
+   "received": 1.184
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello,",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.783
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.884
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.481
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.578
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network.",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.906
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.479
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow.",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.475
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services,",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.496
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.485
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.709
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.597
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.798
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at any of",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.108
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at any of our",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at any of our stores.",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 11.985
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at any of our stores. Thank",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at any of our stores. Thank you.",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at any of our stores. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.531
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13200,
+   "received": 13.531
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12700,
+   "turnId": 0,
+   "received": 13.531
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12700,
+   "turnId": 0,
+   "transcript": " Hello, this is a call from your mobile network. Your prepaid plan expires tomorrow. To continue services, recharge on the official app or at any of our stores. Thank you. ",
+   "received": 13.531
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 13200,
+   "received": 13.59
+  }
+ ]
+}

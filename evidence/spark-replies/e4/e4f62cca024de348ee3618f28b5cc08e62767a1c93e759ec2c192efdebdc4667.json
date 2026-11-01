@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A3\", \"quote\": \"Please press 1 now to speak to our Amazon customer executive\"}, {\"id\": \"A10\", \"quote\": \"Please press 1 now to speak to our Amazon customer executive or press 2 to allow the transaction.\"}]}", "input_tokens": 835, "output_tokens": 742, "latency": 2.722}

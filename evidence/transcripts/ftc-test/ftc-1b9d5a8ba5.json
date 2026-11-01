@@ -1,0 +1,674 @@
+{
+ "session_id": "voyager/duplex/8AEC49CAA7F14F4DA1E3ED19319CF3E7",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 39.204625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " that",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.617
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.119
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.694
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.891
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.314
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes.",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.613
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.004
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account,",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.506
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak with a",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak with a representative.",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak with a representative. Please",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.039
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak with a representative. Please press",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.338
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak with a representative. Please press 1.",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak with a representative. Please press 1. Thank",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.766
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak with a representative. Please press 1. Thank you.",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak with a representative. Please press 1. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.313
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14000,
+   "received": 14.313
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13500,
+   "turnId": 0,
+   "received": 14.313
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13500,
+   "turnId": 0,
+   "transcript": " that you will be experiencing a disconnection of service today within 30 minutes. Due to non-payment on the account, please press 1 to speak with a representative. Please press 1. Thank you. ",
+   "received": 14.313
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15900,
+   "turnId": 1,
+   "received": 16.619
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings.",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.424
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.904
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.091
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.214
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 21.993
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and",
+   "final": false,
+   "audioProcessedMs": 21840,
+   "received": 22.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric",
+   "final": false,
+   "audioProcessedMs": 22400,
+   "received": 22.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company.",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.428
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity",
+   "final": false,
+   "audioProcessedMs": 24640,
+   "received": 24.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company.",
+   "final": false,
+   "audioProcessedMs": 24960,
+   "received": 25.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform",
+   "final": false,
+   "audioProcessedMs": 26320,
+   "received": 26.624
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that",
+   "final": false,
+   "audioProcessedMs": 27120,
+   "received": 27.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you",
+   "final": false,
+   "audioProcessedMs": 27200,
+   "received": 27.436
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be",
+   "final": false,
+   "audioProcessedMs": 27280,
+   "received": 27.495
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a",
+   "final": false,
+   "audioProcessedMs": 28240,
+   "received": 28.496
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a disconnection",
+   "final": false,
+   "audioProcessedMs": 28960,
+   "received": 29.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a disconnection of",
+   "final": false,
+   "audioProcessedMs": 29040,
+   "received": 29.306
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a disconnection of service",
+   "final": false,
+   "audioProcessedMs": 29200,
+   "received": 29.409
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a disconnection of service today",
+   "final": false,
+   "audioProcessedMs": 29520,
+   "received": 29.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a disconnection of service today within",
+   "final": false,
+   "audioProcessedMs": 29600,
+   "received": 29.833
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a disconnection of service today within 30",
+   "final": false,
+   "audioProcessedMs": 30000,
+   "received": 30.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a disconnection of service today within 30 minutes.",
+   "final": false,
+   "audioProcessedMs": 30560,
+   "received": 30.798
+  },
+  {
+   "type": "transcript",
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a disconnection of service today within 30 minutes. ",
+   "final": false,
+   "audioProcessedMs": 31280,
+   "received": 31.549
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 31280,
+   "received": 31.549
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 30780,
+   "turnId": 1,
+   "received": 31.549
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 30780,
+   "turnId": 1,
+   "transcript": " Greetings. This is an automated message from the disconnection department of Pacific Gas and Electric Company. Electricity company. To inform you that you will be experiencing a disconnection of service today within 30 minutes. ",
+   "received": 31.549
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 30780,
+   "turnId": 2,
+   "received": 31.549
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due",
+   "final": false,
+   "audioProcessedMs": 31440,
+   "received": 31.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to",
+   "final": false,
+   "audioProcessedMs": 31680,
+   "received": 31.898
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment",
+   "final": false,
+   "audioProcessedMs": 32240,
+   "received": 32.494
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on",
+   "final": false,
+   "audioProcessedMs": 32640,
+   "received": 32.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the",
+   "final": false,
+   "audioProcessedMs": 32880,
+   "received": 33.111
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account.",
+   "final": false,
+   "audioProcessedMs": 33280,
+   "received": 33.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please",
+   "final": false,
+   "audioProcessedMs": 34320,
+   "received": 34.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press",
+   "final": false,
+   "audioProcessedMs": 34720,
+   "received": 34.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1",
+   "final": false,
+   "audioProcessedMs": 35040,
+   "received": 35.301
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1 to",
+   "final": false,
+   "audioProcessedMs": 35280,
+   "received": 35.536
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 35600,
+   "received": 35.798
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1 to speak with a",
+   "final": false,
+   "audioProcessedMs": 35840,
+   "received": 36.114
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1 to speak with a representative.",
+   "final": false,
+   "audioProcessedMs": 36400,
+   "received": 36.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1 to speak with a representative. Please",
+   "final": false,
+   "audioProcessedMs": 37760,
+   "received": 37.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1 to speak with a representative. Please press",
+   "final": false,
+   "audioProcessedMs": 38000,
+   "received": 38.195
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1 to speak with a representative. Please press 1.",
+   "final": false,
+   "audioProcessedMs": 38880,
+   "received": 39.136
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1 to speak with a representative. Please press 1. Thank",
+   "final": false,
+   "audioProcessedMs": 39200,
+   "received": 39.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " Due to non-payment on the account. Please press 1 to speak with a representative. Please press 1. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 39280,
+   "received": 39.69
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 39280,
+   "received": 39.69
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 38780,
+   "turnId": 2,
+   "received": 39.69
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 38780,
+   "turnId": 2,
+   "transcript": " Due to non-payment on the account. Please press 1 to speak with a representative. Please press 1. Thank you. ",
+   "received": 39.69
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 39280,
+   "received": 39.705
+  }
+ ]
+}

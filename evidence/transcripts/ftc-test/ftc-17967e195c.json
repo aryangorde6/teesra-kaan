@@ -1,0 +1,558 @@
+{
+ "session_id": "voyager/duplex/01037EEDA3A14B6D89144D44C2CEF6CD",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 29.34,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.613
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.197
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.496
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.819
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 7.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.898
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.437
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.897
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.305
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.714
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.906
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.527
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. ",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.042
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14720,
+   "received": 15.042
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14220,
+   "turnId": 0,
+   "received": 15.042
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14220,
+   "turnId": 0,
+   "transcript": " Department of Social Security Administration the reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. ",
+   "received": 15.042
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14620,
+   "turnId": 1,
+   "received": 15.42
+  },
+  {
+   "type": "transcript",
+   "transcript": " So",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.61
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.506
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.9
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.509
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.899
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.111
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number",
+   "final": false,
+   "audioProcessedMs": 20800,
+   "received": 21.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we",
+   "final": false,
+   "audioProcessedMs": 21120,
+   "received": 21.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.507
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.846
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.351
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.639
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.151
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.465
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine",
+   "final": false,
+   "audioProcessedMs": 23840,
+   "received": 24.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.768
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight five",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.862
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight five six",
+   "final": false,
+   "audioProcessedMs": 25840,
+   "received": 26.161
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight five six zero",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.691
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight five six zero two",
+   "final": false,
+   "audioProcessedMs": 26640,
+   "received": 26.951
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight five six zero two two",
+   "final": false,
+   "audioProcessedMs": 27120,
+   "received": 27.56
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight five six zero two two zero eight",
+   "final": false,
+   "audioProcessedMs": 27920,
+   "received": 28.214
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight five six zero two two zero eight six",
+   "final": false,
+   "audioProcessedMs": 28640,
+   "received": 28.912
+  },
+  {
+   "type": "transcript",
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight five six zero two two zero eight six thank you ",
+   "final": false,
+   "audioProcessedMs": 29360,
+   "received": 29.78
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 29360,
+   "received": 29.78
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 28860,
+   "turnId": 1,
+   "received": 29.78
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 28860,
+   "turnId": 1,
+   "transcript": " So when you get this message kindly call back at the earliest possible on our number before we begin with the legal proceedings that is nine eight five six zero two two zero eight six thank you ",
+   "received": 29.78
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 29360,
+   "received": 29.856
+  }
+ ]
+}

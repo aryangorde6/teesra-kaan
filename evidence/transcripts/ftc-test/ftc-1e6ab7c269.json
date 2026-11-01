@@ -1,0 +1,390 @@
+{
+ "session_id": "voyager/duplex/E4748145121A44B39D78FC607E99C92C",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 16.4,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 380,
+   "turnId": 0,
+   "received": 1.12
+  },
+  {
+   "type": "transcript",
+   "transcript": " out",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.12
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file.",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.424
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.22
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.018
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.19
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.521
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.916
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.223
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.918
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.013
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.007
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.511
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.224
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty.",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty. Again,",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty. Again, press",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.712
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty. Again, press 1 to",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.126
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty. Again, press 1 to speak to",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty. Again, press 1 to speak to a",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty. Again, press 1 to speak to a warranty",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.801
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty. Again, press 1 to speak to a warranty specialist.",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.628
+  },
+  {
+   "type": "transcript",
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty. Again, press 1 to speak to a warranty specialist. ",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.978
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12640,
+   "received": 12.978
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12140,
+   "turnId": 0,
+   "received": 12.978
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12140,
+   "turnId": 0,
+   "transcript": " out your file. Press 2 to be put on our do not call list or press 1 to speak to someone about possibly extending or reinstating your car's warranty. Again, press 1 to speak to a warranty specialist. ",
+   "received": 12.978
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12140,
+   "turnId": 1,
+   "received": 12.978
+  },
+  {
+   "type": "transcript",
+   "transcript": " Or",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.978
+  },
+  {
+   "type": "transcript",
+   "transcript": " Or call",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " Or call 800",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.883
+  },
+  {
+   "type": "transcript",
+   "transcript": " Or call 800 number",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " Or call 800 number at",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " Or call 800 number at 8333041447.",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.863
+  },
+  {
+   "type": "transcript",
+   "transcript": " Or call 800 number at 8333041447. UST",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " Or call 800 number at 8333041447. UST 456. ",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.754
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 16400,
+   "received": 16.754
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15900,
+   "turnId": 1,
+   "received": 16.754
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15900,
+   "turnId": 1,
+   "transcript": " Or call 800 number at 8333041447. UST 456. ",
+   "received": 16.754
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 16400,
+   "received": 16.771
+  }
+ ]
+}

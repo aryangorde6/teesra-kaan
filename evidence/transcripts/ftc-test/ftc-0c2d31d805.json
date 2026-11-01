@@ -1,0 +1,239 @@
+{
+ "session_id": "voyager/duplex/E5E62D0C49A74A45873A7DE4988E4874",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 14.303625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.794
+  },
+  {
+   "type": "transcript",
+   "transcript": " support",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.419
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor.",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.632
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.513
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.225
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.718
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.115
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.306
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again.",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.912
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.112
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.095
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.225
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later,",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.525
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later, please",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.64
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later, please call us on",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.028
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later, please call us on our",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later, please call us on our toll",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later, please call us on our toll free number",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later, please call us on our toll free number 3152328257",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.855
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later, please call us on our toll free number 3152328257 Thank",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later, please call us on our toll free number 3152328257 Thank you. ",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.84
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14320,
+   "received": 14.84
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13820,
+   "turnId": 0,
+   "received": 14.84
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13820,
+   "turnId": 0,
+   "transcript": " support advisor. Press 2 to listen to this message again. Or if you wish to contact us later, please call us on our toll free number 3152328257 Thank you. ",
+   "received": 14.84
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 14320,
+   "received": 14.84
+  }
+ ]
+}

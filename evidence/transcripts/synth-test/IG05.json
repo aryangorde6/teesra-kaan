@@ -1,0 +1,485 @@
+{
+ "session_id": "voyager/duplex/E976E24D7DF84D4B89A4ED43086EBCED",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 20.497375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 460,
+   "turnId": 0,
+   "received": 1.179
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर,",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 1.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.683
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.591
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.369
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.449
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.675
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.035
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.175
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.362
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.569
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.185
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.369
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.871
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.079
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.575
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है क्या",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.179
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है क्या आपके",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.579
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है क्या आपके पास",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.071
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है क्या आपके पास दो",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.275
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है क्या आपके पास दो मिनट",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.657
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है क्या आपके पास दो मिनट हैं?",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.875
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है क्या आपके पास दो मिनट हैं? ",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.589
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 11360,
+   "received": 11.589
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 10860,
+   "turnId": 0,
+   "received": 11.589
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 10860,
+   "turnId": 0,
+   "transcript": " नमस्ते सर, मैं एक बीमा कंपनी से प्रिया बोल रही हूँ हूँ हमारे पास बच्चों की पढ़ाई के लिए एक नया प्लान है क्या आपके पास दो मिनट हैं? ",
+   "received": 11.589
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 10940,
+   "turnId": 1,
+   "received": 11.671
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभी",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.864
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभी मैं",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 11.971
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभी मैं व्यस्त",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.575
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभी मैं व्यस्त व्यस्त",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभी मैं व्यस्त व्यस्त हूँ.",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.789
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभी मैं व्यस्त व्यस्त हूँ. ",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.395
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 13200,
+   "received": 13.395
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12700,
+   "turnId": 1,
+   "received": 13.395
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12700,
+   "turnId": 1,
+   "transcript": " अभी मैं व्यस्त व्यस्त हूँ. ",
+   "received": 13.395
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 13020,
+   "turnId": 2,
+   "received": 13.782
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.817
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.056
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर,",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.487
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.159
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.251
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.885
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.065
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.254
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.671
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती हूँ,",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.799
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती हूँ, आप",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.168
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती हूँ, आप फुर्सत",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.692
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती हूँ, आप फुर्सत में",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.854
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती हूँ, आप फुर्सत में देख",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.165
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती हूँ, आप फुर्सत में देख लीजिए",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती हूँ, आप फुर्सत में देख लीजिए धन्यवाद.",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती हूँ, आप फुर्सत में देख लीजिए धन्यवाद. ",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.796
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20560,
+   "received": 20.796
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 20060,
+   "turnId": 2,
+   "received": 20.796
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 20060,
+   "turnId": 2,
+   "transcript": " कोई बात नहीं सर, मैं आपको WhatsApp पर ब्रोशर भेज देती हूँ, आप फुर्सत में देख लीजिए धन्यवाद. ",
+   "received": 20.796
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 20560,
+   "received": 20.839
+  }
+ ]
+}

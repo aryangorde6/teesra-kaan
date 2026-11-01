@@ -1,0 +1,600 @@
+{
+ "session_id": "voyager/duplex/384F00A712C448AEBC9B2CF61F049523",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 40.52,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 3340,
+   "turnId": 0,
+   "received": 4.148
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi,",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.35
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.645
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.041
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.458
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.923
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.438
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service.",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.949
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.535
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.039
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.149
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.452
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.649
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.029
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.155
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.247
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.534
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.674
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.042
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.446
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.646
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.259
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.558
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.045
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.67
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.739
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.241
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.269
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.326
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.828
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.032
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.439
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.739
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.944
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.638
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The amount",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.357
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in one",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in one thousand",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in one thousand four",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.644
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in one thousand four hundred",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.828
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in one thousand four hundred ninety nine",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.458
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in one thousand four hundred ninety nine dollars.",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.742
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in one thousand four hundred ninety nine dollars. ",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.3
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19920,
+   "received": 20.3
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19420,
+   "turnId": 0,
+   "received": 20.3
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19420,
+   "turnId": 0,
+   "transcript": " Hi, this is Daniel from Amazon customer service. We have seen a recent order number AMZ zero nine eight seven of iPhone 11 Pro on your account which is billed on your card attached to your Amazon account. The amount charged in one thousand four hundred ninety nine dollars. ",
+   "received": 20.3
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 19420,
+   "turnId": 1,
+   "received": 20.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " We",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.554
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.059
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.479
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 22.053
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.248
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.55
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.069
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.543
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.652
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 24.065
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in",
+   "final": false,
+   "audioProcessedMs": 24080,
+   "received": 24.363
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.46
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.656
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this",
+   "final": false,
+   "audioProcessedMs": 24640,
+   "received": 24.952
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction.",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.503
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please",
+   "final": false,
+   "audioProcessedMs": 25680,
+   "received": 25.93
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.442
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one",
+   "final": false,
+   "audioProcessedMs": 26480,
+   "received": 26.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now",
+   "final": false,
+   "audioProcessedMs": 26880,
+   "received": 27.132
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and",
+   "final": false,
+   "audioProcessedMs": 27200,
+   "received": 27.428
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and to",
+   "final": false,
+   "audioProcessedMs": 27440,
+   "received": 27.749
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and to report",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 28.038
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and to report please",
+   "final": false,
+   "audioProcessedMs": 28240,
+   "received": 28.538
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and to report please press",
+   "final": false,
+   "audioProcessedMs": 28320,
+   "received": 28.64
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and to report please press two",
+   "final": false,
+   "audioProcessedMs": 28800,
+   "received": 29.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and to report please press two thank",
+   "final": false,
+   "audioProcessedMs": 29200,
+   "received": 29.434
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and to report please press two thank you",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.758
+  },
+  {
+   "type": "transcript",
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and to report please press two thank you ",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.39
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 30080,
+   "received": 30.39
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 29580,
+   "turnId": 1,
+   "received": 30.39
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 29580,
+   "turnId": 1,
+   "transcript": " We noticed some suspicious activity on your account so we have put in hold to this transaction. Please press one now and to report please press two thank you ",
+   "received": 30.39
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 40560,
+   "received": 40.97
+  }
+ ]
+}

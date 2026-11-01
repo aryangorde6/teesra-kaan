@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"This is emergency call from your tech support company.\"}, {\"id\": \"A4\", \"quote\": \"Do not hang up the call.\"}, {\"id\": \"A12\", \"quote\": \"We are calling to refund your money\"}]}", "input_tokens": 979, "output_tokens": 464, "latency": 1.882}

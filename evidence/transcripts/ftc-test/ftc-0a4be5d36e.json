@@ -1,0 +1,621 @@
+{
+ "session_id": "voyager/duplex/220D2187597C463DB236E45A5E4DC627",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 35.02,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 1740,
+   "turnId": 0,
+   "received": 2.483
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi,",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.901
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.095
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 3.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.897
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.617
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.293
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center.",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.529
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.574
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.293
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.692
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.907
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.425
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.216
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.601
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.023
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.732
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.101
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final courtesy",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 12.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final courtesy call",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final courtesy call before your",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.438
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final courtesy call before your warranty",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final courtesy call before your warranty expires",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final courtesy call before your warranty expires and your",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final courtesy call before your warranty expires and your coverage is",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.905
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final courtesy call before your warranty expires and your coverage is voided. ",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.266
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 16000,
+   "received": 16.266
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15500,
+   "turnId": 0,
+   "received": 16.266
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15500,
+   "turnId": 0,
+   "transcript": " Hi, this is Vanessa and I'm giving you a call from the dealer service center. We recently noticed your car is extended warranty was going to expire and wanted to give you one final courtesy call before your warranty expires and your coverage is voided. ",
+   "received": 16.266
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 16300,
+   "turnId": 1,
+   "received": 17.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.219
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.821
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.493
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.505
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs.",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.688
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you",
+   "final": false,
+   "audioProcessedMs": 22640,
+   "received": 22.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.125
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 23.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's",
+   "final": false,
+   "audioProcessedMs": 24720,
+   "received": 24.991
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.503
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press",
+   "final": false,
+   "audioProcessedMs": 26880,
+   "received": 27.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now",
+   "final": false,
+   "audioProcessedMs": 27280,
+   "received": 27.494
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or",
+   "final": false,
+   "audioProcessedMs": 27840,
+   "received": 28.097
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press",
+   "final": false,
+   "audioProcessedMs": 28720,
+   "received": 29.086
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two",
+   "final": false,
+   "audioProcessedMs": 28960,
+   "received": 29.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be",
+   "final": false,
+   "audioProcessedMs": 29280,
+   "received": 29.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be placed",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be placed on",
+   "final": false,
+   "audioProcessedMs": 29520,
+   "received": 29.786
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be placed on the",
+   "final": false,
+   "audioProcessedMs": 29600,
+   "received": 29.818
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be placed on the DNC",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.321
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be placed on the DNC or",
+   "final": false,
+   "audioProcessedMs": 30560,
+   "received": 30.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be placed on the DNC or call",
+   "final": false,
+   "audioProcessedMs": 31200,
+   "received": 31.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be placed on the DNC or call 8333041447",
+   "final": false,
+   "audioProcessedMs": 34240,
+   "received": 34.557
+  },
+  {
+   "type": "transcript",
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be placed on the DNC or call 8333041447 ",
+   "final": false,
+   "audioProcessedMs": 34960,
+   "received": 35.241
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 34960,
+   "received": 35.241
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 34460,
+   "turnId": 1,
+   "received": 35.241
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 34460,
+   "turnId": 1,
+   "transcript": " This would make you financially responsible for all service repairs. Press one now if you wish to extend or reinstate your car's warranty once again press one now or press two to be placed on the DNC or call 8333041447 ",
+   "received": 35.241
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 35040,
+   "received": 35.412
+  }
+ ]
+}

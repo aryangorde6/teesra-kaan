@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A3\", \"quote\": \"Now you'll receive an OTP. please read it out to me so I can block the card immediately.\"}, {\"id\": \"A5\", \"quote\": \"Now you'll receive an OTP. please read it out to me so I can block the card immediately.\"}]}", "input_tokens": 871, "output_tokens": 470, "latency": 2.016}

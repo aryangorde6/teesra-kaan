@@ -1,0 +1,432 @@
+{
+ "session_id": "voyager/duplex/AF03A0A40EA748988C7F4474972BC908",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 17.837375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " So,",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.106
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message,",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.515
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.025
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.107
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer.",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.145
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.513
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.61
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.645
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.111
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.903
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.815
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.099
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.207
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.307
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. ",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.631
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13360,
+   "received": 13.631
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12860,
+   "turnId": 0,
+   "received": 13.631
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12860,
+   "turnId": 0,
+   "transcript": " So, when you get this message, kindly kindly press 1 to discuss with available officer. The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. ",
+   "received": 13.631
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12940,
+   "turnId": 1,
+   "received": 13.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " So,",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.785
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message,",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.195
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to discuss",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to discuss with",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.801
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to discuss with available officer. ",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.303
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 17840,
+   "received": 18.303
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17340,
+   "turnId": 1,
+   "received": 18.303
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17340,
+   "turnId": 1,
+   "transcript": " So, when you get this message, kindly press 1 to discuss with available officer. ",
+   "received": 18.303
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 17840,
+   "received": 18.335
+  }
+ ]
+}

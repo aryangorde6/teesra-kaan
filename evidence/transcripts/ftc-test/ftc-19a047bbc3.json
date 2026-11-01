@@ -1,0 +1,397 @@
+{
+ "session_id": "voyager/duplex/BEDD18D9DA604157B00FA159DC2653C0",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 18.746875,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.837
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 1.037
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there.",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.507
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.569
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.064
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv.",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.656
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.133
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.424
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.461
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today?",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.748
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.627
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.824
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.852
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that.",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.354
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well,",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.061
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.26
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.625
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50%",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50% discount",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.237
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50% discount to",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.539
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50% discount to all",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.935
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50% discount to all of",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.042
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50% discount to all of its",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.442
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50% discount to all of its its",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.474
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50% discount to all of its its existing",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.944
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50% discount to all of its its existing customers. ",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.904
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14560,
+   "received": 14.904
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14060,
+   "turnId": 0,
+   "received": 14.904
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14060,
+   "turnId": 0,
+   "transcript": " Hi there. This is Jessica calling you from AT&T Directv. How are you doing today? Glad to hear that. Well, Directv is offering 50% discount to all of its its existing customers. ",
+   "received": 14.904
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14300,
+   "turnId": 1,
+   "received": 15.144
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.362
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.634
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.346
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I go",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.427
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I go ahead",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.929
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I go ahead and",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.029
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I go ahead and apply",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.623
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I go ahead and apply the",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.832
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I go ahead and apply the discounts",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I go ahead and apply the discounts on",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.525
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I go ahead and apply the discounts on your",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.131
+  },
+  {
+   "type": "transcript",
+   "transcript": " Do you have a moment to speak so I go ahead and apply the discounts on your account? ",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.23
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18800,
+   "received": 19.23
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18300,
+   "turnId": 1,
+   "received": 19.23
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18300,
+   "turnId": 1,
+   "transcript": " Do you have a moment to speak so I go ahead and apply the discounts on your account? ",
+   "received": 19.23
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 18800,
+   "received": 19.26
+  }
+ ]
+}

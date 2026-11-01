@@ -1,0 +1,260 @@
+{
+ "session_id": "voyager/duplex/EB17F4A0576A410CAE62DFAFD1E06166",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 11.111125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " due",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.304
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status.",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.904
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.583
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.878
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.43
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.904
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin,",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.517
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.325
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your claim",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your claim otherwise",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.096
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your claim otherwise press",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.579
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your claim otherwise press 2",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 9.996
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your claim otherwise press 2 to",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your claim otherwise press 2 to speak with",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your claim otherwise press 2 to speak with the",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your claim otherwise press 2 to speak with the billing department ",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.574
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 11120,
+   "received": 11.574
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 10620,
+   "turnId": 0,
+   "received": 11.574
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 10620,
+   "turnId": 0,
+   "transcript": " due to delinquent account status. If you find this to be an error or would like to stop the disjoin, please press 1 to start your claim otherwise press 2 to speak with the billing department ",
+   "received": 11.574
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 11120,
+   "received": 11.599
+  }
+ ]
+}

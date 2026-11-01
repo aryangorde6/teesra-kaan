@@ -1,0 +1,863 @@
+{
+ "session_id": "voyager/duplex/6803EAC5453B4206AF595FCAD80C223E",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 49.25225,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.88
+  },
+  {
+   "type": "transcript",
+   "transcript": " The",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 1.063
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason",
+   "final": false,
+   "audioProcessedMs": 800,
+   "received": 1.108
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.147
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.856
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.036
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.152
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.332
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.884
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.088
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.692
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.83
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.503
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 7.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.306
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So,",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.799
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 9.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message,",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.675
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 10.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.488
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.926
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.281
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available officer.",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available officer. ",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.966
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13680,
+   "received": 13.966
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13180,
+   "turnId": 0,
+   "received": 13.966
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13180,
+   "turnId": 0,
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available officer. ",
+   "received": 13.966
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 13180,
+   "turnId": 1,
+   "received": 13.966
+  },
+  {
+   "type": "transcript",
+   "transcript": " The",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.966
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.586
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 15.991
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.501
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.684
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.793
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 19.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.381
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.097
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So,",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.267
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.174
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message,",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 23.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.482
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss",
+   "final": false,
+   "audioProcessedMs": 25600,
+   "received": 25.798
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with",
+   "final": false,
+   "audioProcessedMs": 25760,
+   "received": 25.988
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available officer.",
+   "final": false,
+   "audioProcessedMs": 26880,
+   "received": 27.098
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available officer. ",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.359
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 27040,
+   "received": 27.359
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 26540,
+   "turnId": 1,
+   "received": 27.359
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 26540,
+   "turnId": 1,
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available officer. ",
+   "received": 27.359
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 36460,
+   "turnId": 2,
+   "received": 37.263
+  },
+  {
+   "type": "transcript",
+   "transcript": " The",
+   "final": false,
+   "audioProcessedMs": 37040,
+   "received": 37.332
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason",
+   "final": false,
+   "audioProcessedMs": 37120,
+   "received": 37.439
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you",
+   "final": false,
+   "audioProcessedMs": 37280,
+   "received": 37.55
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have",
+   "final": false,
+   "audioProcessedMs": 37440,
+   "received": 37.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received",
+   "final": false,
+   "audioProcessedMs": 38080,
+   "received": 38.338
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone",
+   "final": false,
+   "audioProcessedMs": 38320,
+   "received": 38.684
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call",
+   "final": false,
+   "audioProcessedMs": 39040,
+   "received": 39.336
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our",
+   "final": false,
+   "audioProcessedMs": 39120,
+   "received": 39.471
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department",
+   "final": false,
+   "audioProcessedMs": 39760,
+   "received": 40.044
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to",
+   "final": false,
+   "audioProcessedMs": 40000,
+   "received": 40.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform",
+   "final": false,
+   "audioProcessedMs": 40240,
+   "received": 40.546
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you",
+   "final": false,
+   "audioProcessedMs": 40560,
+   "received": 40.856
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's",
+   "final": false,
+   "audioProcessedMs": 40880,
+   "received": 41.207
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a",
+   "final": false,
+   "audioProcessedMs": 40960,
+   "received": 41.252
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal",
+   "final": false,
+   "audioProcessedMs": 41200,
+   "received": 41.441
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement",
+   "final": false,
+   "audioProcessedMs": 42080,
+   "received": 42.282
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions",
+   "final": false,
+   "audioProcessedMs": 42400,
+   "received": 42.591
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed",
+   "final": false,
+   "audioProcessedMs": 42560,
+   "received": 42.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on",
+   "final": false,
+   "audioProcessedMs": 42960,
+   "received": 43.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name",
+   "final": false,
+   "audioProcessedMs": 43040,
+   "received": 43.289
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for",
+   "final": false,
+   "audioProcessedMs": 43200,
+   "received": 43.413
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent",
+   "final": false,
+   "audioProcessedMs": 44240,
+   "received": 44.487
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 44400,
+   "received": 44.622
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So,",
+   "final": false,
+   "audioProcessedMs": 45600,
+   "received": 45.824
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you",
+   "final": false,
+   "audioProcessedMs": 45840,
+   "received": 46.081
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get",
+   "final": false,
+   "audioProcessedMs": 46080,
+   "received": 46.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this",
+   "final": false,
+   "audioProcessedMs": 46480,
+   "received": 46.695
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message,",
+   "final": false,
+   "audioProcessedMs": 47040,
+   "received": 47.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly",
+   "final": false,
+   "audioProcessedMs": 47440,
+   "received": 47.702
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press",
+   "final": false,
+   "audioProcessedMs": 47600,
+   "received": 47.786
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to",
+   "final": false,
+   "audioProcessedMs": 48400,
+   "received": 48.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with",
+   "final": false,
+   "audioProcessedMs": 48560,
+   "received": 48.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available officer ",
+   "final": false,
+   "audioProcessedMs": 49280,
+   "received": 49.651
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 49280,
+   "received": 49.651
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 48780,
+   "turnId": 2,
+   "received": 49.651
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 48780,
+   "turnId": 2,
+   "transcript": " The reason you have received this phone call from our department is to inform you that there's a legal enforcement actions filed on your name for fraudulent activities. So, when you get this message, kindly press 1 to discuss with available officer ",
+   "received": 49.651
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 49280,
+   "received": 49.672
+  }
+ ]
+}

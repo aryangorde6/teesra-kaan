@@ -1,0 +1,723 @@
+{
+ "session_id": "voyager/duplex/EA3E7923610A4B46A15E42A373B02D5E",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 35.42,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 700,
+   "turnId": 0,
+   "received": 1.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.928
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.232
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.447
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center.",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.725
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.245
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.922
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.239
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer.",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.125
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.209
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.422
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.723
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.123
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.215
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.413
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.031
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 11.996
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal your",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.713
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal your social",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal your social security",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.115
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal your social security number",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.218
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal your social security number and",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal your social security number and personal",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.018
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal your social security number and personal information.",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.427
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal your social security number and personal information. ",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.261
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 16000,
+   "received": 16.261
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15500,
+   "turnId": 0,
+   "received": 16.261
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15500,
+   "turnId": 0,
+   "transcript": " Hello this call is from Microsoft help center. We encounter a serious issue coming out of your computer. It seems to be someone is trying to hijack your identity and try to steal your social security number and personal information. ",
+   "received": 16.261
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15580,
+   "turnId": 1,
+   "received": 16.319
+  },
+  {
+   "type": "transcript",
+   "transcript": " If",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.913
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.105
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.023
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.516
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.418
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.711
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.127
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.711
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.613
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised.",
+   "final": false,
+   "audioProcessedMs": 22640,
+   "received": 22.926
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you",
+   "final": false,
+   "audioProcessedMs": 23600,
+   "received": 23.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.226
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.523
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.623
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.711
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using",
+   "final": false,
+   "audioProcessedMs": 24640,
+   "received": 24.921
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows",
+   "final": false,
+   "audioProcessedMs": 25680,
+   "received": 25.92
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer",
+   "final": false,
+   "audioProcessedMs": 26560,
+   "received": 26.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then",
+   "final": false,
+   "audioProcessedMs": 27520,
+   "received": 27.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.225
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press 7 now",
+   "final": false,
+   "audioProcessedMs": 28960,
+   "received": 29.239
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press 7 now to",
+   "final": false,
+   "audioProcessedMs": 29040,
+   "received": 29.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press 7 now to speak",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.707
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press 7 now to speak with",
+   "final": false,
+   "audioProcessedMs": 29760,
+   "received": 30.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press 7 now to speak with security",
+   "final": false,
+   "audioProcessedMs": 29840,
+   "received": 30.103
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press 7 now to speak with security team",
+   "final": false,
+   "audioProcessedMs": 30640,
+   "received": 30.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press 7 now to speak with security team now.",
+   "final": false,
+   "audioProcessedMs": 31040,
+   "received": 31.359
+  },
+  {
+   "type": "transcript",
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press 7 now to speak with security team now. ",
+   "final": false,
+   "audioProcessedMs": 31200,
+   "received": 31.459
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 31200,
+   "received": 31.459
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 30700,
+   "turnId": 1,
+   "received": 31.459
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 30700,
+   "turnId": 1,
+   "transcript": " If it's not fixed right away then your computer will become obsolete and all of your credential information may got compromised. If you are the one who is using Microsoft Windows in your computer then please press 7 now to speak with security team now. ",
+   "received": 31.459
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 30860,
+   "turnId": 2,
+   "received": 31.658
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please",
+   "final": false,
+   "audioProcessedMs": 31680,
+   "received": 31.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore",
+   "final": false,
+   "audioProcessedMs": 32160,
+   "received": 32.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore if",
+   "final": false,
+   "audioProcessedMs": 32240,
+   "received": 32.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore if we",
+   "final": false,
+   "audioProcessedMs": 32640,
+   "received": 32.912
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore if we called",
+   "final": false,
+   "audioProcessedMs": 32880,
+   "received": 33.108
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore if we called you",
+   "final": false,
+   "audioProcessedMs": 32960,
+   "received": 33.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore if we called you by",
+   "final": false,
+   "audioProcessedMs": 33120,
+   "received": 33.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore if we called you by mistake.",
+   "final": false,
+   "audioProcessedMs": 33520,
+   "received": 33.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore if we called you by mistake. Thanks.",
+   "final": false,
+   "audioProcessedMs": 35120,
+   "received": 35.425
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore if we called you by mistake. Thanks. Thanks.",
+   "final": false,
+   "audioProcessedMs": 35200,
+   "received": 35.465
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please ignore if we called you by mistake. Thanks. Thanks. ",
+   "final": false,
+   "audioProcessedMs": 35440,
+   "received": 35.853
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 35440,
+   "received": 35.853
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 34940,
+   "turnId": 2,
+   "received": 35.853
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 34940,
+   "turnId": 2,
+   "transcript": " Please ignore if we called you by mistake. Thanks. Thanks. ",
+   "received": 35.853
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 35440,
+   "received": 35.876
+  }
+ ]
+}

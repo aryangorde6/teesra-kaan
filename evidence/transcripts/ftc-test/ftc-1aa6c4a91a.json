@@ -1,0 +1,253 @@
+{
+ "session_id": "voyager/duplex/4F75696EF92C4C929878E7CD3175E9C5",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 11.7045,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " we",
+   "final": false,
+   "audioProcessedMs": 480,
+   "received": 0.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.382
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.077
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.798
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.378
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.986
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.092
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.383
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security.",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.786
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If you want",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If you want more",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If you want more information",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.056
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If you want more information about this",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If you want more information about this case,",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If you want more information about this case, press",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If you want more information about this case, press 1.",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If you want more information about this case, press 1. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.161
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 11760,
+   "received": 12.161
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11260,
+   "turnId": 0,
+   "received": 12.161
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11260,
+   "turnId": 0,
+   "transcript": " we will be suspending your social security number because we found some suspicious activities on your social security. If you want more information about this case, press 1. Thank you. ",
+   "received": 12.161
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 11760,
+   "received": 12.185
+  }
+ ]
+}

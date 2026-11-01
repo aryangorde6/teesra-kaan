@@ -1,0 +1,744 @@
+{
+ "session_id": "voyager/duplex/1268E44CB03C4A508CED21EA745D4C4A",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 34.9,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 1500,
+   "turnId": 0,
+   "received": 2.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.021
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.107
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting.",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.051
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.424
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.711
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.408
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.919
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.524
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations.",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.85
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.299
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.509
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.711
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.331
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 14.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.123
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.515
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.9
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.124
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.299
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.69
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle all",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.907
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle all old",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.217
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle all old tax",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.549
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle all old tax debts that",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle all old tax debts that US",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle all old tax debts that US residents may",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle all old tax debts that US residents may have.",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle all old tax debts that US residents may have. ",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.348
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18080,
+   "received": 18.348
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17580,
+   "turnId": 0,
+   "received": 18.348
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17580,
+   "turnId": 0,
+   "transcript": " Thank you for connecting. I am the virtual assistant for Margaret Smith with Central Processing Center for FedEx back tax negotiations. The purpose of her call was to make you aware that the government suspended the tax collection act and will settle all old tax debts that US residents may have. ",
+   "received": 18.349
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 17980,
+   "turnId": 1,
+   "received": 18.714
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.109
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.231
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.305
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your",
+   "final": false,
+   "audioProcessedMs": 21120,
+   "received": 21.422
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.807
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.044
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.217
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible",
+   "final": false,
+   "audioProcessedMs": 23600,
+   "received": 23.853
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.251
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.453
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled.",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using",
+   "final": false,
+   "audioProcessedMs": 25520,
+   "received": 25.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our",
+   "final": false,
+   "audioProcessedMs": 25680,
+   "received": 25.936
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.23
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.081
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology,",
+   "final": false,
+   "audioProcessedMs": 27280,
+   "received": 27.524
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you",
+   "final": false,
+   "audioProcessedMs": 27440,
+   "received": 27.734
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are",
+   "final": false,
+   "audioProcessedMs": 27600,
+   "received": 27.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able",
+   "final": false,
+   "audioProcessedMs": 28160,
+   "received": 28.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.715
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to obtain",
+   "final": false,
+   "audioProcessedMs": 29120,
+   "received": 29.421
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to obtain enrollment",
+   "final": false,
+   "audioProcessedMs": 29760,
+   "received": 30.004
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to obtain enrollment information",
+   "final": false,
+   "audioProcessedMs": 30240,
+   "received": 30.503
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to obtain enrollment information based",
+   "final": false,
+   "audioProcessedMs": 30640,
+   "received": 30.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to obtain enrollment information based on your",
+   "final": false,
+   "audioProcessedMs": 31040,
+   "received": 31.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to obtain enrollment information based on your current",
+   "final": false,
+   "audioProcessedMs": 31120,
+   "received": 31.417
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to obtain enrollment information based on your current situation.",
+   "final": false,
+   "audioProcessedMs": 32000,
+   "received": 32.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to obtain enrollment information based on your current situation. ",
+   "final": false,
+   "audioProcessedMs": 32480,
+   "received": 32.782
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 32480,
+   "received": 32.782
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 31980,
+   "turnId": 1,
+   "received": 32.782
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 31980,
+   "turnId": 1,
+   "transcript": " This means you are not going to need to pay back your past due taxes since they are non-collectible and ready to be settled. Using our automated approval technology, you are now able to obtain enrollment information based on your current situation. ",
+   "received": 32.782
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 31980,
+   "turnId": 2,
+   "received": 32.782
+  },
+  {
+   "type": "transcript",
+   "transcript": " To",
+   "final": false,
+   "audioProcessedMs": 32720,
+   "received": 33.007
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use",
+   "final": false,
+   "audioProcessedMs": 32880,
+   "received": 33.108
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI",
+   "final": false,
+   "audioProcessedMs": 33200,
+   "received": 33.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation",
+   "final": false,
+   "audioProcessedMs": 33680,
+   "received": 33.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation and",
+   "final": false,
+   "audioProcessedMs": 34160,
+   "received": 34.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation and find the",
+   "final": false,
+   "audioProcessedMs": 34880,
+   "received": 35.224
+  },
+  {
+   "type": "transcript",
+   "transcript": " To use our AI automation and find the program you are ",
+   "final": false,
+   "audioProcessedMs": 34960,
+   "received": 35.288
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 34960,
+   "received": 35.288
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 34460,
+   "turnId": 2,
+   "received": 35.288
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 34460,
+   "turnId": 2,
+   "transcript": " To use our AI automation and find the program you are ",
+   "received": 35.288
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 34960,
+   "received": 35.294
+  }
+ ]
+}

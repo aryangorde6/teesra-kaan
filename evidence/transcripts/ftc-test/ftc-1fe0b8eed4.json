@@ -1,0 +1,474 @@
+{
+ "session_id": "voyager/duplex/A60261A52821405F8CD686200F2B7C8C",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 20.062375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside,",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.689
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.922
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.308
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 2.998
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.421
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 3.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.979
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.376
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.682
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.967
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter.",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.063
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.672
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.564
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 8.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.172
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.774
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.184
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.61
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.776
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.664
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department.",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.184
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 12.967
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.067
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.577
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you,",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 13.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.178
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.363
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we will be",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 14.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we will be forced",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we will be forced to",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.674
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we will be forced to take",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we will be forced to take legal action",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.583
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we will be forced to take legal action against",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 16.98
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we will be forced to take legal action against you.",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.017
+  },
+  {
+   "type": "transcript",
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we will be forced to take legal action against you. ",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.737
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 17440,
+   "received": 17.737
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 16940,
+   "turnId": 0,
+   "received": 17.737
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 16940,
+   "turnId": 0,
+   "transcript": " Beside, so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press one and you will be connected to the concerned department. If we don't hear from you, then we will be forced to take legal action against you. ",
+   "received": 17.737
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 16940,
+   "turnId": 1,
+   "received": 17.737
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.167
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one and",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.382
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one and you will",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.485
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one and you will be",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.669
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one and you will be connected",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.379
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one and you will be connected to the",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.473
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one and you will be connected to the concerned department ",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.478
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20080,
+   "received": 20.478
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19580,
+   "turnId": 1,
+   "received": 20.478
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19580,
+   "turnId": 1,
+   "transcript": " Press one and you will be connected to the concerned department ",
+   "received": 20.478
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 20080,
+   "received": 20.508
+  }
+ ]
+}

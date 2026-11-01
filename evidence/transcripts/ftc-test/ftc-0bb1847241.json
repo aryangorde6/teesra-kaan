@@ -1,0 +1,540 @@
+{
+ "session_id": "voyager/duplex/EE87686F1F41422BAE020BBD4848C60D",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 26.221625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 460,
+   "turnId": 0,
+   "received": 1.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.519
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.793
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.99
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.98
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.911
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.514
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 6.992
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.297
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.487
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.884
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 9.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.183
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.277
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.648
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.197
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.584
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.027
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.583
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 12.99
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.275
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.257
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.27
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.533
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.388
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.413
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.873
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 15.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.503
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 16.985
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.081
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.794
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.088
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.301
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 20.977
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.689
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department by this",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department by this call",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.679
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department by this call you",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.377
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department by this call you have been",
+   "final": false,
+   "audioProcessedMs": 24640,
+   "received": 24.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department by this call you have been officially",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 24.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department by this call you have been officially notified",
+   "final": false,
+   "audioProcessedMs": 25680,
+   "received": 25.888
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department by this call you have been officially notified thank",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.577
+  },
+  {
+   "type": "transcript",
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department by this call you have been officially notified thank you ",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.67
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 26240,
+   "received": 26.67
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 25740,
+   "turnId": 0,
+   "received": 26.67
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 25740,
+   "turnId": 0,
+   "transcript": " related to your name we are trying to reach you but unfortunately we missed your answer in order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter in case we would not hear from you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department by this call you have been officially notified thank you ",
+   "received": 26.67
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 26240,
+   "received": 26.703
+  }
+ ]
+}

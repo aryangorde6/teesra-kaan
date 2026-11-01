@@ -1,0 +1,453 @@
+{
+ "session_id": "voyager/duplex/29F71538B4834209A2A7B67FB2EB5C60",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 20.441125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.782
+  },
+  {
+   "type": "transcript",
+   "transcript": " is",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 0.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.078
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.19
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.373
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company.",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.906
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.234
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.682
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.387
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.476
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.582
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 6.977
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.152
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.694
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.883
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.076
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.19
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to non-payment.",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to non-payment. Immediate",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 9.976
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to non-payment. Immediate action is",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to non-payment. Immediate action is required",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.674
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to non-payment. Immediate action is required to",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to non-payment. Immediate action is required to avoid",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.181
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to non-payment. Immediate action is required to avoid disconnection today.",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to non-payment. Immediate action is required to avoid disconnection today. ",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.079
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12720,
+   "received": 13.079
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12220,
+   "turnId": 0,
+   "received": 13.079
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12220,
+   "turnId": 0,
+   "transcript": " is a disconnection notice from your electric company. Please be aware that your electric service will be disconnected within the next 30 minutes due to non-payment. Immediate action is required to avoid disconnection today. ",
+   "received": 13.079
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12220,
+   "turnId": 1,
+   "received": 13.079
+  },
+  {
+   "type": "transcript",
+   "transcript": " For",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.207
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.687
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.086
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements,",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.837
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.477
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 15.988
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.08
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.48
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.58
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.07
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer service",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.819
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer service representative,",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.292
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 19.972
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for Spanish,",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.286
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for Spanish, press",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for Spanish, press 9 ",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.884
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20480,
+   "received": 20.884
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19980,
+   "turnId": 1,
+   "received": 20.884
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19980,
+   "turnId": 1,
+   "transcript": " For automatic payments and payment arrangements, press 1 to speak to a customer service representative, press 2 for Spanish, press 9 ",
+   "received": 20.884
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 20480,
+   "received": 20.898
+  }
+ ]
+}

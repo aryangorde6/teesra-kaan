@@ -1,0 +1,453 @@
+{
+ "session_id": "voyager/duplex/2929F9FDC2834AA889DE1FB1C0D04FEA",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 20.441125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 620,
+   "turnId": 0,
+   "received": 1.428
+  },
+  {
+   "type": "transcript",
+   "transcript": " The",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.721
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.131
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.443
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.523
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.824
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.92
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.278
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.439
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.621
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name.",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.332
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.94
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.424
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.63
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.924
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.422
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.934
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.023
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.033
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.451
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.433
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.627
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.934
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate judge",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.92
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate judge or",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.233
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.765
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.767
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.253
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal offense.",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.733
+  },
+  {
+   "type": "transcript",
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal offense. ",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.435
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15040,
+   "received": 15.435
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14540,
+   "turnId": 0,
+   "received": 15.435
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14540,
+   "turnId": 0,
+   "transcript": " The court has issued a suspension notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate judge or grand jury for a federal criminal offense. ",
+   "received": 15.435
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14540,
+   "turnId": 1,
+   "received": 15.435
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.512
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.578
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.873
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.346
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you.",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.106
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.656
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.727
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.944
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.643
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.932
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the next",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.239
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the next available",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.442
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the next available officer ",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.89
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20480,
+   "received": 20.89
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19980,
+   "turnId": 1,
+   "received": 20.89
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19980,
+   "turnId": 1,
+   "transcript": " This is the final attempt to reach you. For more information press 1 and hold for the next available officer ",
+   "received": 20.89
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 20480,
+   "received": 20.898
+  }
+ ]
+}

@@ -1,0 +1,703 @@
+{
+ "session_id": "voyager/duplex/484F2EE2A66246E6B54D43877AF50998",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 31.617375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 0.97
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते,",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.711
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.578
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.84
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.879
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.17
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.876
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.166
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ,",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ, क्या",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.459
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ, क्या मेरी",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.172
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ, क्या मेरी बात",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.666
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ, क्या मेरी बात रमेश जी",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.189
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ, क्या मेरी बात रमेश जी से",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.46
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ, क्या मेरी बात रमेश जी से हो",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.552
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ, क्या मेरी बात रमेश जी से हो रही है?",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.187
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ, क्या मेरी बात रमेश जी से हो रही है? ",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.816
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 8560,
+   "received": 8.816
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 8060,
+   "turnId": 0,
+   "received": 8.816
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 8060,
+   "turnId": 0,
+   "transcript": " नमस्ते, मैं बैंक की फ्रॉड मॉनिटरिंग टीम से बोल रही हूँ, क्या मेरी बात रमेश जी से हो रही है? ",
+   "received": 8.816
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 8140,
+   "turnId": 1,
+   "received": 8.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ,",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, ",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.86
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 9600,
+   "received": 9.86
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9100,
+   "turnId": 1,
+   "received": 9.86
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9100,
+   "turnId": 1,
+   "transcript": " हाँ, ",
+   "received": 9.86
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 9260,
+   "turnId": 2,
+   "received": 9.974
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.182
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 11.964
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.275
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.87
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.076
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.862
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.67
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.389
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा.",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.589
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.767
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने उसे",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.369
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने उसे रोका",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.782
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने उसे रोका है, क्या",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.88
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने उसे रोका है, क्या यह",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.27
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने उसे रोका है, क्या यह आपने",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने उसे रोका है, क्या यह आपने किया",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.876
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने उसे रोका है, क्या यह आपने किया था?",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने उसे रोका है, क्या यह आपने किया था? ",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 20.047
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19760,
+   "received": 20.047
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19260,
+   "turnId": 2,
+   "received": 20.047
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19260,
+   "turnId": 2,
+   "transcript": " आपके क्रेडिट कार्ड पर अभी बारह हजार रुपये का एक ऑनलाइन लेनदेन संदिग्ध लगा. इसलिए हमने उसे रोका है, क्या यह आपने किया था? ",
+   "received": 20.047
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 19500,
+   "turnId": 3,
+   "received": 20.174
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं,",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.675
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैंने",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 20.964
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैंने नहीं",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.178
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैंने नहीं किया.",
+   "final": false,
+   "audioProcessedMs": 21040,
+   "received": 21.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैंने नहीं किया. ",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.209
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 21920,
+   "received": 22.21
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21420,
+   "turnId": 3,
+   "received": 22.21
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21420,
+   "turnId": 3,
+   "transcript": " नहीं, मैंने नहीं किया. ",
+   "received": 22.21
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 21500,
+   "turnId": 4,
+   "received": 22.249
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक",
+   "final": false,
+   "audioProcessedMs": 22400,
+   "received": 22.57
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है,",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.372
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड",
+   "final": false,
+   "audioProcessedMs": 23600,
+   "received": 23.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 23.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.572
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है,",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 24.972
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड",
+   "final": false,
+   "audioProcessedMs": 24960,
+   "received": 25.166
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात",
+   "final": false,
+   "audioProcessedMs": 25440,
+   "received": 25.672
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन",
+   "final": false,
+   "audioProcessedMs": 25520,
+   "received": 25.77
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.266
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते",
+   "final": false,
+   "audioProcessedMs": 26640,
+   "received": 26.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 26.97
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ",
+   "final": false,
+   "audioProcessedMs": 27120,
+   "received": 27.373
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा,",
+   "final": false,
+   "audioProcessedMs": 27680,
+   "received": 27.88
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.176
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान रखिए",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.667
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान रखिए बैंक",
+   "final": false,
+   "audioProcessedMs": 29040,
+   "received": 29.27
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान रखिए बैंक कभी",
+   "final": false,
+   "audioProcessedMs": 29520,
+   "received": 29.767
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान रखिए बैंक कभी OTP या",
+   "final": false,
+   "audioProcessedMs": 30400,
+   "received": 30.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान रखिए बैंक कभी OTP या PIN",
+   "final": false,
+   "audioProcessedMs": 30800,
+   "received": 30.981
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान रखिए बैंक कभी OTP या PIN नहीं",
+   "final": false,
+   "audioProcessedMs": 31040,
+   "received": 31.269
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान रखिए बैंक कभी OTP या PIN नहीं मांगता.",
+   "final": false,
+   "audioProcessedMs": 31200,
+   "received": 31.395
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान रखिए बैंक कभी OTP या PIN नहीं मांगता. ",
+   "final": false,
+   "audioProcessedMs": 31680,
+   "received": 32.029
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 31680,
+   "received": 32.03
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 31180,
+   "turnId": 4,
+   "received": 32.03
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 31180,
+   "turnId": 4,
+   "transcript": " ठीक है, हमने कार्ड ब्लॉक कर दिया है, नया कार्ड सात दिन में आपके पते पर आ जाएगा, ध्यान रखिए बैंक कभी OTP या PIN नहीं मांगता. ",
+   "received": 32.03
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 31680,
+   "received": 32.053
+  }
+ ]
+}

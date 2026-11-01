@@ -1,0 +1,516 @@
+{
+ "session_id": "voyager/duplex/6D146E44E416436EAD9A68BB62243914",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 22.550625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 300,
+   "turnId": 0,
+   "received": 0.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if",
+   "final": false,
+   "audioProcessedMs": 800,
+   "received": 0.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.456
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.768
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.266
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.655
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.897
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.031
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 3.969
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.255
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.666
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.961
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.979
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.369
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.572
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.277
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.469
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.564
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 7.968
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.577
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.671
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.265
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.474
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.681
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.757
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.176
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.095
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.563
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and you will",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and you will be",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.468
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and you will be connected",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and you will be connected to",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.178
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and you will be connected to the",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and you will be connected to the concerned",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.063
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and you will be connected to the concerned department.",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.267
+  },
+  {
+   "type": "transcript",
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and you will be connected to the concerned department. ",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.806
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15520,
+   "received": 15.806
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15020,
+   "turnId": 0,
+   "received": 15.806
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15020,
+   "turnId": 0,
+   "transcript": " see if this phone call from our department is is to inform you that there's a legal enforcement actions filed on your social security number for fraudulent activities. In order to connect federal agent press one and you will be connected to the concerned department. ",
+   "received": 15.806
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15180,
+   "turnId": 1,
+   "received": 15.876
+  },
+  {
+   "type": "transcript",
+   "transcript": " If",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.876
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 15.966
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.566
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 16.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you,",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.473
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 18.972
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be blocked",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.263
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be blocked permanently.",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.569
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be blocked permanently. Press",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be blocked permanently. Press one and",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.876
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be blocked permanently. Press one and you will be",
+   "final": false,
+   "audioProcessedMs": 21040,
+   "received": 21.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be blocked permanently. Press one and you will be connected",
+   "final": false,
+   "audioProcessedMs": 21680,
+   "received": 21.871
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be blocked permanently. Press one and you will be connected to",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 21.97
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be blocked permanently. Press one and you will be connected to the",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.171
+  },
+  {
+   "type": "transcript",
+   "transcript": " If we don't hear from you, your social will be be blocked permanently. Press one and you will be connected to the concerned department. ",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 22.941
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 22560,
+   "received": 22.941
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22060,
+   "turnId": 1,
+   "received": 22.941
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22060,
+   "turnId": 1,
+   "transcript": " If we don't hear from you, your social will be be blocked permanently. Press one and you will be connected to the concerned department. ",
+   "received": 22.941
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 22560,
+   "received": 22.96
+  }
+ ]
+}

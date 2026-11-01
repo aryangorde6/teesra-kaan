@@ -1,0 +1,292 @@
+{
+ "session_id": "voyager/duplex/76292B392C96406BA3B935ABBC3FC87A",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 11.513375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.664
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello.",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 1.076
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.569
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.181
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover.",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.648
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.532
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.351
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This is Sarah from Discover. I am calling in ",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.971
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 4640,
+   "received": 4.972
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 4140,
+   "turnId": 0,
+   "received": 4.972
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 4140,
+   "turnId": 0,
+   "transcript": " Hello. This is Sarah from Discover. I am calling in ",
+   "received": 4.972
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 4140,
+   "turnId": 1,
+   "received": 4.972
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.972
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.086
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.184
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.852
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to expire.",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.176
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information or",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 10.981
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information or hang",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.472
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information or hang up",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.877
+  },
+  {
+   "type": "transcript",
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information or hang up this call. ",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.983
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 11520,
+   "received": 11.983
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11020,
+   "turnId": 1,
+   "received": 11.983
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11020,
+   "turnId": 1,
+   "transcript": " We've been trying to reach you as your eligibility for rate reduction is about to expire. Press 1 for more information or hang up this call. ",
+   "received": 11.983
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 11520,
+   "received": 11.989
+  }
+ ]
+}

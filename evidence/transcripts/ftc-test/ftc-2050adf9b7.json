@@ -1,0 +1,397 @@
+{
+ "session_id": "voyager/duplex/D5E6BF445C1B4816AB2EA3D3D15E35C6",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 17.811375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.697
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi.",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 0.985
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.49
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.867
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.183
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.373
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.773
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.175
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels.",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.488
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.86
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.171
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.471
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 8.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.283
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.877
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.007
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.185
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.681
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five star",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 10.978
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five star hotels.",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five star hotels. For",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.467
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five star hotels. For further",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.869
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five star hotels. For further details",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.371
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five star hotels. For further details press one",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.773
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five star hotels. For further details press one now.",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.387
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five star hotels. For further details press one now. ",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.622
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14400,
+   "received": 14.622
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13900,
+   "turnId": 0,
+   "received": 14.623
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13900,
+   "turnId": 0,
+   "transcript": " Hi. This is an exclusive announcement from Marriott Hotels. Your telephone number has been pre-selected to receive a complimentary stay in one of our five star hotels. For further details press one now. ",
+   "received": 14.623
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14380,
+   "turnId": 1,
+   "received": 15.078
+  },
+  {
+   "type": "transcript",
+   "transcript": " To",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.271
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be placed",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.171
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be placed on",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.281
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be placed on the do",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.428
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be placed on the do not",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be placed on the do not call",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 16.976
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be placed on the do not call list",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.066
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be placed on the do not call list press",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.767
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be placed on the do not call list press two",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.165
+  },
+  {
+   "type": "transcript",
+   "transcript": " To be placed on the do not call list press two now. ",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.253
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 17840,
+   "received": 18.253
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17340,
+   "turnId": 1,
+   "received": 18.253
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17340,
+   "turnId": 1,
+   "transcript": " To be placed on the do not call list press two now. ",
+   "received": 18.253
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 17840,
+   "received": 18.268
+  }
+ ]
+}

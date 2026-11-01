@@ -1,0 +1,558 @@
+{
+ "session_id": "voyager/duplex/3F2535AA21694A7AAE185BA5B23C9958",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 35.42,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 3100,
+   "turnId": 0,
+   "received": 3.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.087
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.331
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services.",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.096
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.807
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors,",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.507
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.085
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.491
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 10.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.391
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.84
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.196
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.387
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts.",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.109
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.221
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.264
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.495
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.681
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 14.996
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.49
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.687
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score,",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.297
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.61
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.812
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for interest rate",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for interest rate reduction",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.788
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for interest rate reduction between",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.09
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for interest rate reduction between zero",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for interest rate reduction between zero to",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 19.988
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for interest rate reduction between zero to five",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.189
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for interest rate reduction between zero to five percent.",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for interest rate reduction between zero to five percent. ",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.655
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20320,
+   "received": 20.655
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19820,
+   "turnId": 0,
+   "received": 20.655
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19820,
+   "turnId": 0,
+   "transcript": " Thank you for choosing Visa and MasterCard services. As your legal financial advisors, this is an important message regarding your existing credit card accounts. Thanks to your Thanks to your good payment and history and good credit score, you have been qualified finally for interest rate reduction between zero to five percent. ",
+   "received": 20.655
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 20220,
+   "turnId": 1,
+   "received": 21.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.803
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.92
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to",
+   "final": false,
+   "audioProcessedMs": 22160,
+   "received": 22.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you.",
+   "final": false,
+   "audioProcessedMs": 22640,
+   "received": 22.901
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.458
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final",
+   "final": false,
+   "audioProcessedMs": 23520,
+   "received": 23.801
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 23.985
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.488
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 24.998
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable",
+   "final": false,
+   "audioProcessedMs": 25120,
+   "received": 25.458
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.486
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to lower",
+   "final": false,
+   "audioProcessedMs": 25520,
+   "received": 25.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to lower your",
+   "final": false,
+   "audioProcessedMs": 25600,
+   "received": 25.831
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to lower your interest",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.521
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to lower your interest rates.",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.623
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to lower your interest rates. So",
+   "final": false,
+   "audioProcessedMs": 27280,
+   "received": 27.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to lower your interest rates. So press one",
+   "final": false,
+   "audioProcessedMs": 27600,
+   "received": 27.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to lower your interest rates. So press one now",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 28.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to lower your interest rates. So press one now ",
+   "final": false,
+   "audioProcessedMs": 28560,
+   "received": 28.898
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 28560,
+   "received": 28.898
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 28060,
+   "turnId": 1,
+   "received": 28.898
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 28060,
+   "turnId": 1,
+   "transcript": " Several attempts were made to reach you. This is This is your final courtesy call before we are unable to lower your interest rates. So press one now ",
+   "received": 28.898
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 35440,
+   "received": 35.812
+  }
+ ]
+}

@@ -1,0 +1,246 @@
+{
+ "session_id": "voyager/duplex/A81706166CF84AA28E5E7B9FD663216A",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 10.17475,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " There",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.586
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.177
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.589
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.98
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.892
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.277
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.589
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 6.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.475
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one or",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 8.99
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one or press",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one or press two",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.679
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one or press two to",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 9.963
+  },
+  {
+   "type": "transcript",
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one or press two to authorize this order ",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.594
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10240,
+   "received": 10.594
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9740,
+   "turnId": 0,
+   "received": 10.594
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9740,
+   "turnId": 0,
+   "transcript": " There is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one or press two to authorize this order ",
+   "received": 10.594
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 10240,
+   "received": 10.615
+  }
+ ]
+}

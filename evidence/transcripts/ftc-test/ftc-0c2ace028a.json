@@ -1,0 +1,537 @@
+{
+ "session_id": "voyager/duplex/3DBBA63C1F85463281A78027F06194D4",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 24.050375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.916
+  },
+  {
+   "type": "transcript",
+   "transcript": " For",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.126
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.818
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.925
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.718
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.032
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.232
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity,",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.297
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.92
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.427
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.449
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.842
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.913
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.643
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name.",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.822
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.928
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.215
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.729
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.917
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.597
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.833
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.224
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.619
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate,",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.048
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge or",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge or grand jury",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge or grand jury for",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.827
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge or grand jury for a",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.427
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge or grand jury for a federal",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.815
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge or grand jury for a federal criminal",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge or grand jury for a federal criminal offense.",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.244
+  },
+  {
+   "type": "transcript",
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge or grand jury for a federal criminal offense. ",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.677
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18400,
+   "received": 18.677
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17900,
+   "turnId": 0,
+   "received": 18.677
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17900,
+   "turnId": 0,
+   "transcript": " For suspicious and fraudulent activities carried out using your identity, the court has issued a suspension notice along notice along with a warrant against your name. Ignoring this message will be an intentional second attempt to avoid initial appearance before a magistrate, judge or grand jury for a federal criminal offense. ",
+   "received": 18.677
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 17900,
+   "turnId": 1,
+   "received": 18.677
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.438
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.476
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.31
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you.",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.523
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information,",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.262
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information, press",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information, press 1 and",
+   "final": false,
+   "audioProcessedMs": 22640,
+   "received": 22.933
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information, press 1 and hold",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information, press 1 and hold for the",
+   "final": false,
+   "audioProcessedMs": 23040,
+   "received": 23.327
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information, press 1 and hold for the next",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information, press 1 and hold for the next available",
+   "final": false,
+   "audioProcessedMs": 23840,
+   "received": 24.112
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is the final attempt to reach you. For more information, press 1 and hold for the next available officer. ",
+   "final": false,
+   "audioProcessedMs": 24080,
+   "received": 24.484
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 24080,
+   "received": 24.484
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23580,
+   "turnId": 1,
+   "received": 24.484
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23580,
+   "turnId": 1,
+   "transcript": " This is the final attempt to reach you. For more information, press 1 and hold for the next available officer. ",
+   "received": 24.484
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 24080,
+   "received": 24.502
+  }
+ ]
+}

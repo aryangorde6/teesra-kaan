@@ -1,0 +1,541 @@
+{
+ "session_id": "voyager/duplex/B692683595FD47969012A722B7408ADF",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 30.356,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 540,
+   "turnId": 0,
+   "received": 1.333
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.842
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.275
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.743
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.548
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.829
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है।",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.139
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.45
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.633
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.342
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.833
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.049
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.737
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.844
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.639
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.149
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.647
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.145
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं।",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.683
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.57
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.17
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.531
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.639
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.877
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.369
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.363
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर के",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.673
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर के खिलाफ",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.764
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर के खिलाफ उत्पीड़न",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर के खिलाफ उत्पीड़न की",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.658
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर के खिलाफ उत्पीड़न की शिकायत",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.257
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर के खिलाफ उत्पीड़न की शिकायत आई",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.429
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर के खिलाफ उत्पीड़न की शिकायत आई है",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.646
+  },
+  {
+   "type": "transcript",
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर के खिलाफ उत्पीड़न की शिकायत आई है ",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.484
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19120,
+   "received": 19.484
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18620,
+   "turnId": 0,
+   "received": 19.484
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18620,
+   "turnId": 0,
+   "transcript": " यह दु responsive विभाग की ओर से कॉल है। आपका नंबर दो घंटे में बंद कर दिया जाएगा ज्यादा जानकारी के लिए नौ दबाएं। नमस्कार मैं दूरसंचार विभाग से अधिकारी वर्मा आपके नंबर के खिलाफ उत्पीड़न की शिकायत आई है ",
+   "received": 19.484
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 18780,
+   "turnId": 1,
+   "received": 19.54
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.84
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने किसी",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.231
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने किसी को",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.433
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने किसी को परेशान",
+   "final": false,
+   "audioProcessedMs": 21040,
+   "received": 21.349
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने किसी को परेशान नहीं",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.64
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने किसी को परेशान नहीं किया",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैंने किसी को परेशान नहीं किया ",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.131
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 22720,
+   "received": 23.131
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22220,
+   "turnId": 1,
+   "received": 23.131
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22220,
+   "turnId": 1,
+   "transcript": " मैंने किसी को परेशान नहीं किया ",
+   "received": 23.131
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 22220,
+   "turnId": 2,
+   "received": 23.131
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.131
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको",
+   "final": false,
+   "audioProcessedMs": 23040,
+   "received": 23.337
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.153
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा",
+   "final": false,
+   "audioProcessedMs": 25040,
+   "received": 25.323
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना",
+   "final": false,
+   "audioProcessedMs": 25680,
+   "received": 25.935
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार",
+   "final": false,
+   "audioProcessedMs": 26720,
+   "received": 27.041
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार नंबर",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.333
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार नंबर बताइए",
+   "final": false,
+   "audioProcessedMs": 27360,
+   "received": 27.659
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार नंबर बताइए और",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.238
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार नंबर बताइए और जो",
+   "final": false,
+   "audioProcessedMs": 28160,
+   "received": 28.438
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार नंबर बताइए और जो OTP",
+   "final": false,
+   "audioProcessedMs": 28800,
+   "received": 29.032
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार नंबर बताइए और जो OTP आएगा वो भी",
+   "final": false,
+   "audioProcessedMs": 29600,
+   "received": 29.856
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार नंबर बताइए और जो OTP आएगा वो भी बताइए।",
+   "final": false,
+   "audioProcessedMs": 30160,
+   "received": 30.468
+  },
+  {
+   "type": "transcript",
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार नंबर बताइए और जो OTP आएगा वो भी बताइए। ",
+   "final": false,
+   "audioProcessedMs": 30400,
+   "received": 30.755
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 30400,
+   "received": 30.755
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 29900,
+   "turnId": 2,
+   "received": 30.755
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 29900,
+   "turnId": 2,
+   "transcript": " तो आपको वेरिफिकेशन करवाना होगा अपना आधार नंबर बताइए और जो OTP आएगा वो भी बताइए। ",
+   "received": 30.755
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 30400,
+   "received": 30.788
+  }
+ ]
+}

@@ -1,0 +1,521 @@
+{
+ "session_id": "voyager/duplex/E384EB9AC1B44678B741270DD7CECF4E",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 28.673375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.916
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.282
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.517
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.485
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय.",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय. तुम्हाला",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय. तुम्हाला दोन",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.708
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय. तुम्हाला दोन हजार",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.085
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय. तुम्हाला दोन हजार रुपयांच्या",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.822
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय. तुम्हाला दोन हजार रुपयांच्या कॅशबॅक",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.27
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय. तुम्हाला दोन हजार रुपयांच्या कॅशबॅक मिळाला",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय. तुम्हाला दोन हजार रुपयांच्या कॅशबॅक मिळाला आहे.",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.295
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय. तुम्हाला दोन हजार रुपयांच्या कॅशबॅक मिळाला आहे. ",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.172
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 9840,
+   "received": 10.172
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9340,
+   "turnId": 0,
+   "received": 10.172
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9340,
+   "turnId": 0,
+   "transcript": " नमस्कार, मी फोनपे Cashback विभागातून बोलतोय. तुम्हाला दोन हजार रुपयांच्या कॅशबॅक मिळाला आहे. ",
+   "received": 10.172
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 9340,
+   "turnId": 1,
+   "received": 10.172
+  },
+  {
+   "type": "transcript",
+   "transcript": " अरे",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.172
+  },
+  {
+   "type": "transcript",
+   "transcript": " अरे वा!",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.508
+  },
+  {
+   "type": "transcript",
+   "transcript": " अरे वा! कसा",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " अरे वा! कसा मिळेल? ",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.463
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 11200,
+   "received": 11.463
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 10700,
+   "turnId": 1,
+   "received": 11.463
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 10700,
+   "turnId": 1,
+   "transcript": " अरे वा! कसा मिळेल? ",
+   "received": 11.463
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11020,
+   "turnId": 2,
+   "received": 11.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.687
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.323
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.712
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.232
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.172
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे,",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.434
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.05
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या UPI",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या UPI PIN",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या UPI PIN टाका.",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.605
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या UPI PIN टाका. कॅशबॅक",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.448
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या UPI PIN टाका. कॅशबॅक लगेच",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या UPI PIN टाका. कॅशबॅक लगेच जमा",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या UPI PIN टाका. कॅशबॅक लगेच जमा होईल.",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.516
+  },
+  {
+   "type": "transcript",
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या UPI PIN टाका. कॅशबॅक लगेच जमा होईल. ",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.25
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 21920,
+   "received": 22.25
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21420,
+   "turnId": 2,
+   "received": 22.25
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21420,
+   "turnId": 2,
+   "transcript": " तुमच्या फोनपे ॲपवर एक रिक्वेस्ट आली आहे, ती स्वीकारा आणि तुमच्या UPI PIN टाका. कॅशबॅक लगेच जमा होईल. ",
+   "received": 22.25
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 21420,
+   "turnId": 3,
+   "received": 22.25
+  },
+  {
+   "type": "transcript",
+   "transcript": " PIN",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " PIN टाकल्यावर",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.02
+  },
+  {
+   "type": "transcript",
+   "transcript": " PIN टाकल्यावर पैसे",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.486
+  },
+  {
+   "type": "transcript",
+   "transcript": " PIN टाकल्यावर पैसे येतील.",
+   "final": false,
+   "audioProcessedMs": 24080,
+   "received": 24.299
+  },
+  {
+   "type": "transcript",
+   "transcript": " PIN टाकल्यावर पैसे येतील. ",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.824
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 24560,
+   "received": 24.824
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 24060,
+   "turnId": 3,
+   "received": 24.824
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 24060,
+   "turnId": 3,
+   "transcript": " PIN टाकल्यावर पैसे येतील. ",
+   "received": 24.824
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 24140,
+   "turnId": 4,
+   "received": 24.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो,",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो, फक्त",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो, फक्त पाच",
+   "final": false,
+   "audioProcessedMs": 25840,
+   "received": 26.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो, फक्त पाच मिनिटांत",
+   "final": false,
+   "audioProcessedMs": 26640,
+   "received": 26.947
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो, फक्त पाच मिनिटांत ऑफर",
+   "final": false,
+   "audioProcessedMs": 26880,
+   "received": 27.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो, फक्त पाच मिनिटांत ऑफर संपेल,",
+   "final": false,
+   "audioProcessedMs": 27360,
+   "received": 27.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो, फक्त पाच मिनिटांत ऑफर संपेल, लवकर करा.",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.637
+  },
+  {
+   "type": "transcript",
+   "transcript": " हो, फक्त पाच मिनिटांत ऑफर संपेल, लवकर करा. ",
+   "final": false,
+   "audioProcessedMs": 28720,
+   "received": 29.038
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 28720,
+   "received": 29.038
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 28220,
+   "turnId": 4,
+   "received": 29.038
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 28220,
+   "turnId": 4,
+   "transcript": " हो, फक्त पाच मिनिटांत ऑफर संपेल, लवकर करा. ",
+   "received": 29.038
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 28720,
+   "received": 29.061
+  }
+ ]
+}

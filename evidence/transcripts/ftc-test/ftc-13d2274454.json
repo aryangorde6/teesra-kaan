@@ -1,0 +1,302 @@
+{
+ "session_id": "voyager/duplex/A60A77864DD645F9939FEF8F90CDB0A9",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 15.3605,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.036
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.029
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.215
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.632
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity.",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.563
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.413
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.621
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.718
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.339
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.446
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.765
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.622
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account,",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.834
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.222
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.306
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.807
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.015
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899.",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.417
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not authorize",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.016
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not authorize this",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.324
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not authorize this order,",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.527
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not authorize this order, then",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.336
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not authorize this order, then press 1",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.65
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not authorize this order, then press 1 for",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not authorize this order, then press 1 for Amazon",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.315
+  },
+  {
+   "type": "transcript",
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not authorize this order, then press 1 for Amazon support. ",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.817
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15440,
+   "received": 15.817
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14940,
+   "turnId": 0,
+   "received": 15.817
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14940,
+   "turnId": 0,
+   "transcript": " has been suspended due to suspicious activity. Someone ordered an iPhone 11 Pro from your Amazon account, which will charge you $899. If you did not authorize this order, then press 1 for Amazon support. ",
+   "received": 15.817
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 15440,
+   "received": 15.84
+  }
+ ]
+}

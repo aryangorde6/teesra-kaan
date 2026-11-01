@@ -1,0 +1,9 @@
+IP02: 0 in the caller's words, 0 in all
+IP08: 0 in the caller's words, 0 in all
+IP12: 0 in the caller's words, 0 in all
+IP25: 0 in the caller's words, 0 in all
+IP27: 0 in the caller's words, 0 in all
+IP31: 0 in the caller's words, 0 in all
+IP32: 0 in the caller's words, 0 in all
+IP36: 0 in the caller's words, 0 in all
+IP38: 0 in the caller's words, 0 in all

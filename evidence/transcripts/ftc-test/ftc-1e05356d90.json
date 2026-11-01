@@ -1,0 +1,782 @@
+{
+ "session_id": "voyager/duplex/A4E8F7B2966C43FF800E2D60BA18E250",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 42.09575,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " for",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it.",
+   "final": false,
+   "audioProcessedMs": 800,
+   "received": 0.998
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.167
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.57
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries,",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.457
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.563
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.776
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.021
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.683
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2.",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.601
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.382
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.766
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 7.977
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.377
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您,",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.189
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.567
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.67
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.391
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.905
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.181
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.687
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收,",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.926
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.481
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.583
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 12.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.071
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1,",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.597
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.779
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中文请",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.181
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中文请按",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.373
+  },
+  {
+   "type": "transcript",
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中文请按 2. ",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.083
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15760,
+   "received": 16.083
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15260,
+   "turnId": 0,
+   "received": 16.083
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15260,
+   "turnId": 0,
+   "transcript": " for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中文请按 2. ",
+   "received": 16.084
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 19980,
+   "turnId": 1,
+   "received": 20.687
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.767
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will",
+   "final": false,
+   "audioProcessedMs": 22160,
+   "received": 22.369
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform",
+   "final": false,
+   "audioProcessedMs": 22400,
+   "received": 22.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 22.771
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.062
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the",
+   "final": false,
+   "audioProcessedMs": 23040,
+   "received": 23.266
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.364
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 23.986
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.669
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel",
+   "final": false,
+   "audioProcessedMs": 24720,
+   "received": 24.972
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has",
+   "final": false,
+   "audioProcessedMs": 25280,
+   "received": 25.478
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered",
+   "final": false,
+   "audioProcessedMs": 25440,
+   "received": 25.679
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.273
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and",
+   "final": false,
+   "audioProcessedMs": 26480,
+   "received": 26.674
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no",
+   "final": false,
+   "audioProcessedMs": 26880,
+   "received": 27.069
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.263
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed",
+   "final": false,
+   "audioProcessedMs": 27520,
+   "received": 27.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for",
+   "final": false,
+   "audioProcessedMs": 27680,
+   "received": 27.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it.",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 27.981
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For",
+   "final": false,
+   "audioProcessedMs": 28880,
+   "received": 29.071
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.66
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries,",
+   "final": false,
+   "audioProcessedMs": 30000,
+   "received": 30.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please",
+   "final": false,
+   "audioProcessedMs": 30640,
+   "received": 30.863
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press",
+   "final": false,
+   "audioProcessedMs": 30960,
+   "received": 31.16
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1",
+   "final": false,
+   "audioProcessedMs": 31120,
+   "received": 31.385
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and",
+   "final": false,
+   "audioProcessedMs": 31360,
+   "received": 31.551
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese",
+   "final": false,
+   "audioProcessedMs": 32160,
+   "received": 32.361
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please",
+   "final": false,
+   "audioProcessedMs": 32320,
+   "received": 32.565
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press",
+   "final": false,
+   "audioProcessedMs": 32720,
+   "received": 32.967
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2.",
+   "final": false,
+   "audioProcessedMs": 33440,
+   "received": 33.683
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx",
+   "final": false,
+   "audioProcessedMs": 33840,
+   "received": 34.062
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际",
+   "final": false,
+   "audioProcessedMs": 34320,
+   "received": 34.563
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递",
+   "final": false,
+   "audioProcessedMs": 34480,
+   "received": 34.654
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后",
+   "final": false,
+   "audioProcessedMs": 34960,
+   "received": 35.164
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次",
+   "final": false,
+   "audioProcessedMs": 35120,
+   "received": 35.363
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知",
+   "final": false,
+   "audioProcessedMs": 35600,
+   "received": 35.76
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您,",
+   "final": false,
+   "audioProcessedMs": 35840,
+   "received": 36.075
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你",
+   "final": false,
+   "audioProcessedMs": 36480,
+   "received": 36.661
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个",
+   "final": false,
+   "audioProcessedMs": 36800,
+   "received": 36.962
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快",
+   "final": false,
+   "audioProcessedMs": 36960,
+   "received": 37.157
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件",
+   "final": false,
+   "audioProcessedMs": 37200,
+   "received": 37.366
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派",
+   "final": false,
+   "audioProcessedMs": 37520,
+   "received": 37.776
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送",
+   "final": false,
+   "audioProcessedMs": 37600,
+   "received": 37.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次",
+   "final": false,
+   "audioProcessedMs": 38000,
+   "received": 38.168
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签",
+   "final": false,
+   "audioProcessedMs": 38480,
+   "received": 38.657
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收,",
+   "final": false,
+   "audioProcessedMs": 39120,
+   "received": 39.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需",
+   "final": false,
+   "audioProcessedMs": 39680,
+   "received": 39.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询",
+   "final": false,
+   "audioProcessedMs": 40080,
+   "received": 40.277
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文",
+   "final": false,
+   "audioProcessedMs": 40240,
+   "received": 40.451
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请",
+   "final": false,
+   "audioProcessedMs": 40640,
+   "received": 40.891
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按",
+   "final": false,
+   "audioProcessedMs": 40800,
+   "received": 40.97
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1,",
+   "final": false,
+   "audioProcessedMs": 41280,
+   "received": 41.483
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中",
+   "final": false,
+   "audioProcessedMs": 41680,
+   "received": 41.869
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中文",
+   "final": false,
+   "audioProcessedMs": 41760,
+   "received": 41.963
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中文请",
+   "final": false,
+   "audioProcessedMs": 41920,
+   "received": 42.17
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中文请按",
+   "final": false,
+   "audioProcessedMs": 42080,
+   "received": 42.267
+  },
+  {
+   "type": "transcript",
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中文请按 2。 ",
+   "final": false,
+   "audioProcessedMs": 42160,
+   "received": 42.472
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 42160,
+   "received": 42.472
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 41660,
+   "turnId": 1,
+   "received": 42.472
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 41660,
+   "turnId": 1,
+   "transcript": " FedEx International Express will inform you for the last time that you have a parcel that has been delivered twice and no one has signed for it. For English inquiries, please press 1 and Chinese please press 2. FedEx 国际快递最后一次通知您, 你有一个快件已派送两次无人签收, 如需查询英文请按 1, 中文请按 2。 ",
+   "received": 42.472
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 42160,
+   "received": 42.503
+  }
+ ]
+}

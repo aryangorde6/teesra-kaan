@@ -1,0 +1,520 @@
+{
+ "session_id": "voyager/duplex/2CF59EABA17C45B1A28EE9E55D14CDE0",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 25.3,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.932
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते,",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.864
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.93
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.631
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.831
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.124
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा हूँ,",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.965
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा हूँ, आपने",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.483
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा हूँ, आपने कल",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.557
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा हूँ, आपने कल रिफंड",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.768
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा हूँ, आपने कल रिफंड की",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.063
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा हूँ, आपने कल रिफंड की शिकायत",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.147
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा हूँ, आपने कल रिफंड की शिकायत की थी।",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.466
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा हूँ, आपने कल रिफंड की शिकायत की थी। ",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.282
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 7920,
+   "received": 8.282
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 7420,
+   "turnId": 0,
+   "received": 8.282
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 7420,
+   "turnId": 0,
+   "transcript": " नमस्ते, मैं Paytm Customer Care से बोल रहा हूँ, आपने कल रिफंड की शिकायत की थी। ",
+   "received": 8.282
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 7580,
+   "turnId": 1,
+   "received": 8.376
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ,",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.555
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.038
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे दो",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.132
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे दो हजार",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.527
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे दो हजार तीन",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.732
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे दो हजार तीन सौ",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.132
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे दो हजार तीन सौ रुपये",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.638
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे दो हजार तीन सौ रुपये कट",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.732
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे दो हजार तीन सौ रुपये कट गए",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.036
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे दो हजार तीन सौ रुपये कट गए थे।",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.144
+  },
+  {
+   "type": "transcript",
+   "transcript": " हाँ, मेरे दो हजार तीन सौ रुपये कट गए थे। ",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.986
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 11680,
+   "received": 11.986
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11180,
+   "turnId": 1,
+   "received": 11.986
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11180,
+   "turnId": 1,
+   "transcript": " हाँ, मेरे दो हजार तीन सौ रुपये कट गए थे। ",
+   "received": 11.986
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11500,
+   "turnId": 2,
+   "received": 12.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.272
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.855
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है,",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.244
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.631
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.831
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.238
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.264
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.532
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.942
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.556
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.242
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.743
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.376
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ।",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.959
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.731
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm खोलिए",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 22.841
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm खोलिए और",
+   "final": false,
+   "audioProcessedMs": 23040,
+   "received": 23.326
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm खोलिए और जो",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.741
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm खोलिए और जो मैं बोलूँ",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.266
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm खोलिए और जो मैं बोलूँ वो",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.64
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm खोलिए और जो मैं बोलूँ वो रकम",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 25.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm खोलिए और जो मैं बोलूँ वो रकम डालिए।",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.464
+  },
+  {
+   "type": "transcript",
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm खोलिए और जो मैं बोलूँ वो रकम डालिए। ",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.68
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 25360,
+   "received": 25.68
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 24860,
+   "turnId": 2,
+   "received": 25.681
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 24860,
+   "turnId": 2,
+   "transcript": " आपका रिफंड मंजूर हो गया है, उसके लिए Fixed Support Support App डाउनलोड कीजिए ताकि मैं आपकी स्क्रीन देखकर प्रोसेस कर सकूँ। अब Paytm खोलिए और जो मैं बोलूँ वो रकम डालिए। ",
+   "received": 25.681
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 25360,
+   "received": 25.726
+  }
+ ]
+}

@@ -1,0 +1,495 @@
+{
+ "session_id": "voyager/duplex/CCC2F3999DA44EF3AB683509B9946D5F",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 24.950125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 0.965
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.555
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.472
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.77
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.173
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.659
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.793
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.17
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.663
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 4.964
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.255
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.458
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.263
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.663
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.87
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.458
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.067
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.609
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.769
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.859
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.277
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.46
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.765
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.374
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.467
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.867
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.159
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas.",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas. So",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.197
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas. So please",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas. So please in order",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 14.981
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas. So please in order go",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas. So please in order go ahead",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas. So please in order go ahead ahead get",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.801
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas. So please in order go ahead ahead get more",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.081
+  },
+  {
+   "type": "transcript",
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas. So please in order go ahead ahead get more information. ",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.187
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 16880,
+   "received": 17.187
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 16380,
+   "turnId": 0,
+   "received": 17.187
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 16380,
+   "turnId": 0,
+   "transcript": " officer Amanda Barnes and the purpose of the call we are trying to reach you to let you know that your social security number has been used for some kind of fraudulent activities in the south border of Texas. So please in order go ahead ahead get more information. ",
+   "received": 17.187
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 17420,
+   "turnId": 1,
+   "received": 18.174
+  },
+  {
+   "type": "transcript",
+   "transcript": " To",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.556
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.766
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.16
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.049
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1.",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1. I",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.373
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1. I repeat",
+   "final": false,
+   "audioProcessedMs": 21680,
+   "received": 21.853
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1. I repeat press",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.473
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1. I repeat press 1",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.365
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1. I repeat press 1 thank",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 23.96
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1. I repeat press 1 thank you",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.362
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1. I repeat press 1 thank you and",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.566
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1. I repeat press 1 thank you and have a",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " To speak with officer press 1. I repeat press 1 thank you and have a great day ",
+   "final": false,
+   "audioProcessedMs": 24960,
+   "received": 25.347
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 24960,
+   "received": 25.348
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 24460,
+   "turnId": 1,
+   "received": 25.348
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 24460,
+   "turnId": 1,
+   "transcript": " To speak with officer press 1. I repeat press 1 thank you and have a great day ",
+   "received": 25.348
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 24960,
+   "received": 25.37
+  }
+ ]
+}

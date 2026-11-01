@@ -1,0 +1,404 @@
+{
+ "session_id": "voyager/duplex/AB0073CBD7BB41A9ABB3C1AC86933EED",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 25.2505,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 3180,
+   "turnId": 0,
+   "received": 3.864
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.45
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.555
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.667
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan.",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.777
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.362
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.477
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.17
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.443
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.654
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter.",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.263
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.153
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.56
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.66
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.157
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.674
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.868
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.282
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.858
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement.",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 10.963
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.173
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.268
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.584
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039.",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.275
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.753
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039.",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.609
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 19.963
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And please",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.059
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And please have",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.174
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And please have a",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.455
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And please have a statement",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.559
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And please have a statement available",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 20.965
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And please have a statement available to",
+   "final": false,
+   "audioProcessedMs": 20800,
+   "received": 20.991
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And please have a statement available to review.",
+   "final": false,
+   "audioProcessedMs": 21120,
+   "received": 21.381
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And please have a statement available to review. ",
+   "final": false,
+   "audioProcessedMs": 21680,
+   "received": 21.943
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 21680,
+   "received": 21.943
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21180,
+   "turnId": 0,
+   "received": 21.943
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21180,
+   "turnId": 0,
+   "transcript": " This is Miss Morgan. I was trying to reach you regarding an important matter. of reviewing the supply charges for your Pinelake electric statement. Please return my call at 7244428039. Again, that number 7244428039. And please have a statement available to review. ",
+   "received": 21.943
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 21180,
+   "turnId": 1,
+   "received": 21.943
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your",
+   "final": false,
+   "audioProcessedMs": 21840,
+   "received": 22.059
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 22.777
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P190.",
+   "final": false,
+   "audioProcessedMs": 24080,
+   "received": 24.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P190. I'll speak",
+   "final": false,
+   "audioProcessedMs": 24640,
+   "received": 24.927
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P190. I'll speak to",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 24.96
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P190. I'll speak to you",
+   "final": false,
+   "audioProcessedMs": 24960,
+   "received": 25.152
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P190. I'll speak to you soon. ",
+   "final": false,
+   "audioProcessedMs": 25280,
+   "received": 25.602
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 25280,
+   "received": 25.602
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 24780,
+   "turnId": 1,
+   "received": 25.602
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 24780,
+   "turnId": 1,
+   "transcript": " Your reference number is P190. I'll speak to you soon. ",
+   "received": 25.602
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 25280,
+   "received": 25.639
+  }
+ ]
+}

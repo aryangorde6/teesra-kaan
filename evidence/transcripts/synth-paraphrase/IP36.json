@@ -1,0 +1,699 @@
+{
+ "session_id": "voyager/duplex/B17BAA8686CA49A89BE633FEE0D9CCB0",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 33.942625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 300,
+   "turnId": 0,
+   "received": 1.088
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो,",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.251
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.572
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.69
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.482
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.319
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.552
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.289
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ।",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.202
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.49
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.323
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.463
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.879
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 8.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.282
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.17
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.493
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.675
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है।",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.32
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.082
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.478
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.073
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है,",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.183
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.878
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.506
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.93
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.95
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई दीजिए,",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.87
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई दीजिए, वरना",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.452
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई दीजिए, वरना हमारी टीम",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.278
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई दीजिए, वरना हमारी टीम आपके",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 19.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई दीजिए, वरना हमारी टीम आपके दरवाजे",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई दीजिए, वरना हमारी टीम आपके दरवाजे पर",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई दीजिए, वरना हमारी टीम आपके दरवाजे पर होगी।",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई दीजिए, वरना हमारी टीम आपके दरवाजे पर होगी। ",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.344
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19840,
+   "received": 20.344
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19340,
+   "turnId": 0,
+   "received": 20.344
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19340,
+   "turnId": 0,
+   "transcript": " हेलो, मैं लखनऊ की विशेष कार्यबल टीम से मिश्रा बोल रहा हूँ। आपके खाते के जरिए लोगों से ऑनलाइन ठगी हुई है। आपके नाम पर रिपोर्ट लिख ली गई है, अभी कैमरे पर आकर अपनी सफाई दीजिए, वरना हमारी टीम आपके दरवाजे पर होगी। ",
+   "received": 20.344
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 19500,
+   "turnId": 1,
+   "received": 20.485
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.797
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.115
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.318
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने आ",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने आ जाती",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.371
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने आ जाती हूँ।",
+   "final": false,
+   "audioProcessedMs": 22160,
+   "received": 22.697
+  },
+  {
+   "type": "transcript",
+   "transcript": " मैं खुद थाने आ जाती हूँ। ",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.384
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 22880,
+   "received": 23.384
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22380,
+   "turnId": 1,
+   "received": 23.384
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22380,
+   "turnId": 1,
+   "transcript": " मैं खुद थाने आ जाती हूँ। ",
+   "received": 23.384
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 22700,
+   "turnId": 2,
+   "received": 23.664
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.664
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 24.093
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 25.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है,",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 25.298
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब",
+   "final": false,
+   "audioProcessedMs": 25600,
+   "received": 26.004
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.472
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ",
+   "final": false,
+   "audioProcessedMs": 26000,
+   "received": 26.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.888
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.437
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा और",
+   "final": false,
+   "audioProcessedMs": 27280,
+   "received": 27.673
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा और यह",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.462
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा और यह बात",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा और यह बात अपने",
+   "final": false,
+   "audioProcessedMs": 28720,
+   "received": 29.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा और यह बात अपने तक",
+   "final": false,
+   "audioProcessedMs": 28800,
+   "received": 29.132
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा और यह बात अपने तक ही",
+   "final": false,
+   "audioProcessedMs": 29280,
+   "received": 29.672
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा और यह बात अपने तक ही रखिए।",
+   "final": false,
+   "audioProcessedMs": 29600,
+   "received": 30.041
+  },
+  {
+   "type": "transcript",
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा और यह बात अपने तक ही रखिए। ",
+   "final": false,
+   "audioProcessedMs": 30000,
+   "received": 30.478
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 30000,
+   "received": 30.478
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 29500,
+   "turnId": 2,
+   "received": 30.478
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 29500,
+   "turnId": 2,
+   "transcript": " थाने आने की जरूरत नहीं है, सब कुछ कुछ कैमरे पर ही होगा और यह बात अपने तक ही रखिए। ",
+   "received": 30.479
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 29820,
+   "turnId": 3,
+   "received": 30.852
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं,",
+   "final": false,
+   "audioProcessedMs": 30480,
+   "received": 30.932
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैं अपने",
+   "final": false,
+   "audioProcessedMs": 31120,
+   "received": 31.722
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैं अपने बेटे",
+   "final": false,
+   "audioProcessedMs": 31360,
+   "received": 31.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैं अपने बेटे के",
+   "final": false,
+   "audioProcessedMs": 31520,
+   "received": 32.038
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैं अपने बेटे के साथ",
+   "final": false,
+   "audioProcessedMs": 32080,
+   "received": 32.524
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैं अपने बेटे के साथ थाने",
+   "final": false,
+   "audioProcessedMs": 32480,
+   "received": 33.027
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैं अपने बेटे के साथ थाने आऊंगी",
+   "final": false,
+   "audioProcessedMs": 33120,
+   "received": 33.67
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैं अपने बेटे के साथ थाने आऊंगी नमस्ते",
+   "final": false,
+   "audioProcessedMs": 33440,
+   "received": 33.936
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं, मैं अपने बेटे के साथ थाने आऊंगी नमस्ते ",
+   "final": false,
+   "audioProcessedMs": 34000,
+   "received": 34.582
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 34000,
+   "received": 34.582
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 33500,
+   "turnId": 3,
+   "received": 34.582
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 33500,
+   "turnId": 3,
+   "transcript": " नहीं, मैं अपने बेटे के साथ थाने आऊंगी नमस्ते ",
+   "received": 34.582
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 34000,
+   "received": 34.624
+  }
+ ]
+}

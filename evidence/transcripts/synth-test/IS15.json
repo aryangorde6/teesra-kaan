@@ -1,0 +1,513 @@
+{
+ "session_id": "voyager/duplex/031EFC7D86FF44B4AD554BDFDDF4420F",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 26.110625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.02
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.793
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam,",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.683
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you.",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.195
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.274
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.582
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.783
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.488
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay number.",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.086
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay number. It",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 8.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay number. It was",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay number. It was meant",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.19
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay number. It was meant for my",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay number. It was meant for my brother's",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 9.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay number. It was meant for my brother's fees.",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.628
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay number. It was meant for my brother's fees. ",
+   "final": false,
+   "audioProcessedMs": 10960,
+   "received": 11.252
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10960,
+   "received": 11.252
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 10460,
+   "turnId": 0,
+   "received": 11.252
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 10460,
+   "turnId": 0,
+   "transcript": " Hello Madam, sorry to disturb you. By mistake I sent five thousand rupees to your Google Pay number. It was meant for my brother's fees. ",
+   "received": 11.252
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 10540,
+   "turnId": 1,
+   "received": 11.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh,",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.514
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh, I",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh, I haven't",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.118
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh, I haven't checked.",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " Oh, I haven't checked. ",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.09
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 12720,
+   "received": 13.09
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12220,
+   "turnId": 1,
+   "received": 13.09
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12220,
+   "turnId": 1,
+   "transcript": " Oh, I haven't checked. ",
+   "received": 13.09
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12460,
+   "turnId": 2,
+   "received": 13.214
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.684
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam,",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 15.974
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.08
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now.",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.479
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.478
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.876
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.779
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes",
+   "final": false,
+   "audioProcessedMs": 21040,
+   "received": 21.29
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back to me.",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back to me. Please",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 22.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back to me. Please madam",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back to me. Please madam quickly",
+   "final": false,
+   "audioProcessedMs": 23920,
+   "received": 24.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back to me. Please madam quickly my",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back to me. Please madam quickly my brother's",
+   "final": false,
+   "audioProcessedMs": 24640,
+   "received": 24.905
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back to me. Please madam quickly my brother's college is",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back to me. Please madam quickly my brother's college is closing. ",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.555
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 26160,
+   "received": 26.555
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 25660,
+   "turnId": 2,
+   "received": 26.555
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 25660,
+   "turnId": 2,
+   "transcript": " Please check madam, I am sending you a request for five thousand now. Just accept and enter your PIN the money goes back to me. Please madam quickly my brother's college is closing. ",
+   "received": 26.555
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 26160,
+   "received": 26.609
+  }
+ ]
+}

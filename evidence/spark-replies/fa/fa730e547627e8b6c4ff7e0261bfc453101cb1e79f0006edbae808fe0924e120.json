@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"this call is from Amazon customer support\"}, {\"id\": \"A2\", \"quote\": \"You have been charged 349 dollars and 99 cents on your Visa card\"}]}", "input_tokens": 960, "output_tokens": 132, "latency": 0.809}

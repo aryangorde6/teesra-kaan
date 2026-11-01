@@ -1,0 +1,316 @@
+{
+ "session_id": "voyager/duplex/33079871F29B4C2699E86EF140BADA69",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 15.101375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " from",
+   "final": false,
+   "audioProcessedMs": 640,
+   "received": 0.971
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our",
+   "final": false,
+   "audioProcessedMs": 800,
+   "received": 1.093
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.559
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.88
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.151
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.113
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.15
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.417
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.071
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.35
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.468
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.419
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.329
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.036
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So,",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.714
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.237
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.09
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.603
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.897
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press one",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.209
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press one to",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.303
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.124
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.527
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available officer.",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available officer. Thank you.",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.842
+  },
+  {
+   "type": "transcript",
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available officer. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.062
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14800,
+   "received": 15.062
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14300,
+   "turnId": 0,
+   "received": 15.062
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14300,
+   "turnId": 0,
+   "transcript": " from our department is to inform you that there's a legal enforcement action filed on your social security number for fraudulent activities. So, when you get this message kindly press one to connect with the next available officer. Thank you. ",
+   "received": 15.062
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 15120,
+   "received": 15.538
+  }
+ ]
+}

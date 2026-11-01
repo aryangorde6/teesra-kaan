@@ -1,0 +1,713 @@
+{
+ "session_id": "voyager/duplex/1447D04D1402424C93CF0068960168EE",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 48.897375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 300,
+   "turnId": 0,
+   "received": 1.047
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.98
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.197
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.891
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.956
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे.",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.256
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.256
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.715
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.67
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.568
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.755
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा थांबवण्यात",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.702
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा थांबवण्यात येईल.",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.171
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा थांबवण्यात येईल. पुढील",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.747
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा थांबवण्यात येईल. पुढील माहितीसाठी",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.078
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा थांबवण्यात येईल. पुढील माहितीसाठी नऊ",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.374
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा थांबवण्यात येईल. पुढील माहितीसाठी नऊ क्रमांकाचे",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा थांबवण्यात येईल. पुढील माहितीसाठी नऊ क्रमांकाचे बटन",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.258
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा थांबवण्यात येईल. पुढील माहितीसाठी नऊ क्रमांकाचे बटन वापरा. ",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.27
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14720,
+   "received": 15.27
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14220,
+   "turnId": 0,
+   "received": 15.27
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14220,
+   "turnId": 0,
+   "transcript": " नमस्कार, दुrus चार खात्यातून स्वयंचलित संदेश आहे. आज रात्रीपासून तुमच्या मोबाइल नंबरवरची सेवा थांबवण्यात येईल. पुढील माहितीसाठी नऊ क्रमांकाचे बटन वापरा. ",
+   "received": 15.27
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14380,
+   "turnId": 1,
+   "received": 15.332
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो,",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 16.029
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.299
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 17.099
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.654
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.254
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय.",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.546
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 20.06
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 21.07
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.736
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.941
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम",
+   "final": false,
+   "audioProcessedMs": 21840,
+   "received": 22.361
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.521
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.966
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे.",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.199
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे. आणि",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे. आणि त्यावरून",
+   "final": false,
+   "audioProcessedMs": 24080,
+   "received": 24.638
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे. आणि त्यावरून लोकांना",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 25.066
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे. आणि त्यावरून लोकांना फसवणारे",
+   "final": false,
+   "audioProcessedMs": 25280,
+   "received": 25.832
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे. आणि त्यावरून लोकांना फसवणारे मेसेज",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे. आणि त्यावरून लोकांना फसवणारे मेसेज जात",
+   "final": false,
+   "audioProcessedMs": 26480,
+   "received": 27.071
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे. आणि त्यावरून लोकांना फसवणारे मेसेज जात आहेत.",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.182
+  },
+  {
+   "type": "transcript",
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे. आणि त्यावरून लोकांना फसवणारे मेसेज जात आहेत. ",
+   "final": false,
+   "audioProcessedMs": 27360,
+   "received": 27.891
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 27360,
+   "received": 27.891
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 26860,
+   "turnId": 1,
+   "received": 27.891
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 26860,
+   "turnId": 1,
+   "transcript": " हॅलो, मी दुर्सचार खात्यातून पाटील बोलतोय. तुमच्या नावाने मुंबईत आणखी एक सिम घेतलं गेलं आहे. आणि त्यावरून लोकांना फसवणारे मेसेज जात आहेत. ",
+   "received": 27.891
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 27340,
+   "turnId": 2,
+   "received": 28.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " पण",
+   "final": false,
+   "audioProcessedMs": 28000,
+   "received": 28.346
+  },
+  {
+   "type": "transcript",
+   "transcript": " पण माझ्या",
+   "final": false,
+   "audioProcessedMs": 28320,
+   "received": 28.77
+  },
+  {
+   "type": "transcript",
+   "transcript": " पण माझ्या ते",
+   "final": false,
+   "audioProcessedMs": 28720,
+   "received": 29.079
+  },
+  {
+   "type": "transcript",
+   "transcript": " पण माझ्या ते एकच",
+   "final": false,
+   "audioProcessedMs": 29040,
+   "received": 29.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " पण माझ्या ते एकच सिम",
+   "final": false,
+   "audioProcessedMs": 29200,
+   "received": 29.601
+  },
+  {
+   "type": "transcript",
+   "transcript": " पण माझ्या ते एकच सिम आहे.",
+   "final": false,
+   "audioProcessedMs": 29760,
+   "received": 30.232
+  },
+  {
+   "type": "transcript",
+   "transcript": " पण माझ्या ते एकच सिम आहे. ",
+   "final": false,
+   "audioProcessedMs": 30480,
+   "received": 30.934
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 30480,
+   "received": 30.934
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 29980,
+   "turnId": 2,
+   "received": 30.934
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 29980,
+   "turnId": 2,
+   "transcript": " पण माझ्या ते एकच सिम आहे. ",
+   "received": 30.934
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 30220,
+   "turnId": 3,
+   "received": 31.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच",
+   "final": false,
+   "audioProcessedMs": 31120,
+   "received": 31.691
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची",
+   "final": false,
+   "audioProcessedMs": 31520,
+   "received": 32.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी",
+   "final": false,
+   "audioProcessedMs": 32400,
+   "received": 32.916
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी",
+   "final": false,
+   "audioProcessedMs": 32560,
+   "received": 33.056
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल,",
+   "final": false,
+   "audioProcessedMs": 33200,
+   "received": 33.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर",
+   "final": false,
+   "audioProcessedMs": 34160,
+   "received": 34.642
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या",
+   "final": false,
+   "audioProcessedMs": 34720,
+   "received": 35.335
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर",
+   "final": false,
+   "audioProcessedMs": 35120,
+   "received": 35.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार",
+   "final": false,
+   "audioProcessedMs": 35840,
+   "received": 36.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली",
+   "final": false,
+   "audioProcessedMs": 37040,
+   "received": 37.574
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल",
+   "final": false,
+   "audioProcessedMs": 37600,
+   "received": 38.066
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि",
+   "final": false,
+   "audioProcessedMs": 38000,
+   "received": 38.388
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा",
+   "final": false,
+   "audioProcessedMs": 38080,
+   "received": 38.48
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर",
+   "final": false,
+   "audioProcessedMs": 38480,
+   "received": 38.861
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा",
+   "final": false,
+   "audioProcessedMs": 38880,
+   "received": 39.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल.",
+   "final": false,
+   "audioProcessedMs": 39520,
+   "received": 40.164
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी",
+   "final": false,
+   "audioProcessedMs": 41360,
+   "received": 41.688
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं",
+   "final": false,
+   "audioProcessedMs": 41760,
+   "received": 42.06
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या",
+   "final": false,
+   "audioProcessedMs": 43280,
+   "received": 43.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा",
+   "final": false,
+   "audioProcessedMs": 43520,
+   "received": 43.97
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी",
+   "final": false,
+   "audioProcessedMs": 44320,
+   "received": 44.786
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक",
+   "final": false,
+   "audioProcessedMs": 44720,
+   "received": 45.216
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक आणि",
+   "final": false,
+   "audioProcessedMs": 44960,
+   "received": 45.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक आणि आत्ता",
+   "final": false,
+   "audioProcessedMs": 45840,
+   "received": 46.313
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक आणि आत्ता आलेला",
+   "final": false,
+   "audioProcessedMs": 46160,
+   "received": 46.649
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक आणि आत्ता आलेला सहा",
+   "final": false,
+   "audioProcessedMs": 46800,
+   "received": 47.224
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक आणि आत्ता आलेला सहा अंकी",
+   "final": false,
+   "audioProcessedMs": 47200,
+   "received": 47.624
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक आणि आत्ता आलेला सहा अंकी कोड",
+   "final": false,
+   "audioProcessedMs": 47840,
+   "received": 48.299
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक आणि आत्ता आलेला सहा अंकी कोड वाचून",
+   "final": false,
+   "audioProcessedMs": 48320,
+   "received": 48.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक आणि आत्ता आलेला सहा अंकी कोड वाचून दाखवा. ",
+   "final": false,
+   "audioProcessedMs": 48800,
+   "received": 49.302
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 48800,
+   "received": 49.302
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 48300,
+   "turnId": 3,
+   "received": 49.302
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 48300,
+   "turnId": 3,
+   "transcript": " म्हणूनच तुमची पडताणी करावी लागेल, नाहीतर तुमच्या नावावर तक्रार नोंदवली जाईल आणि हा नंबर कायमचा जाईल. पडताणीसाठी तुमचं ओळखपत्रावरच्या बारा अंकी क्रमांक आणि आत्ता आलेला सहा अंकी कोड वाचून दाखवा. ",
+   "received": 49.302
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 48960,
+   "received": 49.444
+  }
+ ]
+}

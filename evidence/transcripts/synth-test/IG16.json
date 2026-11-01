@@ -1,0 +1,352 @@
+{
+ "session_id": "voyager/duplex/74A2255F87994729A27FAACFDB6628BA",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 14.417375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.586
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.391
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.479
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.689
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.919
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट कार्ड",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.175
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट कार्ड प्री-प्रूव्ड",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.942
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट कार्ड प्री-प्रूव्ड है क्या",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट कार्ड प्री-प्रूव्ड है क्या आप",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट कार्ड प्री-प्रूव्ड है क्या आप रुचि",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.016
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट कार्ड प्री-प्रूव्ड है क्या आप रुचि रखते",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट कार्ड प्री-प्रूव्ड है क्या आप रुचि रखते हैं?",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.494
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट कार्ड प्री-प्रूव्ड है क्या आप रुचि रखते हैं? ",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.234
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 9920,
+   "received": 10.234
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9420,
+   "turnId": 0,
+   "received": 10.234
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9420,
+   "turnId": 0,
+   "transcript": " नमस्ते मैं बैंक की ओर से बोल रहा हूँ आपके लिए लाइफटाइम फ्री क्रेडिट कार्ड प्री-प्रूव्ड है क्या आप रुचि रखते हैं? ",
+   "received": 10.234
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 9900,
+   "turnId": 1,
+   "received": 10.589
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.679
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं धन्यवाद.",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.42
+  },
+  {
+   "type": "transcript",
+   "transcript": " नहीं धन्यवाद. ",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.139
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 11840,
+   "received": 12.139
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11340,
+   "turnId": 1,
+   "received": 12.139
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11340,
+   "turnId": 1,
+   "transcript": " नहीं धन्यवाद. ",
+   "received": 12.139
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11580,
+   "turnId": 2,
+   "received": 12.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 12.986
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर आपका",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.489
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर आपका दिन",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर आपका दिन शुभ",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.081
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर आपका दिन शुभ हो.",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.197
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक है सर आपका दिन शुभ हो. ",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.84
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14480,
+   "received": 14.84
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13980,
+   "turnId": 2,
+   "received": 14.84
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13980,
+   "turnId": 2,
+   "transcript": " ठीक है सर आपका दिन शुभ हो. ",
+   "received": 14.84
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 14480,
+   "received": 14.889
+  }
+ ]
+}

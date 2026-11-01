@@ -1,0 +1,404 @@
+{
+ "session_id": "voyager/duplex/F33EE89966E740548C8040A8AEA68230",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 29.86,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 2940,
+   "turnId": 0,
+   "received": 3.667
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.059
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.166
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.383
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.773
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.357
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels.",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.773
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.777
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.028
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.177
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.372
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.164
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.256
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.578
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.183
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.578
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.77
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards program",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.765
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards program your",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 10.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards program your membership",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.376
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards program your membership was drawn",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.073
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards program your membership was drawn to",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.272
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards program your membership was drawn to receive a",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 12.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards program your membership was drawn to receive a complimentary",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards program your membership was drawn to receive a complimentary stay. ",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.233
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14000,
+   "received": 14.233
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13500,
+   "turnId": 0,
+   "received": 14.233
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13500,
+   "turnId": 0,
+   "transcript": " Thank you for choosing Hilton Hotels. We would like to inform you that thanks to the friends and family rewards program your membership was drawn to receive a complimentary stay. ",
+   "received": 14.233
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14220,
+   "turnId": 1,
+   "received": 15.036
+  },
+  {
+   "type": "transcript",
+   "transcript": " For",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.068
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.314
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.898
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.378
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.711
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now.",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.293
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.05
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.629
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on the",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.682
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on the do",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on the do not",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 19.026
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on the do not call",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on the do not call list",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.458
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on the do not call list press",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on the do not call list press 2",
+   "final": false,
+   "audioProcessedMs": 20160,
+   "received": 20.379
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on the do not call list press 2 now.",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.684
+  },
+  {
+   "type": "transcript",
+   "transcript": " For further details press 1 now. To be placed on the do not call list press 2 now. ",
+   "final": false,
+   "audioProcessedMs": 21120,
+   "received": 21.428
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 21120,
+   "received": 21.428
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 20620,
+   "turnId": 1,
+   "received": 21.428
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 20620,
+   "turnId": 1,
+   "transcript": " For further details press 1 now. To be placed on the do not call list press 2 now. ",
+   "received": 21.428
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 29920,
+   "received": 30.185
+  }
+ ]
+}

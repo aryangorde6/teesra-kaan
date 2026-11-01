@@ -1,0 +1,734 @@
+{
+ "session_id": "voyager/duplex/099B9E9F24AE498D91BD0EEA495EC6BE",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 32.702625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.943
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.483
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir,",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.952
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.653
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.875
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.07
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.276
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.15
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.36
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.64
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team.",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.061
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.852
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.058
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.476
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.65
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.051
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.543
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used abroad",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.969
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used abroad for",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.057
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used abroad for a",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.274
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used abroad for a large",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.653
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used abroad for a large purchase",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.746
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used abroad for a large purchase about",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.54
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used abroad for a large purchase about 48,000.",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.278
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used abroad for a large purchase about 48,000. ",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.693
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13360,
+   "received": 13.693
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12860,
+   "turnId": 0,
+   "received": 13.693
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12860,
+   "turnId": 0,
+   "transcript": " Good evening sir, Priya here from the HDFC credit card team. Your card ending in 4471 was just used abroad for a large purchase about 48,000. ",
+   "received": 13.693
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12940,
+   "turnId": 1,
+   "received": 13.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " What?",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.956
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I didn't",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.158
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I didn't buy",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I didn't buy anything",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.986
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I didn't buy anything abroad.",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.531
+  },
+  {
+   "type": "transcript",
+   "transcript": " What? I didn't buy anything abroad. ",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.449
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 15920,
+   "received": 16.449
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15420,
+   "turnId": 1,
+   "received": 16.449
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15420,
+   "turnId": 1,
+   "transcript": " What? I didn't buy anything abroad. ",
+   "received": 16.449
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15500,
+   "turnId": 2,
+   "received": 16.494
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.494
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir,",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 17.07
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.734
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.236
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.332
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 19.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.508
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.77
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.423
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.732
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you.",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.271
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits",
+   "final": false,
+   "audioProcessedMs": 22080,
+   "received": 22.523
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.738
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 23.108
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 23.108
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.286
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.31
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.558
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 24.085
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year",
+   "final": false,
+   "audioProcessedMs": 23840,
+   "received": 24.298
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.563
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires.",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 25.359
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now",
+   "final": false,
+   "audioProcessedMs": 25760,
+   "received": 26.178
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a",
+   "final": false,
+   "audioProcessedMs": 26320,
+   "received": 26.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 27.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six digit",
+   "final": false,
+   "audioProcessedMs": 26560,
+   "received": 27.08
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six digit code",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.421
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six digit code will",
+   "final": false,
+   "audioProcessedMs": 27360,
+   "received": 27.817
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six digit code will come to your",
+   "final": false,
+   "audioProcessedMs": 27840,
+   "received": 28.26
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six digit code will come to your phone",
+   "final": false,
+   "audioProcessedMs": 27920,
+   "received": 28.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six digit code will come to your phone in a",
+   "final": false,
+   "audioProcessedMs": 28320,
+   "received": 28.88
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six digit code will come to your phone in a text.",
+   "final": false,
+   "audioProcessedMs": 28800,
+   "received": 29.134
+  },
+  {
+   "type": "transcript",
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six digit code will come to your phone in a text. ",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.918
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 29440,
+   "received": 29.918
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 28940,
+   "turnId": 2,
+   "received": 29.918
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 28940,
+   "turnId": 2,
+   "transcript": " Don't worry sir, I can stop it from here but first I have to confirm it's you. The 16 digits on the front of the card and the month and year it expires. Now a six digit code will come to your phone in a text. ",
+   "received": 29.918
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 28940,
+   "turnId": 3,
+   "received": 29.918
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.918
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those",
+   "final": false,
+   "audioProcessedMs": 29680,
+   "received": 30.113
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.487
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits",
+   "final": false,
+   "audioProcessedMs": 30160,
+   "received": 30.589
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits to",
+   "final": false,
+   "audioProcessedMs": 30400,
+   "received": 30.766
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits to me",
+   "final": false,
+   "audioProcessedMs": 30560,
+   "received": 31.021
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits to me so",
+   "final": false,
+   "audioProcessedMs": 30800,
+   "received": 31.229
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits to me so I can",
+   "final": false,
+   "audioProcessedMs": 31280,
+   "received": 31.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits to me so I can stop the",
+   "final": false,
+   "audioProcessedMs": 31680,
+   "received": 32.082
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits to me so I can stop the card",
+   "final": false,
+   "audioProcessedMs": 31920,
+   "received": 32.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits to me so I can stop the card this",
+   "final": false,
+   "audioProcessedMs": 32240,
+   "received": 32.693
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits to me so I can stop the card this minute.",
+   "final": false,
+   "audioProcessedMs": 32640,
+   "received": 33.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " Say those six digits to me so I can stop the card this minute. ",
+   "final": false,
+   "audioProcessedMs": 32720,
+   "received": 33.366
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 32720,
+   "received": 33.366
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 32220,
+   "turnId": 3,
+   "received": 33.366
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 32220,
+   "turnId": 3,
+   "transcript": " Say those six digits to me so I can stop the card this minute. ",
+   "received": 33.366
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 32720,
+   "received": 33.424
+  }
+ ]
+}

@@ -1,0 +1,359 @@
+{
+ "session_id": "voyager/duplex/96EA55A3846E47CF845872BD12222B5C",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 20.433375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 460,
+   "turnId": 0,
+   "received": 1.234
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.867
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.146
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.861
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.142
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते.",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.741
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.724
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या जमिनीच्या",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.138
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या जमिनीच्या केसची",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.025
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या जमिनीच्या केसची पुढची",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.336
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या जमिनीच्या केसची पुढची तारीख",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या जमिनीच्या केसची पुढची तारीख वीस",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.621
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या जमिनीच्या केसची पुढची तारीख वीस नोव्हेंबरला",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.359
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या जमिनीच्या केसची पुढची तारीख वीस नोव्हेंबरला आहे.",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.419
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या जमिनीच्या केसची पुढची तारीख वीस नोव्हेंबरला आहे. ",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.104
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10800,
+   "received": 11.104
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 10300,
+   "turnId": 0,
+   "received": 11.104
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 10300,
+   "turnId": 0,
+   "transcript": " नमस्कार, मी Devoket Deshpande यांच्या ऑफिसमधून बोलते. तुमच्या जमिनीच्या केसची पुढची तारीख वीस नोव्हेंबरला आहे. ",
+   "received": 11.104
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 10380,
+   "turnId": 1,
+   "received": 11.139
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.769
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे,",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.973
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मी",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.383
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मी येईन.",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.792
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मी येईन. ",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.566
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 13120,
+   "received": 13.566
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12620,
+   "turnId": 1,
+   "received": 13.566
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12620,
+   "turnId": 1,
+   "transcript": " ठीक आहे, मी येईन. ",
+   "received": 13.566
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12940,
+   "turnId": 2,
+   "received": 13.74
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.445
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 15.045
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.454
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि जुनी",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.658
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि जुनी कागदपत्रे",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.478
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि जुनी कागदपत्रे घेऊन",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि जुनी कागदपत्रे घेऊन या,",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि जुनी कागदपत्रे घेऊन या, त्यानंतर",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि जुनी कागदपत्रे घेऊन या, त्यानंतर ऑफिसमध्ये",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.044
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि जुनी कागदपत्रे घेऊन या, त्यानंतर ऑफिसमध्ये भरली तरी",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 20.069
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि जुनी कागदपत्रे घेऊन या, त्यानंतर ऑफिसमध्ये भरली तरी चालेल.",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.233
+  },
+  {
+   "type": "transcript",
+   "transcript": " सातपाराचा उतारा आणि जुनी कागदपत्रे घेऊन या, त्यानंतर ऑफिसमध्ये भरली तरी चालेल. ",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.84
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20480,
+   "received": 20.84
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19980,
+   "turnId": 2,
+   "received": 20.84
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19980,
+   "turnId": 2,
+   "transcript": " सातपाराचा उतारा आणि जुनी कागदपत्रे घेऊन या, त्यानंतर ऑफिसमध्ये भरली तरी चालेल. ",
+   "received": 20.84
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 20480,
+   "received": 20.886
+  }
+ ]
+}

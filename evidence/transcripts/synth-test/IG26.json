@@ -1,0 +1,387 @@
+{
+ "session_id": "voyager/duplex/4A96CF9EB5DD4D59ADC3B768E758969D",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 15.398625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey,",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya.",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.334
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.123
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.422
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.821
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.318
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.644
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's birthday on",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.534
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday.",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday. Don't",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.728
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday. Don't tell",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday. Don't tell her",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.304
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday. Don't tell her anything,",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.617
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday. Don't tell her anything, okay?",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.111
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday. Don't tell her anything, okay? ",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.932
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 8560,
+   "received": 8.932
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 8060,
+   "turnId": 0,
+   "received": 8.932
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 8060,
+   "turnId": 0,
+   "transcript": " Hey, it's Priya. We're planning a surprise party for Neha's birthday on Saturday. Don't tell her anything, okay? ",
+   "received": 8.932
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 8140,
+   "turnId": 1,
+   "received": 8.932
+  },
+  {
+   "type": "transcript",
+   "transcript": " Of",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.343
+  },
+  {
+   "type": "transcript",
+   "transcript": " Of course, what",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.752
+  },
+  {
+   "type": "transcript",
+   "transcript": " Of course, what do",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.956
+  },
+  {
+   "type": "transcript",
+   "transcript": " Of course, what do you",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.956
+  },
+  {
+   "type": "transcript",
+   "transcript": " Of course, what do you need?",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.367
+  },
+  {
+   "type": "transcript",
+   "transcript": " Of course, what do you need? ",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.945
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 10640,
+   "received": 10.945
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 10140,
+   "turnId": 1,
+   "received": 10.945
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 10140,
+   "turnId": 1,
+   "transcript": " Of course, what do you need? ",
+   "received": 10.945
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 10220,
+   "turnId": 2,
+   "received": 11.108
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.108
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.156
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.861
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for the",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.619
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for the cake to",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.028
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for the cake to my",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.056
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for the cake to my G Pay?",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.643
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for the cake to my G Pay? Everyone",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.325
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for the cake to my G Pay? Everyone is",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.03
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for the cake to my G Pay? Everyone is chipping",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.336
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for the cake to my G Pay? Everyone is chipping in.",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.422
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can you send 800 for the cake to my G Pay? Everyone is chipping in. ",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.73
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15440,
+   "received": 15.73
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14940,
+   "turnId": 2,
+   "received": 15.73
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14940,
+   "turnId": 2,
+   "transcript": " Can you send 800 for the cake to my G Pay? Everyone is chipping in. ",
+   "received": 15.73
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 15440,
+   "received": 15.77
+  }
+ ]
+}

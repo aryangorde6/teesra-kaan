@@ -1,0 +1,362 @@
+{
+ "session_id": "voyager/duplex/B60285788779457F9A00714FCFB62B57",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 15.19975,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer,",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.305
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.493
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.789
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon.",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.854
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.887
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.499
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 4.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.365
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.098
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.201
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.305
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton,",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio.",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.515
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.689
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge,",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1 to",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1 to connect with",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.693
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1 to connect with our",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.886
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1 to connect with our Amazon",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.083
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1 to connect with our Amazon customer",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.083
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1 to connect with our Amazon customer care",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1 to connect with our Amazon customer care representative.",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1 to connect with our Amazon customer care representative. ",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.145
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14880,
+   "received": 15.145
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14380,
+   "turnId": 0,
+   "received": 15.145
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14380,
+   "turnId": 0,
+   "transcript": " customer, this is Lily from Amazon. We received one suspicious incoming charge of $729 in your Amazon account from Dayton, Ohio. For dispute on this charge, press 1 to connect with our Amazon customer care representative. ",
+   "received": 15.145
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14540,
+   "turnId": 1,
+   "received": 15.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank",
+   "final": false,
+   "audioProcessedMs": 15120,
+   "received": 15.391
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you. ",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.565
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15200,
+   "received": 15.565
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14700,
+   "turnId": 1,
+   "received": 15.565
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14700,
+   "turnId": 1,
+   "transcript": " Thank you. ",
+   "received": 15.565
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 15200,
+   "received": 15.592
+  }
+ ]
+}

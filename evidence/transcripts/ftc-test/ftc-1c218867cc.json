@@ -1,0 +1,351 @@
+{
+ "session_id": "voyager/duplex/622F4E83718541ECB75EDA57679CDB4C",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 15.6475,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.713
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.817
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.827
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.01
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.764
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.065
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.572
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.771
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.066
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.178
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.168
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.566
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.054
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.268
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.466
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number.",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.519
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.216
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.028
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities,",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.317
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.43
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.533
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.111
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.502
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.228
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.312
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to connect",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to connect with",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.446
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to connect with the",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.712
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to connect with the next",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.828
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to connect with the next available",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.715
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to connect with the next available officer.",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to connect with the next available officer. Thank",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to connect with the next available officer. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.771
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15440,
+   "received": 15.771
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14940,
+   "turnId": 0,
+   "received": 15.771
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14940,
+   "turnId": 0,
+   "transcript": " phone call from our department is to inform you that there's a legal enforcement actions filed on your social security number. For fraudulent activities, so when you get this message kindly press 1 to connect with the next available officer. Thank you. ",
+   "received": 15.771
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 15680,
+   "received": 16.037
+  }
+ ]
+}

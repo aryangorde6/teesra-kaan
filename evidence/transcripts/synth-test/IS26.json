@@ -1,0 +1,411 @@
+{
+ "session_id": "voyager/duplex/35F2919F77FF48CFB7407E682BAADE38",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 26.793375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 0.969
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.359
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.793
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.076
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय.",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.175
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.021
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.268
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 7.965
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही.",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 8.973
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.781
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.069
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.878
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं.",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.839
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.081
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही,",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.221
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.584
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज रात्री",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज रात्री साडेनऊ",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.023
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज रात्री साडेनऊ वाजता",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज रात्री साडेनऊ वाजता तुमची",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.892
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज रात्री साडेनऊ वाजता तुमची वीस",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज रात्री साडेनऊ वाजता तुमची वीस कापली",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.799
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज रात्री साडेनऊ वाजता तुमची वीस कापली जाईल.",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.863
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज रात्री साडेनऊ वाजता तुमची वीस कापली जाईल. ",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.604
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18320,
+   "received": 18.604
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17820,
+   "turnId": 0,
+   "received": 18.604
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17820,
+   "turnId": 0,
+   "transcript": " नमस्कार, मी महावितरण कार्यालयातून बोलतोय. तुमच्यान मागील महिन्याचं बिल अपडेट झालेलं नाही. पण मी ऑनलाइन भरलेन होतं. सिस्टममध्ये दिसत नाही, आज रात्री साडेनऊ वाजता तुमची वीस कापली जाईल. ",
+   "received": 18.604
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 18220,
+   "turnId": 1,
+   "received": 18.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 18.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.779
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.865
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.155
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी",
+   "final": false,
+   "audioProcessedMs": 21120,
+   "received": 21.366
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या",
+   "final": false,
+   "audioProcessedMs": 22000,
+   "received": 22.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 23.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये",
+   "final": false,
+   "audioProcessedMs": 24000,
+   "received": 24.175
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये भरा.",
+   "final": false,
+   "audioProcessedMs": 24080,
+   "received": 24.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये भरा. आणि",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.064
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये भरा. आणि तुमचे",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.581
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये भरा. आणि तुमचे कार्ड",
+   "final": false,
+   "audioProcessedMs": 26000,
+   "received": 26.175
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये भरा. आणि तुमचे कार्ड डिटेल्स टाका.",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.669
+  },
+  {
+   "type": "transcript",
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये भरा. आणि तुमचे कार्ड डिटेल्स टाका. ",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.113
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 26800,
+   "received": 27.113
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 26300,
+   "turnId": 1,
+   "received": 27.113
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 26300,
+   "turnId": 1,
+   "transcript": " वीस चालू ठेवायची असेल तर मी पाठवलेल्या लिंकवरून दहा रुपये भरा. आणि तुमचे कार्ड डिटेल्स टाका. ",
+   "received": 27.113
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 26800,
+   "received": 27.131
+  }
+ ]
+}

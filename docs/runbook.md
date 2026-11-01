@@ -19,6 +19,20 @@ Then one dev re-enactment through `teesrakaan transcribe` and look at the saved 
 
 ## 2. Transcribe each set once (about $0.18 per hour of audio)
 Re-enactments are recorded and labelled in `teesrakaan studio` ([recording.md](recording.md)); labels go to `data/labels-in.csv` before any run.
+
+`teesrakaan ftc-fetch` saves the FTC calls under their dataset names in `data/ftc/audio/`, with `data/ftc/sample.csv` saying which split each is in. The labels name them by `call_id`, so copy them into their splits once:
+```bash
+.venv/bin/python - <<'EOF'
+import csv, shutil
+from pathlib import Path
+from teesrakaan.ftc import call_id
+ftc = Path("data/ftc")
+for row in csv.DictReader(open(ftc / "sample.csv", encoding="utf-8")):
+    (ftc / f"audio-{row['split']}").mkdir(exist_ok=True)
+    shutil.copy2(ftc / row["path"], ftc / f"audio-{row['split']}" / f"{call_id(row['file_name'])}.wav")
+EOF
+```
+Then transcribe:
 ```bash
 .venv/bin/teesrakaan transcribe-set data/ftc/audio-dev --out data/transcripts/ftc-dev     # done Oct 30
 .venv/bin/teesrakaan transcribe-set data/ftc/audio-test --out data/transcripts/ftc-test   # after the freeze

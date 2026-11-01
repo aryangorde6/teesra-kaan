@@ -1,0 +1,576 @@
+{
+ "session_id": "voyager/duplex/AE35D734AF82435ABBD9B01091E4E6CE",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 34.06525,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 4620,
+   "turnId": 0,
+   "received": 5.383
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi,",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.48
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.568
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.977
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.074
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.575
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.577
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.162
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.477
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.663
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 9.975
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.574
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.884
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.374
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.58
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 11.967
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.522
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.885
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.879
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.02
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.283
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.369
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.073
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.772
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.466
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.694
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 17.773
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.074
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.373
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.077
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.073
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.573
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas",
+   "final": false,
+   "audioProcessedMs": 22000,
+   "received": 22.179
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas so",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 22.979
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas so please",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 23.889
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas so please in",
+   "final": false,
+   "audioProcessedMs": 23760,
+   "received": 23.989
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas so please in order go",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.429
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas so please in order go ahead",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas so please in order go ahead get more",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.087
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas so please in order go ahead get more information",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.195
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas so please in order go ahead get more information ",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.548
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 26240,
+   "received": 26.548
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 25740,
+   "turnId": 0,
+   "received": 26.548
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 25740,
+   "turnId": 0,
+   "transcript": " Hi, this call is from social security administration office my name is officer Amanda Barnes and the purpose of the call we are trying to reach you let you know that your social security number is been used for some kind of fraudulent activity in the south border of Texas so please in order go ahead get more information ",
+   "received": 26.548
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 26700,
+   "turnId": 1,
+   "received": 27.423
+  },
+  {
+   "type": "transcript",
+   "transcript": " to",
+   "final": false,
+   "audioProcessedMs": 27440,
+   "received": 27.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " to speak with",
+   "final": false,
+   "audioProcessedMs": 27840,
+   "received": 28.133
+  },
+  {
+   "type": "transcript",
+   "transcript": " to speak with officer",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.613
+  },
+  {
+   "type": "transcript",
+   "transcript": " to speak with officer press",
+   "final": false,
+   "audioProcessedMs": 28880,
+   "received": 29.075
+  },
+  {
+   "type": "transcript",
+   "transcript": " to speak with officer press 1",
+   "final": false,
+   "audioProcessedMs": 29520,
+   "received": 29.793
+  },
+  {
+   "type": "transcript",
+   "transcript": " to speak with officer press 1 I",
+   "final": false,
+   "audioProcessedMs": 30240,
+   "received": 30.482
+  },
+  {
+   "type": "transcript",
+   "transcript": " to speak with officer press 1 I repeat",
+   "final": false,
+   "audioProcessedMs": 30640,
+   "received": 30.857
+  },
+  {
+   "type": "transcript",
+   "transcript": " to speak with officer press 1 I repeat press",
+   "final": false,
+   "audioProcessedMs": 31120,
+   "received": 31.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " to speak with officer press 1 I repeat press 1",
+   "final": false,
+   "audioProcessedMs": 31680,
+   "received": 31.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " to speak with officer press 1 I repeat press 1 ",
+   "final": false,
+   "audioProcessedMs": 31760,
+   "received": 32.006
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 31760,
+   "received": 32.006
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 31260,
+   "turnId": 1,
+   "received": 32.006
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 31260,
+   "turnId": 1,
+   "transcript": " to speak with officer press 1 I repeat press 1 ",
+   "received": 32.006
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 32220,
+   "turnId": 2,
+   "received": 32.977
+  },
+  {
+   "type": "transcript",
+   "transcript": " thank you",
+   "final": false,
+   "audioProcessedMs": 33200,
+   "received": 33.387
+  },
+  {
+   "type": "transcript",
+   "transcript": " thank you and",
+   "final": false,
+   "audioProcessedMs": 33440,
+   "received": 33.663
+  },
+  {
+   "type": "transcript",
+   "transcript": " thank you and have",
+   "final": false,
+   "audioProcessedMs": 33520,
+   "received": 33.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " thank you and have a",
+   "final": false,
+   "audioProcessedMs": 33680,
+   "received": 33.863
+  },
+  {
+   "type": "transcript",
+   "transcript": " thank you and have a great",
+   "final": false,
+   "audioProcessedMs": 34080,
+   "received": 34.363
+  },
+  {
+   "type": "transcript",
+   "transcript": " thank you and have a great day ",
+   "final": false,
+   "audioProcessedMs": 34080,
+   "received": 34.442
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 34080,
+   "received": 34.442
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 33580,
+   "turnId": 2,
+   "received": 34.442
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 33580,
+   "turnId": 2,
+   "transcript": " thank you and have a great day ",
+   "received": 34.442
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 34080,
+   "received": 34.454
+  }
+ ]
+}

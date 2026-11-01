@@ -1,0 +1,330 @@
+{
+ "session_id": "voyager/duplex/99FBB3EB2636449B9D2AF63357834DEE",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 12.81225,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " we",
+   "final": false,
+   "audioProcessedMs": 640,
+   "received": 0.877
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 0.979
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would",
+   "final": false,
+   "audioProcessedMs": 800,
+   "received": 1.009
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.17
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.482
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.675
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.187
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.273
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.765
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.072
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.16
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.272
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.869
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.185
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.575
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.665
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.185
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.665
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.767
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 6.968
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.472
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.216
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.576
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.063
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.164
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.561
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.088
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one to",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one to speak to our",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one to speak to our representative",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.365
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one to speak to our representative or",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.189
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one to speak to our representative or press two to",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one to speak to our representative or press two to authorize ",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.225
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12880,
+   "received": 13.225
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12380,
+   "turnId": 0,
+   "received": 13.225
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12380,
+   "turnId": 0,
+   "transcript": " we would would like you to inform you that there has been an order placed for an Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order press one to speak to our representative or press two to authorize ",
+   "received": 13.225
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 12880,
+   "received": 13.245
+  }
+ ]
+}

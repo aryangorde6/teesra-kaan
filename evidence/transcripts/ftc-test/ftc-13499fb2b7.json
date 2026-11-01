@@ -1,0 +1,295 @@
+{
+ "session_id": "voyager/duplex/F57DF170EB674DF2995D4EF1D8722432",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 10.5175,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform",
+   "final": false,
+   "audioProcessedMs": 800,
+   "received": 0.978
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.086
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.189
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.677
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.076
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.474
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.978
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.011
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.674
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.494
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.596
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.886
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.438
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.896
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.479
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.691
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.898
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.282
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 7.973
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order,",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order, press",
+   "final": false,
+   "audioProcessedMs": 8480,
+   "received": 8.686
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order, press 1",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order, press 1 or",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order, press 1 or press",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order, press 1 or press 2 to",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order, press 1 or press 2 to authorize",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order, press 1 or press 2 to authorize this order. ",
+   "final": false,
+   "audioProcessedMs": 10560,
+   "received": 10.968
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10560,
+   "received": 10.968
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 10060,
+   "turnId": 0,
+   "received": 10.968
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 10060,
+   "turnId": 0,
+   "transcript": " inform you that there is an order placed for Apple iPhone 11 Pro using your Amazon account. If you do not authorize this order, press 1 or press 2 to authorize this order. ",
+   "received": 10.968
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 10560,
+   "received": 10.988
+  }
+ ]
+}

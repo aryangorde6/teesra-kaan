@@ -1,0 +1,162 @@
+{
+ "session_id": "voyager/duplex/1EB991755BA548BE9AC777CD25A07408",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 5.933,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.821
+  },
+  {
+   "type": "transcript",
+   "transcript": " to",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.821
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start",
+   "final": false,
+   "audioProcessedMs": 960,
+   "received": 1.224
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.434
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your claim.",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.625
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your claim. Otherwise,",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.938
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your claim. Otherwise, please",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.218
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your claim. Otherwise, please press",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.525
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your claim. Otherwise, please press 2 to",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.944
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your claim. Otherwise, please press 2 to speak",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.032
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your claim. Otherwise, please press 2 to speak with",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.329
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your claim. Otherwise, please press 2 to speak with a billing",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.538
+  },
+  {
+   "type": "transcript",
+   "transcript": " to start your claim. Otherwise, please press 2 to speak with a billing department. ",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.393
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 6000,
+   "received": 6.393
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 5500,
+   "turnId": 0,
+   "received": 6.393
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 5500,
+   "turnId": 0,
+   "transcript": " to start your claim. Otherwise, please press 2 to speak with a billing department. ",
+   "received": 6.393
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 6000,
+   "received": 6.409
+  }
+ ]
+}

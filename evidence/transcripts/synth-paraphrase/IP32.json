@@ -1,0 +1,724 @@
+{
+ "session_id": "voyager/duplex/5DC400EA7EAF41E485841D830DC71A8D",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 35.734625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 460,
+   "turnId": 0,
+   "received": 1.254
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.672
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.776
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.875
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.262
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.098
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.374
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.578
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.663
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator,",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.301
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.774
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.361
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.062
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.388
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.562
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.677
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours.",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.06
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.97
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.387
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.551
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.69
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.96
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.268
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now.",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.564
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.88
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister,",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.498
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.644
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 16.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.992
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator,",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.342
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 18.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 19.306
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has been",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.483
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has been flagged",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has been flagged for",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.864
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has been flagged for sending",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.559
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has been flagged for sending messages that",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.162
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has been flagged for sending messages that cheat",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.686
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has been flagged for sending messages that cheat people.",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 22.155
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has been flagged for sending messages that cheat people. ",
+   "final": false,
+   "audioProcessedMs": 22160,
+   "received": 22.739
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 22160,
+   "received": 22.739
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21660,
+   "turnId": 0,
+   "received": 22.739
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21660,
+   "turnId": 0,
+   "transcript": " This is a recorded message from the National Telecom Regulator, every mobile service on your number will stop in a couple of hours. To speak with a staff member key in nine now. Hello mister, mayra speaking from the telecom regulator, your SIM has been flagged for sending messages that cheat people. ",
+   "received": 22.739
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 21660,
+   "turnId": 1,
+   "received": 22.739
+  },
+  {
+   "type": "transcript",
+   "transcript": " Are",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.739
+  },
+  {
+   "type": "transcript",
+   "transcript": " Are you",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.975
+  },
+  {
+   "type": "transcript",
+   "transcript": " Are you aware",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " Are you aware of",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " Are you aware of this?",
+   "final": false,
+   "audioProcessedMs": 23520,
+   "received": 24.028
+  },
+  {
+   "type": "transcript",
+   "transcript": " Are you aware of this? ",
+   "final": false,
+   "audioProcessedMs": 24160,
+   "received": 24.766
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 24160,
+   "received": 24.766
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23660,
+   "turnId": 1,
+   "received": 24.766
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23660,
+   "turnId": 1,
+   "transcript": " Are you aware of this? ",
+   "received": 24.766
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 23740,
+   "turnId": 2,
+   "received": 24.991
+  },
+  {
+   "type": "transcript",
+   "transcript": " No,",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 25.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, who is",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.34
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, who is this",
+   "final": false,
+   "audioProcessedMs": 24960,
+   "received": 25.462
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, who is this again?",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, who is this again? ",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.424
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 25920,
+   "received": 26.424
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 25420,
+   "turnId": 2,
+   "received": 26.424
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 25420,
+   "turnId": 2,
+   "transcript": " No, who is this again? ",
+   "received": 26.424
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 25500,
+   "turnId": 3,
+   "received": 26.459
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir,",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.894
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you",
+   "final": false,
+   "audioProcessedMs": 26880,
+   "received": 27.269
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't",
+   "final": false,
+   "audioProcessedMs": 27040,
+   "received": 27.471
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate,",
+   "final": false,
+   "audioProcessedMs": 27680,
+   "received": 28.104
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.788
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes",
+   "final": false,
+   "audioProcessedMs": 28880,
+   "received": 29.236
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to",
+   "final": false,
+   "audioProcessedMs": 28960,
+   "received": 29.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the",
+   "final": false,
+   "audioProcessedMs": 29200,
+   "received": 29.586
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the cyber",
+   "final": false,
+   "audioProcessedMs": 29840,
+   "received": 30.327
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the cyber investigation",
+   "final": false,
+   "audioProcessedMs": 30640,
+   "received": 31.13
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the cyber investigation wing",
+   "final": false,
+   "audioProcessedMs": 30960,
+   "received": 31.474
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the cyber investigation wing before",
+   "final": false,
+   "audioProcessedMs": 31360,
+   "received": 31.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the cyber investigation wing before the",
+   "final": false,
+   "audioProcessedMs": 31600,
+   "received": 32.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the cyber investigation wing before the day",
+   "final": false,
+   "audioProcessedMs": 31680,
+   "received": 32.152
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the cyber investigation wing before the day ends.",
+   "final": false,
+   "audioProcessedMs": 32160,
+   "received": 32.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the cyber investigation wing before the day ends. ",
+   "final": false,
+   "audioProcessedMs": 32720,
+   "received": 33.286
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 32720,
+   "received": 33.286
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 32220,
+   "turnId": 3,
+   "received": 33.286
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 32220,
+   "turnId": 3,
+   "transcript": " Sir, if you don't cooperate, a complaint goes to the cyber investigation wing before the day ends. ",
+   "received": 33.286
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 32620,
+   "turnId": 4,
+   "received": 33.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll",
+   "final": false,
+   "audioProcessedMs": 33120,
+   "received": 33.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll go to",
+   "final": false,
+   "audioProcessedMs": 33520,
+   "received": 34.026
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll go to my",
+   "final": false,
+   "audioProcessedMs": 33840,
+   "received": 34.358
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll go to my telecom store",
+   "final": false,
+   "audioProcessedMs": 34080,
+   "received": 34.563
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll go to my telecom store myself.",
+   "final": false,
+   "audioProcessedMs": 34560,
+   "received": 35.098
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll go to my telecom store myself. Bye.",
+   "final": false,
+   "audioProcessedMs": 35600,
+   "received": 36.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll go to my telecom store myself. Bye. ",
+   "final": false,
+   "audioProcessedMs": 35760,
+   "received": 36.5
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 35760,
+   "received": 36.5
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 35260,
+   "turnId": 4,
+   "received": 36.5
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 35260,
+   "turnId": 4,
+   "transcript": " I'll go to my telecom store myself. Bye. ",
+   "received": 36.5
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 35760,
+   "received": 36.52
+  }
+ ]
+}

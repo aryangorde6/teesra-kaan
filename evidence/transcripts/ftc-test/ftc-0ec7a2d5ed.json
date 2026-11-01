@@ -1,0 +1,246 @@
+{
+ "session_id": "voyager/duplex/172DE9BCBD7144CAAC714E289AF66A70",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 11.5385,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.44
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.767
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.25
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.337
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.126
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.253
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.832
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50%",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.058
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.362
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills.",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.936
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.439
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.111
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press 1",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press 1 and",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.118
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press 1 and your",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.411
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press 1 and your call",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.506
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press 1 and your call will get",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.22
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press 1 and your call will get connected with our",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.92
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press 1 and your call will get connected with our representative.",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press 1 and your call will get connected with our representative. ",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.959
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 11600,
+   "received": 11.96
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11100,
+   "turnId": 0,
+   "received": 11.96
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11100,
+   "turnId": 0,
+   "transcript": " inform you that your account has been qualified to get up to 50% discount on your monthly bills. To avail this discount press 1 and your call will get connected with our representative. ",
+   "received": 11.96
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 11600,
+   "received": 11.979
+  }
+ ]
+}

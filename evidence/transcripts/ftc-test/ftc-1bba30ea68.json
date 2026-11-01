@@ -1,0 +1,660 @@
+{
+ "session_id": "voyager/duplex/8980D7DFE7EE47BAA9832C762C7295B1",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 29.385,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " department",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.31
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.917
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.611
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.797
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.35
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.999
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.099
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name,",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.833
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.903
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.106
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.295
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.101
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.535
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.637
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer.",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.222
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.405
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.819
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.289
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.475
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.637
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.672
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.114
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.538
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.147
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about your",
+   "final": false,
+   "audioProcessedMs": 13920,
+   "received": 14.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about your case",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about your case file and",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about your case file and take",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.011
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about your case file and take necessary",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.25
+  },
+  {
+   "type": "transcript",
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter. ",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.66
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 16400,
+   "received": 16.66
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15900,
+   "turnId": 0,
+   "received": 16.66
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15900,
+   "turnId": 0,
+   "transcript": " department to inform you that due to some suspicious activities related to your name, we are trying to reach you but unfortunately we missed your answer. In order to connect our legal department press 1 so that we can discuss about your case file and take necessary action on this matter. ",
+   "received": 16.66
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 16460,
+   "turnId": 1,
+   "received": 17.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " In",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.007
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.157
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.301
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.601
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.107
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.71
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences",
+   "final": false,
+   "audioProcessedMs": 20800,
+   "received": 21.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.503
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.829
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press",
+   "final": false,
+   "audioProcessedMs": 22000,
+   "received": 22.206
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.123
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and you",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and you will be",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.53
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and you will be automatically",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and you will be automatically connect to",
+   "final": false,
+   "audioProcessedMs": 24640,
+   "received": 24.905
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the",
+   "final": false,
+   "audioProcessedMs": 24800,
+   "received": 25.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern",
+   "final": false,
+   "audioProcessedMs": 25040,
+   "received": 25.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department.",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department. ",
+   "final": false,
+   "audioProcessedMs": 26000,
+   "received": 26.261
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 26000,
+   "received": 26.261
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 25500,
+   "turnId": 1,
+   "received": 26.261
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 25500,
+   "turnId": 1,
+   "transcript": " In case we would not hear from you you then you will face some legal consequences to connect now press 1 and you will be automatically connect to the concern department. ",
+   "received": 26.261
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 25740,
+   "turnId": 2,
+   "received": 26.535
+  },
+  {
+   "type": "transcript",
+   "transcript": " By",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.535
+  },
+  {
+   "type": "transcript",
+   "transcript": " By this",
+   "final": false,
+   "audioProcessedMs": 26720,
+   "received": 27.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " By this call",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.037
+  },
+  {
+   "type": "transcript",
+   "transcript": " By this call you",
+   "final": false,
+   "audioProcessedMs": 27360,
+   "received": 27.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " By this call you have been",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 28.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " By this call you have been officially",
+   "final": false,
+   "audioProcessedMs": 28160,
+   "received": 28.397
+  },
+  {
+   "type": "transcript",
+   "transcript": " By this call you have been officially notified.",
+   "final": false,
+   "audioProcessedMs": 28560,
+   "received": 28.798
+  },
+  {
+   "type": "transcript",
+   "transcript": " By this call you have been officially notified. thank you.",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.717
+  },
+  {
+   "type": "transcript",
+   "transcript": " By this call you have been officially notified. thank you. ",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.785
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 29440,
+   "received": 29.785
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 28940,
+   "turnId": 2,
+   "received": 29.785
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 28940,
+   "turnId": 2,
+   "transcript": " By this call you have been officially notified. thank you. ",
+   "received": 29.785
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 29440,
+   "received": 29.802
+  }
+ ]
+}

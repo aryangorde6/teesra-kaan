@@ -1,0 +1,467 @@
+{
+ "session_id": "voyager/duplex/E989FE7AD5E642D18FF993143D01E675",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 29.801375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.015
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.02
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.464
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.126
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.54
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.635
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.455
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.928
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.76
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.446
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.37
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.655
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी लॉटरी",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी लॉटरी लागली आहे.",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.336
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी लॉटरी लागली आहे. खरंच मी तर",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.742
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी लॉटरी लागली आहे. खरंच मी तर काहीच",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.644
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी लॉटरी लागली आहे. खरंच मी तर काहीच भाग",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.938
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी लॉटरी लागली आहे. खरंच मी तर काहीच भाग घेतला",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.456
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी लॉटरी लागली आहे. खरंच मी तर काहीच भाग घेतला नाही.",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.548
+  },
+  {
+   "type": "transcript",
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी लॉटरी लागली आहे. खरंच मी तर काहीच भाग घेतला नाही. ",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.972
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13680,
+   "received": 13.972
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13180,
+   "turnId": 0,
+   "received": 13.972
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13180,
+   "turnId": 0,
+   "transcript": " अभिनंदन मी कॉल बनेगा करोड़पति लकी ड्रॉ વિભાગातून બોલતે તુમ્હारा નંબર લા પંચવીસ લાખાંચी लॉटरी लागली आहे. खरंच मी तर काहीच भाग घेतला नाही. ",
+   "received": 13.972
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 13340,
+   "turnId": 1,
+   "received": 14.106
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.636
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.15
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.266
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.614
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.53
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.047
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.731
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.02
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे.",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.312
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.145
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 20.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.216
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.607
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 22.005
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ.",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.54
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.122
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે",
+   "final": false,
+   "audioProcessedMs": 25520,
+   "received": 25.86
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.25
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે આજ જ ભરા",
+   "final": false,
+   "audioProcessedMs": 26400,
+   "received": 26.66
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે આજ જ ભરા ઉદય",
+   "final": false,
+   "audioProcessedMs": 27520,
+   "received": 27.842
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે આજ જ ભરા ઉદય રકમ",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 28.041
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે આજ જ ભરા ઉદય રકમ તુમ્હચ्या",
+   "final": false,
+   "audioProcessedMs": 28320,
+   "received": 28.666
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે આજ જ ભરા ઉદય રકમ તુમ્હચ्या ખાત्यात",
+   "final": false,
+   "audioProcessedMs": 29040,
+   "received": 29.329
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે આજ જ ભરા ઉદય રકમ તુમ્હચ्या ખાત्यात જમા",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.719
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે આજ જ ભરા ઉદય રકમ તુમ્હચ्या ખાત्यात જમા होईल.",
+   "final": false,
+   "audioProcessedMs": 29680,
+   "received": 29.935
+  },
+  {
+   "type": "transcript",
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે આજ જ ભરા ઉદય રકમ તુમ્હચ्या ખાત्यात જમા होईल. ",
+   "final": false,
+   "audioProcessedMs": 29840,
+   "received": 30.235
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 29840,
+   "received": 30.235
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 29340,
+   "turnId": 1,
+   "received": 30.235
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 29340,
+   "turnId": 1,
+   "transcript": " હા મોબાઈલ કંપની આની KBC ચા સંયુક્ત લકી ડ્રો आहे. બક્ષીસ મેળવવા માટે ફક્ત પ્રોસેસિંગ ફી અને GST ભરાવા લાગેલ. બાર હજાર પાંચસે રૂપિયે આજ જ ભરા ઉદય રકમ તુમ્હચ्या ખાત्यात જમા होईल. ",
+   "received": 30.235
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 29840,
+   "received": 30.279
+  }
+ ]
+}

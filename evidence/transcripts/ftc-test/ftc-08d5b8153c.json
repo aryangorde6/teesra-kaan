@@ -1,0 +1,359 @@
+{
+ "session_id": "voyager/duplex/E20DB28280704DB986B32696C373486B",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 29.5,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 1900,
+   "turnId": 0,
+   "received": 2.591
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello.",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 2.992
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.079
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.699
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.979
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.79
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.093
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.582
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 7.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.574
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name.",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 8.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.788
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 10.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.805
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our representative please",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our representative please press",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.284
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our representative please press 1",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our representative please press 1 or",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.898
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our representative please press 1 or stay",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 14.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our representative please press 1 or stay on the",
+   "final": false,
+   "audioProcessedMs": 15440,
+   "received": 15.68
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our representative please press 1 or stay on the line.",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.887
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our representative please press 1 or stay on the line. ",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.223
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 16000,
+   "received": 16.223
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15500,
+   "turnId": 0,
+   "received": 16.223
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15500,
+   "turnId": 0,
+   "transcript": " Hello. This call is to inform you that a pre-authorized order has been placed on your name. So to authorize the order or to talk to our representative please press 1 or stay on the line. ",
+   "received": 16.223
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 16140,
+   "turnId": 1,
+   "received": 16.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you.",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.013
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you. ",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.032
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18800,
+   "received": 19.032
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18300,
+   "turnId": 1,
+   "received": 19.032
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18300,
+   "turnId": 1,
+   "transcript": " Thank you. ",
+   "received": 19.032
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 27980,
+   "turnId": 2,
+   "received": 28.695
+  },
+  {
+   "type": "transcript",
+   "transcript": " Goodbye.",
+   "final": false,
+   "audioProcessedMs": 29040,
+   "received": 29.311
+  },
+  {
+   "type": "transcript",
+   "transcript": " Goodbye. ",
+   "final": false,
+   "audioProcessedMs": 29520,
+   "received": 29.849
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 29520,
+   "received": 29.849
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 29020,
+   "turnId": 2,
+   "received": 29.849
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 29020,
+   "turnId": 2,
+   "transcript": " Goodbye. ",
+   "received": 29.849
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 29520,
+   "received": 29.873
+  }
+ ]
+}

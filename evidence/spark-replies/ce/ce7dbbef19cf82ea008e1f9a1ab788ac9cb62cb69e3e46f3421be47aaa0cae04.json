@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"this is Lisa calling you from Chase bank.\"}, {\"id\": \"A10\", \"quote\": \"Please press 1 to speak with a live operator\"}, {\"id\": \"A12\", \"quote\": \"you have been qualified to drop down your interest rate below 6% on your credit card.\"}]}", "input_tokens": 973, "output_tokens": 280, "latency": 1.225}

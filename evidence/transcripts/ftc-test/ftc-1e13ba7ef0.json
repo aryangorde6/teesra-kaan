@@ -1,0 +1,390 @@
+{
+ "session_id": "voyager/duplex/738F3005FD6849B883A7BA2457A263D2",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 23.41875,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 3020,
+   "turnId": 0,
+   "received": 3.816
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.526
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper.",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.927
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.5
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.12
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.3
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.612
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.026
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.314
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement.",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.004
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.417
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.619
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041.",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.956
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again,",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.52
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that number",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.809
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that number 7244428041. And",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.771
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that number 7244428041. And please",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.117
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that number 7244428041. And please have a",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.317
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that number 7244428041. And please have a statement available",
+   "final": false,
+   "audioProcessedMs": 19520,
+   "received": 19.815
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that number 7244428041. And please have a statement available to",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.207
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that number 7244428041. And please have a statement available to review.",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.725
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that number 7244428041. And please have a statement available to review. ",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.885
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20560,
+   "received": 20.885
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 20060,
+   "turnId": 0,
+   "received": 20.885
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 20060,
+   "turnId": 0,
+   "transcript": " This is Miss Harper. I was trying to reach you regarding an important matter of reviewing the supply charges for your Pennelec electric statement. Please return my call at 7244428041. Again, that number 7244428041. And please have a statement available to review. ",
+   "received": 20.885
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 20060,
+   "turnId": 1,
+   "received": 20.885
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.52
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P120.",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P120. I'll",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.219
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P120. I'll speak",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.512
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P120. I'll speak to you",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.807
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your reference number is P120. I'll speak to you soon. ",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.89
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23440,
+   "received": 23.89
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22940,
+   "turnId": 1,
+   "received": 23.89
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22940,
+   "turnId": 1,
+   "transcript": " Your reference number is P120. I'll speak to you soon. ",
+   "received": 23.89
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 23440,
+   "received": 23.91
+  }
+ ]
+}

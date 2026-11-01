@@ -1,0 +1,674 @@
+{
+ "session_id": "voyager/duplex/C7D4E20B7C2D4B279D981E9D995471CB",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 41.56,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 3660,
+   "turnId": 0,
+   "received": 4.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.681
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for",
+   "final": false,
+   "audioProcessedMs": 4480,
+   "received": 4.746
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.055
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard,",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.268
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.749
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover.",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.06
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.954
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.432
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks,",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.071
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.255
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.533
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.944
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.169
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.336
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.638
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.098
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.353
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.541
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion.",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're",
+   "final": false,
+   "audioProcessedMs": 12400,
+   "received": 12.635
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.053
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.653
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.855
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.163
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.437
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.535
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.239
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.541
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for 0%",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.279
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for 0% interest",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.601
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for 0% interest rates",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for 0% interest rates on your",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.463
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for 0% interest rates on your existing",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.733
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for 0% interest rates on your existing credit",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.843
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for 0% interest rates on your existing credit card",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.135
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for 0% interest rates on your existing credit card accounts. ",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.697
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18400,
+   "received": 18.697
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17900,
+   "turnId": 0,
+   "received": 18.697
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17900,
+   "turnId": 0,
+   "transcript": " Thank you for choosing Mastercard, Visa and Discover. As our way of saying thanks, we'd like to reward you for making your payments in a timely fashion. We're excited to inform you that you're now eligible to qualify for 0% interest rates on your existing credit card accounts. ",
+   "received": 18.697
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 18220,
+   "turnId": 1,
+   "received": 19.061
+  },
+  {
+   "type": "transcript",
+   "transcript": " If",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.086
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.333
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.851
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.238
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000",
+   "final": false,
+   "audioProcessedMs": 21120,
+   "received": 21.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.571
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.75
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit",
+   "final": false,
+   "audioProcessedMs": 21840,
+   "received": 22.15
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card",
+   "final": false,
+   "audioProcessedMs": 21920,
+   "received": 22.311
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt,",
+   "final": false,
+   "audioProcessedMs": 22000,
+   "received": 22.311
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 23.047
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.077
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.442
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.541
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 23.937
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.657
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower",
+   "final": false,
+   "audioProcessedMs": 24880,
+   "received": 25.142
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest,",
+   "final": false,
+   "audioProcessedMs": 24960,
+   "received": 25.245
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower",
+   "final": false,
+   "audioProcessedMs": 25440,
+   "received": 25.741
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.441
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and",
+   "final": false,
+   "audioProcessedMs": 26480,
+   "received": 26.746
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.047
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash back",
+   "final": false,
+   "audioProcessedMs": 27200,
+   "received": 27.453
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash back benefits",
+   "final": false,
+   "audioProcessedMs": 27280,
+   "received": 27.547
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash back benefits for",
+   "final": false,
+   "audioProcessedMs": 27840,
+   "received": 28.147
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash back benefits for your",
+   "final": false,
+   "audioProcessedMs": 27920,
+   "received": 28.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash back benefits for your most",
+   "final": false,
+   "audioProcessedMs": 28400,
+   "received": 28.65
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash back benefits for your most recent",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.741
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash back benefits for your most recent purchases.",
+   "final": false,
+   "audioProcessedMs": 29200,
+   "received": 29.454
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash back benefits for your most recent purchases. ",
+   "final": false,
+   "audioProcessedMs": 29440,
+   "received": 29.791
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 29440,
+   "received": 29.791
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 28940,
+   "turnId": 1,
+   "received": 29.791
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 28940,
+   "turnId": 1,
+   "transcript": " If you still owe more than $5,000 in total credit card debt, press the number one to qualify for lower interest, lower payments and cash back benefits for your most recent purchases. ",
+   "received": 29.791
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 28940,
+   "turnId": 2,
+   "received": 29.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press",
+   "final": false,
+   "audioProcessedMs": 29840,
+   "received": 30.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.349
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one now",
+   "final": false,
+   "audioProcessedMs": 30320,
+   "received": 30.652
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one now for",
+   "final": false,
+   "audioProcessedMs": 30480,
+   "received": 30.745
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one now for more",
+   "final": false,
+   "audioProcessedMs": 30560,
+   "received": 30.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one now for more information.",
+   "final": false,
+   "audioProcessedMs": 31120,
+   "received": 31.448
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press one now for more information. ",
+   "final": false,
+   "audioProcessedMs": 32080,
+   "received": 32.377
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 32080,
+   "received": 32.377
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 31580,
+   "turnId": 2,
+   "received": 32.378
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 31580,
+   "turnId": 2,
+   "transcript": " Press one now for more information. ",
+   "received": 32.378
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 41600,
+   "received": 41.965
+  }
+ ]
+}

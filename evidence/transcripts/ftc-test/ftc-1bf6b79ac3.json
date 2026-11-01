@@ -1,0 +1,218 @@
+{
+ "session_id": "voyager/duplex/648CD7BE20814D2295CF31BDBD608164",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 7.623125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.831
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.13
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.324
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.714
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.919
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.226
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.734
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.034
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.873
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.23
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.649
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize this order,",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize this order, press",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.568
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize this order, press 1",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.307
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize this order, press 1 or",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.683
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize this order, press 1 or press",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize this order, press 1 or press 2",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 7.097
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize this order, press 1 or press 2 2 to",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 7.152
+  },
+  {
+   "type": "transcript",
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize this order, press 1 or press 2 2 to authorize this order. ",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 8.19
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 7680,
+   "received": 8.19
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 7180,
+   "turnId": 0,
+   "received": 8.19
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 7180,
+   "turnId": 0,
+   "transcript": " phone 11 pro using your Amazon account. If you do not authorize this order, press 1 or press 2 2 to authorize this order. ",
+   "received": 8.19
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 7680,
+   "received": 8.199
+  }
+ ]
+}

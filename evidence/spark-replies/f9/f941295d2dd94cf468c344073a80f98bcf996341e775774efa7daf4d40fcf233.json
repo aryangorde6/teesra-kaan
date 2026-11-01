@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"This call is from the Department of Social Security Administration.\"}, {\"id\": \"A2\", \"quote\": \"we will be suspending your social security number because we found some suspicious activities on your social security.\"}]}", "input_tokens": 963, "output_tokens": 255, "latency": 1.096}

@@ -1,0 +1,327 @@
+{
+ "session_id": "voyager/duplex/692E9EA2442A42B2BEDB633576C5CC6D",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 19.26,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.879
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1680,
+   "received": 1.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.285
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.431
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.775
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी",
+   "final": false,
+   "audioProcessedMs": 4880,
+   "received": 5.111
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय.",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.379
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.299
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.469
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.185
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.261
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 8.975
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी असेल",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.069
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी असेल का?",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.383
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी असेल का? हो",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.355
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी असेल का? हो आई",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.864
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी असेल का? हो आई असेल.",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी असेल का? हो आई असेल. ",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.239
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 11920,
+   "received": 12.239
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11420,
+   "turnId": 0,
+   "received": 12.239
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11420,
+   "turnId": 0,
+   "transcript": " नमस्कार, मी महावितरणकडून मीटर रीडिंगसाठी बोलतोय. उद्या सकाळी दहा वाजता घरी कोणी असेल का? हो आई असेल. ",
+   "received": 12.239
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11420,
+   "turnId": 1,
+   "received": 12.239
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.239
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे,",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.479
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.357
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.885
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन,",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.164
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही पैसे",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.367
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही पैसे द्यायचे",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.891
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही पैसे द्यायचे नाहीत,",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.491
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही पैसे द्यायचे नाहीत, बिल",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.764
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही पैसे द्यायचे नाहीत, बिल नियमितप्रमाणे",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही पैसे द्यायचे नाहीत, बिल नियमितप्रमाणे SMS वर",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.866
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही पैसे द्यायचे नाहीत, बिल नियमितप्रमाणे SMS वर येईल.",
+   "final": false,
+   "audioProcessedMs": 19040,
+   "received": 19.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही पैसे द्यायचे नाहीत, बिल नियमितप्रमाणे SMS वर येईल. ",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.602
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19280,
+   "received": 19.602
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18780,
+   "turnId": 1,
+   "received": 19.602
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18780,
+   "turnId": 1,
+   "transcript": " ठीक आहे, मीटर बघायला येईन, काही पैसे द्यायचे नाहीत, बिल नियमितप्रमाणे SMS वर येईल. ",
+   "received": 19.602
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 19280,
+   "received": 19.643
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+{
+ "session_id": "voyager/duplex/26BDF357099C44E59ED11234DAA8B1A8",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 26.532,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention,",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.52
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.211
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.929
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.025
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.418
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.039
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.035
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.422
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.715
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.919
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.213
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.423
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going",
+   "final": false,
+   "audioProcessedMs": 7440,
+   "received": 7.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.818
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.909
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.121
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.523
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent and",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.112
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent and suspicious",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent and suspicious activity",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.323
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent and suspicious activity in the",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.831
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent and suspicious activity in the state",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.23
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent and suspicious activity in the state of",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.326
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent and suspicious activity in the state of Texas.",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent and suspicious activity in the state of Texas. ",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.374
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12960,
+   "received": 13.374
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12460,
+   "turnId": 0,
+   "received": 13.374
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12460,
+   "turnId": 0,
+   "transcript": " Attention, this call is from social security administration to inform you that your social security number is going to be suspended for committing some some fraudulent and suspicious activity in the state of Texas. ",
+   "received": 13.374
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12460,
+   "turnId": 1,
+   "received": 13.374
+  },
+  {
+   "type": "transcript",
+   "transcript": " So",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.374
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to",
+   "final": false,
+   "audioProcessedMs": 13040,
+   "received": 13.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 14.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.113
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more information",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more information and",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.925
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more information and to",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.118
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more information and to resolve",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.907
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more information and to resolve a",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more information and to resolve a timely",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.326
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more information and to resolve a timely press",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.622
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more information and to resolve a timely press 1.",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.328
+  },
+  {
+   "type": "transcript",
+   "transcript": " So to find out more information and to resolve a timely press 1. ",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.853
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 17520,
+   "received": 17.853
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17020,
+   "turnId": 1,
+   "received": 17.853
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17020,
+   "turnId": 1,
+   "transcript": " So to find out more information and to resolve a timely press 1. ",
+   "received": 17.853
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 26560,
+   "received": 26.942
+  }
+ ]
+}

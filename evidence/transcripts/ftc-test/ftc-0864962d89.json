@@ -1,0 +1,411 @@
+{
+ "session_id": "voyager/duplex/205D2333FE584D20A86319C2A1FBCFED",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 21.714625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 0.979
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there,",
+   "final": false,
+   "audioProcessedMs": 800,
+   "received": 1.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.609
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.097
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.194
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.095
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.745
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.782
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.282
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.802
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.192
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.388
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.905
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50%",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.902
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off.",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In",
+   "final": false,
+   "audioProcessedMs": 7600,
+   "received": 7.797
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.187
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount,",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.287
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.074
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.377
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.673
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 10.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.167
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.998
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8",
+   "final": false,
+   "audioProcessedMs": 17600,
+   "received": 18.037
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8 AM",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.072
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8 AM to",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.099
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8 AM to 5",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.595
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8 AM to 5 PM",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.687
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8 AM to 5 PM Pacific",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.388
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8 AM to 5 PM Pacific Standard",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8 AM to 5 PM Pacific Standard Time.",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.208
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8 AM to 5 PM Pacific Standard Time. ",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.654
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20400,
+   "received": 20.654
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19900,
+   "turnId": 0,
+   "received": 20.654
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19900,
+   "turnId": 0,
+   "transcript": " Hi there, I'm calling you from Comcast Xfinity to let you know that your existing account is qualified for 50% off. In order to avail the discount, kindly call us back at 833 511 0678 from 8 8 AM to 5 PM Pacific Standard Time. ",
+   "received": 20.654
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 19900,
+   "turnId": 1,
+   "received": 20.654
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.886
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 20.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you and",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.385
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you and have",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.485
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you and have a",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.69
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you and have a great day. ",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 22.159
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 21760,
+   "received": 22.16
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21260,
+   "turnId": 1,
+   "received": 22.16
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21260,
+   "turnId": 1,
+   "transcript": " Thank you and have a great day. ",
+   "received": 22.16
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 21760,
+   "received": 22.175
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "session_id": "voyager/duplex/28003930B762473E92F685B44CA0144D",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 5.793,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 140,
+   "turnId": 0,
+   "received": 0.951
+  },
+  {
+   "type": "transcript",
+   "transcript": " your",
+   "final": false,
+   "audioProcessedMs": 880,
+   "received": 1.156
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.549
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account.",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.851
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.338
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.67
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not authorize this",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.761
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not authorize this order then press",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.269
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not authorize this order then press one",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.545
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not authorize this order then press one or",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.84
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not authorize this order then press one or press two",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.35
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not authorize this order then press one or press two to",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.455
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not authorize this order then press one or press two to authorize",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not authorize this order then press one or press two to authorize the",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.162
+  },
+  {
+   "type": "transcript",
+   "transcript": " your Amazon account. If you do not authorize this order then press one or press two to authorize the order. ",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.25
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 5840,
+   "received": 6.25
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 5340,
+   "turnId": 0,
+   "received": 6.25
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 5340,
+   "turnId": 0,
+   "transcript": " your Amazon account. If you do not authorize this order then press one or press two to authorize the order. ",
+   "received": 6.25
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 5840,
+   "received": 6.27
+  }
+ ]
+}

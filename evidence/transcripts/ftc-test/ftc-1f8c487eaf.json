@@ -1,0 +1,344 @@
+{
+ "session_id": "voyager/duplex/D5EAE6A41D80432EA91DF04D34311865",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 34.9,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 1900,
+   "turnId": 0,
+   "received": 2.654
+  },
+  {
+   "type": "transcript",
+   "transcript": " A",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized",
+   "final": false,
+   "audioProcessedMs": 3840,
+   "received": 4.144
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.926
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.423
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.742
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.523
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.622
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.43
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.234
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.42
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.219
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account",
+   "final": false,
+   "audioProcessedMs": 10720,
+   "received": 11.017
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.232
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.554
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.681
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to",
+   "final": false,
+   "audioProcessedMs": 17840,
+   "received": 18.114
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel",
+   "final": false,
+   "audioProcessedMs": 18560,
+   "received": 18.807
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.908
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.829
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.214
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one",
+   "final": false,
+   "audioProcessedMs": 20400,
+   "received": 20.634
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.926
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of our",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.205
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of our customer",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.52
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of our customer support",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.517
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of our customer support representative",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 22.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of our customer support representative please",
+   "final": false,
+   "audioProcessedMs": 23520,
+   "received": 23.824
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of our customer support representative please press",
+   "final": false,
+   "audioProcessedMs": 23600,
+   "received": 23.86
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of our customer support representative please press 1",
+   "final": false,
+   "audioProcessedMs": 24720,
+   "received": 25.036
+  },
+  {
+   "type": "transcript",
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of our customer support representative please press 1 ",
+   "final": false,
+   "audioProcessedMs": 26320,
+   "received": 26.662
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 26320,
+   "received": 26.662
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 25820,
+   "turnId": 0,
+   "received": 26.662
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 25820,
+   "turnId": 0,
+   "transcript": " A pre-authorized purchase of an Apple MacBook Pro and an Apple AirPods is being ordered from your Amazon account for an amount of $1,537.35 to cancel your order or to connect with one of our customer support representative please press 1 ",
+   "received": 26.662
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 34960,
+   "received": 35.237
+  }
+ ]
+}

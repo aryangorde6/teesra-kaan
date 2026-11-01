@@ -1,0 +1,232 @@
+{
+ "session_id": "voyager/duplex/67CA182A5C324202AB9EA8056BB34EF5",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 11.93675,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " The",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.823
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.308
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.836
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.261
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.729
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.936
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.062
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.513
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.628
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.827
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.028
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.253
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received",
+   "final": false,
+   "audioProcessedMs": 4000,
+   "received": 4.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received it.",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received it. please",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received it. please contact us",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.758
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received it. please contact us as",
+   "final": false,
+   "audioProcessedMs": 5680,
+   "received": 5.939
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received it. please contact us as soon",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 6.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received it. please contact us as soon as",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.267
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received it. please contact us as soon as possible.",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received it. please contact us as soon as possible. ",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.343
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12000,
+   "received": 12.343
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11500,
+   "turnId": 0,
+   "received": 12.343
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11500,
+   "turnId": 0,
+   "transcript": " The Chinese consulate reminds you that you have an important notice and have not received it. please contact us as soon as possible. ",
+   "received": 12.343
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 12000,
+   "received": 12.38
+  }
+ ]
+}

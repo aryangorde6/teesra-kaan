@@ -1,0 +1,411 @@
+{
+ "session_id": "voyager/duplex/02FFA838469A4245BE692409D6F321BE",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 24.638625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 540,
+   "turnId": 0,
+   "received": 1.317
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.854
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.935
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.024
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.672
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते.",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.534
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.429
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.839
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड",
+   "final": false,
+   "audioProcessedMs": 5840,
+   "received": 6.114
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड खात्याशी",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.756
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड खात्याशी लिंक",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.822
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड खात्याशी लिंक नाही.",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.347
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड खात्याशी लिंक नाही. हो का?",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.274
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड खात्याशी लिंक नाही. हो का? मला",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.664
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड खात्याशी लिंक नाही. हो का? मला माहित",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.028
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड खात्याशी लिंक नाही. हो का? मला माहित नव्हतं.",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.487
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड खात्याशी लिंक नाही. हो का? मला माहित नव्हतं. ",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.377
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10080,
+   "received": 10.377
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9580,
+   "turnId": 0,
+   "received": 10.377
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9580,
+   "turnId": 0,
+   "transcript": " नमस्कार, मी बैंक ऑफ महाराष्ट्रमधून बोलते. तुमचे पेन कार्ड खात्याशी लिंक नाही. हो का? मला माहित नव्हतं. ",
+   "received": 10.377
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 9980,
+   "turnId": 1,
+   "received": 10.765
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.765
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.18
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.245
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.033
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.844
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.136
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक",
+   "final": false,
+   "audioProcessedMs": 14400,
+   "received": 14.647
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल,",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.127
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.316
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक",
+   "final": false,
+   "audioProcessedMs": 16560,
+   "received": 16.82
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.435
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.927
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.307
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा.",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.505
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.741
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.241
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या कस्टमर",
+   "final": false,
+   "audioProcessedMs": 20880,
+   "received": 21.126
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या कस्टमर आयडी,",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.535
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या कस्टमर आयडी, पासवर्ड",
+   "final": false,
+   "audioProcessedMs": 22000,
+   "received": 22.241
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या कस्टमर आयडी, पासवर्ड आणि",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.713
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या कस्टमर आयडी, पासवर्ड आणि आलेला",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.231
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या कस्टमर आयडी, पासवर्ड आणि आलेला OTP",
+   "final": false,
+   "audioProcessedMs": 24000,
+   "received": 24.209
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या कस्टमर आयडी, पासवर्ड आणि आलेला OTP टाका.",
+   "final": false,
+   "audioProcessedMs": 24320,
+   "received": 24.631
+  },
+  {
+   "type": "transcript",
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या कस्टमर आयडी, पासवर्ड आणि आलेला OTP टाका. ",
+   "final": false,
+   "audioProcessedMs": 24640,
+   "received": 25.044
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 24640,
+   "received": 25.044
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 24140,
+   "turnId": 1,
+   "received": 25.044
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 24140,
+   "turnId": 1,
+   "transcript": " आज संध्याकाळपर्यंत लिंक केलं नाहीतर तुमचं खातं ब्लॉक होईल, मी तुम्हाला एक लिंक पाठवते त्यावर क्लिक करा. लिंकवर तुमच्या कस्टमर आयडी, पासवर्ड आणि आलेला OTP टाका. ",
+   "received": 25.044
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 24640,
+   "received": 25.089
+  }
+ ]
+}

@@ -1,0 +1,408 @@
+{
+ "session_id": "voyager/duplex/E779B6BF1B404841A5F071FC5EF5D899",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 19.750625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 0.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask,",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.228
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is",
+   "final": false,
+   "audioProcessedMs": 2080,
+   "received": 2.314
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita,",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.198
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.693
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.598
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.808
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office.",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.601
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.783
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.518
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall",
+   "final": false,
+   "audioProcessedMs": 9040,
+   "received": 9.278
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on",
+   "final": false,
+   "audioProcessedMs": 9280,
+   "received": 9.486
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday.",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.402
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring",
+   "final": false,
+   "audioProcessedMs": 11520,
+   "received": 11.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 11.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your ration",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.188
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your ration card",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your ration card and",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.88
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your ration card and Aadhaar",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.113
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your ration card and Aadhaar card.",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.818
+  },
+  {
+   "type": "transcript",
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your ration card and Aadhaar card. ",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.45
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14160,
+   "received": 14.45
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13660,
+   "turnId": 0,
+   "received": 14.45
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13660,
+   "turnId": 0,
+   "transcript": " May I ask, this is Sunita, the worker from the ward office. There's a free Ayushman Bharat card camp at the community hall on Saturday. Please bring your ration card and Aadhaar card. ",
+   "received": 14.45
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 13980,
+   "turnId": 1,
+   "received": 14.7
+  },
+  {
+   "type": "transcript",
+   "transcript": " Is",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.892
+  },
+  {
+   "type": "transcript",
+   "transcript": " Is there any",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " Is there any fee?",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.396
+  },
+  {
+   "type": "transcript",
+   "transcript": " Is there any fee? ",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.423
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 16160,
+   "received": 16.423
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15660,
+   "turnId": 1,
+   "received": 16.423
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15660,
+   "turnId": 1,
+   "transcript": " Is there any fee? ",
+   "received": 16.423
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15820,
+   "turnId": 2,
+   "received": 16.688
+  },
+  {
+   "type": "transcript",
+   "transcript": " No,",
+   "final": false,
+   "audioProcessedMs": 16320,
+   "received": 16.688
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, it's",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, it's completely",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.003
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, it's completely free.",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.69
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, it's completely free. Just",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.251
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, it's completely free. Just come",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.333
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, it's completely free. Just come between",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.646
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, it's completely free. Just come between 10",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.687
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, it's completely free. Just come between 10 and",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.89
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, it's completely free. Just come between 10 and 2. ",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 20.301
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19760,
+   "received": 20.301
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19260,
+   "turnId": 2,
+   "received": 20.301
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19260,
+   "turnId": 2,
+   "transcript": " No, it's completely free. Just come between 10 and 2. ",
+   "received": 20.301
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 19760,
+   "received": 20.301
+  }
+ ]
+}

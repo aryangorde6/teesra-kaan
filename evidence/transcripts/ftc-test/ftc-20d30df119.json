@@ -1,0 +1,695 @@
+{
+ "session_id": "voyager/duplex/05030F9255054A98999322EFEE6CD1DD",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 35.42,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 2940,
+   "turnId": 0,
+   "received": 3.733
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello.",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.241
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.841
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.937
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent",
+   "final": false,
+   "audioProcessedMs": 6160,
+   "received": 6.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot.",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.359
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.837
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.94
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.243
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call",
+   "final": false,
+   "audioProcessedMs": 8240,
+   "received": 8.53
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.629
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make",
+   "final": false,
+   "audioProcessedMs": 8800,
+   "received": 9.077
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.431
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.623
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.949
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.431
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.537
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.334
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.65
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.841
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.153
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take",
+   "final": false,
+   "audioProcessedMs": 12320,
+   "received": 12.647
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.053
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.135
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.735
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal",
+   "final": false,
+   "audioProcessedMs": 13600,
+   "received": 13.83
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal student",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.357
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal student loan",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.524
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal student loan repayment",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal student loan repayment options",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.943
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal student loan repayment options and",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal student loan repayment options and hardship",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.628
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal student loan repayment options and hardship programs.",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal student loan repayment options and hardship programs. ",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.706
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 17360,
+   "received": 17.706
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 16860,
+   "turnId": 0,
+   "received": 17.706
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 16860,
+   "turnId": 0,
+   "transcript": " Hello. I am an artificial intelligent notification bot. The purpose of this call is to make you aware that as a US resident you are now able to take advantage of alternative federal student loan repayment options and hardship programs. ",
+   "received": 17.706
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 16860,
+   "turnId": 1,
+   "received": 17.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " These",
+   "final": false,
+   "audioProcessedMs": 17360,
+   "received": 17.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.231
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.337
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.937
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.827
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 20.05
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have less",
+   "final": false,
+   "audioProcessedMs": 20000,
+   "received": 20.237
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have less than",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.747
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have less than $160,000",
+   "final": false,
+   "audioProcessedMs": 21840,
+   "received": 22.158
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have less than $160,000 in",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.529
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have less than $160,000 in federal",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.637
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have less than $160,000 in federal student",
+   "final": false,
+   "audioProcessedMs": 22800,
+   "received": 23.04
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have less than $160,000 in federal student loan",
+   "final": false,
+   "audioProcessedMs": 22960,
+   "received": 23.231
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have less than $160,000 in federal student loan debt.",
+   "final": false,
+   "audioProcessedMs": 23440,
+   "received": 23.742
+  },
+  {
+   "type": "transcript",
+   "transcript": " These programs are only for individuals who have less than $160,000 in federal student loan debt. ",
+   "final": false,
+   "audioProcessedMs": 23840,
+   "received": 24.2
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23840,
+   "received": 24.2
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23340,
+   "turnId": 1,
+   "received": 24.2
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23340,
+   "turnId": 1,
+   "transcript": " These programs are only for individuals who have less than $160,000 in federal student loan debt. ",
+   "received": 24.2
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 23340,
+   "turnId": 2,
+   "received": 24.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.738
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations",
+   "final": false,
+   "audioProcessedMs": 24960,
+   "received": 25.231
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.427
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause",
+   "final": false,
+   "audioProcessedMs": 25600,
+   "received": 25.837
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a",
+   "final": false,
+   "audioProcessedMs": 25920,
+   "received": 26.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship",
+   "final": false,
+   "audioProcessedMs": 26240,
+   "received": 26.537
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when",
+   "final": false,
+   "audioProcessedMs": 26480,
+   "received": 26.721
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added",
+   "final": false,
+   "audioProcessedMs": 26800,
+   "received": 27.031
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to",
+   "final": false,
+   "audioProcessedMs": 26960,
+   "received": 27.237
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall",
+   "final": false,
+   "audioProcessedMs": 27200,
+   "received": 27.441
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 28.035
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills.",
+   "final": false,
+   "audioProcessedMs": 28320,
+   "received": 28.653
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our",
+   "final": false,
+   "audioProcessedMs": 29120,
+   "received": 29.45
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated",
+   "final": false,
+   "audioProcessedMs": 29680,
+   "received": 29.928
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval",
+   "final": false,
+   "audioProcessedMs": 30160,
+   "received": 30.437
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology,",
+   "final": false,
+   "audioProcessedMs": 30560,
+   "received": 30.843
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you",
+   "final": false,
+   "audioProcessedMs": 31200,
+   "received": 31.442
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are",
+   "final": false,
+   "audioProcessedMs": 31360,
+   "received": 31.629
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now",
+   "final": false,
+   "audioProcessedMs": 31600,
+   "received": 31.87
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able",
+   "final": false,
+   "audioProcessedMs": 31760,
+   "received": 32.025
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to",
+   "final": false,
+   "audioProcessedMs": 32000,
+   "received": 32.233
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain",
+   "final": false,
+   "audioProcessedMs": 32480,
+   "received": 32.739
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain enrollment",
+   "final": false,
+   "audioProcessedMs": 33040,
+   "received": 33.325
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain enrollment information",
+   "final": false,
+   "audioProcessedMs": 33440,
+   "received": 33.735
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain enrollment information based",
+   "final": false,
+   "audioProcessedMs": 33920,
+   "received": 34.246
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain enrollment information based on",
+   "final": false,
+   "audioProcessedMs": 34080,
+   "received": 34.333
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain enrollment information based on your",
+   "final": false,
+   "audioProcessedMs": 34320,
+   "received": 34.643
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain enrollment information based on your current",
+   "final": false,
+   "audioProcessedMs": 34480,
+   "received": 34.733
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain enrollment information based on your current situation.",
+   "final": false,
+   "audioProcessedMs": 35360,
+   "received": 35.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain enrollment information based on your current situation. ",
+   "final": false,
+   "audioProcessedMs": 35440,
+   "received": 35.889
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 35440,
+   "received": 35.889
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 34940,
+   "turnId": 2,
+   "received": 35.889
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 34940,
+   "turnId": 2,
+   "transcript": " Having debt obligations may cause a hardship when added to your overall monthly bills. Using our automated approval technology, you are now able to obtain enrollment information based on your current situation. ",
+   "received": 35.889
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 35440,
+   "received": 35.907
+  }
+ ]
+}

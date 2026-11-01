@@ -1,0 +1,464 @@
+{
+ "session_id": "voyager/duplex/1D707A7ED10847BD9C3E8F2544ECBD48",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 30.278125,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.697
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.31
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from",
+   "final": false,
+   "audioProcessedMs": 1360,
+   "received": 1.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.091
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of",
+   "final": false,
+   "audioProcessedMs": 2000,
+   "received": 2.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.698
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration.",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 3.998
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.6
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you",
+   "final": false,
+   "audioProcessedMs": 4960,
+   "received": 5.19
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.218
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.514
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.017
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be",
+   "final": false,
+   "audioProcessedMs": 7920,
+   "received": 8.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.015
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.416
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.004
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.008
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we",
+   "final": false,
+   "audioProcessedMs": 11120,
+   "received": 11.422
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.447
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found some",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.703
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found some suspicious",
+   "final": false,
+   "audioProcessedMs": 11920,
+   "received": 12.212
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found some suspicious activities",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.829
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found some suspicious activities on",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.146
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found some suspicious activities on your",
+   "final": false,
+   "audioProcessedMs": 12960,
+   "received": 13.242
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found some suspicious activities on your social",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found some suspicious activities on your social security.",
+   "final": false,
+   "audioProcessedMs": 14080,
+   "received": 14.326
+  },
+  {
+   "type": "transcript",
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found some suspicious activities on your social security. ",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.952
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14640,
+   "received": 14.952
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14140,
+   "turnId": 0,
+   "received": 14.952
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14140,
+   "turnId": 0,
+   "transcript": " This call is from the Department of Social Security Administration. The reason you are receiving this phone call is to inform that we will be suspending your social security number because we found some suspicious activities on your social security. ",
+   "received": 14.952
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14220,
+   "turnId": 1,
+   "received": 14.998
+  },
+  {
+   "type": "transcript",
+   "transcript": " If",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.391
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.518
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more information",
+   "final": false,
+   "audioProcessedMs": 16080,
+   "received": 16.292
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more information about",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.688
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more information about this",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.887
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more information about this case,",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.297
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more information about this case, press",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 18.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more information about this case, press 1",
+   "final": false,
+   "audioProcessedMs": 18080,
+   "received": 18.312
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more information about this case, press 1 thank",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.197
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more information about this case, press 1 thank you",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you want more information about this case, press 1 thank you ",
+   "final": false,
+   "audioProcessedMs": 19760,
+   "received": 20.038
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19760,
+   "received": 20.038
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19260,
+   "turnId": 1,
+   "received": 20.038
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19260,
+   "turnId": 1,
+   "transcript": " If you want more information about this case, press 1 thank you ",
+   "received": 20.038
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 29580,
+   "turnId": 2,
+   "received": 30.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " Goodbye ",
+   "final": false,
+   "audioProcessedMs": 30320,
+   "received": 30.675
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 30320,
+   "received": 30.675
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 29820,
+   "turnId": 2,
+   "received": 30.675
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 29820,
+   "turnId": 2,
+   "transcript": " Goodbye ",
+   "received": 30.675
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 30320,
+   "received": 30.698
+  }
+ ]
+}

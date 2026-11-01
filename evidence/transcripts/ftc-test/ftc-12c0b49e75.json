@@ -1,0 +1,299 @@
+{
+ "session_id": "voyager/duplex/90CB0C35574149D8BFC98CA9854B9142",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 13.126875,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.725
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.331
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.841
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.521
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.639
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 3.016
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24",
+   "final": false,
+   "audioProcessedMs": 3520,
+   "received": 3.856
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours.",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.254
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.343
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.552
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.278
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.763
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such",
+   "final": false,
+   "audioProcessedMs": 6560,
+   "received": 6.86
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.532
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or",
+   "final": false,
+   "audioProcessedMs": 7360,
+   "received": 7.626
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.434
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly press",
+   "final": false,
+   "audioProcessedMs": 9680,
+   "received": 9.923
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly press 1",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.037
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly press 1 to",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly press 1 to speak",
+   "final": false,
+   "audioProcessedMs": 10480,
+   "received": 10.725
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly press 1 to speak Amazon",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.115
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly press 1 to speak Amazon customer",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly press 1 to speak Amazon customer service.",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.43
+  },
+  {
+   "type": "transcript",
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly press 1 to speak Amazon customer service. ",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.054
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12800,
+   "received": 13.054
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12300,
+   "turnId": 0,
+   "received": 13.054
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12300,
+   "turnId": 0,
+   "transcript": " card which will be dispatched in the next 24 hours. If you have not made any such purchases or transactions then kindly press 1 to speak Amazon customer service. ",
+   "received": 13.054
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12540,
+   "turnId": 1,
+   "received": 13.328
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.42
+  },
+  {
+   "type": "transcript",
+   "transcript": " Thank you ",
+   "final": false,
+   "audioProcessedMs": 13200,
+   "received": 13.586
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13200,
+   "received": 13.586
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12700,
+   "turnId": 1,
+   "received": 13.586
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12700,
+   "turnId": 1,
+   "transcript": " Thank you ",
+   "received": 13.586
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 13200,
+   "received": 13.604
+  }
+ ]
+}

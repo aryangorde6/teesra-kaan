@@ -1,0 +1,938 @@
+{
+ "session_id": "voyager/duplex/B9F2C349EF684C11908D5DDC56DE4F92",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 48.241375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 460,
+   "turnId": 0,
+   "received": 1.215
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello,",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.431
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am",
+   "final": false,
+   "audioProcessedMs": 1520,
+   "received": 1.796
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I",
+   "final": false,
+   "audioProcessedMs": 1600,
+   "received": 1.831
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.387
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with",
+   "final": false,
+   "audioProcessedMs": 2720,
+   "received": 2.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs.",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita",
+   "final": false,
+   "audioProcessedMs": 3920,
+   "received": 4.186
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai,",
+   "final": false,
+   "audioProcessedMs": 4400,
+   "received": 4.615
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this",
+   "final": false,
+   "audioProcessedMs": 5200,
+   "received": 5.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.784
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer",
+   "final": false,
+   "audioProcessedMs": 5760,
+   "received": 5.987
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer Arjun",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.886
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer Arjun Mehta",
+   "final": false,
+   "audioProcessedMs": 6720,
+   "received": 6.995
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer Arjun Mehta from the",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.286
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer Arjun Mehta from the Narcotics",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.282
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer Arjun Mehta from the Narcotics Control",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer Arjun Mehta from the Narcotics Control Bureau,",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.888
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer Arjun Mehta from the Narcotics Control Bureau, Mumbai.",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.399
+  },
+  {
+   "type": "transcript",
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer Arjun Mehta from the Narcotics Control Bureau, Mumbai. ",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.318
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 10080,
+   "received": 10.318
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 9580,
+   "turnId": 0,
+   "received": 10.318
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 9580,
+   "turnId": 0,
+   "transcript": " Hello, am I speaking with Mrs. Anita Desai, this is Officer Arjun Mehta from the Narcotics Control Bureau, Mumbai. ",
+   "received": 10.318
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 9740,
+   "turnId": 1,
+   "received": 10.489
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes,",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.597
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, what",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.875
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, what happened?",
+   "final": false,
+   "audioProcessedMs": 10880,
+   "received": 11.1
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, what happened? ",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.82
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 11600,
+   "received": 11.82
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 11100,
+   "turnId": 1,
+   "received": 11.82
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 11100,
+   "turnId": 1,
+   "transcript": " Yes, what happened? ",
+   "received": 11.82
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 11340,
+   "turnId": 2,
+   "received": 12.082
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam,",
+   "final": false,
+   "audioProcessedMs": 12240,
+   "received": 12.506
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.876
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 12.992
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.407
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.91
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.49
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.691
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under",
+   "final": false,
+   "audioProcessedMs": 14560,
+   "received": 14.786
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.275
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act.",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.624
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your",
+   "final": false,
+   "audioProcessedMs": 17040,
+   "received": 17.311
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 17.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.943
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in",
+   "final": false,
+   "audioProcessedMs": 18880,
+   "received": 19.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.203
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international",
+   "final": false,
+   "audioProcessedMs": 19600,
+   "received": 19.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket.",
+   "final": false,
+   "audioProcessedMs": 20560,
+   "received": 20.791
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are",
+   "final": false,
+   "audioProcessedMs": 21440,
+   "received": 21.687
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under",
+   "final": false,
+   "audioProcessedMs": 21680,
+   "received": 21.888
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under digital",
+   "final": false,
+   "audioProcessedMs": 22720,
+   "received": 22.99
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under digital arrest",
+   "final": false,
+   "audioProcessedMs": 22880,
+   "received": 23.093
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under digital arrest until",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.415
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under digital arrest until the",
+   "final": false,
+   "audioProcessedMs": 23680,
+   "received": 23.882
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under digital arrest until the investigation",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.589
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under digital arrest until the investigation is",
+   "final": false,
+   "audioProcessedMs": 24480,
+   "received": 24.678
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under digital arrest until the investigation is complete.",
+   "final": false,
+   "audioProcessedMs": 25360,
+   "received": 25.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under digital arrest until the investigation is complete. ",
+   "final": false,
+   "audioProcessedMs": 25680,
+   "received": 25.947
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 25680,
+   "received": 25.947
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 25180,
+   "turnId": 2,
+   "received": 25.947
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 25180,
+   "turnId": 2,
+   "transcript": " Madam, a case has been registered against you under the NDPS Act. Your phone number was used in an international drug racket. You are under digital arrest until the investigation is complete. ",
+   "received": 25.947
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 25180,
+   "turnId": 3,
+   "received": 25.947
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.385
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype",
+   "final": false,
+   "audioProcessedMs": 26480,
+   "received": 26.702
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call",
+   "final": false,
+   "audioProcessedMs": 27120,
+   "received": 27.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do",
+   "final": false,
+   "audioProcessedMs": 27280,
+   "received": 27.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not",
+   "final": false,
+   "audioProcessedMs": 27680,
+   "received": 27.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect.",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.701
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This",
+   "final": false,
+   "audioProcessedMs": 29360,
+   "received": 29.575
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is",
+   "final": false,
+   "audioProcessedMs": 29520,
+   "received": 29.783
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a",
+   "final": false,
+   "audioProcessedMs": 29680,
+   "received": 29.883
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter",
+   "final": false,
+   "audioProcessedMs": 30000,
+   "received": 30.2
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.281
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national",
+   "final": false,
+   "audioProcessedMs": 31040,
+   "received": 31.283
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security.",
+   "final": false,
+   "audioProcessedMs": 31520,
+   "received": 31.813
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot",
+   "final": false,
+   "audioProcessedMs": 32320,
+   "received": 32.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot discuss",
+   "final": false,
+   "audioProcessedMs": 32800,
+   "received": 32.981
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot discuss it with",
+   "final": false,
+   "audioProcessedMs": 33120,
+   "received": 33.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot discuss it with anyone",
+   "final": false,
+   "audioProcessedMs": 33840,
+   "received": 34.072
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot discuss it with anyone not",
+   "final": false,
+   "audioProcessedMs": 34160,
+   "received": 34.385
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot discuss it with anyone not even",
+   "final": false,
+   "audioProcessedMs": 34400,
+   "received": 34.587
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot discuss it with anyone not even your",
+   "final": false,
+   "audioProcessedMs": 34560,
+   "received": 34.783
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot discuss it with anyone not even your husband.",
+   "final": false,
+   "audioProcessedMs": 35120,
+   "received": 35.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot discuss it with anyone not even your husband. ",
+   "final": false,
+   "audioProcessedMs": 35920,
+   "received": 36.225
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 35920,
+   "received": 36.225
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 35420,
+   "turnId": 3,
+   "received": 36.225
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 35420,
+   "turnId": 3,
+   "transcript": " Join this Skype call and do not disconnect. This is a matter of national security. You cannot discuss it with anyone not even your husband. ",
+   "received": 36.225
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 35660,
+   "turnId": 4,
+   "received": 36.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " Am",
+   "final": false,
+   "audioProcessedMs": 36160,
+   "received": 36.403
+  },
+  {
+   "type": "transcript",
+   "transcript": " Am I",
+   "final": false,
+   "audioProcessedMs": 36240,
+   "received": 36.47
+  },
+  {
+   "type": "transcript",
+   "transcript": " Am I going",
+   "final": false,
+   "audioProcessedMs": 36480,
+   "received": 36.682
+  },
+  {
+   "type": "transcript",
+   "transcript": " Am I going to",
+   "final": false,
+   "audioProcessedMs": 36640,
+   "received": 36.905
+  },
+  {
+   "type": "transcript",
+   "transcript": " Am I going to jail?",
+   "final": false,
+   "audioProcessedMs": 37520,
+   "received": 37.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " Am I going to jail? ",
+   "final": false,
+   "audioProcessedMs": 37840,
+   "received": 38.127
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 37840,
+   "received": 38.127
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 37340,
+   "turnId": 4,
+   "received": 38.127
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 37340,
+   "turnId": 4,
+   "transcript": " Am I going to jail? ",
+   "received": 38.127
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 37500,
+   "turnId": 5,
+   "received": 38.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you",
+   "final": false,
+   "audioProcessedMs": 38240,
+   "received": 38.488
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate",
+   "final": false,
+   "audioProcessedMs": 39040,
+   "received": 39.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no",
+   "final": false,
+   "audioProcessedMs": 39360,
+   "received": 39.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the",
+   "final": false,
+   "audioProcessedMs": 40480,
+   "received": 40.681
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge",
+   "final": false,
+   "audioProcessedMs": 40720,
+   "received": 40.997
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has",
+   "final": false,
+   "audioProcessedMs": 40960,
+   "received": 41.175
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that",
+   "final": false,
+   "audioProcessedMs": 41520,
+   "received": 41.811
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your",
+   "final": false,
+   "audioProcessedMs": 41600,
+   "received": 41.835
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds",
+   "final": false,
+   "audioProcessedMs": 42000,
+   "received": 42.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be",
+   "final": false,
+   "audioProcessedMs": 42240,
+   "received": 42.488
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified",
+   "final": false,
+   "audioProcessedMs": 43280,
+   "received": 43.49
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will",
+   "final": false,
+   "audioProcessedMs": 43680,
+   "received": 43.895
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer",
+   "final": false,
+   "audioProcessedMs": 44560,
+   "received": 44.787
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your",
+   "final": false,
+   "audioProcessedMs": 44720,
+   "received": 44.973
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed",
+   "final": false,
+   "audioProcessedMs": 44880,
+   "received": 45.075
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed deposit",
+   "final": false,
+   "audioProcessedMs": 45920,
+   "received": 46.181
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed deposit to",
+   "final": false,
+   "audioProcessedMs": 46080,
+   "received": 46.273
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed deposit to the",
+   "final": false,
+   "audioProcessedMs": 46240,
+   "received": 46.475
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed deposit to the government",
+   "final": false,
+   "audioProcessedMs": 46320,
+   "received": 46.581
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed deposit to the government verification",
+   "final": false,
+   "audioProcessedMs": 46960,
+   "received": 47.19
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed deposit to the government verification account",
+   "final": false,
+   "audioProcessedMs": 47280,
+   "received": 47.483
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed deposit to the government verification account today",
+   "final": false,
+   "audioProcessedMs": 47760,
+   "received": 48.001
+  },
+  {
+   "type": "transcript",
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed deposit to the government verification account today ",
+   "final": false,
+   "audioProcessedMs": 48320,
+   "received": 48.64
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 48320,
+   "received": 48.64
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 47820,
+   "turnId": 5,
+   "received": 48.64
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 47820,
+   "turnId": 5,
+   "transcript": " If you cooperate no the judge has ordered that your funds be verified you will transfer your fixed deposit to the government verification account today ",
+   "received": 48.64
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 48320,
+   "received": 48.703
+  }
+ ]
+}

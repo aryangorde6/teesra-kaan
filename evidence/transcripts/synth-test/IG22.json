@@ -1,0 +1,527 @@
+{
+ "session_id": "voyager/duplex/7B33130A1E8747C19D72D065FB16332C",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 23.804,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 220,
+   "turnId": 0,
+   "received": 1.047
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.729
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning.",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.26
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.671
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.749
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.045
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.35
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.064
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch.",
+   "final": false,
+   "audioProcessedMs": 4080,
+   "received": 4.353
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your",
+   "final": false,
+   "audioProcessedMs": 5120,
+   "received": 5.433
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.554
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.731
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.486
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC",
+   "final": false,
+   "audioProcessedMs": 7200,
+   "received": 7.51
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.825
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is",
+   "final": false,
+   "audioProcessedMs": 7760,
+   "received": 8.036
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due.",
+   "final": false,
+   "audioProcessedMs": 8000,
+   "received": 8.238
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.14
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the",
+   "final": false,
+   "audioProcessedMs": 9520,
+   "received": 9.839
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.136
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.439
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your PAN",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.33
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your PAN and",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.449
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your PAN and Aadhaar",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.542
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your PAN and Aadhaar before the",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.969
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your PAN and Aadhaar before the end of",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.173
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your PAN and Aadhaar before the end of the",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.173
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your PAN and Aadhaar before the end of the month.",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.583
+  },
+  {
+   "type": "transcript",
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your PAN and Aadhaar before the end of the month. ",
+   "final": false,
+   "audioProcessedMs": 13760,
+   "received": 14.197
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 13760,
+   "received": 14.197
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13260,
+   "turnId": 0,
+   "received": 14.197
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13260,
+   "turnId": 0,
+   "transcript": " Good morning. I'm calling from your bank's Dadar branch. Your account's periodic KYC KYC update is due. Please visit the branch with your PAN and Aadhaar before the end of the month. ",
+   "received": 14.197
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 13500,
+   "turnId": 1,
+   "received": 14.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.401
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can I",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can I do",
+   "final": false,
+   "audioProcessedMs": 14480,
+   "received": 14.764
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can I do it",
+   "final": false,
+   "audioProcessedMs": 14640,
+   "received": 14.961
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can I do it online?",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.645
+  },
+  {
+   "type": "transcript",
+   "transcript": " Can I do it online? ",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.245
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 15840,
+   "received": 16.245
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15340,
+   "turnId": 1,
+   "received": 16.245
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15340,
+   "turnId": 1,
+   "transcript": " Can I do it online? ",
+   "received": 16.245
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 15500,
+   "turnId": 2,
+   "received": 16.269
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes,",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.45
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.063
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.269
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also",
+   "final": false,
+   "audioProcessedMs": 17120,
+   "received": 17.473
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.473
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through",
+   "final": false,
+   "audioProcessedMs": 17680,
+   "received": 18.01
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.229
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's",
+   "final": false,
+   "audioProcessedMs": 18240,
+   "received": 18.55
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 19.052
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app.",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.667
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't",
+   "final": false,
+   "audioProcessedMs": 20240,
+   "received": 20.551
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.046
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your",
+   "final": false,
+   "audioProcessedMs": 20800,
+   "received": 21.074
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details",
+   "final": false,
+   "audioProcessedMs": 21200,
+   "received": 21.444
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details with",
+   "final": false,
+   "audioProcessedMs": 21760,
+   "received": 22.035
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details with anyone",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.55
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details with anyone who",
+   "final": false,
+   "audioProcessedMs": 22400,
+   "received": 22.676
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details with anyone who calls",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.745
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details with anyone who calls asking",
+   "final": false,
+   "audioProcessedMs": 23040,
+   "received": 23.334
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details with anyone who calls asking for",
+   "final": false,
+   "audioProcessedMs": 23120,
+   "received": 23.44
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details with anyone who calls asking for them.",
+   "final": false,
+   "audioProcessedMs": 23520,
+   "received": 23.837
+  },
+  {
+   "type": "transcript",
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details with anyone who calls asking for them. ",
+   "final": false,
+   "audioProcessedMs": 23840,
+   "received": 24.274
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23840,
+   "received": 24.274
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 23340,
+   "turnId": 2,
+   "received": 24.274
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 23340,
+   "turnId": 2,
+   "transcript": " Yes, you can also do it through the bank's official app. Please don't share your details with anyone who calls asking for them. ",
+   "received": 24.274
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 23840,
+   "received": 24.31
+  }
+ ]
+}

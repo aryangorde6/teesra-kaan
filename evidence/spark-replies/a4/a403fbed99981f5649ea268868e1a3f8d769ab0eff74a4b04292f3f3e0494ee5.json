@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"you have received this phone call from our department\"}, {\"id\": \"A2\", \"quote\": \"there's a legal enforcement actions filed on your name for fraudulent activities.\"}, {\"id\": \"A10\", \"quote\": \"kindly press 1 to discuss with available officer.\"}]}", "input_tokens": 967, "output_tokens": 662, "latency": 2.495}

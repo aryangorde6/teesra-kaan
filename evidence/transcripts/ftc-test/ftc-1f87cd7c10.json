@@ -1,0 +1,481 @@
+{
+ "session_id": "voyager/duplex/371A760E6E7544EAA1EBE18AC195A86E",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 20.666625,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.719
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave",
+   "final": false,
+   "audioProcessedMs": 720,
+   "received": 1.027
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.327
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside.",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.131
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.617
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we",
+   "final": false,
+   "audioProcessedMs": 2560,
+   "received": 2.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can",
+   "final": false,
+   "audioProcessedMs": 2800,
+   "received": 3.022
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.516
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about",
+   "final": false,
+   "audioProcessedMs": 3760,
+   "received": 4.011
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.418
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and",
+   "final": false,
+   "audioProcessedMs": 4640,
+   "received": 4.926
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.326
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.818
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action",
+   "final": false,
+   "audioProcessedMs": 6000,
+   "received": 6.227
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.622
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter.",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.221
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.824
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 7.919
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.319
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal",
+   "final": false,
+   "audioProcessedMs": 8960,
+   "received": 9.218
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1",
+   "final": false,
+   "audioProcessedMs": 10080,
+   "received": 10.321
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.548
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be",
+   "final": false,
+   "audioProcessedMs": 10400,
+   "received": 10.624
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to",
+   "final": false,
+   "audioProcessedMs": 11200,
+   "received": 11.433
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the",
+   "final": false,
+   "audioProcessedMs": 11280,
+   "received": 11.515
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned",
+   "final": false,
+   "audioProcessedMs": 12080,
+   "received": 12.324
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department.",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.945
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If",
+   "final": false,
+   "audioProcessedMs": 12800,
+   "received": 13.028
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.717
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't",
+   "final": false,
+   "audioProcessedMs": 13520,
+   "received": 13.822
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear",
+   "final": false,
+   "audioProcessedMs": 13680,
+   "received": 13.922
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from",
+   "final": false,
+   "audioProcessedMs": 14000,
+   "received": 14.218
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.618
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we",
+   "final": false,
+   "audioProcessedMs": 14880,
+   "received": 15.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.516
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will be",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will be forced",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.114
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will be forced to",
+   "final": false,
+   "audioProcessedMs": 16160,
+   "received": 16.409
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will be forced to take legal",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.726
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will be forced to take legal action",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 17.021
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will be forced to take legal action against",
+   "final": false,
+   "audioProcessedMs": 17200,
+   "received": 17.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will be forced to take legal action against you.",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will be forced to take legal action against you. ",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.298
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 18000,
+   "received": 18.298
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17500,
+   "turnId": 0,
+   "received": 18.298
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17500,
+   "turnId": 0,
+   "transcript": " Leave your work aside. so that we can discuss about your case and take necessary action on this matter. In order to connect federal agent press 1 and you will be connected to the concerned department. If we don't hear from you then we will be forced to take legal action against you. ",
+   "received": 18.298
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 17500,
+   "turnId": 1,
+   "received": 18.298
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.298
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press 1",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.623
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press 1 and",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.925
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press 1 and you",
+   "final": false,
+   "audioProcessedMs": 18800,
+   "received": 19.016
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press 1 and you will be",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press 1 and you will be connected",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 19.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press 1 and you will be connected to the",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.321
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press 1 and you will be connected to the concerned",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.627
+  },
+  {
+   "type": "transcript",
+   "transcript": " Press 1 and you will be connected to the concerned department ",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 21.102
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 20720,
+   "received": 21.102
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 20220,
+   "turnId": 1,
+   "received": 21.102
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 20220,
+   "turnId": 1,
+   "transcript": " Press 1 and you will be connected to the concerned department ",
+   "received": 21.102
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 20720,
+   "received": 21.117
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"text": "{\"yes\": [{\"id\": \"A1\", \"quote\": \"hello. This is Amazon.\"}, {\"id\": \"A2\", \"quote\": \"there is an order placed for Apple iPhone 11 Pro using your Amazon account.\"}]}", "input_tokens": 980, "output_tokens": 358, "latency": 1.436}

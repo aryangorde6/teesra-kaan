@@ -41,12 +41,12 @@ When the caller says it, the line is ticked: *"The caller just said it: “kisi 
 | 3. Check | — | Every quote is matched against what the caller actually said; a quote that isn't there is thrown away, so a made-up reason can't raise an alarm |
 | 4. Decide | **Muse Spark 1.3**, as a check | Fixed rules: a warning needs Spark's overall view of the call (asked in a parallel call) to say "scam" *and* at least one warning sign quoted in the caller's own words. If one is an ask for money, an OTP or PIN, an app or a link, it's red. Spark's view alone never warns, and neither do the signs alone, so a real bank's fraud alert stays quiet |
 | 5. Predict | — | The signs so far are matched against the ten scam scripts; when they agree on the next step, the page shows the caller's next line, and ticks it when it's said |
-| 6. Report | — | At hang-up: the caller's claims with quotes and times, every amount, number and UPI ID mentioned, and what to do next |
+| 6. Report | — | At hang-up: the caller's claims with quotes and times; the rupee amounts, Indian phone and account numbers, UPI IDs, emails, links and apps he mentioned; and what to do next |
 
 The questions, rules and the scam patterns they come from (with official sources) are in [docs/scam-tactics.md](docs/scam-tactics.md).
 
 ## Does it work?
-The test was fixed before any result existed ([docs/evaluation-rule.md](docs/evaluation-rule.md)). It was run once, on Nov 1, 2026 (12:02–12:29 IST), on the commit tagged `eval-freeze`. These are its numbers exactly as `teesrakaan table` printed them, with 95% intervals. The full tables are in the [dev-log](docs/dev-log.md), Nov 1.
+The test was fixed before any result existed ([docs/evaluation-rule.md](docs/evaluation-rule.md)). It was run once, on Nov 1, 2026 (12:02–12:29 IST), on the commit tagged `eval-freeze`. These are its numbers exactly as `teesrakaan table` printed them, with 95% intervals. The full tables are in the [dev-log](docs/dev-log.md), Nov 1. Every transcript, Muse Spark reply and call outcome the run saved is in [evidence/](evidence/): `.venv/bin/python eval/replay_frozen.py` replays the run offline, with no key, and checks every table against it.
 
 Compared on the same calls: **A** keyword lists + the same rules, **B** Muse Spark asked "is this a scam?", **C** Teesra Kaan.
 
@@ -68,7 +68,7 @@ What this shows, and what it doesn't:
 - **Keywords alone break when the words change.** With every keyword removed, A warned on none of the 9 rewritten calls, and C warned on all 9. Not one keyword came back in their transcripts.
 - **On warning at all, Spark alone did as well as C** on these sets. What C adds is a quote in the caller's own words for every warning, red only at the ask, and the next line.
 - **The Indian test calls are synthetic voices, not people.** The re-enactments by people, the speakerphone re-recordings and the ablations that need them (without the language hint or keyword biasing) aren't recorded yet, so they aren't here. Without speaker separation, C scored the same on FTC: 131/132 warned, 0/132 red.
-- **One call so far has real voices, outside the test.** On Nov 1, after the test run, we re-enacted the English digital-arrest demo script on an ordinary phone call (one of us the caller, a family member the person called), recorded by the phone. Muse Voice Transcribe heard the recording at real-time speed, nearly word for word and with the two voices kept apart, and Muse Spark and the frozen rules judged it. **Amber at 0:17**, 17 s after the first false claim, with the next line "Come on a video call.", which he said at 0:38; **red at 0:40** with "Transfer the money for verification.", **5 s before he asked for the money** (0:45). It's the live run in the video. One call, read by the people who wrote the script, is an example, not a measurement.
+- **One call so far has real voices, outside the test.** On Nov 1, after the test run, we re-enacted the English digital-arrest demo script on an ordinary phone call (one of us the caller, a family member the person called), recorded by the phone. Muse Voice Transcribe heard the recording at real-time speed, nearly word for word and with the two voices kept apart, and Muse Spark and the frozen rules judged it. **Amber at 0:17**, 17 s after the first false claim, with the next line "Come on a video call.", which he said at 0:38; **red at 0:40** with "Transfer the money for verification.", **5 s before he asked for the money** (0:45). It's the call that opens the video. One call, read by the people who wrote the script, is an example, not a measurement.
 
 | Set | What it is |
 |---|---|
@@ -114,13 +114,13 @@ uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -e '.[we
 .venv/bin/teesrakaan serve            # open http://127.0.0.1:8000 and play a demo call
 .venv/bin/python -m pytest            # 100+ tests, no network, no key
 ```
-Live listening and the Meta-model runs need `MODEL_API_KEY` in `.env` and `TEESRAKAAN_ALLOW_PAID=1`; every paid call goes through a ledger that stops at $100 of the $150 credits, and is refused unless Meta's own meter, read from the Billing page, agrees ([docs/spending.md](docs/spending.md)). The full sequence is in [docs/runbook.md](docs/runbook.md).
+Live listening and the Meta-model runs need `MODEL_API_KEY` in `.env` and `TEESRAKAAN_ALLOW_PAID=1`; every paid call goes through a ledger that stops at $100 of the $150 credits, and is refused unless Meta's own meter, read from the Billing page, agrees ([docs/spending.md](docs/spending.md)). Paid calls also end at Nov 5, 2026, 00:00 IST, before our hackathon credits' window closes; to run it with your own key after that, change `PAID_UNTIL` in `src/teesrakaan/budget.py`. The full sequence is in [docs/runbook.md](docs/runbook.md).
 
 The demo calls in `examples/calls/` are written scripts, not real calls; every name, number and ID in them is made up. Without a key, the page plays them with Muse Spark's saved replies from `examples/spark-replies/` (made with `teesrakaan demo-replies`), so the hosted demo shows the real model at no cost.
 
 ## Limits (honest)
 - The Indian test calls so far are synthetic voices reading scripts written from advisories; the FTC calls are real but American and in English. One call has been re-enacted by people on a real phone line, outside the test ("Does it work?"). No real Indian call has been donated: none of the 10 people we asked had a recording. Each set is reported separately, with 95% intervals, and the sets are small: 18 synthetic scam calls give a range of 82–100% for 18 of 18.
-- Speaker separation labels voices "A" and "B"; the caller is taken to be whoever has said the most so far, which can be wrong in the first seconds.
+- Speaker separation labels voices "A" and "B"; the caller is taken to be whoever has said the most so far, which can be wrong in the first seconds. If it changes its mind, the signs already found stay counted, even ones the other voice said.
 - **Elders need it explained once.** The five elders who used it understood the warnings after a little explanation, not before, so someone in the family should set it up with them the first time.
 - Live listening needs a second device near the call on speaker, because a phone on a call keeps its own microphone. It doesn't intercept calls. On one phone it can only check a call afterwards, from what you type.
 - A warning is advice, not a verdict. The genuine-call set measures how often it warns when it shouldn't.
@@ -141,6 +141,7 @@ The demo calls in `examples/calls/` are written scripts, not real calls; every n
 | `src/teesrakaan/simulate.py`, `metrics.py`, `labels.py` | Replays calls with real delays; Wilson 95% intervals; the labelling sheet and fixed splits |
 | `src/teesrakaan/report.py`, `messages.py` | The 1930 report and the warnings, in English, Hindi and Marathi |
 | `eval/` | Re-enactment scripts, their split, FTC dev labels |
+| `evidence/` | The frozen test run's transcripts, Muse Spark replies and per-call results; `eval/replay_frozen.py` replays it offline |
 | `deploy/` | The server setup for the live page |
 
 ## Licence

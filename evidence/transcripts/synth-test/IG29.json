@@ -1,0 +1,327 @@
+{
+ "session_id": "voyager/duplex/004C2C93B2E14F849FA8FDBB8E5CABAD",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 19.665375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 300,
+   "turnId": 0,
+   "received": 1.032
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार,",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.036
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.238
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.228
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून",
+   "final": false,
+   "audioProcessedMs": 3600,
+   "received": 3.866
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय.",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.554
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.589
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात",
+   "final": false,
+   "audioProcessedMs": 5520,
+   "received": 5.948
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची",
+   "final": false,
+   "audioProcessedMs": 6400,
+   "received": 6.821
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन",
+   "final": false,
+   "audioProcessedMs": 6880,
+   "received": 7.23
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर",
+   "final": false,
+   "audioProcessedMs": 7680,
+   "received": 8.049
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा",
+   "final": false,
+   "audioProcessedMs": 8160,
+   "received": 8.426
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.651
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली",
+   "final": false,
+   "audioProcessedMs": 8560,
+   "received": 8.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे.",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.038
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे. पहिला",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.893
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे. पहिला महिना",
+   "final": false,
+   "audioProcessedMs": 10000,
+   "received": 10.302
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे. पहिला महिना मोफत.",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.711
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे. पहिला महिना मोफत. किती",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.942
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे. पहिला महिना मोफत. किती खर्च",
+   "final": false,
+   "audioProcessedMs": 11840,
+   "received": 12.113
+  },
+  {
+   "type": "transcript",
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे. पहिला महिना मोफत. किती खर्च येईल? ",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.926
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 12560,
+   "received": 12.926
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 12060,
+   "turnId": 0,
+   "received": 12.927
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 12060,
+   "turnId": 0,
+   "transcript": " नमस्कार, मी इंटरनेट कंपनीकडून बोलतोय. तुमच्या भागात आमची नवीन फायबर सेवा सुरू झाली आहे. पहिला महिना मोफत. किती खर्च येईल? ",
+   "received": 12.927
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 12540,
+   "turnId": 1,
+   "received": 13.362
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.735
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे",
+   "final": false,
+   "audioProcessedMs": 14240,
+   "received": 14.548
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव",
+   "final": false,
+   "audioProcessedMs": 15280,
+   "received": 15.546
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव रुपये,",
+   "final": false,
+   "audioProcessedMs": 15520,
+   "received": 15.824
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव रुपये, आवरलंतर",
+   "final": false,
+   "audioProcessedMs": 16720,
+   "received": 17.039
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव रुपये, आवरलंतर आमच्या",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.235
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव रुपये, आवरलंतर आमच्या माणूस",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.262
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव रुपये, आवरलंतर आमच्या माणूस घरी",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.298
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव रुपये, आवरलंतर आमच्या माणूस घरी येऊन",
+   "final": false,
+   "audioProcessedMs": 18640,
+   "received": 18.951
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव रुपये, आवरलंतर आमच्या माणूस घरी येऊन माहिती",
+   "final": false,
+   "audioProcessedMs": 18960,
+   "received": 19.234
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव रुपये, आवरलंतर आमच्या माणूस घरी येऊन माहिती देईल.",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.658
+  },
+  {
+   "type": "transcript",
+   "transcript": " महिना पाचशे निन्यान्नव रुपये, आवरलंतर आमच्या माणूस घरी येऊन माहिती देईल. ",
+   "final": false,
+   "audioProcessedMs": 19680,
+   "received": 20.078
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19680,
+   "received": 20.078
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 19180,
+   "turnId": 1,
+   "received": 20.078
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 19180,
+   "turnId": 1,
+   "transcript": " महिना पाचशे निन्यान्नव रुपये, आवरलंतर आमच्या माणूस घरी येऊन माहिती देईल. ",
+   "received": 20.078
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 19680,
+   "received": 20.1
+  }
+ ]
+}

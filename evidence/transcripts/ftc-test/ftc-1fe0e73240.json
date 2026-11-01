@@ -1,0 +1,372 @@
+{
+ "session_id": "voyager/duplex/4B7D3E3A12ED4A5390A48FD2E41F4132",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 19.07175,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 0,
+   "turnId": 0,
+   "received": 0.729
+  },
+  {
+   "type": "transcript",
+   "transcript": " The",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.832
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.435
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of",
+   "final": false,
+   "audioProcessedMs": 1280,
+   "received": 1.53
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.739
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.262
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you",
+   "final": false,
+   "audioProcessedMs": 2480,
+   "received": 2.739
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about",
+   "final": false,
+   "audioProcessedMs": 2960,
+   "received": 3.24
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a",
+   "final": false,
+   "audioProcessedMs": 3040,
+   "received": 3.336
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package",
+   "final": false,
+   "audioProcessedMs": 3280,
+   "received": 3.545
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been",
+   "final": false,
+   "audioProcessedMs": 3680,
+   "received": 3.945
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.433
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.035
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 5.085
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.549
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.634
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs",
+   "final": false,
+   "audioProcessedMs": 6080,
+   "received": 6.337
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and",
+   "final": false,
+   "audioProcessedMs": 6480,
+   "received": 6.724
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.925
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection.",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.543
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.935
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of",
+   "final": false,
+   "audioProcessedMs": 9200,
+   "received": 9.461
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.141
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and",
+   "final": false,
+   "audioProcessedMs": 10240,
+   "received": 10.542
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash.",
+   "final": false,
+   "audioProcessedMs": 10640,
+   "received": 10.956
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.962
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment",
+   "final": false,
+   "audioProcessedMs": 12000,
+   "received": 12.254
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you",
+   "final": false,
+   "audioProcessedMs": 12480,
+   "received": 12.741
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive",
+   "final": false,
+   "audioProcessedMs": 12640,
+   "received": 12.942
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.44
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message",
+   "final": false,
+   "audioProcessedMs": 13840,
+   "received": 14.146
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.434
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.043
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.392
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to talk",
+   "final": false,
+   "audioProcessedMs": 15600,
+   "received": 15.847
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to talk to our",
+   "final": false,
+   "audioProcessedMs": 15680,
+   "received": 15.953
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to talk to our investigation",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.134
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to talk to our investigation officer",
+   "final": false,
+   "audioProcessedMs": 17520,
+   "received": 17.838
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to talk to our investigation officer to",
+   "final": false,
+   "audioProcessedMs": 17920,
+   "received": 18.235
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to talk to our investigation officer to avoid",
+   "final": false,
+   "audioProcessedMs": 18400,
+   "received": 18.641
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to talk to our investigation officer to avoid legal",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.725
+  },
+  {
+   "type": "transcript",
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to talk to our investigation officer to avoid legal consequences ",
+   "final": false,
+   "audioProcessedMs": 19120,
+   "received": 19.5
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 19120,
+   "received": 19.5
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 18620,
+   "turnId": 0,
+   "received": 19.5
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 18620,
+   "turnId": 0,
+   "transcript": " The reason of this call is to inform you about a package has been seized under under your name by US customs and border protection. With contraband of drugs and cash. So the moment you receive this message please press 1 to talk to our investigation officer to avoid legal consequences ",
+   "received": 19.5
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 19120,
+   "received": 19.511
+  }
+ ]
+}

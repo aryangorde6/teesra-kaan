@@ -1,0 +1,545 @@
+{
+ "session_id": "voyager/duplex/587F627EB8DC4F7BA83BCAB0DA7F7FC3",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 27.284,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 380,
+   "turnId": 0,
+   "received": 1.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your",
+   "final": false,
+   "audioProcessedMs": 1200,
+   "received": 1.388
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx",
+   "final": false,
+   "audioProcessedMs": 1920,
+   "received": 2.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment",
+   "final": false,
+   "audioProcessedMs": 2160,
+   "received": 2.383
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has",
+   "final": false,
+   "audioProcessedMs": 2320,
+   "received": 2.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been",
+   "final": false,
+   "audioProcessedMs": 2640,
+   "received": 2.885
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled.",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.388
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press",
+   "final": false,
+   "audioProcessedMs": 4320,
+   "received": 4.594
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one",
+   "final": false,
+   "audioProcessedMs": 4560,
+   "received": 4.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for",
+   "final": false,
+   "audioProcessedMs": 4800,
+   "received": 4.992
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details.",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.487
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi,",
+   "final": false,
+   "audioProcessedMs": 6320,
+   "received": 6.608
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx",
+   "final": false,
+   "audioProcessedMs": 7120,
+   "received": 7.414
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring.",
+   "final": false,
+   "audioProcessedMs": 8080,
+   "received": 8.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A",
+   "final": false,
+   "audioProcessedMs": 8640,
+   "received": 8.886
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name",
+   "final": false,
+   "audioProcessedMs": 9120,
+   "received": 9.418
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name to",
+   "final": false,
+   "audioProcessedMs": 9600,
+   "received": 9.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name to Cambodia had",
+   "final": false,
+   "audioProcessedMs": 10320,
+   "received": 10.588
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name to Cambodia had four",
+   "final": false,
+   "audioProcessedMs": 11040,
+   "received": 11.288
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name to Cambodia had four kg of",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.704
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name to Cambodia had four kg of illegal",
+   "final": false,
+   "audioProcessedMs": 11680,
+   "received": 11.904
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name to Cambodia had four kg of illegal drugs and",
+   "final": false,
+   "audioProcessedMs": 12720,
+   "received": 13.013
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name to Cambodia had four kg of illegal drugs and seven fake",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name to Cambodia had four kg of illegal drugs and seven fake passports. ",
+   "final": false,
+   "audioProcessedMs": 14320,
+   "received": 14.654
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 14320,
+   "received": 14.654
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 13820,
+   "turnId": 0,
+   "received": 14.654
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 13820,
+   "turnId": 0,
+   "transcript": " Your FedEx consignment has been cancelled. Press one for details. Hi, FedEx Anchoring. A package in your name to Cambodia had four kg of illegal drugs and seven fake passports. ",
+   "received": 14.654
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14060,
+   "turnId": 1,
+   "received": 14.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " Customs",
+   "final": false,
+   "audioProcessedMs": 14960,
+   "received": 15.184
+  },
+  {
+   "type": "transcript",
+   "transcript": " Customs has",
+   "final": false,
+   "audioProcessedMs": 15200,
+   "received": 15.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " Customs has seized",
+   "final": false,
+   "audioProcessedMs": 15920,
+   "received": 16.193
+  },
+  {
+   "type": "transcript",
+   "transcript": " Customs has seized it.",
+   "final": false,
+   "audioProcessedMs": 16000,
+   "received": 16.243
+  },
+  {
+   "type": "transcript",
+   "transcript": " Customs has seized it. ",
+   "final": false,
+   "audioProcessedMs": 16480,
+   "received": 16.738
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 16480,
+   "received": 16.738
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 15980,
+   "turnId": 1,
+   "received": 16.738
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 15980,
+   "turnId": 1,
+   "transcript": " Customs has seized it. ",
+   "received": 16.738
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 16060,
+   "turnId": 2,
+   "received": 16.8
+  },
+  {
+   "type": "transcript",
+   "transcript": " That's",
+   "final": false,
+   "audioProcessedMs": 16880,
+   "received": 17.084
+  },
+  {
+   "type": "transcript",
+   "transcript": " That's impossible.",
+   "final": false,
+   "audioProcessedMs": 17440,
+   "received": 17.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " That's impossible. ",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.414
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 18160,
+   "received": 18.415
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 17660,
+   "turnId": 2,
+   "received": 18.415
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 17660,
+   "turnId": 2,
+   "transcript": " That's impossible. ",
+   "received": 18.415
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 17820,
+   "turnId": 3,
+   "received": 18.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " You",
+   "final": false,
+   "audioProcessedMs": 18320,
+   "received": 18.602
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 18.983
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.624
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.128
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with",
+   "final": false,
+   "audioProcessedMs": 19920,
+   "received": 20.233
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai",
+   "final": false,
+   "audioProcessedMs": 20480,
+   "received": 20.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber",
+   "final": false,
+   "audioProcessedMs": 20960,
+   "received": 21.25
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police",
+   "final": false,
+   "audioProcessedMs": 21280,
+   "received": 21.536
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now.",
+   "final": false,
+   "audioProcessedMs": 21360,
+   "received": 21.657
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll",
+   "final": false,
+   "audioProcessedMs": 22320,
+   "received": 22.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call",
+   "final": false,
+   "audioProcessedMs": 22400,
+   "received": 22.74
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you",
+   "final": false,
+   "audioProcessedMs": 22560,
+   "received": 22.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.463
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype.",
+   "final": false,
+   "audioProcessedMs": 23280,
+   "received": 23.556
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep",
+   "final": false,
+   "audioProcessedMs": 24240,
+   "received": 24.57
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.848
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar",
+   "final": false,
+   "audioProcessedMs": 24720,
+   "received": 25.013
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar card",
+   "final": false,
+   "audioProcessedMs": 25200,
+   "received": 25.384
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar card ready",
+   "final": false,
+   "audioProcessedMs": 25520,
+   "received": 25.778
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar card ready and",
+   "final": false,
+   "audioProcessedMs": 25760,
+   "received": 25.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar card ready and tell me",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar card ready and tell me the",
+   "final": false,
+   "audioProcessedMs": 26160,
+   "received": 26.386
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar card ready and tell me the number",
+   "final": false,
+   "audioProcessedMs": 26640,
+   "received": 26.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar card ready and tell me the number first.",
+   "final": false,
+   "audioProcessedMs": 26960,
+   "received": 27.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar card ready and tell me the number first. ",
+   "final": false,
+   "audioProcessedMs": 27360,
+   "received": 27.654
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 27360,
+   "received": 27.654
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 26860,
+   "turnId": 3,
+   "received": 27.654
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 26860,
+   "turnId": 3,
+   "transcript": " You must file a statement with Mumbai cyber police now. They'll call you on Skype. Keep your Aadhaar card ready and tell me the number first. ",
+   "received": 27.654
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 27360,
+   "received": 27.679
+  }
+ ]
+}

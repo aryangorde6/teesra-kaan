@@ -1,0 +1,439 @@
+{
+ "session_id": "voyager/duplex/C6DBC62DC4AF4EFF9E485DC21BB76850",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 21.521375,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 60,
+   "turnId": 0,
+   "received": 0.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " We",
+   "final": false,
+   "audioProcessedMs": 560,
+   "received": 0.795
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are",
+   "final": false,
+   "audioProcessedMs": 640,
+   "received": 0.888
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling",
+   "final": false,
+   "audioProcessedMs": 1040,
+   "received": 1.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.393
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the",
+   "final": false,
+   "audioProcessedMs": 1840,
+   "received": 2.109
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of",
+   "final": false,
+   "audioProcessedMs": 2400,
+   "received": 2.593
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social",
+   "final": false,
+   "audioProcessedMs": 2880,
+   "received": 3.074
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security",
+   "final": false,
+   "audioProcessedMs": 3360,
+   "received": 3.585
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration.",
+   "final": false,
+   "audioProcessedMs": 4240,
+   "received": 4.486
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 4.984
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason",
+   "final": false,
+   "audioProcessedMs": 5040,
+   "received": 5.28
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you",
+   "final": false,
+   "audioProcessedMs": 5280,
+   "received": 5.474
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have",
+   "final": false,
+   "audioProcessedMs": 5440,
+   "received": 5.694
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this",
+   "final": false,
+   "audioProcessedMs": 6240,
+   "received": 6.492
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone",
+   "final": false,
+   "audioProcessedMs": 6640,
+   "received": 6.915
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call",
+   "final": false,
+   "audioProcessedMs": 6800,
+   "received": 6.99
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from",
+   "final": false,
+   "audioProcessedMs": 7040,
+   "received": 7.291
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our",
+   "final": false,
+   "audioProcessedMs": 7280,
+   "received": 7.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department",
+   "final": false,
+   "audioProcessedMs": 7840,
+   "received": 8.076
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to",
+   "final": false,
+   "audioProcessedMs": 8320,
+   "received": 8.59
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you",
+   "final": false,
+   "audioProcessedMs": 8880,
+   "received": 9.089
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.581
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a",
+   "final": false,
+   "audioProcessedMs": 9440,
+   "received": 9.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal",
+   "final": false,
+   "audioProcessedMs": 9840,
+   "received": 10.08
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal infractions",
+   "final": false,
+   "audioProcessedMs": 11360,
+   "received": 11.599
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal infractions filed",
+   "final": false,
+   "audioProcessedMs": 11440,
+   "received": 11.675
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal infractions filed on your",
+   "final": false,
+   "audioProcessedMs": 11760,
+   "received": 12.0
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal infractions filed on your social",
+   "final": false,
+   "audioProcessedMs": 12160,
+   "received": 12.39
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal infractions filed on your social security for",
+   "final": false,
+   "audioProcessedMs": 13440,
+   "received": 13.707
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal infractions filed on your social security for fraudulent",
+   "final": false,
+   "audioProcessedMs": 14160,
+   "received": 14.398
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal infractions filed on your social security for fraudulent activities.",
+   "final": false,
+   "audioProcessedMs": 14720,
+   "received": 15.011
+  },
+  {
+   "type": "transcript",
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal infractions filed on your social security for fraudulent activities. ",
+   "final": false,
+   "audioProcessedMs": 15360,
+   "received": 15.671
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 15360,
+   "received": 15.671
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 14860,
+   "turnId": 0,
+   "received": 15.671
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 14860,
+   "turnId": 0,
+   "transcript": " We are calling you from the department of social security administration. The reason you have received this phone call from our department is to inform you that there is a legal infractions filed on your social security for fraudulent activities. ",
+   "received": 15.671
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 14860,
+   "turnId": 1,
+   "received": 15.671
+  },
+  {
+   "type": "transcript",
+   "transcript": " So,",
+   "final": false,
+   "audioProcessedMs": 15840,
+   "received": 16.122
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you",
+   "final": false,
+   "audioProcessedMs": 16400,
+   "received": 16.629
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get",
+   "final": false,
+   "audioProcessedMs": 16640,
+   "received": 16.881
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this",
+   "final": false,
+   "audioProcessedMs": 16800,
+   "received": 16.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message,",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.504
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly",
+   "final": false,
+   "audioProcessedMs": 17760,
+   "received": 17.982
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press",
+   "final": false,
+   "audioProcessedMs": 18000,
+   "received": 18.191
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.696
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to",
+   "final": false,
+   "audioProcessedMs": 18720,
+   "received": 18.993
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to connect",
+   "final": false,
+   "audioProcessedMs": 19200,
+   "received": 19.394
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to connect with",
+   "final": false,
+   "audioProcessedMs": 19280,
+   "received": 19.484
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to connect with the",
+   "final": false,
+   "audioProcessedMs": 19360,
+   "received": 19.592
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to connect with the next",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.092
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to connect with the next available",
+   "final": false,
+   "audioProcessedMs": 20320,
+   "received": 20.584
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to connect with the next available officer.",
+   "final": false,
+   "audioProcessedMs": 20720,
+   "received": 20.994
+  },
+  {
+   "type": "transcript",
+   "transcript": " So, when you get this message, kindly press 1 to connect with the next available officer. Thank you. ",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.985
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 21600,
+   "received": 21.985
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 21100,
+   "turnId": 1,
+   "received": 21.985
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 21100,
+   "turnId": 1,
+   "transcript": " So, when you get this message, kindly press 1 to connect with the next available officer. Thank you. ",
+   "received": 21.986
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 21600,
+   "received": 22.016
+  }
+ ]
+}

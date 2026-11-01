@@ -1,0 +1,682 @@
+{
+ "session_id": "voyager/duplex/96364F1CD65A45B5AF258EE731E0343F",
+ "settings": {
+  "audioEncoding": "PCM_16KHZ",
+  "model": "muse-voice-transcribe-1.0",
+  "mode": "DIARIZATION",
+  "partialMode": "CUMULATIVE",
+  "emitAudioProgress": false,
+  "languageBias": [
+   "Hindi",
+   "Marathi",
+   "English"
+  ],
+  "keywords": [
+   "CBI",
+   "ED",
+   "NCB",
+   "TRAI",
+   "DoT",
+   "RBI",
+   "KYC",
+   "OTP",
+   "UPI",
+   "PIN",
+   "CVV",
+   "Aadhaar",
+   "PAN",
+   "FedEx",
+   "DHL",
+   "customs",
+   "crime branch",
+   "cyber cell",
+   "digital arrest",
+   "FIR",
+   "warrant",
+   "AnyDesk",
+   "TeamViewer",
+   "Skype",
+   "WhatsApp",
+   "1930"
+  ]
+ },
+ "audio_seconds": 34.668,
+ "events": [
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 460,
+   "turnId": 0,
+   "received": 1.204
+  },
+  {
+   "type": "transcript",
+   "transcript": " This",
+   "final": false,
+   "audioProcessedMs": 1120,
+   "received": 1.412
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is",
+   "final": false,
+   "audioProcessedMs": 1440,
+   "received": 1.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an",
+   "final": false,
+   "audioProcessedMs": 1760,
+   "received": 2.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated",
+   "final": false,
+   "audioProcessedMs": 2240,
+   "received": 2.52
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message",
+   "final": false,
+   "audioProcessedMs": 3120,
+   "received": 3.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from",
+   "final": false,
+   "audioProcessedMs": 3200,
+   "received": 3.436
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the",
+   "final": false,
+   "audioProcessedMs": 3440,
+   "received": 3.706
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom",
+   "final": false,
+   "audioProcessedMs": 4160,
+   "received": 4.4
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory",
+   "final": false,
+   "audioProcessedMs": 4720,
+   "received": 5.01
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority",
+   "final": false,
+   "audioProcessedMs": 5360,
+   "received": 5.606
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of",
+   "final": false,
+   "audioProcessedMs": 5600,
+   "received": 5.81
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India.",
+   "final": false,
+   "audioProcessedMs": 5920,
+   "received": 6.251
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All",
+   "final": false,
+   "audioProcessedMs": 6960,
+   "received": 7.244
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile",
+   "final": false,
+   "audioProcessedMs": 7520,
+   "received": 7.888
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your",
+   "final": false,
+   "audioProcessedMs": 8400,
+   "received": 8.657
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number",
+   "final": false,
+   "audioProcessedMs": 8720,
+   "received": 9.044
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be",
+   "final": false,
+   "audioProcessedMs": 9360,
+   "received": 9.653
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended",
+   "final": false,
+   "audioProcessedMs": 9760,
+   "received": 10.002
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within",
+   "final": false,
+   "audioProcessedMs": 9920,
+   "received": 10.21
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two",
+   "final": false,
+   "audioProcessedMs": 10160,
+   "received": 10.404
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours.",
+   "final": false,
+   "audioProcessedMs": 10800,
+   "received": 11.014
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press",
+   "final": false,
+   "audioProcessedMs": 11600,
+   "received": 11.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to",
+   "final": false,
+   "audioProcessedMs": 12560,
+   "received": 12.814
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak",
+   "final": false,
+   "audioProcessedMs": 12880,
+   "received": 13.094
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak to",
+   "final": false,
+   "audioProcessedMs": 13120,
+   "received": 13.406
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak to an",
+   "final": false,
+   "audioProcessedMs": 13280,
+   "received": 13.497
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak to an officer.",
+   "final": false,
+   "audioProcessedMs": 13360,
+   "received": 13.604
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak to an officer. Hello,",
+   "final": false,
+   "audioProcessedMs": 14800,
+   "received": 15.026
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak to an officer. Hello, this is",
+   "final": false,
+   "audioProcessedMs": 15040,
+   "received": 15.322
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak to an officer. Hello, this is Officer",
+   "final": false,
+   "audioProcessedMs": 15760,
+   "received": 16.006
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak to an officer. Hello, this is Officer Meera from",
+   "final": false,
+   "audioProcessedMs": 16240,
+   "received": 16.544
+  },
+  {
+   "type": "transcript",
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak to an officer. Hello, this is Officer Meera from TRAI. ",
+   "final": false,
+   "audioProcessedMs": 16960,
+   "received": 17.26
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 16960,
+   "received": 17.26
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 16460,
+   "turnId": 0,
+   "received": 17.26
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 16460,
+   "turnId": 0,
+   "transcript": " This is an automated message from the telecom regulatory authority of India. All mobile services on your number will be suspended within two hours. Press nine to speak to an officer. Hello, this is Officer Meera from TRAI. ",
+   "received": 17.26
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 16540,
+   "turnId": 1,
+   "received": 17.31
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your",
+   "final": false,
+   "audioProcessedMs": 17280,
+   "received": 17.511
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM",
+   "final": false,
+   "audioProcessedMs": 18160,
+   "received": 18.42
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been",
+   "final": false,
+   "audioProcessedMs": 18480,
+   "received": 18.719
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for",
+   "final": false,
+   "audioProcessedMs": 19440,
+   "received": 19.711
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for sending",
+   "final": false,
+   "audioProcessedMs": 19840,
+   "received": 20.091
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for sending illegal",
+   "final": false,
+   "audioProcessedMs": 20080,
+   "received": 20.299
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for sending illegal messages.",
+   "final": false,
+   "audioProcessedMs": 20640,
+   "received": 20.914
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for sending illegal messages. Are",
+   "final": false,
+   "audioProcessedMs": 21520,
+   "received": 21.804
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for sending illegal messages. Are you",
+   "final": false,
+   "audioProcessedMs": 21600,
+   "received": 21.828
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for sending illegal messages. Are you aware",
+   "final": false,
+   "audioProcessedMs": 22240,
+   "received": 22.491
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for sending illegal messages. Are you aware of",
+   "final": false,
+   "audioProcessedMs": 22400,
+   "received": 22.616
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for sending illegal messages. Are you aware of this?",
+   "final": false,
+   "audioProcessedMs": 22480,
+   "received": 22.705
+  },
+  {
+   "type": "transcript",
+   "transcript": " Your SIM has been reported for sending illegal messages. Are you aware of this? ",
+   "final": false,
+   "audioProcessedMs": 23200,
+   "received": 23.438
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 23200,
+   "received": 23.438
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 22700,
+   "turnId": 1,
+   "received": 23.438
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 22700,
+   "turnId": 1,
+   "transcript": " Your SIM has been reported for sending illegal messages. Are you aware of this? ",
+   "received": 23.438
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 22780,
+   "turnId": 2,
+   "received": 23.503
+  },
+  {
+   "type": "transcript",
+   "transcript": " No,",
+   "final": false,
+   "audioProcessedMs": 23360,
+   "received": 23.622
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, who is",
+   "final": false,
+   "audioProcessedMs": 23840,
+   "received": 24.11
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, who is this",
+   "final": false,
+   "audioProcessedMs": 24400,
+   "received": 24.646
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, who is this again?",
+   "final": false,
+   "audioProcessedMs": 24560,
+   "received": 24.826
+  },
+  {
+   "type": "transcript",
+   "transcript": " No, who is this again? ",
+   "final": false,
+   "audioProcessedMs": 25120,
+   "received": 25.461
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 25120,
+   "received": 25.461
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 24620,
+   "turnId": 2,
+   "received": 25.461
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 24620,
+   "turnId": 2,
+   "transcript": " No, who is this again? ",
+   "received": 25.461
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 24780,
+   "turnId": 3,
+   "received": 25.529
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if",
+   "final": false,
+   "audioProcessedMs": 25760,
+   "received": 26.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you",
+   "final": false,
+   "audioProcessedMs": 25840,
+   "received": 26.102
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't",
+   "final": false,
+   "audioProcessedMs": 26080,
+   "received": 26.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate,",
+   "final": false,
+   "audioProcessedMs": 26720,
+   "received": 27.019
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a",
+   "final": false,
+   "audioProcessedMs": 27440,
+   "received": 27.78
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case",
+   "final": false,
+   "audioProcessedMs": 27760,
+   "received": 27.996
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case will be",
+   "final": false,
+   "audioProcessedMs": 28080,
+   "received": 28.309
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case will be filed with",
+   "final": false,
+   "audioProcessedMs": 28480,
+   "received": 28.72
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case will be filed with the",
+   "final": false,
+   "audioProcessedMs": 28640,
+   "received": 28.913
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case will be filed with the cyber",
+   "final": false,
+   "audioProcessedMs": 29200,
+   "received": 29.41
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case will be filed with the cyber crime",
+   "final": false,
+   "audioProcessedMs": 29840,
+   "received": 30.106
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case will be filed with the cyber crime department",
+   "final": false,
+   "audioProcessedMs": 30080,
+   "received": 30.331
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case will be filed with the cyber crime department today",
+   "final": false,
+   "audioProcessedMs": 30320,
+   "received": 30.662
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case will be filed with the cyber crime department today itself.",
+   "final": false,
+   "audioProcessedMs": 31040,
+   "received": 31.325
+  },
+  {
+   "type": "transcript",
+   "transcript": " Sir, if you don't cooperate, a case will be filed with the cyber crime department today itself. ",
+   "final": false,
+   "audioProcessedMs": 31680,
+   "received": 31.949
+  },
+  {
+   "type": "speaker",
+   "label": "A",
+   "audioProcessedMs": 31680,
+   "received": 31.949
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 31180,
+   "turnId": 3,
+   "received": 31.949
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 31180,
+   "turnId": 3,
+   "transcript": " Sir, if you don't cooperate, a case will be filed with the cyber crime department today itself. ",
+   "received": 31.949
+  },
+  {
+   "type": "speechStart",
+   "audioProcessedMs": 31580,
+   "turnId": 4,
+   "received": 32.342
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll",
+   "final": false,
+   "audioProcessedMs": 32080,
+   "received": 32.342
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll visit my",
+   "final": false,
+   "audioProcessedMs": 32480,
+   "received": 32.716
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll visit my telecom",
+   "final": false,
+   "audioProcessedMs": 33040,
+   "received": 33.294
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll visit my telecom store",
+   "final": false,
+   "audioProcessedMs": 33520,
+   "received": 33.806
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll visit my telecom store myself.",
+   "final": false,
+   "audioProcessedMs": 33760,
+   "received": 34.012
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll visit my telecom store myself. Bye.",
+   "final": false,
+   "audioProcessedMs": 34400,
+   "received": 34.62
+  },
+  {
+   "type": "transcript",
+   "transcript": " I'll visit my telecom store myself. Bye. ",
+   "final": false,
+   "audioProcessedMs": 34720,
+   "received": 35.05
+  },
+  {
+   "type": "speaker",
+   "label": "B",
+   "audioProcessedMs": 34720,
+   "received": 35.05
+  },
+  {
+   "type": "speechEnd",
+   "audioProcessedMs": 34220,
+   "turnId": 4,
+   "received": 35.05
+  },
+  {
+   "type": "speechComplete",
+   "audioProcessedMs": 34220,
+   "turnId": 4,
+   "transcript": " I'll visit my telecom store myself. Bye. ",
+   "received": 35.05
+  },
+  {
+   "type": "transcript",
+   "transcript": "",
+   "final": true,
+   "audioProcessedMs": 34720,
+   "received": 35.062
+  }
+ ]
+}
