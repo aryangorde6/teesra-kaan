@@ -476,7 +476,7 @@ function finish(e) {
   const css = getComputedStyle(document.documentElement);
   const tm = e.timing;
   mark(tm.t0, css.getPropertyValue("--muted"), t("t0"));
-  if (tm.t_warn !== null && tm.t_warn !== tm.t_red) mark(tm.t_warn, css.getPropertyValue("--amber"), t("warn"));
+  if (tm.t_warn !== null && tm.t_warn !== tm.t_red) mark(tm.t_warn, css.getPropertyValue("--sun"), t("warn"));
   mark(tm.t_red, css.getPropertyValue("--red"), t("red"));
   mark(tm.t_ask, css.getPropertyValue("--ink"), t("ask"));
   if (tm.t_warn !== null && tm.t0 !== null && tm.t0 !== undefined) {
