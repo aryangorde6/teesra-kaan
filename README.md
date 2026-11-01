@@ -26,7 +26,7 @@ When the caller says it, the line is ticked: *"The caller just said it: “kisi 
 
 - **Fixed scripts make the prediction, not a model.** It predicts only when every script that fits the call so far names the same next step. After "police" and "FIR" alone, the call could be a digital arrest or a KYC call, so it waits.
 - **A line counts only if the caller says it after it was shown.** A line said earlier but recognised late doesn't count.
-- **It's measured, not just demonstrated.** The frozen test reports how often the shown lines came true, against a naive guess made at the same moments; how many seconds ahead they were; on how many scam calls one was shown; and how many were shown on genuine calls (metric 7 in [docs/evaluation-rule.md](docs/evaluation-rule.md)). FTC robocalls usually end at "press 1", before the ask, so few lines will come true there.
+- **It's measured, not just demonstrated.** The frozen test reports how often the shown lines came true, how many seconds ahead they were, on how many scam calls one was shown, and how many were shown on genuine calls (metric 7 in [docs/evaluation-rule.md](docs/evaluation-rule.md)). A naive guess made at the same moments is compared on the dev set only, because it's scored on the calls it learns from. On the synthetic test calls, 5 of the 8 lines shown came true, a median 5 s before the caller said them. On the FTC robocalls, none of the 43 shown did: those calls end at "press 1", before the ask.
 
 ## Three ways it helps
 - **During the call, on a second device.** A phone on a call keeps its own microphone: Android gives it to the call, and an ordinary app or browser gets silence ([Android docs](https://developer.android.com/media/platform/sharing-audio-input)). So the page listens from another phone, a tablet or a laptop next to the call on speaker, such as an old phone kept beside a parent's. If it hears only silence, it says so.
@@ -46,16 +46,37 @@ When the caller says it, the line is ticked: *"The caller just said it: “kisi 
 The questions, rules and the scam patterns they come from (with official sources) are in [docs/scam-tactics.md](docs/scam-tactics.md).
 
 ## Does it work?
-*The frozen test run is on Sun Nov 1, 12:00 IST; its numbers go here exactly as they come out.* The test was fixed before any result existed: [docs/evaluation-rule.md](docs/evaluation-rule.md).
+The test was fixed before any result existed ([docs/evaluation-rule.md](docs/evaluation-rule.md)). It was run once, on Nov 1, 2026 (12:02–12:29 IST), on the commit tagged `eval-freeze`. These are its numbers exactly as `teesrakaan table` printed them, with 95% intervals. The full tables are in the [dev-log](docs/dev-log.md), Nov 1.
+
+Compared on the same calls: **A** keyword lists + the same rules, **B** Muse Spark asked "is this a scam?", **C** Teesra Kaan.
+
+| Test set | A: keywords | B: Spark alone | C: Teesra Kaan |
+|---|---|---|---|
+| **FTC**, 132 real impersonation robocalls: warned | 121/132 (86–95%) | 132/132 (97–100%) | 131/132 (96–100%) |
+| FTC: red | 11/132 (5–14%) | 132/132 (97–100%) | **0/132** (0–3%) |
+| FTC, 16 sales robocalls: warned, red | 7, 0 | 16, 16 | 13, 0 |
+| **IN-synth scam**, 18 calls, synthetic voices: warned | 17/18 (74–99%) | 18/18 (82–100%) | 18/18 (82–100%) |
+| IN-synth scam: red | 13/18 (49–88%) | 18/18 (82–100%) | 17/18 (74–99%) |
+| Time to warning, median (90th pct), from the first scam move | 21 s (28 s) | 21 s (27 s) | 22 s (29 s) |
+| Warned before the ask | 8/16 | 7/16 | 7/16 |
+| **IN-synth genuine**, 15 calls: red false alarms, amber false alarms | 1/15, 1/15 | 0/15, 0/15 | 0/15, 0/15 |
+| **No keywords left**, 9 synthetic scam calls rewritten without one keyword: warned | **0/9** (0–30%) | 9/9 (70–100%) | 9/9 (70–100%) |
+| The next line, IN-synth scam: came true | 4/10 (17–69%) | – | 5/8 (31–86%), 5 s ahead |
+
+What this shows, and what it doesn't:
+- **C never went red on the FTC robocalls.** They say "press 1" and hang up before asking for money, an OTP or an app, and red waits for that ask (or for authority, threat and isolation together). C warned amber on 131 of 132. B went red on every FTC call, all 16 sales robocalls included.
+- **Keywords alone break when the words change.** With every keyword removed, A warned on none of the 9 rewritten calls, and C warned on all 9. Not one keyword came back in their transcripts.
+- **On warning at all, Spark alone did as well as C** on these sets. What C adds is a quote in the caller's own words for every warning, red only at the ask, and the next line.
+- **The Indian test calls are synthetic voices, not people.** The re-enactments by people, the speakerphone re-recordings and the ablations that need them (without the language hint or keyword biasing) aren't recorded yet, so they aren't here. Without speaker separation, C scored the same on FTC: 131/132 warned, 0/132 red.
 
 | Set | What it is |
 |---|---|
 | **FTC** | 200 real US scam robocalls from the FTC's Project Point of No Entry (public domain), 50 dev / 150 test |
-| **IN-scam / IN-genuine** | 40 scam and 30 genuine calls in Hindi, Marathi, English and Hinglish, re-enacted from police, RBI and NPCI advisories, recorded on speakerphone (28 dev / 42 test) |
+| **IN-synth** | **Synthetic voices, not people:** the Hindi, Marathi and English test scripts (18 scam, 15 genuine) and 9 paraphrase scripts, spoken by Kokoro through a phone band, fixed before the freeze ([eval/synthetic.py](eval/synthetic.py)); always reported apart |
+| **IN-scam / IN-genuine** | 40 scam and 30 genuine calls in Hindi, Marathi, English and Hinglish, written from police, RBI and NPCI advisories (28 dev / 42 test), to be re-enacted by people on speakerphone. Not recorded yet |
 | **IN-real** | Real scam calls donated by Indian families with written consent (private; numbers only). None so far: none of the 10 people we asked had a recording |
-| **IN-synth** | **Synthetic voices, not people:** the Hindi, Marathi and English test scripts and 9 paraphrase scripts spoken by Kokoro through a phone band, fixed before the freeze ([eval/synthetic.py](eval/synthetic.py)); always reported apart |
 
-Compared on the same test: **A** keyword lists + the same rules, **B** Muse Spark asked "is this a scam?", **C** Teesra Kaan, plus C without speaker separation, language hint or keyword biasing. Two robustness checks: the IN test calls played through a phone speaker and recorded again, and 10 test scam calls rewritten so that not one word of the keyword lists is left ([eval/scripts/in-paraphrase.json](eval/scripts/in-paraphrase.json)); their caller is always a person, and the rule lets the listener's short replies be a synthetic voice (solo takes, reported as such). Every number in the video comes from `teesrakaan table` on that run. Development steps and their dev-set numbers are logged in [docs/dev-log.md](docs/dev-log.md).
+Every number in the video comes from `teesrakaan table` on that run. Development steps and their dev-set numbers are logged in [docs/dev-log.md](docs/dev-log.md).
 
 ## What people said
 On Oct 31 we phoned 10 people (5 elderly, 3 middle-aged, 2 Gen Z), told them it was for this hackathon, and showed them the page.
@@ -81,7 +102,7 @@ AI that spots scam calls is not new. This is what we found, and how Teesra Kaan 
 **How Teesra Kaan differs:**
 - **The next line, live, in Hindi, Marathi and English.** The two papers predict the scammer's next move in research settings (Korean cases with simulations; written scam reports), and neither abstract describes a live tool or an Indian language. Ours comes from fixed scripts out of the advisories, not from a model, which is where PreScam found models weak.
 - **It shows its proof.** Every warning quotes the caller's own words, and a quote the caller never said is thrown away.
-- **The model can't warn on its say-so.** Fixed rules decide, every warning needs a sign quoted in the caller's own words, and Muse Spark's overall view only holds a warning back or confirms it. On the dev set this kept all 12 genuine calls silent.
+- **The model can't warn on its say-so.** Fixed rules decide, every warning needs a sign quoted in the caller's own words, and Muse Spark's overall view only holds a warning back or confirms it. On the dev set this kept all 12 genuine calls silent, and on the test none of the 15 synthetic genuine calls was warned on.
 - **It's measured** on a test fixed before any result, on real FTC calls and Indian re-enactments, against keyword lists and against Muse Spark asked plainly "is this a scam?".
 - **It works with any call app,** because it listens through the speaker. Digital-arrest callers move people to WhatsApp and Skype video calls, outside a phone maker's own dialer.
 
@@ -96,13 +117,13 @@ Live listening and the Meta-model runs need `MODEL_API_KEY` in `.env` and `TEESR
 The demo calls in `examples/calls/` are written scripts, not real calls; every name, number and ID in them is made up. Without a key, the page plays them with Muse Spark's saved replies from `examples/spark-replies/` (made with `teesrakaan demo-replies`), so the hosted demo shows the real model at no cost.
 
 ## Limits (honest)
-- The Indian test calls are re-enactments; the FTC calls are real but American and in English. No real Indian call has been donated: none of the 10 people we asked had a recording. Each set is reported separately, with 95% intervals.
+- The Indian test calls so far are synthetic voices reading scripts written from advisories; the FTC calls are real but American and in English. No real Indian call has been donated: none of the 10 people we asked had a recording. Each set is reported separately, with 95% intervals, and the sets are small: 18 synthetic scam calls give a range of 82–100% for 18 of 18.
 - Speaker separation labels voices "A" and "B"; the caller is taken to be whoever has said the most so far, which can be wrong in the first seconds.
 - Live listening needs a second device near the call on speaker, because a phone on a call keeps its own microphone. It doesn't intercept calls. On one phone it can only check a call afterwards, from what you type.
 - A warning is advice, not a verdict. The genuine-call set measures how often it warns when it shouldn't.
 - **A relative asking for money is the hardest case.** On the dev set, a daughter asking her mother for mess fees, who added "I'll video call on Sunday", went red under the first rules (an ask plus one more sign). With Muse Spark's overall view as a check, it stays silent, but that's one call. The "Hi Maa, this is my new number" scam sounds the same, and only the test set says how often each is judged right ([dev-log](docs/dev-log.md), Oct 30).
 - **It hears a turn when the turn ends.** The transcriber says who spoke only at the end of each turn, and nothing is judged before we know it was the caller. A long monologue can delay a warning by up to one turn.
-- The next line knows only the ten scripts. A new script, or one played in an unusual order, gets no prediction or a wrong one; the test counts both. The tenth was added on Oct 31, before the freeze, after an elder we phoned lost ₹20,000 to it ("What people said"). Its dev numbers so far come from written scripts with estimated timings, where the caller often says the next step in the very next breath. How far ahead it is on recorded calls comes from the frozen test.
+- The next line knows only the ten scripts. A new script, or one played in an unusual order, gets no prediction or a wrong one; the test counts both. The tenth was added on Oct 31, before the freeze, after an elder we phoned lost ₹20,000 to it ("What people said"). On the synthetic test calls, 5 of the 8 lines shown came true, a median 5 s ahead; on recorded calls by people, it hasn't been measured yet.
 
 ## Layout
 | File | What it does |
