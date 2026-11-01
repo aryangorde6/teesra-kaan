@@ -97,7 +97,7 @@ AI that spots scam calls is not new. This is what we found, and how Teesra Kaan 
 | [Hiya AI Phone](https://www.helpnetsecurity.com/2025/01/28/hiya-ai-phone/) | Screens unknown callers, and analyses call audio in real time for scam language and AI voices |
 | [Savi](https://letsdatascience.com/news/savi-launches-app-to-block-ai-scams-e87998af) (Jul 2026) | Screens calls, texts and voicemail for AI scams, with live-call monitoring |
 | [Truecaller Family Protection](https://techcrunch.com/2026/03/12/truecallers-now-lets-you-hang-up-on-scammers-on-behalf-of-your-family/) (India, Mar 2026) | Lets a family member hang up a scam call for someone else |
-| Hackathon projects: [ShaScam](https://devpost.com/software/shascam), [Call Cop](https://devfolio.co/projects/call-cop-f7a1), [a FOSS Hack 25 entry](https://fossunited.org/hack/fosshack25/p/b7vum5on5h), [Guardian Angel](https://portland.aitinkerers.org/hackathons/h_Xu4dbx3kfMs/entries/ht_59nCFqZrOQQ) | Live scam-call detection |
+| Hackathon projects: [ShaScam](https://devpost.com/software/shascam), [Call Cop](https://devfolio.co/projects/call-cop-f7a1), [a FOSS Hack 25 entry](https://fossunited.org/hack/fosshack25/p/b7vum5on5h), [Guardian Angel](https://nyc.aitinkerers.org/hackathons/h_Xu4dbx3kfMs/entries/ht_59nCFqZrOQQ) | Live scam-call detection |
 | [ScriptMind](https://arxiv.org/abs/2601.13581) (EACL 2026 Industry Track) | Research: an 11B model fine-tuned on 571 Korean phone-scam cases infers the scam's script and predicts the scammer's next utterance |
 | [PreScam](https://arxiv.org/abs/2605.12243) (May 2026) | Research: a benchmark built from real scam reports; it found that "next-action prediction remains only moderately successful even for strong LLMs" |
 
