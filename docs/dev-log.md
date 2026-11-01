@@ -334,3 +334,22 @@ Aryan asked which items on a common web-security checklist apply here. The page 
 Checked in the browser on the laptop: the demo calls, typed checks, fonts and the microphone worklet all work under the new policy, with no violations. It also showed that the timeline's "Warning" mark had no colour since the palette change (`--amber` became `--sun`); fixed. 215 tests pass.
 
 **Deployed 12:39** (`deploy/push.sh teesrakaan`), once Aryan let the laptop's new address through the SSH rule; the new Caddyfile passed `caddy validate` on the server first. The pins moved four packages back to the tested versions (FastAPI 0.162.0 → 0.141.1, pydantic 2.14.2 → 2.14.0, pydantic-core 2.50.2 → 2.50.0, websockets 17.4 → 17.1; neither set has a known vulnerability on OSV). Checked on https://teesrakaan.aryangorde.com: every header above is sent; `/openapi.json` 404; a 27 MB post is refused by Caddy (413) and a 40 KB typed check by the app (413); the 21st typed check in a minute gets 429, and the server's log shows the visitor's own address, so the limit is per visitor, not shared through Caddy's 127.0.0.1; a socket opened with another site's Origin gets 403 and the site's own plays; in the browser, the digital-arrest demo plays to the end (Warning mark amber), the fonts and the microphone's worklet load, and nothing is blocked.
+
+## Nov 1, 2026, 19:41–20:16 IST: one call with real voices, on a real phone line (not part of the test)
+
+Every Indian call in the test is a synthetic voice. To hear real people once, we re-enacted the English digital-arrest demo script (`examples/calls/demo-digital-arrest-en.json`, names and numbers made up) on an ordinary phone call: one of us read the caller, a family member the person called. The phone recorded the call (the speaker couldn't be used, so this is the phone's own recording, not a second device's microphone). The recording stays private; it is in the video with both people's agreement.
+
+- **Transcription:** the recording, trimmed to the script (80.9 s, 16 kHz), streamed to Muse Voice Transcribe at real-time speed with the page's own settings (diarization, Hindi/Marathi/English bias, the same keywords), 19:44–19:45. Nearly word for word, with the two voices kept apart in 10 turns.
+- **Judging:** those turns, with their word times, judged by Muse Spark (`teesrakaan demo-replies`, made once) and the rules frozen at `eval-freeze`; the page replayed them as it does every demo call.
+- **What the page showed** (the page's clock):
+
+| | When | |
+|---|---|---|
+| First false claim ("Inspector Sharma from Mumbai crime branch") | 0:00 | |
+| **Amber**, quoting him, with the next line "Come on a video call." | **0:17** | after the FedEx parcel and drugs line |
+| He moves her to a Skype video call; the line is ticked in his words | 0:38 | 21 s after it was shown |
+| **Red**, with the next line "Transfer the money for verification." | **0:40** | |
+| He asks her to transfer all her money to "RBI's safe account" | 0:45 | 5 s after red |
+
+- **Cost:** $0.0348 for the transcription and Spark together (ledger $4.7979 → $4.8327).
+- **What it is and isn't:** one call, read by the people who wrote the script, so it is an example, not a measurement; it doesn't change any number in the test. It is the live run in the video's shot 6, labelled "Re-enacted call · real voices, on a phone". Nothing that decides a warning changed.
