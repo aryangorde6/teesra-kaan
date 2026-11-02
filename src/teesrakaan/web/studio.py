@@ -15,6 +15,7 @@ import csv
 import datetime as dt
 import io
 import json
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -38,6 +39,9 @@ TRIM_AND_LEVEL = ("silenceremove=start_periods=1:start_threshold=-50dB:start_sil
                   "loudnorm=I=-16:TP=-1.5:LRA=11")
 # A solo take's caller speaks in the room, not through a phone: the synthetic set's phone band (evaluation rule v1.5.1).
 PHONE_BAND = "highpass=f=300,lowpass=f=3400,aresample=8000,aresample=48000"
+# The listener's lines are laid into a solo take this far below the reader's loudness, never moved more than MAX_GAIN.
+LISTENER_DB = 2.0
+MAX_GAIN = 40.0
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 LOOPBACK = {"127.0.0.1", "::1"}
 VOICES = ("call_id", "voices", "consent", "publish_ok", "recorded_at", "seconds")
@@ -88,18 +92,52 @@ def solo_raw(card_id: str) -> Path:
     return recordings_dir() / "solo-raw" / f"{card_id}.wav"
 
 
-def solo_lines(card: dict) -> list[int]:
-    """The listener lines' indices, if every one has its audio (eval/solo_listener.py); else none."""
-    if card["split"] != "paraphrase":
-        return []
+def solo_lines(card: dict) -> list[int] | None:
+    """The listener lines' indices (maybe none), if the card can be recorded solo: a test or paraphrase card whose
+    every listener line has its audio (eval/solo_listener.py). None if it can't."""
+    if card["split"] not in ("test", "paraphrase") or card["id"] not in _solo_manifest():
+        return None
     lines = [n for n, line in enumerate(card["lines"]) if line[0] == "listener"]
     folder = config.data_dir() / "solo" / card["id"]
-    return lines if all((folder / f"{n}.wav").exists() for n in lines) else []
+    return lines if all((folder / f"{n}.wav").exists() for n in lines) else None
+
+
+def _solo_manifest() -> dict[str, dict]:
+    path = config.REPO_ROOT / "eval" / "solo-listener.json"
+    return json.loads(path.read_text(encoding="utf-8"))["cards"] if path.exists() else {}
+
+
+def _loudness(path: Path) -> float | None:
+    """Integrated loudness through the phone band (EBU R128, so silence is gated out), or None for no sound at all."""
+    out = subprocess.run(["ffmpeg", "-nostdin", "-hide_banner", "-nostats", "-i", str(path), "-af", f"{PHONE_BAND},ebur128",
+                          "-f", "null", "-"], check=True, capture_output=True, text=True).stderr
+    found = re.findall(r"I:\s+(-?[\d.]+) LUFS", out)
+    return float(found[-1]) if found and float(found[-1]) > -69 else None
+
+
+def _mix_solo(card: dict, take: Path, at: dict[int, float], out: Path) -> dict[int, dict]:
+    """A solo take with the listener's lines laid in where the studio showed them, about as loud as the reader, then
+    all of it through the phone band. Nothing is played aloud, so the laptop's own speaker doesn't matter
+    (evaluation rule v1.6.1). Returns where each line went and its gain."""
+    folder = config.data_dir() / "solo" / card["id"]
+    reader = _loudness(take)
+    args, chains, placed = ["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", str(take)], [], {}
+    for k, n in enumerate(solo_lines(card) or [], start=1):
+        line = folder / f"{n}.wav"
+        level = _loudness(line)
+        gain = 0.0 if reader is None or level is None else max(-MAX_GAIN, min(MAX_GAIN, reader - level - LISTENER_DB))
+        args += ["-i", str(line)]
+        chains.append(f"[{k}:a]aresample=48000,volume={gain:.1f}dB,adelay={round(at[n] * 1000)}:all=1[l{k}]")
+        placed[n] = {"at": round(at[n], 2), "gain_db": round(gain, 1)}
+    inputs = "[0:a]" + "".join(f"[l{k}]" for k in range(1, len(chains) + 1))
+    graph = ";".join(chains + [f"{inputs}amix=inputs={len(chains) + 1}:duration=longest:normalize=0,{PHONE_BAND}[out]"])
+    subprocess.run(args + ["-filter_complex", graph, "-map", "[out]", "-ac", "1", "-ar", "48000", "-c:a", "pcm_s16le",
+                           "-map_metadata", "-1", str(out)], check=True, capture_output=True)
+    return placed
 
 
 def _solo_voice(card_id: str) -> str:
-    manifest = json.loads((config.REPO_ROOT / "eval" / "solo-listener.json").read_text(encoding="utf-8"))
-    return manifest["cards"][card_id]["voice"]
+    return _solo_manifest()[card_id]["voice"]
 
 
 def _labels() -> dict[str, dict[str, str]]:
@@ -175,17 +213,26 @@ def list_cards() -> list[dict]:
 async def save_recording(card_id: str, request: Request) -> dict:
     """The browser's recording (any format ffmpeg reads) → `<split>/<ID>.wav`, 48 kHz mono. Needs every voice's
     written consent. An earlier take is moved to `recordings/replaced/`, never deleted, and its label is cleared,
-    because its times belong to the old take. A solo take (`solo=1`, paraphrase cards only) is saved through the
-    phone band, and the untouched take is kept in `recordings/solo-raw/`."""
+    because its times belong to the old take. A solo take (`solo=1`, test and paraphrase cards) gets the listener's
+    lines laid in at `times` (each line's start, in seconds, as the studio showed it) and is saved through the phone
+    band; the untouched take is kept in `recordings/solo-raw/`, with where each line went beside it."""
     card = _card(card_id)
     q = request.query_params
     voices = q.get("voices", "").strip()
     if q.get("consent") != "1" or not voices:
         raise HTTPException(400, "Every voice on the call must have given written consent (docs/recording.md).")
     solo = q.get("solo") == "1"
-    if solo and not solo_lines(card):
-        raise HTTPException(400, "Only paraphrase cards can be recorded solo, once their listener lines are made "
-                                 "(eval/solo_listener.py).")
+    if solo and solo_lines(card) is None:
+        raise HTTPException(400, "Only test and paraphrase cards can be recorded solo, once their listener lines are "
+                                 "made (eval/solo_listener.py).")
+    at: dict[int, float] = {}
+    if solo:
+        try:
+            at = {int(n): float(t) for n, t in json.loads(q.get("times") or "{}").items()}
+        except (ValueError, AttributeError) as exc:
+            raise HTTPException(400, "A solo take needs the time each line began.") from exc
+        if missing := [n for n in solo_lines(card) if not 0 <= at.get(n, -1) <= MAX_SECONDS]:
+            raise HTTPException(400, f"A solo take needs the time the listener's line {missing[0]} began.")
     body = await request.body()
     if not body or len(body) > MAX_RECORDING_BYTES:
         raise HTTPException(413, "Send one recording, up to 60 MB.")
@@ -203,9 +250,7 @@ async def save_recording(card_id: str, request: Request) -> dict:
         seconds = _seconds(tmp)
         if solo:
             banded = tmp.with_name(f"{card_id}-band.wav")
-            subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", str(tmp), "-af", PHONE_BAND,
-                            "-ac", "1", "-ar", "48000", "-c:a", "pcm_s16le", "-map_metadata", "-1", str(banded)],
-                           check=True, capture_output=True)
+            placed = _mix_solo(card, tmp, at, banded)
     except (subprocess.CalledProcessError, ValueError) as exc:
         tmp.unlink(missing_ok=True)
         raise HTTPException(400, "That recording couldn't be read. Try again.") from exc
@@ -224,9 +269,12 @@ async def save_recording(card_id: str, request: Request) -> dict:
     if raw.exists():  # the old take's, solo or not, goes with it
         (recordings_dir() / "replaced").mkdir(parents=True, exist_ok=True)
         raw.rename(recordings_dir() / "replaced" / f"{card_id}-{stamp}-solo-raw.wav")
+        if raw.with_suffix(".json").exists():
+            raw.with_suffix(".json").rename(recordings_dir() / "replaced" / f"{card_id}-{stamp}-solo-raw.json")
     if solo:
         raw.parent.mkdir(parents=True, exist_ok=True)
         tmp.rename(raw)
+        raw.with_suffix(".json").write_text(json.dumps({"listener_lines": placed}, indent=1) + "\n", encoding="utf-8")
         banded.rename(path)
         voices = f"{voices} + listener: synthetic voice (Kokoro {_solo_voice(card_id)})"
     else:
@@ -237,8 +285,8 @@ async def save_recording(card_id: str, request: Request) -> dict:
 
 @app.get("/api/solo/{card_id}/{line}")
 def get_solo_line(card_id: str, line: int) -> FileResponse:
-    """One of the listener's lines a solo take plays (eval/solo_listener.py)."""
-    if line not in solo_lines(_card(card_id)):
+    """One of the listener's lines a solo take lays in (eval/solo_listener.py); the studio plays it silently, to time it."""
+    if line not in (solo_lines(_card(card_id)) or []):
         raise HTTPException(404, f"{card_id} has no solo listener line {line}.")
     return FileResponse(config.data_dir() / "solo" / card_id / f"{line}.wav", media_type="audio/wav")
 

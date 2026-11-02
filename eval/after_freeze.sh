@@ -51,6 +51,8 @@ if has_audio data/recordings/test && [ -f data/labels-in.csv ]; then
   done
   tk eval data/transcripts/in-test-nolang --labels data/labels-in.csv --split test --run C --out runs/eval-test/in-nolang-C.json
   tk eval data/transcripts/in-test-nokw --labels data/labels-in.csv --split test --run C --out runs/eval-test/in-nokw-C.json
+  solo=$(grep -c ',test,.*solo take' data/labels-in.csv || true)
+  echo "solo takes among the labelled IN test calls: $solo" | tee runs/eval-test/in-solo.txt
 else
   echo "== IN test: no recordings in data/recordings/test yet (or no data/labels-in.csv); skipped"
 fi

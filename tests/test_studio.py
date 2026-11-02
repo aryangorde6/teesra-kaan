@@ -4,6 +4,7 @@ import json
 import math
 import struct
 import wave
+from urllib.parse import quote
 
 import pytest
 
@@ -188,18 +189,18 @@ def _rms(path) -> float:
 
 
 def test_a_solo_take_is_saved_through_the_phone_band_keeps_the_raw_and_says_so():
-    """Evaluation rule v1.5.1: one person reads the caller, the laptop says the listener's lines."""
+    """Evaluation rule v1.5.1: one person reads the caller; since v1.6.1 the listener's lines are laid into the take."""
     from teesrakaan import config
     from teesrakaan.web.studio import solo_raw
 
-    assert next(c for c in client.get("/api/cards").json() if c["id"] == "IP02")["solo"] == []  # no listener audio yet
+    assert next(c for c in client.get("/api/cards").json() if c["id"] == "IP02")["solo"] is None  # no listener audio yet
     (config.data_dir() / "solo" / "IP02").mkdir(parents=True)
     (config.data_dir() / "solo" / "IP02" / "2.wav").write_bytes(wav(1.0))
     cards = {c["id"]: c for c in client.get("/api/cards").json()}
-    assert cards["IP02"]["solo"] == [2] and cards["IS04"]["solo"] == []
+    assert cards["IP02"]["solo"] == [2] and cards["IS04"]["solo"] is None  # IS04 is a dev card
     assert client.get("/api/solo/IP02/2").content[:4] == b"RIFF"
     assert client.get("/api/solo/IP02/0").status_code == 404  # a caller line: the person says it
-    assert client.post(f"/api/recording/IS04{CONSENT}&solo=1", content=wav()).status_code == 400  # not a paraphrase card
+    assert client.post(f"/api/recording/IS04{CONSENT}&solo=1", content=wav()).status_code == 400  # a dev card
 
     rate = 16000  # a 6 kHz tone: above the phone band, so the saved take is far quieter than the raw one
     buf = io.BytesIO()
@@ -208,9 +209,12 @@ def test_a_solo_take_is_saved_through_the_phone_band_keeps_the_raw_and_says_so()
         w.setsampwidth(2)
         w.setframerate(rate)
         w.writeframes(b"".join(struct.pack("<h", int(8000 * math.sin(2 * math.pi * 6000 * i / rate))) for i in range(3 * rate)))
-    assert client.post(f"/api/recording/IP02?voices=AG&consent=1&solo=1", content=buf.getvalue()).status_code == 200
+    assert client.post("/api/recording/IP02?voices=AG&consent=1&solo=1", content=buf.getvalue()).status_code == 400  # no times
+    times = "&times=" + quote(json.dumps({"0": 0.0, "2": 1.0}))
+    assert client.post(f"/api/recording/IP02?voices=AG&consent=1&solo=1{times}", content=buf.getvalue()).status_code == 200
     saved, raw = recordings_dir() / "paraphrase" / "IP02.wav", solo_raw("IP02")
     assert raw.exists() and _rms(saved) < _rms(raw) / 10
+    assert json.loads(raw.with_suffix(".json").read_text())["listener_lines"]["2"]["at"] == 1.0
     with open(recordings_dir() / "voices.csv", newline="") as f:
         assert [row["voices"] for row in csv.DictReader(f)] == ["AG + listener: synthetic voice (Kokoro hf_alpha)"]
     assert client.post("/api/label/IP02", json={"t0": 0.5, "labeller": "AG", "notes": "fan on"}).status_code == 200
@@ -219,5 +223,48 @@ def test_a_solo_take_is_saved_through_the_phone_band_keeps_the_raw_and_says_so()
     # Recorded again by two people: the solo raw goes with the old take, and the label no longer says solo.
     assert client.post(f"/api/recording/IP02{CONSENT}&replace=1", content=wav(3.0)).status_code == 200
     assert not raw.exists() and len(list((recordings_dir() / "replaced").glob("IP02-*-solo-raw.wav"))) == 1
+    assert len(list((recordings_dir() / "replaced").glob("IP02-*-solo-raw.json"))) == 1
     assert client.post("/api/label/IP02", json={"t0": 0.5, "labeller": "AG"}).status_code == 200
     assert read_labels(labels_path())["IP02"].notes == ""
+
+
+def _window_rms(path, start: float, end: float) -> float:
+    with wave.open(str(path)) as w:
+        rate = w.getframerate()
+        w.setpos(int(start * rate))
+        frames = w.readframes(int((end - start) * rate))
+    samples = struct.unpack(f"<{len(frames) // 2}h", frames)
+    return math.sqrt(sum(s * s for s in samples) / len(samples))
+
+
+def test_a_solo_test_take_has_the_listener_laid_in_where_it_was_shown_and_nothing_played_aloud():
+    """Evaluation rule v1.6.1: test cards can be recorded solo; the listener's line goes into the take at its time."""
+    from teesrakaan import config
+    from teesrakaan.web.studio import solo_raw
+
+    folder = config.data_dir() / "solo" / "IS30"  # a test card; its one listener line is line 1
+    folder.mkdir(parents=True)
+    (folder / "1.wav").write_bytes(tone(1.0, quiet=0.0))  # 440 Hz, inside the phone band
+    assert next(c for c in client.get("/api/cards").json() if c["id"] == "IS30")["solo"] == [1]
+    reader = tone(0.8, quiet=0.1)  # the reader's voice: a short tone at the start of a quiet 5 s take
+    buf = io.BytesIO()
+    with wave.open(buf, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(16000)
+        with wave.open(io.BytesIO(reader)) as r:
+            w.writeframes(r.readframes(r.getnframes()) + b"\x00\x00" * 16000 * 4)
+    times = quote(json.dumps({"0": 0.0, "1": 2.5, "2": 4.0}))
+    assert client.post(f"/api/recording/IS30?voices=AG&consent=1&solo=1&times={times}", content=buf.getvalue()).status_code == 200
+    saved = recordings_dir() / "test" / "IS30.wav"
+    assert saved.exists() and solo_raw("IS30").exists()
+    inside, before = _window_rms(saved, 2.6, 3.4), _window_rms(saved, 1.4, 2.4)
+    assert inside > 20 * max(before, 1.0)  # the line is there at 2.5 s, and not before it
+    assert _window_rms(solo_raw("IS30"), 2.6, 3.4) < 1.0  # the raw take is the reader alone
+
+
+def test_a_card_with_no_listener_lines_can_still_be_recorded_solo():
+    from teesrakaan import config
+    (config.data_dir() / "solo").mkdir(parents=True, exist_ok=True)
+    assert next(c for c in client.get("/api/cards").json() if c["id"] == "IG08")["solo"] == []
+    assert client.post(f"/api/recording/IG08?voices=AG&consent=1&solo=1&times=%7B%7D", content=wav()).status_code == 200

@@ -1,10 +1,10 @@
 # Recording the re-enactments
 
-Version 1.5, Nov 2, 2026 (v1.2 added the warning lines to the studio, v1.3 the paraphrase cards, v1.4 solo takes of them, v1.5 the fixed recording order after the freeze). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
+Version 1.5.1, Nov 2, 2026 (v1.2 added the warning lines to the studio, v1.3 the paraphrase cards, v1.4 solo takes of them, v1.5 the fixed recording order after the freeze, v1.5.1 solo takes of test cards, with nothing played aloud). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
 
 ## Who records what
 - **Scripts:** [`eval/scripts/in-scam.json`](../eval/scripts/in-scam.json) (40) and [`in-genuine.json`](../eval/scripts/in-genuine.json) (30). The dev/test split is fixed in [`eval/scripts/split.csv`](../eval/scripts/split.csv) (28 dev, 42 test).
-- **Voices:** Aryan and friends or family who agree in writing (below). Any gender can play any role; change the verb forms to match (bol raha / bol rahi).
+- **Voices:** Aryan and friends or family who agree in writing (below). Any gender can play any role; change the verb forms to match (bol raha / bol rahi). Since Nov 2, a test card can also be recorded by one person (Solo takes, below).
 - **Paraphrase cards:** [`eval/scripts/in-paraphrase.json`](../eval/scripts/in-paraphrase.json) (10, IDs `IP…`): test scam scripts rewritten without any word the keyword baseline looks for ([evaluation-rule.md](evaluation-rule.md), Robustness). They're in the studio's *Paraphrase* tab.
 - **Order (since Nov 2):** nobody recorded before the freeze, so the dev cards are no longer needed. Record the 42 test cards, then the 10 paraphrase cards, each list in the fixed order of [`eval/scripts/record-order.csv`](../eval/scripts/record-order.csv) (the studio shows them numbered, in that order), without skipping. Stop by **Tue Nov 3, 14:00 IST**; what's recorded and labelled by then is run once ([evaluation-rule.md](evaluation-rule.md), People's recordings after the freeze). Record a take again only for a recording fault (the call dropped, someone laughed, a noise drowned a line).
 - **Test recordings are kept away from tuning.** The person tuning prompts and rules doesn't open or listen to them until the freeze (Sun Nov 1, 12:00 IST).
@@ -29,14 +29,14 @@ Version 1.5, Nov 2, 2026 (v1.2 added the warning lines to the studio, v1.3 the p
 
 Audacity or a phone's voice recorder still work: save the file as below and fill the sheet by hand ([labelling.md](labelling.md)).
 
-## Solo takes (paraphrase cards only, about 1 minute each)
-One person can record a paraphrase card alone ([evaluation-rule.md](evaluation-rule.md), Robustness, v1.5.1): you read the caller, and the laptop speaks the listener's short replies in a synthetic voice.
-1. In the studio's *Paraphrase* tab, open a card and tick **Solo**. Laptop volume at about half; sit at arm's length from it, facing it.
-2. Add your initials, tick consent, press **Start recording**. The first caller line is highlighted: read it as written.
-3. Press **Space** when you finish each of your lines. If the listener answers next, the laptop says it, then highlights your next line. After your last line, Space ends the take.
+## Solo takes (test and paraphrase cards, about 1 minute each)
+One person can record a test or paraphrase card alone ([evaluation-rule.md](evaluation-rule.md), Robustness, v1.5.1, and People's recordings after the freeze, v1.6.1): you say the caller's lines, and the listener's short replies, in a synthetic voice, are added to the take. Nothing plays aloud, so the laptop's speaker doesn't matter.
+1. In the studio's *Test* (or *Paraphrase*) tab, open the next card in order and tick **Solo**. Sit at arm's length from the laptop, facing it.
+2. Add your initials, tick consent, press **Start recording**. The first caller line is highlighted: say it in your own words (paraphrase cards: read it as written).
+3. Press **Space** when you finish each of your lines. When the listener answers next, their line is highlighted for as long as it lasts: stay quiet until your next line lights up. After your last line, Space ends the take.
 4. Listen back, save, then mark t0 and the ask as usual. Each line's start time is shown next to it: click a line to jump there.
 
-The take is saved through a phone band, since your voice is in the room rather than coming out of a phone; the untouched take is kept in `data/recordings/solo-raw/`.
+When it's saved, the studio lays each listener line in where it was highlighted, about as loud as you, and passes the take through a phone band, since your voice is in the room rather than coming out of a phone. The untouched take is kept in `data/recordings/solo-raw/`, with where each line went beside it.
 
 ## Acting
 - Read the card once. Then **say each line in your own words**, in order. Don't read word for word: real callers don't, and a test that only works on the script's exact words is worthless.

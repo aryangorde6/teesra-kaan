@@ -90,7 +90,7 @@ function show(id) {
   if (c.split === "paraphrase") $(".say", view).textContent = "Read these lines as written. They leave out certain words on purpose (police, arrest, OTP, PIN, bank, video call, refund and the like), so don't put any back in. Keep the made-up names and numbers.";
   renderLines(c, view);
   // A paraphrase card can be recorded by one person: they read the caller, the laptop says the listener's lines.
-  if (c.solo && c.solo.length) {
+  if (c.solo) {
     $(".solo", view).hidden = false;
     const box = $(".solo-box", view);
     box.checked = store.get("solo") === "1";
@@ -155,7 +155,7 @@ function renderLines(c, view) {
   }));
 }
 
-// --- Solo takes (paraphrase cards) --------------------------------------------
+// --- Solo takes (test and paraphrase cards) -----------------------------------
 
 function soloAt(n, view) {
   solo.line = n;
@@ -167,8 +167,11 @@ function soloAt(n, view) {
     $(".rec-status", view).textContent = "Read the highlighted line, then press Space.";
     return;
   }
-  $(".rec-status", view).textContent = "The listener is answering…";
+  // Played silently, only to time the line: the studio lays the line into the take when it's saved, so nothing
+  // comes out of the laptop's speaker (evaluation rule v1.6.1).
+  $(".rec-status", view).textContent = "The listener is answering (silently, it's added to the take). Wait…";
   solo.audio = new Audio(`/api/solo/${current.id}/${n}`);
+  solo.audio.muted = true;
   solo.audio.onended = () => { solo.audio = null; soloNext(view); };
   solo.audio.play().catch(() => { solo.audio = null; $(".rec-status", view).textContent = "The listener's line didn't play. Press Space to go on."; });
 }
@@ -264,6 +267,7 @@ async function saveTake() {
   const q = new URLSearchParams({ voices, consent: $(".consent-box", view).checked ? "1" : "0",
     publish: $(".publish-box", view).checked ? "1" : "0", replace: again(current) ? "1" : "0", solo: take.solo ? "1" : "0" });
   const times = take.solo;
+  if (times) q.set("times", JSON.stringify(times));
   $(".save-take", view).disabled = true;
   status.textContent = line ? "Trimming and levelling…" : "Saving…";
   try {
