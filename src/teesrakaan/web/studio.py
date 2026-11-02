@@ -133,17 +133,28 @@ def static(name: str) -> FileResponse:
     return FileResponse(path)
 
 
+def record_order() -> dict[str, int]:
+    """Each test and paraphrase card's place in the fixed order people record them in (eval/record_order.py)."""
+    path = SCRIPTS / "record-order.csv"
+    if not path.exists():
+        return {}
+    with open(path, newline="", encoding="utf-8") as f:
+        return {row["id"]: int(row["n"]) for row in csv.DictReader(f)}
+
+
 @app.get("/api/cards")
 def list_cards() -> list[dict]:
-    """Dev cards first, as they're recorded first, then test, then the paraphrase test; each with whether it's
-    recorded and labelled yet. Then the warning lines, as cards of their own ("stale": recorded, but for words
-    that have changed since)."""
+    """Dev cards first, then test, then the paraphrase test, the last two in their fixed recording order; each
+    with whether it's recorded and labelled yet. Then the warning lines, as cards of their own ("stale":
+    recorded, but for words that have changed since)."""
     labels = _labels()
     out = []
     order = {"dev": 0, "test": 1, "paraphrase": 2}
-    for card in sorted(cards().values(), key=lambda c: (order[c["split"]], c["id"])):
+    rank = record_order()
+    for card in sorted(cards().values(), key=lambda c: (order[c["split"]], rank.get(c["id"], 0), c["id"])):
         out.append({
-            "id": card["id"], "set": card["set"], "split": card["split"], "language": card["language"],
+            "id": card["id"], "n": rank.get(card["id"]), "set": card["set"], "split": card["split"],
+            "language": card["language"],
             "pattern": card.get("pattern", 0), "kind": card.get("kind", ""), "roles": card.get("roles"),
             "from": card.get("from"), "solo": solo_lines(card),
             "lines": card["lines"], "is_scam": card["set"] == "IN-scam",

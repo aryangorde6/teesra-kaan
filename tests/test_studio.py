@@ -62,6 +62,14 @@ def test_cards_come_dev_first_from_the_fixed_split():
     assert ip02["is_scam"] and ip02["from"] == "IS02" and ip02["pattern"] == 3
 
 
+def test_test_and_paraphrase_cards_come_in_the_fixed_recording_order():
+    cards = client.get("/api/cards").json()
+    for split, count in (("test", 42), ("paraphrase", 10)):
+        assert [c["n"] for c in cards if c["split"] == split] == list(range(1, count + 1))
+    assert [c["id"] for c in cards if c["split"] == "test"][:2] == ["IS30", "IG02"]
+    assert all(c["n"] is None for c in cards if c["split"] == "dev")
+
+
 def test_a_paraphrase_take_goes_to_its_own_folder_and_labels_as_a_scam():
     assert client.post(f"/api/recording/IP02{CONSENT}", content=wav(3.0)).status_code == 200
     assert (recordings_dir() / "paraphrase" / "IP02.wav").exists()

@@ -1,12 +1,12 @@
 # Recording the re-enactments
 
-Version 1.4, Oct 31, 2026 (the studio; v1.2 added the warning lines to it, v1.3 the paraphrase cards, v1.4 solo takes of them). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
+Version 1.5, Nov 2, 2026 (v1.2 added the warning lines to the studio, v1.3 the paraphrase cards, v1.4 solo takes of them, v1.5 the fixed recording order after the freeze). How the IN-scam and IN-genuine calls are recorded, so the test sounds like the real use: a call on speakerphone, heard by a laptop or phone in the same room.
 
 ## Who records what
 - **Scripts:** [`eval/scripts/in-scam.json`](../eval/scripts/in-scam.json) (40) and [`in-genuine.json`](../eval/scripts/in-genuine.json) (30). The dev/test split is fixed in [`eval/scripts/split.csv`](../eval/scripts/split.csv) (28 dev, 42 test).
 - **Voices:** Aryan and friends or family who agree in writing (below). Any gender can play any role; change the verb forms to match (bol raha / bol rahi).
 - **Paraphrase cards:** [`eval/scripts/in-paraphrase.json`](../eval/scripts/in-paraphrase.json) (10, IDs `IP…`): test scam scripts rewritten without any word the keyword baseline looks for ([evaluation-rule.md](evaluation-rule.md), Robustness). They're in the studio's *Paraphrase* tab.
-- **Order:** the 28 dev scripts first (Thu Oct 29), then the 42 test scripts (by Fri Oct 30), then the 10 paraphrase cards.
+- **Order (since Nov 2):** nobody recorded before the freeze, so the dev cards are no longer needed. Record the 42 test cards, then the 10 paraphrase cards, each list in the fixed order of [`eval/scripts/record-order.csv`](../eval/scripts/record-order.csv) (the studio shows them numbered, in that order), without skipping. Stop by **Tue Nov 3, 14:00 IST**; what's recorded and labelled by then is run once ([evaluation-rule.md](evaluation-rule.md), People's recordings after the freeze). Record a take again only for a recording fault (the call dropped, someone laughed, a noise drowned a line).
 - **Test recordings are kept away from tuning.** The person tuning prompts and rules doesn't open or listen to them until the freeze (Sun Nov 1, 12:00 IST).
 
 ## Setup (about 2 minutes per call)
@@ -52,11 +52,12 @@ The take is saved through a phone band, since your voice is in the room rather t
 - The studio also logs who spoke on each take, and whether they agreed to publication, in `data/recordings/voices.csv` (never committed).
 
 ## Consent (each voice, once, in writing; a WhatsApp message is fine)
-> I agree that my voice, in re-enacted calls for the Teesra Kaan project, may be used to test the system and may be shown in its demo video. The calls are acted from scripts; they are not real.
+> I agree that my voice, in re-enacted calls for the Teesra Kaan project, may be used to test the system and may be shown in its demo video. The calls are acted from scripts; they are not real. I understand that for the test the recordings are sent to Meta's speech-to-text API, and the words in them to Meta's Muse Spark, and that while the project uses Meta's free credits, Meta may use what is sent to improve its products.
+> ☐ The written transcripts (text only, no audio) may be published with the project's code.
 > ☐ The recordings may also be published with the project's code as test data. (Leave unticked to keep them private.)
 > Name, date.
 
-Recordings without the second tick stay private, like donated calls.
+Recordings without the second tick stay private, like donated calls. Transcripts without the first tick stay private too, and only the numbers are published.
 
 ## Also recorded by Aryan (Fri Oct 30)
 - **The warning lines,** in the studio's *Warnings* tab: what the page says aloud the moment the screen turns amber or red, the headline then what to do (`HEADLINE` and `ACTION` in [`src/teesrakaan/messages.py`](../src/teesrakaan/messages.py)). Nine lines: red and amber in Hindi, Marathi and English for India first, then red for the US page. Record them only after a native speaker has checked the wording.

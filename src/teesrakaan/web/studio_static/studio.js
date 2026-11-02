@@ -9,7 +9,7 @@ const store = {
 };
 
 let cards = [];
-let split = store.get("split") || "dev";
+let split = store.get("split") || "test";
 let current = null;
 let recorder = null;
 let take = null;
@@ -50,7 +50,7 @@ function renderList() {
     b.dataset.id = c.id;
     b.setAttribute("aria-current", current && current.id === c.id);
     const name = document.createElement("span");
-    name.textContent = `${c.id} · ${c.language}`;
+    name.textContent = `${c.n ? `${c.n}. ` : ""}${c.id} · ${c.language}`;
     const state = document.createElement("span");
     state.className = "state";
     if (c.kind === "warning") state.innerHTML = c.recorded ? '<span class="done">recorded</span>' : c.stale ? "words changed" : "to record";
@@ -84,7 +84,7 @@ function show(id) {
   if (c.kind === "warning") { showLine(c, view); return; }
   view.replaceChildren($("#card-tpl").content.cloneNode(true));
   const what = c.is_scam ? `scam, pattern ${c.pattern}` : `genuine${c.kind ? ", " + c.kind : ""}`;
-  $(".title", view).textContent = `${c.id} · ${c.split} · ${c.language} · ${what}${c.from ? ` · rewritten from ${c.from}` : ""}`;
+  $(".title", view).textContent = `${c.n ? `${c.n}. ` : ""}${c.id} · ${c.split} · ${c.language} · ${what}${c.from ? ` · rewritten from ${c.from}` : ""}`;
   $(".roles", view).textContent = c.roles ? `Caller: ${c.roles.caller}. Listener: ${c.roles.listener}.` : "";
   // The paraphrase test is only a test while the words the keyword lists look for stay out.
   if (c.split === "paraphrase") $(".say", view).textContent = "Read these lines as written. They leave out certain words on purpose (police, arrest, OTP, PIN, bank, video call, refund and the like), so don't put any back in. Keep the made-up names and numbers.";
