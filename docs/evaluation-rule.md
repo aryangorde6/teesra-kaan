@@ -38,6 +38,7 @@ No person had recorded a test call by the freeze. The system is frozen, so recor
 - **Retakes:** a take may be recorded again only for a recording fault (the call dropped, someone laughed, a noise drowned a line), and always before the run; nothing is run on any take before the cutoff.
 - **Labels:** `t0` and `t_ask` marked by listening in the studio, before the run, as for every re-enactment.
 - **Reported** as their own rows (IN test and paraphrase, people's re-enactments), labelled as re-enactments, with how many were solo, never pooled with the synthetic or FTC rows. The audio stays private unless every voice on it ticked publication.
+- **What happened (Nov 3, 11:39 IST, at submission):** none of the 42 test cards or 10 paraphrase cards had been recorded, so there is nothing to run and no row to report. The Indian test numbers stay the synthetic ones.
 
 ## Labels (made before the system runs on a call)
 - **Every call:** scam or genuine; pattern number from `scam-tactics.md`; language(s).
